@@ -1,0 +1,373 @@
+[
+    {
+        "pk": 1055723, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.234-2009", 
+            "date_end": "2009-12-31", 
+            "labels": [], 
+            "descriptive_line": "Mug, bone china, 'Coco' range, designed by Martin Hunt of Queensberry Hunt for Jamie Oliver (Jme), made by Monno Industries, Bangladesh, 2009.", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 2009, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "2009 (designed)\n2009 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Undecorated white bone china.", 
+            "dimensions": "Height: 7.7 cm, Diameter: 11.8 cm, Width: 11.8 cm, Depth: 8.5 cm", 
+            "title": "Coco", 
+            "date_start": "2009-01-01", 
+            "materials_techniques": "Bone china", 
+            "last_processed": "2014-04-27 03:52:30", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56420, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31555, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 12, shelf 3", 
+            "marks": "'Jme'\n 'coco designed by Queensberry Hunt, made in Bangladesh. happy in the dishwasher, safe in the microwave, fine in the fridge & freezer.'", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 100, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "bone china", 
+                        "museumobject_count": 992, 
+                        "source": "cis_materials", 
+                        "cis_id": "233473", 
+                        "museumobject_image_count": 722, 
+                        "type": "", 
+                        "slug": "bone-china"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1241324, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "12", 
+                        "inventory_number": 1417848, 
+                        "room": "140", 
+                        "part_name": "", 
+                        "museum_number": "C.234-2009", 
+                        "museumobject": 1055723, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "c2342009", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 934, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1026, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Hunt, Martin", 
+                        "gender": null, 
+                        "museumobject_count": 151, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1256", 
+                        "museumobject_image_count": 145, 
+                        "forename": "", 
+                        "birth_date": "1942-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hunt-martin", 
+                        "birth_year": 1942
+                    }
+                }, 
+                {
+                    "pk": 293, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Queensberry Hunt", 
+                        "gender": null, 
+                        "museumobject_count": 95, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1233", 
+                        "museumobject_image_count": 71, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "queensberry-hunt", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 62915, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Monno Industries", 
+                        "gender": null, 
+                        "museumobject_count": 18, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A40046", 
+                        "museumobject_image_count": 14, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "monno-industries", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 62916, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Jme", 
+                        "gender": null, 
+                        "museumobject_count": 14, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A40047", 
+                        "museumobject_image_count": 14, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "jme", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 465108, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1055723, 
+                        "role": "designed", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 465109, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1366
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1055723, 
+                        "role": "made", 
+                        "place": 1366, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c2342009", 
+            "object": "Mug", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 51425, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36059, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 03:52:30", 
+            "public_access_description": "The 'Coco' tableware range was produced for the Jme collection assembled for celebrity chef Jamie Oliver. Leading designers Queensberry Hunt were commissioned to design the wares. Unusually for celebrity-endorsed merchandise, the designers' names and pedigrees are celebrated and promoted within the marketing for the collection, and the 'Coco' wares are marked clearly with their names, as well as the country of manufacture. The components of the range serve multiple functions, allowing a versatile service to be formed from a small number of adaptable shapes.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "coco-mug-hunt-martin", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Great Britain", 
+                        "museumobject_count": 44632, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13475, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-great-britain-x28826"
+                    }
+                }, 
+                {
+                    "pk": 1366, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Bangladesh", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 38, 
+                        "longitude": "90.35089900", 
+                        "source": "production", 
+                        "cis_id": "x32444", 
+                        "museumobject_image_count": 25, 
+                        "latitude": "23.68745000", 
+                        "type": "county", 
+                        "slug": "bangladesh-x32444"
+                    }
+                }
+            ], 
+            "artist": "Hunt, Martin", 
+            "namecontext_set": [
+                {
+                    "pk": 646873, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1026
+                    }, 
+                    "fields": {
+                        "name": 1026, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1055723, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 646874, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 293
+                    }, 
+                    "fields": {
+                        "name": 293, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1055723, 
+                        "role": "designers", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 646875, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 62915
+                    }, 
+                    "fields": {
+                        "name": 62915, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1055723, 
+                        "role": "manufacturer", 
+                        "order": 102
+                    }
+                }, 
+                {
+                    "pk": 646876, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 62916
+                    }, 
+                    "fields": {
+                        "name": 62916, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1055723, 
+                        "role": "retailer", 
+                        "order": 103
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2009, 
+            "object_number": "O1192566", 
+            "events": [], 
+            "credit": "Given by Queensberry Hunt and Jme Group Ltd.", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
