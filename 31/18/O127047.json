@@ -1,0 +1,293 @@
+[
+    {
+        "pk": 99307, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.46-1930", 
+            "date_end": "1850-12-31", 
+            "labels": [], 
+            "descriptive_line": "Bust of Helen of troy. Italian early 19th century after 1812 by Antonio Canova.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1813, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 30270, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Helen of Troy", 
+                        "museumobject_count": 7, 
+                        "source": "name", 
+                        "cis_id": "N7518", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "helen-of-troy"
+                    }
+                }
+            ], 
+            "date_text": "early 19th century after 1812 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Bust in marble of Helen of Troy looking downwards, the face framed in long ringlets. The top of the head covered with a close-fitting cap.", 
+            "dimensions": "Height: 64 cm", 
+            "title": "", 
+            "date_start": "1813-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-04-01 01:26:50", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 22, case NWAL", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 45, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "marble", 
+                        "museumobject_count": 779, 
+                        "source": "cis_materials", 
+                        "cis_id": "11443", 
+                        "museumobject_image_count": 337, 
+                        "type": "", 
+                        "slug": "marble"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 164568, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 376
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "NWAL", 
+                        "inventory_number": 83887, 
+                        "room": "22", 
+                        "part_name": "", 
+                        "museum_number": "A.46-1930", 
+                        "museumobject": 99307, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 22", 
+                        "museum_number_token": "a461930", 
+                        "gallery": 376
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 376, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "22", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 22", 
+                        "site_code": "VA", 
+                        "museumobject_count": 53, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49843", 
+                        "museumobject_image_count": 36, 
+                        "type": "", 
+                        "slug": "22-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 4606, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1822-10-13", 
+                        "surname": "", 
+                        "name": "Canova", 
+                        "gender": null, 
+                        "museumobject_count": 19, 
+                        "death_year": 1822, 
+                        "source": "object_production", 
+                        "cis_id": "A8217", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": "1757-11-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "canova-antonio", 
+                        "birth_year": 1757
+                    }
+                }, 
+                {
+                    "pk": 15713, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Helen of Troy", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N7518", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "helen-of-troy", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 96303, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 99307, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a461930", 
+            "object": "Bust", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 46, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Myths & Legends", 
+                        "museumobject_count": 2183, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1013, 
+                        "type": "", 
+                        "slug": "myths-legends"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:26:50", 
+            "public_access_description": "In Greek mythology Helen was the daughter of the god Jupiter and was famed for her great beauty. She was married to Menelaus the King of Sparta. Whilst her husband was away, Helen was abducted by the Trojan prince Paris, to whom she was later married. So began a long war between the Greeks and Trojans. A number of other versions of this head are known, one of which is in the Palazzo Albrizzi in Venice. It was seen by the poet Lord Byron in 1812, who wrote:\n\n\u2018In this beloved marble view\nAbove the works and thoughts of Man,\nWhat nature could, but would not, do\nAnd beauty and Canova can!\u2019\n\nAnother version is in the collection of Lord Londonderry, having been presented to Robert Stewart, Viscount Castlereagh, later 2nd Marquess of Londonderrry, in 1816 (see 'Canova Ideal Heads', ed. K. Eustace (exh. cat.),  The Ashmolean Museum, Oxford, 1997, pp. 84-5, cat. no. 4).", 
+            "exhibition_history": "", 
+            "bibliography": "Pope-Hennessy, John. <u>Catalogue of Italian Sculpture in the Victoria and Albert Museum.</u> London: HMSO, 1964. cat. no. 704. fig. no. 694.\n<u>Victoria and Albert Museum, Review of the Principal Acquisitions During the Year 1930.</u> London. pp. 4, 5.\nCf. <u>Canova e la Venere Vincitrice.</u> Rome, 2007. p. 241.\nCf. Padiyar, S. Review of the exhibition Canova e la Venere Vincitrice. <u>The Burlington Magazine.</u> CL. January 2008. p. 59.", 
+            "vanda_exhibition_history": "", 
+            "slug": "bust-canova-antonio", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Canova, Antonio", 
+            "namecontext_set": [
+                {
+                    "pk": 118294, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4606
+                    }, 
+                    "fields": {
+                        "name": 4606, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 99307, 
+                        "role": "sculptors", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 118295, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 15713
+                    }, 
+                    "fields": {
+                        "name": 15713, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 99307, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1850, 
+            "object_number": "O127047", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
