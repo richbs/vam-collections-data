@@ -1,0 +1,408 @@
+[
+    {
+        "pk": 482165, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.144-1960", 
+            "date_end": "1699-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Henry Chichele, Archbishop of Canterbury, engraving by Michael Burghers, 1699.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1699, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24996, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "mitre", 
+                        "museumobject_count": 48, 
+                        "source": "object", 
+                        "cis_id": "212995", 
+                        "museumobject_image_count": 42, 
+                        "type": "", 
+                        "slug": "mitre"
+                    }
+                }, 
+                {
+                    "pk": 49646, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "archbishop", 
+                        "museumobject_count": 28, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "archbishop"
+                    }
+                }, 
+                {
+                    "pk": 47620, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "administrator", 
+                        "museumobject_count": 6, 
+                        "source": "object", 
+                        "cis_id": "25427", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "administrator"
+                    }
+                }, 
+                {
+                    "pk": 54997, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Henry Chichele", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N2465", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "henry-chichele"
+                    }
+                }, 
+                {
+                    "pk": 54998, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "pallium", 
+                        "museumobject_count": 1, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "pallium"
+                    }
+                }
+            ], 
+            "date_text": "1699 (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, portrait of a man, head and shoulders, full face in mitre and pallium, within a plain oval border.", 
+            "dimensions": "Height: 15.6 cm, Width: 9.5 cm", 
+            "title": "Henry Chichele", 
+            "date_start": "1699-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 18:40:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PS, shelf 5", 
+            "marks": "'M Burghers delin. et sculp.'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 47, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Dutch School", 
+                        "museumobject_count": 803, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31259", 
+                        "museumobject_image_count": 313, 
+                        "type": "", 
+                        "slug": "dutch-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 616598, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PS", 
+                        "inventory_number": 1257650, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.144-1960", 
+                        "museumobject": 482165, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e1441960", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 46959, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1727-12-31", 
+                        "surname": "", 
+                        "name": "Burghers, Michael", 
+                        "gender": null, 
+                        "museumobject_count": 27, 
+                        "death_year": 1727, 
+                        "source": "object_production", 
+                        "cis_id": "A29804", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1635-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "burghers-m", 
+                        "birth_year": 1635
+                    }
+                }, 
+                {
+                    "pk": 74370, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1711-12-31", 
+                        "surname": "", 
+                        "name": "Richard Chiswell", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1711, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH317345", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1640-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "richard-chiswell-auth317345", 
+                        "birth_year": 1640
+                    }
+                }, 
+                {
+                    "pk": 72305, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1441-12-31", 
+                        "surname": "", 
+                        "name": "Henry Chichele", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1441, 
+                        "source": "", 
+                        "cis_id": "N2465", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1362-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "henry-chichele", 
+                        "birth_year": 1362
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 298563, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482165, 
+                        "role": "published", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1441960", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 133, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Printed pages & sheets", 
+                        "museumobject_count": 4097, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 392, 
+                        "type": "", 
+                        "slug": "printed-pages-sheets"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:40:09", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "O'Donoghue, Freeman. <u>British Museum: Catalogue of Engraved British Portraits.</u> London: Printed by order of the Trustees, 1908-25.\n<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1960: Volume 2, Edgar Seligman Gift.</u> London: HMSO, 1966.\nThe full text of the entry is as follows:\n\n\u2018<b>BUGHERS, Michael (1653?-1727)</b>\n\nHenry Chichele (1362?-1443), Archbishop of Canterbury, founder of All Souls\u2019 College, Oxford.  Portrait, head and shoulders, full face in mitre and pallium, within a plain oval border.  Frontispiece to <i>The Life of Henry Chichele, Archbishop of Canterbury\u2026now made English</i> by Arthur Duck, LL.D., published by Richard Chiswell, London, 1699.  On the back, a half-title in letterpress.  (NM:P.3)\n<i>Lettered with name of sitter etc. and</i> M Burghers delin. et sculp.\n<i>Engraving</i>.  15.6 x 9.5 cm.\nE.144-1960\u2019", 
+            "vanda_exhibition_history": "", 
+            "slug": "henry-chichele-print-michael-burghers", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Michael Burghers", 
+            "namecontext_set": [
+                {
+                    "pk": 396792, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 46959
+                    }, 
+                    "fields": {
+                        "name": 46959, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482165, 
+                        "role": "printmaker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 396793, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 74370
+                    }, 
+                    "fields": {
+                        "name": 74370, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482165, 
+                        "role": "publisher", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 396794, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 72305
+                    }, 
+                    "fields": {
+                        "name": 72305, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482165, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1699, 
+            "object_number": "O567424", 
+            "events": [], 
+            "credit": "Given by Edgar Seligman", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "This plate was the Frontispiece to <i>The Life of Henry Chichele, Archbishop of Canterbury\u2026now made English</i> by Arthur Duck, LL.D., published by Richard Chiswell, London, 1699.", 
+            "collection_code": "PDP"
+        }
+    }
+]

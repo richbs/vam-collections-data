@@ -1,0 +1,253 @@
+[
+    {
+        "pk": 196048, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.77:2-1995", 
+            "date_end": "1884-12-31", 
+            "labels": [], 
+            "descriptive_line": "Tea kettle and cover, porcelain, made by Belleek, Fermanagh, ca 1880", 
+            "shape": "", 
+            "longitude": "-7.65915000", 
+            "year_start": 1875, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca.1880 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Teapot with spout in the form of an animal's head. Grasses painted brown, pinl, black and grey.", 
+            "dimensions": "Height: 15.5 cm, Width: 20.7 cm widest, Depth: 17 cm", 
+            "title": "", 
+            "date_start": "1875-01-01", 
+            "materials_techniques": "Porcelain, slip-cast body and spout", 
+            "last_processed": "2014-04-01 07:07:45", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Mass produced", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Making Ceramics, room 143, case 2, shelf 2", 
+            "marks": "[Cover] 'D. McBIRNEY & CO BELLEEK FERMANAGH IRELAND. FILL WITH WATER BLOOD WARM AND ALLOW TO STAND A FEW MINUTES EMPTY AND USE WITH BOILING WATER'\n[Tea kettle] dog, tower and harp mark\n[Tea kettle] '2'", 
+            "latitude": "54.36164900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 275062, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 352
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 316376, 
+                        "room": "143", 
+                        "part_name": "Cover", 
+                        "museum_number": "C.77:2-1995", 
+                        "museumobject": 196048, 
+                        "shelf": "2", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Making Ceramics, room 143", 
+                        "museum_number_token": "c7721995", 
+                        "gallery": 352
+                    }
+                }, 
+                {
+                    "pk": 275063, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 352
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 316377, 
+                        "room": "143", 
+                        "part_name": "Tea kettle", 
+                        "museum_number": "C.77:1-1995", 
+                        "museumobject": 196048, 
+                        "shelf": "2", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Making Ceramics, room 143", 
+                        "museum_number_token": "c7711995", 
+                        "gallery": 352
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 352, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "143", 
+                        "site_name": "", 
+                        "name": "Making Ceramics, room 143", 
+                        "site_code": "VA", 
+                        "museumobject_count": 849, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49867", 
+                        "museumobject_image_count": 806, 
+                        "type": "", 
+                        "slug": "143-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1530, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Belleek pottery", 
+                        "gender": null, 
+                        "museumobject_count": 34, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A9045", 
+                        "museumobject_image_count": 33, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "belleek-pottery", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 180575, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 529
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 196048, 
+                        "role": "made", 
+                        "place": 529, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c771995", 
+            "object": "Tea kettle and cover", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 07:07:45", 
+            "public_access_description": "On the underside of the lid of this teapot is printed instructions for using the teapot: 'Fill with water blood warm and allow it to stand a few minutes empty and use with boiling water'. These instructions are evidence of the practice of 'warming the pot' which avoids damage to the teapot through thermal shock and ensures that the boiling water does not drop in temperature as soon as it is poured in.", 
+            "exhibition_history": "", 
+            "bibliography": "Langham, Marian, 'Belleek Irish Porcelain' Quiller Press, 1993", 
+            "vanda_exhibition_history": "", 
+            "slug": "tea-kettle-and-belleek-pottery", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 529, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1877
+                    }, 
+                    "fields": {
+                        "name": "Fermanagh", 
+                        "parent": 1877, 
+                        "country": "Northern Ireland", 
+                        "museumobject_count": 30, 
+                        "longitude": "-7.65915000", 
+                        "source": "production", 
+                        "cis_id": "x29991", 
+                        "museumobject_image_count": 27, 
+                        "latitude": "54.36164900", 
+                        "type": "county", 
+                        "slug": "fermanagh-northern-ireland-x29991"
+                    }
+                }
+            ], 
+            "artist": "Belleek pottery", 
+            "namecontext_set": [
+                {
+                    "pk": 249902, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1530
+                    }, 
+                    "fields": {
+                        "name": 1530, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 196048, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1884, 
+            "object_number": "O235197", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Purchase from Mr. John Coleman", 
+            "place": "Fermanagh", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

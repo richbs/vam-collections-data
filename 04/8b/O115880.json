@@ -1,0 +1,340 @@
+[
+    {
+        "pk": 70471, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "5995-1859", 
+            "date_end": "1862-12-31", 
+            "labels": [], 
+            "descriptive_line": "Scarab pendant of mottled agate and gold, probably made by Castellani, Rome, about 1858", 
+            "shape": "", 
+            "longitude": "12.49576000", 
+            "year_start": 1853, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 28270, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "antique", 
+                        "museumobject_count": 15, 
+                        "source": "concept", 
+                        "cis_id": "55818", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "antique"
+                    }
+                }, 
+                {
+                    "pk": 28269, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "scarabs", 
+                        "museumobject_count": 14, 
+                        "source": "object", 
+                        "cis_id": "230813", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "scarabs"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1858 (made)", 
+            "primary_image_id": "2006BH1134", 
+            "rights": 3, 
+            "physical_description": "Scarab pendant of gold and mottled agate. The ram's head mask, once part of the jewel, is missing.", 
+            "dimensions": "Height: 3 cm, Width: 1.6 cm, Depth: 1.2 cm", 
+            "title": "", 
+            "date_start": "1853-01-01", 
+            "materials_techniques": "Gold, mottled agate", 
+            "last_processed": "2014-03-31 23:21:04", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 21, shelf C, box 5", 
+            "marks": "", 
+            "latitude": "41.90311100", 
+            "techniques": [
+                {
+                    "pk": 734, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "setting", 
+                        "museumobject_count": 175, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x42734", 
+                        "museumobject_image_count": 159, 
+                        "type": "", 
+                        "slug": "setting"
+                    }
+                }, 
+                {
+                    "pk": 1080, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lapidary", 
+                        "museumobject_count": 106, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 103, 
+                        "type": "", 
+                        "slug": "lapidary"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 67, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Gold", 
+                        "museumobject_count": 6695, 
+                        "source": "cis_materials", 
+                        "cis_id": "11021", 
+                        "museumobject_image_count": 4435, 
+                        "type": "", 
+                        "slug": "gold"
+                    }
+                }, 
+                {
+                    "pk": 24, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "agate", 
+                        "museumobject_count": 188, 
+                        "source": "cis_materials", 
+                        "cis_id": "11135", 
+                        "museumobject_image_count": 165, 
+                        "type": "", 
+                        "slug": "agate"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 53, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "archaeological revival", 
+                        "museumobject_count": 29, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x36010", 
+                        "museumobject_image_count": 28, 
+                        "type": "", 
+                        "slug": "archaeological-revival"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 124259, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "5", 
+                        "case": "21", 
+                        "inventory_number": 537412, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "5995-1859", 
+                        "museumobject": 70471, 
+                        "shelf": "C", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "59951859", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2051, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Castellani", 
+                        "gender": null, 
+                        "museumobject_count": 22, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A9060", 
+                        "museumobject_image_count": 14, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "castellani", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 66603, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 51
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 70471, 
+                        "role": "made", 
+                        "place": 51, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "59951859", 
+            "object": "Pendant", 
+            "categories": [
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:21:04", 
+            "public_access_description": "This pendant was bought in Rome in 1858 by Henry Cole, the first Director of the South Kensington Museum, later the Victoria & Albert Museum. He may have acquired it from Castellani, the most prestigious of the jewellers in Rome.\n\nAncient beads, scarabs and engraved gemstones from excavations were an essential element of jewellery made in the archaeological style. Mounted in gold, they were densely set in necklaces, bracelets, brooches, earrings or rings.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "pendant-castellani", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 82875, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:04", 
+                        "priority": 0, 
+                        "image_id": "2006BH1134", 
+                        "sys_id": 281134, 
+                        "last_checked": "2014-03-31 17:26:04", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BH/2006BH1134.jpg"
+                    }
+                }, 
+                {
+                    "pk": 82876, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:04", 
+                        "priority": 1, 
+                        "image_id": "2006BH1135", 
+                        "sys_id": 281135, 
+                        "last_checked": "2014-03-31 17:26:04", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BH/2006BH1135.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 51, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Rome", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 4014, 
+                        "longitude": "12.49576000", 
+                        "source": "production", 
+                        "cis_id": "x29106", 
+                        "museumobject_image_count": 1698, 
+                        "latitude": "41.90311100", 
+                        "type": "city / town", 
+                        "slug": "rome-italy-x29106"
+                    }
+                }
+            ], 
+            "artist": "Castellani", 
+            "namecontext_set": [
+                {
+                    "pk": 80702, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2051
+                    }, 
+                    "fields": {
+                        "name": 2051, 
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 70471, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1862, 
+            "object_number": "O115880", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Probably made by Castellani of Rome. Purchased in Rome in 1858 by Henry Cole, the first Director of the South Kensington Museum, later the Victoria & Albert Museum.", 
+            "place": "Rome", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
