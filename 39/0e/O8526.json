@@ -1,0 +1,288 @@
+[
+    {
+        "pk": 11321, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "B.237:1-1998", 
+            "date_end": "1998-05-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1998, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "January 1998 - May 1998", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "[miniature (size attribute)] made of very pale maple wood it has a swivelling front wheel and handlebars with the foot rests protruding from the centre of the wheel.  All the wheels are red and the handlebars blue\n[Box] clear plastic box with top openeing flap, printed in white to show a heart design and the maker's name and trademark\n[Box lining] box lining of yellow card the reverse side of which is white printed in black to show the titles and maker's details", 
+            "dimensions": "[miniature (size attribute)] length: 6 cm, height: 6 cm\n[Box] height: 7.6 cm, width: 6 cm square", 
+            "title": "Dreirad", 
+            "date_start": "1998-01-01", 
+            "materials_techniques": "[miniature (size attribute)] maple wood, partly painted\n[Box] clear plastic printed in white", 
+            "last_processed": "2014-03-31 19:29:16", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "mass produced", 
+            "collections": [
+                {
+                    "pk": 5, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MoC", 
+                        "name": "Museum of Childhood", 
+                        "museumobject_count": 29148, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3179, 
+                        "type": "", 
+                        "slug": "moc"
+                    }
+                }
+            ], 
+            "location": "Museum of Childhood, Creativity Gallery, case 3", 
+            "marks": "[Box lining] heart within a house", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 29, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "plastic", 
+                        "museumobject_count": 4498, 
+                        "source": "cis_materials", 
+                        "cis_id": "14570", 
+                        "museumobject_image_count": 535, 
+                        "type": "", 
+                        "slug": "plastic"
+                    }
+                }, 
+                {
+                    "pk": 8, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cardboard", 
+                        "museumobject_count": 1302, 
+                        "source": "cis_materials", 
+                        "cis_id": "14224", 
+                        "museumobject_image_count": 438, 
+                        "type": "", 
+                        "slug": "cardboard"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "maple", 
+                        "museumobject_count": 146, 
+                        "source": "cis_materials", 
+                        "cis_id": "12236", 
+                        "museumobject_image_count": 38, 
+                        "type": "", 
+                        "slug": "maple"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 14850, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1064
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "3", 
+                        "inventory_number": 19856, 
+                        "room": "C", 
+                        "part_name": "miniature (size attribute)", 
+                        "museum_number": "B.237:1-1998", 
+                        "museumobject": 11321, 
+                        "shelf": "", 
+                        "site": "BGM", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Museum of Childhood, Creativity Gallery", 
+                        "museum_number_token": "b23711998", 
+                        "gallery": 1064
+                    }
+                }, 
+                {
+                    "pk": 14851, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 19857, 
+                        "room": "", 
+                        "part_name": "Box", 
+                        "museum_number": "B.237:2-1998", 
+                        "museumobject": 11321, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b23721998", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 14852, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 19858, 
+                        "room": "", 
+                        "part_name": "Box lining", 
+                        "museum_number": "B.237:3-1998", 
+                        "museumobject": 11321, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b23731998", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1064, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "C", 
+                        "site_name": "", 
+                        "name": "Museum of Childhood, Creativity Gallery", 
+                        "site_code": "MOC", 
+                        "museumobject_count": 1006, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49153", 
+                        "museumobject_image_count": 256, 
+                        "type": "", 
+                        "slug": "c-moc"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 6, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bodo Hennig", 
+                        "gender": null, 
+                        "museumobject_count": 100, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1360", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "bodo-hennig", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 12287, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11321, 
+                        "role": "", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "b2371998", 
+            "object": "Tricycle", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:29:16", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Bodo Hennig catalaogue, 1998", 
+            "vanda_exhibition_history": "", 
+            "slug": "dreirad-tricycle-bodo", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }
+            ], 
+            "artist": "Bodo", 
+            "namecontext_set": [
+                {
+                    "pk": 11403, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6
+                    }, 
+                    "fields": {
+                        "name": 6, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11321, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1998, 
+            "object_number": "O8526", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "This is part of the equipment for the dolls' house, B.145 to 151-1998.", 
+            "place": "Germany", 
+            "production_note": "Reason For Production: retail", 
+            "historical_context_note": "", 
+            "collection_code": "MoC"
+        }
+    }
+]

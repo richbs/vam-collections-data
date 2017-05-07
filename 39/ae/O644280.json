@@ -1,0 +1,454 @@
+[
+    {
+        "pk": 555813, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "22977", 
+            "date_end": "1850-04-17", 
+            "labels": [], 
+            "descriptive_line": "Print, three-quarter length portrait of Sir Herbert Benjamin Edwardes in Indian dress.  Lithograph by John Henry Linch after Henry Moseley, 1850.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1850, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 30542, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "officer", 
+                        "museumobject_count": 77, 
+                        "source": "object", 
+                        "cis_id": "236171", 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "officer"
+                    }
+                }, 
+                {
+                    "pk": 49956, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sabre", 
+                        "museumobject_count": 46, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "sabre"
+                    }
+                }, 
+                {
+                    "pk": 47940, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Edwardes, Herbert Benjamin (Sir)", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N16205", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "edwardes-herbert-benjamin-sir"
+                    }
+                }
+            ], 
+            "date_text": "17/04/1850 (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Three-quarter length portrait, to left and looking to front; wearing Indian dress, with left hand resting on the hilt of a sabre; vignette with facsimile signature below.", 
+            "dimensions": "Height: 73.5 cm mount, Width: 53.4 cm mount", 
+            "title": "Sir Herbert Benjamin Edwards", 
+            "date_start": "1850-04-17", 
+            "materials_techniques": "Lithograph", 
+            "last_processed": "2014-04-26 13:44:19", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PP, shelf 12, box A", 
+            "marks": "'Painted by Henry Moseley.   J.H. Lynch, Lith.   Day & Son, Lithrs. to the Queen.   London, Published April 17th 1850 by Henry Squire & Compy. (Late Colnaghi & Puckle) Printsellers & Publishers to Her Majesty & the Royal Family 23, Cockspur Street.'\n 'Herbert Edwardes'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18725, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3490, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 15, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Victorian", 
+                        "museumobject_count": 8257, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29321", 
+                        "museumobject_image_count": 6057, 
+                        "type": "", 
+                        "slug": "victorian"
+                    }
+                }, 
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2733, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 690332, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "PP", 
+                        "inventory_number": 1164329, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "22977", 
+                        "museumobject": 555813, 
+                        "shelf": "12", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "22977", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 52242, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1868-12-31", 
+                        "surname": "", 
+                        "name": "Lynch, James", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1868, 
+                        "source": "object_production", 
+                        "cis_id": "A32593", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "lynch-james-henry", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 62408, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Moseley, Henry", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A39685", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "moseley-henry", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 6062, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Day & Son", 
+                        "gender": null, 
+                        "museumobject_count": 241, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A3154", 
+                        "museumobject_image_count": 28, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "day-son", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 62407, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Henry Squire & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A39684", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "henry-squire-co", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 62409, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1868-12-31", 
+                        "surname": "", 
+                        "name": "Edwardes, Herbert Benjamin (Sir)", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1868, 
+                        "source": "content", 
+                        "cis_id": "N16205", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1819-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "edwardes-herbert-benjamin-sir", 
+                        "birth_year": 1819
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 341897, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 555813, 
+                        "role": "published", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "22977", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 13:44:19", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "sir-herbert-benjamin-edwards-print-lynch-james-henry", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Lynch, James Henry", 
+            "namecontext_set": [
+                {
+                    "pk": 445075, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 52242
+                    }, 
+                    "fields": {
+                        "name": 52242, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 555813, 
+                        "role": "lithographer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 445076, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 62408
+                    }, 
+                    "fields": {
+                        "name": 62408, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 555813, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 445077, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6062
+                    }, 
+                    "fields": {
+                        "name": 6062, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 555813, 
+                        "role": "printer", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 445078, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 62407
+                    }, 
+                    "fields": {
+                        "name": 62407, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 555813, 
+                        "role": "publisher", 
+                        "order": 102
+                    }
+                }, 
+                {
+                    "pk": 445079, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 62409
+                    }, 
+                    "fields": {
+                        "name": 62409, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 555813, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1850, 
+            "object_number": "O644280", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "Attribution note: India proof", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

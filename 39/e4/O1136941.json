@@ -1,0 +1,361 @@
+[
+    {
+        "pk": 1019836, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "DYCE.204", 
+            "date_end": "1713-12-31", 
+            "labels": [], 
+            "descriptive_line": "Maratti, Carlo; Virgin Mary, crowned by angels, two saints, one of whom is female, on a cloud kneeling at her feet; Red chalk; Italian; 1640-1713.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1640, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23989, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Mary (Virgin Mary)", 
+                        "museumobject_count": 1380, 
+                        "source": "name", 
+                        "cis_id": "N480", 
+                        "museumobject_image_count": 1067, 
+                        "type": "", 
+                        "slug": "mary-virgin-mary"
+                    }
+                }, 
+                {
+                    "pk": 199, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "angels", 
+                        "museumobject_count": 613, 
+                        "source": "object", 
+                        "cis_id": "x30526", 
+                        "museumobject_image_count": 399, 
+                        "type": "", 
+                        "slug": "angels"
+                    }
+                }, 
+                {
+                    "pk": 24623, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "saints", 
+                        "museumobject_count": 275, 
+                        "source": "object", 
+                        "cis_id": "150555", 
+                        "museumobject_image_count": 213, 
+                        "type": "", 
+                        "slug": "saints"
+                    }
+                }, 
+                {
+                    "pk": 200, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "religion (concept)", 
+                        "museumobject_count": 245, 
+                        "source": "concept", 
+                        "cis_id": "x37580", 
+                        "museumobject_image_count": 78, 
+                        "type": "", 
+                        "slug": "religion-concept"
+                    }
+                }, 
+                {
+                    "pk": 1608, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cloud", 
+                        "museumobject_count": 100, 
+                        "source": "object", 
+                        "cis_id": "x35718", 
+                        "museumobject_image_count": 73, 
+                        "type": "", 
+                        "slug": "cloud"
+                    }
+                }
+            ], 
+            "date_text": "1640-1713 (made)", 
+            "primary_image_id": "2010EF7171", 
+            "rights": 3, 
+            "physical_description": "Virgin Mary, crowned by angels, two saints, one of whom is female, on a cloud kneeling at her feet; Red chalk.", 
+            "dimensions": "Height: 11.9 in, Width: 7.5 in", 
+            "title": "", 
+            "date_start": "1640-01-01", 
+            "materials_techniques": "Red chalk", 
+            "last_processed": "2014-04-27 02:14:49", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case DG, shelf 111", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 685, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "red chalk", 
+                        "museumobject_count": 368, 
+                        "source": "cis_materials", 
+                        "cis_id": "80064", 
+                        "museumobject_image_count": 106, 
+                        "type": "", 
+                        "slug": "red-chalk"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1203084, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DG", 
+                        "inventory_number": 1401620, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "DYCE.204", 
+                        "museumobject": 1019836, 
+                        "shelf": "111", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "dyce204", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 45133, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1713-12-15", 
+                        "surname": "", 
+                        "name": "Maratti, Carlo", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": 1713, 
+                        "source": "object_production", 
+                        "cis_id": "A28396", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": "1625-05-18", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "maratti-carlo", 
+                        "birth_year": 1625
+                    }
+                }, 
+                {
+                    "pk": 100, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Virgin", 
+                        "gender": null, 
+                        "museumobject_count": 1390, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N480", 
+                        "museumobject_image_count": 1076, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mary-virgin-mary", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 444974, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 1019836, 
+                        "role": "drawn", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "dyce204", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 02:14:49", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>DYCE COLLECTION. A Catalogue of the Paintings, Miniatures, Drawings, Engravings, Rings and Miscellaneous Objects Bequeathed by The Reverend Alexander Dyce</u>. London : South Kensington Museum, 1874.\nThe relevant text of the entry is as follows:\n\n'UMBRIAN AND ROMAN SCHOOL. \n...\nCAVALIERE CARLO MARATTI. \nPainter and Etcher. \nBorn at Camurano in 1625, died at Rome in 1713. \n\nVIRGIN, crowned by angels, two saints, one of whom is a female, on a cloud kneeling at her feet.  Red chalk.  204 \n<i>Height,</i> 11 11/12 <i>inches.  Width</i>, 7 6/12 <i>inches.</i>'\nWard-Jackson, Peter, <u> Italian Drawings, Volume Two: 17th-18th Century </u>, London, 1979, p. 67, cat. n. 746, illus. The following is the full text of the entry: school of MARATTA, CARLO 746 The Virgin and Child, crowned by two angels, giving rosaries to St Dominic and St Catherine of Siena Red chalk 12 x 7 5/8 (305 x 193) Dyce 204 PROVENANCE Dyce Bequest 1869 LITERATURE Dyce Catalogue no. 204 (as by Maratta) A type of drawing often attributed to Maratta in old col1ections, but probably by a pupil. The most notable representation of the subject is the painting by Sassoferrato in the Dominican church of S. Sabina, Rome, painted in 1643 (il1ustrated in Voss, Barock, p. 214). The drawing is close enough to the picture in composition to suggest a connection, but the handling of the red chalk is not in the least like Sassoferrato as represented in the 60 drawings at Windsor Castle. It must be assumed therefore that the author of the drawing knew Sassoferrato's picture. Both the saints being Dominicans, the drawing was doubtless made for a picture in another Dominican church.", 
+            "vanda_exhibition_history": "", 
+            "slug": "drawing-maratti-carlo", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 213657, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-13 00:00:00", 
+                        "last_processed": "2014-04-25 14:29:11", 
+                        "priority": 0, 
+                        "image_id": "2010EF7171", 
+                        "sys_id": 897171, 
+                        "last_checked": "2014-04-25 14:29:11", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EF/2010EF7171.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 13024, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5200, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Maratti, Carlo", 
+            "namecontext_set": [
+                {
+                    "pk": 577829, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 45133
+                    }, 
+                    "fields": {
+                        "name": 45133, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1019836, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 577830, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 100
+                    }, 
+                    "fields": {
+                        "name": 100, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1019836, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1713, 
+            "object_number": "O1136941", 
+            "events": [], 
+            "credit": "Bequeathed by Rev. Alexander Dyce", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

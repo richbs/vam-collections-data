@@ -1,0 +1,267 @@
+[
+    {
+        "pk": 8367, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.509-1970", 
+            "date_end": "1885-12-31", 
+            "labels": [
+                {
+                    "pk": 2620, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 8367, 
+                        "label_text": "Decorated with water plants and a stork fishing, in Japanese taste"
+                    }
+                }
+            ], 
+            "descriptive_line": "Jug, America, Massachusetts (Cape Cod), made by Sandwich Glasshouse, 1880-1885", 
+            "shape": "", 
+            "longitude": "-69.98201000", 
+            "year_start": 1880, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23872, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "plants", 
+                        "museumobject_count": 1332, 
+                        "source": "object", 
+                        "cis_id": "132360", 
+                        "museumobject_image_count": 710, 
+                        "type": "", 
+                        "slug": "plants"
+                    }
+                }, 
+                {
+                    "pk": 48170, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stork", 
+                        "museumobject_count": 38, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "stork"
+                    }
+                }
+            ], 
+            "date_text": "1880-1885 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 18.4 cm, Width: 11.7 cm maximum", 
+            "title": "", 
+            "date_start": "1880-01-01", 
+            "materials_techniques": "Mould-blown, wheel-cut glass", 
+            "last_processed": "2014-03-31 19:16:10", 
+            "label": "Decorated with water plants and a stork fishing, in Japanese taste", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 80, shelf 1", 
+            "marks": "", 
+            "latitude": "41.79911000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 26, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "19TH CONT", 
+                        "museumobject_count": 640, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29275", 
+                        "museumobject_image_count": 127, 
+                        "type": "", 
+                        "slug": "19th-cont"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 9681, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "80", 
+                        "inventory_number": 352988, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.509-1970", 
+                        "museumobject": 8367, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "circ5091970", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1076, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Boston & Sandwich Glass Co.", 
+                        "gender": null, 
+                        "museumobject_count": 23, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A39", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "boston-and-sandwich-glass-co", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 9132, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 548
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 8367, 
+                        "role": "made", 
+                        "place": 548, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ5091970", 
+            "object": "Jug", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:16:10", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "jug-boston-sandwich-glass", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 548, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 479
+                    }, 
+                    "fields": {
+                        "name": "Cape Cod", 
+                        "parent": 479, 
+                        "country": "United States", 
+                        "museumobject_count": 1, 
+                        "longitude": "-69.98201000", 
+                        "source": "production", 
+                        "cis_id": "x28780", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "41.79911000", 
+                        "type": "region", 
+                        "slug": "cape-cod-united-states-x28780"
+                    }
+                }
+            ], 
+            "artist": "Boston & Sandwich Glass Co.", 
+            "namecontext_set": [
+                {
+                    "pk": 7626, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1076
+                    }, 
+                    "fields": {
+                        "name": 1076, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 8367, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1885, 
+            "object_number": "O6950", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Cape Cod", 
+            "production_note": "Mrs Wakefield, Glass Curator", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
