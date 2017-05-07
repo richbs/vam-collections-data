@@ -1,0 +1,280 @@
+[
+    {
+        "pk": 750020, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.3605-1906", 
+            "date_end": "1600-12-31", 
+            "labels": [], 
+            "descriptive_line": "Nicolas Beatrizet, plate depicting a Salomonic column, Italian, mid-16th century.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1500, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "Mid-16th century (Made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "", 
+            "title": "", 
+            "date_start": "1500-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-26 19:26:12", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case 93, shelf E, box 116", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 24215, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7670, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 27, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Renaissance", 
+                        "museumobject_count": 3914, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21140", 
+                        "museumobject_image_count": 2707, 
+                        "type": "", 
+                        "slug": "renaissance"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 884996, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "116", 
+                        "case": "93", 
+                        "inventory_number": 928101, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.3605-1906", 
+                        "museumobject": 750020, 
+                        "shelf": "E", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e36051906", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 16225, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1569-12-31", 
+                        "surname": "", 
+                        "name": "Beatrizet, Nicolas", 
+                        "gender": null, 
+                        "museumobject_count": 46, 
+                        "death_year": 1569, 
+                        "source": "object_production", 
+                        "cis_id": "A14838", 
+                        "museumobject_image_count": 43, 
+                        "forename": "", 
+                        "birth_date": "1507-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "beatrizet-nicolas", 
+                        "birth_year": 1507
+                    }
+                }, 
+                {
+                    "pk": 671, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1577-12-31", 
+                        "surname": "", 
+                        "name": "Lafrery, Antonio", 
+                        "gender": null, 
+                        "museumobject_count": 243, 
+                        "death_year": 1577, 
+                        "source": "object_production", 
+                        "cis_id": "A10520", 
+                        "museumobject_image_count": 210, 
+                        "forename": "", 
+                        "birth_date": "1512-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "lafrery-antonio", 
+                        "birth_year": 1512
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 408881, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 750020, 
+                        "role": "Made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e36051906", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 1563, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ornament prints", 
+                        "museumobject_count": 28018, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 22079, 
+                        "type": "", 
+                        "slug": "ornament-prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 19:26:12", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Miller, E., <u>16th-century Italian ornament prints in the Victoria and Albert Museum</u>, London, 1999, p. 183 (cat. 54).", 
+            "vanda_exhibition_history": "", 
+            "slug": "print-beatrizet-nicolas", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 13024, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5200, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Beatrizet, Nicolas", 
+            "namecontext_set": [
+                {
+                    "pk": 532637, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 16225
+                    }, 
+                    "fields": {
+                        "name": 16225, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 750020, 
+                        "role": "Engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 532638, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 671
+                    }, 
+                    "fields": {
+                        "name": 671, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 750020, 
+                        "role": "Publisher", 
+                        "order": 2
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1600, 
+            "object_number": "O846020", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

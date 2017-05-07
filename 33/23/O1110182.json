@@ -1,0 +1,279 @@
+[
+    {
+        "pk": 1000201, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "1161-1886", 
+            "date_end": "1865-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour by Henry Brittan Willis depicting oxen ploughing.  Great Britain, 1865.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1865, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1422, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "agriculture", 
+                        "museumobject_count": 138, 
+                        "source": "concept", 
+                        "cis_id": "x35207", 
+                        "museumobject_image_count": 51, 
+                        "type": "", 
+                        "slug": "agriculture"
+                    }
+                }, 
+                {
+                    "pk": 736, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "oxen", 
+                        "museumobject_count": 55, 
+                        "source": "object", 
+                        "cis_id": "x30395", 
+                        "museumobject_image_count": 35, 
+                        "type": "", 
+                        "slug": "oxen"
+                    }
+                }, 
+                {
+                    "pk": 12988, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Ploughing", 
+                        "museumobject_count": 30, 
+                        "source": "object", 
+                        "cis_id": "x42116", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "ploughing"
+                    }
+                }
+            ], 
+            "date_text": "1865 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Watercolour depicting oxen ploughing.  Signed and dated.", 
+            "dimensions": "Height: 19.25 in, Width: 35.625 in", 
+            "title": "Oxen ploughing", 
+            "date_start": "1865-01-01", 
+            "materials_techniques": "Watercolour", 
+            "last_processed": "2014-04-27 01:16:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12963, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7122, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1135487, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 430231, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "1161-1886", 
+                        "museumobject": 1000201, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "11611886", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 524, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1884-12-31", 
+                        "surname": "", 
+                        "name": "Brittan Willis", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1884, 
+                        "source": "object_production", 
+                        "cis_id": "A8994", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1810-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "willis-henry-brittan-rws", 
+                        "birth_year": 1810
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 441734, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1000201, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "11611886", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18756, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11926, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }, 
+                {
+                    "pk": 1603, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Agriculture", 
+                        "museumobject_count": 58, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "agriculture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 01:16:56", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "oxen-ploughing-watercolour-brittan-willis", 
+            "sys_updated": "2014-04-16 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Brittan Willis", 
+            "namecontext_set": [
+                {
+                    "pk": 572623, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 524
+                    }, 
+                    "fields": {
+                        "name": 524, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1000201, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1865, 
+            "object_number": "O1110182", 
+            "events": [], 
+            "credit": "Dixon Bequest", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

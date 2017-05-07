@@ -1,0 +1,288 @@
+[
+    {
+        "pk": 41236, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "W.19:1, 2-1992", 
+            "date_end": "1992-12-31", 
+            "labels": [], 
+            "descriptive_line": "Cassette recorder, Japan, designed and manufactured by Sony Corporation, 1992", 
+            "shape": "", 
+            "longitude": "139.83828700", 
+            "year_start": 1992, 
+            "exhibitions": [
+                {
+                    "pk": 636, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 1677, 
+                        "year_start": 1999, 
+                        "name": "The Shape of Colour Red", 
+                        "date_end": "2000-01-16", 
+                        "museumobject_count": 5, 
+                        "venue": "The Lighthouse", 
+                        "date_start": "1999-10-15", 
+                        "year_end": 2000, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "the-shape-of-colour-red", 
+                        "date_text": "15/10/1999-16/01/2000"
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "1992 (designed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Red radio cassette recorder with handle and microphone", 
+            "dimensions": "", 
+            "title": "My First Sony", 
+            "date_start": "1992-01-01", 
+            "materials_techniques": "Moulded plastic", 
+            "last_processed": "2014-03-31 21:29:16", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Mass produced", 
+            "collections": [
+                {
+                    "pk": 6, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "FWK", 
+                        "name": "Furniture and Woodwork Collection", 
+                        "museumobject_count": 10795, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2981, 
+                        "type": "", 
+                        "slug": "fwk"
+                    }
+                }
+            ], 
+            "location": "Twentieth Century, room 74, case CA1, box 47", 
+            "marks": "", 
+            "latitude": "37.48759800", 
+            "techniques": [
+                {
+                    "pk": 7, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "moulded", 
+                        "museumobject_count": 5554, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30076", 
+                        "museumobject_image_count": 2897, 
+                        "type": "", 
+                        "slug": "moulded"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 29, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "plastic", 
+                        "museumobject_count": 4498, 
+                        "source": "cis_materials", 
+                        "cis_id": "14570", 
+                        "museumobject_image_count": 535, 
+                        "type": "", 
+                        "slug": "plastic"
+                    }
+                }, 
+                {
+                    "pk": 605, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "electrical components", 
+                        "museumobject_count": 9, 
+                        "source": "cis_materials", 
+                        "cis_id": "x36640", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "electrical-components"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 83991, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 499
+                    }, 
+                    "fields": {
+                        "box": "47", 
+                        "case": "CA1", 
+                        "inventory_number": 235456, 
+                        "room": "74", 
+                        "part_name": "Microphone", 
+                        "museum_number": "W.19:2-1992", 
+                        "museumobject": 41236, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Twentieth Century, room 74", 
+                        "museum_number_token": "w1921992", 
+                        "gallery": 499
+                    }
+                }, 
+                {
+                    "pk": 83992, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 499
+                    }, 
+                    "fields": {
+                        "box": "47", 
+                        "case": "CA1", 
+                        "inventory_number": 235457, 
+                        "room": "74", 
+                        "part_name": "Radio cassette recorder", 
+                        "museum_number": "W.19:1-1992", 
+                        "museumobject": 41236, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Twentieth Century, room 74", 
+                        "museum_number_token": "w1911992", 
+                        "gallery": 499
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 499, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "74", 
+                        "site_name": "", 
+                        "name": "Twentieth Century, room 74", 
+                        "site_code": "VA", 
+                        "museumobject_count": 307, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49720", 
+                        "museumobject_image_count": 177, 
+                        "type": "", 
+                        "slug": "74-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 7944, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Sony Corporation", 
+                        "gender": null, 
+                        "museumobject_count": 17, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A5666", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "sony-corporation", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 39236, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 17
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 41236, 
+                        "role": "designed", 
+                        "place": 17, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "w191992", 
+            "object": "Radio cassette recorder", 
+            "categories": [], 
+            "last_checked": "2014-03-31 21:29:16", 
+            "public_access_description": "Sony's roots go back over half a century, to its founding in 1946 by Masaru Ibuka and Akio Morita as the Tokyo Tsushin Kogyo (Tokyo Telecommunications Engineering Company). Sony now produces hundreds of products, ranging from computers to digital music equipment. This is a portable cassette recorder, designed primarily for children. It is made from a non-toxic plastic and is decorated in vibrant primary colours. The name of this product highlights the desire by manufacturers to target consumers at an early age and build a customer loyalty.", 
+            "exhibition_history": "The Shape of Colour Red (The Lighthouse 15/10/1999-16/01/2000)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "my-first-sony-radio-cassette-recorder-sony-corporation", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 17, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Japan", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 4003, 
+                        "longitude": "139.83828700", 
+                        "source": "production", 
+                        "cis_id": "x29399", 
+                        "museumobject_image_count": 1957, 
+                        "latitude": "37.48759800", 
+                        "type": "country", 
+                        "slug": "japan-x29399"
+                    }
+                }
+            ], 
+            "artist": "Sony Corporation", 
+            "namecontext_set": [
+                {
+                    "pk": 43543, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 7944
+                    }, 
+                    "fields": {
+                        "name": 7944, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 41236, 
+                        "role": "designer and maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1992, 
+            "object_number": "O48630", 
+            "events": [], 
+            "credit": "Given by the maker", 
+            "history_note": "", 
+            "place": "Japan", 
+            "production_note": "Reason For Production: Retail", 
+            "historical_context_note": "", 
+            "collection_code": "FWK"
+        }
+    }
+]

@@ -1,0 +1,363 @@
+[
+    {
+        "pk": 61696, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.2-1997", 
+            "date_end": "1734-12-31", 
+            "labels": [], 
+            "descriptive_line": "Figure, Portland stone, 'Sunna', by John Michael Rysbrack, English, 1728-1730", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1723, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 28508, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Sunna", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N1455", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "sunna"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1728 - ca. 1730 (made)", 
+            "primary_image_id": "2006AU2932", 
+            "rights": 3, 
+            "physical_description": "The head of sunna is turned to the left, and she holds a wheel in front of her with both hands.", 
+            "dimensions": "Weight: 150 kg, Height: 88.3 cm", 
+            "title": "Sunna", 
+            "date_start": "1723-01-01", 
+            "materials_techniques": "Portland stone", 
+            "last_processed": "2014-03-31 22:38:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 23, case FS", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1039, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Portland stone", 
+                        "museumobject_count": 2, 
+                        "source": "cis_materials", 
+                        "cis_id": "11324", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "portland-stone"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 111640, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 380
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "FS", 
+                        "inventory_number": 71671, 
+                        "room": "23", 
+                        "part_name": "", 
+                        "museum_number": "A.2-1997", 
+                        "museumobject": 61696, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 23", 
+                        "museum_number_token": "a21997", 
+                        "gallery": 380
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 380, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "23", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 23", 
+                        "site_code": "VA", 
+                        "museumobject_count": 10, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49839", 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "23-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1731, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1770-01-08", 
+                        "surname": "", 
+                        "name": "Rysbrack", 
+                        "gender": null, 
+                        "museumobject_count": 84, 
+                        "death_year": 1770, 
+                        "source": "object_production", 
+                        "cis_id": "A8814", 
+                        "museumobject_image_count": 23, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rysbrack-john-michael", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 10965, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Sunna", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N1455", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "sunna", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 57479, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61696, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a21997", 
+            "object": "Figure", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:38:09", 
+            "public_access_description": "Like the seated figure of Thuner (Museum no. A.10-1985) Sunna is from a unique series of Saxon gods that Lord Cobham commissioned for his gardens at Stowe. Each Saxon god is traditionally associated with a day of the week, and Sunna represents Sunday. The figure was lost for many years and only rediscovered in 1996. The Saxon gods are tied in with the political iconography of Stowe, and symbolise Lord Cobham\u2019s allegiance to the ideals of those Whigs who had broken away from Sir Robert Walpole. As such they represent an ancient British identity.\n\nRysbrack was born in Antwerp, and trained in the Netherlands, but spent his working life in Britain. He was one of the most important sculptors active in this country in the first half of the 18th century, and specialised in portrait busts and funerary monuments. Although he never visited Italy, many of his works are clearly indebted to classical prototypes.", 
+            "exhibition_history": "", 
+            "bibliography": "Bilbey, Diane with Trusted, Marjorie, British Sculpture 1470 to 2000. A Concise Catalogue of the Collection at the Victoria and Albert Museum, London, 2002, pp. 131-132, cat. no. 182\nWilliamson, Paul, \u201cAcquisition of Sculpture at the Victoria & Albert Museum, 1992-1999\u201d, in: <u>Burlington Magazine</u>, Dec. 1999, CXLI, p. 786, fig. X", 
+            "vanda_exhibition_history": "", 
+            "slug": "sunna-figure-rysbrack-john-michael", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 24836, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-04-23 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:29", 
+                        "priority": 0, 
+                        "image_id": "2006AU2932", 
+                        "sys_id": 162932, 
+                        "last_checked": "2014-03-31 17:13:29", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU2932.jpg"
+                    }
+                }, 
+                {
+                    "pk": 24835, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-04-23 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:29", 
+                        "priority": 1, 
+                        "image_id": "2006AU2931", 
+                        "sys_id": 162931, 
+                        "last_checked": "2014-03-31 17:13:29", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU2931.jpg"
+                    }
+                }, 
+                {
+                    "pk": 24834, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-04-23 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:29", 
+                        "priority": 2, 
+                        "image_id": "2006AU2930", 
+                        "sys_id": 162930, 
+                        "last_checked": "2014-03-31 17:13:29", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU2930.jpg"
+                    }
+                }, 
+                {
+                    "pk": 24833, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-04-23 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:29", 
+                        "priority": 3, 
+                        "image_id": "2006AU2929", 
+                        "sys_id": 162929, 
+                        "last_checked": "2014-03-31 17:13:29", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU2929.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Rysbrack, John Michael", 
+            "namecontext_set": [
+                {
+                    "pk": 67837, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1731
+                    }, 
+                    "fields": {
+                        "name": 1731, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61696, 
+                        "role": "sculptor", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 67838, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10965
+                    }, 
+                    "fields": {
+                        "name": 10965, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61696, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1734, 
+            "object_number": "O66624", 
+            "events": [], 
+            "credit": "Purchased with the assistance of the Heritage Lottery Fund, the Hildburgh Bequest, and an anonymous donor", 
+            "history_note": "It was commissioned by Lord Cobham for his garden at Stowe.\n\nPurchased with the assistance of the Heritage Lottery Fund, the Whiteley Trust, the Hildburgh Fund and an anonymous donor for \u00a3135,862.50 from Christie, Manson &amp; Woods Ltd in 1997.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
