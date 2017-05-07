@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 54223, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.8:19-2001", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing of a section of the Public Library, Venice, 18th century, in an album of drawings commissioned by the Earl of Bute", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1700, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "18th century (made)", 
+            "primary_image_id": "2009BX3761", 
+            "rights": 3, 
+            "physical_description": "Drawing of a section of the Public Library, in pen and ink and watercolour, on paper. It depicts, in a landscape format, a section of the exterior showing the carved sculptural figures, classical columns and arched windows. The drawing is attached to one page of the album.", 
+            "dimensions": "Length: 677 mm, Width: 512 mm", 
+            "title": "", 
+            "date_start": "1700-01-01", 
+            "materials_techniques": "Pen and ink and watercolour on paper", 
+            "last_processed": "2014-03-31 22:12:24", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case ABOVE 115LL, box LL.30", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 102252, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "LL.30", 
+                        "case": "ABOVE 115LL", 
+                        "inventory_number": 686273, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.8:19-2001", 
+                        "museumobject": 54223, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e8192001", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 50711, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 54223, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e8192001", 
+            "object": "Architectural drawing", 
+            "categories": [
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14050, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4742, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }, 
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 101, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architectural fittings", 
+                        "museumobject_count": 1944, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 729, 
+                        "type": "", 
+                        "slug": "architectural-fittings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:12:24", 
+            "public_access_description": "The plan shows the three-arched sections structure of the Loggetta, at the base of the campanile in piazza San Marco, with bow-windows and flanked by free-standing columns. Each windows has a grotesque mask on top and two leaning figures. The ensemble is surmounted by a frieze decorated with head and floral arabesque that divides it from the level above. The Loggetta was first conceived as a club for noblemen and was attached to the old church of San Basso. When it has been decided to build the new Marciana library, Jacopo Sansovino redesigned it in order to complement the new building. The Loggetta is divided into three arched sections flanked by free-standing columns which coherent integration illustrates Palladio's influence on Venetian projects. The Loggetta was reassembled in its present form in 1912 after the collapse of the Campanile in 1902 had smashed it to pieces. \n\nA cross-section above shows the inner structure of the arched-sections whereas the cross-section below represents the relief of the entire fa\u00e7ade.\n\nAntonio Visentini (Venice, 21 Nov 1688 \u2013 Venice, 26 June 1782) was an Italian painter, engraver, architect and theorist. He was first known as a painter and trained with the Venetian history painter Giovanni Antonio Pellegrini (1675-1741). He became known as an engraver by the end of the 1720s when he was commissioned by Joseph Smith to produce engravings of Canaletto\u2019s views of Venice. Visentini started working as an architect in 1731, and his first theoretical work, Libro di Architettura, which included Rococo-influenced drawings by Pier Antonio Morelli after Visentini\u2019s ideas, was published in 1733. \n\nHis ideas on contemporary architecture derived from Antiquity and the work of Andrea Palladio (1508-80). Later however, Visentini developed neo-Palladian and anti-Baroque ideas. Visentini and his pupils executed numerous drawings of ancient and contemporary buildings intended to disseminate exemplary architecture. He participated to the foundation of the Venetian Academy in 1755, where he became a teacher of architectural perspective in 1772.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "architectural-drawing-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 134824, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:36:54", 
+                        "priority": 0, 
+                        "image_id": "2009BX3761", 
+                        "sys_id": 403761, 
+                        "last_checked": "2014-03-31 17:36:54", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009BX/2009BX3761.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 58684, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 54223, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O60134", 
+            "events": [], 
+            "credit": "Accepted by H M Government in lieu of Inheritance Tax and allocated to the Victoria & Albert Museum, 2000", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
