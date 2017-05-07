@@ -1,0 +1,317 @@
+[
+    {
+        "pk": 76903, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.7-2004", 
+            "date_end": "2003-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Leaf', glass sculpture, leaf-shaped, made by Ben Edols and Kathy Elliott, Australia (Canberra), 2003", 
+            "shape": "", 
+            "longitude": "149.12655600", 
+            "year_start": 2003, 
+            "exhibitions": [
+                {
+                    "pk": 101, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2004, 
+                        "name": "Collect 2004", 
+                        "date_end": "2004-12-31", 
+                        "museumobject_count": 8, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "2004-01-01", 
+                        "year_end": 2004, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "collect-2004", 
+                        "date_text": "2004"
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "2003 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Glass sculpture, leaf-shaped, clear over red, with cut lines.", 
+            "dimensions": "Height: 47.5 cm, Width: 25 cm", 
+            "title": "Leaf", 
+            "date_start": "2003-01-01", 
+            "materials_techniques": "Hand-blown; clear glass over red glass blown, then cold-worked - wheel cut lines in the direction of a leaf's veins", 
+            "last_processed": "2014-03-31 23:50:30", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 129, case 6, shelf 1", 
+            "marks": "'Ben Edols Kathy Elliott 2003 Sydney 146'", 
+            "latitude": "-35.30654100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 134347, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 333
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 713373, 
+                        "room": "129", 
+                        "part_name": "", 
+                        "museum_number": "C.7-2004", 
+                        "museumobject": 76903, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 129", 
+                        "museum_number_token": "c72004", 
+                        "gallery": 333
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 333, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "129", 
+                        "site_name": "", 
+                        "name": "Glass, room 129", 
+                        "site_code": "VA", 
+                        "museumobject_count": 51, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49886", 
+                        "museumobject_image_count": 28, 
+                        "type": "", 
+                        "slug": "129-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 14176, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Edols, Ben", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A12968", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1967-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "edols-ben", 
+                        "birth_year": 1967
+                    }
+                }, 
+                {
+                    "pk": 14177, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Elliott, Kathy", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A12969", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1964-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "elliott-kathy", 
+                        "birth_year": 1964
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 73203, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 256
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 76903, 
+                        "role": "made", 
+                        "place": 256, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c72004", 
+            "object": "Sculpture", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:50:30", 
+            "public_access_description": "", 
+            "exhibition_history": "Collect 2004 (Victoria and Albert Museum 20/02/2004-24/02/2004)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "leaf-sculpture-edols-ben", 
+            "sys_updated": "2014-02-07 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 256, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1468
+                    }, 
+                    "fields": {
+                        "name": "Canberra", 
+                        "parent": 1468, 
+                        "country": "Australia", 
+                        "museumobject_count": 6, 
+                        "longitude": "149.12655600", 
+                        "source": "production", 
+                        "cis_id": "x34769", 
+                        "museumobject_image_count": 5, 
+                        "latitude": "-35.30654100", 
+                        "type": "inhabited place", 
+                        "slug": "canberra-australia-x34769"
+                    }
+                }
+            ], 
+            "artist": "Edols, Ben", 
+            "namecontext_set": [
+                {
+                    "pk": 88583, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14176
+                    }, 
+                    "fields": {
+                        "name": 14176, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 76903, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 88584, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14177
+                    }, 
+                    "fields": {
+                        "name": 14177, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 76903, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 88585, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14176
+                    }, 
+                    "fields": {
+                        "name": 14176, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 76903, 
+                        "role": "glass-blower", 
+                        "order": 3
+                    }
+                }, 
+                {
+                    "pk": 88586, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14177
+                    }, 
+                    "fields": {
+                        "name": 14177, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 76903, 
+                        "role": "engraver", 
+                        "order": 4
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2003, 
+            "object_number": "O100541", 
+            "events": [], 
+            "credit": "Given by the Raglan Gallery", 
+            "history_note": "Artist's Statement:\n\"We work with glass for many reasons. For Ben, it is a strong attraction to the process of working in the Venetian style of glassblowing. For me - I am inspired to work with glass by what is possible in terms of carving and decorating the forms and working with the light to generate a breathtaking effect. For us - glass is a medium for colour and light as well as an opportunity to explore design and we look for ways to use these uplifting elements in ways that are original.\"\nKathy Elliott\n\nShown in COLLECT (Raglan Gallery, Australia, stand), Crafts Council, V&AM, February 2004.", 
+            "place": "Canberra", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
