@@ -1,0 +1,354 @@
+[
+    {
+        "pk": 105308, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "W.161-1919", 
+            "date_end": "1550-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'Two Putti Blowing Horns' (fragment of a decorative scheme), Follower of Perino del Vaga, early 16th century", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1500, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 31006, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Putti", 
+                        "museumobject_count": 716, 
+                        "source": "name", 
+                        "cis_id": "N8617", 
+                        "museumobject_image_count": 547, 
+                        "type": "", 
+                        "slug": "putti"
+                    }
+                }, 
+                {
+                    "pk": 1334, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "horns", 
+                        "museumobject_count": 22, 
+                        "source": "object", 
+                        "cis_id": "x35490", 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "horns"
+                    }
+                }
+            ], 
+            "date_text": "early 16th century (painted)", 
+            "primary_image_id": "2010EF1790", 
+            "rights": 3, 
+            "physical_description": "Two nude putti stride towards the right, encircled by ribbons and playing curved horn trumpets in a landscape", 
+            "dimensions": "Diameter: 17.7 cm approx.", 
+            "title": "Two Putti blowing horns", 
+            "date_start": "1500-01-01", 
+            "materials_techniques": "Oil on beech panel", 
+            "last_processed": "2014-04-01 01:53:11", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room WS, case R, shelf 78, box R", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }, 
+                {
+                    "pk": 105, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "beech", 
+                        "museumobject_count": 223, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30453", 
+                        "museumobject_image_count": 125, 
+                        "type": "", 
+                        "slug": "beech"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 65, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Italian School", 
+                        "museumobject_count": 759, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31264", 
+                        "museumobject_image_count": 255, 
+                        "type": "", 
+                        "slug": "italian-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 171958, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 616
+                    }, 
+                    "fields": {
+                        "box": "R", 
+                        "case": "R", 
+                        "inventory_number": 421781, 
+                        "room": "WS", 
+                        "part_name": "", 
+                        "museum_number": "W.161-1919", 
+                        "museumobject": 105308, 
+                        "shelf": "78", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room WS", 
+                        "museum_number_token": "w1611919", 
+                        "gallery": 616
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 616, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "WS", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room WS", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1379, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49603", 
+                        "museumobject_image_count": 329, 
+                        "type": "", 
+                        "slug": "ws-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 5957, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1547-10-20", 
+                        "surname": "", 
+                        "name": "Perino del Vaga", 
+                        "gender": null, 
+                        "museumobject_count": 26, 
+                        "death_year": 1547, 
+                        "source": "object_production", 
+                        "cis_id": "A15227", 
+                        "museumobject_image_count": 25, 
+                        "forename": "", 
+                        "birth_date": "1501-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "perino-del-vaga", 
+                        "birth_year": 1501
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 102827, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 105308, 
+                        "role": "painted", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "w1611919", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 42, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Interiors", 
+                        "museumobject_count": 11483, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3045, 
+                        "type": "", 
+                        "slug": "interiors"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:53:11", 
+            "public_access_description": "Perino del Vaga (1501-1547) was an Italian painter and draughtsman trained in Florence. Around 1515 he moved to Rome where he drew from works of antiquity and Michelangelo\u2019s ceiling in the Sistine Chapel and joined Raphael\u2019s workshop, where he learnt stucco work and how to design grotesques, through assisting Giovanni da Udine in the Vatican Logge (ca. 1518-19)\nW.161-1919 recalls Perino's 'grotesque' decorations, small motifs, including scrollwork, architectural elements and whimsical human figures inspired by the recent discovery of the Domus Aurea of Nero in Rome, which Perino frescoed in the Vatican Logge and in the Palazzo Doria, Genoa ca. 1520-30.\nThe ancient motif of dancing and music playing putti became increasingly popular following the success of Donatello's Prato Pulpit (1483) and his Cantoria (1439) or 'Singers Gallery' for the Cathedral of Florence. Both monuments were decorated with reliefs depicting animated music playing putti or spiritelli who were understood as embodiments of the very sound and music emmited from the structures they decorated. Dancing and scroll carrying putti also became popular with printmakers and appear for example in the so-called 'otto prints' attributed to Baccio Baldini (British Museum,  1852,0424.8). The V&A panel has been cut down on all sides and must have formed part of a series of decorations, perhaps inspired by such prints, for a domestic interior, probably a piece of furniture or set into wall panelling. During the fifteenth and sixteenth centuries in Italy, artists were often commissioned to create painted wooden furnishings for the domestic interior, especially for the camera (bedchamber) of wealthy private palaces. The decoration often included subjects associated with fertility, maternity, childbirth, marriage and fidelity and could include references to the patrons through inclusion of their coat of arms and heraldic colours, or of their personal motto or device. Similar playful putti were also often depicted on friezes on the interior and exterior of palaces. In both composition and style W.161-1919 recalls the drawings for no longer extant friezes ca. 1530s of Perino del Vaga and the Sienese artist Domenico Beccafumi (1484?-1551) for the Palazzo of Admiral Andrea Doria in Genoa although the V&A panel was evidently executed swiftly and with less skill than either of these masters.", 
+            "exhibition_history": "", 
+            "bibliography": "Kauffmann, C.M., <u>Catalogue of Foreign Paintings, I. Before 1800</u>. London: Victoria and Albert Museum, 1973, p. 150, cat. no. 178.\nThe following is the full text of the entry:\n\nItalian School, 16th century \n\n178 \nTWO PUTTI BLOWING HORNS: FRAGMENT OF A DECORATIVE SCHEME Beech panel, circular \nDiam. 7 (17.7) \nW.161-1919\n\nOn the back of the panel is an old inscription <i>Comp ... </i>, which has been interpreted as Compagni, which in turn was identified as Giovanni di Lorenzo Compagni or Giuliano di Stefano Compagni, two painters recorded in Florence in the 1530s. This may be fanciful, but the panel remains convincing as a 16th century work. It compares, for example, with Polidoro da Caravaggio's decorative panels at Hampton Court and Perino del Vega's frescoes in the Vatican Loggie and in the Palazzo Doria at Genoa. W.161-1919 was probably cut out of a larger decorative scheme. \n\nProv. Bought by B. H. Webb in 1903; bequeathed to the Museum in 1919 (as Annibale Carracci).", 
+            "vanda_exhibition_history": "", 
+            "slug": "two-putti-blowing-horns-oil-painting-perino-del-vaga", 
+            "sys_updated": "2013-11-21 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 211890, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-22 00:00:00", 
+                        "last_processed": "2014-03-31 17:52:33", 
+                        "priority": 0, 
+                        "image_id": "2010EF1790", 
+                        "sys_id": 891790, 
+                        "last_checked": "2014-03-31 17:52:33", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EF/2010EF1790.jpg"
+                    }
+                }, 
+                {
+                    "pk": 211889, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-22 00:00:00", 
+                        "last_processed": "2014-03-31 17:52:33", 
+                        "priority": 1, 
+                        "image_id": "2010EF1789", 
+                        "sys_id": 891789, 
+                        "last_checked": "2014-03-31 17:52:33", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EF/2010EF1789.jpg"
+                    }
+                }, 
+                {
+                    "pk": 97655, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-22 00:00:00", 
+                        "last_processed": "2014-03-31 17:29:14", 
+                        "priority": 2, 
+                        "image_id": "2007BN0042", 
+                        "sys_id": 330042, 
+                        "last_checked": "2014-03-31 17:29:14", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BN/2007BN0042.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Perino del Vaga", 
+            "namecontext_set": [
+                {
+                    "pk": 125948, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5957
+                    }, 
+                    "fields": {
+                        "name": 5957, 
+                        "part_name": "", 
+                        "uncertainty": "Follower of", 
+                        "museumobject": 105308, 
+                        "role": "painted by", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1550, 
+            "object_number": "O134752", 
+            "events": [], 
+            "credit": "Bequeathed by Bernard H. Webb", 
+            "history_note": "Bequeathed by B. H. Webb, 1919.  Fragment of a decorative scheme, cut on all sides. \nAccording to acquisition file, it was acquired asa : \u2018Circular wooden panel, two cupids blowing horns; in wooden frame\u2019 \n\nBernard Hugh Webb (d. 1919), Architect L.R.I.B.A. and \nGold medallist of the Royal Academy \nHe lived at 5 Gray\u2019s Inn Square, and later 14 South Square, Gray\u2019s Inn \nand Newlands cottage, Gosmore, nr. Hitchein, Hertfordshire \n\nDuring his lifetime and after his death he gave a variety of objects to the Museum including plaster casts, Japanese paint brushes, furniture, architectural drawings of Italian architecture by himself and other artists, etchings, photographs, reliefs,  Chinese porcelain, Italian maiolica and other pottery and glass, candlesticks, a crucifix, rare books, marble sculpture, silverware, bronzes, rugs and paintings.\n\nHistorical significance: Perino del Vaga (1501-1547) was an Italian painter and draughtsman trained in Florence. According to Vasari, he practised drawing by copying Michelangelo\u2019s cartoon for the Battle of Cascina (destr.). Around 1515 he moved to Rome where he drew from works of antiquity and Michelangelo\u2019s ceiling in the Sistine Chapel and joined Raphael\u2019s workshop, where he learnt stucco work and how to design grotesques, through assisting Giovanni da Udine in the Vatican Logge. After the death of Raphael (1520) and the Sack of Rome (1527) Perino worked in Florence and Genoa, returning to Rome in 1538.\n\nW.161-1919 recalls Perino's 'grotesque' frescoes in the Vatican Loggie ca. 1518-19 and in the Palazzo Doria at Genoa ca. 1520-30. These decorations are composed of small, motifs, including scrollwork, architectural elements, whimsical human figures and fantastic beasts,  inspired by the archaeological discovery at the end of the 15th century, of the ancient Roman interiors of the Domus Aurea of Nero in Rome.\n\nThe ancient motif of dancing and music playing putti became increasingly popular following the success of Donatello's Prato Pulpit (1483) and his <i>Cantoria</i> (1439) or 'Singers Gallery' for the Cathedral of Florence. Both monuments were decorated with reliefs depicting animated music playing putti or <i>spiritelli</i> who were understood as embodiments of the very sound and music emmited from the structures they decorated.\nDancing and scroll carrying putti also became popular with printmakers and appear for example in the so-called 'otto prints' attributed to Baccio Baldini (British Museum,  1852,0424.8). \nThe V&A panel has been cut down on all sides and must have formed part of a series of decorations for a domestic interior, perhaps inspired by these prints, and was probably inserted into a piece of furniture or wall panelling. Similar mischievous putti were often depicted on friezes on both the interior and exterior of palaces. In both composition and style W.161-1919 recalls the drawings for no longer extant friezes ca. 1530s of Perino del Vaga and Domenico Beccafumi (1484?-1551) for the Palazzo of Admiral Andrea Doria in Genoa although the V&A panel was evidently executed swiftly and with less skill than either of these Masters.", 
+            "place": "Italy", 
+            "production_note": "Bequeathed to the Museum in 1919 as by Annibale Carracci. Described by Kauffmann (1973) as Italian school, 16th Century.", 
+            "historical_context_note": "During the fifteenth and sixteenth centuries in Italy, artists were often commissioned to create painted wooden furnishings for the domestic interior, especially for the <i>camera</i> (bedchamber) of wealthy private palaces. Such works were generally commissioned to celebrate a new marriage or the birth of a child and could include a <i>lettiera</i> (bed), <i>spalliera</i> or <i>cornicioni</i> (a painted frieze), a <i>cassapanca</i> (bench-chest) and a set of <i>cassone</i> (marriage chests) among other objects and furnishings. The decoration often included subjects associated with fertility, maternity, childbirth, marriage and fidelity and could include references to the patrons through inclusion of their coat of arms and heraldic colours, or of their personal motto or device.", 
+            "collection_code": "PDP"
+        }
+    }
+]
