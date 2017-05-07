@@ -1,0 +1,256 @@
+[
+    {
+        "pk": 101011, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1189-1948", 
+            "date_end": "1937-12-31", 
+            "labels": [], 
+            "descriptive_line": "The house was filled with slaves bearing basons of massy gold\", illustration to a Children's book by C Robinson.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1870, 
+            "exhibitions": [
+                {
+                    "pk": 4354, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "The Age of Enchantment. Beardsley, Dulac and their Contemporaries 1890-1930", 
+                        "date_end": null, 
+                        "museumobject_count": 19, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "the-age-of-enchantment-beardsley-dulac-and-their-contemporaries-", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "1870-1937 (made)", 
+            "primary_image_id": "2007BP7053", 
+            "rights": 3, 
+            "physical_description": "Pen ink and watercolour illustration showing slaves carrying gold basins of jewels.", 
+            "dimensions": "Height: 371 mm, Width: 269 mm", 
+            "title": "The house was filled with slaves bearing basins of massy gold\"", 
+            "date_start": "1870-01-01", 
+            "materials_techniques": "Pen and ink, watercolour and body colour", 
+            "last_processed": "2014-04-01 01:34:51", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case I, shelf 132, box P", 
+            "marks": "Charles Robinson\n Big Book of Nursery Tales\n '\"The house was filled with slaves bearing basons of massy gold\" Aladdin'", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 730, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "illustration", 
+                        "museumobject_count": 730, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54200", 
+                        "museumobject_image_count": 402, 
+                        "type": "", 
+                        "slug": "illustration"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48108, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 27995, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }, 
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31929, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18716, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }, 
+                {
+                    "pk": 58, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "bodycolour", 
+                        "museumobject_count": 3701, 
+                        "source": "cis_materials", 
+                        "cis_id": "x34671", 
+                        "museumobject_image_count": 282, 
+                        "type": "", 
+                        "slug": "bodycolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 166743, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "P", 
+                        "case": "I", 
+                        "inventory_number": 1219793, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.1189-1948", 
+                        "museumobject": 101011, 
+                        "shelf": "132", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e11891948", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32654, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1937-12-31", 
+                        "surname": "", 
+                        "name": "Robinson, Charles", 
+                        "gender": null, 
+                        "museumobject_count": 31, 
+                        "death_year": 1937, 
+                        "source": "object_production", 
+                        "cis_id": "A18225", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1870-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "robinson-charles-ri", 
+                        "birth_year": 1870
+                    }
+                }
+            ], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "e11891948", 
+            "object": "Drawing", 
+            "categories": [], 
+            "last_checked": "2014-04-01 01:34:51", 
+            "public_access_description": "The brother of illustrators William Heath Robinson (1872-1944) and Thomas Heath Robinson (1869-1950), Charles Robinson was apprenticed to the lithographers Waterlow and Son. During this apprenticeship he attended evening classes at the West London Art School and Heatherley's School of Art. From 1892 Robinson worked as a freelance illustrator. Basically a self-taught illustrator, Charles Robinson's work has a freedom linked with a feeling for book design. His watercolour illustrations have a sensitivity that was greatly helped by the introduction of the four colour printing process. \n\nThis watercolour illustrates the line from Aladdin, \"The house was filled with slaves bearing basins of massy gold\". The traditional Arabian tale became popular in Europe following its publication in the eighteenth century. Rich colours create an opulent image of the slaves summoned by the genie. Their basins filled with gems were payment for the hand of the Sultan's daughter. The illustration was used for the Frontispiece to the Big Book of Fairy Tales, one of a number of books illustrated by Robinson and published Blackie and Son just before Christmas to appeal to a growing market for the Gift book.", 
+            "exhibition_history": "The Age of Enchantment. Beardsley, Dulac and their Contemporaries 1890-1930 (Dulwich Picture Gallery 28/11/2007-17/02/2008)", 
+            "bibliography": "Rodney Engen <u> The Age of Enchantment. Beardsley, Dulac and their Contemporaries 1890-1930</u> London: Scala Publishers Ltd., 2007. ISBN: 978 1 85759 523 9.\nExhibition catalogue\n\nThe entry notes that this design served as the Frontispiece to <u>The Big Book of Fairy Tales</u> published by Blackie and Sons in 1911.\n<u>The Big Book of Fairy Tales</u>, Blackie and Son, London, 1911.\nThis illustration is for the Frontispiece.", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-house-was-filled-with-drawing-robinson-charles-ri", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 103183, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:23", 
+                        "priority": 0, 
+                        "image_id": "2007BP7053", 
+                        "sys_id": 347053, 
+                        "last_checked": "2014-03-31 17:30:23", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BP/2007BP7053.jpg"
+                    }
+                }
+            ], 
+            "places": [], 
+            "artist": "Robinson, Charles (R.I.)", 
+            "namecontext_set": [
+                {
+                    "pk": 120556, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32654
+                    }, 
+                    "fields": {
+                        "name": 32654, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 101011, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1937, 
+            "object_number": "O129182", 
+            "events": [], 
+            "credit": "Bequeathed by H. H. Harrod", 
+            "history_note": "Drawing for an illustration to a Children's book.\n\nBequeathed by H. H. Harrod", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
