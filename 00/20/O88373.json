@@ -1,0 +1,296 @@
+[
+    {
+        "pk": 47280, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.105-1978", 
+            "date_end": "1908-12-31", 
+            "labels": [
+                {
+                    "pk": 7623, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "1987-2006", 
+                        "museumobject": 47280, 
+                        "label_text": "'American and European Art and Design 1800-1900'\n\nFollot was a talented designer who worked successfully in a wide variety of media. In the early 1900s, he began to design in an <i>Art Nouveau</i> style which became gradually simplified after he studied neo-classical sources. He made a significant contribution to the Paris 1925 Exhibition and continued to work until well into the 1930s. His style was always characterised by a sumptuous elegance which consistently resisted the austerity of pure neo-classicism."
+                    }
+                }
+            ], 
+            "descriptive_line": "Teapot, electroplate, designed by Paul Follot, France, ca. 1904.", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1899, 
+            "exhibitions": [
+                {
+                    "pk": 111, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2000, 
+                        "name": "Art Nouveau - 1890-1914", 
+                        "date_end": "2000-07-30", 
+                        "museumobject_count": 230, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "2000-04-06", 
+                        "year_end": 2000, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 209, 
+                        "type": "", 
+                        "slug": "art-nouveau-1890-1914", 
+                        "date_text": "06/04/2000 to 30/07/2000"
+                    }
+                }, 
+                {
+                    "pk": 4559, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "The First Moderns", 
+                        "date_end": null, 
+                        "museumobject_count": 9, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "the-first-moderns", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "ca. 1904 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Length: 16.2 cm, Height: 13 cm", 
+            "title": "", 
+            "date_start": "1899-01-01", 
+            "materials_techniques": "Electroplated silver on nickel silver", 
+            "last_processed": "2014-03-31 21:50:15", 
+            "label": "'American and European Art and Design 1800-1900'\n\nFollot was a talented designer who worked successfully in a wide variety of media. In the early 1900s, he began to design in an <i>Art Nouveau</i> style which became gradually simplified after he studied neo-classical sources. He made a significant contribution to the Paris 1925 Exhibition and continued to work until well into the 1930s. His style was always characterised by a sumptuous elegance which consistently resisted the austerity of pure neo-classicism. [1987-2006]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Europe & America 1800-1900, room 101, case 4, shelf 3", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 130, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Art Nouveau", 
+                        "museumobject_count": 446, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21430", 
+                        "museumobject_image_count": 306, 
+                        "type": "", 
+                        "slug": "art-nouveau"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 92889, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 286
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 546344, 
+                        "room": "101", 
+                        "part_name": "", 
+                        "museum_number": "M.105-1978", 
+                        "museumobject": 47280, 
+                        "shelf": "3", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Europe & America 1800-1900, room 101", 
+                        "museum_number_token": "m1051978", 
+                        "gallery": 286
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 286, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "101", 
+                        "site_name": "", 
+                        "name": "Europe & America 1800-1900, room 101", 
+                        "site_code": "VA", 
+                        "museumobject_count": 178, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49933", 
+                        "museumobject_image_count": 150, 
+                        "type": "", 
+                        "slug": "101-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 4473, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1941-12-31", 
+                        "surname": "", 
+                        "name": "Paul Follot", 
+                        "gender": null, 
+                        "museumobject_count": 8, 
+                        "death_year": 1941, 
+                        "source": "object_production", 
+                        "cis_id": "A2152", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": "1877-07-17", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "follot-paul", 
+                        "birth_year": 1877
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 45202, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 47280, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m1051978", 
+            "object": "Teapot", 
+            "categories": [
+                {
+                    "pk": 13, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tea, Coffee & Chocolate wares", 
+                        "museumobject_count": 2349, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1844, 
+                        "type": "", 
+                        "slug": "tea-coffee-chocolate-wares"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 21:50:15", 
+            "public_access_description": "Paul Follot (1877-1941) was a talented designer who worked successfully in a wide variety of media. In the early 1900s, he began to design in an Art Nouveau style which became gradually simplified after he studied Neo-classical sources. His style, as displayed in this silver teapot, was characterised by a sumptuous elegance which resisted the austerity of pure neo-classicism. Follot made a significant contribution to the Paris 1925 Exhibition and continued to work until well into the 1930s.", 
+            "exhibition_history": "The First Moderns (Sainsbury Centre for Visual Arts 03/02/2012-02/12/2012)\nArt Nouveau - 1890-1914 (Victoria and Albert Museum 06/04/2000-30/07/2000)", 
+            "bibliography": "Greenhalgh, Paul Ed., <font u>Art Nouveau : 1890 - 1914</font u>. London: V&A Publications, 2000. 464 p., 14.13pl, ill. ISBN 1851772774\nJervis, Simon ed. <u>Art & Design in Europe and America, 1800-1900</u>, London, Victoria & Albert Museum, 1987, pp.218-19 ill. ISBN 0906969", 
+            "vanda_exhibition_history": "", 
+            "slug": "teapot-follot-paul", 
+            "sys_updated": "2014-01-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Follot, Paul", 
+            "namecontext_set": [
+                {
+                    "pk": 50745, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4473
+                    }, 
+                    "fields": {
+                        "name": 4473, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 47280, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1908, 
+            "object_number": "O88373", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
