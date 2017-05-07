@@ -1,0 +1,356 @@
+[
+    {
+        "pk": 11922, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.116&A-1987", 
+            "date_end": "1980-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Tissu' bowl with box, glazed porcelain with pierced decoration, designed by Alan Whittaker, manufactured by Rosenthal, Germany, 1980.", 
+            "shape": "", 
+            "longitude": "11.40798000", 
+            "year_start": 1980, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23873, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "geometric patterns", 
+                        "museumobject_count": 490, 
+                        "source": "object", 
+                        "cis_id": "165213", 
+                        "museumobject_image_count": 390, 
+                        "type": "", 
+                        "slug": "geometric-patterns"
+                    }
+                }
+            ], 
+            "date_text": "1980 (manufactured)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "[Bowl] Bowl of 'Tissu' shape with round mouth, sloping to curved base. Form 13592/100104. Glazed porcelain, decorated with pierced uneven leaf-like pattern.", 
+            "dimensions": "[Bowl] Height: 10 cm, Diameter: 13.3 cm", 
+            "title": "Tissu", 
+            "date_start": "1980-01-01", 
+            "materials_techniques": "[Bowl] Porcelain, glazed with pierced decoration", 
+            "last_processed": "2014-03-31 19:32:47", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 13, shelf 2", 
+            "marks": "[Bowl] 'Alan Whittaker'\n[Bowl] 'Alan Whittaker 45 Rosenthal Limitierte Kunstreihen'", 
+            "latitude": "48.91743100", 
+            "techniques": [
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }, 
+                {
+                    "pk": 924, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "pierced", 
+                        "museumobject_count": 475, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 410, 
+                        "type": "", 
+                        "slug": "pierced"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 135, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glaze", 
+                        "museumobject_count": 2900, 
+                        "source": "cis_materials", 
+                        "cis_id": "15091", 
+                        "museumobject_image_count": 2542, 
+                        "type": "", 
+                        "slug": "glaze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 16510, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "13", 
+                        "inventory_number": 312801, 
+                        "room": "140", 
+                        "part_name": "Bowl", 
+                        "museum_number": "C.116-1987", 
+                        "museumobject": 11922, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "c1161987", 
+                        "gallery": 348
+                    }
+                }, 
+                {
+                    "pk": 16511, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 312798, 
+                        "room": "", 
+                        "part_name": "Box", 
+                        "museum_number": "C.116A-1987", 
+                        "museumobject": 11922, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "c116a1987", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2688, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Whittaker, Alan", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A23626", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "whittaker-alan", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 2689, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Rosenthal AG", 
+                        "gender": null, 
+                        "museumobject_count": 224, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A9619", 
+                        "museumobject_image_count": 186, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "rosenthal-ag", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 12901, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 530
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11922, 
+                        "role": "manufactured", 
+                        "place": 530, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c1161987", 
+            "object": "Bowl with box", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:32:47", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "tissu-bowl-with-box-whittaker-alan", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 530, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 455
+                    }, 
+                    "fields": {
+                        "name": "Selb", 
+                        "parent": 455, 
+                        "country": "Germany", 
+                        "museumobject_count": 189, 
+                        "longitude": "11.40798000", 
+                        "source": "production", 
+                        "cis_id": "x29135", 
+                        "museumobject_image_count": 154, 
+                        "latitude": "48.91743100", 
+                        "type": "city/town", 
+                        "slug": "selb-germany-x29135"
+                    }
+                }
+            ], 
+            "artist": "Whittaker, Alan", 
+            "namecontext_set": [
+                {
+                    "pk": 12115, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2688
+                    }, 
+                    "fields": {
+                        "name": 2688, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11922, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 12116, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2689
+                    }, 
+                    "fields": {
+                        "name": 2689, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11922, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1980, 
+            "object_number": "O9205", 
+            "events": [], 
+            "credit": "Given by the manufacturer", 
+            "history_note": "", 
+            "place": "Selb", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

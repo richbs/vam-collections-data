@@ -1,0 +1,373 @@
+[
+    {
+        "pk": 67698, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "W.39:1, 2-1977", 
+            "date_end": "1902-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-2.15137000", 
+            "year_start": 1902, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23873, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "geometric patterns", 
+                        "museumobject_count": 490, 
+                        "source": "object", 
+                        "cis_id": "165213", 
+                        "museumobject_image_count": 390, 
+                        "type": "", 
+                        "slug": "geometric-patterns"
+                    }
+                }
+            ], 
+            "date_text": "1902 (made)", 
+            "primary_image_id": "2006AP9949", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 177 cm, Width: 114 cm, Depth: 66 cm", 
+            "title": "", 
+            "date_start": "1902-01-01", 
+            "materials_techniques": "Oak", 
+            "last_processed": "2014-03-31 23:07:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 6, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "FWK", 
+                        "name": "Furniture and Woodwork Collection", 
+                        "museumobject_count": 10795, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2981, 
+                        "type": "", 
+                        "slug": "fwk"
+                    }
+                }
+            ], 
+            "location": "Twentieth Century, room 74, case CA2, box 23", 
+            "marks": "", 
+            "latitude": "51.76424000", 
+            "techniques": [
+                {
+                    "pk": 4, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "carving", 
+                        "museumobject_count": 3399, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53149", 
+                        "museumobject_image_count": 2161, 
+                        "type": "", 
+                        "slug": "carving"
+                    }
+                }, 
+                {
+                    "pk": 49, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "cabinet making", 
+                        "museumobject_count": 197, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53607", 
+                        "museumobject_image_count": 157, 
+                        "type": "", 
+                        "slug": "cabinet-making"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 109, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Oak", 
+                        "museumobject_count": 918, 
+                        "source": "cis_materials", 
+                        "cis_id": "12264", 
+                        "museumobject_image_count": 599, 
+                        "type": "", 
+                        "slug": "oak"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 46, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Arts and Crafts", 
+                        "museumobject_count": 351, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21205", 
+                        "museumobject_image_count": 258, 
+                        "type": "", 
+                        "slug": "arts-and-crafts"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 120479, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 665467, 
+                        "room": "", 
+                        "part_name": "keys", 
+                        "museum_number": "W.39:2-1977", 
+                        "museumobject": 67698, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "w3921977", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 120480, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 499
+                    }, 
+                    "fields": {
+                        "box": "23", 
+                        "case": "CA2", 
+                        "inventory_number": 530793, 
+                        "room": "74", 
+                        "part_name": "Wardrobe", 
+                        "museum_number": "W.39:1-1977", 
+                        "museumobject": 67698, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Twentieth Century, room 74", 
+                        "museum_number_token": "w3911977", 
+                        "gallery": 499
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 499, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "74", 
+                        "site_name": "", 
+                        "name": "Twentieth Century, room 74", 
+                        "site_code": "VA", 
+                        "museumobject_count": 307, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49720", 
+                        "museumobject_image_count": 177, 
+                        "type": "", 
+                        "slug": "74-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 12345, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1926-12-31", 
+                        "surname": "", 
+                        "name": "Barnsley, Ernest", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1926, 
+                        "source": "object_production", 
+                        "cis_id": "A6718", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1861-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "barnsley-ernest", 
+                        "birth_year": 1861
+                    }
+                }, 
+                {
+                    "pk": 12346, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Daneway House Workshops", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A6719", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "daneway-house-workshops", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 63703, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 398
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 67698, 
+                        "role": "made", 
+                        "place": 398, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "w391977", 
+            "object": "Wardrobe", 
+            "categories": [
+                {
+                    "pk": 10, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Furniture", 
+                        "museumobject_count": 5031, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1914, 
+                        "type": "", 
+                        "slug": "furniture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:07:25", 
+            "public_access_description": "This wardrobe is a good example of furniture in the Arts and Crafts style. Designers working in this style were committed to honesty and simplicity in design, construction and materials. The solid form, restrained decoration and clearly visible joints of this piece reflect these values. They are also embodied in the oak from which the wardrobe is made. Oak was expensive wood at the time, but Arts and Crafts designers preferred it because it evoked an idealised England of long ago.\nThis piece was made at the Daneway House Workshops, Gloucestershire. Ernest Barnsley and Ernest Gimson set up the workshops in 1893 to make furniture in the Arts and Crafts style. This piece is an excellent example of the simpler furniture, constructed using clearly visible joints, which Barnsley designed. These pieces often used traditional country methods and materials rather than more refined historical techniques.", 
+            "exhibition_history": "", 
+            "bibliography": "Wilk, Christopher, ed. . <u>Western Furniture 1350 to the Present Day</u>. London: Victoria and Albert Museum, 1996. 230p., pp.190-191.", 
+            "vanda_exhibition_history": "", 
+            "slug": "wardrobe-barnsley-ernest", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 17557, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:11:56", 
+                        "priority": 0, 
+                        "image_id": "2006AP9949", 
+                        "sys_id": 139949, 
+                        "last_checked": "2014-03-31 17:11:56", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AP/2006AP9949.jpg"
+                    }
+                }, 
+                {
+                    "pk": 24117, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-04-04 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:20", 
+                        "priority": 1, 
+                        "image_id": "2006AU1796", 
+                        "sys_id": 161796, 
+                        "last_checked": "2014-03-31 17:13:20", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU1796.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 398, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Gloucestershire", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 114, 
+                        "longitude": "-2.15137000", 
+                        "source": "production", 
+                        "cis_id": "x28892", 
+                        "museumobject_image_count": 81, 
+                        "latitude": "51.76424000", 
+                        "type": "county", 
+                        "slug": "gloucestershire-england-x28892"
+                    }
+                }
+            ], 
+            "artist": "Barnsley, Ernest", 
+            "namecontext_set": [
+                {
+                    "pk": 76463, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12345
+                    }, 
+                    "fields": {
+                        "name": 12345, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 67698, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 76464, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12346
+                    }, 
+                    "fields": {
+                        "name": 12346, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 67698, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1902, 
+            "object_number": "O70899", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Gloucestershire", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "FWK"
+        }
+    }
+]

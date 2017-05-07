@@ -1,0 +1,278 @@
+[
+    {
+        "pk": 8669, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.920-1924", 
+            "date_end": "1900-12-31", 
+            "labels": [], 
+            "descriptive_line": "Bottle, probably Germany or Bohemia, 1850-1900", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1800, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "19th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 13.4 cm", 
+            "title": "", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "Enamelled glass", 
+            "last_processed": "2014-03-31 19:17:08", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 73, shelf 3", 
+            "marks": "", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 87, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "EUROPE", 
+                        "museumobject_count": 960, 
+                        "source": "cis_style_period", 
+                        "cis_id": "20656", 
+                        "museumobject_image_count": 190, 
+                        "type": "", 
+                        "slug": "europe"
+                    }
+                }, 
+                {
+                    "pk": 94, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "SCHWARZLOT", 
+                        "museumobject_count": 21, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29316", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "schwarzlot"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 10006, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "73", 
+                        "inventory_number": 371159, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.920-1924", 
+                        "museumobject": 8669, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "circ9201924", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 9459, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 8669, 
+                        "role": "made", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 9460, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 121
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 8669, 
+                        "role": "made", 
+                        "place": 121, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ9201924", 
+            "object": "Bottle", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:17:08", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "bottle-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }, 
+                {
+                    "pk": 121, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 198
+                    }, 
+                    "fields": {
+                        "name": "Bohemia", 
+                        "parent": 198, 
+                        "country": "Czech Republic", 
+                        "museumobject_count": 362, 
+                        "longitude": "14.47879000", 
+                        "source": "production", 
+                        "cis_id": "x28753", 
+                        "museumobject_image_count": 67, 
+                        "latitude": "49.80358900", 
+                        "type": "region", 
+                        "slug": "bohemia-czech-republic-x28753"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 8045, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 8669, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1900, 
+            "object_number": "O7253", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Germany", 
+            "production_note": "considered to be a 19th century fake by Olga Drahotova 1992; Possibly Germany or Bohemia", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
