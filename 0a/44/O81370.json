@@ -1,0 +1,352 @@
+[
+    {
+        "pk": 8813, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CAI.16", 
+            "date_end": "1868-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'The visit: A Dutch Interior', Sir Lawrence Alma-Tadema, 1868", 
+            "shape": "", 
+            "longitude": "4.34968000", 
+            "year_start": 1868, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48064, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "infants", 
+                        "museumobject_count": 63, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 34, 
+                        "type": "", 
+                        "slug": "infants"
+                    }
+                }, 
+                {
+                    "pk": 24691, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "mothers", 
+                        "museumobject_count": 50, 
+                        "source": "object", 
+                        "cis_id": "25932", 
+                        "museumobject_image_count": 23, 
+                        "type": "", 
+                        "slug": "mothers"
+                    }
+                }, 
+                {
+                    "pk": 24692, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "motherhood", 
+                        "museumobject_count": 11, 
+                        "source": "concept", 
+                        "cis_id": "221442", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "motherhood"
+                    }
+                }
+            ], 
+            "date_text": "1868 (painted)", 
+            "primary_image_id": "2006AT3211", 
+            "rights": 3, 
+            "physical_description": "A Dutch interior of the 17th century, a mother lying in a curtained bed, in the room a visitor seated, and a nursemaid with the baby.", 
+            "dimensions": "Height: 19.25 in estimate, Width: 25.5 in estimate, Weight: 20 kg with frame, Height: 80 cm framed, Width: 95.3 cm framed", 
+            "title": "The Visit: a Dutch interior", 
+            "date_start": "1868-01-01", 
+            "materials_techniques": "Oil on panel", 
+            "last_processed": "2014-03-31 19:17:49", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 315, case 25, shelf R", 
+            "marks": "'L Alma-Tadema 1868'", 
+            "latitude": "50.84838100", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }, 
+                {
+                    "pk": 65, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "panel", 
+                        "museumobject_count": 427, 
+                        "source": "cis_materials", 
+                        "cis_id": "14657", 
+                        "museumobject_image_count": 405, 
+                        "type": "", 
+                        "slug": "panel"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 47, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Dutch School", 
+                        "museumobject_count": 803, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31259", 
+                        "museumobject_image_count": 313, 
+                        "type": "", 
+                        "slug": "dutch-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 10216, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 682
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "25", 
+                        "inventory_number": 110004, 
+                        "room": "315", 
+                        "part_name": "", 
+                        "museum_number": "CAI.16", 
+                        "museumobject": 8813, 
+                        "shelf": "R", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 315", 
+                        "museum_number_token": "cai16", 
+                        "gallery": 682
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 682, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "315", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 315", 
+                        "site_code": "VA", 
+                        "museumobject_count": 231, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49535", 
+                        "museumobject_image_count": 127, 
+                        "type": "", 
+                        "slug": "315-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1745, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1912-12-31", 
+                        "surname": "", 
+                        "name": "Lawrence Alma-Tadema", 
+                        "gender": null, 
+                        "museumobject_count": 23, 
+                        "death_year": 1912, 
+                        "source": "object_production", 
+                        "cis_id": "A8087", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": "1836-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "alma-tadema-lawrence-sir", 
+                        "birth_year": 1836
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 9613, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 27
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 8813, 
+                        "role": "painted", 
+                        "place": 27, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "cai16", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 35, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Children & Childhood", 
+                        "museumobject_count": 9983, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1893, 
+                        "type": "", 
+                        "slug": "children-childhood"
+                    }
+                }, 
+                {
+                    "pk": 42, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Interiors", 
+                        "museumobject_count": 11483, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3045, 
+                        "type": "", 
+                        "slug": "interiors"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:17:49", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Swanson, Vern G. <u>The biography and catalogue raisonn\u00e9 of the paintings of Sir Lawrence Alma-Tadema.</u> London: Garton & Co. in association with Scolar, 1990, p. 152, cat. no. 110\nThe following is the full text of the entry:\n\n\"110 A BIRTHCHAMBER, SEVENTEENTH CENTURY \n       The visit \n       Sunday morning before churching \n       Jan de Kraamkamer (17e Eeuw) \n       Before churching \n       Sick chamber \n       A medieval interior \n\nOpus LXVIII \nJanuary 1869 \noil on panel \n19\u00bc x 25\u00bd (49 x 64.8) \nsigned and dated lower right, <i>L. Alma-Tadema 1868</i> \n\nProv: commissioned by Messrs P L Everard, London & Brussels, 1869; William Houldsworth, Ayr N B, by 1882, sold Christie's, May 23rd, 1891 (53) for \u00a3189; bt Messrs Thomas McLean, London; bt Mr Watson, sold Christie's, Jun 18th, 1892 (90) for \u00a3168: bt Messrs Stephen Gooden & Fox, London; Messrs Thomas McLean, London, 1900, sold 1901; bt M Ionides, London, his bequest to the V & A, London, 1905 to the present. \n\nExhib: Levende Meesters, Amsterdam 1868 (6): G G Winter, 1882 (93); Thomas McLean Winter, London, Jan 1901 (5). \n\nLit: Vosmaer c1885 (79); Ebers 1886, p48 (mistakenly identified as two different pictures; <i>Sick chamber</i> and <i>Before churching</i>); Zimmern 1886, pp4, 13 repro (as <i>The visit</i>); Christie's 1891 (ac) p10 (as <i>A medieval interior</i>); Christie's 1892 (ac) (Benezit calls this the Bolchow sale, [<i>sic</i>]); Bulgakov 1897, p20 repro; Dircks 1910, p27; <i>Prager Encyclopedia of Art</i> (1971) p31 repro; <i>The New Encyclopaedia Britannica</i>, (1974) 1:264 repro; Swanson 1977, p55 repro. \n\nAlthough a drawing by Alma-Tadema identifies the baby as 'Frank's bebe', the identity of Frank is not known. The picture was probably inspired by Anna's birth in 1867 and his wife's long illness that led to her death that summer. Alma-Tadema returned to this subject twice more in <i>A nurse Sunday morning</i> (LXXVIII, 1870) and No 139 (1871). The picture was exhibited with No 105 at the Levende Meesters Exhibition in Amsterdam in 1868, earning Alma-Tadema the Knighthood of the Order of the Dutch Lion. He probably chose this subject to exhibit in Holland, rather than a classical one, because it conformed more to Dutch tastes.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-visit-a-dutch-interior-oil-painting-alma-tadema-lawrence", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 19387, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:19", 
+                        "priority": 0, 
+                        "image_id": "2006AT3211", 
+                        "sys_id": 153211, 
+                        "last_checked": "2014-03-31 17:12:19", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT3211.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 27, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2943
+                    }, 
+                    "fields": {
+                        "name": "Brussels", 
+                        "parent": 2943, 
+                        "country": "Belgium", 
+                        "museumobject_count": 382, 
+                        "longitude": "4.34968000", 
+                        "source": "production", 
+                        "cis_id": "x31976", 
+                        "museumobject_image_count": 152, 
+                        "latitude": "50.84838100", 
+                        "type": "city / town", 
+                        "slug": "brussels-belgium-x31976"
+                    }
+                }
+            ], 
+            "artist": "Alma-Tadema, Lawrence (Sir)", 
+            "namecontext_set": [
+                {
+                    "pk": 8276, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1745
+                    }, 
+                    "fields": {
+                        "name": 1745, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 8813, 
+                        "role": "painter (artist)", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1868, 
+            "object_number": "O81370", 
+            "events": [], 
+            "credit": "Bequeathed by Constantine Alexander Ionides", 
+            "history_note": "Christie's, 18 June 1892, lot 90; bought for \u00a3168 by Stephen J. Gooden, 57 Pall Mall [his trade label appears on the verso of CAI.16]; purchased by Ionides on 27 June 1892 for \u00a3200 (listed at this valuation in his inventory, private collection); bequeathed by Constantine Alexander Ionides, 1900.", 
+            "place": "Brussels", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

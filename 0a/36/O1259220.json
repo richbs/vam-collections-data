@@ -1,0 +1,297 @@
+[
+    {
+        "pk": 1111922, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.240", 
+            "date_end": "1857-12-31", 
+            "labels": [], 
+            "descriptive_line": "Etching by G. B. O'Neill entitled 'The Barber'.  Great Britain, ca. 1850s.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1850, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 49845, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "barber", 
+                        "museumobject_count": 5, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "barber"
+                    }
+                }, 
+                {
+                    "pk": 59462, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "hairdressers", 
+                        "museumobject_count": 3, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "hairdressers"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1850s (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Etching on copper, printed on India paper, entitled 'The Barber'.  Signed with the artist's initials.", 
+            "dimensions": "Height: 3 in, Width: 3.375 in", 
+            "title": "The Barber", 
+            "date_start": "1850-01-01", 
+            "materials_techniques": "Etching on copper, printed on India paper", 
+            "last_processed": "2014-04-27 05:47:16", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2H, shelf SH44, box EE173", 
+            "marks": "G. B. O'N", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 53, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "printing", 
+                        "museumobject_count": 15286, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53329", 
+                        "museumobject_image_count": 4347, 
+                        "type": "", 
+                        "slug": "printing"
+                    }
+                }, 
+                {
+                    "pk": 22, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching", 
+                        "museumobject_count": 11942, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39131", 
+                        "museumobject_image_count": 5158, 
+                        "type": "", 
+                        "slug": "etching"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1302756, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "EE173", 
+                        "case": "MB2H", 
+                        "inventory_number": null, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "FA.240", 
+                        "museumobject": 1111922, 
+                        "shelf": "SH44", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "fa240", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32819, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1917-12-31", 
+                        "surname": "", 
+                        "name": "George Bernard O'Neill", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1917, 
+                        "source": "object_production", 
+                        "cis_id": "A18368", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1828-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "oneill-george", 
+                        "birth_year": 1828
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 488437, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1111922, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa240", 
+            "object": "Etching", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 05:47:16", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-barber-etching-george-bernard-oneill", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "George Bernard O'Neill", 
+            "namecontext_set": [
+                {
+                    "pk": 675005, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32819
+                    }, 
+                    "fields": {
+                        "name": 32819, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1111922, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1857, 
+            "object_number": "O1259220", 
+            "events": [], 
+            "credit": "Given by The Etching Club, London", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

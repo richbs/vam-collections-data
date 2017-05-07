@@ -1,0 +1,298 @@
+[
+    {
+        "pk": 5575, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.295-1925", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Wine glass, England, 1780-1800", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1780, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 20, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "birds", 
+                        "museumobject_count": 2898, 
+                        "source": "object", 
+                        "cis_id": "x35043", 
+                        "museumobject_image_count": 2184, 
+                        "type": "", 
+                        "slug": "birds"
+                    }
+                }, 
+                {
+                    "pk": 23968, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fruit", 
+                        "museumobject_count": 1167, 
+                        "source": "object", 
+                        "cis_id": "11868", 
+                        "museumobject_image_count": 857, 
+                        "type": "", 
+                        "slug": "fruit"
+                    }
+                }, 
+                {
+                    "pk": 48133, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "vine", 
+                        "museumobject_count": 185, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 161, 
+                        "type": "", 
+                        "slug": "vine"
+                    }
+                }
+            ], 
+            "date_text": "1780-1800 (made)", 
+            "primary_image_id": "2006AU2590", 
+            "rights": 3, 
+            "physical_description": "Foot: folded; Stem: plain; Bowl: ogee", 
+            "dimensions": "Height: 14.0 cm", 
+            "title": "", 
+            "date_start": "1780-01-01", 
+            "materials_techniques": "Glass with engraved decoration", 
+            "last_processed": "2014-03-31 19:07:21", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 45, shelf 5", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 9, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British", 
+                        "museumobject_count": 673, 
+                        "source": "cis_style_period", 
+                        "cis_id": "111159", 
+                        "museumobject_image_count": 220, 
+                        "type": "", 
+                        "slug": "british"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 6652, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "45", 
+                        "inventory_number": 356085, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.295-1925", 
+                        "museumobject": 5575, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c2951925", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 6088, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 5575, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c2951925", 
+            "object": "Wine glass", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 15, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drinking", 
+                        "museumobject_count": 5467, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2065, 
+                        "type": "", 
+                        "slug": "drinking"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:07:21", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "wine-glass-unknown", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 24635, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-07 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:26", 
+                        "priority": 0, 
+                        "image_id": "2006AU2590", 
+                        "sys_id": 162590, 
+                        "last_checked": "2014-03-31 17:13:26", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU2590.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 4027, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 5575, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O4058", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
