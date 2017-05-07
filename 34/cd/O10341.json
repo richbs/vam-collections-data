@@ -1,0 +1,342 @@
+[
+    {
+        "pk": 12795, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.213:1, 2-1993", 
+            "date_end": "1964-12-31", 
+            "labels": [], 
+            "descriptive_line": "Coffee pot and cover, part of 'Dorota' coffee service, moulded porcelain, glazed with sgraffito decoration, designed by Lubomir Tomaszewski, manufactured by \u0106miel\u00f3w Porcelain Factory, Poland, 1962.", 
+            "shape": "", 
+            "longitude": "19.13647100", 
+            "year_start": 1964, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1964 (designed)\n1962 (manufactured)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Coffee pot and cover, of organic shape with hole for pouring spout. Moulded porcelain with beetroot coloured glaze with wavy lines scratched into the body.", 
+            "dimensions": "Length: 19.5 cm, Height: 15 cm, Width: 9 cm", 
+            "title": "Dorota", 
+            "date_start": "1964-01-01", 
+            "materials_techniques": "Moulded porcelain, glazed with sgraffito decoration", 
+            "last_processed": "2014-03-31 19:36:24", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 20, shelf 1", 
+            "marks": "'C' within a triangle and 'Cmielow Made in Poland'\n '20'\n '5563 KL10'", 
+            "latitude": "51.92250800", 
+            "techniques": [
+                {
+                    "pk": 7, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "moulded", 
+                        "museumobject_count": 5554, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30076", 
+                        "museumobject_image_count": 2897, 
+                        "type": "", 
+                        "slug": "moulded"
+                    }
+                }, 
+                {
+                    "pk": 206, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "sgraffito", 
+                        "museumobject_count": 93, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53572", 
+                        "museumobject_image_count": 82, 
+                        "type": "", 
+                        "slug": "sgraffito"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 135, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glaze", 
+                        "museumobject_count": 2900, 
+                        "source": "cis_materials", 
+                        "cis_id": "15091", 
+                        "museumobject_image_count": 2542, 
+                        "type": "", 
+                        "slug": "glaze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 18613, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "20", 
+                        "inventory_number": 70749, 
+                        "room": "140", 
+                        "part_name": "Coffee pot", 
+                        "museum_number": "C.213:1-1993", 
+                        "museumobject": 12795, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "c21311993", 
+                        "gallery": 348
+                    }
+                }, 
+                {
+                    "pk": 18614, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "20", 
+                        "inventory_number": 318452, 
+                        "room": "140", 
+                        "part_name": "Cover", 
+                        "museum_number": "C.213:2-1993", 
+                        "museumobject": 12795, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "c21321993", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2861, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Lubomir Tomaszewski", 
+                        "gender": null, 
+                        "museumobject_count": 9, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A23868", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "tomaszewski-l-professor", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 2862, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Cmielow Porcelain Factory, Spolka Akcyjna", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A23739", 
+                        "museumobject_image_count": 11, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "cmielow-porcelain-factory-spolka-akcyjna", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 13795, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 197
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 12795, 
+                        "role": "manufactured", 
+                        "place": 197, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c2131993", 
+            "object": "Coffee pot and cover", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:36:24", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Crowley, David. Thaw modern: Design in Eastern Europe after 1956. In David Crowley and Jane Pavitt, (eds.) <u>Cold War Modern: Design 1945-1970</u>. London: Victoria and Albert Museum, 2008. pp.142-3, 145. ISBN. 978-1-851-77543-9", 
+            "vanda_exhibition_history": "", 
+            "slug": "dorota-coffee-pot-and-lubomir-tomaszewski", 
+            "sys_updated": "2014-01-13 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 197, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Poland", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 325, 
+                        "longitude": "19.13647100", 
+                        "source": "production", 
+                        "cis_id": "x29083", 
+                        "museumobject_image_count": 108, 
+                        "latitude": "51.92250800", 
+                        "type": "country", 
+                        "slug": "poland-x29083"
+                    }
+                }
+            ], 
+            "artist": "Lubomir Tomaszewski", 
+            "namecontext_set": [
+                {
+                    "pk": 12976, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2861
+                    }, 
+                    "fields": {
+                        "name": 2861, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 12795, 
+                        "role": "shape", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 12977, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2862
+                    }, 
+                    "fields": {
+                        "name": 2862, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 12795, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1964, 
+            "object_number": "O10341", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Lubomir Tomaszewski, a sculptor employed by the Institute of Industrial Design in Warsaw,was commissioned to investigate ideal ergonomic forms for tea and coffee ware in 1956. The resulting services, 'Ina' (1961) and 'Dorota' (1962) were strikingly elegant in their exaggerated organic styling.", 
+            "place": "Poland", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
