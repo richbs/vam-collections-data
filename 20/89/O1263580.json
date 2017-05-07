@@ -1,0 +1,243 @@
+[
+    {
+        "pk": 1115291, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.18-2013", 
+            "date_end": "1947-12-31", 
+            "labels": [], 
+            "descriptive_line": "Bracelet, silver, by  Alexander Calder, U.S.A.,  c.1945", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1945, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1946 (made)", 
+            "primary_image_id": "", 
+            "rights": 1, 
+            "physical_description": "A continuous strip of hand-beaten silver forming long deep curves that would fit close to the wrist. It is open at the back with the ends curled round, one side forming a simple spiral.", 
+            "dimensions": "Height: 72 mm, Width: 55 mm, Depth: 46 mm", 
+            "title": "", 
+            "date_start": "1945-01-01", 
+            "materials_techniques": "hand-beaten silver", 
+            "last_processed": "2014-04-27 05:57:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33198, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10280, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 32, shelf B, box 4", 
+            "marks": "unmarked", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8175, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3508, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1306842, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "4", 
+                        "case": "32", 
+                        "inventory_number": null, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "M.18-2013", 
+                        "museumobject": 1115291, 
+                        "shelf": "B", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m182013", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1956, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1897, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3851, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1976-11-11", 
+                        "surname": "", 
+                        "name": "Alexander Calder", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": 1976, 
+                        "source": "object_production", 
+                        "cis_id": "A7464", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1898-07-22", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "calder-alexander", 
+                        "birth_year": 1898
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 491746, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1115291, 
+                        "role": "made", 
+                        "place": 10, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m182013", 
+            "object": "bracelet", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24796, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10870, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8552, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5075, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 05:57:25", 
+            "public_access_description": "The American sculptor Alexander Calder (1898-1976) was born in Pennsylvania into a family of locally prominent sculptors, and trained initially in engineering. He is best known for his invention of the mobile, a term devised by Marcel Duchamp in response to Calder\u2019s innovative kinetic sculptures in the early 1930s. \n\nBy his own account, his first jewellery was made for his sister\u2019s dolls when he was aged 8, out of discarded copper wire. Wire remained an important element in his larger work and his preferred material for jewellery. He worked in both silver and brass, either hammering or twisting the wire to achieve strong, simple forms. \n\nThis bracelet made from an undulating length of flattened silver wire was made for the donor\u2019s mother, American artist Audrey Skaling. Her husband, the architect Stamo Papadaki, had first met Calder in Paris in the 1930s and subsequently the families were close neighbours in Connecticut for many years. Skaling clearly took great pleasure in this tactile and satisfying piece, and her daughter recalls that she \u2018never saw her without it\u2019.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "bracelet-alexander-calder", 
+            "sys_updated": "2014-02-14 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 10, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "United States", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 5106, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 1372, 
+                        "latitude": null, 
+                        "type": "country", 
+                        "slug": "united-states-x29333"
+                    }
+                }
+            ], 
+            "artist": "Alexander Calder", 
+            "namecontext_set": [
+                {
+                    "pk": 681838, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3851
+                    }, 
+                    "fields": {
+                        "name": 3851, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1115291, 
+                        "role": "designed and made by", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1947, 
+            "object_number": "O1263580", 
+            "events": [], 
+            "credit": "Given by Lucienne Papadaki Darby", 
+            "history_note": "The bracelet was made for the American artist Audrey Skaling, mother of the donor.", 
+            "place": "United States of America", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

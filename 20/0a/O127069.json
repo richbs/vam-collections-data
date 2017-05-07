@@ -1,0 +1,335 @@
+[
+    {
+        "pk": 99322, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.9-1944", 
+            "date_end": "1804-12-31", 
+            "labels": [], 
+            "descriptive_line": "Figure, sketch model, terracotta, Venus standing on a shell, by Joseph Nollekens, England, probably ca. 1800", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1795, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 165, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "shell", 
+                        "museumobject_count": 407, 
+                        "source": "object", 
+                        "cis_id": "x39877", 
+                        "museumobject_image_count": 285, 
+                        "type": "", 
+                        "slug": "shell"
+                    }
+                }, 
+                {
+                    "pk": 23957, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Venus", 
+                        "museumobject_count": 363, 
+                        "source": "name", 
+                        "cis_id": "N25", 
+                        "museumobject_image_count": 274, 
+                        "type": "", 
+                        "slug": "venus"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1800 (made)", 
+            "primary_image_id": "2008BU1529", 
+            "rights": 3, 
+            "physical_description": "Terracotta sketch model, Venus standing on a shell. A standing woman gathers drapery about her with her left hand. Her right arm is raised, forearm and hand missing.", 
+            "dimensions": "Height: 21 cm", 
+            "title": "Modesty", 
+            "date_start": "1795-01-01", 
+            "materials_techniques": "Terracotta", 
+            "last_processed": "2014-04-01 01:26:54", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 22, case 2", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 352, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Terracotta", 
+                        "museumobject_count": 786, 
+                        "source": "cis_materials", 
+                        "cis_id": "10669", 
+                        "museumobject_image_count": 457, 
+                        "type": "", 
+                        "slug": "terracotta"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 164583, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 376
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 87617, 
+                        "room": "22", 
+                        "part_name": "", 
+                        "museum_number": "A.9-1944", 
+                        "museumobject": 99322, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 22", 
+                        "museum_number_token": "a91944", 
+                        "gallery": 376
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 376, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "22", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 22", 
+                        "site_code": "VA", 
+                        "museumobject_count": 53, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49843", 
+                        "museumobject_image_count": 36, 
+                        "type": "", 
+                        "slug": "22-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1728, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1823-04-03", 
+                        "surname": "", 
+                        "name": "Nollekens, Joseph", 
+                        "gender": null, 
+                        "museumobject_count": 116, 
+                        "death_year": 1823, 
+                        "source": "object_production", 
+                        "cis_id": "A8699", 
+                        "museumobject_image_count": 39, 
+                        "forename": "", 
+                        "birth_date": "1737-08-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "nollekens-joseph", 
+                        "birth_year": 1737
+                    }
+                }, 
+                {
+                    "pk": 54, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Venus", 
+                        "gender": null, 
+                        "museumobject_count": 359, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N25", 
+                        "museumobject_image_count": 273, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "venus", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 96318, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 99322, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a91944", 
+            "object": "Figure", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 46, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Myths & Legends", 
+                        "museumobject_count": 2183, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1013, 
+                        "type": "", 
+                        "slug": "myths-legends"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:26:54", 
+            "public_access_description": "This small terracotta study, which is probably not related to any known finished work, exemplifies Nollekens's facility in handling clay. It may have been exhibited at the Royal Academy in 1800 and purchased, after Nollekens's death, by another sculptor, Peter Rouw, when it appeared in the sale of Nollekens's studio effects held on 4 July, 1823.\n\nNollekens was a prolific sculptor of portrait busts and operated a thriving workshop in London. He spent eight years in Rome from 1762 to 1770, where he worked with Bartolomeo Cavaceppi restoring and copying antique marbles. One of these copies, his group of Castor and Pollux, is in the Museum's collection (Museum no. A.59-1940). He probably perfected his modelling of clay while he was in Rome and started to experiment in making small figures or groups. These occasionally became models for large-scale finished marbles, but many, like this one, still in his studio at his death, were simply studies in their own right, which he called pensieri (thoughts).", 
+            "exhibition_history": "", 
+            "bibliography": "Illustrated in <u>Burlington Magazine</u>, LXXXV, September 1944, p. 222.\nBilbey, Diane with Trusted, Marjorie. <u>British Sculpture 1470 to 2000. A Concise Catalogue of the Collection at the Victoria and Albert Museum.</u> London: V& A Publications, 2002. pp. 103. cat. no. 140", 
+            "vanda_exhibition_history": "", 
+            "slug": "modesty-figure-nollekens-joseph", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 116071, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:33:03", 
+                        "priority": 0, 
+                        "image_id": "2008BU1529", 
+                        "sys_id": 371529, 
+                        "last_checked": "2014-03-31 17:33:03", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BU/2008BU1529.jpg"
+                    }
+                }, 
+                {
+                    "pk": 116063, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:33:03", 
+                        "priority": 1, 
+                        "image_id": "2008BU1521", 
+                        "sys_id": 371521, 
+                        "last_checked": "2014-03-31 17:33:03", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BU/2008BU1521.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Nollekens, Joseph", 
+            "namecontext_set": [
+                {
+                    "pk": 118320, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1728
+                    }, 
+                    "fields": {
+                        "name": 1728, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 99322, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 118321, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 54
+                    }, 
+                    "fields": {
+                        "name": 54, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 99322, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1804, 
+            "object_number": "O127069", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Sold on the second day of Christie's sale of Nollekens's studio effects, held on 4 July 1823, lot 40, and purchased by the sculptor Peter Rouw. Probably given by Mr Rouw to Mrs C.H. Smith. Thence by descent to Miss Zo\u00eb Gordon Smith. Given by Miss Zo\u00eb Gordon-Smith together with A.5-1944 to A.8-1944 and A.10-1944.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
