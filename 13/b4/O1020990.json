@@ -1,0 +1,310 @@
+[
+    {
+        "pk": 912567, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "3861:11", 
+            "date_end": "1769-12-31", 
+            "labels": [], 
+            "descriptive_line": "Elevation of a vase with a crossed laurel branch and recorder behind at Gower House, Whitehall; William Chambers.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1760, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48093, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "vase", 
+                        "museumobject_count": 506, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 343, 
+                        "type": "", 
+                        "slug": "vase"
+                    }
+                }, 
+                {
+                    "pk": 1286, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "laurel", 
+                        "museumobject_count": 177, 
+                        "source": "object", 
+                        "cis_id": "x38378", 
+                        "museumobject_image_count": 129, 
+                        "type": "", 
+                        "slug": "laurel"
+                    }
+                }, 
+                {
+                    "pk": 18511, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Gower House", 
+                        "museumobject_count": 15, 
+                        "source": "place", 
+                        "cis_id": "x44467", 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "gower-house"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1765 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Elevation of a vase with a crossed laurel branch and recorder behind at Gower House, Whitehall.", 
+            "dimensions": "Height: 483 mm, Width: 289 mm", 
+            "title": "", 
+            "date_start": "1760-01-01", 
+            "materials_techniques": "Pen and ink, pencil with pink and grey washes", 
+            "last_processed": "2014-04-26 22:56:28", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case 93, shelf E, box 24", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 55030, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27388, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }, 
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31965, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18774, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }, 
+                {
+                    "pk": 35, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wash", 
+                        "museumobject_count": 5440, 
+                        "source": "cis_materials", 
+                        "cis_id": "11051", 
+                        "museumobject_image_count": 1910, 
+                        "type": "", 
+                        "slug": "wash"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1047776, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "24", 
+                        "case": "93", 
+                        "inventory_number": 731761, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "3861:11", 
+                        "museumobject": 912567, 
+                        "shelf": "E", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "386111", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 361, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1796-03-08", 
+                        "surname": "", 
+                        "name": "Chambers, William (Sir)", 
+                        "gender": null, 
+                        "museumobject_count": 903, 
+                        "death_year": 1796, 
+                        "source": "object_production", 
+                        "cis_id": "A8236", 
+                        "museumobject_image_count": 421, 
+                        "forename": "", 
+                        "birth_date": "1723-02-23", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "sir-william-chambers", 
+                        "birth_year": 1723
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 425969, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 19607
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 912567, 
+                        "role": "subject", 
+                        "place": 19607, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "386111", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 73110, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36746, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 22:56:28", 
+            "public_access_description": "Gower House was the first chance Chambers had to design a metropolitan house for a member of the nobility. The combination of ingenious planning and restrained elegance made his reputation in London, and led directly to further commissions for Melbourne House in London and Dundas House in Edinburgh. The elevation and all five plans represent early stages in the design of Gower House, i.e. c.1765.\n\nChambers was born in Sweden and died in London. He travelled widely, visiting China, and studied architecture at the Ecole des Arts, Paris, from 1749 and in Italy from 1750 to 1755.  Many of his drawings from this period are contained in his important 'Franco-Italian' album, held in the V&A.  Chambers moved to London in 1755 and published his influential Treatise on Civil Architecture in 1759.  Chambers demonstrated the breadth of his style in buildings such as Gower (later Carrington) House and Melbourne House, London, in such country houses as Duddingston, Scotland, and in the garden architecture he designed for Wilton House, Wiltshire, and at Kew Gardens. He became head of government building in 1782, and in this capacity built Somerset House, London.", 
+            "exhibition_history": "", 
+            "bibliography": "Snodin Catalogue Number: 659", 
+            "vanda_exhibition_history": "", 
+            "slug": "drawing-chambers-william", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 19607, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Gower House", 
+                        "parent": null, 
+                        "country": "", 
+                        "museumobject_count": 15, 
+                        "longitude": "-103.90050900", 
+                        "source": "cis_subject_place", 
+                        "cis_id": "x44467", 
+                        "museumobject_image_count": 9, 
+                        "latitude": "34.64960000", 
+                        "type": "inhabited place", 
+                        "slug": "gower-house-x44467"
+                    }
+                }
+            ], 
+            "artist": "Chambers, William", 
+            "namecontext_set": [
+                {
+                    "pk": 556072, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 361
+                    }, 
+                    "fields": {
+                        "name": 361, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 912567, 
+                        "role": "designers", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1769, 
+            "object_number": "O1020990", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Bought from B. Quaritch, 1863 (Yenn Album).", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "Gower House was the first chance Chambers had to design a metropolitan house for a member of the nobility. The combination of ingenious planning and restrained elegance made his reputation in London, and led directly to further commissions for Melbourne House in London and Dundas House in Edinburgh. The elevation and all five plans represent early stages in the design of Gower House, i.e. c.1765.", 
+            "collection_code": "PDP"
+        }
+    }
+]
