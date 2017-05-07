@@ -1,0 +1,367 @@
+[
+    {
+        "pk": 919375, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "DYCE.234", 
+            "date_end": "1594-12-31", 
+            "labels": [], 
+            "descriptive_line": "Tintoretto, Jacopo; The Pentecost - The Descent of the Holy Ghost; Composition of many figures; Pen on grey paper, slightly washed with neutral tint; Italian; ca.1540-1594.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1535, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "figures", 
+                        "museumobject_count": 3085, 
+                        "source": "object", 
+                        "cis_id": "x31098", 
+                        "museumobject_image_count": 2334, 
+                        "type": "", 
+                        "slug": "figures"
+                    }
+                }, 
+                {
+                    "pk": 28562, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Holy Ghost", 
+                        "museumobject_count": 10, 
+                        "source": "name", 
+                        "cis_id": "N7638", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "holy-ghost"
+                    }
+                }
+            ], 
+            "date_text": "ca.1540-1594 (made)", 
+            "primary_image_id": "2010EF7197", 
+            "rights": 3, 
+            "physical_description": "The Pentecost - The Descent of the Holy Ghost; Composition of many figures; Pen on grey paper, slightly washed with neutral tint.", 
+            "dimensions": "Height: 11.3 in, Width: 7.9 in", 
+            "title": "The Pentecost", 
+            "date_start": "1535-01-01", 
+            "materials_techniques": "Pen on grey paper, slightly washed with neutral tint", 
+            "last_processed": "2014-04-26 23:09:59", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case DG, shelf 18", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }, 
+                {
+                    "pk": 347, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "wash technique", 
+                        "museumobject_count": 2090, 
+                        "source": "cis_techniques", 
+                        "cis_id": "182748", 
+                        "museumobject_image_count": 963, 
+                        "type": "", 
+                        "slug": "wash-technique"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1096, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "grey paper", 
+                        "museumobject_count": 221, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35538", 
+                        "museumobject_image_count": 80, 
+                        "type": "", 
+                        "slug": "grey-paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 152, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Venetian School", 
+                        "museumobject_count": 131, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x36536", 
+                        "museumobject_image_count": 127, 
+                        "type": "", 
+                        "slug": "venetian-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 1054586, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DG", 
+                        "inventory_number": 691811, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "DYCE.234", 
+                        "museumobject": 919375, 
+                        "shelf": "18", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "dyce234", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3208, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1594-12-31", 
+                        "surname": "", 
+                        "name": "Tintoretto, Jacopo", 
+                        "gender": null, 
+                        "museumobject_count": 52, 
+                        "death_year": 1594, 
+                        "source": "object_production", 
+                        "cis_id": "A9608", 
+                        "museumobject_image_count": 51, 
+                        "forename": "", 
+                        "birth_date": "1519-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "tintoretto-jacopo-robusti", 
+                        "birth_year": 1519
+                    }
+                }, 
+                {
+                    "pk": 11047, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Holy Ghost", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N7638", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "holy-ghost", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 427728, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 919375, 
+                        "role": "drawn", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "dyce234", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 23:09:59", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>DYCE COLLECTION. A Catalogue of the Paintings, Miniatures, Drawings, Engravings, Rings and Miscellaneous Objects Bequeathed by The Reverend Alexander Dyce</u>. London : South Kensington Museum, 1874.\nThe relevant text of the entry is as follows:\n\n'VENETIAN SCHOOL.\n...\nJACOPO ROBUSTI, called TINTORETTO.\nBorn at Venice in 1512, and died there in 1594.\n\nDESCENT of the HOLY GHOST, a composition of many figures. Pen on grey paper, slightly washed with neutral tint.  234\n<i>Height,</i> 11 3/12 <i>inches.  Width,</i> 7 11/12 <i>inches. With an arched top.</i>\nCollections-Jonathan Richardson and Sir Joshua Reynolds.'\nWard-Jackson, Peter, <u>Italian Drawings Volume I. 14th-16th century</u>, London: Her Majesty's Stationary Office, 1979, p. 226. The text is as follows: VENICE: late 16th century 507 The Pentecost Pen and ink and wash on blue paper; with arched top 11 \u00bd x 8 1/8 (293 x 206) Dyce 234 PROVENANCE J. Richardson, Sr (Lugt 2183); Sir J. Reynolds (Lugt 2364); Dyce Bequest 1869 LITERATURE <i>Dyce Catalogue </i>no. 234 (as by Jacopo Tintoretto) The old attribution to Tintoretto, maintained till lately, is clearly wrong, though his influence may be present. The drawing may be by a Flemish aritist working in Italy, like Hans Speeckaert. The compostion is reminiscent of Titian\u2019s painting in S. Maria della Salute, Venice.", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-pentecost-drawing-tintoretto-jacopo", 
+            "sys_updated": "2014-01-21 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 213683, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-13 00:00:00", 
+                        "last_processed": "2014-04-25 14:29:12", 
+                        "priority": 0, 
+                        "image_id": "2010EF7197", 
+                        "sys_id": 897197, 
+                        "last_checked": "2014-04-25 14:29:12", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EF/2010EF7197.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 13024, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5200, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Tintoretto, Jacopo", 
+            "namecontext_set": [
+                {
+                    "pk": 558598, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3208
+                    }, 
+                    "fields": {
+                        "name": 3208, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 919375, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 558599, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11047
+                    }, 
+                    "fields": {
+                        "name": 11047, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 919375, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1594, 
+            "object_number": "O1028509", 
+            "events": [
+                {
+                    "pk": 153, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "Pentecost", 
+                        "date_end": null, 
+                        "museumobject_count": 13, 
+                        "year_end": null, 
+                        "source": "subject", 
+                        "cis_id": "V32", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "pentecost-v32"
+                    }
+                }
+            ], 
+            "credit": "Bequeathed by Rev. Alexander Dyce", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
