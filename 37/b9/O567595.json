@@ -1,0 +1,266 @@
+[
+    {
+        "pk": 482336, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1512-1959", 
+            "date_end": "1776-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, Frontispiece to 'Songs, duets etc. in the Duenna\u2026as performed at the Theatre Royal in Covent Garden written by\u2026Sheriden', 15th edition, London 1776.  Engraving by F. Bartolozzi after G. B. Cipriani.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1776, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1776 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print; engraved frontispiece.", 
+            "dimensions": "Height: 20.3 cm cut to, Width: 14 cm cut to", 
+            "title": "", 
+            "date_start": "1776-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 18:41:01", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case K, shelf 6, box B", 
+            "marks": "'G. B. Cipriani inv. et del. 1776.  F. Bartolozzi. sculp. 1776.'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 616769, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "K", 
+                        "inventory_number": 1257475, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.1512-1959", 
+                        "museumobject": 482336, 
+                        "shelf": "6", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e15121959", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1533, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1815-12-31", 
+                        "surname": "", 
+                        "name": "Bartolozzi", 
+                        "gender": null, 
+                        "museumobject_count": 138, 
+                        "death_year": 1815, 
+                        "source": "object_production", 
+                        "cis_id": "A1516", 
+                        "museumobject_image_count": 93, 
+                        "forename": "", 
+                        "birth_date": "1727-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bartolozzi-francesco", 
+                        "birth_year": 1727
+                    }
+                }, 
+                {
+                    "pk": 2137, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1785-12-14", 
+                        "surname": "", 
+                        "name": "Cipriani", 
+                        "gender": null, 
+                        "museumobject_count": 30, 
+                        "death_year": 1785, 
+                        "source": "object_production", 
+                        "cis_id": "A1731", 
+                        "museumobject_image_count": 15, 
+                        "forename": "", 
+                        "birth_date": "1727-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "cipriani-giovanni-battista", 
+                        "birth_year": 1727
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 298744, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482336, 
+                        "role": "printed", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e15121959", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:41:01", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1959 </u>. London: HMSO, 1964.\nThe full text of the entry is as follows:\n\n\"<b>BARTOLOZZI, Francesco, R.A. (1727-1815)</b> \n \nFrontispiece to <i>Songs, duets etc. in the Duenna\u2026as performed at the Theatre Royal in Covent Garden written by\u2026Sheriden</i>, 15th edition, London 1776.  (B.di V.1787, 3rd state) \n<i>Lettered</i> G. B. Cipriani inv. et del. 1776.  F. Bartolozzi. sculp. 1776. \n<i>Engraving.  Cut to</i> 20.3 x 14 cm.          E.1512-1959 \n \nGiven by Lt.-Col. R. G. Elwes, OBE\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "print-bartolozzi-francesco", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Bartolozzi, Francesco", 
+            "namecontext_set": [
+                {
+                    "pk": 397204, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1533
+                    }, 
+                    "fields": {
+                        "name": 1533, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482336, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 397205, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2137
+                    }, 
+                    "fields": {
+                        "name": 2137, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 482336, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1776, 
+            "object_number": "O567595", 
+            "events": [], 
+            "credit": "Given by Lt.-Col. R. G. Elwes, OBE", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
