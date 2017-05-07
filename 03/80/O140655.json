@@ -1,0 +1,283 @@
+[
+    {
+        "pk": 110220, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.125-1984", 
+            "date_end": "1940-12-31", 
+            "labels": [], 
+            "descriptive_line": "Stoneware vase made by Otto Lindig, probably at Dornburg, ca. 1935-1940", 
+            "shape": "", 
+            "longitude": "8.02261000", 
+            "year_start": 1930, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1935-1940 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Vase of rounded form with low foot and rim, made of buff stoneware. Covered on the outside with a speckled and streaked white over a chocolate brown glaze, the inside with a white slip and clear glaze", 
+            "dimensions": "Height: 20.5 cm, Diameter: 16.7 cm", 
+            "title": "", 
+            "date_start": "1930-01-01", 
+            "materials_techniques": "Stoneware and slip, glazed", 
+            "last_processed": "2014-04-01 02:15:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Ceramics Study Galleries, Britain & Europe, room 139, case 45, shelf 5", 
+            "marks": "A crossed circle and 3 individual lines", 
+            "latitude": "50.50397900", 
+            "techniques": [
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 159, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "stoneware", 
+                        "museumobject_count": 3966, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30197", 
+                        "museumobject_image_count": 3509, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }, 
+                {
+                    "pk": 268, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "slip", 
+                        "museumobject_count": 950, 
+                        "source": "cis_materials", 
+                        "cis_id": "10459", 
+                        "museumobject_image_count": 884, 
+                        "type": "", 
+                        "slug": "slip"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 178397, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 3195
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "45", 
+                        "inventory_number": 377142, 
+                        "room": "139", 
+                        "part_name": "", 
+                        "museum_number": "C.125-1984", 
+                        "museumobject": 110220, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "museum_number_token": "c1251984", 
+                        "gallery": 3195
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 3195, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "139", 
+                        "site_name": "", 
+                        "name": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "site_code": "VA", 
+                        "museumobject_count": 12503, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49874", 
+                        "museumobject_image_count": 12417, 
+                        "type": "", 
+                        "slug": "139-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2863, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1966-12-31", 
+                        "surname": "", 
+                        "name": "Lindig, Otto", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": 1966, 
+                        "source": "object_production", 
+                        "cis_id": "A20575", 
+                        "museumobject_image_count": 11, 
+                        "forename": "", 
+                        "birth_date": "1895-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "otto-lindig", 
+                        "birth_year": 1895
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 108068, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 3543
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 110220, 
+                        "role": "made", 
+                        "place": 3543, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c1251984", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stoneware", 
+                        "museumobject_count": 3435, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3026, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }, 
+                {
+                    "pk": 81, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Vases", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 942, 
+                        "type": "", 
+                        "slug": "vases"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:15:05", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Jakobson, Hans-Peter. <u>Otto Lindig: der T\u00f6pfer, 1895-1966</u>. Exhibition catalogue. Gera: Museen der Stadt Gera, Museum f\u00fcr Kunsthandwerk / Karlsruhe : Badisches Landesmuseum Karlsruhe, 1990.", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-lindig-otto", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 3543, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Dornburg", 
+                        "parent": null, 
+                        "country": "Germany", 
+                        "museumobject_count": 4, 
+                        "longitude": "8.02261000", 
+                        "source": "production", 
+                        "cis_id": "x41239", 
+                        "museumobject_image_count": 4, 
+                        "latitude": "50.50397900", 
+                        "type": "inhabited place", 
+                        "slug": "dornburg-germany-x41239"
+                    }
+                }
+            ], 
+            "artist": "Lindig, Otto", 
+            "namecontext_set": [
+                {
+                    "pk": 131955, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2863
+                    }, 
+                    "fields": {
+                        "name": 2863, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 110220, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1940, 
+            "object_number": "O140655", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Dornburg", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
