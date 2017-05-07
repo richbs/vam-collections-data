@@ -1,0 +1,389 @@
+[
+    {
+        "pk": 116284, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "SD.724", 
+            "date_end": "1824-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour, A Mamluk from Aleppo, about 1816-1824, by William Page", 
+            "shape": "", 
+            "longitude": "39.05600000", 
+            "year_start": 1811, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1351, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Syria", 
+                        "museumobject_count": 694, 
+                        "source": "place", 
+                        "cis_id": "x29200", 
+                        "museumobject_image_count": 358, 
+                        "type": "", 
+                        "slug": "syria"
+                    }
+                }, 
+                {
+                    "pk": 31513, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Mamluk", 
+                        "museumobject_count": 11, 
+                        "source": "object", 
+                        "cis_id": "21601", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "mamluk"
+                    }
+                }, 
+                {
+                    "pk": 12820, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Aleppo", 
+                        "museumobject_count": 4, 
+                        "source": "place", 
+                        "cis_id": "x28715", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "aleppo"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1816-1824 (painted)", 
+            "primary_image_id": "2008BV6614", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 37.7 cm, Width: 26.4 cm", 
+            "title": "A Mamluk from Aleppo", 
+            "date_start": "1811-01-01", 
+            "materials_techniques": "Watercolour over pencil, touched with white", 
+            "last_processed": "2014-04-01 02:38:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case 89, shelf SCX, box 8", 
+            "marks": "Inscribed on the back Aleppo. Mameluke", 
+            "latitude": "34.81480000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 54386, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27199, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }, 
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48108, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 27995, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Orientalism", 
+                        "museumobject_count": 2315, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31272", 
+                        "museumobject_image_count": 1552, 
+                        "type": "", 
+                        "slug": "orientalism"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 185397, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "8", 
+                        "case": "89", 
+                        "inventory_number": 110725, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "SD.724", 
+                        "museumobject": 116284, 
+                        "shelf": "SCX", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "sd724", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 35145, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1872-12-31", 
+                        "surname": "", 
+                        "name": "William Page", 
+                        "gender": null, 
+                        "museumobject_count": 44, 
+                        "death_year": 1872, 
+                        "source": "object_production", 
+                        "cis_id": "A21559", 
+                        "museumobject_image_count": 39, 
+                        "forename": "", 
+                        "birth_date": "1794-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "page-william-21559", 
+                        "birth_year": 1794
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 114264, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 24
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "Possibly", 
+                        "museumobject": 116284, 
+                        "role": "painted", 
+                        "place": 24, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 114265, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 24
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 116284, 
+                        "role": "subject", 
+                        "place": 24, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 114266, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 415
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 116284, 
+                        "role": "subject", 
+                        "place": 415, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "sd724", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:38:13", 
+            "public_access_description": "The Mamluks (literally `owned\u2019, i.e., slaves) had controlled Egypt from 1250 until the Ottoman conquest of 1516-17, yet even then they still continued to govern Egypt for the Ottoman Sultan, while paying tribute. Originally they had been a military caste of former slaves serving the Egyptian sultans. Young boys, mainly Kipchak Turks from regions north of the Black Sea, were bought from slave dealers and trained as warriors by previous generations of Mamluk amirs or commanders. They were set free on reaching adulthood, given a horse and arms, and then took employment with their former masters. In 1250, a group of Mamluk generals seized power from the Ayyubid dynasty, and ruled Egypt, even after the Ottoman conquest, until the time of Napoleon\u2019s invasion in 1797. Under the Mamluk Sultan Baybars, they had even defeated the Mongols in a pitched battle in 1260. Although to the end spectacularly brave horsemen, their power slowly declined. The Egyptian economy was weakened by the rise of European trading rivals and new trade routes, and by devastating visitations of the plague. After surviving the invasion by the French, and then the British, the Mamluks struggled on. Yet, apart from a few survivors, the most prominent were finally eliminated in a treacherous massacre by the new ruler of Egypt, the Albanian general Muhammad Ali in 1811.   \n\nThis is one of twenty-one costume figure studies, probably intended for illustration, by Page in the Museum\u2019s collections. They show Ottoman subjects of various ranks and occupations, both male and female. Page recorded in fine detail their elaborate costumes in the last years preceding the modernising reforms that steadily eroded many traditional forms of dress and behaviour. It is not clear how many Mamluks survived the massacre by Muhammad Ali in 1811, but the detail of the costume of this individual, and that it seems to be a kind of portrait, implies that Page saw this survivor first-hand. Unlike Henry Alken\u2019s preoccupation with horses [See SD.17], Page has focused his attention on the remarkable costume, including the embroidered shawl round the waist and the distinctive turban. The fact that he was a horseman is only suggested by the rope he is holding, and the long lance that had made the Mamluks so feared in battle.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "a-mamluk-from-aleppo-watercolour-page-william", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 123095, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-22 00:00:00", 
+                        "last_processed": "2014-03-31 17:34:30", 
+                        "priority": 0, 
+                        "image_id": "2008BV6614", 
+                        "sys_id": 386614, 
+                        "last_checked": "2014-03-31 17:34:30", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BV/2008BV6614.jpg"
+                    }
+                }, 
+                {
+                    "pk": 79807, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-22 00:00:00", 
+                        "last_processed": "2014-03-31 17:25:25", 
+                        "priority": 1, 
+                        "image_id": "2006BF4978", 
+                        "sys_id": 264978, 
+                        "last_checked": "2014-03-31 17:25:25", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BF/2006BF4978.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 24, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Syria", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 1829, 
+                        "longitude": "39.05600000", 
+                        "source": "production", 
+                        "cis_id": "x29200", 
+                        "museumobject_image_count": 920, 
+                        "latitude": "34.81480000", 
+                        "type": "country", 
+                        "slug": "syria-x29200"
+                    }
+                }, 
+                {
+                    "pk": 415, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 24
+                    }, 
+                    "fields": {
+                        "name": "Aleppo", 
+                        "parent": 24, 
+                        "country": "Syria", 
+                        "museumobject_count": 9, 
+                        "longitude": "37.15910000", 
+                        "source": "production", 
+                        "cis_id": "x28715", 
+                        "museumobject_image_count": 2, 
+                        "latitude": "36.21551100", 
+                        "type": "city/town", 
+                        "slug": "aleppo-syria-x28715"
+                    }
+                }
+            ], 
+            "artist": "Page, William", 
+            "namecontext_set": [
+                {
+                    "pk": 141089, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 35145
+                    }, 
+                    "fields": {
+                        "name": 35145, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 116284, 
+                        "role": "painter", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1824, 
+            "object_number": "O147702", 
+            "events": [], 
+            "credit": "Purchased with the assistance of The Art Fund, the National Heritage Memorial Fund, Shell International and the Friends of the V&A", 
+            "history_note": "According to Rodney Searight: - [SD720-738] `fr Maggs, June 1967,  \u00a3100' [+ 3 others, no longer in collection].", 
+            "place": "Syria", 
+            "production_note": "", 
+            "historical_context_note": "The costume studies SD.720-SD740 seem to divide into two categories; those which are apparently copied from other sources (SD.728,731,733 & 734), and those which are based on on-the-spot observation (SD.720-727, 729, 730, 732, 735-740). Possibly the copies, which seem less developed stylistically, were done before Page visited the Near East.  For discussions of the dating and origins of the studies, see J.H. Money, pp.13, 22 and 30; also C.W.J. Eliot, pp.424-5.  For details of another set of costume figure studies by Page, some identical to these, see Searight Archive.  See also C. de Brockdorff  and O. Dalvimart  for comparable studies. It has also been suggested (Searight Archive) that Page may well have been influenced by L. Dupr\u00e9, whom he could have met in Greece or Constantinople, in 1819-20.  The two artists are very close in style and format.  See L. Dupr\u00e9, Voyage A Ath\u00e8nes Et A Constantinople, Paris, 1825, in which many images bear comparison with Page.\nOnly one of Page's costume figure studies (SD.732), seems to have been published (see SP.443A).  The artist appears to have worked in two distinct styles: the first during the 1810s and early/mid 1820s, represented here by the costume studies and The Fountain of Babhoumayoun (SD.720-741); the second during the late 1820s and 1830s, represented here by the picturesque landscapes (SD.742-756).  Another group of landscapes from the second period, some signed W. Page are in the BM, PD.", 
+            "collection_code": "PDP"
+        }
+    }
+]
