@@ -1,0 +1,399 @@
+[
+    {
+        "pk": 1122803, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "600.00", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.322-2013", 
+            "date_end": "1995-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph by Ingrid Pollard from the series <i>Self Evident</i>, C-type print, 1995, printed 2013", 
+            "shape": "", 
+            "longitude": "0.57869800", 
+            "year_start": 1995, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23968, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fruit", 
+                        "museumobject_count": 1184, 
+                        "source": "object", 
+                        "cis_id": "11868", 
+                        "museumobject_image_count": 867, 
+                        "type": "", 
+                        "slug": "fruit"
+                    }
+                }, 
+                {
+                    "pk": 25828, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "ocean", 
+                        "museumobject_count": 17, 
+                        "source": "object", 
+                        "cis_id": "8687", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "ocean"
+                    }
+                }, 
+                {
+                    "pk": 74566, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Ross, Mo", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "AUTH330662", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "ross-mo"
+                    }
+                }
+            ], 
+            "date_text": "1995 (photographed)\n2013 (printed)", 
+            "primary_image_id": "", 
+            "rights": 1, 
+            "physical_description": "A colour photograph of a woman holding two halves of a watermelon with the ocean in the background.", 
+            "dimensions": "Width: 456 mm image, Height: 456 mm image, Width: 507 mm paper, Height: 507 mm paper", 
+            "title": "Self Evident; The Big & Little Series", 
+            "date_start": "1995-01-01", 
+            "materials_techniques": "C-type print", 
+            "last_processed": "2014-04-27 06:15:30", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2H, shelf DR6, box PHOTO", 
+            "marks": "", 
+            "latitude": "50.85619100", 
+            "techniques": [
+                {
+                    "pk": 12173, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "c-type process", 
+                        "museumobject_count": 81, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "c-type-process"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 219, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "photographic paper", 
+                        "museumobject_count": 6245, 
+                        "source": "cis_materials", 
+                        "cis_id": "14190", 
+                        "museumobject_image_count": 4887, 
+                        "type": "", 
+                        "slug": "photographic-paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 1030, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "art photography", 
+                        "museumobject_count": 44, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "art-photography"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 1314760, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "PHOTO", 
+                        "case": "MB2H", 
+                        "inventory_number": null, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.322-2013", 
+                        "museumobject": 1122803, 
+                        "shelf": "DR6", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e3222013", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 65525, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Ingrid Pollard", 
+                        "gender": null, 
+                        "museumobject_count": 14, 
+                        "death_year": null, 
+                        "source": "", 
+                        "cis_id": "A13924", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1953-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pollard-ingrid", 
+                        "birth_year": 1953
+                    }
+                }, 
+                {
+                    "pk": 85633, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Ross, Mo", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "AUTH330662", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "ross-mo", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 498602, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 108
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1122803, 
+                        "role": "photographed", 
+                        "place": 108, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "pounds sterling", 
+            "museum_number_token": "e3222013", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 21, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Advertising", 
+                        "museumobject_count": 4972, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 783, 
+                        "type": "", 
+                        "slug": "advertising"
+                    }
+                }, 
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 41092, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31513, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }, 
+                {
+                    "pk": 84, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Black History", 
+                        "museumobject_count": 920, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 569, 
+                        "type": "", 
+                        "slug": "black-history"
+                    }
+                }, 
+                {
+                    "pk": 85, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "African Diaspora", 
+                        "museumobject_count": 234, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 175, 
+                        "type": "", 
+                        "slug": "african-diaspora"
+                    }
+                }, 
+                {
+                    "pk": 1630, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Landscapes", 
+                        "museumobject_count": 1945, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 288, 
+                        "type": "", 
+                        "slug": "landscapes"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 06:15:30", 
+            "public_access_description": "Ingrid Pollard Ingrid was born in Guyana in 1953. Her photographic work explores Britain\u2019s hidden histories associated with Africa and the Caribbean and is often personal, reflecting her own experiences as a black, British, woman artist. She has received a number of awards and commissions and has had her work published in numerous magazines and books. Her work is held by Arts Council England and the National Trust as well as by the V&A, which holds her series Pastoral Interludes. \n\nSelf-Evident is a series of eight portraits of black men and women posed in English countryside scenes.  Each of them holds an object associated, with the Afro-Carribean diaspora.  These range from tropical flowers and a conch shell to objects with more stereotypical connotations such as fried chicken and watermelon.  These carefully composed, square format images will build on the V&A\u2019s existing holdings by Pollard, which are made with a different technique of hand-coloured gelatin silver prints combined with text.", 
+            "exhibition_history": "", 
+            "bibliography": "<i>Ingrid Pollard</i> Monograph (London, Autograph ABP: 1995), illustrated, pg. 16", 
+            "vanda_exhibition_history": "", 
+            "slug": "self-evident-the-big-little-photograph-ingrid-pollard", 
+            "sys_updated": "2014-03-28 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 108, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2929
+                    }, 
+                    "fields": {
+                        "name": "Hastings", 
+                        "parent": 2929, 
+                        "country": "England", 
+                        "museumobject_count": 157, 
+                        "longitude": "0.57869800", 
+                        "source": "production", 
+                        "cis_id": "x29435", 
+                        "museumobject_image_count": 35, 
+                        "latitude": "50.85619100", 
+                        "type": "city / town", 
+                        "slug": "hastings-england-x29435"
+                    }
+                }
+            ], 
+            "artist": "Ingrid Pollard", 
+            "namecontext_set": [
+                {
+                    "pk": 689594, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 65525
+                    }, 
+                    "fields": {
+                        "name": 65525, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1122803, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 689595, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 85633
+                    }, 
+                    "fields": {
+                        "name": 85633, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1122803, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1995, 
+            "object_number": "O1273154", 
+            "events": [], 
+            "credit": "Supported by the National Lottery through the Heritage Lottery Fund", 
+            "history_note": "The V&A acquired this photograph as part of the Staying Power project. Staying Power is a five year partnership between the V&A and Black Cultural Archives. The project aims to explore black British experience from the 1950s to the 1990s through photographs acquired by the V&A and oral histories conducted by Black Cultural Archives.", 
+            "place": "Hastings", 
+            "production_note": "", 
+            "historical_context_note": "Originally conceived as a series of small colour lightboxes displayed alongside large scale black and white prints of children.", 
+            "collection_code": "PDP"
+        }
+    }
+]
