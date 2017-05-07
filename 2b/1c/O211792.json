@@ -1,0 +1,202 @@
+[
+    {
+        "pk": 174234, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1415-2000", 
+            "date_end": "1884-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "1.17794500", 
+            "year_start": 1875, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1880 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Carte-de-visite photograph, portrait of lady, ca. 1880,", 
+            "dimensions": "", 
+            "title": "Portrait of a lady", 
+            "date_start": "1875-01-01", 
+            "materials_techniques": "Albumen print", 
+            "last_processed": "2014-04-01 05:49:08", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case MX8, shelf X290, box J", 
+            "marks": "", 
+            "latitude": "51.08443000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 252063, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "J", 
+                        "case": "MX8", 
+                        "inventory_number": 675584, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.1415-2000", 
+                        "museumobject": 174234, 
+                        "shelf": "X290", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e14152000", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 42325, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Weston, Lambert & Son", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A25386", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "weston-lambert-son", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 162046, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1092
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 174234, 
+                        "role": "made", 
+                        "place": 1092, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e14152000", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-04-01 05:49:08", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "portrait-of-a-lady-photograph-weston-lambert-son", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1092, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Folkestone", 
+                        "parent": null, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 26, 
+                        "longitude": "1.17794500", 
+                        "source": "production", 
+                        "cis_id": "x31157", 
+                        "museumobject_image_count": 3, 
+                        "latitude": "51.08443000", 
+                        "type": "city/town", 
+                        "slug": "folkestone-united-kingdom-x31157"
+                    }
+                }
+            ], 
+            "artist": "Weston, Lambert & Son", 
+            "namecontext_set": [
+                {
+                    "pk": 220122, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 42325
+                    }, 
+                    "fields": {
+                        "name": 42325, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 174234, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1884, 
+            "object_number": "O211792", 
+            "events": [], 
+            "credit": "Transferred from the British Museum", 
+            "history_note": "", 
+            "place": "Folkestone", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
