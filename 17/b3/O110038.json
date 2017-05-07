@@ -1,0 +1,427 @@
+[
+    {
+        "pk": 85094, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.604-2004", 
+            "date_end": "1938-12-31", 
+            "labels": [], 
+            "descriptive_line": "\"Der f\u00fchrer hilft...\" German World War II propaganda by Overmermeyer. 1938.", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1938, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 639, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "war", 
+                        "museumobject_count": 667, 
+                        "source": "concept", 
+                        "cis_id": "x35624", 
+                        "museumobject_image_count": 228, 
+                        "type": "", 
+                        "slug": "war"
+                    }
+                }, 
+                {
+                    "pk": 26623, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "propaganda", 
+                        "museumobject_count": 614, 
+                        "source": "concept", 
+                        "cis_id": "55539", 
+                        "museumobject_image_count": 235, 
+                        "type": "", 
+                        "slug": "propaganda"
+                    }
+                }, 
+                {
+                    "pk": 3830, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Germany", 
+                        "museumobject_count": 242, 
+                        "source": "place", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 60, 
+                        "type": "", 
+                        "slug": "germany"
+                    }
+                }, 
+                {
+                    "pk": 26630, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Hitler, Adolf", 
+                        "museumobject_count": 47, 
+                        "source": "name", 
+                        "cis_id": "N1953", 
+                        "museumobject_image_count": 28, 
+                        "type": "", 
+                        "slug": "hitler-adolf"
+                    }
+                }
+            ], 
+            "date_text": "1938 (made)", 
+            "primary_image_id": "", 
+            "rights": 1, 
+            "physical_description": "", 
+            "dimensions": "", 
+            "title": "The F\u00fchrer helps you - so help the F\u00fchrer", 
+            "date_start": "1938-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-04-01 00:22:39", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case Y62, shelf E", 
+            "marks": "The F\u00fchrer helps you/ so help the F\u00fchrer\n'Winterhilfswerk' [Wintertime Help Organisation] 1938/39\n[deisgned by] Overmeyer, D\u00fcsseldorf\n[printed by] Sch\u00f6tt A. G. Rheydt", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ink", 
+                        "museumobject_count": 22898, 
+                        "source": "cis_materials", 
+                        "cis_id": "187371", 
+                        "museumobject_image_count": 13758, 
+                        "type": "", 
+                        "slug": "ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 145351, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "Y62", 
+                        "inventory_number": 721298, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.604-2004", 
+                        "museumobject": 85094, 
+                        "shelf": "E", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e6042004", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 61258, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Overmeyer", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A14253", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "overmeyer", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 61259, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Sch\u00f6tt A.G. Rheydt", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A14254", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "schott-ag-rheydt", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 5971, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1945-04-30", 
+                        "surname": "", 
+                        "name": "Hitler", 
+                        "gender": null, 
+                        "museumobject_count": 48, 
+                        "death_year": 1945, 
+                        "source": "content", 
+                        "cis_id": "N1953", 
+                        "museumobject_image_count": 29, 
+                        "forename": "", 
+                        "birth_date": "1889-04-20", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hitler-adolf", 
+                        "birth_year": 1889
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 81551, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85094, 
+                        "role": "made", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 81552, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85094, 
+                        "role": "subject", 
+                        "place": 5, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e6042004", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 124, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Propaganda", 
+                        "museumobject_count": 1560, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 696, 
+                        "type": "", 
+                        "slug": "propaganda"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:22:39", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-fuhrer-helps-you-so-poster-overmeyer", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }
+            ], 
+            "artist": "Overmeyer", 
+            "namecontext_set": [
+                {
+                    "pk": 100166, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 61258
+                    }, 
+                    "fields": {
+                        "name": 61258, 
+                        "part_name": "", 
+                        "uncertainty": "[unclear]", 
+                        "museumobject": 85094, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 100167, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 61259
+                    }, 
+                    "fields": {
+                        "name": 61259, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85094, 
+                        "role": "printer", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 100168, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5971
+                    }, 
+                    "fields": {
+                        "name": 5971, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85094, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1938, 
+            "object_number": "O110038", 
+            "events": [
+                {
+                    "pk": 13, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "World War II (1939-45)", 
+                        "date_end": null, 
+                        "museumobject_count": 271, 
+                        "year_end": null, 
+                        "source": "associated", 
+                        "cis_id": "V16", 
+                        "museumobject_image_count": 103, 
+                        "type": "", 
+                        "slug": "world-war-ii-1939-45-v16"
+                    }
+                }
+            ], 
+            "credit": "Gift of the American Friends of the V&A; Gift to the American Friends by Leslie, Judith and Gabri Schreyer and Alice Schreyer Batko", 
+            "history_note": "", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

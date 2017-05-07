@@ -1,0 +1,245 @@
+[
+    {
+        "pk": 1018812, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.404-2009", 
+            "date_end": "2009-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph by Indre Serpytyte, 'IS 016 (1944-1991), Former NKVD - MVD - MGB - KGB Buildings, 13 Vytanto Street, Prienu Miestas, 2009', Lamba fibre base print, edition 2/5 and 1 AP.", 
+            "shape": "", 
+            "longitude": "23.95990000", 
+            "year_start": 2009, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 13190, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Lithuania", 
+                        "museumobject_count": 2, 
+                        "source": "place", 
+                        "cis_id": "x36790", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "lithuania"
+                    }
+                }
+            ], 
+            "date_text": "2009 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Black and white photograph of a model of a house.", 
+            "dimensions": "Length: 62.6 cm, Height: 50.8 cm", 
+            "title": "IS 016 (1944-1991), Former NKVD - MVD - MGB - KGB Buildings, 13 Vytanto Street, Prienu Miestas, 2009", 
+            "date_start": "2009-01-01", 
+            "materials_techniques": "Lamba fibre base print mounted on 8 ply cotton board and framed", 
+            "last_processed": "2014-04-27 02:10:23", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case TECHS", 
+            "marks": "Label on verso, with signature:\nIS 016\n(1944-1991)\nFormer NKVD - MVD - MGB - KGB Buildings\n13 Vytanto Street, Prienu Miestas, 2009\nLamba Fibre base print, ed. 2/5 and 1 AP\n62.6 cm x 50.8 cm\nmounted on 8 ply cotton board", 
+            "latitude": "55.17400000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1201893, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "TECHS", 
+                        "inventory_number": 1400792, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.404-2009", 
+                        "museumobject": 1018812, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e4042009", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 44831, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Serpytyte, Indre", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A27690", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "serpytyte-indre", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 444014, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 938
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1018812, 
+                        "role": "made", 
+                        "place": 938, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 444015, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 938
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1018812, 
+                        "role": "subject", 
+                        "place": 938, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e4042009", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 41092, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31513, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 02:10:23", 
+            "public_access_description": "Indre Serpytyte's series of photographs 'Former NKVD - MVD - MGB - KGB Buildings' is centred on the after effects of WWII in Lithuania. Her black and white images of houses tell with graceful economy the poignant and almost forgotten story of what she calls a 'brutal, inhumane' war, in which people were interrogated and tortured in what were once family homes. She commissioned hand-carved wooden models from a Lithuanian craftsperson who based them on her photographs and archival imagery of the houses which Serpytype revisited and researched in depth. Rather than representing the buildings themselves, or showing the inhabitants or victims directly, Serpytyte chooses a diverse approach in which the photographs of the models are the finished artworks. In using models, and a collaborative working process based on archival research and site visits, she is commenting on both the physical and humanitarian scale and memory of the events as filtered over time. In total her works make a powerful humanitarian statement about resistance, memory, fortitude and the long process of healing after trauma.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "is-016-1944-1991-former-photograph-serpytyte-indre", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 938, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Lithuania", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 50, 
+                        "longitude": "23.95990000", 
+                        "source": "production", 
+                        "cis_id": "x36790", 
+                        "museumobject_image_count": 41, 
+                        "latitude": "55.17400000", 
+                        "type": "country", 
+                        "slug": "lithuania-x36790"
+                    }
+                }
+            ], 
+            "artist": "Serpytyte, Indre", 
+            "namecontext_set": [
+                {
+                    "pk": 575694, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 44831
+                    }, 
+                    "fields": {
+                        "name": 44831, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1018812, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2009, 
+            "object_number": "O1135554", 
+            "events": [], 
+            "credit": "Given by Indre Serpytyte", 
+            "history_note": "", 
+            "place": "Lithuania", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

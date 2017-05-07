@@ -1,0 +1,201 @@
+[
+    {
+        "pk": 5295, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.262-1937", 
+            "date_end": "0700-12-31", 
+            "labels": [
+                {
+                    "pk": 1399, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 5295, 
+                        "label_text": "Found at Marchelepot, Amiens, France"
+                    }
+                }
+            ], 
+            "descriptive_line": "Cup, probably France (Frankish), , 575-699, C.262-1937  .", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 550, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "late 6th century  - 7th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 6.0 cm, Width: 8.2 cm greatest width", 
+            "title": "", 
+            "date_start": "0550-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-03-31 19:06:39", 
+            "label": "Found at Marchelepot, Amiens, France", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 3, shelf 3", 
+            "marks": "", 
+            "latitude": "46.71244800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 87, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "EUROPE", 
+                        "museumobject_count": 960, 
+                        "source": "cis_style_period", 
+                        "cis_id": "20656", 
+                        "museumobject_image_count": 190, 
+                        "type": "", 
+                        "slug": "europe"
+                    }
+                }, 
+                {
+                    "pk": 557, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Frankish", 
+                        "museumobject_count": 15, 
+                        "source": "cis_style_period", 
+                        "cis_id": "19478", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "frankish"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 6368, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "3", 
+                        "inventory_number": 359783, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.262-1937", 
+                        "museumobject": 5295, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c2621937", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 5766, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 5295, 
+                        "role": "made", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c2621937", 
+            "object": "Cup", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:06:39", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "cup", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 700, 
+            "object_number": "O3778", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "Frankish;  Attr. date Prof. Vera Evison, 24-I-95", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
