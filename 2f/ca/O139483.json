@@ -1,0 +1,423 @@
+[
+    {
+        "pk": 109195, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "909-1872", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Group of three amulets on a steel split ring, Schw\u00e4bisch Gm\u00fcnd (South Germany), 1750-1800.", 
+            "shape": "", 
+            "longitude": "9.17192500", 
+            "year_start": 1750, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 11625, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fist", 
+                        "museumobject_count": 10, 
+                        "source": "object", 
+                        "cis_id": "x38371", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "fist"
+                    }
+                }, 
+                {
+                    "pk": 31503, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Walpurgis", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N6950", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "walpurgis"
+                    }
+                }
+            ], 
+            "date_text": "1750-1800 (made)", 
+            "primary_image_id": "2006BJ5032", 
+            "rights": 3, 
+            "physical_description": "Group of three amulets on a split ring.\na). Neidfeige.  Bone pendant of a clenched fist, with the thumb sticking up between the first and second fingers.\nb). Schneckendeckel.  Operculum shell set in a silver rim, with lightly-engraved tooth mounts.\nc). Walburgisb\u00fcchse.  Small cylindrical filigree box with domed filigree lid with screw fastening.  On the sides, the letters 'S', 'W' and 'B' are incorporated in the filigree pattern.", 
+            "dimensions": "Height: 5.6 cm, Width: 4.8 cm, Depth: 1.6 cm", 
+            "title": "", 
+            "date_start": "1750-01-01", 
+            "materials_techniques": "Silver filigree, operculum shell and bone", 
+            "last_processed": "2014-04-01 02:10:38", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91 mezzanine, case 72, shelf A, box 8", 
+            "marks": "", 
+            "latitude": "48.76767500", 
+            "techniques": [
+                {
+                    "pk": 45, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "filigree", 
+                        "museumobject_count": 768, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x35885", 
+                        "museumobject_image_count": 270, 
+                        "type": "", 
+                        "slug": "filigree"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }, 
+                {
+                    "pk": 108, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "bone", 
+                        "museumobject_count": 302, 
+                        "source": "cis_materials", 
+                        "cis_id": "11798", 
+                        "museumobject_image_count": 132, 
+                        "type": "", 
+                        "slug": "bone"
+                    }
+                }, 
+                {
+                    "pk": 120, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "shell", 
+                        "museumobject_count": 164, 
+                        "source": "cis_materials", 
+                        "cis_id": "x39877", 
+                        "museumobject_image_count": 118, 
+                        "type": "", 
+                        "slug": "shell"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 177138, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1080
+                    }, 
+                    "fields": {
+                        "box": "8", 
+                        "case": "72", 
+                        "inventory_number": 569391, 
+                        "room": "91M", 
+                        "part_name": "", 
+                        "museum_number": "909-1872", 
+                        "museumobject": 109195, 
+                        "shelf": "A", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91 mezzanine", 
+                        "museum_number_token": "9091872", 
+                        "gallery": 1080
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1080, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91M", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91 mezzanine", 
+                        "site_code": "VA", 
+                        "museumobject_count": 904, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49137", 
+                        "museumobject_image_count": 895, 
+                        "type": "", 
+                        "slug": "91m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 33900, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "0779-12-31", 
+                        "surname": "", 
+                        "name": "Walpurgis", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 779, 
+                        "source": "content", 
+                        "cis_id": "N6950", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "0710-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "walpurgis", 
+                        "birth_year": 710
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 106991, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2960
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 109195, 
+                        "role": "made", 
+                        "place": 2960, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 106992, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 309
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 109195, 
+                        "role": "worn", 
+                        "place": 309, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "9091872", 
+            "object": "Amulet", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }, 
+                {
+                    "pk": 87, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Amulets", 
+                        "museumobject_count": 149, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 72, 
+                        "type": "", 
+                        "slug": "amulets"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:10:38", 
+            "public_access_description": "Before the development of modern medicine, fevers, cramps and toothache could be painful and dangerous. Childbirth could kill mother or child. Many people believed that the supernatural powers embodied in an amulet could promote fertility and good health and offer protection against malign forces or the 'evil eye'. \n\nThe amulets were made of organic materials thought to have protective powers, such as jet or horn, or were set with propitious symbols. Although the Catholic Church was opposed to the pagan nature of many amulets, it was powerless to prevent their use.\n\nThere are three amulets on this ring.  The bone fist (Neidfeige), with a thumb protruding between the first and second fingers, is a very old symbol, dating back at least to Roman times.  It is found throughout Europe, perhaps most commonly in Italy, and protects against the 'evil eye'.   \n\nThe operculum shell in a silver setting (Schneckendeckel) is a generic amulet worn mainly by women to promote fertility.\n\nThe small filigree case (Walburgisb\u00fcchse) with the letters S, W and B incorporated in the pattern, is a symbol of Walburgis oil.  St Walburga was a British missionary to Germany in the 8th century.  Her body was eventually buried at Eichst\u00e4tt, where a liquid (Walburgis oil) was collected from her bones.  It was considered highly effective against all kinds of infection and wounds.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "amulet-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 86579, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:53", 
+                        "priority": 0, 
+                        "image_id": "2006BJ5032", 
+                        "sys_id": 295032, 
+                        "last_checked": "2014-03-31 17:26:53", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ5032.jpg"
+                    }
+                }, 
+                {
+                    "pk": 86581, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:53", 
+                        "priority": 1, 
+                        "image_id": "2006BJ5034", 
+                        "sys_id": 295034, 
+                        "last_checked": "2014-03-31 17:26:53", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ5034.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 2960, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5179
+                    }, 
+                    "fields": {
+                        "name": "Schw\u00e4bisch Gm\u00fcnd", 
+                        "parent": 5179, 
+                        "country": "Germany", 
+                        "museumobject_count": 17, 
+                        "longitude": "9.17192500", 
+                        "source": "production", 
+                        "cis_id": "x38370", 
+                        "museumobject_image_count": 13, 
+                        "latitude": "48.76767500", 
+                        "type": "city / town", 
+                        "slug": "schwabisch-gmund-germany-x38370"
+                    }
+                }, 
+                {
+                    "pk": 309, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5
+                    }, 
+                    "fields": {
+                        "name": "Bavaria", 
+                        "parent": 5, 
+                        "country": "Germany", 
+                        "museumobject_count": 103, 
+                        "longitude": "12.53364000", 
+                        "source": "production", 
+                        "cis_id": "x28740", 
+                        "museumobject_image_count": 47, 
+                        "latitude": "47.79501000", 
+                        "type": "region / state", 
+                        "slug": "bavaria-germany-x28740"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 130478, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 109195, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 130479, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 33900
+                    }, 
+                    "fields": {
+                        "name": 33900, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 109195, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O139483", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Schw\u00e4bisch Gm\u00fcnd", 
+            "production_note": "Worn to promote fertility and encourage healing", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
