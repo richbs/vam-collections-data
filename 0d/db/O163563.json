@@ -1,0 +1,339 @@
+[
+    {
+        "pk": 130302, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.327&A-1955", 
+            "date_end": "1959-12-31", 
+            "labels": [
+                {
+                    "pk": 21978, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "16/07/2008", 
+                        "museumobject": 130302, 
+                        "label_text": "Muffin dish and cover\nDecoration designed by Edward Bawden, made at the factory of Josiah Wedgwood & Sons Ltd. (for the Orient Line), Etruria, Staffordshire c.1955\nporcelain, with printed decoration\n\nCirc.327&A-1955 Given by  The Orient Line"
+                    }
+                }
+            ], 
+            "descriptive_line": "Muffin dish and cover of bone china with lithographic transfer-printed 'Heartseas' pattern designed by Edward Bawden, made by Josiah Wedgwood & Sons Ltd. (for the Orient Line), Etruria, Staffordshire 1952", 
+            "shape": "", 
+            "longitude": "-2.20637200", 
+            "year_start": 1950, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1955 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Bone china muffin dish and cover with lithographic transfer-printed decoration in purple and black.", 
+            "dimensions": "", 
+            "title": "Heartseas", 
+            "date_start": "1950-01-01", 
+            "materials_techniques": "Bone china, liothographic transfer-printed", 
+            "last_processed": "2014-04-01 03:34:46", 
+            "label": "Muffin dish and cover\nDecoration designed by Edward Bawden, made at the factory of Josiah Wedgwood & Sons Ltd. (for the Orient Line), Etruria, Staffordshire c.1955\nporcelain, with printed decoration\n\nCirc.327&A-1955 Given by  The Orient Line [16/07/2008]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 6, shelf 4", 
+            "marks": "", 
+            "latitude": "53.02008100", 
+            "techniques": [
+                {
+                    "pk": 904, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "transfer-printed", 
+                        "museumobject_count": 1848, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1648, 
+                        "type": "", 
+                        "slug": "transfer-printed"
+                    }
+                }, 
+                {
+                    "pk": 73, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithograph", 
+                        "museumobject_count": 1212, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39981", 
+                        "museumobject_image_count": 555, 
+                        "type": "", 
+                        "slug": "lithograph"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 100, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "bone-china", 
+                        "museumobject_count": 983, 
+                        "source": "cis_materials", 
+                        "cis_id": "233473", 
+                        "museumobject_image_count": 721, 
+                        "type": "", 
+                        "slug": "bone-china"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 203108, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 70885, 
+                        "room": "140", 
+                        "part_name": "Muffin dish", 
+                        "museum_number": "CIRC.327-1955", 
+                        "museumobject": 130302, 
+                        "shelf": "4", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ3271955", 
+                        "gallery": 348
+                    }
+                }, 
+                {
+                    "pk": 203109, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 319685, 
+                        "room": "140", 
+                        "part_name": "Cover", 
+                        "museum_number": "CIRC.327A-1955", 
+                        "museumobject": 130302, 
+                        "shelf": "4", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ327a1955", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 5987, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1989-11-21", 
+                        "surname": "", 
+                        "name": "Bawden, Edward (C.B.E., R.A., R.D.I.)", 
+                        "gender": null, 
+                        "museumobject_count": 84, 
+                        "death_year": 1989, 
+                        "source": "object_production", 
+                        "cis_id": "A3108", 
+                        "museumobject_image_count": 36, 
+                        "forename": "", 
+                        "birth_date": "1903-03-10", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bawden-edward", 
+                        "birth_year": 1903
+                    }
+                }, 
+                {
+                    "pk": 106, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Josiah Wedgwood and Sons", 
+                        "gender": null, 
+                        "museumobject_count": 1332, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1450", 
+                        "museumobject_image_count": 1000, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "josiah-wedgwood-and-sons", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 129869, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 467
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 130302, 
+                        "role": "made", 
+                        "place": 467, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ3271955", 
+            "object": "Muffin dish and cover", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 115, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Bone China", 
+                        "museumobject_count": 800, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 572, 
+                        "type": "", 
+                        "slug": "bone-china"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:34:46", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "heartseas-muffin-dish-and-bawden-edward", 
+            "sys_updated": "2014-02-04 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 467, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5363
+                    }, 
+                    "fields": {
+                        "name": "Etruria", 
+                        "parent": 5363, 
+                        "country": "England", 
+                        "museumobject_count": 1050, 
+                        "longitude": "-2.20637200", 
+                        "source": "production", 
+                        "cis_id": "x33200", 
+                        "museumobject_image_count": 736, 
+                        "latitude": "53.02008100", 
+                        "type": "city/town", 
+                        "slug": "etruria-england-x33200"
+                    }
+                }
+            ], 
+            "artist": "Bawden, Edward", 
+            "namecontext_set": [
+                {
+                    "pk": 158807, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5987
+                    }, 
+                    "fields": {
+                        "name": 5987, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 130302, 
+                        "role": "pattern", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 158808, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 106
+                    }, 
+                    "fields": {
+                        "name": 106, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 130302, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1959, 
+            "object_number": "O163563", 
+            "events": [], 
+            "credit": "Given by The Orient Line", 
+            "history_note": "", 
+            "place": "Etruria", 
+            "production_note": "Josiah Wedgwood and Sons Ltd. for the Orient Line.", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

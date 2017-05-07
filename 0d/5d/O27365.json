@@ -1,0 +1,201 @@
+[
+    {
+        "pk": 27014, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "MISC.16-1980", 
+            "date_end": "1980-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "19.50495900", 
+            "year_start": 1980, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1980 (published)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Design: 27 plastic cubes of various colours linked to produce one large cube", 
+            "dimensions": "", 
+            "title": "hungarian magic cube", 
+            "date_start": "1980-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-03-31 20:41:14", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 5, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MoC", 
+                        "name": "Museum of Childhood", 
+                        "museumobject_count": 29148, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3179, 
+                        "type": "", 
+                        "slug": "moc"
+                    }
+                }
+            ], 
+            "location": "Museum of Childhood, Good Time Gallery, case 10", 
+            "marks": "", 
+            "latitude": "47.16116000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 50798, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1042
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "10", 
+                        "inventory_number": 206698, 
+                        "room": "F", 
+                        "part_name": "Rubik's Cube", 
+                        "museum_number": "MISC.16-1980", 
+                        "museumobject": 27014, 
+                        "shelf": "", 
+                        "site": "BGM", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Museum of Childhood, Good Time Gallery", 
+                        "museum_number_token": "misc161980", 
+                        "gallery": 1042
+                    }
+                }, 
+                {
+                    "pk": 50799, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 50482, 
+                        "room": "", 
+                        "part_name": "Instruction sheet", 
+                        "museum_number": "MISC.16A-1980", 
+                        "museumobject": 27014, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "misc16a1980", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1042, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "F", 
+                        "site_name": "", 
+                        "name": "Museum of Childhood, Good Time Gallery", 
+                        "site_code": "MOC", 
+                        "museumobject_count": 252, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49175", 
+                        "museumobject_image_count": 54, 
+                        "type": "", 
+                        "slug": "f-moc"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 27887, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 25
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 27014, 
+                        "role": "published", 
+                        "place": 25, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "misc161980", 
+            "object": "Puzzle", 
+            "categories": [
+                {
+                    "pk": 733, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Type: 3- d ; maze\nSubject: mathematical", 
+                        "museumobject_count": 2, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "type-3-d-maze-subject-mathematical"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:41:14", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "hungarian-magic-cube-puzzle", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 25, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Hungary", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 306, 
+                        "longitude": "19.50495900", 
+                        "source": "production", 
+                        "cis_id": "x28910", 
+                        "museumobject_image_count": 134, 
+                        "latitude": "47.16116000", 
+                        "type": "country", 
+                        "slug": "hungary-x28910"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1980, 
+            "object_number": "O27365", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Hungary", 
+            "production_note": "marketed by Pentangle", 
+            "historical_context_note": "No. of Players: any\nEquipment required: any single group of 9 small cubes can rotate about its centre as a 3-D rotation", 
+            "collection_code": "MoC"
+        }
+    }
+]
