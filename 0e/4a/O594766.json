@@ -1,0 +1,231 @@
+[
+    {
+        "pk": 509420, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.260-1951", 
+            "date_end": "1951-12-31", 
+            "labels": [], 
+            "descriptive_line": "'1890   West Lancashire Railway train'. One of a set of 16 plates by C. Hamilton Ellis illustrating railway travel from 1845 to 1920, issued by the London Midland Region, British Railways, 1951, for use in their trains. Colour lithograph, ca.1951.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1951, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 5300, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Lancashire", 
+                        "museumobject_count": 80, 
+                        "source": "place", 
+                        "cis_id": "x28962", 
+                        "museumobject_image_count": 31, 
+                        "type": "", 
+                        "slug": "lancashire"
+                    }
+                }, 
+                {
+                    "pk": 27638, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Advertising", 
+                        "museumobject_count": 72, 
+                        "source": "object", 
+                        "cis_id": "54347", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "advertising"
+                    }
+                }, 
+                {
+                    "pk": 24656, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "railways", 
+                        "museumobject_count": 60, 
+                        "source": "object", 
+                        "cis_id": "8591", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "railways"
+                    }
+                }, 
+                {
+                    "pk": 25242, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "trains", 
+                        "museumobject_count": 43, 
+                        "source": "object", 
+                        "cis_id": "233628", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "trains"
+                    }
+                }
+            ], 
+            "date_text": "1951 (issued)\nca. 1951 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Colour lithograph, signed 'C.Hamilton Ellis'.", 
+            "dimensions": "Height: 9.875 in, Width: 25 in", 
+            "title": "1890   West Lancashire Railway train", 
+            "date_start": "1951-01-01", 
+            "materials_techniques": "Colour lithograph", 
+            "last_processed": "2014-04-01 20:17:22", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case ES, shelf 11", 
+            "marks": "'C. Hamilton Ellis'", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18520, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3488, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 643878, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "ES", 
+                        "inventory_number": 1226630, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.260-1951", 
+                        "museumobject": 509420, 
+                        "shelf": "11", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e2601951", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 316942, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 103
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 509420, 
+                        "role": "subject", 
+                        "place": 103, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e2601951", 
+            "object": "Print", 
+            "categories": [], 
+            "last_checked": "2014-04-01 20:17:22", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1951</u> London: HMSO, 1962.\nThe full text of the entry is as follows:\n\n'<b>ELLIS, C. Hamilton</b>\n\nSet of 16 plates illustrating travel from 1845 to 1920, issued by the London Midland Region, British Railways, 1951, for use in their trains.\n\n<i>Each signed</i> C. Hamilton Ellis. Lettered with titles.\n<i>Colour lithographs. Size of sheets, each</i> 9<sub>7/8</sub> x 25     E.251-266-1951\n\nGiven by British Railways\n\n1845  Express mail train of the London &amp; Birmingham railway  E.251-1951\n1850  L. &amp; N.W. Railway 1st and 2nd class train...at Sandbach  E.252-1951\n1855 Maryport &amp; Carlisle Railway train  E.253-1951\n1865 L. &amp; N.W. railway Holyhead - Dun Laoghaire (Kingstown) paddle steamer '\"Cambria\"  E.254-1951\n1870 North London Railway train for Broad Street leaving Richmond  E.255-1951\n1875 L. &amp; N.W. Railway...express near Brinklow (Warwickshire)  E.256-1951\n1880 Midland Railway Express, with Pullman...Car  E.258-1951\n1885 Furness Railway steamer Gondola on Lake Coniston  E.259-1951\n1890 West Lancashire Railway train  E.260-1951\n1895 Wirral railway train  E.261-1951\n1900 Lancashire &amp; Yorkshire Railway Liverpool express picking up water on Walkden troughs  E.262-1951\n1905 Midland Railway Manchester express...near Millers Dale  E.263-1951\n1910 L. &amp; N.W. Railway Bus in Watford High Street  E.264-1951\n1915 North Staffordshire Railway train entring Stone Junction  E.265-1951\n1920 Furness Railway train entering Ulverston Station  E.266-1951'\n\n\t\t\n\n", 
+            "vanda_exhibition_history": "", 
+            "slug": "1890-west-lancashire-railway-train-print", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 103, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Lancashire", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 407, 
+                        "longitude": "-2.55473000", 
+                        "source": "production", 
+                        "cis_id": "x28962", 
+                        "museumobject_image_count": 135, 
+                        "latitude": "53.86117200", 
+                        "type": "county", 
+                        "slug": "lancashire-england-x28962"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1951, 
+            "object_number": "O594766", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
