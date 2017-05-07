@@ -1,0 +1,310 @@
+[
+    {
+        "pk": 433211, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CAI.260", 
+            "date_end": "1609-12-31", 
+            "labels": [], 
+            "descriptive_line": "Pen and ink drawing by Annibale Carracci depicting a nude figure of a man seated holding a staff, against a background of trees and rocks.  Italy, ca. 1580-1609.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1575, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48165, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "nudes", 
+                        "museumobject_count": 335, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 92, 
+                        "type": "", 
+                        "slug": "nudes"
+                    }
+                }, 
+                {
+                    "pk": 243, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "staff", 
+                        "museumobject_count": 127, 
+                        "source": "object", 
+                        "cis_id": "x43485", 
+                        "museumobject_image_count": 98, 
+                        "type": "", 
+                        "slug": "staff"
+                    }
+                }, 
+                {
+                    "pk": 8804, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "figure study", 
+                        "museumobject_count": 49, 
+                        "source": "object", 
+                        "cis_id": "x38519", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "figure-study"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1580-1609 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Pen and ink on light brown paper, roughly squared in red chalk, depicting a nude male figure.", 
+            "dimensions": "Height: 251 mm, Width: 193 mm", 
+            "title": "Nude figure of a man seated holding a staff", 
+            "date_start": "1575-01-01", 
+            "materials_techniques": "Pen and ink on light brown paper, roughly squared in red chalk ", 
+            "last_processed": "2014-04-01 16:16:00", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2D, shelf SH69, box IONIDES22", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46144, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 14913, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31929, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18716, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }, 
+                {
+                    "pk": 685, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "red chalk", 
+                        "museumobject_count": 367, 
+                        "source": "cis_materials", 
+                        "cis_id": "80064", 
+                        "museumobject_image_count": 106, 
+                        "type": "", 
+                        "slug": "red-chalk"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 567565, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "IONIDES22", 
+                        "case": "MB2D", 
+                        "inventory_number": 1318256, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "CAI.260", 
+                        "museumobject": 433211, 
+                        "shelf": "SH69", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "cai260", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 40775, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1609-12-31", 
+                        "surname": "", 
+                        "name": "Carracci", 
+                        "gender": null, 
+                        "museumobject_count": 103, 
+                        "death_year": 1609, 
+                        "source": "object_production", 
+                        "cis_id": "A27450", 
+                        "museumobject_image_count": 76, 
+                        "forename": "", 
+                        "birth_date": "1560-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "carracci-annibale", 
+                        "birth_year": 1560
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 272787, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 433211, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "cai260", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 16:16:00", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Ward-Jackson, Peter, <u> Italian Drawings, Volume Two: 17th-18th Century </u>, London, 1979, p.32 , cat. n. 652, illus. The following is the full text of the entry: CARRACCI, ANNIBALE (1560-1609) 652 Seated male nude, holding a staff, against a background of trees and rocks An inscription in ink along the right margin has been cut and is illegible; inscribed on the back of the mount in W. Esdaile's hand and signed with his initials (as in Lugt 2617) 'Robt Udny's Colln\u00bb 1803. P.27. N.54' Pen and .ink on light brown paper; roughly squared in red chalk 9 7/8 x 7 5/8 (251 x 193) CAI.260 PROVENANCE ? Lelli (Lugt, Supplement 2852); R. Udny (Lugt 2248); W. Esdaile (Lugt 2617; possibly lot no 213 in the sale at Christie's, 19 June 1840, described as 'St. John; from Udney's Collection; by Annibale Carracci'); Ionides Bequest 1901 (Lugt 488) LITERATURE Ionides Catalogue, p. 11 (as by Anmbale Carracci) Perhaps a study for a St John in the Wilderness, or for a Paris in the Judgement of Paris. The drawing possesses some of the characteristics of Annibale's 'ugly' late style, as Wittkower calls it. Compare it, for example, with the drawing of the Adoration of the Shepherds at Windsor Castle (inv. no. 2118; Wittkower, Windsor, p. 147, no. 356, fig. 50). Compare also a study for the figure of Polyphemus in the Louvre (inv. no. 7196: illustrated in the Catalogue of the Drawings in the Carracci exhibition Bologna, 1956, no. 166, pI. 56).", 
+            "vanda_exhibition_history": "", 
+            "slug": "nude-figure-of-a-man-drawing-carracci", 
+            "sys_updated": "2013-09-05 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Carracci", 
+            "namecontext_set": [
+                {
+                    "pk": 354479, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 40775
+                    }, 
+                    "fields": {
+                        "name": 40775, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 433211, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1609, 
+            "object_number": "O517403", 
+            "events": [], 
+            "credit": "Ionides Bequest", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
