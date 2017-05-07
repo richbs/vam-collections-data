@@ -1,0 +1,393 @@
+[
+    {
+        "pk": 82969, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.66-1927", 
+            "date_end": "1704-12-31", 
+            "labels": [], 
+            "descriptive_line": "Statuette, carved ivory, a Crucifix figure, Cingalo-Portuguese (Sri Lanka), ca. 1680-1700", 
+            "shape": "", 
+            "longitude": "80.78971100", 
+            "year_start": 1675, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23990, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Jesus Christ", 
+                        "museumobject_count": 1499, 
+                        "source": "name", 
+                        "cis_id": "N1515", 
+                        "museumobject_image_count": 1106, 
+                        "type": "", 
+                        "slug": "jesus-christ"
+                    }
+                }, 
+                {
+                    "pk": 24606, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "crosses (objects)", 
+                        "museumobject_count": 64, 
+                        "source": "object", 
+                        "cis_id": "235443", 
+                        "museumobject_image_count": 53, 
+                        "type": "", 
+                        "slug": "crosses-objects"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1680 - ca. 1700 (made)", 
+            "primary_image_id": "2006AE6557", 
+            "rights": 3, 
+            "physical_description": "Carved ivory figure of Christ from a crucifix, partly painted. The head is looking downwards and inclined towards the right shoulder. The eyes are closed. The hair is blackened and the wounds painted in red. The arms are outstretched and carved separately and attached. His foot is nailed over his left. The arms are carved separately and attached.", 
+            "dimensions": "Height: 40.5 cm", 
+            "title": "Crucified Christ", 
+            "date_start": "1675-01-01", 
+            "materials_techniques": "Carved ivory, partly painted", 
+            "last_processed": "2014-04-01 00:13:48", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 8", 
+            "marks": "", 
+            "latitude": "7.87395000", 
+            "techniques": [
+                {
+                    "pk": 28, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painted", 
+                        "museumobject_count": 27627, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30138", 
+                        "museumobject_image_count": 22711, 
+                        "type": "", 
+                        "slug": "painted"
+                    }
+                }, 
+                {
+                    "pk": 906, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "carved", 
+                        "museumobject_count": 1251, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 689, 
+                        "type": "", 
+                        "slug": "carved"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 38, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ivory", 
+                        "museumobject_count": 2288, 
+                        "source": "cis_materials", 
+                        "cis_id": "11857", 
+                        "museumobject_image_count": 1575, 
+                        "type": "", 
+                        "slug": "ivory"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 543, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Portuguese Colonial", 
+                        "museumobject_count": 3, 
+                        "source": "cis_style_period", 
+                        "cis_id": "107030", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "portuguese-colonial"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 142309, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "8", 
+                        "inventory_number": 83784, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.66-1927", 
+                        "museumobject": 82969, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a661927", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 101, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2037-12-31", 
+                        "surname": "", 
+                        "name": "Jesus Christ", 
+                        "gender": null, 
+                        "museumobject_count": 1505, 
+                        "death_year": 2037, 
+                        "source": "content", 
+                        "cis_id": "N1515", 
+                        "museumobject_image_count": 1112, 
+                        "forename": "", 
+                        "birth_date": "1996-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jesus-christ", 
+                        "birth_year": 1996
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 79350, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 802
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 82969, 
+                        "role": "made", 
+                        "place": 802, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a661927", 
+            "object": "Statue", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:13:48", 
+            "public_access_description": "This ivory was probably made in Ceylon (now Sri Lanka) for export to Portugal. The fine carving of folds on the drapery and delicate facial features are typical of Christian ivories made in Sri Lanka in the 17th century, when it was under Portuguese rule (other ivories were carved in Portuguese Goa on the West coast of India). Local artists specialising in  ivory carving made such pieces, usually  under the direction of Portuguese missionaries. Most of them were made as luxury items for export to Europe, although some were used to convert the local people to Catholicism. These pieces,  whether made for export or for local use, were devotional objects, but would also have been highly valued as a work of art, partly because ivory was a rare and costly material. The sensitive carving  seen here is typical of Sri Lankan ivory sculptures: the striated lines on the hair  and parallel carved folds of the loincloth  are particularly fine. Also characteristic of such works is the use of polychromy: brown pigment for the hair, gilding on the loincloth, and red for the blood from  Christ's wounds.\nMany colonial ivories were relatively large, a sign of the rich resources available in the territories conquered by the Europeans. The artists were anonymous, and the pieces undated, but the majority were made during the sixteenth and  seventeenth centuries. The ivory was often imported to Sri Lanka from Africa (parts of which had also been invaded by the Portuguese in the sixteenth century), as the elephant tusks there were more suitable for carving.", 
+            "exhibition_history": "", 
+            "bibliography": "Estella Marcos, Margarita M. <u> La escultura barroca de marfil en Espa\u00f1a : las escuelas europeas y las coloniales.</u> Madrid, 1984, II, p. 134\nLonghurst, Margaret H. <u>Catalogue of Carvings in Ivory.</u> London: Published under the Authority of the Board of Education, 1929, Part II, p. 109\nTrusted, Majorie. ed. <u>The Making of Sculpture: the Materials and Techniques of European Sculpture.</u> London: V&A Publications, 2007, p. 123, pl. 226", 
+            "vanda_exhibition_history": "", 
+            "slug": "crucified-christ-statue-unknown", 
+            "sys_updated": "2014-02-26 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 38551, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:27", 
+                        "priority": 0, 
+                        "image_id": "2006AE6557", 
+                        "sys_id": 46557, 
+                        "last_checked": "2014-03-31 17:16:27", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE6557.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 802, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Sri", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 399, 
+                        "longitude": "80.78971100", 
+                        "source": "production", 
+                        "cis_id": "x30937", 
+                        "museumobject_image_count": 297, 
+                        "latitude": "7.87395000", 
+                        "type": "country", 
+                        "slug": "sri-x30937"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 97286, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 82969, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 97287, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 101
+                    }, 
+                    "fields": {
+                        "name": 101, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 82969, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1704, 
+            "object_number": "O107372", 
+            "events": [
+                {
+                    "pk": 88, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "The Crucifixion", 
+                        "date_end": null, 
+                        "museumobject_count": 277, 
+                        "year_end": null, 
+                        "source": "subject", 
+                        "cis_id": "V106", 
+                        "museumobject_image_count": 225, 
+                        "type": "", 
+                        "slug": "the-crucifixion-v106"
+                    }
+                }
+            ], 
+            "credit": "Given by Dr W. L. Hildburgh FSA in 1927", 
+            "history_note": "Historical significance: This large figure of Christ crucified is typical of the Christian ivories produced in Sri Lanka when it was under Portuguese rule (other ivories were carved in Portuguese Goa on the West coast of India). Local artists specialising in ivory carving made such pieces, usually under the direction of Portuguese missionaries. Most of them were made as luxury items for export to Europe, although some were used to convert the local people to Catholicism. These pieces, whether made for export or for local use, were devotional objects, but would also have been highly valued as a work of art, partly because ivory was a rare and costly material. The sensitive carving seen here is typical of Sri Lankan ivory sculptures: the striated lines on the hair and parallel carved folds of the loincloth are particularly fine. Also characteristic of such works is the use of polychromy: brown pigment for the hair, gilding on the loincloth, and red for the blood from Christ's wounds.", 
+            "place": "Sri Lanka", 
+            "production_note": "", 
+            "historical_context_note": "Many colonial ivories were relatively large, a sign of the rich resources available in the territories conquered by the Europeans. The artists were anonymous, and the pieces undated, but the majority were made during the sixteenth and seventeenth centuries. The ivory was often imported to Sri Lanka from Africa (parts of which had also been invaded by the Portuguese in the sixteenth century), as the elephant tusks there were more suitable for carving.", 
+            "collection_code": "SCP"
+        }
+    }
+]
