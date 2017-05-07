@@ -1,0 +1,278 @@
+[
+    {
+        "pk": 136137, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1915-1953", 
+            "date_end": "1850-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1850, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 14600, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Madagascar", 
+                        "museumobject_count": 1, 
+                        "source": "place", 
+                        "cis_id": "x29970", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "madagascar"
+                    }
+                }
+            ], 
+            "date_text": "ca 1850 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Scene in Madagascar with a European couple and native inhabitants.", 
+            "dimensions": "", 
+            "title": "Scene in Madagascar", 
+            "date_start": "1850-01-01", 
+            "materials_techniques": "lithograph on cotton fabric coloured by hand", 
+            "last_processed": "2014-04-01 03:57:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MM, shelf 4", 
+            "marks": "8\n Madagascar", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 210683, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "MM", 
+                        "inventory_number": 1232440, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.1915-1953", 
+                        "museumobject": 136137, 
+                        "shelf": "4", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e19151953", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 134990, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 136137, 
+                        "role": "printed", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 134991, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 677
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 136137, 
+                        "role": "subject", 
+                        "place": 677, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e19151953", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 48, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Wall coverings", 
+                        "museumobject_count": 10116, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2238, 
+                        "type": "", 
+                        "slug": "wall-coverings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:57:13", 
+            "public_access_description": "The Working Men's Educational Union was a philanthropic society founded in the 1850s to provide education to the working classes and 'unite all Christians endeavouring to elevate the adult masses and furnishing the materials requisite for the popular entertaining and instructive lecturing.' The organisation was financed by donations and small admission charges. Many different organisations provided the venues for the society to hold lectures. These sheets, which were printed on cloth to avoid paper duty, would have been used to illustrate these lectures. The subjects were wide-ranging", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1953 </u> London: HMSO, 1963\nThe full text of the entry is as follows: \n\n\"<b>ANONYMOUS : Placards</b> \n... \nScene in Madagascar with a European couple and native inhabitants.  Educational wall-sheet produced by the Working Men's Educational Union, mid-19th century. \n<i>Numbered in ink</i> 8.  <i>Inscribed in pencil on the back</i> Madagascar. \n<i>Lithograph on cotton fabric, coloured by hand.</i>           E.1915-1953 \n\nGiven by the Rev. Hugh Cuthbertson\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "scene-in-madagascar-print-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }, 
+                {
+                    "pk": 677, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 612
+                    }, 
+                    "fields": {
+                        "name": "Madagascar", 
+                        "parent": 612, 
+                        "country": "", 
+                        "museumobject_count": 2, 
+                        "longitude": "46.85432100", 
+                        "source": "production", 
+                        "cis_id": "x29970", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "-18.77718000", 
+                        "type": "country", 
+                        "slug": "madagascar-x29970"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 167616, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 136137, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1850, 
+            "object_number": "O170244", 
+            "events": [], 
+            "credit": "Gift of the Reverend Hugh Cuthbertson", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "This print was produced for the Working Men's Educational Union, a philanthropic society founded in the mid 19th century to provide education to the working classes.\n\nQuote from a vendor of a series of these prints in a sale at Cheffins (Cambridge) on Thursday 22nd March 2007:- 'These large coloured calico pictures, remarkable precursors of later poster art, came to me from my great grandfather, but I could not find out anything about the Working Men's Educational Union, whose imprint they bore. Even the Victoria and Albert Museum knew nothing about them, but the Print Department was sufficiently impressed to borrow them for a two-room exhibition at the museum between the Autumn and Winter of 1952. Eventually, with the help of Professor G.D.H. Cole, we were able to trace the first annual report published in 1853 and preserved in the Bodleian Library at Oxford. It appears to have been a philanthropic society for the education of the working classes with a strong religious flavour and the support of some Chartist elements. The aim being 'to unite all Christians endeavouring to elevate the adult masses and furnishing the materials requisite for the popular entertaining and instructive lecturing.' The use of cotton cloth being adopted to avoid paper duty.\n\nAltogether there appear to have been about 100 diagrams printed in large quantities at a cost of \u00a3663. of which 40 in my possession seem to be the only ones now extant. A large number of Mechanics, Institutions, Independent schools, Ragged schools, Young men's societies, and Church organisations co-operated in providing the facilities for 579 lectures in the year ending March 1853, with a total attendance of 122,000. 32 libraries for the 'industrious classes' were formed with a stock of 19,000 volumes. The organisation was financed by donations and small admission charges of 1d.-6d.\n\nIn the text of the report there are quaint references to the spread of infidelity, secularism or atheism. Also mentioned was Papist and Mormon propoganda, ribbonism, betting shops, dancing shops, gin palaces, schools of vice, penny theatres, of gaffs, 'all crowded and profitable'. Against this, the policy of the WMEU stood for freedom from 'party polictics, and a divine interpretation of the Old and New Testaments.'\n\nAs far as I can judge from the incomplete series numbers, my sheets represent lectures on Egypt, Natural phenomena (Astronomy and Volcanoes), Madagascar and the Far East, South Africa and Australia.'", 
+            "collection_code": "PDP"
+        }
+    }
+]
