@@ -1,0 +1,303 @@
+[
+    {
+        "pk": 63294, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "8122A", 
+            "date_end": "1500-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1450, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 199, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "angels", 
+                        "museumobject_count": 611, 
+                        "source": "object", 
+                        "cis_id": "x30526", 
+                        "museumobject_image_count": 396, 
+                        "type": "", 
+                        "slug": "angels"
+                    }
+                }
+            ], 
+            "date_text": "late 15th century (illuminated)", 
+            "primary_image_id": "2006AT7612", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 135 mm, Width: 90 mm", 
+            "title": "", 
+            "date_start": "1450-01-01", 
+            "materials_techniques": "Woodcut coloured by hand", 
+            "last_processed": "2014-03-31 22:45:52", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case I, shelf 29, box A", 
+            "marks": "", 
+            "latitude": "46.71244800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 114004, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "I", 
+                        "inventory_number": 710216, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "8122A", 
+                        "museumobject": 63294, 
+                        "shelf": "29", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "8122a", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 59101, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 63294, 
+                        "role": "illuminated", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "8122a", 
+            "object": "Manuscript", 
+            "categories": [
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }, 
+                {
+                    "pk": 30, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Manuscripts", 
+                        "museumobject_count": 1447, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 424, 
+                        "type": "", 
+                        "slug": "manuscripts"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:45:52", 
+            "public_access_description": "In the 19th century the South Kensington Museum gathered examples of illumination for students to copy. This was a new kind of collection. It was unlike the encyclopedic historic collections of the British Museum or the Bodleian Library in Oxford.\n\nThis miniature shows the Coronation of the Virgin Mary. It comes from a printed Book of Hours that the Museum acquired to replace a miniature missing from a late 15th-century Missal (see 8122). The excised miniature was evidently sold separately, before the parent leaf. At a later stage the leaf was made good with the insertion of this miniature. A dealer no doubt had a stock of fragments that enabled a solution of this kind.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "manuscript-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 22221, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:55", 
+                        "priority": 0, 
+                        "image_id": "2006AT7612", 
+                        "sys_id": 157612, 
+                        "last_checked": "2014-03-31 17:12:55", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT7612.jpg"
+                    }
+                }, 
+                {
+                    "pk": 168671, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:43:44", 
+                        "priority": 2, 
+                        "image_id": "2009CD9639", 
+                        "sys_id": 459639, 
+                        "last_checked": "2014-03-31 17:43:44", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CD/2009CD9639.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 70049, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 63294, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1500, 
+            "object_number": "O93924", 
+            "events": [
+                {
+                    "pk": 173, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "Coronation of the Virgin", 
+                        "date_end": null, 
+                        "museumobject_count": 47, 
+                        "year_end": null, 
+                        "source": "subject", 
+                        "cis_id": "V114", 
+                        "museumobject_image_count": 43, 
+                        "type": "", 
+                        "slug": "coronation-of-the-virgin-v114"
+                    }
+                }
+            ], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

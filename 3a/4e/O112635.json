@@ -1,0 +1,358 @@
+[
+    {
+        "pk": 87052, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.2-1969", 
+            "date_end": "1820-12-31", 
+            "labels": [
+                {
+                    "pk": 11826, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "07/1994", 
+                        "museumobject": 87052, 
+                        "label_text": "13. BUCKLE, cut steel, set with jasper-ware plaques, England (Birmingham); c. 1780\nPlaques by Josiah Wedgwood of Staffordshire, probably from the factory of Matthew Boulton.\nMuseum No. M.2a-1969\n\n"
+                    }
+                }
+            ], 
+            "descriptive_line": "Cut steel with jasper cameos made by Wedgwood, England, about 1776-1820", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1771, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1776-1820 (made)", 
+            "primary_image_id": "2006BJ4416", 
+            "rights": 3, 
+            "physical_description": "Shoe buckle, cut steel mounted with jasperware plaques probably by Josiah Wedgwood.  The buckles with rounded corners, decorated with rows of facetted bosses.  In the centre of each side, a blue and white Wedgwood cameo with a beaded bezel;  steel chape.", 
+            "dimensions": "Length: 8.6 cm, Width: 7.87 cm, Depth: 3.02 cm", 
+            "title": "", 
+            "date_start": "1771-01-01", 
+            "materials_techniques": "Cut steel mounted with jasperware plaques", 
+            "last_processed": "2014-04-01 00:31:21", 
+            "label": "13. BUCKLE, cut steel, set with jasper-ware plaques, England (Birmingham); c. 1780\nPlaques by Josiah Wedgwood of Staffordshire, probably from the factory of Matthew Boulton.\nMuseum No. M.2a-1969\n\n [07/1994]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 14, shelf C, box 8", 
+            "marks": "No marks", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 1171, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "metal-cutting", 
+                        "museumobject_count": 28, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 15, 
+                        "type": "", 
+                        "slug": "metal-cutting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 33, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "steel", 
+                        "museumobject_count": 1527, 
+                        "source": "cis_materials", 
+                        "cis_id": "133751", 
+                        "museumobject_image_count": 834, 
+                        "type": "", 
+                        "slug": "steel"
+                    }
+                }, 
+                {
+                    "pk": 374, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Jasper ware", 
+                        "museumobject_count": 280, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30174", 
+                        "museumobject_image_count": 219, 
+                        "type": "", 
+                        "slug": "jasper-ware"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 148056, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "8", 
+                        "case": "14", 
+                        "inventory_number": 244514, 
+                        "room": "91", 
+                        "part_name": "M.2-1969", 
+                        "museum_number": "M.2-1969", 
+                        "museumobject": 87052, 
+                        "shelf": "C", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m21969", 
+                        "gallery": 516
+                    }
+                }, 
+                {
+                    "pk": 148057, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 548648, 
+                        "room": "", 
+                        "part_name": "M.2A-1969", 
+                        "museum_number": "M.2A-1969", 
+                        "museumobject": 87052, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "m2a1969", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 106, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Josiah Wedgwood and Sons", 
+                        "gender": null, 
+                        "museumobject_count": 1332, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1450", 
+                        "museumobject_image_count": 1000, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "josiah-wedgwood-and-sons", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 83559, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 87052, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m21969", 
+            "object": "Pair of shoe buckles", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }, 
+                {
+                    "pk": 57, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Footwear", 
+                        "museumobject_count": 1727, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 601, 
+                        "type": "", 
+                        "slug": "footwear"
+                    }
+                }, 
+                {
+                    "pk": 60, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Fashion", 
+                        "museumobject_count": 43998, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31725, 
+                        "type": "", 
+                        "slug": "fashion"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:31:21", 
+            "public_access_description": "Gold or silver buckles for shoes were in fashion for most of the 18th century. They gave the finishing touches to elegant dress and were one of the few pieces of jewellery worn by men as well as women. Gentlemen wore matching shoe and knee buckles. \n\nMaking buckles became a highly skilled craft at which English silversmiths and jewellers excelled. Exquisitely wrought designs, glittering pastes and precious stones reflected the status of the wearer as well as the occasion. Cheaper and plainer versions were made of steel, brass and other metal alloys. \n\nThis buckle features jasperware plaques mounted on cut steel \u2013 a brightly polished steel, usually with pierced or faceted decoration, which was popular from around the 1760s to the 1880s. Jasperware is a very fine-grained white stoneware that can be stained a range of colours. It was developed in the 1770s by the ceramic entrepreneur Josiah Wedgwood, who sought to break into the cameo market by making small medallions of coloured jasperware with white relief.", 
+            "exhibition_history": "", 
+            "bibliography": "Stemp, Sinty, \"Ornamental or Useful: A Cut Steel Chatelaine by Boulton and Wedgwood\", <u>The Journal of the Antique Metalware Society</u>, Vol. 17, June 2009, ISSN. 1359124X, p. 11, ill.", 
+            "vanda_exhibition_history": "", 
+            "slug": "pair-of-shoe-josiah-wedgwood-and", 
+            "sys_updated": "2013-09-13 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 86432, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:51", 
+                        "priority": 0, 
+                        "image_id": "2006BJ4416", 
+                        "sys_id": 294416, 
+                        "last_checked": "2014-03-31 17:26:51", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ4416.jpg"
+                    }
+                }, 
+                {
+                    "pk": 86434, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:51", 
+                        "priority": 1, 
+                        "image_id": "2006BJ4418", 
+                        "sys_id": 294418, 
+                        "last_checked": "2014-03-31 17:26:51", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ4418.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Josiah Wedgwood and Sons Ltd.", 
+            "namecontext_set": [
+                {
+                    "pk": 103003, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 106
+                    }, 
+                    "fields": {
+                        "name": 106, 
+                        "part_name": "", 
+                        "uncertainty": "probably cameos, probably from the factory of Matthew Boulton", 
+                        "museumobject": 87052, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1820, 
+            "object_number": "O112635", 
+            "events": [], 
+            "credit": "Pfungst Reavil Bequest", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
