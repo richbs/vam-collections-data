@@ -1,0 +1,410 @@
+[
+    {
+        "pk": 22464, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "3873-1901", 
+            "date_end": "1698-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plate of tin-glazed earthenware, painted in cobalt blue with bust portrait of William III, Mary II and an inscription, London, ca. 1694", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1689, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24184, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "William (III, King of England)", 
+                        "museumobject_count": 54, 
+                        "source": "name", 
+                        "cis_id": "N2039", 
+                        "museumobject_image_count": 35, 
+                        "type": "", 
+                        "slug": "william-iii-king-of-england"
+                    }
+                }, 
+                {
+                    "pk": 24185, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Mary (II, Queen of England)", 
+                        "museumobject_count": 25, 
+                        "source": "name", 
+                        "cis_id": "N2026", 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "mary-ii-queen-of-england"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1694 (made)", 
+            "primary_image_id": "2006AW0643", 
+            "rights": 3, 
+            "physical_description": "Plate of tin-glazed earthenware, painted with half length portraits of William III and Mary II, inscribed W M R in blue.\nBody colour: Buff.\nGlaze: Greyish white, slightly crazed.\nShape: Shape J with narrower flange.  (Alphabetic shape codes as used in appendix to Archer. <font -u>Delftware</font>. 1997)", 
+            "dimensions": "Diameter: 21.9 cm", 
+            "title": "", 
+            "date_start": "1689-01-01", 
+            "materials_techniques": "Tin-glazed earthenware, painted in cobalt blue", 
+            "last_processed": "2014-03-31 20:19:06", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Ceramics Study Galleries, Britain, room 138, case 2, shelf 7", 
+            "marks": "'W M R'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 28, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painted", 
+                        "museumobject_count": 27627, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30138", 
+                        "museumobject_image_count": 22711, 
+                        "type": "", 
+                        "slug": "painted"
+                    }
+                }, 
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 2, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Earthenware", 
+                        "museumobject_count": 13054, 
+                        "source": "cis_materials", 
+                        "cis_id": "x29356", 
+                        "museumobject_image_count": 11225, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }, 
+                {
+                    "pk": 416, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Tin glaze", 
+                        "museumobject_count": 4434, 
+                        "source": "cis_materials", 
+                        "cis_id": "233436", 
+                        "museumobject_image_count": 3586, 
+                        "type": "", 
+                        "slug": "tin-glaze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 32516, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 3194
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 338196, 
+                        "room": "138", 
+                        "part_name": "", 
+                        "museum_number": "3873-1901", 
+                        "museumobject": 22464, 
+                        "shelf": "7", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Ceramics Study Galleries, Britain, room 138", 
+                        "museum_number_token": "38731901", 
+                        "gallery": 3194
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 3194, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "138", 
+                        "site_name": "", 
+                        "name": "Ceramics Study Galleries, Britain, room 138", 
+                        "site_code": "VA", 
+                        "museumobject_count": 3300, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49875", 
+                        "museumobject_image_count": 3276, 
+                        "type": "", 
+                        "slug": "138-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 398, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1702-03-08", 
+                        "surname": "", 
+                        "name": "William III, King of England", 
+                        "gender": null, 
+                        "museumobject_count": 56, 
+                        "death_year": 1702, 
+                        "source": "content", 
+                        "cis_id": "N2039", 
+                        "museumobject_image_count": 37, 
+                        "forename": "", 
+                        "birth_date": "1650-11-14", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "william-iii-king-of-england", 
+                        "birth_year": 1650
+                    }
+                }, 
+                {
+                    "pk": 399, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1694-12-28", 
+                        "surname": "", 
+                        "name": "Mary II", 
+                        "gender": null, 
+                        "museumobject_count": 26, 
+                        "death_year": 1694, 
+                        "source": "content", 
+                        "cis_id": "N2026", 
+                        "museumobject_image_count": 19, 
+                        "forename": "", 
+                        "birth_date": "1662-04-30", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mary-ii-queen-of-england", 
+                        "birth_year": 1662
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 23547, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 22464, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "38731901", 
+            "object": "Plate", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 18, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Royalty", 
+                        "museumobject_count": 4106, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1829, 
+                        "type": "", 
+                        "slug": "royalty"
+                    }
+                }, 
+                {
+                    "pk": 145, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Delftware", 
+                        "museumobject_count": 1988, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1849, 
+                        "type": "", 
+                        "slug": "delftware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:19:06", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Archer, Michael. <u>Delftware: the tin-glazed earthenware of the British Isles. A catalogue of the collection in the Victoria and Albert Museum</u>. London: HMSO, in association with the Victoria and Albert Museum, 1997. ISBN 0 11 290499 8\nM.P.G. 1871, Y. 40. M.P.G. 1876, Y.47. B. Rackham, 'The virtues of English Pottery', E.C.C. Trans: Vol. 2, No: 7, 1939, p.107, Pl: XXXVIc.", 
+            "vanda_exhibition_history": "", 
+            "slug": "plate-unknown", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 29496, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-09-23 00:00:00", 
+                        "last_processed": "2014-03-31 17:14:29", 
+                        "priority": 0, 
+                        "image_id": "2006AW0643", 
+                        "sys_id": 180643, 
+                        "last_checked": "2014-03-31 17:14:29", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AW/2006AW0643.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 24833, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 22464, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 24834, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 398
+                    }, 
+                    "fields": {
+                        "name": 398, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 22464, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 24835, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 399
+                    }, 
+                    "fields": {
+                        "name": 399, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 22464, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1698, 
+            "object_number": "O21336", 
+            "events": [], 
+            "credit": "Transferred from the Museum of Practical Geology, Jermyn Street", 
+            "history_note": "Acquired by the Museum of Practical Geology before 1871. Transferred, 1901.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
