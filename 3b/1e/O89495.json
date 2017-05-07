@@ -1,0 +1,400 @@
+[
+    {
+        "pk": 53410, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.95-1956", 
+            "date_end": "1529-12-31", 
+            "labels": [], 
+            "descriptive_line": "Statuette, bronze, Hercules and Antaeus, Italian (possibly Mantua), ca. 1520s", 
+            "shape": "", 
+            "longitude": "10.79509000", 
+            "year_start": 1520, 
+            "exhibitions": [
+                {
+                    "pk": 876, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 2476, 
+                        "year_start": 1975, 
+                        "name": "The Rival of Nature", 
+                        "date_end": "1975-09-28", 
+                        "museumobject_count": 38, 
+                        "venue": "National Gallery (London)", 
+                        "date_start": "1975-06-10", 
+                        "year_end": 1975, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 21, 
+                        "type": "", 
+                        "slug": "the-rival-of-nature", 
+                        "date_text": "10/06/1975-28/09/1975"
+                    }
+                }, 
+                {
+                    "pk": 380, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 3420, 
+                        "year_start": 1979, 
+                        "name": "Gloria dell'Arte", 
+                        "date_end": "1980-01-27", 
+                        "museumobject_count": 6, 
+                        "venue": "Philbrook Art Museum", 
+                        "date_start": "1979-10-28", 
+                        "year_end": 1980, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "gloria-dellarte", 
+                        "date_text": "28/10/1979-27/01/1980"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 24304, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Hercules", 
+                        "museumobject_count": 204, 
+                        "source": "name", 
+                        "cis_id": "N179", 
+                        "museumobject_image_count": 144, 
+                        "type": "", 
+                        "slug": "hercules"
+                    }
+                }, 
+                {
+                    "pk": 25282, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Antaeus", 
+                        "museumobject_count": 18, 
+                        "source": "name", 
+                        "cis_id": "N300", 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "antaeus"
+                    }
+                }
+            ], 
+            "date_text": "1520-1529 (made)", 
+            "primary_image_id": "2006BB2108", 
+            "rights": 3, 
+            "physical_description": "Hercules is shown lifting up Antaeus and holding him up in the air.", 
+            "dimensions": "Height: 25.5 cm", 
+            "title": "Hercules and Antaeus", 
+            "date_start": "1520-01-01", 
+            "materials_techniques": "Bronze", 
+            "last_processed": "2014-03-31 22:10:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 4", 
+            "marks": "", 
+            "latitude": "45.16433000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 101302, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 91746, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.95-1956", 
+                        "museumobject": 53410, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a951956", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 599, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Hercules", 
+                        "gender": null, 
+                        "museumobject_count": 206, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N179", 
+                        "museumobject_image_count": 146, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hercules", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 3221, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Antaeus", 
+                        "gender": null, 
+                        "museumobject_count": 20, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N300", 
+                        "museumobject_image_count": 14, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "antaeus", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 49976, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1982
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 53410, 
+                        "role": "made", 
+                        "place": 1982, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a951956", 
+            "object": "Statuette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 46, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Myths & Legends", 
+                        "museumobject_count": 2183, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1013, 
+                        "type": "", 
+                        "slug": "myths-legends"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:10:05", 
+            "public_access_description": "The surface finish of a bronze often disguises how it was made. It is only when you study it closely \u2013 sometimes only by taking X-rays that allow you to see what has happened inside the bronze \u2013 that you can discover what casting method was used. At first glance these three bronzes look similar, but each one was made using a different technique. X-rays of this group show that the arms were cast separately and then joined to the torso.\nIt is adapted from a classical marble group then in the Cortile del Belvedere of the Vatican and now ion teh Palazzo Pitti in Florence.", 
+            "exhibition_history": "Gloria dell'Arte (Philbrook Art Museum 28/10/1979-27/01/1980)\nThe Rival of Nature (National Gallery (London) 10/06/1975-28/09/1975)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "hercules-and-antaeus-statuette-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 70979, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:23:31", 
+                        "priority": 0, 
+                        "image_id": "2006BB2108", 
+                        "sys_id": 222108, 
+                        "last_checked": "2014-03-31 17:23:31", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BB/2006BB2108.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1982, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4390
+                    }, 
+                    "fields": {
+                        "name": "Mantua", 
+                        "parent": 4390, 
+                        "country": "Italy", 
+                        "museumobject_count": 44, 
+                        "longitude": "10.79509000", 
+                        "source": "production", 
+                        "cis_id": "x35230", 
+                        "museumobject_image_count": 28, 
+                        "latitude": "45.16433000", 
+                        "type": "city / town", 
+                        "slug": "mantua-italy-x35230"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 57931, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53410, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 57932, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 599
+                    }, 
+                    "fields": {
+                        "name": 599, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53410, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 57933, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3221
+                    }, 
+                    "fields": {
+                        "name": 3221, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53410, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1529, 
+            "object_number": "O89495", 
+            "events": [], 
+            "credit": "Bequeathed by Dr W. L. Hildburgh FSA", 
+            "history_note": "Valued at $20,000 in October 1979.\nGiven by Dr. W. L. Hildburgh, F. S. A., 1956.\n\nHistorical significance: This work is adapted from a classical marble group formerly in the Cortile del Belvedere of the Vatican and now in the Palazzo Pitti, Florence.", 
+            "place": "Mantua", 
+            "production_note": "Copy after the original antique from a classical marble group formerly in the Cortile del Belvedere of the Vatican and now in the Palazzo Pitti, Florence.", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

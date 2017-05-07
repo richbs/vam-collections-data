@@ -1,0 +1,282 @@
+[
+    {
+        "pk": 192534, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1025-2002", 
+            "date_end": "1994-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1985, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 4586, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "AIDS", 
+                        "museumobject_count": 21, 
+                        "source": "concept", 
+                        "cis_id": "x36197", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "aids"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1990 (designed and printed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "AIDS Awareness poster composed of a black and white photographic image of two men kissing. One of the men wears a builders helmet. Lettering is in orange and white", 
+            "dimensions": "Height: 59 cm, Width: 42 cm", 
+            "title": "Build a Future", 
+            "date_start": "1985-01-01", 
+            "materials_techniques": "Colour offset Lithograph on paper", 
+            "last_processed": "2014-04-01 06:55:33", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case Y, shelf 69, box E", 
+            "marks": "build a future\ntools of the trade, condoms and lube\nGay Men Fighting AIDS 071 738 6872 GMFA", 
+            "latitude": "54.31391900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 271234, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "E", 
+                        "case": "Y", 
+                        "inventory_number": 701935, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.1025-2002", 
+                        "museumobject": 192534, 
+                        "shelf": "69", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e10252002", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 177957, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 21
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 192534, 
+                        "role": "designed and printed", 
+                        "place": 21, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e10252002", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 124, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Propaganda", 
+                        "museumobject_count": 1560, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 696, 
+                        "type": "", 
+                        "slug": "propaganda"
+                    }
+                }, 
+                {
+                    "pk": 125, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Health", 
+                        "museumobject_count": 228, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 67, 
+                        "type": "", 
+                        "slug": "health"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }, 
+                {
+                    "pk": 1802, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Gender and Sexuality", 
+                        "museumobject_count": 387, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 151, 
+                        "type": "", 
+                        "slug": "gender-and-sexuality"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 06:55:33", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "build-a-future-poster-unknown", 
+            "sys_updated": "2013-10-31 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 21, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "United Kingdom", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 5090, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x29336", 
+                        "museumobject_image_count": 1791, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "united-kingdom-x29336"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 243973, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 192534, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1994, 
+            "object_number": "O231469", 
+            "events": [], 
+            "credit": "Given by Cassius Matthias, part of the Cassius Matthias Poster Collection", 
+            "history_note": "", 
+            "place": "United Kingdom", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
