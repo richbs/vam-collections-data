@@ -1,0 +1,346 @@
+[
+    {
+        "pk": 482200, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.107-1960", 
+            "date_end": "1615-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Elizabeth, Queen of Bohemia, engraving by Boetius Adams Bolswert, 1615.", 
+            "shape": "", 
+            "longitude": "5.33033000", 
+            "year_start": 1615, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 32671, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Queen", 
+                        "museumobject_count": 139, 
+                        "source": "name", 
+                        "cis_id": "N7519", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "queen"
+                    }
+                }, 
+                {
+                    "pk": 49777, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "monarch", 
+                        "museumobject_count": 20, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "monarch"
+                    }
+                }, 
+                {
+                    "pk": 25564, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Elizabeth (Queen of Bohemia)", 
+                        "museumobject_count": 10, 
+                        "source": "name", 
+                        "cis_id": "N1999", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "elizabeth-queen-of-bohemia"
+                    }
+                }
+            ], 
+            "date_text": "1615 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, portrait of a woman, three-quarter-length, full face, standing beside a table.", 
+            "dimensions": "Height: 39.4  cm, Width: 29.5 cm", 
+            "title": "Elizabeth, Queen of Bohemia", 
+            "date_start": "1615-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 18:40:20", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PS, shelf 5", 
+            "marks": "'Aet. 16 1613 / Ao. 1615.'", 
+            "latitude": "52.10808900", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 47, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Dutch School", 
+                        "museumobject_count": 803, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31259", 
+                        "museumobject_image_count": 313, 
+                        "type": "", 
+                        "slug": "dutch-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 616633, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PS", 
+                        "inventory_number": 1257613, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.107-1960", 
+                        "museumobject": 482200, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e1071960", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 50203, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1633-12-31", 
+                        "surname": "", 
+                        "name": "Bolswert, Boetius Adamsz", 
+                        "gender": null, 
+                        "museumobject_count": 49, 
+                        "death_year": 1633, 
+                        "source": "object_production", 
+                        "cis_id": "A31183", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1575-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bolswert-boetius-adamsz", 
+                        "birth_year": 1575
+                    }
+                }, 
+                {
+                    "pk": 3649, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1662-12-31", 
+                        "surname": "", 
+                        "name": "Elizabeth (Queen of Bohemia)", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": 1662, 
+                        "source": "content", 
+                        "cis_id": "N1999", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1596-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "elizabeth-queen-of-bohemia", 
+                        "birth_year": 1596
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 298597, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 106
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482200, 
+                        "role": "printed", 
+                        "place": 106, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1071960", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 18, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Royalty", 
+                        "museumobject_count": 4106, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1829, 
+                        "type": "", 
+                        "slug": "royalty"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:40:20", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1960: Volume 2, Edgar Seligman Gift.</u> London: HMSO, 1966.\nThe full text of the entry is as follows:\n\n\u2018<b>BOLSWERT, Bo\u00ebtius Adams (c.1580-1633)</b>\n\nElizabeth, Princess Royal (1596-1662), wife of Frederick V, Elector Palatine, King of Bohemia.  Portrait, three-quarter-length, full face, standing beside a table.  (Le B.278; Holl.D.383; BM:P.11) <i>Lettered with dedication, name of sitter etc. and</i> Aet. 16 1613 <i>and dated</i> Ao. 1615.  <i>With the marks of the collections of John Young, F.S.A. (deid c.1874) (Lugt 1560), of the Rev. J. Burleigh James (mid-19th century) (Lugt 1425) and of Lawson Thompson (1837-1919) (Lugt 1770).\nEngraving.  Cut to</i> 39.4 x 29.5 cm.\nE.107-1960\u2019\nLe Blanc, Charles. <u>Manuel de l'amateur d'estampes.</u> Paris. \u00c9 Bouillon, 1854-1908.\nHollstein, F. W. H. <u>Dutch and Flemish Etchings, Engravings and Woodcuts ca. 1450-1700.</u> Amsterdam: M. Hertzberger, 1949.\nO'Donoghue, Freeman. <u>British Museum: Catalogue of Engraved British Portraits.</u> London: Printed by order of the Trustees, 1908-25.", 
+            "vanda_exhibition_history": "", 
+            "slug": "elizabeth-queen-of-bohemia-print-boetius-adams-bolswert", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 106, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Netherlands", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 4105, 
+                        "longitude": "5.33033000", 
+                        "source": "production", 
+                        "cis_id": "x29020", 
+                        "museumobject_image_count": 1974, 
+                        "latitude": "52.10808900", 
+                        "type": "country", 
+                        "slug": "netherlands-x29020"
+                    }
+                }
+            ], 
+            "artist": "Boetius Adams Bolswert", 
+            "namecontext_set": [
+                {
+                    "pk": 396881, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 50203
+                    }, 
+                    "fields": {
+                        "name": 50203, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482200, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 396882, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3649
+                    }, 
+                    "fields": {
+                        "name": 3649, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482200, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1615, 
+            "object_number": "O567459", 
+            "events": [], 
+            "credit": "Given by Edgar Seligman", 
+            "history_note": "", 
+            "place": "Netherlands", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,382 @@
+[
+    {
+        "pk": 86447, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.58-2004", 
+            "date_end": "1943-12-31", 
+            "labels": [], 
+            "descriptive_line": "\"Build and Fight in the Navy Seabees\" American World War II Poster by John Falter. USA, 1943.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1943, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 639, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "war", 
+                        "museumobject_count": 667, 
+                        "source": "concept", 
+                        "cis_id": "x35624", 
+                        "museumobject_image_count": 228, 
+                        "type": "", 
+                        "slug": "war"
+                    }
+                }, 
+                {
+                    "pk": 26623, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "propaganda", 
+                        "museumobject_count": 614, 
+                        "source": "concept", 
+                        "cis_id": "55539", 
+                        "museumobject_image_count": 235, 
+                        "type": "", 
+                        "slug": "propaganda"
+                    }
+                }, 
+                {
+                    "pk": 935, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "United States", 
+                        "museumobject_count": 395, 
+                        "source": "place", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 111, 
+                        "type": "", 
+                        "slug": "united-states"
+                    }
+                }, 
+                {
+                    "pk": 48135, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "soldier", 
+                        "museumobject_count": 282, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 180, 
+                        "type": "", 
+                        "slug": "soldier"
+                    }
+                }
+            ], 
+            "date_text": "1943 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "American World War II Poster. Colour lithograph of a soldier. Call for construction workers.", 
+            "dimensions": "Height: 106.9 cm, Width: 71.5 cm", 
+            "title": "Build and Fight in the Navy Seabees", 
+            "date_start": "1943-01-01", 
+            "materials_techniques": "Colour lithograph", 
+            "last_processed": "2014-04-01 00:28:35", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case 3G, shelf DR2", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 326, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "Colour lithograph", 
+                        "museumobject_count": 410, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x35545", 
+                        "museumobject_image_count": 94, 
+                        "type": "", 
+                        "slug": "colour-lithograph"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ink", 
+                        "museumobject_count": 22898, 
+                        "source": "cis_materials", 
+                        "cis_id": "187371", 
+                        "museumobject_image_count": 13758, 
+                        "type": "", 
+                        "slug": "ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 147234, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "3G", 
+                        "inventory_number": 720587, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.58-2004", 
+                        "museumobject": 86447, 
+                        "shelf": "DR2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e582004", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 15960, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1982-05-31", 
+                        "surname": "", 
+                        "name": "Falter, John", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1982, 
+                        "source": "object_production", 
+                        "cis_id": "A14533", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1910-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "falter-john", 
+                        "birth_year": 1910
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 82933, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86447, 
+                        "role": "made", 
+                        "place": 10, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 82934, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86447, 
+                        "role": "subject", 
+                        "place": 10, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e582004", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 99, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Politics", 
+                        "museumobject_count": 1098, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 618, 
+                        "type": "", 
+                        "slug": "politics"
+                    }
+                }, 
+                {
+                    "pk": 124, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Propaganda", 
+                        "museumobject_count": 1560, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 696, 
+                        "type": "", 
+                        "slug": "propaganda"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:28:35", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "build-and-fight-in-the-poster-falter-john", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 10, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "United States", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 5088, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 1371, 
+                        "latitude": null, 
+                        "type": "country", 
+                        "slug": "united-states-x29333"
+                    }
+                }
+            ], 
+            "artist": "Falter, John", 
+            "namecontext_set": [
+                {
+                    "pk": 102216, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 15960
+                    }, 
+                    "fields": {
+                        "name": 15960, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86447, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1943, 
+            "object_number": "O111888", 
+            "events": [
+                {
+                    "pk": 13, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "World War II (1939-45)", 
+                        "date_end": null, 
+                        "museumobject_count": 271, 
+                        "year_end": null, 
+                        "source": "associated", 
+                        "cis_id": "V16", 
+                        "museumobject_image_count": 103, 
+                        "type": "", 
+                        "slug": "world-war-ii-1939-45-v16"
+                    }
+                }
+            ], 
+            "credit": "Gift of the American Friends of the V&A; Gift to the American Friends by Leslie, Judith and Gabri Schreyer and Alice Schreyer Batko", 
+            "history_note": "", 
+            "place": "United States", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

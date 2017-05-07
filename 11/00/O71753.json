@@ -1,0 +1,321 @@
+[
+    {
+        "pk": 68609, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.14-1955", 
+            "date_end": "1733-12-31", 
+            "labels": [], 
+            "descriptive_line": "Model, terracotta, probably of Socrates, by John Michael Rysbrack, England, ca. 1729", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1724, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24551, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Socrates", 
+                        "museumobject_count": 7, 
+                        "source": "name", 
+                        "cis_id": "N544", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "socrates"
+                    }
+                }, 
+                {
+                    "pk": 49033, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "term", 
+                        "museumobject_count": 4, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "term"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1729 (made)", 
+            "primary_image_id": "2006AL4990", 
+            "rights": 3, 
+            "physical_description": "Probably Socrates. The man is bearded, wearing a toga, his hands hidden in its folds. The lower part is tapered and the top of the head is flat.", 
+            "dimensions": "Height: 31.5 cm", 
+            "title": "A Term", 
+            "date_start": "1724-01-01", 
+            "materials_techniques": "Terracotta, made from modelled clay", 
+            "last_processed": "2014-03-31 23:12:12", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 5", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 352, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Terracotta", 
+                        "museumobject_count": 786, 
+                        "source": "cis_materials", 
+                        "cis_id": "10669", 
+                        "museumobject_image_count": 457, 
+                        "type": "", 
+                        "slug": "terracotta"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 121837, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "5", 
+                        "inventory_number": 87234, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.14-1955", 
+                        "museumobject": 68609, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a141955", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1731, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1770-01-08", 
+                        "surname": "", 
+                        "name": "Rysbrack", 
+                        "gender": null, 
+                        "museumobject_count": 84, 
+                        "death_year": 1770, 
+                        "source": "object_production", 
+                        "cis_id": "A8814", 
+                        "museumobject_image_count": 23, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rysbrack-john-michael", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 1259, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Socrates", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": -399, 
+                        "source": "content", 
+                        "cis_id": "N544", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "socrates", 
+                        "birth_year": -469
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 64702, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 68609, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a141955", 
+            "object": "Model", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14050, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4742, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:12:12", 
+            "public_access_description": "This sculpture has been identified as the model for the right-hand figure on the marble chimneypiece in the Old East India House, Leadenhall and Lime Street, London, which was rebuilt between 1726 and 1729 by the architect Theodore Jacobsen (died 1772). It may depict the ancient Greek philosopher Socrates, and a similar figure on the left-hand side of the chimneypiece probably represents the philosopher Plato.These two pedestal figures (or 'terms') support an overmantel depicting  Britannia Receiving the Riches of the East. When the Old East India House was demolished in 1861, the chimneypiece was installed in the India Office Council Chamber of the Foreign and Commonwealth Office, Downing Street.\n\nThe 18th-century writer George Vertue mentions Rysbrack's work at Old East India House in his Notebooks, referring to 'a chimney bass-relievo.  first design'd by Mr. Rysbrac. & finely contriv'd, [with] several figures well group'd and dispos'd'. Although this confirms only that Rysbrack was the author of the Britannia relief, this fact, together with the stylistic similarities to other works by Rysbrack, strongly suggests that he was also responsible for the design of the chimneypiece.\n\nThere are also similarities between these figures and similar representations of Socrates and Plato at the Place of Versailles, near Paris.\n\nRysbrack (1694-1770) was born in Antwerp, and trained in the Netherlands, but spent his working life in Britain. He was one of the most important sculptors active in this country in the first half of the 18th century, and specialised in portrait busts and funerary monuments. Although he never visited Italy, many of his works are clearly indebted to classical archetypes. His terracotta models are particularly fine, and are often virtually finished pieces in their own right.", 
+            "exhibition_history": "", 
+            "bibliography": "Bilbey, Diane with Trusted, Marjorie, British Sculpture 1470 to 2000. A Concise Catalogue of the Collection at the Victoria and Albert Museum, London, 2002, pp. 132-33, cat.no. 183", 
+            "vanda_exhibition_history": "", 
+            "slug": "a-term-model-rysbrack-john-michael", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 1860, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-08-20 00:00:00", 
+                        "last_processed": "2014-03-31 17:08:36", 
+                        "priority": 0, 
+                        "image_id": "2006AL4990", 
+                        "sys_id": 104990, 
+                        "last_checked": "2014-03-31 17:08:36", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AL/2006AL4990.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Rysbrack, John Michael", 
+            "namecontext_set": [
+                {
+                    "pk": 77869, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1731
+                    }, 
+                    "fields": {
+                        "name": 1731, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 68609, 
+                        "role": "sculptor", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 77870, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1259
+                    }, 
+                    "fields": {
+                        "name": 1259, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 68609, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1733, 
+            "object_number": "O71753", 
+            "events": [], 
+            "credit": "Given by Lt. Col. H. W. Russell", 
+            "history_note": "Given by Lt-Colonel H.W.Russell, Hampshire, in 1955.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "This term is identified as a sketch-model for the right hand caryatid figure - possibly depicting the philosopher Socrates - on the marble chimneypiece in the Old East India House, Leadenhall and Lime Street, with an overmantel depicting 'Britannia receiving the riches of the East', commissioned from Rysbrack when it was rebuilt during 1726-9 by the architect Theodore Jacobsen. When the Old East India House was demolished in 1861, the chimneypiece was installed in the India Office Council chamber of the Foreign and Commonwealth Office, Downing Street.", 
+            "collection_code": "SCP"
+        }
+    }
+]
