@@ -1,0 +1,299 @@
+[
+    {
+        "pk": 702709, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "D.1175-1908", 
+            "date_end": "1851-12-31", 
+            "labels": [], 
+            "descriptive_line": "A sketch of a street with arches overhead. Pen and ink on tinted paper.", 
+            "shape": "", 
+            "longitude": "31.74997500", 
+            "year_start": 1841, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1348, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Cairo", 
+                        "museumobject_count": 445, 
+                        "source": "place", 
+                        "cis_id": "x28776", 
+                        "museumobject_image_count": 167, 
+                        "type": "", 
+                        "slug": "cairo"
+                    }
+                }, 
+                {
+                    "pk": 2426, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "street scenes", 
+                        "museumobject_count": 77, 
+                        "source": "object", 
+                        "cis_id": "x35546", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "street-scenes"
+                    }
+                }, 
+                {
+                    "pk": 189, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Architecture, Buildings", 
+                        "museumobject_count": 23, 
+                        "source": "object", 
+                        "cis_id": "x31777", 
+                        "museumobject_image_count": 21, 
+                        "type": "", 
+                        "slug": "architecture-buildings"
+                    }
+                }
+            ], 
+            "date_text": "1841-1851", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "A sketch showing a view down a street with arches overhead, in sharp perspective, with a male figure in the foreground. Pen and ink on tinted turquoise paper (probably faded from a stronger blue).", 
+            "dimensions": "Height: 42.7 cm, Width: 26.8 cm", 
+            "title": "Sketch of a street with arches", 
+            "date_start": "1841-01-01", 
+            "materials_techniques": "Pen and ink", 
+            "last_processed": "2014-04-26 18:03:36", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Unique", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 70", 
+            "marks": "", 
+            "latitude": "30.14004500", 
+            "techniques": [
+                {
+                    "pk": 39, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing (image-making)", 
+                        "museumobject_count": 4481, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54196", 
+                        "museumobject_image_count": 2635, 
+                        "type": "", 
+                        "slug": "drawing-image-making"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31965, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18774, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 235, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Mid-Victorian", 
+                        "museumobject_count": 19, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31268", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "mid-victorian"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 837666, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PD", 
+                        "inventory_number": 988621, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "D.1175-1908", 
+                        "museumobject": 702709, 
+                        "shelf": "70", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "d11751908", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 4654, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1876-12-31", 
+                        "surname": "", 
+                        "name": "Lewis, John Frederick (RA POWCS)", 
+                        "gender": null, 
+                        "museumobject_count": 97, 
+                        "death_year": 1876, 
+                        "source": "object_production", 
+                        "cis_id": "A8614", 
+                        "museumobject_image_count": 37, 
+                        "forename": "", 
+                        "birth_date": "1804-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "lewis-john-frederick-ra-powcs", 
+                        "birth_year": 1804
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 392304, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 323
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 702709, 
+                        "role": "", 
+                        "place": 323, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 392305, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 323
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 702709, 
+                        "role": "subject", 
+                        "place": 323, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "d11751908", 
+            "object": "Drawing", 
+            "categories": [], 
+            "last_checked": "2014-04-26 18:03:36", 
+            "public_access_description": "John Frederick Lewis was a respected Orientalist painter, best known for intricate portrayals of sunlit bazaars, mosques and hareems in Egypt and the near-East. As with most of his paintings, the principle subject of this drawing is the architecture, the space it encloses and the form of daily life it encapsulates, rather the particular human characters within it. Lewis himself tried to emerse himself in such life, spending ten years living in the dress and manner of an Egyptian nobleman. This brisk sketch, in sharp perspective, depicts the bustling, crouded corners of Khan el-Khalil bazaar, not far from Lewis's grand lodgings.", 
+            "exhibition_history": "", 
+            "bibliography": "Lewis, Michael. <u>John Frederick Lewis</u>. Leigh-on-Sea: F. Lewis, 1978. pp. 22-23. ISBN 853170460.\n\"...perhaps his [Lewis's] most characteristic Cairo studies were of the <i>suqs</i> (bazaars) and street scenes. These streets were without pavements, and often only five to ten or twelve feet wide. They were lined with shops, having 'mastabas' or stone benches before them, on which the merchant sat and haggled over his wares; Lewis sketched many such. ...One of the principle <i>suqs</i> was the Turkish Khan-el-Khalil,. depiucted in about a dozen paintings by Lewis. In this Khan public auctions were held on Mondays and Thursdays. These were conducted by the <i>Della'l</i> (or broker) who would carry his wares up and down the market, holding up the article and crying out the last sum bidden. One of Lewis's most colourful and subtly composed works depicts such an auction by a <i>Della'l</i>, in a covered <i>suq/i> of many archways and mysterious shadows. ...\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "sketch-of-a-street-with-drawing-lewis-john-frederick", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 323, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Cairo", 
+                        "parent": null, 
+                        "country": "Egypt", 
+                        "museumobject_count": 2462, 
+                        "longitude": "31.74997500", 
+                        "source": "production", 
+                        "cis_id": "x28776", 
+                        "museumobject_image_count": 1972, 
+                        "latitude": "30.14004500", 
+                        "type": "city/town", 
+                        "slug": "cairo-egypt-x28776"
+                    }
+                }
+            ], 
+            "artist": "Lewis, John Frederick (RA POWCS)", 
+            "namecontext_set": [
+                {
+                    "pk": 509216, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4654
+                    }, 
+                    "fields": {
+                        "name": 4654, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 702709, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1851, 
+            "object_number": "O797787", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Historical significance: This sketch shows a bazaar in Cairo, where Lewis lived, between 1841 and 1851, renting a grand merchant's house. The narrow arched passage bears a strong resemblance to that depicted in two painted versions of a single scene by Lewis, one a watercolour entitled <i>The Cairo Bazaar</i> (Cecil Higgins Art Gallery, Bedford) and the other an oil painting of 1872 entitled <i>The Bezelstein Bazaar of El Kahn Khalil</i> (private collection). A further late work in oils, <i>A Cairo Bazaar, The Della'l\"</i> of 1875, is mentioned by Lewis's great grand nephew, Major-General Micheal Lewis, CBE, in relation to the Khan el-Khalil bazaar, as an evocative portrayal of the life amidst its 'many archways and mysterious shadows'.", 
+            "place": "Cairo", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
