@@ -1,0 +1,345 @@
+[
+    {
+        "pk": 658785, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2215-1929", 
+            "date_end": "1933-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Grand Central, Night', drypoint, Walter Tittle, USA, ca. 1929", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1924, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24327, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "night", 
+                        "museumobject_count": 92, 
+                        "source": "object", 
+                        "cis_id": "133095", 
+                        "museumobject_image_count": 44, 
+                        "type": "", 
+                        "slug": "night"
+                    }
+                }, 
+                {
+                    "pk": 37220, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stations", 
+                        "museumobject_count": 75, 
+                        "source": "object", 
+                        "cis_id": "7746", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "stations"
+                    }
+                }, 
+                {
+                    "pk": 48422, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Cars", 
+                        "museumobject_count": 67, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 14, 
+                        "type": "", 
+                        "slug": "cars"
+                    }
+                }, 
+                {
+                    "pk": 60058, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Grand Central Station", 
+                        "museumobject_count": 2, 
+                        "source": "place", 
+                        "cis_id": "THES253940", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "grand-central-station"
+                    }
+                }, 
+                {
+                    "pk": 75780, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sidewalk", 
+                        "museumobject_count": 1, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "sidewalk"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1929 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Black and white print depicting the exterior of Grand Central Station, New York, at night.", 
+            "dimensions": "Height: 12.875 in, Width: 7.875 in", 
+            "title": "Grand Central, Night", 
+            "date_start": "1924-01-01", 
+            "materials_techniques": "drypoint", 
+            "last_processed": "2014-04-26 16:56:00", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case EE, shelf 186, box B", 
+            "marks": "Walter Tittle", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 249, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drypoint", 
+                        "museumobject_count": 235, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53228", 
+                        "museumobject_image_count": 125, 
+                        "type": "", 
+                        "slug": "drypoint"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 793599, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "EE", 
+                        "inventory_number": 1039136, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.2215-1929", 
+                        "museumobject": 658785, 
+                        "shelf": "186", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e22151929", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 85881, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1966-12-31", 
+                        "surname": "", 
+                        "name": "Tittle, Walter", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1966, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH331052", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1883-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "tittle-walter", 
+                        "birth_year": 1883
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 381837, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 658785, 
+                        "role": "made", 
+                        "place": 10, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 381838, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 20438
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 658785, 
+                        "role": "subject", 
+                        "place": 20438, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e22151929", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:56:00", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1929</u>, London: Board of Education, 1930.\nThe full text of the record is as follows:\n\n'<b>TITTLE, Walter.</b>\nGrand Central, Night.\n       <i>Signed</i> Walter Tittle, <i>In pencil</i> Walter Tittle.\n       <i>Drypoint.</i> (12 7/8 x 7 7/8)\n       E. 2215-1929.\n\nGiven by the Artist.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "grand-central-night-print-tittle-walter", 
+            "sys_updated": "2014-04-11 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 10, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "United States", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 5106, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 1372, 
+                        "latitude": null, 
+                        "type": "country", 
+                        "slug": "united-states-x29333"
+                    }
+                }, 
+                {
+                    "pk": 20438, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "", 
+                        "parent": null, 
+                        "country": "", 
+                        "museumobject_count": 2, 
+                        "longitude": null, 
+                        "source": "", 
+                        "cis_id": "THES253940", 
+                        "museumobject_image_count": 0, 
+                        "latitude": null, 
+                        "type": "", 
+                        "slug": "thes253940"
+                    }
+                }
+            ], 
+            "artist": "Tittle, Walter", 
+            "namecontext_set": [
+                {
+                    "pk": 495754, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 85881
+                    }, 
+                    "fields": {
+                        "name": 85881, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 658785, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1933, 
+            "object_number": "O752981", 
+            "events": [], 
+            "credit": "Given by the Artist", 
+            "history_note": "", 
+            "place": "USA", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
