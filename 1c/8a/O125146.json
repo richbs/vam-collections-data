@@ -1,0 +1,350 @@
+[
+    {
+        "pk": 97777, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "143-1888", 
+            "date_end": "1839-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, sketch for 'The Valley Farm', John Constable, ca. 1835", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1830, 
+            "exhibitions": [
+                {
+                    "pk": 133, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 1285, 
+                        "year_start": 1991, 
+                        "name": "Constable", 
+                        "date_end": "1991-09-15", 
+                        "museumobject_count": 82, 
+                        "venue": "Tate Gallery London", 
+                        "date_start": "1991-06-13", 
+                        "year_end": 1991, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 76, 
+                        "type": "", 
+                        "slug": "constable", 
+                        "date_text": "13/06/1991-15/09/1991"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 49478, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "farm", 
+                        "museumobject_count": 60, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 19, 
+                        "type": "", 
+                        "slug": "farm"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1835 (made)", 
+            "primary_image_id": "2007BN0036", 
+            "rights": 3, 
+            "physical_description": "A view of a figure punting a boat, next to a wood.", 
+            "dimensions": "Height: 34 cm approx., Width: 28 cm approx., Height: 56 cm Frame, Width: 51.8 cm Frame", 
+            "title": "The Valley Farm (sketch)", 
+            "date_start": "1830-01-01", 
+            "materials_techniques": "Oil on canvas", 
+            "last_processed": "2014-04-01 01:19:55", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room WS, case 45, shelf R", 
+            "marks": "'J. Constable. P. Valley Farm'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 162605, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 616
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "45", 
+                        "inventory_number": 421883, 
+                        "room": "WS", 
+                        "part_name": "", 
+                        "museum_number": "143-1888", 
+                        "museumobject": 97777, 
+                        "shelf": "R", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room WS", 
+                        "museum_number_token": "1431888", 
+                        "gallery": 616
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 616, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "WS", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room WS", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1379, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49603", 
+                        "museumobject_image_count": 329, 
+                        "type": "", 
+                        "slug": "ws-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 221, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1837-03-31", 
+                        "surname": "", 
+                        "name": "John Constable", 
+                        "gender": null, 
+                        "museumobject_count": 470, 
+                        "death_year": 1837, 
+                        "source": "object_production", 
+                        "cis_id": "A8267", 
+                        "museumobject_image_count": 387, 
+                        "forename": "", 
+                        "birth_date": "1776-06-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "constable-john-ra", 
+                        "birth_year": 1776
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 94779, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 97777, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "1431888", 
+            "object": "Oil", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:19:55", 
+            "public_access_description": "", 
+            "exhibition_history": "Constable (Tate 13/06/1991-15/09/1991)", 
+            "bibliography": "Parris, Leslie and Ian Fleming-Williams, <u> Constable </u> London : The Tate Gallery, 1991. ISBN 1854370707 / 1854370715. 544 p. : ill. (some col.).\nExhibition catalogue\n<i>Catalogue of the Constable Collection</i>, Graham Reynolds, Victoria and Albert Museum, London: HMSO, 1973, pp. 221-223\nThe following is an extract from the text of the entry:\n \n\"The canvas has been relined.  \n\nNote on Nos. 373 and 374 [143-1888, 140-1888]\n\nNos. 373 and 374 [see above] are compositional sketches for 'The Valley Farm', the final version of which, measuring 57 1/2 x 49 ins., Constable exhibited at the Royal Academy in 1835; this was bought by R. Vernon, and is now in the Tate Gallery (No. 327). 'The Valley Farm' was the last fully-finished picture which he constructed from the scenery of the banks of the Stour, The farmhouse seen in the sketches and, somewhat elaborated, in the final version is Willy Lott's house. \nIn 'Fresh Light on John Constable', <i>Apollo</i>, Vol. LXXXVII, 1968, pp. 229-30, Charles Rhyne reproduces a drawing of c.1800-3 in the Courtauld Institute of Art and records an oil sketch of c.1802 in the collection of the Earl of Haddington which show the inception of the composition of 'The Valley Farm'. Its subsequent development is seen in the two small drawings in the sketch-book of 1813 (No. 121, pp. 31, 70). Two other oil paintings of the subject are known. One, the large oil study in the collection of Lord Forteviot, is discussed by M. Chamot in her article \"The Constable Room at the Tate Gallery\" (<i>Connoisseur</i>, Vol. CXXXVII, 1956, p. 263). The other, which measures 24 x 20 ins., and was formerly in the collections of James Lenox and the New York Public Library, was shown at Messrs. Agnew's in the autumn of 1956; the Tate Gallery's painting follows it closely in such details as the figures on the distant bank of the stream and the bird skimming across the water in the left foreground. Leslie wrote of it to Mr. Lenox that Constable \"afterwards painted a larger picture of it, which is in Mr. Vernon's collection\". It is therefore possibly the study referred to by him when he writes of 'The Valley Farm' as being based upon an early sketch (L. ed. s., p. 325). However, Lord Porteviot's version, which measures 50 x 40 ins. and is therefore a nearly full-scale study for the Tate Gallery's picture, is close in style to the 'Mill Stream' of 1814 (Christchurch Mansion Museum, Ipswich) and was probably painted at about the same time as the latter, while the Lenox version can hardly be earlier than the 1820's. On the other hand he may have been referring to either the drawing or the oil-sketch mentioned at the beginning of this paragraph. Nos. 373 and 374 [143-1888, 140-1888] have been considered to antedate the exhibited picture by some years; Holmes, p. 252, says of them \"From the style it would seem as if these two sketches had been made at least ten years before the exhibition of the picture\". The colouring of these two sketches has, however, that slightly forced and unnatural quality seen in the sketches which Constable made in his studio and which are attributed in this Catalogue to a date c.1830 (for example Nos. 329a [787-1888 back] and 331 [261-1876]), and the brushwork has much in common with these sketches for <i>English Landscape Scenery</i>. On the other hand there is no affinity between Nos. 373, 374 [143-1888, 140-1888] and the open-air sketches known to be of c.1825 in this collection. There seems, then, reason to believe that these two sketches were made at the time Constable was working on the version of the picture which he exhibited and sold to Vernon; one new feature in them both is the boat with a figure in it in the foreground, which occurs in none of the previous versions but is followed in Vernon' s picture. No. 373 [143-1888] is nearer to the pencil sketch on p. 31 of the sketch-book No. 121 [317-1888] in the detail of the boat drawn up on dry land by the side of the house. No. 374 [140-1888] is nearer to the sketch on p. 70 of the sketch-book in showing the foreground weeds, and the boat shelter on the left. In the relation between the trees on the right and the house, No. 374 [140-1888] is closer to the composition of Lord Forteviot's sketch and the painting from the Lenox \ncollection; the Tate Gallery's picture, though in it the side of the house concealed by the trees in the two oil sketches is revealed, is also close to No. 374  [140-1888] in general outline; but from No. 373 has been taken the elongated crown of the foreground tree and the figure standing up in the boat punting. \nFor drawings of trees connected with 'The Valley Farm' see Nos. 163 [252-1888] and 375 [1249-1888]; also No. 376 [1248-1888]; and for a drawing of the country-woman sitting in the boat see No. 377 600-1888].\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-valley-farm-sketch-oil-constable-john-ra", 
+            "sys_updated": "2013-11-21 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 97649, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 17:29:14", 
+                        "priority": 0, 
+                        "image_id": "2007BN0036", 
+                        "sys_id": 330036, 
+                        "last_checked": "2014-03-31 17:29:14", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BN/2007BN0036.jpg"
+                    }
+                }, 
+                {
+                    "pk": 79042, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 17:25:15", 
+                        "priority": 47, 
+                        "image_id": "2006BF3330", 
+                        "sys_id": 263330, 
+                        "last_checked": "2014-03-31 17:25:15", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BF/2006BF3330.jpg"
+                    }
+                }, 
+                {
+                    "pk": 303961, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 18:11:34", 
+                        "priority": 48, 
+                        "image_id": "2012FR7306", 
+                        "sys_id": 1197306, 
+                        "last_checked": "2014-03-31 18:11:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2012FR/2012FR7306.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Constable, John (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 116517, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 221
+                    }, 
+                    "fields": {
+                        "name": 221, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 97777, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1839, 
+            "object_number": "O125146", 
+            "events": [], 
+            "credit": "Given by Isabel Constable", 
+            "history_note": "Given by Isabel Constable, 1888", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "'In 1835 Constable's sole exhibit at the Royal Academy was 'The Valley Farm' (see Nos. 373-377 [143-1888, 140-1888, 1249-1888, 1248-1888, 600-1888]). He visited George Constable at Arundel in July. He visited Worcester (where paintings by him had been exhibited in July) to give three lectures, in October.' \n                                 \t\n[G Reynolds, 1973, p. 221]", 
+            "collection_code": "PDP"
+        }
+    }
+]
