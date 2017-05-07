@@ -1,0 +1,292 @@
+[
+    {
+        "pk": 604222, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.938-1966", 
+            "date_end": "1950-12-31", 
+            "labels": [], 
+            "descriptive_line": "Poster by Fritx Rehm", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1900, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 2321, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Bavaria", 
+                        "museumobject_count": 18, 
+                        "source": "place", 
+                        "cis_id": "x28740", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "bavaria"
+                    }
+                }
+            ], 
+            "date_text": "early 20th century (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Poster by Fritz Rehm.", 
+            "dimensions": "Length: 76.8 cm Taken from 'Victoria & Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1966' published by HMSO 1967, Width: 52.7 cm Taken from 'Victoria & Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1966' published by HMSO 1967", 
+            "title": "", 
+            "date_start": "1900-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-04-26 15:02:41", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case Y, shelf 82, box 37", 
+            "marks": "'F. Rehm'", 
+            "latitude": "51.09083900", 
+            "techniques": [
+                {
+                    "pk": 326, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "Colour lithograph", 
+                        "museumobject_count": 418, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x35545", 
+                        "museumobject_image_count": 96, 
+                        "type": "", 
+                        "slug": "colour-lithograph"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 738877, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "37", 
+                        "case": "Y", 
+                        "inventory_number": 1107974, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.938-1966", 
+                        "museumobject": 604222, 
+                        "shelf": "82", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e9381966", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 49556, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Rehm, Fritz", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A30487", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1871-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rehm-fritz", 
+                        "birth_year": 1871
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 353368, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 604222, 
+                        "role": "made", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 353369, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 309
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 604222, 
+                        "role": "subject", 
+                        "place": 309, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e9381966", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12413, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1856, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:02:41", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1966 </u> pub. HMSO 1967\nFull text of entry is as follows: \n\n<b>REHM, Fritz (born 1871)</b> \n\nW\u00f6rishofen, Bayern.  Poster advertising a spa in Bavaria.  Early 20th century. \n<i>Signed</i> F. Rehm. \n<i>Colour lithograph.</i>  (76.8 x 52.7 cm.)            E.938-1966", 
+            "vanda_exhibition_history": "", 
+            "slug": "poster-rehm-fritz", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7526, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3502, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }, 
+                {
+                    "pk": 309, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5
+                    }, 
+                    "fields": {
+                        "name": "Bavaria", 
+                        "parent": 5, 
+                        "country": "Germany", 
+                        "museumobject_count": 104, 
+                        "longitude": "12.53364000", 
+                        "source": "production", 
+                        "cis_id": "x28740", 
+                        "museumobject_image_count": 49, 
+                        "latitude": "47.79501000", 
+                        "type": "region / state", 
+                        "slug": "bavaria-germany-x28740"
+                    }
+                }
+            ], 
+            "artist": "Rehm, Fritz", 
+            "namecontext_set": [
+                {
+                    "pk": 463643, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 49556
+                    }, 
+                    "fields": {
+                        "name": 49556, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 604222, 
+                        "role": "designed and made by", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1950, 
+            "object_number": "O695355", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
