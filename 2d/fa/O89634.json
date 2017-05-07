@@ -1,0 +1,280 @@
+[
+    {
+        "pk": 54993, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.14-1974", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Statuette, Capitoline Flora, bronze, Italian (Rome), workshop of Giacomo (1731-1785) and Giovanni (1745-1805) Zoffoli, late 18th century", 
+            "shape": "", 
+            "longitude": "12.49576000", 
+            "year_start": 1750, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 27564, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Flora", 
+                        "museumobject_count": 39, 
+                        "source": "name", 
+                        "cis_id": "N227", 
+                        "museumobject_image_count": 23, 
+                        "type": "", 
+                        "slug": "flora-227"
+                    }
+                }
+            ], 
+            "date_text": "late 18th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Based on the famous antique marble <i>Capitoline Flora</i> (Musei Capitolini, Rome).", 
+            "dimensions": "Height: 34.61 cm", 
+            "title": "Capitoline Flora", 
+            "date_start": "1750-01-01", 
+            "materials_techniques": "Bronze", 
+            "last_processed": "2014-03-31 22:14:49", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Room 117, case 4", 
+            "marks": "'G.ZOFFOLI.F.'", 
+            "latitude": "41.90311100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 103480, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 313
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 82697, 
+                        "room": "117", 
+                        "part_name": "", 
+                        "museum_number": "A.14-1974", 
+                        "museumobject": 54993, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Room 117", 
+                        "museum_number_token": "a141974", 
+                        "gallery": 313
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 313, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "117", 
+                        "site_name": "", 
+                        "name": "Room 117", 
+                        "site_code": "VA", 
+                        "museumobject_count": 31, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49906", 
+                        "museumobject_image_count": 27, 
+                        "type": "", 
+                        "slug": "117-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10046, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Zoffoli Workshop", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11522", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "zoffoli-workshop", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 8512, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Flora", 
+                        "gender": null, 
+                        "museumobject_count": 39, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N227", 
+                        "museumobject_image_count": 23, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "flora", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 51430, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 51
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 54993, 
+                        "role": "made", 
+                        "place": 51, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a141974", 
+            "object": "Statuette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:14:49", 
+            "public_access_description": "This bronze figure is based on the marble Capitoline Flora, which is now in the Musei Capitolini, Rome.\nThe Zoffoli workshop was the most important of four such workshops active in Rome during the eighteenth century and specialising in the reproduction of small bronzes after antique sculpture, primarily for the foreign Grand Tour market . Zoffoli bronzes were particularly collected in England where they formed ideal adornments for chimneypieces.", 
+            "exhibition_history": "", 
+            "bibliography": "Penny, Nicholas <u>Catalogue of European sculpture in the Ashmolean Museum : 1540 to the present day.</u> Oxford : Clarendon Press, 1992, Vol. I: Italian, pp.162-167, cat. no. 115.\nPenny, Nicholas and Haskell, F. <u>'The Most Beautiful Statues': The taste for Antique Sculpture</u>, Oxford, Ashmolean, 1981, no. 61, p. 44.\nHonour, Hugh. 'Bronze statuettes by Giacomo and Giovanni Zoffoli' in <u>Connoisseur</u>, CXLVIII, 961, pp. 198-205.\n<u>The Age of Neo-Classicism</u>, Exhibition catalogue , Arts Council England, Royal Academy of Arts, Victoria and Albert Museum, London, 1972, pp. 293-95\nNicholas, Penny. <u>Catalogue of European Sculpture in the Ashmolean Museum: 1540 to the Present Day</u>, Vol. I, Italian, Oxford, 1992, pp. 162-67.\nRadcliffe, A.F in Jackson-Stopes, Gervase ed. <u>The Treasure Houses of Britain</u>, 1985, pp. 358-61, cat. no. 285.\nAvery, Charles. 'Bronze Statuettes in Woburn Abbey: New Attributions to Taddeo Landini and Giuseppe de Levis', <u>Apollo</u>, CXIX/1, February 1984, pp. 97-103", 
+            "vanda_exhibition_history": "", 
+            "slug": "capitoline-flora-statuette-zoffoli-workshop", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 51, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Rome", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 4014, 
+                        "longitude": "12.49576000", 
+                        "source": "production", 
+                        "cis_id": "x29106", 
+                        "museumobject_image_count": 1698, 
+                        "latitude": "41.90311100", 
+                        "type": "city / town", 
+                        "slug": "rome-italy-x29106"
+                    }
+                }
+            ], 
+            "artist": "Zoffoli Workshop", 
+            "namecontext_set": [
+                {
+                    "pk": 59430, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10046
+                    }, 
+                    "fields": {
+                        "name": 10046, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 54993, 
+                        "role": "founders", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 59431, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8512
+                    }, 
+                    "fields": {
+                        "name": 8512, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 54993, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O89634", 
+            "events": [], 
+            "credit": "Given by Professor Benjamin Rowland, Jr., through The Art Fund", 
+            "history_note": "", 
+            "place": "Rome", 
+            "production_note": "Although the bronze is signed, it is unclear whether Giacomo and Giovanni Zoffoli were directly involved in its modelling, casting or finishing because other sculptors, such as Vincenzo Pacetti, often made the models in their foundry.", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
