@@ -1,0 +1,414 @@
+[
+    {
+        "pk": 1053620, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.77:6-1970", 
+            "date_end": "1856-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1847, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 2742, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Austria", 
+                        "museumobject_count": 73, 
+                        "source": "place", 
+                        "cis_id": "x28728", 
+                        "museumobject_image_count": 19, 
+                        "type": "", 
+                        "slug": "austria"
+                    }
+                }, 
+                {
+                    "pk": 4500, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Vienna (city)", 
+                        "museumobject_count": 36, 
+                        "source": "place", 
+                        "cis_id": "x29246", 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "vienna"
+                    }
+                }, 
+                {
+                    "pk": 2361, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "watermills", 
+                        "museumobject_count": 16, 
+                        "source": "object", 
+                        "cis_id": "x31899", 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "watermills"
+                    }
+                }, 
+                {
+                    "pk": 8224, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Poland", 
+                        "museumobject_count": 10, 
+                        "source": "place", 
+                        "cis_id": "x29083", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "poland"
+                    }
+                }, 
+                {
+                    "pk": 3177, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Breslau", 
+                        "museumobject_count": 3, 
+                        "source": "place", 
+                        "cis_id": "x28765", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "wroclaw"
+                    }
+                }
+            ], 
+            "date_text": "ca.1852 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Austria and Poland. View of a watermill with the ecclesiastical buildings of Klosterneuburg, Vienna on a hill in the background; and view of the walled city of Breslau, Poland.", 
+            "dimensions": "Height: 246 mm, Width: 194 mm", 
+            "title": "Topographical drawing", 
+            "date_start": "1847-01-01", 
+            "materials_techniques": "Pencil on grey paper", 
+            "last_processed": "2014-04-27 03:45:58", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case A, shelf 147, box E", 
+            "marks": "Inscribed 'Newburg-Closter' and 'Breslau'.", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 55030, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27388, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1238731, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "E", 
+                        "case": "A", 
+                        "inventory_number": 1436188, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.77:6-1970", 
+                        "museumobject": 1053620, 
+                        "shelf": "147", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e7761970", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 666, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1852-09-14", 
+                        "surname": "", 
+                        "name": "Pugin", 
+                        "gender": null, 
+                        "museumobject_count": 1272, 
+                        "death_year": 1852, 
+                        "source": "object_production", 
+                        "cis_id": "A8761", 
+                        "museumobject_image_count": 400, 
+                        "forename": "", 
+                        "birth_date": "1812-03-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pugin-augustus-welby-northmore", 
+                        "birth_year": 1812
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 463055, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 130
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1053620, 
+                        "role": "subject", 
+                        "place": 130, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 463056, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 63
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1053620, 
+                        "role": "subject", 
+                        "place": 63, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 463057, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 379
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1053620, 
+                        "role": "subject", 
+                        "place": 379, 
+                        "order": 3
+                    }
+                }, 
+                {
+                    "pk": 463058, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 197
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1053620, 
+                        "role": "subject", 
+                        "place": 197, 
+                        "order": 4
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e7761970", 
+            "object": "drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 03:45:58", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Alexandra Wedgwood, <u> A.W.N. Pugin and the Pugin Family </u>, London; V&A, 1985, p. 299.", 
+            "vanda_exhibition_history": "", 
+            "slug": "topographical-drawing-drawing-pugin", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 130, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Austria", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 546, 
+                        "longitude": "13.34577000", 
+                        "source": "production", 
+                        "cis_id": "x28728", 
+                        "museumobject_image_count": 191, 
+                        "latitude": "47.69651000", 
+                        "type": "country", 
+                        "slug": "austria-x28728"
+                    }
+                }, 
+                {
+                    "pk": 63, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Vienna", 
+                        "parent": null, 
+                        "country": "Austria", 
+                        "museumobject_count": 770, 
+                        "longitude": "16.36879900", 
+                        "source": "production", 
+                        "cis_id": "x29246", 
+                        "museumobject_image_count": 467, 
+                        "latitude": "48.20254100", 
+                        "type": "city / town", 
+                        "slug": "vienna-austria-x29246"
+                    }
+                }, 
+                {
+                    "pk": 379, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5232
+                    }, 
+                    "fields": {
+                        "name": "Wroclaw", 
+                        "parent": 5232, 
+                        "country": "Poland", 
+                        "museumobject_count": 20, 
+                        "longitude": "17.02669900", 
+                        "source": "production", 
+                        "cis_id": "x28765", 
+                        "museumobject_image_count": 14, 
+                        "latitude": "51.10804000", 
+                        "type": "city/town", 
+                        "slug": "wroclaw-poland-x28765"
+                    }
+                }, 
+                {
+                    "pk": 197, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Poland", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 326, 
+                        "longitude": "19.13647100", 
+                        "source": "production", 
+                        "cis_id": "x29083", 
+                        "museumobject_image_count": 110, 
+                        "latitude": "51.92250800", 
+                        "type": "country", 
+                        "slug": "poland-x29083"
+                    }
+                }
+            ], 
+            "artist": "Pugin", 
+            "namecontext_set": [
+                {
+                    "pk": 644174, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 666
+                    }, 
+                    "fields": {
+                        "name": 666, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1053620, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1856, 
+            "object_number": "O1174478", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "These sketches belong to a group of similar drawings of Central European subjects, which Pugin has apparently copied from a book.", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
