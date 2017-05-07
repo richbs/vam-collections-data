@@ -1,0 +1,361 @@
+[
+    {
+        "pk": 14439, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "1595-1869", 
+            "date_end": "1855-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'Fishing', Fran\u00e7ois Bocion, Swiss school, 1855", 
+            "shape": "", 
+            "longitude": "6.63233000", 
+            "year_start": 1855, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 58, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "man", 
+                        "museumobject_count": 3060, 
+                        "source": "object", 
+                        "cis_id": "x35641", 
+                        "museumobject_image_count": 2211, 
+                        "type": "", 
+                        "slug": "man"
+                    }
+                }, 
+                {
+                    "pk": 2155, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Switzerland", 
+                        "museumobject_count": 286, 
+                        "source": "place", 
+                        "cis_id": "x29199", 
+                        "museumobject_image_count": 137, 
+                        "type": "", 
+                        "slug": "switzerland"
+                    }
+                }, 
+                {
+                    "pk": 23869, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fishing", 
+                        "museumobject_count": 200, 
+                        "source": "object", 
+                        "cis_id": "239470", 
+                        "museumobject_image_count": 103, 
+                        "type": "", 
+                        "slug": "fishing"
+                    }
+                }
+            ], 
+            "date_text": "1855 (painted)", 
+            "primary_image_id": "2006AG3409", 
+            "rights": 3, 
+            "physical_description": "A male figure wearing a jacket with a loose black tie and bare feet sat a rock at the edge of a lake is fishing, a sailing boat with white sails on the left, imposing mountains in the background.", 
+            "dimensions": "Height: 27 cm estimate, Width: 38 cm estimate, Height: 43 cm frame, Width: 53.5 cm frame, Weight: 3 kg with frame", 
+            "title": "Fishing", 
+            "date_start": "1855-01-01", 
+            "materials_techniques": "oil on millboard", 
+            "last_processed": "2014-03-31 19:42:36", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 82, case EAST WALL", 
+            "marks": "'F. Bocion 1855'", 
+            "latitude": "46.51958800", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }, 
+                {
+                    "pk": 170, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "millboard", 
+                        "museumobject_count": 1145, 
+                        "source": "cis_materials", 
+                        "cis_id": "14233", 
+                        "museumobject_image_count": 1106, 
+                        "type": "", 
+                        "slug": "millboard"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 155, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Swiss School", 
+                        "museumobject_count": 83, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31273", 
+                        "museumobject_image_count": 62, 
+                        "type": "", 
+                        "slug": "swiss-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 21715, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 507
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EAST WALL", 
+                        "inventory_number": 422013, 
+                        "room": "82", 
+                        "part_name": "", 
+                        "museum_number": "1595-1869", 
+                        "museumobject": 14439, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 82", 
+                        "museum_number_token": "15951869", 
+                        "gallery": 507
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 507, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "82", 
+                        "site_name": "", 
+                        "name": "Paintings, room 82", 
+                        "site_code": "VA", 
+                        "museumobject_count": 78, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49712", 
+                        "museumobject_image_count": 75, 
+                        "type": "", 
+                        "slug": "82-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3231, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1890-12-31", 
+                        "surname": "", 
+                        "name": "Fran\u00e7ois Bocion", 
+                        "gender": null, 
+                        "museumobject_count": 18, 
+                        "death_year": 1890, 
+                        "source": "object_production", 
+                        "cis_id": "A9628", 
+                        "museumobject_image_count": 17, 
+                        "forename": "", 
+                        "birth_date": "1828-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bocion-francois", 
+                        "birth_year": 1828
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15445, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 840
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 14439, 
+                        "role": "painted", 
+                        "place": 840, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 15446, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 173
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14439, 
+                        "role": "subject", 
+                        "place": 173, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "15951869", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:42:36", 
+            "public_access_description": "Fran\u00e7ois Bocion (1828-1890) was born in Lausanne. He first trained with Christian Gottlieb Steinlen (1779-1847) in Vevey and subsequently with Fran\u00e7ois Bonnet (1811-1894) in Lausanne. In Paris in 1845, Bocion entered the atelier of Louis-Aim\u00e9 Grosclaude (1784-1869) and later that of Charles Gleyre (1806-1874) and befriended Gustave Courbet (1819-1877) and other important exponents of the Realist movement. Back in Lausanne in 1849 he became a teacher at the Ecole moyenne et industrielle of Lausane, a position he held until his death. At the same time, he had an extensive output with several travels abroad. He exhibited in Paris, Vienna, Anvers, London and was a founder member of the Swiss society of watercolorists (1884). \n\nThis painting is a fine example of Bocion's early compositions when he was inspired by various subject matters. This Fisherman belongs to a series of portraits of characters Bocion executed in the 1850s. The palette, typically enlivened with purple hues in Bocion's oeuvre, and the handling of paint recalls the Realist movement emerged in Paris in the 1840s.", 
+            "exhibition_history": "", 
+            "bibliography": "Kauffmann, C.M., <u>Catalogue of Foreign Paintings, II. 1800-1900</u>, London: Victoria and Albert Museum, 1973, p. 8, cat. no. 21.\nThe following is the full text of the entry:\n\nFran\u00e7ois Louis David BOCION (1828-90) \nSwiss (Lausanne) School \nBorn at Lausanne, he was a pupil of Charles Gleyre and L. Grosclaude in Paris. From 1849 he lived in Lausanne. He painted historical subjects in his early years, but subsequently concentrated almost exclusively on landscapes, in particular views of Lake Geneva. \nThere are sixteen paintings by Bocion in the bequest of the Rev. C. H. Townshend, who was in the habit of spending the winter in Lausanne. \n\n21\nFISHING \nSigned and dated lower left <i>F. Bocion 1855</i> \nMill board \n10 \u00be x 15 (27 x 38) \nTownshend Bequest \n1595-1869 \n \nProv. The Rev. C. H. Townshend; bequeathed to the Museum in 1868.\nReymondin, M., <u>Catalogue Raisonn\u00e9 de Fran\u00e7ois Bocion</u>, Immerc: Wormer, 1989, no. 36, p. 23", 
+            "vanda_exhibition_history": "", 
+            "slug": "fishing-oil-painting-bocion-francois", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 46208, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-01 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:08", 
+                        "priority": 0, 
+                        "image_id": "2006AG3409", 
+                        "sys_id": 63409, 
+                        "last_checked": "2014-03-31 17:18:08", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG3409.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 840, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3286
+                    }, 
+                    "fields": {
+                        "name": "Lausanne", 
+                        "parent": 3286, 
+                        "country": "Switzerland", 
+                        "museumobject_count": 29, 
+                        "longitude": "6.63233000", 
+                        "source": "production", 
+                        "cis_id": "x36502", 
+                        "museumobject_image_count": 19, 
+                        "latitude": "46.51958800", 
+                        "type": "city / town", 
+                        "slug": "lausanne-switzerland-x36502"
+                    }
+                }, 
+                {
+                    "pk": 173, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Switzerland", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 2134, 
+                        "longitude": "8.22414000", 
+                        "source": "production", 
+                        "cis_id": "x29199", 
+                        "museumobject_image_count": 451, 
+                        "latitude": "46.81309100", 
+                        "type": "country", 
+                        "slug": "switzerland-x29199"
+                    }
+                }
+            ], 
+            "artist": "Bocion, Fran\u00e7ois", 
+            "namecontext_set": [
+                {
+                    "pk": 14661, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3231
+                    }, 
+                    "fields": {
+                        "name": 3231, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14439, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1855, 
+            "object_number": "O80867", 
+            "events": [], 
+            "credit": "Bequeathed by Rev. Chauncey Hare Townshend", 
+            "history_note": "Rev. Chauncey Hare Townshend, listed in the 1868 post-mortem register of the contents of his villa in Lausanne (V&A R/F MA/1/T1181) as 'Oil on millboard. Fishing. By F. Bocion. Signed. Swiss. 1855'; bequeathed by Rev. Chauncey Hare Townshend, 1868.\n\nHistorical significance: This painting is one of a group of 16 paintings bequeathed to the museum by the Rev. Townshend who had a villa in Lausanne where he spent the winter. \nThis painting is a fine example of Bocion's experimentation of different thematic during his early career. Typical of Bocion is the palette dominated by purple and blue hues while the handling of the paint, subject matter and rendering of light effects revealed here the influence of Camille Corot and the Barbizon school he was in contact with while residing in France.\nThree similar compositions include: <i>A Young Roman Girl</i>, dated 1853, Private collection, <i> The Broom Maker</i>, dated 1855, Victoria and Albert Museum (1623-1869), London, and <i>Fishing at the Lake Leman</i>, Museum f\u00fcr Kunst und Geschichte, Fribourg. \nThe depiction of a lone figure or more often a group of figures at close range while the Leman lake view served as a background is a recurrent compositional formula in Bocion's oeuvre throughout the 1850s. \nThis painting was probably bought by the Rev. Townshend directly from the artist and displayed in his villa in Lausanne where it completed there a large collection of 19th-century landscapes paintings. The Victoria and Albert Museum owns the most comprehensive group of Bocion's paintings in the U.K.", 
+            "place": "Lausanne", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

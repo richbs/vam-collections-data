@@ -1,0 +1,274 @@
+[
+    {
+        "pk": 104717, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.336-2007", 
+            "date_end": "1947-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing by Joseph Teixeira de Mattos, The statue of Marshall Ney, Paris", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1947, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1490, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Paris", 
+                        "museumobject_count": 903, 
+                        "source": "place", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 611, 
+                        "type": "", 
+                        "slug": "paris"
+                    }
+                }
+            ], 
+            "date_text": "1947 (drawn)", 
+            "primary_image_id": "2008BU4461", 
+            "rights": 3, 
+            "physical_description": "The statue of Marshall Ney, Paris,  seen from the back", 
+            "dimensions": "Height: 46.1 cm, Width: 35.8 cm", 
+            "title": "Paris, La Statue du Marechal Ney", 
+            "date_start": "1947-01-01", 
+            "materials_techniques": "Charcoal", 
+            "last_processed": "2014-04-01 01:50:24", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Unique", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2A, shelf DR56, box CONS", 
+            "marks": "At  bottom right artist's monogram and date '1947' and 'Paris'", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 74, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "charcoal", 
+                        "museumobject_count": 821, 
+                        "source": "cis_materials", 
+                        "cis_id": "12862", 
+                        "museumobject_image_count": 448, 
+                        "type": "", 
+                        "slug": "charcoal"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 171205, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "CONS", 
+                        "case": "MB2A", 
+                        "inventory_number": 1328558, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.336-2007", 
+                        "museumobject": 104717, 
+                        "shelf": "DR56", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e3362007", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 33188, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1971-12-31", 
+                        "surname": "", 
+                        "name": "Teixeira de Mattos, Joseph", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": 1971, 
+                        "source": "object_production", 
+                        "cis_id": "A19186", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1892-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "teixeira-de-mattos-joseph", 
+                        "birth_year": 1892
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 102367, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 104717, 
+                        "role": "drawn", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 102368, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 104717, 
+                        "role": "subject", 
+                        "place": 39, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e3362007", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:50:24", 
+            "public_access_description": "The Dutch artist  Joseph Teixeira de Mattos (1892-1971) was born in Amsterdam, from a Jewish family of Portuguese origins. Under the influence of his fellow artists Jan Toorop and Jessurun de Mesquita, Teixeira became particularly interested in drawing, media that he thought had been neglected by the Impressionists. Moving to Paris in 1938, and especially a trip to Spain of 1953, made of Teixeira de Mattos an independent artist. At every trip to Spain that he took, the artist returned to Paris with a portfolio full of new inspiring drawings. \nIn this drawing, the artist has sketched the statue of Michel Ney, who was marshal of France and once Napoleon's most trusted general, who turned traitor for the restored monarchy. The bronze sculpture of the marshal is now situated on the corner of Boulevard Montparnasse and place de L'Observatoire in Paris. The choice of the artist is quite original, as Teixeira decided to portray the statue from the back, rather than the typical frontal view.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "paris-la-statue-du-marechal-drawing-teixeira-de-mattos", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 118046, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-04 00:00:00", 
+                        "last_processed": "2014-03-31 17:33:27", 
+                        "priority": 0, 
+                        "image_id": "2008BU4461", 
+                        "sys_id": 374461, 
+                        "last_checked": "2014-03-31 17:33:27", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BU/2008BU4461.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Teixeira de Mattos, Joseph", 
+            "namecontext_set": [
+                {
+                    "pk": 125249, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 33188
+                    }, 
+                    "fields": {
+                        "name": 33188, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 104717, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1947, 
+            "object_number": "O133526", 
+            "events": [], 
+            "credit": "Bequeathed by Ellen Teixeira", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
