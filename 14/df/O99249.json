@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 75572, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "488-1896", 
+            "date_end": "1896-12-31", 
+            "labels": [], 
+            "descriptive_line": "Porcelain vase, with bulbous body, long neck, with purplish-red glaze, Ernest Chaplet, Paris, 1896", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1896, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1896 (made)", 
+            "primary_image_id": "2006AG8636", 
+            "rights": 3, 
+            "physical_description": "Porcelain vase, with bulbous body, long neck, with purplish-red glaze", 
+            "dimensions": "Height: 20.6 cm, Diameter: 9.8 cm", 
+            "title": "", 
+            "date_start": "1896-01-01", 
+            "materials_techniques": "Porcelain, with high temperature flamb\u00e9 glaze", 
+            "last_processed": "2014-03-31 23:44:14", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Europe & America 1800-1900, room 101, case 4", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 132639, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 286
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 360609, 
+                        "room": "101", 
+                        "part_name": "", 
+                        "museum_number": "488-1896", 
+                        "museumobject": 75572, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Europe & America 1800-1900, room 101", 
+                        "museum_number_token": "4881896", 
+                        "gallery": 286
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 286, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "101", 
+                        "site_name": "", 
+                        "name": "Europe & America 1800-1900, room 101", 
+                        "site_code": "VA", 
+                        "museumobject_count": 178, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49933", 
+                        "museumobject_image_count": 150, 
+                        "type": "", 
+                        "slug": "101-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 6693, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1909-12-31", 
+                        "surname": "", 
+                        "name": "Chaplet, Ernest", 
+                        "gender": null, 
+                        "museumobject_count": 14, 
+                        "death_year": 1909, 
+                        "source": "object_production", 
+                        "cis_id": "A3602", 
+                        "museumobject_image_count": 14, 
+                        "forename": "", 
+                        "birth_date": "1835-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "chaplet-ernest", 
+                        "birth_year": 1835
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 71837, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 75572, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "4881896", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 81, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Vases", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 942, 
+                        "type": "", 
+                        "slug": "vases"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:44:14", 
+            "public_access_description": "This vase is by the French ceramicist Ernest Chaplet (1835-1909). Chaplet trained at S\u00e8vres in decoration, design and ceramic techniques and went on to work at Choisy-le-Roi, then at the Laurin pottery at Bourg-la-Reine and from 1875 for the Limoges company, Charles Haviland & cie, in a workshop at Auteuil.  There he developed new techniques on stoneware and porcelain. In  the early 1880s he moved to a new Haviland studio in Vaugirard, Paris, that was ceded to him in 1886.  He worked there independently, moving out to his own studio at Choisy-le-Roi the following year.  He became increasingly preoccupied with the relationship between material, form and colour, experimenting endlessly. \n\nThe distinctive colouring of this vase demonstrates Chaplet's interest in glaze effects and is inspired by Chinese ceramics. The high-temperature copper-red flamm\u00e9e glazes of 18th century Chinese porcelain became the subject of intensive research and experiment in the years around 1900, both by factories and individual makers. Their re-creation depended entirely on the potter's knowledge of chemistry as well as his skill at firing these dramatic and unpredictable glazes. The technique produced a range of colours from a deep bright red through a spectrum of violet, blue, green, purple and combinations of all of these. Chaplet kept his own recipes a closely guarded secret. Towards the end of his life, when blindness brought his career as a potter to its end, Chaplet destroyed all his notebooks.", 
+            "exhibition_history": "", 
+            "bibliography": "Greenhalgh, P.(ed): Art Nouveau 1890-1914; V&AM. 1999, pp 196-7, 204 Paris, Mus\u00e9e des Arts D\u00e9coratifs: Ernest Chaplet, catalogue, 1976 d'Albis, J.: 'Chaplet Master Potter', in Connoisseur, ?June, 1976, pp129-136 Roger-Marx: 'Souvenirs sur Ernest Chaplet'; Art et Decoration, xxvii, Jan-June, 1910, pp.89-98", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-chaplet-ernest", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 48302, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:35", 
+                        "priority": 0, 
+                        "image_id": "2006AG8636", 
+                        "sys_id": 68636, 
+                        "last_checked": "2014-03-31 17:18:35", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG8636.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Chaplet, Ernest", 
+            "namecontext_set": [
+                {
+                    "pk": 86990, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6693
+                    }, 
+                    "fields": {
+                        "name": 6693, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 75572, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1896, 
+            "object_number": "O99249", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Bought from Messrs Berguin & Varangier, 26 rue Vignon, Paris for \u00a33.19.6\n\nHistorical significance: Ernest Chaplet (1835-1909), born at S\u00e8vres, began work at the State factory at the age of 12. He became a highly skilled ceramicist working in potteries at Choisy-le-Roi and Bourg-la-Reine and then for the Limoges manufacturers, the Haviland brothers, at a new workshop in Auteuil. In 1881 Haviland provided him with a studio at rue Blomet, Vaugirard, Paris.  There he developed high temperature glazes on porcelain, and on stoneware. In 1886 he bought the workshop and concentrated on these glazes, as an independent potter, keeping his glazes recipes and firing temperatures a closely-guarded secret.  He was regarded by his contemporaries as the consummate ceramicist. Chaplet sold the workshop to August Delaherche in 1887 and moved back to Choisy-le-Roi where he specialised in porcelain..", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

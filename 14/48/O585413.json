@@ -1,0 +1,377 @@
+[
+    {
+        "pk": 500147, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.5219-1958", 
+            "date_end": "1915-04-30", 
+            "labels": [], 
+            "descriptive_line": "'London In War-Time'. Lithograph poster advertising an exhibition of drawings and lithographs by Joseph Pennell, held at the Leicester Galleries, London, April-May 1915, featuring a reduced version of the lithograph 'Searchlights behind St. Paul's'. Design by the artist, Great Britain, 1915.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1915, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 44, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "London", 
+                        "museumobject_count": 1788, 
+                        "source": "place", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 430, 
+                        "type": "", 
+                        "slug": "london"
+                    }
+                }, 
+                {
+                    "pk": 639, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "war", 
+                        "museumobject_count": 667, 
+                        "source": "concept", 
+                        "cis_id": "x35624", 
+                        "museumobject_image_count": 228, 
+                        "type": "", 
+                        "slug": "war"
+                    }
+                }, 
+                {
+                    "pk": 24598, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cathedral", 
+                        "museumobject_count": 158, 
+                        "source": "object", 
+                        "cis_id": "7501", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "cathedral"
+                    }
+                }, 
+                {
+                    "pk": 1175, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "St Paul's Cathedral", 
+                        "museumobject_count": 76, 
+                        "source": "place", 
+                        "cis_id": "x34856", 
+                        "museumobject_image_count": 23, 
+                        "type": "", 
+                        "slug": "st-pauls-cathedral"
+                    }
+                }, 
+                {
+                    "pk": 29507, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "searchlights", 
+                        "museumobject_count": 3, 
+                        "source": "object", 
+                        "cis_id": "180818", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "searchlights"
+                    }
+                }
+            ], 
+            "date_text": "early 1915 (issued)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Lithograph poster advertising an exhibition of drawings and lithographs by Joseph Pennell, held at the Leicester Galleries, London, April-May 1915. The subject illustrated on this poster is a reduced version of the lithograph entitled 'Searchlights behind St. Paul's'.", 
+            "dimensions": "Height: 76.2 cm, Width: 55.6 cm", 
+            "title": "London In War-Time", 
+            "date_start": "1915-01-01", 
+            "materials_techniques": "Lithograph", 
+            "last_processed": "2014-04-01 19:48:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case Y, shelf 71, box D", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18520, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3488, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 634581, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "D", 
+                        "case": "Y", 
+                        "inventory_number": 1238149, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.5219-1958", 
+                        "museumobject": 500147, 
+                        "shelf": "71", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e52191958", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 9430, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1926-04-23", 
+                        "surname": "", 
+                        "name": "Joseph Pennell", 
+                        "gender": null, 
+                        "museumobject_count": 62, 
+                        "death_year": 1926, 
+                        "source": "object_production", 
+                        "cis_id": "A5298", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1857-07-04", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pennell-joseph", 
+                        "birth_year": 1857
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 310814, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 500147, 
+                        "role": "issued", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 310815, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 500147, 
+                        "role": "subject", 
+                        "place": 7, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 310816, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 498
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 500147, 
+                        "role": "subject", 
+                        "place": 498, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e52191958", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 19:48:25", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1957-1958 </u> London: HMSO, 1964\nThe full text of the entry is as follows: \n\n\"<b>PENNELL, Joseph (1860-1926)</b> \n... \nPoster advertising the exhibition of drawings and lithographs by Joseph Pennell, entitles 'London in War-Time' held at The Leicester Galleries, London, April to May 1915. \n<i>Lithograph.</i>              E.5219-1958 \n\nGiven by Mrs. T. E. Griffits \n\n<i>Note:</i> The subject illustrated on this poster is a reduced version of the lithograph entitled 'Searchlights behind St. Paul's' No.398 in Wuerth's catalogue.  An impression of the original lithograph is E.5167-1958.\"\n<u>Summary Catalogue of British Posters to 1988 in the Victoria & Albert Museum in the Department of Design, Prints & Drawing</u>. Emmett Publishing, 1990. 129 p. ISBN: 1 869934 12 1\nThe full text of the entry is as follows: \n\n'<b>PENNELL</b>, Joseph (1860-1926) \n[...] \nLondon In War-Time. Poster advertising an exhibition of drawings and lithographs by Joseph Pennell, held at the Leicester Galleries, London, April-May 1915. L 76.2 x 55.6 cm \nE.5219-1958  fiche 30/C9'", 
+            "vanda_exhibition_history": "", 
+            "slug": "london-in-war-time-poster-pennell-joseph", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }, 
+                {
+                    "pk": 498, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4249
+                    }, 
+                    "fields": {
+                        "name": "St. Paul's Cathedral", 
+                        "parent": 4249, 
+                        "country": "England", 
+                        "museumobject_count": 69, 
+                        "longitude": "-93.11419700", 
+                        "source": "production", 
+                        "cis_id": "x34856", 
+                        "museumobject_image_count": 21, 
+                        "latitude": "44.91478700", 
+                        "type": "site", 
+                        "slug": "st-pauls-cathedral-england-x34856"
+                    }
+                }
+            ], 
+            "artist": "Pennell, Joseph", 
+            "namecontext_set": [
+                {
+                    "pk": 413333, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 9430
+                    }, 
+                    "fields": {
+                        "name": 9430, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 500147, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1915, 
+            "object_number": "O585413", 
+            "events": [
+                {
+                    "pk": 343, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "First World War", 
+                        "date_end": null, 
+                        "museumobject_count": 98, 
+                        "year_end": null, 
+                        "source": "subject", 
+                        "cis_id": "V154", 
+                        "museumobject_image_count": 23, 
+                        "type": "", 
+                        "slug": "first-world-war-v154"
+                    }
+                }
+            ], 
+            "credit": "Given by Mrs. T. E. Griffits", 
+            "history_note": "The subject illustrated on this poster is a reduced version of the lithograph entitled 'Searchlights behind St. Paul's' No.398 in Wuerth's catalogue. An impression of the original lithograph is E.5167-1958.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
