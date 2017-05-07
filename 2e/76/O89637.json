@@ -1,0 +1,295 @@
+[
+    {
+        "pk": 54996, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.15-1974", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Antinous, bronze, Italian (Rome), workshop of Giacomo (1731-1785) and Giovanni (1745-1805) Zoffoli, late 18th century", 
+            "shape": "", 
+            "longitude": "12.49576000", 
+            "year_start": 1750, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 28148, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Antinous", 
+                        "museumobject_count": 4, 
+                        "source": "name", 
+                        "cis_id": "N525", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "antinous"
+                    }
+                }
+            ], 
+            "date_text": "late 18th century (made)", 
+            "primary_image_id": "2006AE6569", 
+            "rights": 3, 
+            "physical_description": "Based on the famous antique marble <i>Capitoline Antinous</i> (Musei Capitolini, Rome).", 
+            "dimensions": "Height: 33.02 cm", 
+            "title": "Antinous", 
+            "date_start": "1750-01-01", 
+            "materials_techniques": "Bronze", 
+            "last_processed": "2014-03-31 22:14:50", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Room 117, case 4", 
+            "marks": "'G.ZOFFOLI.F.'", 
+            "latitude": "41.90311100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 103483, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 313
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 82696, 
+                        "room": "117", 
+                        "part_name": "", 
+                        "museum_number": "A.15-1974", 
+                        "museumobject": 54996, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Room 117", 
+                        "museum_number_token": "a151974", 
+                        "gallery": 313
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 313, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "117", 
+                        "site_name": "", 
+                        "name": "Room 117", 
+                        "site_code": "VA", 
+                        "museumobject_count": 31, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49906", 
+                        "museumobject_image_count": 27, 
+                        "type": "", 
+                        "slug": "117-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10046, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Zoffoli Workshop", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11522", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "zoffoli-workshop", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 10048, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "0130-12-31", 
+                        "surname": "", 
+                        "name": "Antinous", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": 130, 
+                        "source": "content", 
+                        "cis_id": "N525", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "antinous", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 51433, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 51
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 54996, 
+                        "role": "made", 
+                        "place": 51, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a151974", 
+            "object": "Statuette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:14:50", 
+            "public_access_description": "This bronze statuette is based on the marble Capitoline Antinous which was recorded in 1733 in Cardinal Albani's collection, having been found in Hadrian's Villa. It is one of four bronzes made in the Zoffoli workshop bequeathed by Professor Rowland.\n\nThe Zoffoli workshop was the most important of four such workshops active in Rome during the eighteenth century and specialising in the reproduction of small bronzes after antique sculpture, primarily for the foreign Grand Tour market . Zoffoli bronzes were particularly collected in England where they formed ideal adornments for chimneypieces.", 
+            "exhibition_history": "", 
+            "bibliography": "Penny, Nicholas <u>Catalogue of European sculpture in the Ashmolean Museum : 1540 to the present day.</u> Oxford : Clarendon Press, 1992, Vol. I: Italian, pp.162-167, cat. no. 114.\nHaskell, F and Penny, N. <u>The Most Beautiful Statues: The Taste for Antique</u>, Oxford, Ashmolean, 1981, no. 59, p. 43.\nHonour, Hugh. 'Bronze statuettes by Giacomo and Giovanni Zoffoli' in <u>Connoisseur</u>, CXLVIII, 961, pp. 198-205.\n<u>The Age of Neo-Classicism</u>, Exhibition catalogue , Arts Council England, Royal Academy of Arts, Victoria and Albert Museum, London, 1972, pp. 293-95\nPenny, Nicholas and Haskell, Francis. <u>Taste and the Antique</u>, New Haven and London, 1981, pp. 148-151 and 342-43.\nAvery, Charles. 'Bronze Statuettes in Woburn Abbey: New Attributions to Taddeo Landini and Giuseppe de Levis', <u>Apollo</u>, CXIX/1, February 1984, pp. 97-103\nRadcliffe, A.F in Jackson-Stopes, Gervase ed. <u>The Treasure Houses of Britain</u>, 1985, pp. 358-61, cat. no. 285.\nNicholas, Penny. <u>Catalogue of European Sculpture in the Ashmolean Museum: 1540 to the Present Day</u>, Vol. I, Italian, Oxford, 1992, pp. 162-67.", 
+            "vanda_exhibition_history": "", 
+            "slug": "antinous-statuette-zoffoli-workshop", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 38564, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:27", 
+                        "priority": 0, 
+                        "image_id": "2006AE6569", 
+                        "sys_id": 46569, 
+                        "last_checked": "2014-03-31 17:16:27", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE6569.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 51, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Rome", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 4014, 
+                        "longitude": "12.49576000", 
+                        "source": "production", 
+                        "cis_id": "x29106", 
+                        "museumobject_image_count": 1698, 
+                        "latitude": "41.90311100", 
+                        "type": "city / town", 
+                        "slug": "rome-italy-x29106"
+                    }
+                }
+            ], 
+            "artist": "Zoffoli Workshop", 
+            "namecontext_set": [
+                {
+                    "pk": 59435, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10046
+                    }, 
+                    "fields": {
+                        "name": 10046, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 54996, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 59436, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10048
+                    }, 
+                    "fields": {
+                        "name": 10048, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 54996, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O89637", 
+            "events": [], 
+            "credit": "Given by Professor Benjamin Rowland, Jr., through The Art Fund", 
+            "history_note": "Given by Professor Benjamin Rowland, Jr, through the National Art-Collections Fund.", 
+            "place": "Rome", 
+            "production_note": "Although the bronze is signed, it is unclear whether Giacomo and Giovanni Zoffoli were directly involved in its modelling, casting or finishing because other sculptors, such as Vincenzo Pacetti, often made the models in their foundry.", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

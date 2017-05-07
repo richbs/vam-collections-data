@@ -1,0 +1,258 @@
+[
+    {
+        "pk": 65619, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.304-1915", 
+            "date_end": "1784-12-31", 
+            "labels": [], 
+            "descriptive_line": "Figure of Athena, made by Locr\u00e9 and Russinger's porcelain factory, Paris, ca. 1780.", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1775, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1780 (made)", 
+            "primary_image_id": "2006BB4959", 
+            "rights": 3, 
+            "physical_description": "Figure of Athena. Biscuit porcelain.", 
+            "dimensions": "", 
+            "title": "Athena", 
+            "date_start": "1775-01-01", 
+            "materials_techniques": "Biscuit porcelain", 
+            "last_processed": "2014-03-31 22:55:38", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Ceramics Study Galleries, Britain & Europe, room 139, case X, shelf 1", 
+            "marks": "Crossed arrows and 'F' incised", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1760, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "biscuit", 
+                        "museumobject_count": 143, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 124, 
+                        "type": "", 
+                        "slug": "biscuit"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 117247, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 3195
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "X", 
+                        "inventory_number": 360886, 
+                        "room": "139", 
+                        "part_name": "", 
+                        "museum_number": "C.304-1915", 
+                        "museumobject": 65619, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "museum_number_token": "c3041915", 
+                        "gallery": 3195
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 3195, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "139", 
+                        "site_name": "", 
+                        "name": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "site_code": "VA", 
+                        "museumobject_count": 12503, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49874", 
+                        "museumobject_image_count": 12417, 
+                        "type": "", 
+                        "slug": "139-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 11855, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Locr\u00e9 and Russinger's porcelain factory", 
+                        "gender": null, 
+                        "museumobject_count": 17, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A12374", 
+                        "museumobject_image_count": 17, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "locre-and-russingers-porcelain-factory", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 61478, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 65619, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c3041915", 
+            "object": "Figure", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:55:38", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "athena-figure-locre-and-russingers", 
+            "sys_updated": "2014-02-13 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 72292, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:23:48", 
+                        "priority": 0, 
+                        "image_id": "2006BB4959", 
+                        "sys_id": 224959, 
+                        "last_checked": "2014-03-31 17:23:48", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BB/2006BB4959.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Locr\u00e9 and Russinger's porcelain factory", 
+            "namecontext_set": [
+                {
+                    "pk": 73280, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11855
+                    }, 
+                    "fields": {
+                        "name": 11855, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 65619, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1784, 
+            "object_number": "O69143", 
+            "events": [], 
+            "credit": "Given by Lt. Col. K. Dingwall, DSO through The Art Fund", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
