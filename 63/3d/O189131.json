@@ -1,0 +1,258 @@
+[
+    {
+        "pk": 153277, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.696-1990", 
+            "date_end": "1872-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "31.74997500", 
+            "year_start": 1872, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1348, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Cairo", 
+                        "museumobject_count": 442, 
+                        "source": "place", 
+                        "cis_id": "x28776", 
+                        "museumobject_image_count": 167, 
+                        "type": "", 
+                        "slug": "cairo"
+                    }
+                }, 
+                {
+                    "pk": 29864, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "windows", 
+                        "museumobject_count": 189, 
+                        "source": "object", 
+                        "cis_id": "3039", 
+                        "museumobject_image_count": 89, 
+                        "type": "", 
+                        "slug": "windows"
+                    }
+                }
+            ], 
+            "date_text": "1872 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Pasted to board.", 
+            "dimensions": "Height: 208 mm photo, Width: 160 mm photo, Height: 330 mm board, Width: 265 mm board", 
+            "title": "Cairo, Masharabieh", 
+            "date_start": "1872-01-01", 
+            "materials_techniques": "Albumen print from collodion negative", 
+            "last_processed": "2014-04-01 04:55:48", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case MX1, shelf XM, box 103", 
+            "marks": "Cairo Building", 
+            "latitude": "30.14004500", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 229939, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "103", 
+                        "case": "MX1", 
+                        "inventory_number": 411386, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.696-1990", 
+                        "museumobject": 153277, 
+                        "shelf": "XM", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e6961990", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 38072, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Frank M. Good", 
+                        "gender": null, 
+                        "museumobject_count": 269, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A15842", 
+                        "museumobject_image_count": 12, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "good-f-m", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 147394, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 323
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 153277, 
+                        "role": "photographed", 
+                        "place": 323, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 147395, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 323
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 153277, 
+                        "role": "subject", 
+                        "place": 323, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e6961990", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 04:55:48", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "cairo-masharabieh-photograph-f-m-good", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 323, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Cairo", 
+                        "parent": null, 
+                        "country": "Egypt", 
+                        "museumobject_count": 2456, 
+                        "longitude": "31.74997500", 
+                        "source": "production", 
+                        "cis_id": "x28776", 
+                        "museumobject_image_count": 1972, 
+                        "latitude": "30.14004500", 
+                        "type": "city/town", 
+                        "slug": "cairo-egypt-x28776"
+                    }
+                }
+            ], 
+            "artist": "F. M. Good", 
+            "namecontext_set": [
+                {
+                    "pk": 194194, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 38072
+                    }, 
+                    "fields": {
+                        "name": 38072, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 153277, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1872, 
+            "object_number": "O189131", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "One of a series of photographs (169 in the collection, various numbers and accession years) by F M Good, made during his third travel to Egypt, the Nile, Nubia and Constantinople in1872. Published by Frith, London. Other photographs from his first trip are also in the collection.\n\nA masharabieh or moucharabieh is a projecting window witha  carved wood latticework.", 
+            "place": "Cairo", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

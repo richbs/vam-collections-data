@@ -1,0 +1,244 @@
+[
+    {
+        "pk": 659034, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1642-1929", 
+            "date_end": "1929-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Kings of Orient', colour woodcut, Allen W. Seaby, Great Britain, early 20th century", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1900, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1900-1929 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Colour print entitled 'Kings of Orient'.", 
+            "dimensions": "Height: 6 in, Width: 8 in", 
+            "title": "Kings of Orient", 
+            "date_start": "1900-01-01", 
+            "materials_techniques": "colour woodcut print", 
+            "last_processed": "2014-04-26 16:56:39", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case EW, shelf 6, box A", 
+            "marks": "A W Seaby", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 1024, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "woodcut", 
+                        "museumobject_count": 1003, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 154, 
+                        "type": "", 
+                        "slug": "woodcut"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 793848, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "EW", 
+                        "inventory_number": 1038563, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.1642-1929", 
+                        "museumobject": 659034, 
+                        "shelf": "6", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e16421929", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 85898, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1953-12-31", 
+                        "surname": "", 
+                        "name": "Seaby, Allen W.", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1953, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH330921", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1867-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "seaby-allen-w", 
+                        "birth_year": 1867
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 382044, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 659034, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e16421929", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:56:39", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1929</u>, London: Board of Education, 1930.\nThe full text of the record is as follows:\n\n'<b>SEABY, Allen W.</b>\n...\nKings of Orient.\n<i>Signed in pencil</i> A W Seaby.\n<i>Colour woodcut.</i> (6 x 8)\nE. 1642-1929.\n\nGiven by the Artist.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "kings-of-orient-print-seaby-allen-w", 
+            "sys_updated": "2014-04-09 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Seaby, Allen W.", 
+            "namecontext_set": [
+                {
+                    "pk": 496059, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 85898
+                    }, 
+                    "fields": {
+                        "name": 85898, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 659034, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1929, 
+            "object_number": "O753230", 
+            "events": [], 
+            "credit": "Given by the Artist", 
+            "history_note": "", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

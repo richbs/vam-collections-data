@@ -1,0 +1,310 @@
+[
+    {
+        "pk": 77150, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1057-2003", 
+            "date_end": "1991-12-31", 
+            "labels": [], 
+            "descriptive_line": "Etching, image of a wall beyond which can be seen the edge of an apartment building and open space, Jan Szmatloch, Poland, 1991", 
+            "shape": "", 
+            "longitude": "19.13647100", 
+            "year_start": 1991, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 49042, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "walls", 
+                        "museumobject_count": 57, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 20, 
+                        "type": "", 
+                        "slug": "walls"
+                    }
+                }, 
+                {
+                    "pk": 34517, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "shadows", 
+                        "museumobject_count": 33, 
+                        "source": "concept", 
+                        "cis_id": "56036", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "shadows"
+                    }
+                }, 
+                {
+                    "pk": 6000, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cityscape", 
+                        "museumobject_count": 29, 
+                        "source": "object", 
+                        "cis_id": "x35361", 
+                        "museumobject_image_count": 19, 
+                        "type": "", 
+                        "slug": "cityscape"
+                    }
+                }
+            ], 
+            "date_text": "1991 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Picture plane almost entirely taken up by a sloping wall in dark shadow, behind and to right an area of open space in which a fraction of the facade of an apartment building is visible. In foreground, in front of wall, some irregular, indistinguishable shapes which could be stones.", 
+            "dimensions": "Height: 27.7 cm plate, Width: 20.2 cm plate", 
+            "title": "Slope III", 
+            "date_start": "1991-01-01", 
+            "materials_techniques": "Etching on paper", 
+            "last_processed": "2014-03-31 23:51:30", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Limited edition", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case MP, shelf 155", 
+            "marks": "Inscribed in pencil in artist's hand, in Polish,  below image with, to left, title: Skarpa III; at centre: E [preuve de] A[rtiste] VI and to right: with signature and date: Szmatloch [19]91  Slope III  Artist's  Proof", 
+            "latitude": "51.92250800", 
+            "techniques": [
+                {
+                    "pk": 22, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching", 
+                        "museumobject_count": 11667, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39131", 
+                        "museumobject_image_count": 4960, 
+                        "type": "", 
+                        "slug": "etching"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 26465, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12156, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 134667, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "MP", 
+                        "inventory_number": 715901, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.1057-2003", 
+                        "museumobject": 77150, 
+                        "shelf": "155", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e10572003", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 14245, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Szmatloch, Jan", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A13039", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1950-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "szmatloch-jan", 
+                        "birth_year": 1950
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 73441, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 197
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 77150, 
+                        "role": "made", 
+                        "place": 197, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e10572003", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14050, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4742, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:51:30", 
+            "public_access_description": "Jan Szmatloch, born in 1950 in Poland, grew up under Soviet rule. Food and fuel shortages, restrictions on free speech and the threat of imprisonment or worse were part of the daily conditions of life. \n\nIn common with many East European artists, Szmatloch\u2019s output from the 1960s through to the 1980s suggests sinister but undefined forces at work. At the end of the 1980s a change begins to take place, reflecting the political, economic and social restructuring of Mikhail Gorbachev\u2019s Perestroika in the Soviet Union, culminating in the collapse of communism. \n\nSzmatloch\u2019s Slope is one of a series of cityscapes in which dark, shadowy walls give way to more open spaces. The apartment building beyond has a curious ambivalence about it, seeming both normal and cold at the same time.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "slope-iii-print-szmatloch-jan", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 197, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Poland", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 325, 
+                        "longitude": "19.13647100", 
+                        "source": "production", 
+                        "cis_id": "x29083", 
+                        "museumobject_image_count": 108, 
+                        "latitude": "51.92250800", 
+                        "type": "country", 
+                        "slug": "poland-x29083"
+                    }
+                }
+            ], 
+            "artist": "Szmatloch, Jan", 
+            "namecontext_set": [
+                {
+                    "pk": 88947, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14245
+                    }, 
+                    "fields": {
+                        "name": 14245, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 77150, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1991, 
+            "object_number": "O100944", 
+            "events": [], 
+            "credit": "Purchased through the Julie and Robert Breckman Print Fund", 
+            "history_note": "", 
+            "place": "Poland", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
