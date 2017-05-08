@@ -1,0 +1,781 @@
+[
+    {
+        "pk": 89248, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "4757-1858", 
+            "date_end": "1154-12-31", 
+            "labels": [
+                {
+                    "pk": 12157, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "2006", 
+                        "museumobject": 89248, 
+                        "label_text": "TRIPTYCH\nCopper gilt with champlev\u00e9 enamel, partly decorated with vernis brun, set on a wooden base.\n\nRHENISH (Cologne?)\nAbout 1150, the wooden base and many of metal mounts probably 19th century.\n\nThe theme of the Redemption is here illustrated by scenes from the New Testament on the central panel, which are paralleled on the wings by scenes from the Old Testament considered to prefigure them. The Crucifixion is thus placed between the Sacrifice of Isaac by Abraham (Genesis 22,9), and Moses and the brazen serpent (Numbers 21,9); the Holy Women at the Sepulchre between Jonah and the Whale (Jonah 1,17) and Elisha raising a dead man (II Kings 12,21); The Harrowing of Hell between the Catching of Leviathan  (Job 41,1) and Samson carrying the gates of Gaza (Judges 16,3).\n\nAcquired from the Collection of the Earl of Shrewsbury of Alton Towers, Staffordshire."
+                    }
+                }, 
+                {
+                    "pk": 12158, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 89248, 
+                        "label_text": "THE ALTON TOWERS TRIPTYCH\nChamplev\u00e9 enamel on copper gilt, the borders stamped and engraved on a foundation of oak. In the centre the Crucifixion, with the Visit of the holy women to the Sepulchre and the Harrowing of Hell. On the wings, Old Testament types of the Redemption; Jonah and the whale, Abraham sacrificing Isaac, Leviathan caught with a hook, a dead man raised by Moses and the brazen serpent, and Samson carrying off the gates of Gaza. The subjects are accompanied by rhyming inscriptions. Chalcedony bosses, in silver collets replace the stones with which it was originally set.\nMosan; about 1150"
+                    }
+                }
+            ], 
+            "descriptive_line": "Gilded copper with champlev\u00e9 enamels; the enamelled panels remounted on the present wooden support in the 19th century, Germany, possibly Rhineland, or France, perhaps Lorraine, ca. 1150, formerly in the collection of the Earls of Shrewsbury at Alton Towers, Staffordshire", 
+            "shape": "", 
+            "longitude": "6.95505000", 
+            "year_start": 1145, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23990, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Jesus Christ", 
+                        "museumobject_count": 1499, 
+                        "source": "name", 
+                        "cis_id": "N1515", 
+                        "museumobject_image_count": 1106, 
+                        "type": "", 
+                        "slug": "jesus-christ"
+                    }
+                }, 
+                {
+                    "pk": 77, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cross", 
+                        "museumobject_count": 555, 
+                        "source": "object", 
+                        "cis_id": "x31528", 
+                        "museumobject_image_count": 330, 
+                        "type": "", 
+                        "slug": "cross"
+                    }
+                }, 
+                {
+                    "pk": 24299, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Moses", 
+                        "museumobject_count": 146, 
+                        "source": "name", 
+                        "cis_id": "N636", 
+                        "museumobject_image_count": 92, 
+                        "type": "", 
+                        "slug": "moses"
+                    }
+                }, 
+                {
+                    "pk": 25253, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "gates", 
+                        "museumobject_count": 143, 
+                        "source": "object", 
+                        "cis_id": "2916", 
+                        "museumobject_image_count": 71, 
+                        "type": "", 
+                        "slug": "gates"
+                    }
+                }, 
+                {
+                    "pk": 24316, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "serpent", 
+                        "museumobject_count": 137, 
+                        "source": "object", 
+                        "cis_id": "42758", 
+                        "museumobject_image_count": 97, 
+                        "type": "", 
+                        "slug": "serpent"
+                    }
+                }, 
+                {
+                    "pk": 24727, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Abraham", 
+                        "museumobject_count": 73, 
+                        "source": "name", 
+                        "cis_id": "N556", 
+                        "museumobject_image_count": 53, 
+                        "type": "", 
+                        "slug": "abraham-556"
+                    }
+                }, 
+                {
+                    "pk": 24457, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Isaac", 
+                        "museumobject_count": 54, 
+                        "source": "name", 
+                        "cis_id": "N558", 
+                        "museumobject_image_count": 46, 
+                        "type": "", 
+                        "slug": "isaac"
+                    }
+                }, 
+                {
+                    "pk": 26015, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Samson", 
+                        "museumobject_count": 41, 
+                        "source": "name", 
+                        "cis_id": "N654", 
+                        "museumobject_image_count": 30, 
+                        "type": "", 
+                        "slug": "samson-654"
+                    }
+                }, 
+                {
+                    "pk": 24766, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Hell", 
+                        "museumobject_count": 24, 
+                        "source": "object", 
+                        "cis_id": "185657", 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "hell"
+                    }
+                }, 
+                {
+                    "pk": 24546, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Jonah", 
+                        "museumobject_count": 15, 
+                        "source": "name", 
+                        "cis_id": "N613", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "jonah"
+                    }
+                }, 
+                {
+                    "pk": 26504, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Elisha", 
+                        "museumobject_count": 5, 
+                        "source": "name", 
+                        "cis_id": "N1741", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "elisha"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1150 (made)", 
+            "primary_image_id": "2009CA3302", 
+            "rights": 3, 
+            "physical_description": "Copper gilt with champlev\u00e9 enamel, bordered by strips of copper gilt, set with six semi-precious stones and partly decorated with vernis brun (brown varnish), all mounted on a wooden base. This wooden base, the sliding latch and some of the metal border strips are probably ninteenth century. Depicts the New Testament scenes of the Crucifixion, the Resurrection and the Delivery from Satan and Old Testament scenes believed to prefigure them.", 
+            "dimensions": "Height: 36.2 cm, Width: 44.7 cm, Depth: 11.8 cm", 
+            "title": "Alton Towers Triptych", 
+            "date_start": "1145-01-01", 
+            "materials_techniques": "Enamel, wood, copper- gilt", 
+            "last_processed": "2014-04-01 00:41:16", 
+            "label": "TRIPTYCH\nCopper gilt with champlev\u00e9 enamel, partly decorated with vernis brun, set on a wooden base.\n\nRHENISH (Cologne?)\nAbout 1150, the wooden base and many of metal mounts probably 19th century.\n\nThe theme of the Redemption is here illustrated by scenes from the New Testament on the central panel, which are paralleled on the wings by scenes from the Old Testament considered to prefigure them. The Crucifixion is thus placed between the Sacrifice of Isaac by Abraham (Genesis 22,9), and Moses and the brazen serpent (Numbers 21,9); the Holy Women at the Sepulchre between Jonah and the Whale (Jonah 1,17) and Elisha raising a dead man (II Kings 12,21); The Harrowing of Hell between the Catching of Leviathan  (Job 41,1) and Samson carrying the gates of Gaza (Judges 16,3).\n\nAcquired from the Collection of the Earl of Shrewsbury of Alton Towers, Staffordshire. [2006]\nTHE ALTON TOWERS TRIPTYCH\nChamplev\u00e9 enamel on copper gilt, the borders stamped and engraved on a foundation of oak. In the centre the Crucifixion, with the Visit of the holy women to the Sepulchre and the Harrowing of Hell. On the wings, Old Testament types of the Redemption; Jonah and the whale, Abraham sacrificing Isaac, Leviathan caught with a hook, a dead man raised by Moses and the brazen serpent, and Samson carrying off the gates of Gaza. The subjects are accompanied by rhyming inscriptions. Chalcedony bosses, in silver collets replace the stones with which it was originally set.\nMosan; about 1150", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Medieval and Renaissance, room 8, case 9", 
+            "marks": "IN CRVCE XPC (sic XP[IST]O) OBIT PTHO (sic P[RO]THO) PLASTI DEBITA SOLVIT  Christ dies on the cross and repays the debts of the first created man.\n SI[M]PLA DVPLA[M] MORTE[M] PELLIT TRIDVANA PHENNE.  Like the Phoenix, reborn after three days, [He] triumphs over death twice.\n FORTIOR HIC FOR[ITER] CAPTVS SPOLIAT P[RE] MIT HOSTE[M]  He leads captivity captive and treads the foe under-foot.\n CEV IONAM CETVM SIC REDDIT TERRA SEPVLTVM  Just as the whale gave back Jonah, so the earth gives back Him who has been buried.\n PRO LAPSV MVNDI FIT FELIVS MOSTIA (sic HOSTIA) PATRI  For the fall of the world, the son becomes the Host, offered to the father.\n HAMVS QVOD PISCI FIT LEVIATHAN CARO XP[IST]I  Bait for the fish, the flesh of Christ becomes a hook for Leviathan.\n VIVENT VIVERI (sic QVI VERI) CORPUS TANGVNT HELISEI  Who touches the body of the tru Elisha will live.\n QVOS SERPENS LACERAT SERPENTIS IMAGO REFORMAT  Those who the serpent bites , the image of the serpent restores.\n SIC ERACTIS (sic FRACTIS) PORTIS...[THE]OS AVERT DEBITA MORPIS (sic MORTIS).  Having thus pulled off the gates, God takes away the penalty of death.", 
+            "latitude": "50.94165000", 
+            "techniques": [
+                {
+                    "pk": 43, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "gilding", 
+                        "museumobject_count": 2557, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53789", 
+                        "museumobject_image_count": 1633, 
+                        "type": "", 
+                        "slug": "gilding"
+                    }
+                }, 
+                {
+                    "pk": 74, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "enamelling", 
+                        "museumobject_count": 1219, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x37485", 
+                        "museumobject_image_count": 866, 
+                        "type": "", 
+                        "slug": "enamelling"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 10, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wood", 
+                        "museumobject_count": 3505, 
+                        "source": "cis_materials", 
+                        "cis_id": "11914", 
+                        "museumobject_image_count": 1492, 
+                        "type": "", 
+                        "slug": "wood"
+                    }
+                }, 
+                {
+                    "pk": 137, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "enamel", 
+                        "museumobject_count": 3083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14910", 
+                        "museumobject_image_count": 2335, 
+                        "type": "", 
+                        "slug": "enamel"
+                    }
+                }, 
+                {
+                    "pk": 212, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "copper gilt", 
+                        "museumobject_count": 95, 
+                        "source": "cis_materials", 
+                        "cis_id": "x29394", 
+                        "museumobject_image_count": 77, 
+                        "type": "", 
+                        "slug": "copper-gilt"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 151158, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 2391
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "9", 
+                        "inventory_number": 546434, 
+                        "room": "8", 
+                        "part_name": "", 
+                        "museum_number": "4757-1858", 
+                        "museumobject": 89248, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Medieval and Renaissance, room 8", 
+                        "museum_number_token": "47571858", 
+                        "gallery": 2391
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 2391, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "8", 
+                        "site_name": "", 
+                        "name": "Medieval and Renaissance, room 8", 
+                        "site_code": "VA", 
+                        "museumobject_count": 254, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49714", 
+                        "museumobject_image_count": 248, 
+                        "type": "", 
+                        "slug": "8-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 101, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2037-12-31", 
+                        "surname": "", 
+                        "name": "Jesus Christ", 
+                        "gender": null, 
+                        "museumobject_count": 1505, 
+                        "death_year": 2037, 
+                        "source": "content", 
+                        "cis_id": "N1515", 
+                        "museumobject_image_count": 1112, 
+                        "forename": "", 
+                        "birth_date": "1996-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jesus-christ", 
+                        "birth_year": 1996
+                    }
+                }, 
+                {
+                    "pk": 1046, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Isaac", 
+                        "gender": null, 
+                        "museumobject_count": 55, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N558", 
+                        "museumobject_image_count": 47, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "isaac", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 2045, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Abraham", 
+                        "gender": null, 
+                        "museumobject_count": 73, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N556", 
+                        "museumobject_image_count": 53, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "abraham-556", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 596, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Moses", 
+                        "gender": null, 
+                        "museumobject_count": 146, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N636", 
+                        "museumobject_image_count": 92, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "moses", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 1256, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Jonah", 
+                        "gender": null, 
+                        "museumobject_count": 15, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N613", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jonah", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 5584, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Elisha", 
+                        "gender": null, 
+                        "museumobject_count": 5, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N1741", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "elisha", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 4416, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Samson", 
+                        "gender": null, 
+                        "museumobject_count": 41, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N654", 
+                        "museumobject_image_count": 30, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "samson-654", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 85956, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 251
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 89248, 
+                        "role": "made", 
+                        "place": 251, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "47571858", 
+            "object": "Triptych", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:41:16", 
+            "public_access_description": "The theme of the Redemption is here illustrated by scenes from the New Testament on the central panel, which are complemented on the wings by scenes from the Old Testament, which were believed to prefigure them. The programme of decoration includes medallions of cosmological significance. In the central field there are six medallions identified by accompanying inscriptions as Sol, Luna and Karitas, Mare Terra and Justicia. Such personifications, though commonly found in medieval art of the  Rhine and Meuse regions, originate in Antiquity.\n\nAlthough it now takes the form of an altarpiece this triptych is rather smaller than most contemporary altarpieces, and is closer in size as well as in shape to a number of reliquary-triptychs of the period. The existing frame, and some of its metal fixings, may date from the nineteenth century, and it seems possible that the original frame may have incorporated a relic or relics, so that the triptych functioned originally primarily as a reliquary.", 
+            "exhibition_history": "", 
+            "bibliography": "Williamson, P. ed and Campbell, M. <u>The Medieval Treasury</u> (V&A Publications, London, 1986 ) pp 134-135\nCampbell, Marian, <u> An Introduction to Medieval Enamels</u>, London: HMSO, 1983, p. 21, pl. 13\nShaw, H. <u>The decorative arts, ecclesiastical and civil, of the Middle Ages</u> (London, W. Pickering, 1851) p.2\nPippal. M <u>Beobachtungen zur 'zweiten' ostermorgenplatte am klastomenburger ambo des Nicolaus von Verdun</u> (Wiener Jahrbuck fur kunstgeschichte, xxxv, 1982) pp 107-119\nKatzoff, N. <u>The Alton Towers Triptych: Time, Place and Context</u> (Rutgers University Art Review III January 1982) pp.11-28\nHalbach, M. <u>Das Triptychon von Alton Towers im Victoria & Albert Museum</u> (MA thesis, University of Vienna 2006)\nGrodecki, L. \"A propos des vitraux de Chalons-sur-Marne: deux points d'iconographie mosane\" in Francastel, P. (ed.) <u>L'art mosan</u> (Paris, A. Colin, 1953) pp. 161-70\nGauthier, M.,<u> Les Emaux meridionaux du Moyen Age</u>, ( Fribourg, 1972), pp. 139-141, cat. 97, pp. 352-3\nDescatoire, Christine. Catalogue entry, 'Le triptyque d'Alton Towers'. <u>In</u>: <u>Une Renaissance: L'art entre Flandre et Champagne 1150-1250</u>. Catalogue of the exhibition held at the Mus\u00e9e de l'h\u00f4tel Sandelin, Saint-Omer, 5 April - 30 June 2013 and Mus\u00e9e de Cluny - mus\u00e9e national du Moyen \u00c2ge, Paris, 17 April - 15 July 2013. Paris: R\u00e9union des mus\u00e9es nationaux, 2013. ISBN 9782711860807", 
+            "vanda_exhibition_history": "", 
+            "slug": "alton-towers-triptych-triptych-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 149139, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-12-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:39:47", 
+                        "priority": 0, 
+                        "image_id": "2009CA3302", 
+                        "sys_id": 423302, 
+                        "last_checked": "2014-03-31 17:39:47", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CA/2009CA3302.jpg"
+                    }
+                }, 
+                {
+                    "pk": 36112, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-12-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:15:56", 
+                        "priority": 9, 
+                        "image_id": "2006AD0549", 
+                        "sys_id": 30549, 
+                        "last_checked": "2014-03-31 17:15:56", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AD/2006AD0549.jpg"
+                    }
+                }, 
+                {
+                    "pk": 36110, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-12-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:15:56", 
+                        "priority": 10, 
+                        "image_id": "2006AD0547", 
+                        "sys_id": 30547, 
+                        "last_checked": "2014-03-31 17:15:56", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AD/2006AD0547.jpg"
+                    }
+                }, 
+                {
+                    "pk": 36102, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-12-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:15:55", 
+                        "priority": 11, 
+                        "image_id": "2006AD0537", 
+                        "sys_id": 30537, 
+                        "last_checked": "2014-03-31 17:15:55", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AD/2006AD0537.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 251, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5190
+                    }, 
+                    "fields": {
+                        "name": "K\u00f6ln (city)", 
+                        "parent": 5190, 
+                        "country": "Germany", 
+                        "museumobject_count": 252, 
+                        "longitude": "6.95505000", 
+                        "source": "production", 
+                        "cis_id": "x28796", 
+                        "museumobject_image_count": 201, 
+                        "latitude": "50.94165000", 
+                        "type": "city/town", 
+                        "slug": "koln-city-germany-x28796"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 105805, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89248, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 105806, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 101
+                    }, 
+                    "fields": {
+                        "name": 101, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89248, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 105807, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1046
+                    }, 
+                    "fields": {
+                        "name": 1046, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89248, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }, 
+                {
+                    "pk": 105808, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2045
+                    }, 
+                    "fields": {
+                        "name": 2045, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89248, 
+                        "role": "subject", 
+                        "order": 603
+                    }
+                }, 
+                {
+                    "pk": 105809, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 596
+                    }, 
+                    "fields": {
+                        "name": 596, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89248, 
+                        "role": "subject", 
+                        "order": 604
+                    }
+                }, 
+                {
+                    "pk": 105810, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1256
+                    }, 
+                    "fields": {
+                        "name": 1256, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89248, 
+                        "role": "subject", 
+                        "order": 605
+                    }
+                }, 
+                {
+                    "pk": 105811, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5584
+                    }, 
+                    "fields": {
+                        "name": 5584, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89248, 
+                        "role": "subject", 
+                        "order": 606
+                    }
+                }, 
+                {
+                    "pk": 105812, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4416
+                    }, 
+                    "fields": {
+                        "name": 4416, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89248, 
+                        "role": "subject", 
+                        "order": 607
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1154, 
+            "object_number": "O115267", 
+            "events": [], 
+            "credit": "Formerly in the collection of the Earls of Shrewsbury at Alton Towers, Staffordshire", 
+            "history_note": "An object closely matching the description of this triptych was described by A.W.N. Pugin in his Glossary of Ecclesiastical Ornament and Costume of 1844. The triptych Pugin describes is noted as in the possession of The Earl of Shrewsbury. The present triptych was first exhibited in 1853 and acquired by the museum from the collection of the Earl of Shrewsbury of Alton Towers, Staffordshire, in 1858. It was presumed to have been in England for some time but nothing more is known of its origins.", 
+            "place": "Cologne", 
+            "production_note": "", 
+            "historical_context_note": "The origin of the triptych is disputed. The style of the enamel, with figures entirely engraved and gilt against an enamelled background, and the cool range of colours used have some resemblance to the work of the goldsmiths working in and around Cologne in the Rhineland (hence the term Rhenish), in particular in the style of Elibertus of Cologne, the maker of a portable altar now in the Kunstgewerbemuseum, Berlin. However, the typological iconography and the division of the composition into complex geometrical areas is more characteristic of Mosan illumination. As an altarpiece the triptych is an oddity also. It is considerably smaller than contemporary altarpieces such as those in the national Museum in Copenhagen, or that in the Muse\u00e9 de Cluny, originally from the Abbey of Stavelot. \nIt is far closer in size as well as in shape to a number of reliquary-triptychs of the period, notably that from Ste. Croix in Li\u00e8ge and the Stavelot triptych now in the Pierpont Morgan Library, New York. It has been suggested that the present frame, and many of its metal fixings, may date from the nineteenth century, and it seems not unlikely that the original frame may have incorporated a relic or relics, so that the triptych functioned originally as a reliquary.\n\nThe central panel of the triptych contains New Testament anti-types while the two side panels contain parallel Old Testament types. The scenes depicted on the triptych are read across. In the top row of circles are the Resurrection and its types, in the upturned squares the Crucifixion is flanked by its best-known precursors, and at the bottom in the circles is the Harrowing of Hell with its types. The scenes and the events which they prefigure are bound together in circles and squares by interlocking inscribed bands. The bands unify the parallel scenes horizontally by enclosing them in the same geometric forms.Some of the typological scenes are common to art of the period, however the triptych features deviations from standard Mosan iconography which according to Katzoff point to a date in the last quarter of the twelfth century and to Rhenish origin.\n\nThe top scene in the central field is the Holy Women at the Sepulchre which conforms to the usual representations of this treatment of the resurrection. All the gospels mention the holy women who were the first to discover the empty tomb following Christ's resurrection, but there is little agreement as to who they were. On the triptych this resurection scene is accompanied by the Jonah story depicted on the left wing of the object and Elisha's bones resurrecting a dead man depicted on the right wing. While the Jonah scene conflates two well known scenes from the life of Jonah, his being swallowed and his being spat out, the Elisha scene is unique and and the artist responsible may have invented the iconography. \nIn the second register, the central image is that of the Crucifixion and this is accompanied by; on the left the Sacrifice of Isaac and on the right  Moses and the brazen serpent. Both of these types appear in other surviving enamel work from the period, with the brazen serpent story particularly popular. Although the type is common, there is only one other known representation which shows the serpent with tail coiled around it's column and that is in the Resurrection window at Ch\u00e2lons-sur-Marne (which in other respects presents clear affinities with the Stavelot triptych). A similar representation of the Isaac scene occurrs on the Balfour Ciborium, also in the collection of the Victoria and albert Museum (Museum number: M.1-1981), which appears to derive from the same pictorial source or model tradition as the Isaac scene on the triptych.\nIn the bottom register of the triptych, the central scene is that of the Harrowing of Hell, Christ's descent into the underworld and the final defeat of the Devil. The types which accompany this scene and emphasise defeat of an enemy, are: the Catching of Leviathan on the left wing and Samson carrying the gates of Gaza on the right wing. Both of these types are a-typical. In the scene depicting the Catching of Leviathan, which does not usually appear in typological sequences, it is Christ who holds the rod, identified by his red halo. Since Christ cannot prefigure himself Katzoff recommends that the scene is read as a New Testament illustration of an Old Testament text. Job and Leviathan do appear in stained glass at Ch\u00e2lons-sur-Marne however Katzoff proposes textual rather than pictorial sources for the image on the triptych, citing surviving manuscript material.\nThe pairing of Samson and the Harrowing of Hell is also unusual.There are no other enamel examples of this typology as Samson is usually paired with the Resurrection. The only other known occurrence of the pairing is on the vault of St Mary Lyskirche in Cologne built in 1220.\n\nThe programme of decoration includes medallions of cosmological significance. In the central field there are six medallions identified by accompanying inscriptions as Sol, Luna and Karitas, Mare Terra and Justicia. Such personifications, though common to the Rhine and Meuse regions, find their origins in the classical Antiquity.", 
+            "collection_code": "MET"
+        }
+    }
+]

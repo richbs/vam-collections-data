@@ -1,0 +1,274 @@
+[
+    {
+        "pk": 19150, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.353-1936", 
+            "date_end": "1700-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1650, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 3362, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Four seasons", 
+                        "museumobject_count": 4, 
+                        "source": "object", 
+                        "cis_id": "x31421", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "four-seasons"
+                    }
+                }
+            ], 
+            "date_text": "late 17th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "The continuous landscape depicts the four seasons, and on a tree hangs a shield bearing the device of the Nuremberg town council. Signed \"Killinger fe\" Wilfred Buckley Collection", 
+            "dimensions": "Height: 41 cm", 
+            "title": "", 
+            "date_start": "1650-01-01", 
+            "materials_techniques": "engraved glass", 
+            "last_processed": "2014-03-31 20:03:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 15, shelf 1", 
+            "marks": "", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 28448, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "15", 
+                        "inventory_number": 76458, 
+                        "room": "131", 
+                        "part_name": "goblet body", 
+                        "museum_number": "C.353-1936", 
+                        "museumobject": 19150, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c3531936", 
+                        "gallery": 337
+                    }
+                }, 
+                {
+                    "pk": 28449, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "15", 
+                        "inventory_number": 76457, 
+                        "room": "131", 
+                        "part_name": "goblet cover", 
+                        "museum_number": "C.353A-1936", 
+                        "museumobject": 19150, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c353a1936", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1008, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Killinger, Georg Friedrich", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A737", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "killinger-georg-friedrich", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 20284, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 19150, 
+                        "role": "made", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 20285, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 236
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 19150, 
+                        "role": "decorated", 
+                        "place": 236, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c3531936", 
+            "object": "Goblet and cover", 
+            "categories": [], 
+            "last_checked": "2014-03-31 20:03:56", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "goblet-and-cover-killinger-georg-friedrich", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }, 
+                {
+                    "pk": 236, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5181
+                    }, 
+                    "fields": {
+                        "name": "Nuremberg", 
+                        "parent": 5181, 
+                        "country": "Germany", 
+                        "museumobject_count": 2065, 
+                        "longitude": "11.40798000", 
+                        "source": "production", 
+                        "cis_id": "x29057", 
+                        "museumobject_image_count": 1539, 
+                        "latitude": "48.91743100", 
+                        "type": "city/town", 
+                        "slug": "nuremberg-germany-x29057"
+                    }
+                }
+            ], 
+            "artist": "Killinger, Georg Friedrich", 
+            "namecontext_set": [
+                {
+                    "pk": 20602, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1008
+                    }, 
+                    "fields": {
+                        "name": 1008, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 19150, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1700, 
+            "object_number": "O16770", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
