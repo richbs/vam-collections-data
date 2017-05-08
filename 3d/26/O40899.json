@@ -1,0 +1,315 @@
+[
+    {
+        "pk": 35988, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "REPRO.1890-76", 
+            "date_end": "1234-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plaster cast of the base, in stone, of the 'Draper's Pillar' in the doorway of the north transept of the Cathedral of Rheims, ca. 1230, cast by Messrs Jean Pouzadoux ca.1890", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1225, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1230 (sculpted)\nca. 1890 (cast)", 
+            "primary_image_id": "2006BK4599", 
+            "rights": 3, 
+            "physical_description": "Plaster cast of the base, in stone, of the 'Draper's Pillar' in the doorway of the north transept of the Cathedral of Rheims.", 
+            "dimensions": "Height: 109.5 cm, Width: 77 cm", 
+            "title": "Draper's Pillar", 
+            "date_start": "1225-01-01", 
+            "materials_techniques": "Plaster cast", 
+            "last_processed": "2014-03-31 21:13:26", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 46A. Objects in 'case BWITH' are available via appointment with the Sculpture department, case WWAL, shelf S", 
+            "marks": "", 
+            "latitude": "46.71244800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 76620, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 420
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WWAL", 
+                        "inventory_number": 84149, 
+                        "room": "46A", 
+                        "part_name": "", 
+                        "museum_number": "REPRO.1890-76", 
+                        "museumobject": 35988, 
+                        "shelf": "S", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 46A. Objects in 'case BWITH' are available via appointment with the Sculpture department", 
+                        "museum_number_token": "repro189076", 
+                        "gallery": 420
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 420, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "46A", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 46A. Objects in 'case BWITH' are available via appointment with the Sculpture department", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1290, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49799", 
+                        "museumobject_image_count": 170, 
+                        "type": "", 
+                        "slug": "46a-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 4295, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Jean Pouzadoux (Messrs)", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A18016", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "jean-pouzadoux-messrs", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 35057, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 35988, 
+                        "role": "sculpted", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 35058, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1460
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 35988, 
+                        "role": "cast", 
+                        "place": 1460, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "repro189076", 
+            "object": "Plaster cast", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14050, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4742, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 21:13:26", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "drapers-pillar-plaster-cast-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 88670, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:27:20", 
+                        "priority": 0, 
+                        "image_id": "2006BK4599", 
+                        "sys_id": 304599, 
+                        "last_checked": "2014-03-31 17:27:20", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BK/2006BK4599.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }, 
+                {
+                    "pk": 1460, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4333
+                    }, 
+                    "fields": {
+                        "name": "Rheims", 
+                        "parent": 4333, 
+                        "country": "France", 
+                        "museumobject_count": 35, 
+                        "longitude": "4.02844000", 
+                        "source": "production", 
+                        "cis_id": "x32630", 
+                        "museumobject_image_count": 7, 
+                        "latitude": "49.26284000", 
+                        "type": "city / town", 
+                        "slug": "rheims-france-x32630"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 37129, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 35988, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 37130, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4295
+                    }, 
+                    "fields": {
+                        "name": 4295, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 35988, 
+                        "role": "makers", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1234, 
+            "object_number": "O40899", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Purchased from Messrs Jean Pouzadoux in 1890 for \u00a360 (1500 francs)", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

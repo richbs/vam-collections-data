@@ -1,0 +1,305 @@
+[
+    {
+        "pk": 73193, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.320-1973", 
+            "date_end": "1966-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1966, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24553, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Bonaparte, Napoleon I (Emperor of the French)", 
+                        "museumobject_count": 74, 
+                        "source": "name", 
+                        "cis_id": "N1899", 
+                        "museumobject_image_count": 44, 
+                        "type": "", 
+                        "slug": "bonaparte-napoleon-i-emperor-of-the-french"
+                    }
+                }, 
+                {
+                    "pk": 25240, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "advertisements", 
+                        "museumobject_count": 65, 
+                        "source": "object", 
+                        "cis_id": "193993", 
+                        "museumobject_image_count": 28, 
+                        "type": "", 
+                        "slug": "advertisements"
+                    }
+                }
+            ], 
+            "date_text": "1966 (printed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 1142 mm, Width: 1554 mm", 
+            "title": "Bring 'em up short", 
+            "date_start": "1966-01-01", 
+            "materials_techniques": "Colour screenprint on paper", 
+            "last_processed": "2014-03-31 23:32:53", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 514, case PR, shelf 216, box L", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 128010, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 668
+                    }, 
+                    "fields": {
+                        "box": "L", 
+                        "case": "PR", 
+                        "inventory_number": 703077, 
+                        "room": "514", 
+                        "part_name": "", 
+                        "museum_number": "E.320-1973", 
+                        "museumobject": 73193, 
+                        "shelf": "216", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 514", 
+                        "museum_number_token": "e3201973", 
+                        "gallery": 668
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 668, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "514", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 514", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1279, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49549", 
+                        "museumobject_image_count": 139, 
+                        "type": "", 
+                        "slug": "514-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 13662, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Santore, Charles", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A7818", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1935-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "santore-charles", 
+                        "birth_year": 1935
+                    }
+                }, 
+                {
+                    "pk": 1261, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1821-05-15", 
+                        "surname": "", 
+                        "name": "Napoleon", 
+                        "gender": null, 
+                        "museumobject_count": 83, 
+                        "death_year": 1821, 
+                        "source": "content", 
+                        "cis_id": "N1899", 
+                        "museumobject_image_count": 49, 
+                        "forename": "", 
+                        "birth_date": "1769-08-15", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bonaparte-napoleon-i-emperor-of-the-french", 
+                        "birth_year": 1769
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 69529, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 73193, 
+                        "role": "printed", 
+                        "place": 10, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e3201973", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 159, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Periodicals", 
+                        "museumobject_count": 116, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "periodicals"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:32:53", 
+            "public_access_description": "This is a poster advertising the magazine Newsweek. The artist, Charles Santore (born 1935), is well known for his book illustrations, as well as other forms of art. Here he uses humour, linking an image of the short-statured Napoleon Bonaparte (1769-1821), with the punning caption \u2018Bring \u2019em up short\u2019. The illustrative style of poster design became popular in America in the 1950s and 1960s, especially as pioneered by the illustrators Seymour Chwast (born 1931) and Milton Glaser (born 1929) at the Push Pin Studios. (They founded the Push Pin Studios in New York in 1954.) This was an appropriate style for the advertisement of books and periodicals.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "bring-em-up-short-poster-santore-charles", 
+            "sys_updated": "2013-11-29 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 10, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "United States", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 5088, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 1371, 
+                        "latitude": null, 
+                        "type": "country", 
+                        "slug": "united-states-x29333"
+                    }
+                }
+            ], 
+            "artist": "Santore, Charles", 
+            "namecontext_set": [
+                {
+                    "pk": 83983, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 13662
+                    }, 
+                    "fields": {
+                        "name": 13662, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 73193, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 83984, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1261
+                    }, 
+                    "fields": {
+                        "name": 1261, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 73193, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1966, 
+            "object_number": "O75912", 
+            "events": [], 
+            "credit": "Given by Jack Rennert. Reproduced courtesy of Newsweek", 
+            "history_note": "", 
+            "place": "United States", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

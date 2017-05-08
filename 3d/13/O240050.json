@@ -1,0 +1,256 @@
+[
+    {
+        "pk": 1096521, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.9:12-2009", 
+            "date_end": "1884-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph of a silhouette, gelatin silver print, 'Francis, Mrs. Henry Fellowes, daughter of Sir John Frederick, St. Bart.', from E. & J. Baldwin album, Bath, ca. 1880.", 
+            "shape": "", 
+            "longitude": "-85.29037900", 
+            "year_start": 1875, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 45571, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "silhouette", 
+                        "museumobject_count": 82, 
+                        "source": "", 
+                        "cis_id": "x44599", 
+                        "museumobject_image_count": 21, 
+                        "type": "", 
+                        "slug": "silhouette"
+                    }
+                }, 
+                {
+                    "pk": 484, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "woman's head", 
+                        "museumobject_count": 21, 
+                        "source": "object", 
+                        "cis_id": "x39474", 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "womans-head"
+                    }
+                }, 
+                {
+                    "pk": 50165, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "album", 
+                        "museumobject_count": 17, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "album"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1880 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Photograph of a silhouette, or 'shadow profile', made earlier in the 19th century. Photograph mounted on card and inserted into album.", 
+            "dimensions": "Height: 162 mm card size, Width: 106 mm card size", 
+            "title": "Francis, Mrs. Henry Fellowes, daughter of Sir John Frederick, St. Bart.", 
+            "date_start": "1875-01-01", 
+            "materials_techniques": "Gelatin silver print", 
+            "last_processed": "2014-04-02 16:45:26", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case MX24, shelf 3", 
+            "marks": "'E & J Baldwin, Charles Street, Bath'", 
+            "latitude": "31.19006600", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1284232, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "MX24", 
+                        "inventory_number": 1382632, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.9:12-2009", 
+                        "museumobject": 1096521, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e9122009", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 62588, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "E & J Baldwin", 
+                        "gender": null, 
+                        "museumobject_count": 13, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A40089", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "e-j-baldwin", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 469790, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 227
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1096521, 
+                        "role": "made", 
+                        "place": 227, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e9122009", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-02 16:45:26", 
+            "public_access_description": "This album contains thirteen photographs of silhouettes depicting various members of the Fellowes family. Each photograph has been mounted on card, annotated with the name of the sitter at the bottom and then inserted into the album.  \n\nAround 1880, a photographic portrait studio by the name of E. & J. Baldwin was commissioned to photograph a series of silhouettes, or 'shadow profiles', made earlier in the century. This represents an intersection of two methods of recording one's likeness, practiced almost one hundred years apart. It is interesting to consider that this family had its collection of silhouettes photographed, possibly for posterity, and fashioned a beautiful album in which to display them.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "francis-mrs-henry-fellowes-daughter-photograph-e-j-baldwin", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 227, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5289
+                    }, 
+                    "fields": {
+                        "name": "Bath", 
+                        "parent": 5289, 
+                        "country": "England", 
+                        "museumobject_count": 227, 
+                        "longitude": "-85.29037900", 
+                        "source": "production", 
+                        "cis_id": "x28738", 
+                        "museumobject_image_count": 153, 
+                        "latitude": "31.19006600", 
+                        "type": "city/town", 
+                        "slug": "bath-england-x28738"
+                    }
+                }
+            ], 
+            "artist": "E & J Baldwin", 
+            "namecontext_set": [
+                {
+                    "pk": 655766, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 62588
+                    }, 
+                    "fields": {
+                        "name": 62588, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1096521, 
+                        "role": "photographers", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1884, 
+            "object_number": "O240050", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Bath", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
