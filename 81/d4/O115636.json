@@ -1,0 +1,242 @@
+[
+    {
+        "pk": 89579, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.20-2005", 
+            "date_end": "2001-12-31", 
+            "labels": [], 
+            "descriptive_line": "Slip-trailed stoneware charger, made by Edward Hughes, Cumbria, 2001", 
+            "shape": "", 
+            "longitude": "-3.30621000", 
+            "year_start": 2001, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "2001 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Large thrown stoneware dish with slip-trailed decoration and olive green ash glaze with hare's fur effect.", 
+            "dimensions": "Height: 10.3 cm, Diameter: 50 cm, Weight: 6.05 kg", 
+            "title": "", 
+            "date_start": "2001-01-01", 
+            "materials_techniques": "Stoneware with ash glaze and slip-trailed decoration", 
+            "last_processed": "2014-04-01 00:42:35", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "World Ceramics, room 145, case 16, shelf 1", 
+            "marks": "'EH' seal", 
+            "latitude": "54.69232200", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 151620, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 354
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "16", 
+                        "inventory_number": 743754, 
+                        "room": "145", 
+                        "part_name": "", 
+                        "museum_number": "C.20-2005", 
+                        "museumobject": 89579, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "World Ceramics, room 145", 
+                        "museum_number_token": "c202005", 
+                        "gallery": 354
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 354, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "145", 
+                        "site_name": "", 
+                        "name": "World Ceramics, room 145", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1487, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49865", 
+                        "museumobject_image_count": 1483, 
+                        "type": "", 
+                        "slug": "145-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 69184, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2006-03-31", 
+                        "surname": "", 
+                        "name": "Hughes, Edward (Ceramicist)", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 2006, 
+                        "source": "", 
+                        "cis_id": "C4374", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1953-10-16", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hughes-edward-ceramicist", 
+                        "birth_year": 1953
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 86314, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 6108
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89579, 
+                        "role": "made", 
+                        "place": 6108, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c202005", 
+            "object": "Charger", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 69, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Studio Pottery", 
+                        "museumobject_count": 665, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 572, 
+                        "type": "", 
+                        "slug": "studio-pottery"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stoneware", 
+                        "museumobject_count": 3435, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3026, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:42:35", 
+            "public_access_description": "The potter Edward Hughes is one of the masters of the Anglo-Oriental stoneware tradition. This splendid charger is decorated with freely trailed white slip. The deep olive green glaze, with its \"hare's fur\" effect, is derived from Red How ash, one of several ashes sourced locally in Cumbria by Hughes.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "charger-hughes-edward-ceramicist", 
+            "sys_updated": "2014-03-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 6108, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 175
+                    }, 
+                    "fields": {
+                        "name": "Isel", 
+                        "parent": 175, 
+                        "country": "England", 
+                        "museumobject_count": 1, 
+                        "longitude": "-3.30621000", 
+                        "source": "production", 
+                        "cis_id": "x39107", 
+                        "museumobject_image_count": 1, 
+                        "latitude": "54.69232200", 
+                        "type": "inhabited place", 
+                        "slug": "isel-england-x39107"
+                    }
+                }
+            ], 
+            "artist": "Hughes, Edward (Ceramicist)", 
+            "namecontext_set": [
+                {
+                    "pk": 106196, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 69184
+                    }, 
+                    "fields": {
+                        "name": 69184, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 89579, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2001, 
+            "object_number": "O115636", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Made for the exhibition The Japanese Craft Tradition: Kokten Korgei at Blackwell, Cumbria, 2001. The hare's fur effect glaze is derived from Red How ash, one of several sourced locally by the potter.  Purchased from Joanna Bird Pottery.", 
+            "place": "Isel", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
