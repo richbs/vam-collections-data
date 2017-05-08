@@ -1,0 +1,288 @@
+[
+    {
+        "pk": 11390, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "B.235:1-1998", 
+            "date_end": "1998-05-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1998, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "January 1998 - May 1998", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "[Teddy bear] jointed all wooden bear with a dark head and lighter body and limbs and plastic joints; facial features are painted in black; ears are rounded\n[Box] clear plastic box with top opening flap, printed in white to show a heart design and the maker's name and trademark\n[Box lining] box lining of cherry red card with the back, white printed in black to show the titles and maker's details", 
+            "dimensions": "[Teddy bear] length: 5 cm\n[Box] length: 6 cm, width: 3.5 cm square", 
+            "title": "Teddyb\u00e4r aus ge\u00f6ltem Kirschbaumholz", 
+            "date_start": "1998-01-01", 
+            "materials_techniques": "[Teddy bear] cherry wood\n[Box] clear plastic, printed in white", 
+            "last_processed": "2014-03-31 19:29:45", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "mass produced", 
+            "collections": [
+                {
+                    "pk": 5, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MoC", 
+                        "name": "Museum of Childhood", 
+                        "museumobject_count": 29148, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3179, 
+                        "type": "", 
+                        "slug": "moc"
+                    }
+                }
+            ], 
+            "location": "Museum of Childhood, Creativity Gallery, case 3", 
+            "marks": "[Box lining] heart within a house", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 29, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "plastic", 
+                        "museumobject_count": 4498, 
+                        "source": "cis_materials", 
+                        "cis_id": "14570", 
+                        "museumobject_image_count": 535, 
+                        "type": "", 
+                        "slug": "plastic"
+                    }
+                }, 
+                {
+                    "pk": 8, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cardboard", 
+                        "museumobject_count": 1302, 
+                        "source": "cis_materials", 
+                        "cis_id": "14224", 
+                        "museumobject_image_count": 438, 
+                        "type": "", 
+                        "slug": "cardboard"
+                    }
+                }, 
+                {
+                    "pk": 448, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cherry", 
+                        "museumobject_count": 13, 
+                        "source": "cis_materials", 
+                        "cis_id": "12403", 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "cherry"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 15147, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1064
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "3", 
+                        "inventory_number": 19865, 
+                        "room": "C", 
+                        "part_name": "Teddy bear", 
+                        "museum_number": "B.235:1-1998", 
+                        "museumobject": 11390, 
+                        "shelf": "", 
+                        "site": "BGM", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Museum of Childhood, Creativity Gallery", 
+                        "museum_number_token": "b23511998", 
+                        "gallery": 1064
+                    }
+                }, 
+                {
+                    "pk": 15148, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 19866, 
+                        "room": "", 
+                        "part_name": "Box", 
+                        "museum_number": "B.235:2-1998", 
+                        "museumobject": 11390, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b23521998", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 15149, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 19867, 
+                        "room": "", 
+                        "part_name": "Box lining", 
+                        "museum_number": "B.235:3-1998", 
+                        "museumobject": 11390, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b23531998", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1064, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "C", 
+                        "site_name": "", 
+                        "name": "Museum of Childhood, Creativity Gallery", 
+                        "site_code": "MOC", 
+                        "museumobject_count": 1006, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49153", 
+                        "museumobject_image_count": 256, 
+                        "type": "", 
+                        "slug": "c-moc"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 6, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bodo Hennig", 
+                        "gender": null, 
+                        "museumobject_count": 100, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1360", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "bodo-hennig", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 12357, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11390, 
+                        "role": "", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "b2351998", 
+            "object": "Teddybear made of cherry wood", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:29:45", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Bodo Hennig catalogue, 1998", 
+            "vanda_exhibition_history": "", 
+            "slug": "teddybar-aus-geoltem-kirschbaumholz-teddybear-made-of-bodo", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }
+            ], 
+            "artist": "Bodo", 
+            "namecontext_set": [
+                {
+                    "pk": 11500, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6
+                    }, 
+                    "fields": {
+                        "name": 6, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11390, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1998, 
+            "object_number": "O8599", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "This is part of the equipment for the dolls' house B.145 to 151 - 1998.", 
+            "place": "Germany", 
+            "production_note": "Reason For Production: retail", 
+            "historical_context_note": "", 
+            "collection_code": "MoC"
+        }
+    }
+]

@@ -1,0 +1,423 @@
+[
+    {
+        "pk": 14815, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "1053-1871", 
+            "date_end": "1675-12-31", 
+            "labels": [
+                {
+                    "pk": 4998, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "25/03/2003", 
+                        "museumobject": 14815, 
+                        "label_text": "British Galleries:\nJohn Dwight, scholar and ceramic chemist, obtained a patent in 1672  for 'transparent Earthen Ware' and 'Stone ware vulgarly called Cologne ware'. His utilitarian wares quickly proved superior to those imported from Germany. The material could also be refined for figure modelling, as here."
+                    }
+                }, 
+                {
+                    "pk": 4999, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "23/05/2008", 
+                        "museumobject": 14815, 
+                        "label_text": "Bust depicting John Dwight\nMade at the factory of John Dwight, Fulham, England, about 1673-75\nSalt-glazed stoneware\n\n1053-1871\n\nPart of the Dwight family heirlooms discovered at the Fulham Pottery in 1861. The bust has since been identified from documentary sources."
+                    }
+                }
+            ], 
+            "descriptive_line": "Bust of John Dwight, made at Fulham by an unidentified modeller, about 1675.", 
+            "shape": "", 
+            "longitude": "-0.20151000", 
+            "year_start": 1673, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25392, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Dwight, John", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N1532", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "dwight-john"
+                    }
+                }
+            ], 
+            "date_text": "1673-1675 (made)", 
+            "primary_image_id": "2006AW2505", 
+            "rights": 3, 
+            "physical_description": "Salt glazed stoneware bust depicting John Dwight", 
+            "dimensions": "Height: 18.2 cm, Width: 17 cm, Depth: 10.3 cm", 
+            "title": "", 
+            "date_start": "1673-01-01", 
+            "materials_techniques": "Salt-glazed stoneware, with hand-modelling", 
+            "last_processed": "2014-03-31 19:44:05", 
+            "label": "British Galleries:\nJohn Dwight, scholar and ceramic chemist, obtained a patent in 1672  for 'transparent Earthen Ware' and 'Stone ware vulgarly called Cologne ware'. His utilitarian wares quickly proved superior to those imported from Germany. The material could also be refined for figure modelling, as here. [25/03/2003]\nBust depicting John Dwight\nMade at the factory of John Dwight, Fulham, England, about 1673-75\nSalt-glazed stoneware\n\n1053-1871\n\nPart of the Dwight family heirlooms discovered at the Fulham Pottery in 1861. The bust has since been identified from documentary sources. [23/05/2008]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Making Ceramics, room 143, case 22, shelf 1", 
+            "marks": "", 
+            "latitude": "51.47763800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 159, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "stoneware", 
+                        "museumobject_count": 3966, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30197", 
+                        "museumobject_image_count": 3509, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }, 
+                {
+                    "pk": 414, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "salt glaze", 
+                        "museumobject_count": 613, 
+                        "source": "cis_materials", 
+                        "cis_id": "48635", 
+                        "museumobject_image_count": 601, 
+                        "type": "", 
+                        "slug": "salt-glaze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 22216, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 352
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "22", 
+                        "inventory_number": 323768, 
+                        "room": "143", 
+                        "part_name": "", 
+                        "museum_number": "1053-1871", 
+                        "museumobject": 14815, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Making Ceramics, room 143", 
+                        "museum_number_token": "10531871", 
+                        "gallery": 352
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 352, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "143", 
+                        "site_name": "", 
+                        "name": "Making Ceramics, room 143", 
+                        "site_code": "VA", 
+                        "museumobject_count": 849, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49867", 
+                        "museumobject_image_count": 806, 
+                        "type": "", 
+                        "slug": "143-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1184, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "John Dwight's Fulham Pottery", 
+                        "gender": null, 
+                        "museumobject_count": 24, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1555", 
+                        "museumobject_image_count": 24, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "john-dwights-fulham-pottery", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 3364, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Dwight, John", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N1532", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "dwight-john-1532", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15802, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 456
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14815, 
+                        "role": "made", 
+                        "place": 456, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "10531871", 
+            "object": "Bust", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stoneware", 
+                        "museumobject_count": 3435, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3026, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:44:05", 
+            "public_access_description": "Object Type\nPossibly the earliest portrait bust to be modelled in salt-glazed stoneware anywhere in Europe, this bust was clearly modelled by an accomplished (but still unknown) sculptor familiar with working in terracotta or wax. As the founder of the Fulham Pottery, John Dwight had high hopes for his patented material and, like Josiah Wedgwood in the 18th century, intended that his humble pottery should become associated with the fine arts, and perhaps therefore with wealthy patronage.\n\nPeople\nJohn Dwight, scholar and talented chemist, came from an Oxfordshire farming family. Like many upwardly mobile people in the Restoration period, he commissioned his family portraits, comprising stoneware busts of himself, his wife and recently-deceased daughter Lydia. These all survived within the Dwight family until their discovery on the death of his last descendant in 1859.\n\nMaterials & Making\nSoft stoneware clay must have seemed ideal for modelling, because it could later be fired and made as hard as flint. Some of Dwight's figures were even painted with brown iron slip to resemble bronze. Almost a century passed, however, before the English pottery figure became popular, and then it was the mass-produced moulded type rather than individual figures made by professional modellers.", 
+            "exhibition_history": "", 
+            "bibliography": "Hildyard, Robin. <font u>European Ceramics</font u>. London : V&A Publications, 1999. 144 p., ill. ISBN 185177260X", 
+            "vanda_exhibition_history": "", 
+            "slug": "bust-john-dwights-fulham", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 30170, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-07-11 00:00:00", 
+                        "last_processed": "2014-03-31 17:14:38", 
+                        "priority": 0, 
+                        "image_id": "2006AW2505", 
+                        "sys_id": 182505, 
+                        "last_checked": "2014-03-31 17:14:38", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AW/2006AW2505.jpg"
+                    }
+                }, 
+                {
+                    "pk": 4444, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:10", 
+                        "priority": 1, 
+                        "image_id": "2006AM2611", 
+                        "sys_id": 112611, 
+                        "last_checked": "2014-03-31 17:09:10", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM2611.jpg"
+                    }
+                }, 
+                {
+                    "pk": 4428, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:10", 
+                        "priority": 2, 
+                        "image_id": "2006AM2584", 
+                        "sys_id": 112584, 
+                        "last_checked": "2014-03-31 17:09:10", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM2584.jpg"
+                    }
+                }, 
+                {
+                    "pk": 21517, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-11-14 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:46", 
+                        "priority": 2, 
+                        "image_id": "2006AT6379", 
+                        "sys_id": 156379, 
+                        "last_checked": "2014-03-31 17:12:46", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT6379.jpg"
+                    }
+                }, 
+                {
+                    "pk": 70833, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2010-01-20 00:00:00", 
+                        "last_processed": "2014-03-31 17:23:29", 
+                        "priority": 2, 
+                        "image_id": "2006BB1762", 
+                        "sys_id": 221762, 
+                        "last_checked": "2014-03-31 17:23:29", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BB/2006BB1762.jpg"
+                    }
+                }, 
+                {
+                    "pk": 6374, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:34", 
+                        "priority": 3, 
+                        "image_id": "2006AM5565", 
+                        "sys_id": 115565, 
+                        "last_checked": "2014-03-31 17:09:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM5565.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 456, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 581
+                    }, 
+                    "fields": {
+                        "name": "Fulham", 
+                        "parent": 581, 
+                        "country": "England", 
+                        "museumobject_count": 125, 
+                        "longitude": "-0.20151000", 
+                        "source": "production", 
+                        "cis_id": "x28867", 
+                        "museumobject_image_count": 107, 
+                        "latitude": "51.47763800", 
+                        "type": "district", 
+                        "slug": "fulham-england-x28867"
+                    }
+                }
+            ], 
+            "artist": "John Dwight's Fulham Pottery", 
+            "namecontext_set": [
+                {
+                    "pk": 15098, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1184
+                    }, 
+                    "fields": {
+                        "name": 1184, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14815, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 15099, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3364
+                    }, 
+                    "fields": {
+                        "name": 3364, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14815, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1675, 
+            "object_number": "O11572", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Part of the \"Dwight Heirlooms\" discovered at the factory about 1860. The bust has since been identified from documentary sources.", 
+            "place": "Fulham", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
