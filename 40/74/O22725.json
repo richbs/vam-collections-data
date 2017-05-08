@@ -1,0 +1,392 @@
+[
+    {
+        "pk": 23423, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.51:1 to 2-1991", 
+            "date_end": "1968-12-31", 
+            "labels": [], 
+            "descriptive_line": "Coffee cup and saucer, 'Homemaker', des. Arnold and Seeney, man. Ridgway Potteries Ltd., 1955-1968", 
+            "shape": "", 
+            "longitude": "-2.02806000", 
+            "year_start": 1955, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24247, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "furniture", 
+                        "museumobject_count": 1247, 
+                        "source": "object", 
+                        "cis_id": "37680", 
+                        "museumobject_image_count": 240, 
+                        "type": "", 
+                        "slug": "furniture"
+                    }
+                }, 
+                {
+                    "pk": 25028, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "furnishings", 
+                        "museumobject_count": 1157, 
+                        "source": "object", 
+                        "cis_id": "37336", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "furnishings"
+                    }
+                }
+            ], 
+            "date_text": "1955-1968 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Coffee cup, tapering towards base, black on the outside, white inside. White saucer decorated with images of 1950s contemporary style domestic furniture and furnishings surrounded by black hatched lines.", 
+            "dimensions": "[Coffee cup] Height: 5.2 cm\n[Saucer] Diameter: 11.7 cm", 
+            "title": "'Home maker'", 
+            "date_start": "1955-01-01", 
+            "materials_techniques": "white earthenware, glazed and printed", 
+            "last_processed": "2014-03-31 20:23:16", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "National Art Library, room 76, case 7", 
+            "marks": "'RIDGWAY POTTERIES LTD / MADE IN STAFFORDSHIRE ENGLAND / HOMEMAKER / ALL COLOURS GUARANTEED / UNDERGLAZE AND DETERGENT PROOF / 2 / 64 printed in black", 
+            "latitude": "52.82474900", 
+            "techniques": [
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }, 
+                {
+                    "pk": 6, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "Printed", 
+                        "museumobject_count": 5722, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53319", 
+                        "museumobject_image_count": 1212, 
+                        "type": "", 
+                        "slug": "printed"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 2, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Earthenware", 
+                        "museumobject_count": 13054, 
+                        "source": "cis_materials", 
+                        "cis_id": "x29356", 
+                        "museumobject_image_count": 11225, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 33639, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 669
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "7", 
+                        "inventory_number": 351574, 
+                        "room": "76", 
+                        "part_name": "Coffee cup", 
+                        "museum_number": "C.51:1-1991", 
+                        "museumobject": 23423, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "National Art Library, room 76", 
+                        "museum_number_token": "c5111991", 
+                        "gallery": 669
+                    }
+                }, 
+                {
+                    "pk": 33640, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 669
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "7", 
+                        "inventory_number": 351573, 
+                        "room": "76", 
+                        "part_name": "Saucer", 
+                        "museum_number": "C.51:2-1991", 
+                        "museumobject": 23423, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "National Art Library, room 76", 
+                        "museum_number_token": "c5121991", 
+                        "gallery": 669
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 669, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "76", 
+                        "site_name": "", 
+                        "name": "National Art Library, room 76", 
+                        "site_code": "VA", 
+                        "museumobject_count": 267, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49548", 
+                        "museumobject_image_count": 224, 
+                        "type": "", 
+                        "slug": "76-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 5763, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2002-06-14", 
+                        "surname": "", 
+                        "name": "Arnold, Tom", 
+                        "gender": null, 
+                        "museumobject_count": 19, 
+                        "death_year": 2002, 
+                        "source": "object_production", 
+                        "cis_id": "A3005", 
+                        "museumobject_image_count": 19, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "arnold-tom", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 5764, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Seeney, Enid", 
+                        "gender": null, 
+                        "museumobject_count": 15, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A3006", 
+                        "museumobject_image_count": 15, 
+                        "forename": "", 
+                        "birth_date": "1931-06-02", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "seeney-enid", 
+                        "birth_year": 1931
+                    }
+                }, 
+                {
+                    "pk": 5765, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Ridgway Potteries Ltd.", 
+                        "gender": null, 
+                        "museumobject_count": 29, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A3007", 
+                        "museumobject_image_count": 28, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "ridgway-potteries-ltd", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 24407, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 147
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 23423, 
+                        "role": "made", 
+                        "place": 147, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c511991", 
+            "object": "Coffee cup and saucer", 
+            "categories": [
+                {
+                    "pk": 13, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tea, Coffee & Chocolate wares", 
+                        "museumobject_count": 2349, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1844, 
+                        "type": "", 
+                        "slug": "tea-coffee-chocolate-wares"
+                    }
+                }, 
+                {
+                    "pk": 55, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Earthenware", 
+                        "museumobject_count": 10312, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8875, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:23:16", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "home-maker-coffee-cup-and-arnold-tom", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 147, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Staffordshire", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 11089, 
+                        "longitude": "-2.02806000", 
+                        "source": "production", 
+                        "cis_id": "x29181", 
+                        "museumobject_image_count": 2175, 
+                        "latitude": "52.82474900", 
+                        "type": "county", 
+                        "slug": "staffordshire-england-x29181"
+                    }
+                }
+            ], 
+            "artist": "Arnold, Tom", 
+            "namecontext_set": [
+                {
+                    "pk": 25957, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5763
+                    }, 
+                    "fields": {
+                        "name": 5763, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 23423, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 25958, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5764
+                    }, 
+                    "fields": {
+                        "name": 5764, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 23423, 
+                        "role": "designer", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 25959, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5765
+                    }, 
+                    "fields": {
+                        "name": 5765, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 23423, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1968, 
+            "object_number": "O22725", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Staffordshire", 
+            "production_note": "", 
+            "historical_context_note": "Aimed at the middle to lower income consumer, Homemaker tableware was retailed through Woolworths between 1955 and 1968. The images of 1950s Contemporary style domestic furniture and furnishings as decoration on such humble household products, proved particularly popular acting as a style guide to what one ought to have in their modern interiors. Some of the images are recognisable 'high design' such as Robin Day's reclining armchair and others are representative of more popular design of the period, like the boomerang-shaped table. A complete range of tableware was produced by Ridgway with the Homemaker design, including full dinner and tea and coffee sets, tureens and serving platters. In terms of what was actually happining in design in 1957 when Homemaker was fist released, many of the objects depicted in the decoration were well established icons. Certainly by 1968 these objects would have looked very out-of-date.\nThe economy of the manufacturing process is demonstrated in the application of the transfer printing on the more complex shapes, like the coffee and tea pots, where the large transfer has simply been cut into smaller pieces and applied in pieces around the shape.\n[Susan McCormack, 'British Design at Home', p.141]", 
+            "collection_code": "CER"
+        }
+    }
+]

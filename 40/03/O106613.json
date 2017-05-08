@@ -1,0 +1,370 @@
+[
+    {
+        "pk": 82302, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.406-1910", 
+            "date_end": "1450-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plaquette, bronze, the Virgin and Child in a niche, workshop of Donatello, Italy (Florence), mid 15th century", 
+            "shape": "", 
+            "longitude": "11.87284000", 
+            "year_start": 1440, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23990, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Jesus Christ", 
+                        "museumobject_count": 1499, 
+                        "source": "name", 
+                        "cis_id": "N1515", 
+                        "museumobject_image_count": 1106, 
+                        "type": "", 
+                        "slug": "jesus-christ"
+                    }
+                }, 
+                {
+                    "pk": 23989, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Mary (Virgin Mary)", 
+                        "museumobject_count": 1380, 
+                        "source": "name", 
+                        "cis_id": "N480", 
+                        "museumobject_image_count": 1066, 
+                        "type": "", 
+                        "slug": "mary-virgin-mary"
+                    }
+                }
+            ], 
+            "date_text": "1440-1450 (made)", 
+            "primary_image_id": "2006BB2711", 
+            "rights": 3, 
+            "physical_description": "Plaquette depicts the Virgin seated holding Christ on her left, in front of a shell-shaped niche.", 
+            "dimensions": "Height: 98 mm, Width: 76 mm", 
+            "title": "The Virgin and Child in a niche", 
+            "date_start": "1440-01-01", 
+            "materials_techniques": "Bronze", 
+            "last_processed": "2014-04-01 00:10:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR17", 
+            "marks": "", 
+            "latitude": "45.40927900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 141395, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR17", 
+                        "inventory_number": 90542, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.406-1910", 
+                        "museumobject": 82302, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a4061910", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 4301, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1466-12-13", 
+                        "surname": "", 
+                        "name": "Donatello", 
+                        "gender": null, 
+                        "museumobject_count": 49, 
+                        "death_year": 1466, 
+                        "source": "object_production", 
+                        "cis_id": "A1979", 
+                        "museumobject_image_count": 40, 
+                        "forename": "", 
+                        "birth_date": "1386-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "donatello", 
+                        "birth_year": 1386
+                    }
+                }, 
+                {
+                    "pk": 100, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Virgin", 
+                        "gender": null, 
+                        "museumobject_count": 1390, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N480", 
+                        "museumobject_image_count": 1075, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mary-virgin-mary", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 101, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2037-12-31", 
+                        "surname": "", 
+                        "name": "Jesus Christ", 
+                        "gender": null, 
+                        "museumobject_count": 1505, 
+                        "death_year": 2037, 
+                        "source": "content", 
+                        "cis_id": "N1515", 
+                        "museumobject_image_count": 1112, 
+                        "forename": "", 
+                        "birth_date": "1996-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jesus-christ", 
+                        "birth_year": 1996
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 78694, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 287
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 82302, 
+                        "role": "made", 
+                        "place": 287, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a4061910", 
+            "object": "Plaquette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }, 
+                {
+                    "pk": 154, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Plaques & Plaquettes", 
+                        "museumobject_count": 616, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 245, 
+                        "type": "", 
+                        "slug": "plaques-plaquettes"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:10:56", 
+            "public_access_description": "Plaquettes are small plaques made of bronze, brass, lead or precious metals. They originated in the 1440s with the desire to reproduce coins and hardstone engravings from ancient Greece and Rome. Some were made as collector\u2019s pieces, to be viewed and displayed in private, and others for practical purposes. They also inspired designs in other media, from architecture to bookbindings. Almost all the small-scale reliefs and plaquettes produced by Donatello and his workshop are religious in subject matter. They usually depict the Virgin and Child. Most of the plaquettes would have been used for private devotion or set into paxes.", 
+            "exhibition_history": "", 
+            "bibliography": "'Salting Bequest (A. 70 to A. 1029-1910) / Murray Bequest (A. 1030 to A. 1096-1910)'. In: <u>List of Works of Art Acquired by the Victoria and Albert Museum (Department of Architecture and Sculpture)</u>. London: Printed under the Authority of his Majesty's Stationery Office, by Eyre and Spottiswoode, Limited, East Harding Street, EC, p. 63\nMaclagan, Eric. <u> Catalogue of Italian Plaquettes </u>. London: Victoria and Albert Museum, 1924, p. 17", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-virgin-and-child-in-plaquette-donatello", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 71263, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:23:35", 
+                        "priority": 0, 
+                        "image_id": "2006BB2711", 
+                        "sys_id": 222711, 
+                        "last_checked": "2014-03-31 17:23:35", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BB/2006BB2711.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 287, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5316
+                    }, 
+                    "fields": {
+                        "name": "Padua", 
+                        "parent": 5316, 
+                        "country": "", 
+                        "museumobject_count": 122, 
+                        "longitude": "11.87284000", 
+                        "source": "production", 
+                        "cis_id": "x29504", 
+                        "museumobject_image_count": 86, 
+                        "latitude": "45.40927900", 
+                        "type": "city / town", 
+                        "slug": "padua-x29504"
+                    }
+                }
+            ], 
+            "artist": "Donatello", 
+            "namecontext_set": [
+                {
+                    "pk": 96124, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4301
+                    }, 
+                    "fields": {
+                        "name": 4301, 
+                        "part_name": "", 
+                        "uncertainty": "workshop of", 
+                        "museumobject": 82302, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 96125, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 100
+                    }, 
+                    "fields": {
+                        "name": 100, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 82302, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 96126, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 101
+                    }, 
+                    "fields": {
+                        "name": 101, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 82302, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1450, 
+            "object_number": "O106613", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "From the Salting bequest.", 
+            "place": "Padua", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

@@ -1,0 +1,432 @@
+[
+    {
+        "pk": 14290, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.28-1953", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Tempera on copper entitled 'Eve Tempted by the Serpent' by William Blake.  Great Britain, ca. 1799-1800.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1799, 
+            "exhibitions": [
+                {
+                    "pk": 3548, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "Frescoes, Prints and Drawings by William Blake", 
+                        "date_end": null, 
+                        "museumobject_count": 4, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "frescoes-prints-and-drawings-by-william-blake", 
+                        "date_text": ""
+                    }
+                }, 
+                {
+                    "pk": 2818, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 5359, 
+                        "year_start": 1902, 
+                        "name": "Pictures of French and British Artists of the 18th century", 
+                        "date_end": "1902-12-31", 
+                        "museumobject_count": 2, 
+                        "venue": "Glasgow Art Gallery and Museum", 
+                        "date_start": "1902-01-01", 
+                        "year_end": 1902, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "pictures-of-french-and-british-artists-of-the-18th-century", 
+                        "date_text": "1902"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 24437, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Eve", 
+                        "museumobject_count": 138, 
+                        "source": "name", 
+                        "cis_id": "N561", 
+                        "museumobject_image_count": 108, 
+                        "type": "", 
+                        "slug": "eve"
+                    }
+                }, 
+                {
+                    "pk": 24316, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "serpent", 
+                        "museumobject_count": 137, 
+                        "source": "object", 
+                        "cis_id": "42758", 
+                        "museumobject_image_count": 97, 
+                        "type": "", 
+                        "slug": "serpent"
+                    }
+                }
+            ], 
+            "date_text": "1799-1800 (painted)", 
+            "primary_image_id": "2006AG2443", 
+            "rights": 3, 
+            "physical_description": "Landscape format painting with the predominant colours being yellow and blue, depicting a naked woman with a serpent behind her", 
+            "dimensions": "Height: 27.3 cm estimate, Width: 38.5 cm estimate", 
+            "title": "Eve Tempted by the Serpent", 
+            "date_start": "1799-01-01", 
+            "materials_techniques": "tempera and gold on copper", 
+            "last_processed": "2014-03-31 19:42:03", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 82, case SOUTH WALL", 
+            "marks": "'WB inv'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12741, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7091, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 67, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Gold", 
+                        "museumobject_count": 6695, 
+                        "source": "cis_materials", 
+                        "cis_id": "11021", 
+                        "museumobject_image_count": 4435, 
+                        "type": "", 
+                        "slug": "gold"
+                    }
+                }, 
+                {
+                    "pk": 57, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "copper", 
+                        "museumobject_count": 1278, 
+                        "source": "cis_materials", 
+                        "cis_id": "11020", 
+                        "museumobject_image_count": 692, 
+                        "type": "", 
+                        "slug": "copper"
+                    }
+                }, 
+                {
+                    "pk": 255, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Tempera", 
+                        "museumobject_count": 220, 
+                        "source": "cis_materials", 
+                        "cis_id": "15062", 
+                        "museumobject_image_count": 162, 
+                        "type": "", 
+                        "slug": "tempera"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 21558, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 507
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "SOUTH WALL", 
+                        "inventory_number": 15292, 
+                        "room": "82", 
+                        "part_name": "", 
+                        "museum_number": "P.28-1953", 
+                        "museumobject": 14290, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 82", 
+                        "museum_number_token": "p281953", 
+                        "gallery": 507
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 507, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "82", 
+                        "site_name": "", 
+                        "name": "Paintings, room 82", 
+                        "site_code": "VA", 
+                        "museumobject_count": 78, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49712", 
+                        "museumobject_image_count": 75, 
+                        "type": "", 
+                        "slug": "82-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 396, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1827-08-12", 
+                        "surname": "", 
+                        "name": "Blake, William", 
+                        "gender": null, 
+                        "museumobject_count": 118, 
+                        "death_year": 1827, 
+                        "source": "object_production", 
+                        "cis_id": "A3132", 
+                        "museumobject_image_count": 65, 
+                        "forename": "", 
+                        "birth_date": "1757-11-28", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "blake-william", 
+                        "birth_year": 1757
+                    }
+                }, 
+                {
+                    "pk": 963, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Eve", 
+                        "gender": null, 
+                        "museumobject_count": 138, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N561", 
+                        "museumobject_image_count": 108, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "eve", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15286, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 14290, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p281953", 
+            "object": "Tempera painting", 
+            "categories": [
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:42:03", 
+            "public_access_description": "Blake drew his inspiration for this scene from the book of Genesis in the Old Testament and from John Milton's epic poem  'Paradise Lost' (1667). Blake often experimented with painting techniques, and here the surface has flaked badly because of the poor adhesion between a glue-based paint and the copper support he used.", 
+            "exhibition_history": "Frescoes, Prints and Drawings by William Blake (Carfax & Co. 01/01/1906-31/12/1906)\nPictures of French and British Artists of the 18th century (Glasgow Art Gallery and Museum 01/01/1902-31/12/1902)", 
+            "bibliography": "Butlin, Martin. <u>The paintings and drawings of William Blake</u>. Published for the Paul Mellon Centre for Studies in British Art by Yale University Press, New Haven; London, 1981, p. 318, cat. no. 379\nThe following is the full text of the entry:\n\n\"379   EVE TEMPTED BY THE SERPENT <i>c.</i>1799-1800 \t \n         <i>The Victoria and Albert Museum (P.28-1953)</i> \nTempera and gold on copper 10\u00be X 15 1/8 (27.3 X 38.5). \nSigned 'WB inv' in monogram b.l. \n\nColl: Thomas Butts; Thomas Butts jun., sold Foster's 29 June 1853 (95) \u00a31 with lot 94 (No. 411) bt. Sir William Stirling-Maxwell, Bt.; Gen. Archibald Stirling; Lt.-Col. William Stirling, sold 1953 to the Victoria and Albert Museum. \nExh: Glasgow 1902 (118); Carfax 1906 (1); Tate Gallery (3) and Manchester (4) 1913-14. \nLit: Rossetti 1863, p. 223 no. 107, and 1880, p. 235 no. 130; Collins Baker and Wark 1957, pp. 22-3; Keynes <i>Bible</i> 1957, p. 2 no. 10 repr.; Raine 1968, I, p. 82, repr. pl. 29; Warner in Erdman and Grant 1970, p. 192; Bindman 1977, pp. 119, 126, 128, repr. pl. 99. \n\nGenesis, iii, 1-5. An imaginative rather than a literal description of the scene, partly inspired by the description of the Serpent towering erect in Milton's <i>Paradise Lost</i>, IX, 496-500 and 670-7. Raine suggests that Blake introduced the waterfall behind because of Porphyry's association of flowing water with generation, this embodiment of the material forming part of Blake's idea of the Fall. Restored by Dr. Hell 1953-4 and now under treatment again. \n   Rossetti also lists as the next item (1863, no. 108; 1880, no. 131) 'The Temptation', a tempera, as 'From Mr.Butts', which is perhaps a duplication of this work. Its position in his lists (the next item is 'The Almighty accusing Eve') suggests that he thought it was a temptation of Eve, and his ignorance of its actual ownership that he may not have seen it. See also No. 476.\"\nW. M. Rossetti, \"Annotated Catalogue\" in A. Gilchrist <u>Life of William Blake</u>, 2 vols, 1863, II, p.223, no.107.\nW. M. Rossetti, \"Annotated Catalogue\" in A. Gilchrist <u>Life of William Blake</u>, 2 vols, 1880 (enlarged edition), II, p.235, no.130.\nG.keynes, <u>William Blake's Illustrations to the Bible</u>, 1957, p.2, no.10 repr.\nBindman, D., <u>Blake as an Artist</u> 1977, p.119,126, 128 repr. pl.99.\n<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1953 </u> London: HMSO, 1963\nThe full text of the entry is as follows: \n\n\"<b>BLAKE, William (1757-1827)</b> \n\nR.=Rossetti, W. M.: 'Annotated Lists of Blake's Paintings, Drawings and Engravings' in Volume 2 of <i>The Life of William Blake</i> by Alexander Gilchrist.  London, 1863. \n... \nEve tempted by the Serpent.  (R.107) \n<i>Signed and dated</i> W B inv. \n<i>Tempera on canvas.</i>               P.28-1953 \n\n<i>Note:</i> P.28-1953 was previously in the collections of Thomas Butts, Thomas Butts, Junior, Sir William Stirling Maxwell, General Archibald Stirling and Lt.-Col. William Stirling. \nIt was No.3 in the Loan Exhibition of Works by William Blake, held at the National Gallery [of] British Art (Tate Gallery), October-December 1913.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "eve-tempted-by-the-serpent-tempera-painting-blake-william", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 46060, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-21 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:06", 
+                        "priority": 0, 
+                        "image_id": "2006AG2443", 
+                        "sys_id": 62443, 
+                        "last_checked": "2014-03-31 17:18:06", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG2443.jpg"
+                    }
+                }, 
+                {
+                    "pk": 74332, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-27 00:00:00", 
+                        "last_processed": "2014-03-31 17:24:14", 
+                        "priority": 3, 
+                        "image_id": "2006BC6004", 
+                        "sys_id": 236004, 
+                        "last_checked": "2014-03-31 17:24:14", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BC/2006BC6004.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Blake, William", 
+            "namecontext_set": [
+                {
+                    "pk": 14427, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 396
+                    }, 
+                    "fields": {
+                        "name": 396, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14290, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 14428, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 963
+                    }, 
+                    "fields": {
+                        "name": 963, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14290, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O80678", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Purchased, 1953", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
