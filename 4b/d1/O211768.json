@@ -1,0 +1,202 @@
+[
+    {
+        "pk": 174215, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1405-2000", 
+            "date_end": "1900-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1850, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "late 19th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Carte-de-visite photograph of the Princess of Wales", 
+            "dimensions": "", 
+            "title": "Portrait of the Princess of Wales", 
+            "date_start": "1850-01-01", 
+            "materials_techniques": "Albumen print", 
+            "last_processed": "2014-04-01 05:49:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case MX8, shelf X290, box J", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 252044, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "J", 
+                        "case": "MX8", 
+                        "inventory_number": 675556, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.1405-2000", 
+                        "museumobject": 174215, 
+                        "shelf": "X290", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e14052000", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 36661, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Le Jeune", 
+                        "gender": null, 
+                        "museumobject_count": 13, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A22602", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "le-jeune", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 162029, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 174215, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e14052000", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-04-01 05:49:05", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "portrait-of-the-princess-of-photograph-le-jeune", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "le jeune", 
+            "namecontext_set": [
+                {
+                    "pk": 220099, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 36661
+                    }, 
+                    "fields": {
+                        "name": 36661, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 174215, 
+                        "role": "photographer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1900, 
+            "object_number": "O211768", 
+            "events": [], 
+            "credit": "Transferred from the British Museum", 
+            "history_note": "", 
+            "place": "paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
