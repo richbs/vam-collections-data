@@ -1,0 +1,234 @@
+[
+    {
+        "pk": 39992, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.860-2000", 
+            "date_end": "1904-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "91.12267300", 
+            "year_start": 1903, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 26452, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "palace", 
+                        "museumobject_count": 291, 
+                        "source": "object", 
+                        "cis_id": "5534", 
+                        "museumobject_image_count": 211, 
+                        "type": "", 
+                        "slug": "palace"
+                    }
+                }, 
+                {
+                    "pk": 4876, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Potala Palace", 
+                        "museumobject_count": 1, 
+                        "source": "place", 
+                        "cis_id": "x33161", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "potala-palace"
+                    }
+                }
+            ], 
+            "date_text": "1903-1904 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Parts of the Potala Palace rise at the left. Two figures talk in the street in the foreground.", 
+            "dimensions": "Height: 20 cm, Width: 14.4 cm", 
+            "title": "Potala, Tibet", 
+            "date_start": "1903-01-01", 
+            "materials_techniques": "Photographic paper: platinum process", 
+            "last_processed": "2014-03-31 21:25:18", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Unlimited edition", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case PX3, shelf 7", 
+            "marks": "", 
+            "latitude": "29.65708900", 
+            "techniques": [
+                {
+                    "pk": 337, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "platinum process", 
+                        "museumobject_count": 22, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53492", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "platinum-process"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 219, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "photographic paper", 
+                        "museumobject_count": 6225, 
+                        "source": "cis_materials", 
+                        "cis_id": "14190", 
+                        "museumobject_image_count": 4880, 
+                        "type": "", 
+                        "slug": "photographic-paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 81622, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PX3", 
+                        "inventory_number": 672297, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.860-2000", 
+                        "museumobject": 39992, 
+                        "shelf": "7", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e8602000", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 38177, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1516
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 39992, 
+                        "role": "photographed", 
+                        "place": 1516, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 38178, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1516
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 39992, 
+                        "role": "subject", 
+                        "place": 1516, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e8602000", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-03-31 21:25:18", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "potala-tibet-photograph", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1516, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 818
+                    }, 
+                    "fields": {
+                        "name": "Potala Palace", 
+                        "parent": 818, 
+                        "country": "", 
+                        "museumobject_count": 2, 
+                        "longitude": "91.12267300", 
+                        "source": "production", 
+                        "cis_id": "x33161", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "29.65708900", 
+                        "type": "site", 
+                        "slug": "potala-palace-x33161"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1904, 
+            "object_number": "O47202", 
+            "events": [], 
+            "credit": "Given by the American Friends of the V&A through the generosity of Michael McDaniel", 
+            "history_note": "", 
+            "place": "Potala Palace", 
+            "production_note": "Reason For Production: Private", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
