@@ -1,0 +1,332 @@
+[
+    {
+        "pk": 932777, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "207-1888", 
+            "date_end": "2011-06-30", 
+            "labels": [], 
+            "descriptive_line": "John Constable, The Old Parish Church at Hove, Reynolds cat. no. 309", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1828, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 50904, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "parish church", 
+                        "museumobject_count": 7, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "parish-church"
+                    }
+                }, 
+                {
+                    "pk": 10423, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Hove", 
+                        "museumobject_count": 6, 
+                        "source": "place", 
+                        "cis_id": "x30739", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "hove"
+                    }
+                }
+            ], 
+            "date_text": "6 November, possibly 1828 (made)", 
+            "primary_image_id": "2013GE8460", 
+            "rights": 3, 
+            "physical_description": "View of the parish church with ruins.", 
+            "dimensions": "Height: 11.4 cm, Width: 18.6 cm", 
+            "title": "The Old Parish Church at Hove", 
+            "date_start": "1828-01-01", 
+            "materials_techniques": "pencil, pen, and water-colour on paper", 
+            "last_processed": "2014-04-26 23:29:49", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 20", 
+            "marks": "'ATMAN Y MILL 21'\n 'Novr. 6th...[a word erased here] Hove'\n 'Mr. Hudson's'\n '28'", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 55030, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27388, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }, 
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }, 
+                {
+                    "pk": 187, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen", 
+                        "museumobject_count": 2371, 
+                        "source": "cis_materials", 
+                        "cis_id": "x34758", 
+                        "museumobject_image_count": 1064, 
+                        "type": "", 
+                        "slug": "pen"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1068001, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WD", 
+                        "inventory_number": 613007, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "207-1888", 
+                        "museumobject": 932777, 
+                        "shelf": "20", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "2071888", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 221, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1837-03-31", 
+                        "surname": "", 
+                        "name": "John Constable", 
+                        "gender": null, 
+                        "museumobject_count": 471, 
+                        "death_year": 1837, 
+                        "source": "object_production", 
+                        "cis_id": "A8267", 
+                        "museumobject_image_count": 388, 
+                        "forename": "", 
+                        "birth_date": "1776-06-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "constable-john-ra", 
+                        "birth_year": 1776
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 429507, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 932777, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 429508, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 799
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 932777, 
+                        "role": "subject", 
+                        "place": 799, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "2071888", 
+            "object": "Watercolour", 
+            "categories": [], 
+            "last_checked": "2014-04-26 23:29:49", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<i>Catalogue of the Constable Collection</i>, Graham Reynolds, Victoria and Albert Museum, London: HMSO, 1973, pp. 185, 189\nThe following is an extract from the text of the entry:\n \n\"Page from a sketch-book.\n\nThis leaf is shown by the size and watermark to come from the same sketch-book as Nos. 302 and 304-308 [294-1888, 350-1888, 199a-1888, 199-1888, 199b-1888, 199c-1888] (on which see the note following No. 308 [seen below]). The earliest dated leaves in that book are of May 1828 (Nos. 302, 304 and 305 [294-1888, 350-1888, 199a-1888]). It is not easy to determine in which year this drawing was made. Mrs. Constable died on 23 November 1828 at Hampstead, and it is hardly conceivable that Constable should have visited Brighton less than three weeks before that event, since her illness had reached a critical stage. Constable was certainly at Brighton on 6 November 1825; 1826, 1827, 1830 and later years do not seem to be excluded. If the date on No. 305 could be read as 1825 it might be shown that the sketch-book was in use in that year. A drawing of the same church, measuring 4x7 ins. and dated 14 October 1825, was Lot 195 in the sale held at Messrs. Sotheby's, 16 January 1958. \nHolmes, p. 248, dates c.I834. \n\n\nNos. 302, 304-308 and 309 [294-1888, 350-1888, 199a-1888, 199-1888, 199b-1888, 199c-1888, 207-1888]\n \nNos 304-308 [350-1888, 199a-1888, 199-1888, 199b-1888, 199c-1888] appear to come from the same sketch-book, since they are carried out in the same medium and in similar technique on pages of the same size and, where they exist, the watermarks correspond; Nos. 302 and 309 [294-1888, 207-1888] can be referred to the same source.  Since the verso of No. 308 [199c-1888] bears a drawing of the Chain Pier, it may be presumed that the other coast scenes in this series were drawn at or near Brighton.  That Constable was there on 16 May 1828 is evidenced by No. 302 [294-1888].  There is no published account to show that he was there on May 30 as the identification of the subject of No. 304 [350-1888] requires.  He wrote on 11 June to Fisher \u201cMy wife is sadly ill at Brighton\u201d (Beckett, VI, p. 237) and these drawings may have been made when he accompanied of visited her there.\nFor a sketchbook which belonged to Delacroix containing drawings of Brighton by Constable similar in manner to 302, 304-8 and 309, see the article \u2018Newly discovered drawings by Constable in a Louvre Sketch-Book\u2019 by Graham Reynolds, <i>Burlington Magazine</i>, Vol. CVII, 1966, pp. 138-41 and figs. 37-44.\u201d", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-old-parish-church-at-watercolour-constable-john-ra", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 336622, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-26 00:00:00", 
+                        "last_processed": "2014-04-25 14:51:14", 
+                        "priority": 0, 
+                        "image_id": "2013GE8460", 
+                        "sys_id": 1308460, 
+                        "last_checked": "2014-04-25 14:51:14", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2013GE/2013GE8460.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Great Britain", 
+                        "museumobject_count": 44632, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13475, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-great-britain-x28826"
+                    }
+                }, 
+                {
+                    "pk": 799, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2929
+                    }, 
+                    "fields": {
+                        "name": "Hove", 
+                        "parent": 2929, 
+                        "country": "England", 
+                        "museumobject_count": 10, 
+                        "longitude": "-0.18244900", 
+                        "source": "production", 
+                        "cis_id": "x30739", 
+                        "museumobject_image_count": 7, 
+                        "latitude": "50.83894500", 
+                        "type": "city / town", 
+                        "slug": "hove-england-x30739"
+                    }
+                }
+            ], 
+            "artist": "Constable, John (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 561231, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 221
+                    }, 
+                    "fields": {
+                        "name": 221, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 932777, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2011, 
+            "object_number": "O1041977", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "'In 1828 Constable exhibited at the Royal Academy two paintings called 'Landscape'. One was 'Dedham Vale' (National Gallery of Scotland, No. 2016); the other was 'Hampstead Heath' (No. 301 in this Catalogue [FA.35]). His seventh child, Lionel Bicknell, was born on 2 January. Mrs. Constable died on 23 November.' \n                                 \n[G Reynolds, 1973, p.185]", 
+            "collection_code": "PDP"
+        }
+    }
+]
