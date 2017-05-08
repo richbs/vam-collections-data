@@ -1,0 +1,366 @@
+[
+    {
+        "pk": 85547, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "7659:1, 2-1862", 
+            "date_end": "1460-12-31", 
+            "labels": [], 
+            "descriptive_line": "Large covered bowl, tinglazed earthenware with decoration in blue and lustre, made in Valencia (probably Manises), Spain, about 1440-60", 
+            "shape": "", 
+            "longitude": "-0.46148900", 
+            "year_start": 1440, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "about 1440-60 (made)", 
+            "primary_image_id": "2007BM7323", 
+            "rights": 3, 
+            "physical_description": "Large covered bowl, tin-glazed earthenware with decoration in blue and lustre in Arab style.", 
+            "dimensions": "Height: 54.8 cm with cover, Diameter: 47.0 cm maximum", 
+            "title": "", 
+            "date_start": "1440-01-01", 
+            "materials_techniques": "Tin-glazed earthenware, painted in cobalt-blue and lustre", 
+            "last_processed": "2014-04-01 00:24:32", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "World Ceramics, room 145, case 47", 
+            "marks": "", 
+            "latitude": "39.49229500", 
+            "techniques": [
+                {
+                    "pk": 28, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painted", 
+                        "museumobject_count": 27627, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30138", 
+                        "museumobject_image_count": 22711, 
+                        "type": "", 
+                        "slug": "painted"
+                    }
+                }, 
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 2, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Earthenware", 
+                        "museumobject_count": 13054, 
+                        "source": "cis_materials", 
+                        "cis_id": "x29356", 
+                        "museumobject_image_count": 11225, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }, 
+                {
+                    "pk": 416, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Tin glaze", 
+                        "museumobject_count": 4434, 
+                        "source": "cis_materials", 
+                        "cis_id": "233436", 
+                        "museumobject_image_count": 3586, 
+                        "type": "", 
+                        "slug": "tin-glaze"
+                    }
+                }, 
+                {
+                    "pk": 178, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cobalt oxide", 
+                        "museumobject_count": 1395, 
+                        "source": "cis_materials", 
+                        "cis_id": "233422", 
+                        "museumobject_image_count": 1140, 
+                        "type": "", 
+                        "slug": "cobalt-oxide"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 145955, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 354
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "47", 
+                        "inventory_number": 337515, 
+                        "room": "145", 
+                        "part_name": "Cover", 
+                        "museum_number": "7659:2-1862", 
+                        "museumobject": 85547, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "World Ceramics, room 145", 
+                        "museum_number_token": "765921862", 
+                        "gallery": 354
+                    }
+                }, 
+                {
+                    "pk": 145956, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 354
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "47", 
+                        "inventory_number": 337516, 
+                        "room": "145", 
+                        "part_name": "Bowl", 
+                        "museum_number": "7659:1-1862", 
+                        "museumobject": 85547, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "World Ceramics, room 145", 
+                        "museum_number_token": "765911862", 
+                        "gallery": 354
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 354, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "145", 
+                        "site_name": "", 
+                        "name": "World Ceramics, room 145", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1487, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49865", 
+                        "museumobject_image_count": 1483, 
+                        "type": "", 
+                        "slug": "145-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 81974, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2753
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 85547, 
+                        "role": "made", 
+                        "place": 2753, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "76591862", 
+            "object": "Bowl", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 55, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Earthenware", 
+                        "museumobject_count": 10312, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8875, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:24:32", 
+            "public_access_description": "Arabs occupied parts of Spain in the period between AD 711 and 1492. They introduced Middle Eastern ceramic techniques, including tin-glazing and lustre decoration. Over time, the Muslim potters of Spain developed a distinctive lustre-decorated pottery that was greatly admired all over Europe. This was characterized by dense, all-over designs painted in metallic lustre and blue, and often featured repeating calligraphic or geometric patterns, built up of interweaving forms and stylized floral motifs. Vastly superior to any other type of ceramics made in Europe, Spanish lustre pottery was exported to Italy and other countries by Italian merchants. \n\nM\u00e1laga near Granada was the leading centre of production until the fourteenth century, but during the fifteenth century some potters moved further north to Murcia and Valencia, where Manises became an important centre.\n\tThe precise function of this magnificent and very large bowl is unclear. It was probably intended as a serving or cooling vessel, though the fact that it has survived intact for hundreds of years suggests that it was probably never used. The decoration is strongly Islamic in character and the underside of the cover features a very unusual lion mask at the centre. A shipment by a leading Italian exporter of Spanish pottery, ordered from the Valencian potter Asmet Zuleima in 1407, lists 199 pieces of lustre ceramics, including \u2018three large bowls, their covers painted out- and in-side\u2019.", 
+            "exhibition_history": "", 
+            "bibliography": "Ray, Anthony. <u>Spanish Pottery 1248-1898</u>. London : V&A Publications, 2000, p. 68-69, cat. 140, Col.pl. 13\nour bowl is discussed and illustrated\nLiefkes, Reino and Hilary Young, eds. <u>Masterpieces of World Ceramics.</u>. London: V & A Publishing, 2008. pp. 56-57, ill ISBN 9781 851 775279.", 
+            "vanda_exhibition_history": "", 
+            "slug": "bowl", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 96520, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:28:59", 
+                        "priority": 0, 
+                        "image_id": "2007BM7323", 
+                        "sys_id": 327323, 
+                        "last_checked": "2014-03-31 17:28:59", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BM/2007BM7323.jpg"
+                    }
+                }, 
+                {
+                    "pk": 96522, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:28:59", 
+                        "priority": 1, 
+                        "image_id": "2007BM7325", 
+                        "sys_id": 327325, 
+                        "last_checked": "2014-03-31 17:28:59", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BM/2007BM7325.jpg"
+                    }
+                }, 
+                {
+                    "pk": 96521, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:28:59", 
+                        "priority": 2, 
+                        "image_id": "2007BM7324", 
+                        "sys_id": 327324, 
+                        "last_checked": "2014-03-31 17:28:59", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BM/2007BM7324.jpg"
+                    }
+                }, 
+                {
+                    "pk": 11846, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-05-15 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:43", 
+                        "priority": 3, 
+                        "image_id": "2006AN3595", 
+                        "sys_id": 123595, 
+                        "last_checked": "2014-03-31 17:10:43", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AN/2006AN3595.jpg"
+                    }
+                }, 
+                {
+                    "pk": 11845, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-05-15 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:43", 
+                        "priority": 4, 
+                        "image_id": "2006AN3594", 
+                        "sys_id": 123594, 
+                        "last_checked": "2014-03-31 17:10:43", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AN/2006AN3594.jpg"
+                    }
+                }, 
+                {
+                    "pk": 11844, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-05-15 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:43", 
+                        "priority": 5, 
+                        "image_id": "2006AN3593", 
+                        "sys_id": 123593, 
+                        "last_checked": "2014-03-31 17:10:43", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AN/2006AN3593.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 2753, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Manises", 
+                        "parent": null, 
+                        "country": "Spain", 
+                        "museumobject_count": 171, 
+                        "longitude": "-0.46148900", 
+                        "source": "production", 
+                        "cis_id": "x35253", 
+                        "museumobject_image_count": 160, 
+                        "latitude": "39.49229500", 
+                        "type": "city / town", 
+                        "slug": "manises-spain-x35253"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1460, 
+            "object_number": "O110626", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "The decoration is strongly <i>Mud\u00e9jar</i> in character, making use of traditional motifs such as the <i>seqba</i>, the split palm-leaf and the lilies in reserve. Ray (2000).", 
+            "place": "Manises", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

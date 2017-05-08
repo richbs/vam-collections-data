@@ -1,0 +1,195 @@
+[
+    {
+        "pk": 1105919, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "PH.2213-1906", 
+            "date_end": "1896-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1896, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 40508, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Poitiers", 
+                        "museumobject_count": 14, 
+                        "source": "place", 
+                        "cis_id": "x37451", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "poitiers"
+                    }
+                }
+            ], 
+            "date_text": "1896", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 170 cm, Length: 225 cm", 
+            "title": "", 
+            "date_start": "1896-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-04-27 05:30:02", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "Baptist\u00e8re St Jean Poitiers \nPropri\u00e9t\u00e9 de l'Etat\nFacade interieure Est-Nord \nVue prise pendant les travaux du R.P. de la Croix en 1896\n  Baptistery of St Jean, Poitiers\nState property\nEast-North interior front\nThe place was photographed during the restoration work of R.P. de la Croix in 1896", 
+            "latitude": "46.71244800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1296153, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": null, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "PH.2213-1906", 
+                        "museumobject": 1105919, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "ph22131906", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 480564, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1105919, 
+                        "role": "photographed", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 480565, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5655
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1105919, 
+                        "role": "subject", 
+                        "place": 5655, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "ph22131906", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-04-27 05:30:02", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "photograph", 
+            "sys_updated": "2014-04-03 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 27032, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8256, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }, 
+                {
+                    "pk": 5655, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4932
+                    }, 
+                    "fields": {
+                        "name": "Poitiers", 
+                        "parent": 4932, 
+                        "country": "France", 
+                        "museumobject_count": 21, 
+                        "longitude": "0.34169000", 
+                        "source": "production", 
+                        "cis_id": "x37451", 
+                        "museumobject_image_count": 2, 
+                        "latitude": "46.58057000", 
+                        "type": "city / town", 
+                        "slug": "poitiers-france-x37451"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1896, 
+            "object_number": "O1252388", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
