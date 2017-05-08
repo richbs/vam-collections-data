@@ -1,0 +1,349 @@
+[
+    {
+        "pk": 61694, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "1-1881", 
+            "date_end": "1866-12-31", 
+            "labels": [], 
+            "descriptive_line": "Bust, marble, of John Sheepshanks, by John Henry Foley RA, England, 1866", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1866, 
+            "exhibitions": [
+                {
+                    "pk": 999, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 4462, 
+                        "year_start": 1971, 
+                        "name": "Irish Art in the Nineteenth century", 
+                        "date_end": "1971-12-29", 
+                        "museumobject_count": 1, 
+                        "venue": "Crawford Municipal Art Gallery, Cork", 
+                        "date_start": "1971-10-30", 
+                        "year_end": 1971, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "irish-art-in-the-nineteenth-century", 
+                        "date_text": "30/10/1971- 29/12/1971"
+                    }
+                }, 
+                {
+                    "pk": 3731, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "? Sculpture of the United Kingdom", 
+                        "date_end": null, 
+                        "museumobject_count": 1, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "sculpture-of-the-united-kingdom", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 24239, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "bust", 
+                        "museumobject_count": 705, 
+                        "source": "object", 
+                        "cis_id": "47457", 
+                        "museumobject_image_count": 365, 
+                        "type": "", 
+                        "slug": "bust"
+                    }
+                }, 
+                {
+                    "pk": 24936, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Sheepshanks, John", 
+                        "museumobject_count": 3, 
+                        "source": "name", 
+                        "cis_id": "N48", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "sheepshanks-john"
+                    }
+                }
+            ], 
+            "date_text": "1866 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Bust of Sheepshanks, whose head looks to the right. He is swathed in ruffled clothing. Signed and dated.", 
+            "dimensions": "Weight: 75.5 kg, Height: 78.7 cm, Width: 57.1 cm", 
+            "title": "John Sheepshanks", 
+            "date_start": "1866-01-01", 
+            "materials_techniques": "Marble", 
+            "last_processed": "2014-03-31 22:38:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 82, case EXP", 
+            "marks": "'J.H. FOLEY R.A. Sc./LONDON 1866'", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 45, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "marble", 
+                        "museumobject_count": 779, 
+                        "source": "cis_materials", 
+                        "cis_id": "11443", 
+                        "museumobject_image_count": 337, 
+                        "type": "", 
+                        "slug": "marble"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 111638, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 507
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EXP", 
+                        "inventory_number": 382446, 
+                        "room": "82", 
+                        "part_name": "", 
+                        "museum_number": "1-1881", 
+                        "museumobject": 61694, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 82", 
+                        "museum_number_token": "11881", 
+                        "gallery": 507
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 507, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "82", 
+                        "site_name": "", 
+                        "name": "Paintings, room 82", 
+                        "site_code": "VA", 
+                        "museumobject_count": 78, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49712", 
+                        "museumobject_image_count": 75, 
+                        "type": "", 
+                        "slug": "82-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10964, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1874-08-27", 
+                        "surname": "", 
+                        "name": "Foley, John Henry (RA)", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1874, 
+                        "source": "object_production", 
+                        "cis_id": "A6144", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1818-05-24", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "foley-john-henry-ra", 
+                        "birth_year": 1818
+                    }
+                }, 
+                {
+                    "pk": 2468, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1863-12-31", 
+                        "surname": "", 
+                        "name": "Sheepshanks, John", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1863, 
+                        "source": "content", 
+                        "cis_id": "N48", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1787-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "sheepshanks-john", 
+                        "birth_year": 1787
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 57477, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61694, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "11881", 
+            "object": "Bust", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:38:09", 
+            "public_access_description": "The represented John Sheepshanks (1787-1863) was an art collector and generous public benefactor who gave his large collection of paintings to the Museum in 1856, for which a new gallery, known as the Sheepshanks gallery, designed by Captain Francis Fowke, was erected in 1857. This bust is the work of the Irish sculptor John Foley (1818-1874) and was exhibited at the Royal Academy in 1857.\n\nJohn Henry Foley (1818-1874) was an Irish sculptor, active in England. He was the most important sculptor of mid-Victorian Britain. Although his close contemporary Alfred Stevens has overshadowed him in reputation, Foley\u2019s achievements were more substantial and more influential on the sculptural direction of that time. He was the son of a grocer and was educated at the Royal Dublin Society\u2019s art schools (ca. 1831-4) and at the Royal Academy, London (1835-8). Foley was commissioned to execute marble statues for the Houses of Parliament of two 17th-century statesmen: John Hampden (1847) and John Selden (1854). Foley had a particular reputation for his technical excellence, unmatched by any of his contemporaries. He was one of the few sculptors left untouched by the criticisms of Francis Palgrave. This status is reflected in the fact that he was the only sculptor to contribute two major sculptures to the Albert Memorial (completed 1876) in Kensington Gardens, London, which were the marble group Asia (1864-71) and the bronze statue of Prince Albert.", 
+            "exhibition_history": "? Sculpture of the United Kingdom (South Kensington Museum 01/01/1857-31/12/1857)\nIrish Art in the Nineteenth century (Crawford Art Gallery, Cork 30/10/1971-29/12/1971)", 
+            "bibliography": "<u>List of Objects in the Art Division, South Kensington Museum acquired during the Year 1881.</u> London, 1882. pp.1\nBilbey, Diane with Trusted, Marjorie. <u>British Sculpture 1470 to 2000. A Concise Catalogue of the Collection at the Victoria and Albert Museum.</u> London, 2002, p.260\nPhysick, J. <u>The Victoria and Albert Museum. The History of its Building.</u> London, 1982. pp. 33-9\n<u>Art Journal.</u> 01/08/1857, pp.239-40\n<u>Building News.</u> 17/07/1857, pp.740\n<u>List of the Bequests and Donations to the South Kensington Museum, now called the Victoria and Albert Museum, completed to 31st December 1900.</u> London, 1901, pp. 237\nGraves, A. <u>The Royal Academy of Arts. A Complete Dictionary of Contributors and their work from its foundation in 1769 to 1904.</u> III, p.132, no.1343\n<u>Irish Art in the 19th century</u> (Exh cat no. 149) Dublin: Crawford Municipal School of Art, 1971. pp. 84", 
+            "vanda_exhibition_history": "", 
+            "slug": "john-sheepshanks-bust-foley-john-henry", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Foley, John Henry (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 67834, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10964
+                    }, 
+                    "fields": {
+                        "name": 10964, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61694, 
+                        "role": "sculptor", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 67835, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2468
+                    }, 
+                    "fields": {
+                        "name": 2468, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61694, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1866, 
+            "object_number": "O66617", 
+            "events": [], 
+            "credit": "Given by Miss A Sheepshanks", 
+            "history_note": "Given by Miss A. Sheepshanks, the sister of the sitter, in 1867, but not formerly registered until 1881.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

@@ -1,0 +1,389 @@
+[
+    {
+        "pk": 85131, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1295-2004", 
+            "date_end": "1945-12-31", 
+            "labels": [], 
+            "descriptive_line": "World War II propaganda poster. France. Winston Churchill with a glowing cigar. Pregnant woman with young son.", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1936, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 639, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "war", 
+                        "museumobject_count": 667, 
+                        "source": "concept", 
+                        "cis_id": "x35624", 
+                        "museumobject_image_count": 228, 
+                        "type": "", 
+                        "slug": "war"
+                    }
+                }, 
+                {
+                    "pk": 26623, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "propaganda", 
+                        "museumobject_count": 614, 
+                        "source": "concept", 
+                        "cis_id": "55539", 
+                        "museumobject_image_count": 235, 
+                        "type": "", 
+                        "slug": "propaganda"
+                    }
+                }, 
+                {
+                    "pk": 771, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "child", 
+                        "museumobject_count": 585, 
+                        "source": "object", 
+                        "cis_id": "x31382", 
+                        "museumobject_image_count": 398, 
+                        "type": "", 
+                        "slug": "child"
+                    }
+                }, 
+                {
+                    "pk": 45643, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Mother", 
+                        "museumobject_count": 90, 
+                        "source": "name", 
+                        "cis_id": "N14969", 
+                        "museumobject_image_count": 50, 
+                        "type": "", 
+                        "slug": "mother"
+                    }
+                }, 
+                {
+                    "pk": 29630, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Churchill, Winston", 
+                        "museumobject_count": 16, 
+                        "source": "name", 
+                        "cis_id": "N1920", 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "churchill-winston"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1941 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Cigar-smoking Winston Churchill in background with pregnant mother and young son. The boy has some food in his hands.", 
+            "dimensions": "Height: 118.8 cm, Width: 80.3 cm", 
+            "title": "Son dernier espoir... LE BLOCUS", 
+            "date_start": "1936-01-01", 
+            "materials_techniques": "Chromolithograph", 
+            "last_processed": "2014-04-01 00:22:50", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MM, shelf 8", 
+            "marks": "Aurai-je assez... pour eux deux?  Will I have enough... for them both?", 
+            "latitude": "46.71244800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ink", 
+                        "museumobject_count": 22898, 
+                        "source": "cis_materials", 
+                        "cis_id": "187371", 
+                        "museumobject_image_count": 13758, 
+                        "type": "", 
+                        "slug": "ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 145388, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "MM", 
+                        "inventory_number": 726388, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.1295-2004", 
+                        "museumobject": 85131, 
+                        "shelf": "8", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e12952004", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 65568, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "SKP", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "", 
+                        "cis_id": "A14290", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "skp", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 13781, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1965-12-31", 
+                        "surname": "", 
+                        "name": "Churchill, Winston", 
+                        "gender": null, 
+                        "museumobject_count": 19, 
+                        "death_year": 1965, 
+                        "source": "content", 
+                        "cis_id": "N1920", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": "1874-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "churchill-winston", 
+                        "birth_year": 1874
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 81609, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85131, 
+                        "role": "made", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e12952004", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 124, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Propaganda", 
+                        "museumobject_count": 1560, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 696, 
+                        "type": "", 
+                        "slug": "propaganda"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:22:50", 
+            "public_access_description": "This is an example of anti-British propaganda issued from Occupied France during the Second World War. From 1940, the Germans established a separate base of propaganda production in France in order to turn the local occupied population against the Allied forces. This poster makes specific reference to Britain's tactical blockade of France, which left many people hungry and suffering. The German propaganda machine was quick to capitalise on public perceptions. On the whole, the French blamed British forces rather than the German presence for their dire situation during the blockade. Here, the dark and menacing figure of Winston Churchill represents Great Britain. He is represented as a looming, shadowy figure with a glowing cigar - visual devices used throughout wartime visual propaganda (on various posters, pamphlets and film) to embody evil, espionage and the Enemy. The neon sign-like text reads \"His last hope... the Blockade\" and shows a callous Churchill deciding whether to feed a bereft pregnant woman or her young son.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "son-dernier-espoir-le-blocus-poster-skp", 
+            "sys_updated": "2013-09-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "SKP", 
+            "namecontext_set": [
+                {
+                    "pk": 100215, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 65568
+                    }, 
+                    "fields": {
+                        "name": 65568, 
+                        "part_name": "", 
+                        "uncertainty": "monogram", 
+                        "museumobject": 85131, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 100216, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 13781
+                    }, 
+                    "fields": {
+                        "name": 13781, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85131, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1945, 
+            "object_number": "O110078", 
+            "events": [
+                {
+                    "pk": 13, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "World War II (1939-45)", 
+                        "date_end": null, 
+                        "museumobject_count": 271, 
+                        "year_end": null, 
+                        "source": "associated", 
+                        "cis_id": "V16", 
+                        "museumobject_image_count": 103, 
+                        "type": "", 
+                        "slug": "world-war-ii-1939-45-v16"
+                    }
+                }
+            ], 
+            "credit": "Gift of the American Friends of the V&A; Gift to the American Friends by Leslie, Judith and Gabri Schreyer and Alice Schreyer Batko", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
