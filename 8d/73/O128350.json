@@ -1,0 +1,398 @@
+[
+    {
+        "pk": 100335, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "483-1882", 
+            "date_end": "1744-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil Painting, 'Salome dancing before Herod', Johann Georg Platzer, ca. 1740", 
+            "shape": "", 
+            "longitude": "13.34577000", 
+            "year_start": 1735, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 27815, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Salome", 
+                        "museumobject_count": 16, 
+                        "source": "name", 
+                        "cis_id": "N488", 
+                        "museumobject_image_count": 13, 
+                        "type": "", 
+                        "slug": "salome-488"
+                    }
+                }, 
+                {
+                    "pk": 27526, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Herod (King)", 
+                        "museumobject_count": 9, 
+                        "source": "name", 
+                        "cis_id": "N1438", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "herod-king"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1740 (painted)", 
+            "primary_image_id": "2006BH7546", 
+            "rights": 3, 
+            "physical_description": "An oil painting depicting Salome dancing before Herod in a crowded, elaborately decorated banquet hall.", 
+            "dimensions": "Height: 40.3 cm estimate, Width: 62 cm estimate", 
+            "title": "Salome dancing before Herod", 
+            "date_start": "1735-01-01", 
+            "materials_techniques": "Oil on copper", 
+            "last_processed": "2014-04-01 01:31:52", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 315, case 25, shelf R", 
+            "marks": "'JGP'", 
+            "latitude": "47.69651000", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }, 
+                {
+                    "pk": 57, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "copper", 
+                        "museumobject_count": 1278, 
+                        "source": "cis_materials", 
+                        "cis_id": "11020", 
+                        "museumobject_image_count": 692, 
+                        "type": "", 
+                        "slug": "copper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 71, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Baroque", 
+                        "museumobject_count": 1010, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21147", 
+                        "museumobject_image_count": 460, 
+                        "type": "", 
+                        "slug": "baroque"
+                    }
+                }, 
+                {
+                    "pk": 248, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Austrian School", 
+                        "museumobject_count": 19, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31257", 
+                        "museumobject_image_count": 19, 
+                        "type": "", 
+                        "slug": "austrian-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 165987, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 682
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "25", 
+                        "inventory_number": 93616, 
+                        "room": "315", 
+                        "part_name": "", 
+                        "museum_number": "483-1882", 
+                        "museumobject": 100335, 
+                        "shelf": "R", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 315", 
+                        "museum_number_token": "4831882", 
+                        "gallery": 682
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 682, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "315", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 315", 
+                        "site_code": "VA", 
+                        "museumobject_count": 231, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49535", 
+                        "museumobject_image_count": 127, 
+                        "type": "", 
+                        "slug": "315-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 9270, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1761-12-31", 
+                        "surname": "", 
+                        "name": "Platzer, Johann Georg", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": 1761, 
+                        "source": "object_production", 
+                        "cis_id": "A4837", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": "1704-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "platzer-johann-georg", 
+                        "birth_year": 1704
+                    }
+                }, 
+                {
+                    "pk": 9031, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1976-12-31", 
+                        "surname": "", 
+                        "name": "Salome", 
+                        "gender": null, 
+                        "museumobject_count": 17, 
+                        "death_year": 1976, 
+                        "source": "content", 
+                        "cis_id": "N488", 
+                        "museumobject_image_count": 14, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "salome", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 8442, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Herod", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N1438", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "herod-king", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 97417, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 130
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 100335, 
+                        "role": "painted", 
+                        "place": 130, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "4831882", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:31:52", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Kauffmann, C.M. <i>Catalogue of Foreign Paintings, I. Before 1800</i>. London: Victoria and Albert Museum, 1973, p. 222-223, cat. no. 275\nThe following is the full text of the entry:\n\nJohann Georg PLATZER (1704-61)\nAustrian School \nBorn at St Michael, Eppan in the Tyrol, he was a pupil of his stepfather Jos. Anton Kessler at Innsbruck and of his uncle Johann Christoph Platzer in Passau. From 1728, when he entered the Vienna Academy, he worked mainly in Vienna. He painted genre, historical and mythological subjects, influenced by the Antwerp school of the 17th century, in particular the Francken family and Jan Brueghel. \n\nLit. G. Agath, <i>Johann Georg Platzer, ein Geseltschaftsmaler des Wiener Rococo</i>, Dresden. 1955. \n\n\n275 \nSALOME DANCING BEFORE HEROD \nSigned J G P in monogram on musical instrument, lower right \nCopper \n15 7/8 X 24 2/8 (40.3 X 62) \nJones Bequest \n483-1882 \n\nA pair with 484-1882 (no. 276). Another version by Platzer, with a similar composition, formerly in the collection of Mdme Selge, is dated 1740. \n\nProv. Early 19th century, Henry Chawner of Alton, Hants., collection sold Christie's, 12 June 1869, lot 110, bought Smith; John Jones: bequeathed to the Museum in 1882. \nLit. Long, <i>Cat. Jones Coll.</i>, 1923, p. 35.", 
+            "vanda_exhibition_history": "", 
+            "slug": "salome-dancing-before-herod-oil-painting-platzer-johann-georg", 
+            "sys_updated": "2014-01-21 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 84189, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-18 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:22", 
+                        "priority": 0, 
+                        "image_id": "2006BH7546", 
+                        "sys_id": 287546, 
+                        "last_checked": "2014-03-31 17:26:22", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BH/2006BH7546.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 130, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Austria", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 544, 
+                        "longitude": "13.34577000", 
+                        "source": "production", 
+                        "cis_id": "x28728", 
+                        "museumobject_image_count": 190, 
+                        "latitude": "47.69651000", 
+                        "type": "country", 
+                        "slug": "austria-x28728"
+                    }
+                }
+            ], 
+            "artist": "Platzer, Johann Georg", 
+            "namecontext_set": [
+                {
+                    "pk": 119639, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 9270
+                    }, 
+                    "fields": {
+                        "name": 9270, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 100335, 
+                        "role": "painter (artist)", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 119640, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 9031
+                    }, 
+                    "fields": {
+                        "name": 9031, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 100335, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 119641, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8442
+                    }, 
+                    "fields": {
+                        "name": 8442, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 100335, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1744, 
+            "object_number": "O128350", 
+            "events": [], 
+            "credit": "Bequeathed by John Jones", 
+            "history_note": "Bequeathed by John Jones, 1882", 
+            "place": "Austria", 
+            "production_note": "This is one of a pair with <i>St John the Baptist preaching in the wilderness</i> (484-1882).", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

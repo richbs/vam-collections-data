@@ -1,0 +1,418 @@
+[
+    {
+        "pk": 477361, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.4951-1960", 
+            "date_end": "1698-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, three-quarter-length portrait of Anne Clarke, wife of Francis Kynnesman, mezzotint by John Smith after Godfried Schalcken, 1698.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1698, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 59, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "woman", 
+                        "museumobject_count": 3370, 
+                        "source": "object", 
+                        "cis_id": "x35642", 
+                        "museumobject_image_count": 2547, 
+                        "type": "", 
+                        "slug": "woman"
+                    }
+                }, 
+                {
+                    "pk": 432, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "landscape", 
+                        "museumobject_count": 2474, 
+                        "source": "object", 
+                        "cis_id": "x35496", 
+                        "museumobject_image_count": 1828, 
+                        "type": "", 
+                        "slug": "landscape"
+                    }
+                }, 
+                {
+                    "pk": 52668, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Anne Kynnesman", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "AUTH317330", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "anne-kynnesman"
+                    }
+                }
+            ], 
+            "date_text": "1698 (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, three-quarter-length portrait of a woman, standing in a landscape, looking to front, her left elbow resting on a rock and pointing with her right hand.", 
+            "dimensions": "Height: 34.3 cm, Width: 25.7 cm", 
+            "title": "Anne Clarke, wife of Francis Kynnesman", 
+            "date_start": "1698-01-01", 
+            "materials_techniques": "Mezzotint", 
+            "last_processed": "2014-04-01 18:30:31", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PS, shelf 42", 
+            "marks": "'Anna, Uxor Francisci Kynnesman Generosi; Filia et una Cohaeredibus, Guilielmi Clarke, de Soham, in Comitatu Cantabrigiae, Generosi <i>and</i> G. Schalken Pinxit.  J. Smith Fec. Et exc.'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 248, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "mezzotint", 
+                        "museumobject_count": 2106, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53233", 
+                        "museumobject_image_count": 813, 
+                        "type": "", 
+                        "slug": "mezzotint"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 71, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Baroque", 
+                        "museumobject_count": 1010, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21147", 
+                        "museumobject_image_count": 460, 
+                        "type": "", 
+                        "slug": "baroque"
+                    }
+                }, 
+                {
+                    "pk": 47, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Dutch School", 
+                        "museumobject_count": 803, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31259", 
+                        "museumobject_image_count": 313, 
+                        "type": "", 
+                        "slug": "dutch-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 611794, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PS", 
+                        "inventory_number": 1262572, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.4951-1960", 
+                        "museumobject": 477361, 
+                        "shelf": "42", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e49511960", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1135, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1742-12-31", 
+                        "surname": "", 
+                        "name": "John Smith", 
+                        "gender": null, 
+                        "museumobject_count": 15, 
+                        "death_year": 1742, 
+                        "source": "content", 
+                        "cis_id": "N2479", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1655-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "smith-john-2479", 
+                        "birth_year": 1655
+                    }
+                }, 
+                {
+                    "pk": 1134, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1743-12-31", 
+                        "surname": "", 
+                        "name": "Smith, John", 
+                        "gender": null, 
+                        "museumobject_count": 67, 
+                        "death_year": 1743, 
+                        "source": "object_production", 
+                        "cis_id": "A8868", 
+                        "museumobject_image_count": 30, 
+                        "forename": "", 
+                        "birth_date": "1655-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "smith-john", 
+                        "birth_year": 1655
+                    }
+                }, 
+                {
+                    "pk": 40831, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1706-12-31", 
+                        "surname": "", 
+                        "name": "Schalken, G.", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1706, 
+                        "source": "object_production", 
+                        "cis_id": "A27469", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1643-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "schalken-g", 
+                        "birth_year": 1643
+                    }
+                }, 
+                {
+                    "pk": 74346, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1750-12-31", 
+                        "surname": "", 
+                        "name": "Anne Kynnesman", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1750, 
+                        "source": "content", 
+                        "cis_id": "AUTH317330", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1625-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "anne-kynnesman", 
+                        "birth_year": 1625
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 297601, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 477361, 
+                        "role": "published", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e49511960", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:30:31", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1960: Volume 2, Edgar Seligman Gift.</u> London: HMSO, 1966.\nThe full text of the entry is as follows:\n\n\u2018<b>SMITH, John (1652?-1742)</b> [\u2026]\n\nAnne Clarke, wife of Francis Kynnesman.  Portrait, three-quarter-length, standing in a landscape, with her left elbow resting upon a rock.  (J.C.S.153, W.156, both 2nd state)\n<i>Lettered</i> Anna, Uxor Francisci Kynnesman Generosi; Filia et una Cohaeredibus, Guilielmi Clarke, de Soham, in Comitatu Cantabrigiae, Generosi <i>and</i> G. Schalken Pinxit.  J. Smith Fec. Et exc.\n<i>Mezzotint.</i>  34.3 x 25.7 cm.\nE.4951-1960\u2019\nSmith, John Chaloner. <u>British Mezzotinto Portraits</u>. London: Henry Sotheran & Co., 1883, vol. 3, p.1188.\nWessely, J. E. <U>John Smith. Verzeichniss seiner schabkunstbl\u00e4tter</u>. Hamburg: Haendcke & Lehmkuhl, 1887. xii, 156 p.", 
+            "vanda_exhibition_history": "", 
+            "slug": "anne-clarke-wife-of-francis-print-john-smith", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "John Smith", 
+            "namecontext_set": [
+                {
+                    "pk": 394428, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1135
+                    }, 
+                    "fields": {
+                        "name": 1135, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 477361, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 394429, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1134
+                    }, 
+                    "fields": {
+                        "name": 1134, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 477361, 
+                        "role": "publisher", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 394430, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 40831
+                    }, 
+                    "fields": {
+                        "name": 40831, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 477361, 
+                        "role": "artist", 
+                        "order": 3
+                    }
+                }, 
+                {
+                    "pk": 394431, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 74346
+                    }, 
+                    "fields": {
+                        "name": 74346, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 477361, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1698, 
+            "object_number": "O562619", 
+            "events": [], 
+            "credit": "Given by Edgar Seligman", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "2nd state.", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
