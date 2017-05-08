@@ -1,0 +1,368 @@
+[
+    {
+        "pk": 86432, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "4511-1858", 
+            "date_end": "1500-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plaquette, bronze, Italy (Florence), by an unknown artist, ca. 1475-1500", 
+            "shape": "", 
+            "longitude": "11.25499000", 
+            "year_start": 1475, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "figures", 
+                        "museumobject_count": 3080, 
+                        "source": "object", 
+                        "cis_id": "x31098", 
+                        "museumobject_image_count": 2330, 
+                        "type": "", 
+                        "slug": "figures"
+                    }
+                }, 
+                {
+                    "pk": 29969, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Hippolytus", 
+                        "museumobject_count": 5, 
+                        "source": "name", 
+                        "cis_id": "N297", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "hippolytus"
+                    }
+                }, 
+                {
+                    "pk": 29965, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Phaedra", 
+                        "museumobject_count": 4, 
+                        "source": "name", 
+                        "cis_id": "N298", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "phaedra"
+                    }
+                }
+            ], 
+            "date_text": "1475-1500 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Medallion plaque depicts a group of four figures", 
+            "dimensions": "Length: 4.13 cm, Width: 2.92 cm", 
+            "title": "Phaedra and Hippolytus", 
+            "date_start": "1475-01-01", 
+            "materials_techniques": "Bronze", 
+            "last_processed": "2014-04-01 00:28:31", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR17", 
+            "marks": "", 
+            "latitude": "43.78237200", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 147217, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR17", 
+                        "inventory_number": 90551, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "4511-1858", 
+                        "museumobject": 86432, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "45111858", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 14560, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Phaedra", 
+                        "gender": null, 
+                        "museumobject_count": 19, 
+                        "death_year": null, 
+                        "source": "associated", 
+                        "cis_id": "N298", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "phaedra", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 14570, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Hippolytus", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": null, 
+                        "source": "associated", 
+                        "cis_id": "N297", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hippolytus", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 82915, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 20
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86432, 
+                        "role": "made", 
+                        "place": 20, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "45111858", 
+            "object": "Plaquette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 154, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Plaques & Plaquettes", 
+                        "museumobject_count": 616, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 245, 
+                        "type": "", 
+                        "slug": "plaques-plaquettes"
+                    }
+                }, 
+                {
+                    "pk": 883, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Medallions", 
+                        "museumobject_count": 425, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 108, 
+                        "type": "", 
+                        "slug": "medallions"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:28:31", 
+            "public_access_description": "Plaquettes are small plaques made of bronze, brass, lead or precious metals. They originated in the 1440s with the desire to reproduce coins and hardstone engravings from ancient Greece and Rome. Some were made as collector\u2019s pieces, to be viewed and displayed in private, and others for practical purposes. They also inspired designs in other media, from architecture to bookbindings. \n\nPhaedra, wife of the King of Athens, fell in love with her stepson Hippolytus. When she revealed her love, Hippolytus reacted with such revulsion that Phaedra killed herself. This plaquette is cast after an antique cameo formerly in the collection of Lorenzo de\u2019 Medici, Florence.", 
+            "exhibition_history": "", 
+            "bibliography": "Maclagan, Eric. <u> Catalogue of Italian Plaquettes </u>. London: Victoria and Albert Museum, 1924, p.\nInventory of Art Objects Acquired in the Year 1858. <u>In</u>: <u>Inventory of the Objects in the Art Division of the Museum at South Kensington, Arranged According to the Dates of their Acquisition. Vol I</u>. London: Printed by George E. Eyre and William Spottiswoode for H.M.S.O., 1868, p. 18.", 
+            "vanda_exhibition_history": "", 
+            "slug": "phaedra-and-hippolytus-plaquette-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 20, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Florence", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 1283, 
+                        "longitude": "11.25499000", 
+                        "source": "production", 
+                        "cis_id": "x28848", 
+                        "museumobject_image_count": 813, 
+                        "latitude": "43.78237200", 
+                        "type": "city / town", 
+                        "slug": "florence-italy-x28848"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 102190, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86432, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 102191, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14560
+                    }, 
+                    "fields": {
+                        "name": 14560, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86432, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 102192, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14570
+                    }, 
+                    "fields": {
+                        "name": 14570, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86432, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1500, 
+            "object_number": "O111869", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Florence", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

@@ -1,0 +1,261 @@
+[
+    {
+        "pk": 68656, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.30-1912", 
+            "date_end": "1904-12-31", 
+            "labels": [], 
+            "descriptive_line": "Portrait bust, bronze on a green marble base, of Sir Thomas Armstrong, by David McGill, English ca. 1904", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1904, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 29145, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Armstrong, Sir Thomas (C.B.)", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N1623", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "armstrong-sir-thomas-cb"
+                    }
+                }
+            ], 
+            "date_text": "1904 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 65 cm", 
+            "title": "Sir Thomas Armstrong CB (1833-1911)", 
+            "date_start": "1904-01-01", 
+            "materials_techniques": "Bronze, on green marble base", 
+            "last_processed": "2014-03-31 23:12:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "National Art Library Reading Room, room 78", 
+            "marks": "'D M c G'\n 'Thos Armstrong C:B/1904'", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 121895, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 83777, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "A.30-1912", 
+                        "museumobject": 68656, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "National Art Library Reading Room, room 78", 
+                        "museum_number_token": "a301912", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 12569, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1947-12-31", 
+                        "surname": "", 
+                        "name": "McGill, David", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1947, 
+                        "source": "object_production", 
+                        "cis_id": "A6885", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mcgill-david", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 12570, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1911-12-31", 
+                        "surname": "", 
+                        "name": "Armstrong, Sir Thomas (C.B.)", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1911, 
+                        "source": "content", 
+                        "cis_id": "N1623", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1833-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "armstrong-sir-thomas-cb", 
+                        "birth_year": 1833
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 64748, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 68656, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a301912", 
+            "object": "Bust", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 886, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portrait", 
+                        "museumobject_count": 13, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "portrait"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:12:25", 
+            "public_access_description": "Sir Thomas Armstrong was Director of Art in the Department of Science and Art of the South Kensington Museum (now the V&A) between 1881 and 1898. On his death a memorial committee was set up to organise a suitable commemoration at the Museum.  Committee members included former friends and colleagues, such as Sir Edward Poynter and Walter Crane. David McGill, a former South Kensington student, offered to present his bust of Armstrong to the Museum.\n\nThe bust had already been on loan to the Museum in 1905-1906, when it was described as 'an excellent portrait and a fine work of art', and the committee felt the bust would be a suitable memorial to Armstong if it were to be taken on permanently. They provided a suitable marble pedestal with the inscription: 'THOMAS ARMSTRONG C B. BORN 1833 DIED 1911. DIRECTOR FOR ART 1881-1898. PRESENTED BY FRIENDS IN RECOGNITION OF HIS WORK AS AN ARTIST: IN APPRECIATION OF HIS SERVICES TO EDUCATION IN ART: AND IN REMEMBRANCE OF THE HELP GIVEN BY HIM TO OTHER WORKERS.' The bust and pedestal were originally displayed to one side of the doorway of the Art Library (now the National Art Library). The bust alone is now displayed in the Reading Room of the National Art Library, together with busts of other former Directors of the Museum.", 
+            "exhibition_history": "", 
+            "bibliography": "Bilbey, Diane and Trusted Marjorie. <u>British Sculpture 1470 to 2000. A Concise Catalogue of the Collection at the Victoria and Albert Museum</u>, London, 2002, p. 461, cat. no. 750", 
+            "vanda_exhibition_history": "", 
+            "slug": "sir-thomas-armstrong-cb-1833-bust-mcgill-david", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "McGill, David", 
+            "namecontext_set": [
+                {
+                    "pk": 77952, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12569
+                    }, 
+                    "fields": {
+                        "name": 12569, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 68656, 
+                        "role": "sculptor", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 77953, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12570
+                    }, 
+                    "fields": {
+                        "name": 12570, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 68656, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1904, 
+            "object_number": "O71814", 
+            "events": [], 
+            "credit": "Given by the artist", 
+            "history_note": "Given by the sculptor in 1912. Previously on loan to the Museum between 1905-6.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
