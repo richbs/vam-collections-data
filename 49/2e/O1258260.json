@@ -1,0 +1,393 @@
+[
+    {
+        "pk": 1111151, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.433", 
+            "date_end": "1902-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing by Charles Davidson entitled 'On the Hill at St. Leonards'.  Great Britain, ca. late 19th century.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1845, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24213, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "beaches", 
+                        "museumobject_count": 181, 
+                        "source": "object", 
+                        "cis_id": "8816", 
+                        "museumobject_image_count": 68, 
+                        "type": "", 
+                        "slug": "beaches"
+                    }
+                }, 
+                {
+                    "pk": 49400, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "coasts", 
+                        "museumobject_count": 144, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 25, 
+                        "type": "", 
+                        "slug": "coasts"
+                    }
+                }, 
+                {
+                    "pk": 2531, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "seaside", 
+                        "museumobject_count": 52, 
+                        "source": "object", 
+                        "cis_id": "x35932", 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "seaside"
+                    }
+                }, 
+                {
+                    "pk": 8396, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "East Sussex", 
+                        "museumobject_count": 35, 
+                        "source": "place", 
+                        "cis_id": "x29456", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "east-sussex"
+                    }
+                }, 
+                {
+                    "pk": 16474, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "St Leonards-on-Sea", 
+                        "museumobject_count": 9, 
+                        "source": "place", 
+                        "cis_id": "x43768", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "st-leonards-on-sea"
+                    }
+                }
+            ], 
+            "date_text": "ca. late 19th century (drawn)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Drawing of St. Leonards in East Sussex", 
+            "dimensions": "Height: 15.625 in, Width: 25.625 in", 
+            "title": "On the Hill at St. Leonards", 
+            "date_start": "1845-01-01", 
+            "materials_techniques": "Drawing", 
+            "last_processed": "2014-04-27 05:44:59", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 127", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1301923, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WD", 
+                        "inventory_number": null, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "FA.433", 
+                        "museumobject": 1111151, 
+                        "shelf": "127", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "fa433", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 52168, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1902-12-31", 
+                        "surname": "", 
+                        "name": "Davidson", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1902, 
+                        "source": "object_production", 
+                        "cis_id": "A33456", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1824-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "davidson-charles", 
+                        "birth_year": 1824
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 487460, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1111151, 
+                        "role": "drawn", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 487461, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 4572
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1111151, 
+                        "role": "subject", 
+                        "place": 4572, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 487462, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2929
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1111151, 
+                        "role": "subject", 
+                        "place": 2929, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa433", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 1630, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Landscapes", 
+                        "museumobject_count": 1945, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 288, 
+                        "type": "", 
+                        "slug": "landscapes"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 05:44:59", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "on-the-hill-at-st-drawing-davidson", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }, 
+                {
+                    "pk": 4572, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2929
+                    }, 
+                    "fields": {
+                        "name": "St Leonards", 
+                        "parent": 2929, 
+                        "country": "England", 
+                        "museumobject_count": 14, 
+                        "longitude": "0.55251500", 
+                        "source": "production", 
+                        "cis_id": "x43768", 
+                        "museumobject_image_count": 12, 
+                        "latitude": "50.85574500", 
+                        "type": "inhabited place", 
+                        "slug": "st-leonards-england-x43768"
+                    }
+                }, 
+                {
+                    "pk": 2929, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "East Sussex", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 57, 
+                        "longitude": "0.31140000", 
+                        "source": "production", 
+                        "cis_id": "x29456", 
+                        "museumobject_image_count": 3, 
+                        "latitude": "50.94044100", 
+                        "type": "county", 
+                        "slug": "east-sussex-england-x29456"
+                    }
+                }
+            ], 
+            "artist": "Davidson", 
+            "namecontext_set": [
+                {
+                    "pk": 673797, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 52168
+                    }, 
+                    "fields": {
+                        "name": 52168, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1111151, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1902, 
+            "object_number": "O1258260", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

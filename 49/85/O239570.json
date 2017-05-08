@@ -1,0 +1,283 @@
+[
+    {
+        "pk": 200191, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.981-2008", 
+            "date_end": "1991-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph of a computer-generated image, 'Untitled (Season's Greetings and Happy '91')', by Kenneth Snelson, USA, 1991.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1991, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1991 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Photograph of computer-generated image, mounted on red card with inscription and artist's signature.", 
+            "dimensions": "Length: 16 cm with mount, Width: 10.8 cm with mount, Length: 13.8 cm without mount, Width: 9.7 cm without mount", 
+            "title": "Untitled (Season's Greetings + Happy '91)", 
+            "date_start": "1991-01-01", 
+            "materials_techniques": "Photography of computer-generated image mounted on card", 
+            "last_processed": "2014-04-01 07:22:01", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case PAT, shelf 5", 
+            "marks": "'Season's Greetings + Happy '91 / Ken S.' [signature]", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 258, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "photography", 
+                        "museumobject_count": 4332, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54225", 
+                        "museumobject_image_count": 1243, 
+                        "type": "", 
+                        "slug": "photography"
+                    }
+                }, 
+                {
+                    "pk": 800, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "computer-generated", 
+                        "museumobject_count": 255, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x44521", 
+                        "museumobject_image_count": 170, 
+                        "type": "", 
+                        "slug": "computer-generated"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 31, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "card", 
+                        "museumobject_count": 11362, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30344", 
+                        "museumobject_image_count": 1995, 
+                        "type": "", 
+                        "slug": "card"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 279613, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PAT", 
+                        "inventory_number": 1389892, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.981-2008", 
+                        "museumobject": 200191, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e9812008", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 50823, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Snelson, Kenneth", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A25406", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1927-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "snelson-kenneth", 
+                        "birth_year": 1927
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 183425, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 200191, 
+                        "role": "made", 
+                        "place": 10, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e9812008", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }, 
+                {
+                    "pk": 126, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Greeting cards", 
+                        "museumobject_count": 1992, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 180, 
+                        "type": "", 
+                        "slug": "greeting-cards"
+                    }
+                }, 
+                {
+                    "pk": 1337, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Computer Art", 
+                        "museumobject_count": 515, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 423, 
+                        "type": "", 
+                        "slug": "computer-art"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 07:22:01", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "untitled-seasons-greetings-happy-91-photograph-snelson-kenneth", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 10, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "United States", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 5088, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 1371, 
+                        "latitude": null, 
+                        "type": "country", 
+                        "slug": "united-states-x29333"
+                    }
+                }
+            ], 
+            "artist": "Snelson, Kenneth", 
+            "namecontext_set": [
+                {
+                    "pk": 256184, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 50823
+                    }, 
+                    "fields": {
+                        "name": 50823, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 200191, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1991, 
+            "object_number": "O239570", 
+            "events": [], 
+            "credit": "Given by the American Friends of the V&A through the generosity of Patric Prince", 
+            "history_note": "", 
+            "place": "USA", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
