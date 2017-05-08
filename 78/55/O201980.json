@@ -1,0 +1,286 @@
+[
+    {
+        "pk": 164971, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2019-1992", 
+            "date_end": "1899-12-31", 
+            "labels": [], 
+            "descriptive_line": "Anonymous stereoscopic photograph, gelatin silver print on glass, depicting a dromedary camel, ca. late 19th century.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1850, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 55477, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stereograph", 
+                        "museumobject_count": 1033, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 241, 
+                        "type": "", 
+                        "slug": "stereograph"
+                    }
+                }, 
+                {
+                    "pk": 600, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "animals", 
+                        "museumobject_count": 685, 
+                        "source": "object", 
+                        "cis_id": "x30274", 
+                        "museumobject_image_count": 357, 
+                        "type": "", 
+                        "slug": "animals"
+                    }
+                }, 
+                {
+                    "pk": 34956, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stereoscope", 
+                        "museumobject_count": 257, 
+                        "source": "object", 
+                        "cis_id": "162919", 
+                        "museumobject_image_count": 15, 
+                        "type": "", 
+                        "slug": "stereoscope"
+                    }
+                }, 
+                {
+                    "pk": 113, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "camels", 
+                        "museumobject_count": 155, 
+                        "source": "object", 
+                        "cis_id": "x30284", 
+                        "museumobject_image_count": 111, 
+                        "type": "", 
+                        "slug": "camels"
+                    }
+                }
+            ], 
+            "date_text": "late 19th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Stereoscopic photograph, gelatin silver print on glass, depicting a dromedary camel", 
+            "dimensions": "Height: 8.3 cm Size of glass, Width: 17.2 cm", 
+            "title": "Dromedary", 
+            "date_start": "1850-01-01", 
+            "materials_techniques": "Stereoscopic photograph on glass", 
+            "last_processed": "2014-04-01 05:29:22", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case ABOVE MX7, shelf X773, box D", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 258, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "photography", 
+                        "museumobject_count": 4332, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54225", 
+                        "museumobject_image_count": 1243, 
+                        "type": "", 
+                        "slug": "photography"
+                    }
+                }, 
+                {
+                    "pk": 2935, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 265, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 4, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glass", 
+                        "museumobject_count": 2754, 
+                        "source": "cis_materials", 
+                        "cis_id": "10797", 
+                        "museumobject_image_count": 1489, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 242491, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "D", 
+                        "case": "ABOVE MX7", 
+                        "inventory_number": 629458, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.2019-1992", 
+                        "museumobject": 164971, 
+                        "shelf": "X773", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e20191992", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "e20191992", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }, 
+                {
+                    "pk": 1629, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Animals and Wildlife", 
+                        "museumobject_count": 1090, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "animals-and-wildlife"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 05:29:22", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "dromedary-photograph-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 209823, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 164971, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1899, 
+            "object_number": "O201980", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
