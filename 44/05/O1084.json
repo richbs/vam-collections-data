@@ -1,0 +1,262 @@
+[
+    {
+        "pk": 2787, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "4499-1901", 
+            "date_end": "1854-12-31", 
+            "labels": [
+                {
+                    "pk": 490, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 2787, 
+                        "label_text": "Given to the Jermyn St Museum by Edmund Christy in 1864."
+                    }
+                }
+            ], 
+            "descriptive_line": "Vase, England (Lambeth, London), Ducote's patent, made by A. J. F. Christy, Stangate Glass Works, 1845-1855, 4499-1901  .", 
+            "shape": "", 
+            "longitude": "-0.11693000", 
+            "year_start": 1845, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1850 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 32.7 cm", 
+            "title": "", 
+            "date_start": "1845-01-01", 
+            "materials_techniques": "opal glass, enamelled and gilt", 
+            "last_processed": "2014-03-31 19:00:19", 
+            "label": "Given to the Jermyn St Museum by Edmund Christy in 1864.", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 78, shelf 6", 
+            "marks": "'Christy's Stangate London Ducote's Patent' enamelled", 
+            "latitude": "51.48518000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 15, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Victorian", 
+                        "museumobject_count": 8255, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29321", 
+                        "museumobject_image_count": 6056, 
+                        "type": "", 
+                        "slug": "victorian"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 3778, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "78", 
+                        "inventory_number": 374100, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "4499-1901", 
+                        "museumobject": 2787, 
+                        "shelf": "6", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "44991901", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 788, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Ducote", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A621", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "ducote", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 787, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "A. J. F. Christy, Stangate Glass Works", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A2", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "a-j-f-christy-stangate-glass-works", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 2907, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 336
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2787, 
+                        "role": "made", 
+                        "place": 336, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "44991901", 
+            "object": "Vase", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:00:19", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-ducote", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 336, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 7
+                    }, 
+                    "fields": {
+                        "name": "Lambeth", 
+                        "parent": 7, 
+                        "country": "England", 
+                        "museumobject_count": 318, 
+                        "longitude": "-0.11693000", 
+                        "source": "production", 
+                        "cis_id": "x29476", 
+                        "museumobject_image_count": 293, 
+                        "latitude": "51.48518000", 
+                        "type": "", 
+                        "slug": "lambeth-england-x29476"
+                    }
+                }
+            ], 
+            "artist": "Ducote", 
+            "namecontext_set": [
+                {
+                    "pk": 2563, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 788
+                    }, 
+                    "fields": {
+                        "name": 788, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2787, 
+                        "role": "patentee", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 2564, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 787
+                    }, 
+                    "fields": {
+                        "name": 787, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2787, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1854, 
+            "object_number": "O1084", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Lambeth", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
