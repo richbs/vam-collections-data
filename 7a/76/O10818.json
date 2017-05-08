@@ -1,0 +1,933 @@
+[
+    {
+        "pk": 13130, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "T.137-1991", 
+            "date_end": "1600-12-31", 
+            "labels": [
+                {
+                    "pk": 4690, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 13130, 
+                        "label_text": "British Galleries:\nValances were borders around the top of an Elizabethan bed. They were often embroidered or woven in tapestry with lively and colourful images including figures from mythology. The figures here probably include four of the traditional Seven Virtues, shown here wearing versions of [check] classical dress."
+                    }
+                }
+            ], 
+            "descriptive_line": "Valance of linen canvas embroidered with wools and silks, possibly made in France, Scotland or England, 1580-1600", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1580, 
+            "exhibitions": [
+                {
+                    "pk": 76, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 1999, 
+                        "name": "A Grand Design - The Art of the Victoria and Albert Museum", 
+                        "date_end": "2000-01-16", 
+                        "museumobject_count": 279, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "1999-10-14", 
+                        "year_end": 2000, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 266, 
+                        "type": "", 
+                        "slug": "a-grand-design-the-art-of-the-victoria-and-albert-museum", 
+                        "date_text": "14/10/1999 - 16/01/2000"
+                    }
+                }, 
+                {
+                    "pk": 151, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 3839, 
+                        "year_start": 2001, 
+                        "name": "Precious: Objects and Changing Values", 
+                        "date_end": "2001-06-24", 
+                        "museumobject_count": 131, 
+                        "venue": "Millenium Galleries, Sheffield", 
+                        "date_start": "2001-04-02", 
+                        "year_end": 2001, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 125, 
+                        "type": "", 
+                        "slug": "precious-objects-and-changing-values", 
+                        "date_text": "02/04/2001 - 24/06/2001"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 23877, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "men", 
+                        "museumobject_count": 3159, 
+                        "source": "object", 
+                        "cis_id": "25928", 
+                        "museumobject_image_count": 1353, 
+                        "type": "", 
+                        "slug": "men"
+                    }
+                }, 
+                {
+                    "pk": 432, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "landscape", 
+                        "museumobject_count": 2474, 
+                        "source": "object", 
+                        "cis_id": "x35496", 
+                        "museumobject_image_count": 1828, 
+                        "type": "", 
+                        "slug": "landscape"
+                    }
+                }, 
+                {
+                    "pk": 24011, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Costume", 
+                        "museumobject_count": 2346, 
+                        "source": "object", 
+                        "cis_id": "209261", 
+                        "museumobject_image_count": 895, 
+                        "type": "", 
+                        "slug": "costume"
+                    }
+                }, 
+                {
+                    "pk": 23977, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "women", 
+                        "museumobject_count": 2280, 
+                        "source": "object", 
+                        "cis_id": "25943", 
+                        "museumobject_image_count": 1251, 
+                        "type": "", 
+                        "slug": "women"
+                    }
+                }, 
+                {
+                    "pk": 23870, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "trees", 
+                        "museumobject_count": 2184, 
+                        "source": "object", 
+                        "cis_id": "132410", 
+                        "museumobject_image_count": 1569, 
+                        "type": "", 
+                        "slug": "trees"
+                    }
+                }, 
+                {
+                    "pk": 25803, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "buildings", 
+                        "museumobject_count": 1162, 
+                        "source": "object", 
+                        "cis_id": "4809", 
+                        "museumobject_image_count": 520, 
+                        "type": "", 
+                        "slug": "buildings"
+                    }
+                }, 
+                {
+                    "pk": 23987, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "mountains", 
+                        "museumobject_count": 697, 
+                        "source": "object", 
+                        "cis_id": "8795", 
+                        "museumobject_image_count": 334, 
+                        "type": "", 
+                        "slug": "mountains"
+                    }
+                }, 
+                {
+                    "pk": 24521, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "jewellery", 
+                        "museumobject_count": 619, 
+                        "source": "object", 
+                        "cis_id": "209286", 
+                        "museumobject_image_count": 509, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }, 
+                {
+                    "pk": 48075, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "figures (representations)", 
+                        "museumobject_count": 588, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 480, 
+                        "type": "", 
+                        "slug": "figures-representations"
+                    }
+                }, 
+                {
+                    "pk": 24466, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "statues", 
+                        "museumobject_count": 412, 
+                        "source": "object", 
+                        "cis_id": "47600", 
+                        "museumobject_image_count": 102, 
+                        "type": "", 
+                        "slug": "statues"
+                    }
+                }, 
+                {
+                    "pk": 46666, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "gardens", 
+                        "museumobject_count": 395, 
+                        "source": "object", 
+                        "cis_id": "108287", 
+                        "museumobject_image_count": 208, 
+                        "type": "", 
+                        "slug": "gardens"
+                    }
+                }, 
+                {
+                    "pk": 25164, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "court dress", 
+                        "museumobject_count": 280, 
+                        "source": "object", 
+                        "cis_id": "256706", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "court-dress"
+                    }
+                }, 
+                {
+                    "pk": 48159, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "peacocks", 
+                        "museumobject_count": 210, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 132, 
+                        "type": "", 
+                        "slug": "peacocks"
+                    }
+                }, 
+                {
+                    "pk": 24115, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "swords", 
+                        "museumobject_count": 188, 
+                        "source": "object", 
+                        "cis_id": "37048", 
+                        "museumobject_image_count": 137, 
+                        "type": "", 
+                        "slug": "swords"
+                    }
+                }, 
+                {
+                    "pk": 48088, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "dogs (animals)", 
+                        "museumobject_count": 167, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 98, 
+                        "type": "", 
+                        "slug": "dogs-animals"
+                    }
+                }, 
+                {
+                    "pk": 3170, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Shields", 
+                        "museumobject_count": 122, 
+                        "source": "object", 
+                        "cis_id": "x31101", 
+                        "museumobject_image_count": 71, 
+                        "type": "", 
+                        "slug": "shields"
+                    }
+                }, 
+                {
+                    "pk": 1948, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "rabbits", 
+                        "museumobject_count": 107, 
+                        "source": "object", 
+                        "cis_id": "x30481", 
+                        "museumobject_image_count": 73, 
+                        "type": "", 
+                        "slug": "rabbits"
+                    }
+                }, 
+                {
+                    "pk": 24729, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "headdresses", 
+                        "museumobject_count": 81, 
+                        "source": "object", 
+                        "cis_id": "46023", 
+                        "museumobject_image_count": 26, 
+                        "type": "", 
+                        "slug": "headdresses"
+                    }
+                }, 
+                {
+                    "pk": 24208, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Hope", 
+                        "museumobject_count": 67, 
+                        "source": "name", 
+                        "cis_id": "N786", 
+                        "museumobject_image_count": 38, 
+                        "type": "", 
+                        "slug": "hope"
+                    }
+                }, 
+                {
+                    "pk": 25167, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Charity", 
+                        "museumobject_count": 67, 
+                        "source": "name", 
+                        "cis_id": "N787", 
+                        "museumobject_image_count": 43, 
+                        "type": "", 
+                        "slug": "charity-787"
+                    }
+                }, 
+                {
+                    "pk": 48290, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cloaks", 
+                        "museumobject_count": 26, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "cloaks"
+                    }
+                }, 
+                {
+                    "pk": 48291, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sandals", 
+                        "museumobject_count": 25, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 15, 
+                        "type": "", 
+                        "slug": "sandals"
+                    }
+                }, 
+                {
+                    "pk": 24728, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "ruffs", 
+                        "museumobject_count": 19, 
+                        "source": "object", 
+                        "cis_id": "210072", 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "ruffs"
+                    }
+                }, 
+                {
+                    "pk": 23929, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "anchors", 
+                        "museumobject_count": 18, 
+                        "source": "object", 
+                        "cis_id": "219429", 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "anchors"
+                    }
+                }, 
+                {
+                    "pk": 25166, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "The Virtues", 
+                        "museumobject_count": 17, 
+                        "source": "name", 
+                        "cis_id": "N2853", 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "the-virtues"
+                    }
+                }, 
+                {
+                    "pk": 24904, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "staffs", 
+                        "museumobject_count": 6, 
+                        "source": "object", 
+                        "cis_id": "221444", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "staffs"
+                    }
+                }, 
+                {
+                    "pk": 48292, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "heart (motif)", 
+                        "museumobject_count": 5, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "heart-motif"
+                    }
+                }, 
+                {
+                    "pk": 24542, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flaming hearts", 
+                        "museumobject_count": 4, 
+                        "source": "object", 
+                        "cis_id": "9875", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "flaming-hearts"
+                    }
+                }, 
+                {
+                    "pk": 25165, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sashes", 
+                        "museumobject_count": 4, 
+                        "source": "object", 
+                        "cis_id": "216864", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "sashes"
+                    }
+                }, 
+                {
+                    "pk": 48293, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flowers (motifs)", 
+                        "museumobject_count": 1, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "flowers-motifs"
+                    }
+                }
+            ], 
+            "date_text": "1580-1600 (made)", 
+            "primary_image_id": "2006AR0340", 
+            "rights": 3, 
+            "physical_description": "Valance of linen canvas embroidered with wools and silks in tent stitch, with details in stem stitch and couched work. The scene is of an ornamental garden with a mountainous skyline. At the extreme left are three females, dressed in fashionable costume, with part of a fourth who may represent four of the seven virtues. The hand of the largely unseen figure holds a flaming sword (?) which possibly may belong to Justice or Temperance. A seated female holds a flaming heart and may represent Charity. A female behind bears a shield and may represent Justice, and another holds an anchor and may represent Hope. The next two scenes show the same couple, a male and female (unidentified) . Their costumes are semi classical. In the first scene the female beckons to the man, and in the second the man walks with difficulty with a stick and holds onto the arm of the woman. The final scene shows two women who appear to be awaiting for the arrival of the couple.", 
+            "dimensions": "Height: 56.5 cm, Width: 182 cm, Length: 71 in, Height: 22.25 in", 
+            "title": "", 
+            "date_start": "1580-01-01", 
+            "materials_techniques": "Linen canvas embroidered with wools and silks", 
+            "last_processed": "2014-03-31 19:37:50", 
+            "label": "British Galleries:\nValances were borders around the top of an Elizabethan bed. They were often embroidered or woven in tapestry with lively and colourful images including figures from mythology. The figures here probably include four of the traditional Seven Virtues, shown here wearing versions of [check] classical dress. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 8, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "T&F", 
+                        "name": "Textiles and Fashion Collection", 
+                        "museumobject_count": 71437, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 14830, 
+                        "type": "", 
+                        "slug": "tf"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 58d, case 1", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 917, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "embroidered", 
+                        "museumobject_count": 1396, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 536, 
+                        "type": "", 
+                        "slug": "embroidered"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 78, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Silk thread", 
+                        "museumobject_count": 1561, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30127", 
+                        "museumobject_image_count": 769, 
+                        "type": "", 
+                        "slug": "silk-thread"
+                    }
+                }, 
+                {
+                    "pk": 116, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wool yarn", 
+                        "museumobject_count": 563, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30441", 
+                        "museumobject_image_count": 272, 
+                        "type": "", 
+                        "slug": "wool-yarn"
+                    }
+                }, 
+                {
+                    "pk": 1727, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "linen (material)", 
+                        "museumobject_count": 333, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 150, 
+                        "type": "", 
+                        "slug": "linen-material"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 19776, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 983
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "1", 
+                        "inventory_number": 510069, 
+                        "room": "58D", 
+                        "part_name": "", 
+                        "museum_number": "T.137-1991", 
+                        "museumobject": 13130, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 58d", 
+                        "museum_number_token": "t1371991", 
+                        "gallery": 983
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 983, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "58D", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 58d", 
+                        "site_code": "VA", 
+                        "museumobject_count": 28, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49234", 
+                        "museumobject_image_count": 27, 
+                        "type": "", 
+                        "slug": "58d-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 2898, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "The Virtues", 
+                        "gender": null, 
+                        "museumobject_count": 17, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N2853", 
+                        "museumobject_image_count": 16, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "the-virtues", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 2899, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Charity", 
+                        "gender": null, 
+                        "museumobject_count": 67, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N787", 
+                        "museumobject_image_count": 43, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "charity", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 410, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Hope", 
+                        "gender": null, 
+                        "museumobject_count": 57, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N786", 
+                        "museumobject_image_count": 33, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hope", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 14069, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 13130, 
+                        "role": "embroidered", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 14070, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 300
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 13130, 
+                        "role": "embroidered", 
+                        "place": 300, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 14071, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 13130, 
+                        "role": "embroidered", 
+                        "place": 11, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "t1371991", 
+            "object": "Valance", 
+            "categories": [
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }, 
+                {
+                    "pk": 23, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Textiles", 
+                        "museumobject_count": 48618, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10709, 
+                        "type": "", 
+                        "slug": "textiles"
+                    }
+                }, 
+                {
+                    "pk": 50, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Embroidery", 
+                        "museumobject_count": 7086, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2377, 
+                        "type": "", 
+                        "slug": "embroidery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:37:50", 
+            "public_access_description": "Object Type\nA bed set, which comprised valances, curtains and sometimes a bed cover, helped to create almost a separate chamber, cosy and  'furnished', within the bedroom. Valances such as this  were used like a frieze around the top of the bed and covered the rods and rings on which the curtains were suspended. On very grand beds a second set of valances was fitted to cover the inner side of the rods.\n\nSubject Depicted\nThe setting of an ornamental garden scene with a mountainous skyline was very  popular for this type of embroidered hanging. The female figures are fashionably dressed in the style of the French court. The theme of the Seven Virtues reflects the contemporary interest in that type of subject matter.\n\nMakers & Making\nThe style and workmanship of this valance suggest that it was made at a professional workshop strongly influenced by French fashion. It could therefore have been the product of a French workshop,  made for the English or Scottish market,  or an English or Scottish workshop that was influenced by French fashion.", 
+            "exhibition_history": "Precious: Objects and Changing Values (The Millennium Galleries, Sheffield 02/04/2001-24/06/2001)\nA Grand Design - The Art of the Victoria and Albert Museum (Victoria and Albert Museum 12/10/1999-16/01/2000)", 
+            "bibliography": "Baker, Malcolm and Richardson, Brenda, eds. <u>A Grand Design: The Art of the Victoria and Albert Museum</u>. London: V&A Publications, 1997. 431 p., ill. ISBN 1851773088.\nAlthough French in style, most valances of this type with secure provenances have English associations, suggesting they are, in fact, either English or were made for an English market. The ambiguity as to whether or not a work is indeed English has been an issue of constant and lively debate as the Museum attempted to present \"Englishness\" through its collection.\nValances (or borders) such as this formed friezes which ran around the Elizabethan bed and were particularly suitable for embroidery with figure subjects. The style and workmanship of this example suggest a professional workshop strongly influenced by French fashion, if not the product of a French workshop itself. The setting is an ornamental garden scene with a mountainous skyline, an extremely popular type of background for such scenes. The subject is unidentified, but the four female figures on the left may represent four of the seven Virtues.\n\nLINDA WOOLLEY", 
+            "vanda_exhibition_history": "", 
+            "slug": "valance-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 17706, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-06-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:11:58", 
+                        "priority": 0, 
+                        "image_id": "2006AR0340", 
+                        "sys_id": 140340, 
+                        "last_checked": "2014-03-31 17:11:58", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AR/2006AR0340.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }, 
+                {
+                    "pk": 300, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "Scotland", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 2062, 
+                        "longitude": "-3.99719000", 
+                        "source": "production", 
+                        "cis_id": "x29130", 
+                        "museumobject_image_count": 340, 
+                        "latitude": "56.65285100", 
+                        "type": "country", 
+                        "slug": "scotland-britain-x29130"
+                    }
+                }, 
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 13148, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 13130, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 13149, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2898
+                    }, 
+                    "fields": {
+                        "name": 2898, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 13130, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 13150, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2899
+                    }, 
+                    "fields": {
+                        "name": 2899, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 13130, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }, 
+                {
+                    "pk": 13151, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 410
+                    }, 
+                    "fields": {
+                        "name": 410, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 13130, 
+                        "role": "subject", 
+                        "order": 603
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1600, 
+            "object_number": "O10818", 
+            "events": [], 
+            "credit": "Bequeathed by Miss Maud Lilian Ochs", 
+            "history_note": "Registered File number 1957/3032.\nAlthough strongly influenced by French styles and fashion, valances of this type with secure provenances have English associations. This valance may therefore have been produced in an English, Scottish or French professional workshop.\n\nMay be a partner to T.136-1991.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "T&F"
+        }
+    }
+]

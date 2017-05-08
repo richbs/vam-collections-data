@@ -1,0 +1,306 @@
+[
+    {
+        "pk": 634767, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.51-1940", 
+            "date_end": "1904-12-31", 
+            "labels": [], 
+            "descriptive_line": "John Henry Dearle (attr.). Textile design for Messrs. Morris & Co., ca. 1900.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1895, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca.1900 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "watercolour drawing", 
+            "dimensions": "Height: 527 mm, Width: 327 mm", 
+            "title": "", 
+            "date_start": "1895-01-01", 
+            "materials_techniques": "watercolour", 
+            "last_processed": "2014-04-26 16:03:57", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case T, shelf 37", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 1026, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "watercolour drawing", 
+                        "museumobject_count": 26423, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 20763, 
+                        "type": "", 
+                        "slug": "watercolour-drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 769517, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "T", 
+                        "inventory_number": 1066846, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.51-1940", 
+                        "museumobject": 634767, 
+                        "shelf": "37", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e511940", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2232, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1932-12-31", 
+                        "surname": "", 
+                        "name": "John Henry Dearle", 
+                        "gender": null, 
+                        "museumobject_count": 126, 
+                        "death_year": 1932, 
+                        "source": "object_production", 
+                        "cis_id": "A9365", 
+                        "museumobject_image_count": 74, 
+                        "forename": "", 
+                        "birth_date": "1860-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "dearle-john-henry", 
+                        "birth_year": 1860
+                    }
+                }, 
+                {
+                    "pk": 10, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Morris & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 816, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1365", 
+                        "museumobject_image_count": 319, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "morris-co", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 367228, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 634767, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e511940", 
+            "object": "Textile design", 
+            "categories": [
+                {
+                    "pk": 23, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Textiles", 
+                        "museumobject_count": 49001, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10808, 
+                        "type": "", 
+                        "slug": "textiles"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 73110, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36746, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }, 
+                {
+                    "pk": 131, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Product design", 
+                        "museumobject_count": 549, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 53, 
+                        "type": "", 
+                        "slug": "product-design"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:03:57", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "John Murdoch and Susan Lambert, <u>Summary Catalogue of Textile Designs 1840-1985 in the V. & A. Museum and colour microfiche</u>, Surrey: Emmett Microform, 1986\nThe full text of the record is as follows:\n\n'DEARLE, John Henry, attributed to (1860-1932)\n\nTextile. British.\nI. pencil & water colour 52.7 x 32.7cm\nE51-1940\nFiche 4/F2'", 
+            "vanda_exhibition_history": "", 
+            "slug": "textile-design-john-henry-dearle", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "John Henry Dearle", 
+            "namecontext_set": [
+                {
+                    "pk": 480674, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2232
+                    }, 
+                    "fields": {
+                        "name": 2232, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 634767, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 480675, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10
+                    }, 
+                    "fields": {
+                        "name": 10, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 634767, 
+                        "role": "designed for", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1904, 
+            "object_number": "O728833", 
+            "events": [], 
+            "credit": "Bequeathed by Miss Mary (May) Morris", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
