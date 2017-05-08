@@ -1,0 +1,243 @@
+[
+    {
+        "pk": 633256, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.13-1942", 
+            "date_end": "1641-12-31", 
+            "labels": [], 
+            "descriptive_line": "Rembrandt van Rijn. Landscape with a cottage and haybarn. 1641", 
+            "shape": "", 
+            "longitude": "4.89319000", 
+            "year_start": 1641, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1641 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Etching of a landscape showing a haybarn and a cottage", 
+            "dimensions": "Height: 3.375 in, Width: 12.6875 in", 
+            "title": "", 
+            "date_start": "1641-01-01", 
+            "materials_techniques": "etching", 
+            "last_processed": "2014-04-26 16:00:11", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2F, shelf SH102, box EE5B", 
+            "marks": "", 
+            "latitude": "52.37311900", 
+            "techniques": [
+                {
+                    "pk": 22, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching", 
+                        "museumobject_count": 11942, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39131", 
+                        "museumobject_image_count": 5158, 
+                        "type": "", 
+                        "slug": "etching"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 768006, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "EE5B", 
+                        "case": "MB2F", 
+                        "inventory_number": 1068709, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.13-1942", 
+                        "museumobject": 633256, 
+                        "shelf": "SH102", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e131942", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3469, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1669-10-04", 
+                        "surname": "", 
+                        "name": "Rembrandt", 
+                        "gender": null, 
+                        "museumobject_count": 86, 
+                        "death_year": 1669, 
+                        "source": "object_production", 
+                        "cis_id": "A4362", 
+                        "museumobject_image_count": 25, 
+                        "forename": "", 
+                        "birth_date": "1606-07-15", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rembrandt-van-rijn", 
+                        "birth_year": 1606
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 366064, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 191
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 633256, 
+                        "role": "made", 
+                        "place": 191, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e131942", 
+            "object": "Etching", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7740, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5003, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:00:11", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1942</u>, London: HMSO, 1955.\nThe full text of the record is as follows:\n\n'<b>REMBRANDT HARMENSZ VAN RYN (1606-1669) </b>\n\nLandscape with a cottage and hay barn. (Bl.327; M.306; R.225, H.177)\n<i>Signed and dated</i> Rembrandt f.1641\n<i>Etching.</i>\nE.13-1942\n\nGiven by the Rev. Francis Palgrave and Miss Annora Palgrave'\nCharles Blanc. <U>L'Oeuvre complet de Rembrandt d\u00e9crit et comment\u00e9. Catalogue raisonn\u00e9 de toutes les estampes du ma\u00eetre et de ses peintures</u>. 2 vols. Paris, 1759-1861.\nCharles H. Middleton. <U>Descriptive Catalogue of the Etched Work of Rembrandt van Ryn</U>. London, 1878.\nD. Rovinski. <U>L'Oeuvre grav\u00e9 de Rembrandt</u>. St. Petersburg, 1890.\nA. M. Hind. <u>A Catalogue of Rembrandt's Engravings</u>. London, 1923.", 
+            "vanda_exhibition_history": "", 
+            "slug": "etching-rembrandt-van-rijn", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 191, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2747
+                    }, 
+                    "fields": {
+                        "name": "Amsterdam", 
+                        "parent": 2747, 
+                        "country": "Holland", 
+                        "museumobject_count": 1130, 
+                        "longitude": "4.89319000", 
+                        "source": "production", 
+                        "cis_id": "x28722", 
+                        "museumobject_image_count": 819, 
+                        "latitude": "52.37311900", 
+                        "type": "city/town", 
+                        "slug": "amsterdam-holland-x28722"
+                    }
+                }
+            ], 
+            "artist": "Rembrandt van Rijn", 
+            "namecontext_set": [
+                {
+                    "pk": 479452, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3469
+                    }, 
+                    "fields": {
+                        "name": 3469, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 633256, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1641, 
+            "object_number": "O727322", 
+            "events": [], 
+            "credit": "Given by the Reverend Francis Palgrave and Miss Annora Palgrave", 
+            "history_note": "", 
+            "place": "Amsterdam", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

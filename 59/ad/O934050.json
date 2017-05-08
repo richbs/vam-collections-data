@@ -1,0 +1,355 @@
+[
+    {
+        "pk": 835798, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.105-1889", 
+            "date_end": "1485-12-31", 
+            "labels": [], 
+            "descriptive_line": "Page from Melusina, hand coloured woodcut and letterpress, author Jean d'Arras, printer Johann Pr\u00fcss; Strasbourg, ca. 1481", 
+            "shape": "", 
+            "longitude": "7.73643000", 
+            "year_start": 1476, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1481 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Page with hand-coloured woodcut illustrations to Melusina.", 
+            "dimensions": "Height: 6.75 in average, Width: 5.25 in average", 
+            "title": "Melusina", 
+            "date_start": "1476-01-01", 
+            "materials_techniques": "Woodcut and letterpress, coloured by hand", 
+            "last_processed": "2014-04-26 21:18:26", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case HH, shelf 5", 
+            "marks": "", 
+            "latitude": "48.58507900", 
+            "techniques": [
+                {
+                    "pk": 931, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "hand colouring", 
+                        "museumobject_count": 9981, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3295, 
+                        "type": "", 
+                        "slug": "hand-colouring"
+                    }
+                }, 
+                {
+                    "pk": 1143, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "wood-cutting", 
+                        "museumobject_count": 499, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 118, 
+                        "type": "", 
+                        "slug": "wood-cutting"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 124, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Medieval", 
+                        "museumobject_count": 903, 
+                        "source": "cis_style_period", 
+                        "cis_id": "20756", 
+                        "museumobject_image_count": 687, 
+                        "type": "", 
+                        "slug": "medieval"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 970805, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "HH", 
+                        "inventory_number": 832281, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.105-1889", 
+                        "museumobject": 835798, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e1051889", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 31016, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Pr\u00fcss, Johann", 
+                        "gender": null, 
+                        "museumobject_count": 21, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A15301", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pruss-johann", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 31017, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "d'Arras, Jean", 
+                        "gender": null, 
+                        "museumobject_count": 21, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A15302", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "darras-jean", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Unknown", 
+                        "gender": null, 
+                        "museumobject_count": 143046, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58959, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 419143, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 132
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 835798, 
+                        "role": "printed", 
+                        "place": 132, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1051889", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 33, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Illustration", 
+                        "museumobject_count": 6509, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1826, 
+                        "type": "", 
+                        "slug": "illustration"
+                    }
+                }, 
+                {
+                    "pk": 127, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Books", 
+                        "museumobject_count": 6385, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 323, 
+                        "type": "", 
+                        "slug": "books"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 21:18:26", 
+            "public_access_description": "This is a page from a book printed in 1481 by Johan Pr\u00fcss (1447-1510-16), who worked in Strasbourg between 1480 and 1510. It is among the earliest illustrated books printed using moveable type. The woodcut illustration has had colour roughly applied to it, possibly by or for the owner, as has the first elaborate woodcut initial. A flourish in red ink has been added at the bottom.\n\nAn advantage of the woodcut in printed books is that as a relief medium - with lines to be printed in black standing up - the image could be placed alongside the relief metal type used for the text. This made the method reasonably economical. But when books were still also being hand-written and illuminated in colour, these simple black and white images must have looked odd. In copies set aside for the wealthiest clients, printers left spaces blank for hand-painted illustrations and initials. Printing in colour was occasionally tried but not often used as it was complicated, requiring printing parts of the same page more than once, making sure that each printing matched.. \n\nCourtly romances were sung as ballads by travelling poets (troubadours), making their spread through Europe inevitable. Their stories often originated in folktales. As lay literacy increased they became candidates for making into books. Poet Jean d'Arras wrote down a long romance based on a folktake about a water nymph, Melusine, who changed into a serpent-tailed nymph. This became a popular story throughout Europe, reproduced as illuminated manuscripts and in many printed versions in several languages.", 
+            "exhibition_history": "", 
+            "bibliography": "Hind, A.M. <u>An Introduction to a History of Woodcut</u>. London, 1935, p.294\nSchreiber, W.L. <u>Manuel de l'Amateur de la Gravure sur Bois et sur M\u00e9tal au XVe si\u00e8cle</u>. Leipzig, 1910-11. Part. IV, 4631.", 
+            "vanda_exhibition_history": "", 
+            "slug": "melusina-print-pruss-johann", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 132, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4535
+                    }, 
+                    "fields": {
+                        "name": "Strasbourg", 
+                        "parent": 4535, 
+                        "country": "France", 
+                        "museumobject_count": 205, 
+                        "longitude": "7.73643000", 
+                        "source": "production", 
+                        "cis_id": "x32530", 
+                        "museumobject_image_count": 172, 
+                        "latitude": "48.58507900", 
+                        "type": "city / town", 
+                        "slug": "strasbourg-france-x32530"
+                    }
+                }
+            ], 
+            "artist": "Pr\u00fcss, Johann", 
+            "namecontext_set": [
+                {
+                    "pk": 545748, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31016
+                    }, 
+                    "fields": {
+                        "name": 31016, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 835798, 
+                        "role": "printer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 545749, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31017
+                    }, 
+                    "fields": {
+                        "name": 31017, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 835798, 
+                        "role": "author", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 545750, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 835798, 
+                        "role": "artist", 
+                        "order": 3
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1485, 
+            "object_number": "O934050", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "21 from a set of 67. This edition appears to have been based on that published by Bernhard Richel at Basle, ca. 1476, which in turn derived from that of Johann Baemler issued at Augsburg 1474. [ref: old card catalogue]", 
+            "place": "Strassburg", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
