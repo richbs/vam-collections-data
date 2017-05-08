@@ -1,0 +1,338 @@
+[
+    {
+        "pk": 164964, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2012-1992", 
+            "date_end": "1899-12-31", 
+            "labels": [], 
+            "descriptive_line": "Stereoscopic photograph of the ruins at Virginia Water in Surrey.  Great Britain, ca. late 19th century.", 
+            "shape": "", 
+            "longitude": "-0.39541000", 
+            "year_start": 1850, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 583, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "ruins", 
+                        "museumobject_count": 1256, 
+                        "source": "object", 
+                        "cis_id": "x36535", 
+                        "museumobject_image_count": 776, 
+                        "type": "", 
+                        "slug": "ruins"
+                    }
+                }, 
+                {
+                    "pk": 55477, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stereograph", 
+                        "museumobject_count": 1033, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 241, 
+                        "type": "", 
+                        "slug": "stereograph"
+                    }
+                }, 
+                {
+                    "pk": 34956, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stereoscope", 
+                        "museumobject_count": 257, 
+                        "source": "object", 
+                        "cis_id": "162919", 
+                        "museumobject_image_count": 15, 
+                        "type": "", 
+                        "slug": "stereoscope"
+                    }
+                }, 
+                {
+                    "pk": 2775, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Surrey", 
+                        "museumobject_count": 167, 
+                        "source": "place", 
+                        "cis_id": "x29197", 
+                        "museumobject_image_count": 76, 
+                        "type": "", 
+                        "slug": "surrey"
+                    }
+                }
+            ], 
+            "date_text": "late 19th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Stereoscopic photograph of the ruins at Virginia Water in Surrey.", 
+            "dimensions": "Height: 8.2 cm Size of glass, Width: 17.1 cm", 
+            "title": "The Ruins.  Virginia Water ", 
+            "date_start": "1850-01-01", 
+            "materials_techniques": "Stereoscopic photograph, gelatin silver print on glass", 
+            "last_processed": "2014-04-01 05:29:20", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case ABOVE MX7, shelf X773, box F", 
+            "marks": "", 
+            "latitude": "51.27199200", 
+            "techniques": [
+                {
+                    "pk": 258, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "photography", 
+                        "museumobject_count": 4332, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54225", 
+                        "museumobject_image_count": 1243, 
+                        "type": "", 
+                        "slug": "photography"
+                    }
+                }, 
+                {
+                    "pk": 2935, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 265, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 4, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glass", 
+                        "museumobject_count": 2754, 
+                        "source": "cis_materials", 
+                        "cis_id": "10797", 
+                        "museumobject_image_count": 1489, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 242484, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "F", 
+                        "case": "ABOVE MX7", 
+                        "inventory_number": 629451, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.2012-1992", 
+                        "museumobject": 164964, 
+                        "shelf": "X773", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e20121992", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 159348, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 496
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 164964, 
+                        "role": "photographed", 
+                        "place": 496, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 159349, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 496
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 164964, 
+                        "role": "subject", 
+                        "place": 496, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e20121992", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }, 
+                {
+                    "pk": 1616, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tourism & Travel", 
+                        "museumobject_count": 7798, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5241, 
+                        "type": "", 
+                        "slug": "tourism-travel"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 05:29:20", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-ruins-virginia-water-photograph-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 496, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Surrey", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 306, 
+                        "longitude": "-0.39541000", 
+                        "source": "production", 
+                        "cis_id": "x29197", 
+                        "museumobject_image_count": 112, 
+                        "latitude": "51.27199200", 
+                        "type": "county", 
+                        "slug": "surrey-england-x29197"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 209816, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "Lettered 'HNK', probably the publisher's initials", 
+                        "museumobject": 164964, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1899, 
+            "object_number": "O201973", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Tucked away on the western edges of the lake at Virginia Water in Surrey, is 'The Ruins', a collection of artifacts imported from the Roman site of Leptis Magna, near Tripoli in Libya.  Initially stored at the British Museum, the ruins were erected at this site in 1826.  The arrangement of the ruins was conducted under the direction of the Royal Architect, Sir Jeffry Wyattville.  Up until 1950 The Ruins were open to the public but in 1950 a barrier was put up to protect the crumbling structures, and in the early 2000's further restoration work was completed in the area alongside a new fence.", 
+            "place": "Surrey", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

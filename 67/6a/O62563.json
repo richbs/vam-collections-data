@@ -1,0 +1,245 @@
+[
+    {
+        "pk": 56381, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1189-2000", 
+            "date_end": "1990-12-31", 
+            "labels": [], 
+            "descriptive_line": "Black and white photograph showing a woman seen from the back holding a small child with a little girl standing in front of her.", 
+            "shape": "", 
+            "longitude": "139.83828700", 
+            "year_start": 1960, 
+            "exhibitions": [
+                {
+                    "pk": 3, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3051, 
+                        "year_start": 2005, 
+                        "name": "Summer of Love: Art of the Psychedelic Era", 
+                        "date_end": "2005-09-25", 
+                        "museumobject_count": 100, 
+                        "venue": "Tate Liverpool", 
+                        "date_start": "2005-05-27", 
+                        "year_end": 2005, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "summer-of-love-art-of-the-psychedelic-era", 
+                        "date_text": "27/05/2005-25/09/2005"
+                    }
+                }, 
+                {
+                    "pk": 3639, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "60s Graphics", 
+                        "date_end": null, 
+                        "museumobject_count": 29, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "60s-graphics", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "1960 to 1990 (Made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Black and white photograph", 
+            "dimensions": "", 
+            "title": "Woman with two children", 
+            "date_start": "1960-01-01", 
+            "materials_techniques": "Gelatin-silver print", 
+            "last_processed": "2014-03-31 22:19:20", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 967, box A", 
+            "marks": "", 
+            "latitude": "37.48759800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 105262, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "X", 
+                        "inventory_number": 689419, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "E.1189-2000", 
+                        "museumobject": 56381, 
+                        "shelf": "967", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "e11892000", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10247, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Moriyama, Daido (Mr.)", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A5745", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1938-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "moriyama-daido-mr", 
+                        "birth_year": 1938
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 52487, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 17
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 56381, 
+                        "role": "Made", 
+                        "place": 17, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e11892000", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-03-31 22:19:20", 
+            "public_access_description": "", 
+            "exhibition_history": "60s Graphics (Victoria and Albert Museum 06/06/2006-12/11/2006)\nSummer of Love: Art of the Psychedelic Era (Schirn Kunsthalle, Frankfurt 02/11/2005-12/02/2006)\nSummer of Love: Art of the Psychedelic Era (Tate Liverpool 27/05/2005-25/09/2005)", 
+            "bibliography": "Christoph Grunberg, ed. <u>Summer of Love: Art of the Psychedelic Era</u> London: Tate, 2005. 239 p. : ill. (some col.) ISBN: 1854375954.\nExhibition catalogue", 
+            "vanda_exhibition_history": "", 
+            "slug": "woman-with-two-children-photograph-moriyama-daido-mr", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 17, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Japan", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 4003, 
+                        "longitude": "139.83828700", 
+                        "source": "production", 
+                        "cis_id": "x29399", 
+                        "museumobject_image_count": 1957, 
+                        "latitude": "37.48759800", 
+                        "type": "country", 
+                        "slug": "japan-x29399"
+                    }
+                }
+            ], 
+            "artist": "Moriyama, Daido (Mr.)", 
+            "namecontext_set": [
+                {
+                    "pk": 61073, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10247
+                    }, 
+                    "fields": {
+                        "name": 10247, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 56381, 
+                        "role": "Maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1990, 
+            "object_number": "O62563", 
+            "events": [], 
+            "credit": "Given by Zeit Foto Co. Ltd.", 
+            "history_note": "", 
+            "place": "Japan", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,333 @@
+[
+    {
+        "pk": 494409, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.648-1955", 
+            "date_end": "1833-12-31", 
+            "labels": [], 
+            "descriptive_line": "Joseph Skelton. One of 10 plates showing Scottish buildings. Early 19th century.", 
+            "shape": "", 
+            "longitude": "-3.99719000", 
+            "year_start": 1815, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "c.1820s (published)", 
+            "primary_image_id": "2010EL5608", 
+            "rights": 3, 
+            "physical_description": "1 of 10 plates illustrating buildings in Scotland.  Lettered with title, artist's name and numbered.", 
+            "dimensions": "Height: 14.29 cm, Width: 22.23 cm", 
+            "title": "83  Crypte de la Cath\u00e9drale de Glasgow (Comt\u00e9 de Lanerck)", 
+            "date_start": "1815-01-01", 
+            "materials_techniques": "Etching", 
+            "last_processed": "2014-04-01 19:33:06", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case Z, shelf 9, box B", 
+            "marks": "", 
+            "latitude": "56.65285100", 
+            "techniques": [
+                {
+                    "pk": 22, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching", 
+                        "museumobject_count": 11667, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39131", 
+                        "museumobject_image_count": 4960, 
+                        "type": "", 
+                        "slug": "etching"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 26465, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12156, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 628843, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "Z", 
+                        "inventory_number": 1244051, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.648-1955", 
+                        "museumobject": 494409, 
+                        "shelf": "9", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e6481955", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 52229, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1871-03-25", 
+                        "surname": "", 
+                        "name": "Skelton, Joseph", 
+                        "gender": null, 
+                        "museumobject_count": 15, 
+                        "death_year": 1871, 
+                        "source": "object_production", 
+                        "cis_id": "A32583", 
+                        "museumobject_image_count": 14, 
+                        "forename": "", 
+                        "birth_date": "1783-06-17", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "skelton-joseph", 
+                        "birth_year": 1783
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 309549, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 300
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 494409, 
+                        "role": "drawn", 
+                        "place": 300, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 309550, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 125
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 494409, 
+                        "role": "published", 
+                        "place": 125, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e6481955", 
+            "object": "Etching", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14050, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4742, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }, 
+                {
+                    "pk": 1297, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Topography", 
+                        "museumobject_count": 10248, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1474, 
+                        "type": "", 
+                        "slug": "topography"
+                    }
+                }, 
+                {
+                    "pk": 1616, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tourism & Travel", 
+                        "museumobject_count": 7798, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5241, 
+                        "type": "", 
+                        "slug": "tourism-travel"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 19:33:06", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1955-1956 </u> London: HMSO, 1963\nThe full text of the entry is as follows: \n\n\"<b>SKELTON, Joseph (c.1785-p.1850)</b> \n\nPlates (10) from unidentified publications, illustrating buildings in Scotland. \n<i>Each lettered with title, artist's name and numbered.  Some with the title repeated in Spanish. \nEtchings.</i>           E.607, 608, 614, 615, 625, 626, 633, 648, 650, 651-1955 \n\nGiven by Miss Blanche F. R. Lecluse in memory of her father, Mr. Alphonse Auguste Edmond Lecluse \n\nN.9  Ch\u00e2teau De Dunolly pr\u00e8s Oban.  Comt\u00e9 d'Argyle     E.607-1955 \nN.10  Ch\u00e2teau De Fyvie.  Comt\u00e9 d'Aberdeen           E.608-1955 \nN.21  Kirkwall.  Comte d'Orkney                  E.614-1955 \nN.22  Chateau De Thurso.  Comt\u00e9 de Caithness        E.615-1955 \nNo.41  Eglise De L'Abbaye De Jedburgh.  Comt\u00e9 de Roxburgh   E.625-1955 \nN.42  Dunkeld.  Comt\u00e9 de Perth                       E.626-1955 \nN.97  Tour D'Armstrong                 E.633-1955 \n83  Crypte de la Cath\u00e9drale de Glasgow (Comt\u00e9 de Lanerck)    E.648-1955 \n93  Tour de Cochburn Path (pr\u00e8s de Dumbar) (Comt\u00e9 d'Haddington)    E.650-1955 \n95  Cath\u00e9drale d'Iona (Comt\u00e9 d'Argyle)         E.651-1955\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "83-crypte-de-la-cathedrale-etching-skelton-joseph-john", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 237210, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:57:41", 
+                        "priority": 0, 
+                        "image_id": "2010EL5608", 
+                        "sys_id": 945608, 
+                        "last_checked": "2014-03-31 17:57:41", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EL/2010EL5608.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 300, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "Scotland", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 2062, 
+                        "longitude": "-3.99719000", 
+                        "source": "production", 
+                        "cis_id": "x29130", 
+                        "museumobject_image_count": 340, 
+                        "latitude": "56.65285100", 
+                        "type": "country", 
+                        "slug": "scotland-britain-x29130"
+                    }
+                }, 
+                {
+                    "pk": 125, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Europe", 
+                        "parent": null, 
+                        "country": "", 
+                        "museumobject_count": 5012, 
+                        "longitude": "7.85784000", 
+                        "source": "production", 
+                        "cis_id": "x28842", 
+                        "museumobject_image_count": 1025, 
+                        "latitude": "52.97618100", 
+                        "type": "continent", 
+                        "slug": "europe-x28842"
+                    }
+                }
+            ], 
+            "artist": "Skelton, Joseph John", 
+            "namecontext_set": [
+                {
+                    "pk": 411759, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 52229
+                    }, 
+                    "fields": {
+                        "name": 52229, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 494409, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1833, 
+            "object_number": "O579674", 
+            "events": [], 
+            "credit": "Given by Miss Blanche F. R. Lecluse in memory of her father, Mr. Alphonse Auguste Edmond Lecluse", 
+            "history_note": "", 
+            "place": "Scotland", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
