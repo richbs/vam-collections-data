@@ -1,0 +1,279 @@
+[
+    {
+        "pk": 111238, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.71-2007", 
+            "date_end": "1985-12-31", 
+            "labels": [], 
+            "descriptive_line": "'The Forge', glass goblet, point engraved, Peter David, Sussex, ca. 1981", 
+            "shape": "", 
+            "longitude": "-0.04486000", 
+            "year_start": 1976, 
+            "exhibitions": [
+                {
+                    "pk": 4305, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "Glass Engraving by the Fellows of the Guild of Glass Engravers", 
+                        "date_end": null, 
+                        "museumobject_count": 1, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "glass-engraving-by-the-fellows-of-the-guild-of-glass-engravers", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "ca.1981 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Glass engraved using the point engraving technique.", 
+            "dimensions": "", 
+            "title": "The Forge", 
+            "date_start": "1976-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-04-01 02:19:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 36, shelf 1", 
+            "marks": "", 
+            "latitude": "50.94480900", 
+            "techniques": [
+                {
+                    "pk": 26530, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "point engraving", 
+                        "museumobject_count": 1, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "point-engraving"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 4, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glass", 
+                        "museumobject_count": 2754, 
+                        "source": "cis_materials", 
+                        "cis_id": "10797", 
+                        "museumobject_image_count": 1489, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 179636, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "36", 
+                        "inventory_number": 1364721, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.71-2007", 
+                        "museumobject": 111238, 
+                        "shelf": "1", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c712007", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 15019, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Peter David", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A12622", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "david-peter", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 109063, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 3990
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 111238, 
+                        "role": "made", 
+                        "place": 3990, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c712007", 
+            "object": "Goblet", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 88, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tableware & cutlery", 
+                        "museumobject_count": 3324, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1415, 
+                        "type": "", 
+                        "slug": "tableware-cutlery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:19:05", 
+            "public_access_description": "The revival of point engraving on glass in the 20th century is a particularly British phenomenon. Primarily taking the form of topographical illustration, it follows a tradition of neo-Romanticism evident in mid-20th century British painting. Point engraving of this type has been practiced at a high level by only a handful of artists, Peter David is one such artist.\nDavid's Work was admired by the engraver Lawrence Whistler, and illustrated prominently in his survey Point Engraving on Glass (1992). This engraved goblet, 'The Forge', exemplifies the delicacy and subtle illusion achievable through the technique. According to the artist's widow, it was one of his favourite engraved works, and is known to have been lent back to the artist for exhibition on more than one occasion.", 
+            "exhibition_history": "Glass Engraving by the Fellows of the Guild of Glass Engravers (Donnington Priory, Newbury 1982-)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-forge-goblet-peter-david", 
+            "sys_updated": "2014-03-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 3990, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Sussex", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 249, 
+                        "longitude": "-0.04486000", 
+                        "source": "production", 
+                        "cis_id": "x41271", 
+                        "museumobject_image_count": 117, 
+                        "latitude": "50.94480900", 
+                        "type": "broad area", 
+                        "slug": "sussex-england-x41271"
+                    }
+                }
+            ], 
+            "artist": "Peter David", 
+            "namecontext_set": [
+                {
+                    "pk": 133614, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 15019
+                    }, 
+                    "fields": {
+                        "name": 15019, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 111238, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1985, 
+            "object_number": "O141871", 
+            "events": [], 
+            "credit": "Given by Anthony Rees", 
+            "history_note": "", 
+            "place": "Sussex", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

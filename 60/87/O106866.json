@@ -1,0 +1,394 @@
+[
+    {
+        "pk": 82532, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "623-1884", 
+            "date_end": "0400-12-31", 
+            "labels": [], 
+            "descriptive_line": "Panel from a casket, incised bone, depicting the figure of a woman, Late Antique, probably Rome, mid to latev 4th century", 
+            "shape": "", 
+            "longitude": "12.49576000", 
+            "year_start": 350, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 59, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "woman", 
+                        "museumobject_count": 3370, 
+                        "source": "object", 
+                        "cis_id": "x35642", 
+                        "museumobject_image_count": 2547, 
+                        "type": "", 
+                        "slug": "woman"
+                    }
+                }, 
+                {
+                    "pk": 28988, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "curtains", 
+                        "museumobject_count": 70, 
+                        "source": "object", 
+                        "cis_id": "204069", 
+                        "museumobject_image_count": 28, 
+                        "type": "", 
+                        "slug": "curtains"
+                    }
+                }, 
+                {
+                    "pk": 1448, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "lily", 
+                        "museumobject_count": 53, 
+                        "source": "object", 
+                        "cis_id": "x35226", 
+                        "museumobject_image_count": 36, 
+                        "type": "", 
+                        "slug": "lily"
+                    }
+                }
+            ], 
+            "date_text": "mid to late 4th century (made)", 
+            "primary_image_id": "2006AD1054", 
+            "rights": 3, 
+            "physical_description": "Irregularly shaped incised bone fragment from a casket, depicting the figure of a woman, standing holding a scroll; at the one side is a flowering plant. At the bottom and the left side are portions of a border of diamonds and billets.", 
+            "dimensions": "Height: 12.7 cm, Width: 8.9 cm", 
+            "title": "Figure of a woman", 
+            "date_start": "0350-01-01", 
+            "materials_techniques": "Incised bone", 
+            "last_processed": "2014-04-01 00:11:54", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 8", 
+            "marks": "", 
+            "latitude": "41.90311100", 
+            "techniques": [
+                {
+                    "pk": 60, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "incising", 
+                        "museumobject_count": 295, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53847", 
+                        "museumobject_image_count": 202, 
+                        "type": "", 
+                        "slug": "incising"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 108, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "bone", 
+                        "museumobject_count": 302, 
+                        "source": "cis_materials", 
+                        "cis_id": "11798", 
+                        "museumobject_image_count": 132, 
+                        "type": "", 
+                        "slug": "bone"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 24, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Late Antique", 
+                        "museumobject_count": 20, 
+                        "source": "cis_style_period", 
+                        "cis_id": "20666", 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "late-antique"
+                    }
+                }, 
+                {
+                    "pk": 274, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Coptic (period)", 
+                        "museumobject_count": 5, 
+                        "source": "cis_style_period", 
+                        "cis_id": "20449", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "coptic-period"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 141654, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "8", 
+                        "inventory_number": 87846, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "623-1884", 
+                        "museumobject": 82532, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "6231884", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 78922, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 51
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 82532, 
+                        "role": "made", 
+                        "place": 51, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "6231884", 
+            "object": "Panel", 
+            "categories": [
+                {
+                    "pk": 3, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Containers", 
+                        "museumobject_count": 4829, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2686, 
+                        "type": "", 
+                        "slug": "containers"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 154, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Plaques & Plaquettes", 
+                        "museumobject_count": 616, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 245, 
+                        "type": "", 
+                        "slug": "plaques-plaquettes"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:11:54", 
+            "public_access_description": "This thin bone plaque is incised with the figure of a woman standing holding a scroll with a flowering plant at her side. At the bottom and the left side of the fragment there are portions of a border of diamonds and billets. It appears to have originally been part of a casket. It is probably from Rome, mid to late forth century.", 
+            "exhibition_history": "", 
+            "bibliography": "<u>List of Objects in the Art Division, South Kensington Museum acquired during the Year 1884.</u> London: Eyre and Spottiswoode, 1885. pp. 53\nLonghurst, Margaret H. <u>Catalogue of Carvings in Ivory.</u> London. Board of Education. 1927-9. pp. 20\nc.f <u>Age of Spirituality.</u> New York. 1979. No. 311\nc.f. <u>Notable Acquisitions.</u> Metropolitan Museum, New York, 1979-80. pp. 20\nc.f Volbach.Wolfgang Fritz. <u>Elfenbeinarbeiten der Sp\u00e4tantike und des fr\u00fchen Mittelalters : mit 116 Tafeln. </u> Mainz: Von Zabern, 1976. nos. 208-10\nc.f. <u>The Carver's Art: Medieval Sculpture in Ivory, bone and horn.</u> New Brunswick, 1989.\nc.f. <u>Koptische Kunst.</u> Nos. 7060-7064. pls. XI-XIII\nc.f. Dalton. <u>Early Christian Catalogue.</u> No. 304\nWilliamson, Paul. <u>Medieval Ivory Carvings. Early Christian to Romanesque</u>. London, V&A Publishing, Victoria and Albert Museum, 2010, pp. 32, 3, cat.no. 2", 
+            "vanda_exhibition_history": "", 
+            "slug": "figure-of-a-woman-panel-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 36279, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:15:58", 
+                        "priority": 0, 
+                        "image_id": "2006AD1054", 
+                        "sys_id": 31054, 
+                        "last_checked": "2014-03-31 17:15:58", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AD/2006AD1054.jpg"
+                    }
+                }, 
+                {
+                    "pk": 150922, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:40:08", 
+                        "priority": 1, 
+                        "image_id": "2009CA5312", 
+                        "sys_id": 425312, 
+                        "last_checked": "2014-03-31 17:40:08", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CA/2009CA5312.jpg"
+                    }
+                }, 
+                {
+                    "pk": 150920, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:40:08", 
+                        "priority": 2, 
+                        "image_id": "2009CA5310", 
+                        "sys_id": 425310, 
+                        "last_checked": "2014-03-31 17:40:08", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CA/2009CA5310.jpg"
+                    }
+                }, 
+                {
+                    "pk": 1208, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:08:28", 
+                        "priority": 3, 
+                        "image_id": "2006AL3289", 
+                        "sys_id": 103289, 
+                        "last_checked": "2014-03-31 17:08:28", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AL/2006AL3289.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 51, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Rome", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 4014, 
+                        "longitude": "12.49576000", 
+                        "source": "production", 
+                        "cis_id": "x29106", 
+                        "museumobject_image_count": 1698, 
+                        "latitude": "41.90311100", 
+                        "type": "city / town", 
+                        "slug": "rome-italy-x29106"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 96509, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 82532, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 400, 
+            "object_number": "O106866", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Ex Castellani collection, purchased at Fortnum's sale.", 
+            "place": "Rome", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
