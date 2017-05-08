@@ -1,0 +1,334 @@
+[
+    {
+        "pk": 419153, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.377-2009", 
+            "date_end": "1962-12-31", 
+            "labels": [], 
+            "descriptive_line": "Pen and ink mechanical drawing on paper, 'Serpent', by Desmond Paul Henry, 1962.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1962, 
+            "exhibitions": [
+                {
+                    "pk": 3351, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 8429, 
+                        "year_start": 1962, 
+                        "name": "Ideographs", 
+                        "date_end": "1962-12-31", 
+                        "museumobject_count": 1, 
+                        "venue": "Reid Gallery", 
+                        "date_start": "1962-01-01", 
+                        "year_end": 1962, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "ideographs", 
+                        "date_text": "1962"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 649, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "snake (animal)", 
+                        "museumobject_count": 40, 
+                        "source": "object", 
+                        "cis_id": "x30204", 
+                        "museumobject_image_count": 35, 
+                        "type": "", 
+                        "slug": "snake-animal"
+                    }
+                }
+            ], 
+            "date_text": "1962 (made)", 
+            "primary_image_id": "2009CD9473", 
+            "rights": 3, 
+            "physical_description": "Pen and ink mechanical drawing on paper, depicting a coiling snake-like form.", 
+            "dimensions": "Height: 31.5 cm, Width: 26.1 cm", 
+            "title": "Serpent", 
+            "date_start": "1962-01-01", 
+            "materials_techniques": "Pen and ink mechanical drawing", 
+            "last_processed": "2014-04-01 15:34:46", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case TOPIC, shelf 8, box A", 
+            "marks": "'Henry 62'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46144, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 14913, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }, 
+                {
+                    "pk": 800, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "computer-generated", 
+                        "museumobject_count": 255, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x44521", 
+                        "museumobject_image_count": 170, 
+                        "type": "", 
+                        "slug": "computer-generated"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 39, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ink", 
+                        "museumobject_count": 22898, 
+                        "source": "cis_materials", 
+                        "cis_id": "187371", 
+                        "museumobject_image_count": 13758, 
+                        "type": "", 
+                        "slug": "ink"
+                    }
+                }, 
+                {
+                    "pk": 1752, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper (fiber product)", 
+                        "museumobject_count": 1017, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 445, 
+                        "type": "", 
+                        "slug": "paper-fiber-product"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 553494, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "TOPIC", 
+                        "inventory_number": 1397416, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.377-2009", 
+                        "museumobject": 419153, 
+                        "shelf": "8", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e3772009", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 46167, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2004-12-31", 
+                        "surname": "", 
+                        "name": "Henry, Desmond Paul", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 2004, 
+                        "source": "object_production", 
+                        "cis_id": "A29388", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1921-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "henry-desmond-paul", 
+                        "birth_year": 1921
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 255747, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 21
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 419153, 
+                        "role": "made", 
+                        "place": 21, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e3772009", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 1337, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Computer Art", 
+                        "museumobject_count": 515, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 423, 
+                        "type": "", 
+                        "slug": "computer-art"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 15:34:46", 
+            "public_access_description": "In the 1960s Henry constructed various drawing machines from  the components of analogue bombsight computers.  Henry was  fascinated by the swinging motion of the machines and adapted  them to accommodate pen and paper.  His drawing machines  were operated electronically, but could not be programmed.", 
+            "exhibition_history": "Ideographs (Reid Gallery 01/01/1962-31/12/1962)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "serpent-drawing-henry-desmond-paul", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 168505, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-02-26 00:00:00", 
+                        "last_processed": "2014-03-31 17:43:42", 
+                        "priority": 0, 
+                        "image_id": "2009CD9473", 
+                        "sys_id": 459473, 
+                        "last_checked": "2014-03-31 17:43:42", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CD/2009CD9473.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 21, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "United Kingdom", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 5090, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x29336", 
+                        "museumobject_image_count": 1791, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "united-kingdom-x29336"
+                    }
+                }
+            ], 
+            "artist": "Henry, Desmond Paul", 
+            "namecontext_set": [
+                {
+                    "pk": 339319, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 46167
+                    }, 
+                    "fields": {
+                        "name": 46167, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 419153, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1962, 
+            "object_number": "O499534", 
+            "events": [], 
+            "credit": "Given by Elaine O'Hanrahan", 
+            "history_note": "", 
+            "place": "United Kingdom", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
