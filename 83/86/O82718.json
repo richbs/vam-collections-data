@@ -1,0 +1,336 @@
+[
+    {
+        "pk": 16975, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "338-1888", 
+            "date_end": "1832-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'Study of Foliage', John Constable, ca. 1828", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1823, 
+            "exhibitions": [
+                {
+                    "pk": 47, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 2478, 
+                        "year_start": 2002, 
+                        "name": "John Constable, selected by Lucian Freud", 
+                        "date_end": "2003-01-13", 
+                        "museumobject_count": 74, 
+                        "venue": "Grand Palais, Paris", 
+                        "date_start": "2002-10-10", 
+                        "year_end": 2003, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 73, 
+                        "type": "", 
+                        "slug": "john-constable-selected-by-lucian-freud", 
+                        "date_text": "10/10/2002-13/01/2003"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 901, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "foliage", 
+                        "museumobject_count": 1793, 
+                        "source": "object", 
+                        "cis_id": "x42645", 
+                        "museumobject_image_count": 1356, 
+                        "type": "", 
+                        "slug": "foliage"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1828 (painted)", 
+            "primary_image_id": "2006AG8474", 
+            "rights": 3, 
+            "physical_description": "Study of foliage with a very large, centralized leaf.", 
+            "dimensions": "Height: 152 mm estimate, Width: 242 mm estimate", 
+            "title": "Study of Foliage", 
+            "date_start": "1823-01-01", 
+            "materials_techniques": "oil on paper", 
+            "last_processed": "2014-03-31 19:53:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 88, case CASE", 
+            "marks": "'JC'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 25250, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 511
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "CASE", 
+                        "inventory_number": 421855, 
+                        "room": "88", 
+                        "part_name": "", 
+                        "museum_number": "338-1888", 
+                        "museumobject": 16975, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 88", 
+                        "museum_number_token": "3381888", 
+                        "gallery": 511
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 511, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "88", 
+                        "site_name": "", 
+                        "name": "Paintings, room 88", 
+                        "site_code": "VA", 
+                        "museumobject_count": 41, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49708", 
+                        "museumobject_image_count": 39, 
+                        "type": "", 
+                        "slug": "88-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 221, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1837-03-31", 
+                        "surname": "", 
+                        "name": "John Constable", 
+                        "gender": null, 
+                        "museumobject_count": 470, 
+                        "death_year": 1837, 
+                        "source": "object_production", 
+                        "cis_id": "A8267", 
+                        "museumobject_image_count": 387, 
+                        "forename": "", 
+                        "birth_date": "1776-06-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "constable-john-ra", 
+                        "birth_year": 1776
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 18002, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 16975, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "3381888", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:53:13", 
+            "public_access_description": "Constable made studies like this throughout his career. He advised a visitor to his studio, 'never do anything without nature before you...See those weeds and the dock leaves?...I should not attempt to introduce them into a picture without having them before me'. Similar clumps of weeds appear in the foreground of various large paintings.", 
+            "exhibition_history": "John Constable, selected by Lucian Freud (Grand Palais 10/10/2002-13/01/2003)", 
+            "bibliography": "<i>Catalogue of the Constable Collection</i>, Graham Reynolds, Victoria and Albert Museum, London: HMSO, 1973, pp. 190, 197\nThe following is an extract from the text of the entry:\n \n\u201cHolmes, p. 247, dates c. 1826. The study has much in common with the foregrounds of Constable's large river and canal scenes but has not been identified as a direct study for any of them. It has particular affinities with the foreground of 'The Lock' (1824), and 'The Leaping Horse' (1825); this circumstance, together with the breadth of style, seems to justify a dating between 1820 and 1830; and No. 325 [785-1888] above may be assigned on grounds of style and subject-matter to the same period. This dating is supported by comparison with the group of eleven oil sketches of foliage, waterfowl, etc., mounted as drawings in the British Museum, one of which (No. 1919-4-15-6) is dated <i>Brighton July 28 1828</i>, and another (No. 1919-4-15-4) <i>July 25 1828</i>. \n\nW. P. Frith, R.A., in <i>My Autobiography and Reminiscences</i>, Vol. III, 1888, pp. 318-19, gives an account of his visit to Constable's studio which is relevant to such studies as these: \"There was a piece of the trunk of a tree in the room, some weeds, and some dock-leaves. 'And what line of the art do you intend to follow?' said Constable to me. 'I don't know, Sir', I replied ... 'Well, whatever it may be,' said the great landscape painter, 'never do anything without nature before you, if it be possible to have it. See those weeds and the dock-leaves? They are to come into the foreground of this picture. I know dock-leaves pretty well, but I should not attempt to introduce them into a picture without having them before me\u2019\".  \n\nFrith paid the visit in company with the drawing-master Sass, with whom he was a pupil c. 1835-7.  The episode, if correctly recalled after an interval of fifty years, therefore refers to 'The Valley Farm', 'The Cenotaph' or 'Arundel Mill and Castle'; probably to the latter.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "study-of-foliage-oil-painting-constable-john-ra", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 48184, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:34", 
+                        "priority": 0, 
+                        "image_id": "2006AG8474", 
+                        "sys_id": 68474, 
+                        "last_checked": "2014-03-31 17:18:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG8474.jpg"
+                    }
+                }, 
+                {
+                    "pk": 261078, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 18:02:47", 
+                        "priority": 1, 
+                        "image_id": "2006AG8473", 
+                        "sys_id": 68473, 
+                        "last_checked": "2014-03-31 18:02:47", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG8473.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Constable, John (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 17794, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 221
+                    }, 
+                    "fields": {
+                        "name": 221, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 16975, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1832, 
+            "object_number": "O82718", 
+            "events": [], 
+            "credit": "Given by Isabel Constable", 
+            "history_note": "Given by Isabel Constable, 1888", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "'Constable was elected R.A. on 10 February 1829. He exhibited 'Hadleigh Castle' (now in the collection of Mr. and Mrs. Paul Mellon; see No. 127 [D.234-1888] in this Catalogue) and a landscape of a \"rich cottage\". He paid his last two visits to Fisher at Salisbury, in July and in November. His preparations for <i>English Landscape Scenery</i> got under way in this year: the earliest letter on the subject to Lucas printed by Shirley (S.: L., p. 20) is dated 28 August 1829.' \n                                 \n[G Reynolds, 1973, p.190]", 
+            "collection_code": "PDP"
+        }
+    }
+]
