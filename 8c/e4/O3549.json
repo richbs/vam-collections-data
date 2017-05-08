@@ -1,0 +1,295 @@
+[
+    {
+        "pk": 5071, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.230-1993", 
+            "date_end": "1992-12-31", 
+            "labels": [], 
+            "descriptive_line": "Vase, Britain (Bristol), blown by Neil Wilkin and designed and decorated by Clare Henshaw, 1992-1992", 
+            "shape": "", 
+            "longitude": "-2.59143000", 
+            "year_start": 1992, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1992 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 26.2 cm", 
+            "title": "Visible Voices", 
+            "date_start": "1992-01-01", 
+            "materials_techniques": "Cased glass, wheel-engraved and sand-blasted", 
+            "last_processed": "2014-03-31 19:06:07", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 40, shelf 1", 
+            "marks": "'Clare Henshaw'", 
+            "latitude": "51.45365900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 4, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glass", 
+                        "museumobject_count": 2754, 
+                        "source": "cis_materials", 
+                        "cis_id": "10797", 
+                        "museumobject_image_count": 1489, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 97, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "20TH GB", 
+                        "museumobject_count": 557, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29277", 
+                        "museumobject_image_count": 63, 
+                        "type": "", 
+                        "slug": "20th-gb"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 6135, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "40", 
+                        "inventory_number": 318366, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.230-1993", 
+                        "museumobject": 5071, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c2301993", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1071, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Wilkin, Neil", 
+                        "gender": null, 
+                        "museumobject_count": 8, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1021", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "wilkin-neil", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 1074, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Henshaw, Clare", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A694", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "henshaw-clare", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 5511, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 273
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 5071, 
+                        "role": "made", 
+                        "place": 273, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c2301993", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:06:07", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "visible-voices-vase-wilkin-neil", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 273, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5295
+                    }, 
+                    "fields": {
+                        "name": "Bristol (city)", 
+                        "parent": 5295, 
+                        "country": "England", 
+                        "museumobject_count": 868, 
+                        "longitude": "-2.59143000", 
+                        "source": "production", 
+                        "cis_id": "x28767", 
+                        "museumobject_image_count": 699, 
+                        "latitude": "51.45365900", 
+                        "type": "city/town", 
+                        "slug": "bristol-city-england-x28767"
+                    }
+                }
+            ], 
+            "artist": "Wilkin, Neil", 
+            "namecontext_set": [
+                {
+                    "pk": 3800, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1071
+                    }, 
+                    "fields": {
+                        "name": 1071, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 5071, 
+                        "role": "glass-blower", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 3801, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1074
+                    }, 
+                    "fields": {
+                        "name": 1074, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 5071, 
+                        "role": "decorator", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 3802, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1074
+                    }, 
+                    "fields": {
+                        "name": 1074, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 5071, 
+                        "role": "designer", 
+                        "order": 3
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1992, 
+            "object_number": "O3549", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Bristol", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

@@ -1,0 +1,346 @@
+[
+    {
+        "pk": 482107, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.203-1960", 
+            "date_end": "1699-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Jean Baptiste de Brouchoven, Count of Bergeyck, engraving by Davit Clouwet, late 17th century.", 
+            "shape": "", 
+            "longitude": "4.47677000", 
+            "year_start": 1650, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48119, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "coat of arms", 
+                        "museumobject_count": 505, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 252, 
+                        "type": "", 
+                        "slug": "coat-of-arms"
+                    }
+                }, 
+                {
+                    "pk": 599, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Angel", 
+                        "museumobject_count": 421, 
+                        "source": "object", 
+                        "cis_id": "x31516", 
+                        "museumobject_image_count": 282, 
+                        "type": "", 
+                        "slug": "angel"
+                    }
+                }, 
+                {
+                    "pk": 49715, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "statesman", 
+                        "museumobject_count": 42, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "statesman"
+                    }
+                }, 
+                {
+                    "pk": 55496, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Jean Baptiste Brouchoven", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "AUTH320271", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "jean-baptiste-brouchoven"
+                    }
+                }
+            ], 
+            "date_text": "late 17th century (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, portrait of a man, head and shoulders, within an oval border with letters, on a plinth; an angel above holds a coat of arms.", 
+            "dimensions": "Height: 14.6 cm, Width: 8.9 cm", 
+            "title": "Jean Baptiste de Brouchoven, Count of Bergeyck", 
+            "date_start": "1650-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 18:39:52", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PS, shelf 6", 
+            "marks": "'D. Clouwet f.'", 
+            "latitude": "50.50099200", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 105, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Flemish School", 
+                        "museumobject_count": 468, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31261", 
+                        "museumobject_image_count": 367, 
+                        "type": "", 
+                        "slug": "flemish-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 616540, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PS", 
+                        "inventory_number": 1257709, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.203-1960", 
+                        "museumobject": 482107, 
+                        "shelf": "6", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e2031960", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 77342, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Davit Clouwet", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH320270", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1655-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "davit-clouwet", 
+                        "birth_year": 1655
+                    }
+                }, 
+                {
+                    "pk": 77343, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1681-12-31", 
+                        "surname": "", 
+                        "name": "Jean Baptiste Brouchoven", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1681, 
+                        "source": "content", 
+                        "cis_id": "AUTH320271", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jean-baptiste-brouchoven", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 298504, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 129
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 482107, 
+                        "role": "printed", 
+                        "place": 129, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e2031960", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:39:52", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Le Blanc, Charles. <u>Manuel de l'amateur d'estampes.</u> Paris: \u00c9 Bouillon, 1854-1908.\nBiblioth\u00e8que Nationale. <u>Catalogue de la collection des portraits fran\u00e7ais.</u> Paris: G. Rapilly, 1896-1911. 7 v.\n<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1960: Volume 2, Edgar Seligman Gift.</u> London: HMSO, 1966.\nThe full text of the entry is as follows:\n\n\u2018<b>CLOUWET, Davit, I (born 1655)</b>\n\nJean-Baptiste de Brouchoven, Count of Bergeyck (died 1681), statesman.  Portrait, head and shoulders, within an oval border with letters, on a plinth; an angel above holds a coat of arms.  (Le B.1; BN:P.4192)\n<i>Lettered around the border with Latin motto, on the plinth with biographical details in French and</i> D. Clouwet f.  <i>With the mark of the collection of Sydney Vacher (1854-1935) (Lugt 2376).\nEngraving.</i> 14.6 x 8.9 cm.\nE.203-1960\u2019", 
+            "vanda_exhibition_history": "", 
+            "slug": "jean-baptiste-de-brouchoven-count-print-davit-clouwet", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 129, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Belgium", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 1265, 
+                        "longitude": "4.47677000", 
+                        "source": "production", 
+                        "cis_id": "x28742", 
+                        "museumobject_image_count": 285, 
+                        "latitude": "50.50099200", 
+                        "type": "country", 
+                        "slug": "belgium-x28742"
+                    }
+                }
+            ], 
+            "artist": "Davit Clouwet", 
+            "namecontext_set": [
+                {
+                    "pk": 396641, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 77342
+                    }, 
+                    "fields": {
+                        "name": 77342, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482107, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 396642, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 77343
+                    }, 
+                    "fields": {
+                        "name": 77343, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482107, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1699, 
+            "object_number": "O567366", 
+            "events": [], 
+            "credit": "Given by Edgar Seligman", 
+            "history_note": "", 
+            "place": "Belgium", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

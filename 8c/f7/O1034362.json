@@ -1,0 +1,332 @@
+[
+    {
+        "pk": 925177, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.636-1968", 
+            "date_end": "1880-12-31", 
+            "labels": [], 
+            "descriptive_line": "Etching and drypoint by James McNeill Whistler, 'Beggars'; etched 1880, printed 1903. From 'Venice, a Series of Twelve Etchings', first published by the Fine Art Society, London, 1880.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1880, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 187, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Venice", 
+                        "museumobject_count": 225, 
+                        "source": "place", 
+                        "cis_id": "x29237", 
+                        "museumobject_image_count": 72, 
+                        "type": "", 
+                        "slug": "venice"
+                    }
+                }, 
+                {
+                    "pk": 24119, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "beggars", 
+                        "museumobject_count": 50, 
+                        "source": "object", 
+                        "cis_id": "188618", 
+                        "museumobject_image_count": 27, 
+                        "type": "", 
+                        "slug": "beggars"
+                    }
+                }
+            ], 
+            "date_text": "1880 (etched)\n1903 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Etching and drypoint by James McNeill Whistler, 'Beggars'; etched 1880, printed 1903. From 'Venice, a Series of Twelve Etchings', first published by the Fine Art Society, London, 1880. Also known as 'The First Venice Set'. One of 22 impressions taken after Whistler's death to complete the edition. Inscribed in pencil on the back 'F. Goulding Printer Nov.27 1903'.", 
+            "dimensions": "Height: 30.4 cm plate, Width: 21 cm plate, Height: 39 cm paper, Width: 25.5 cm paper", 
+            "title": "Beggars", 
+            "date_start": "1880-01-01", 
+            "materials_techniques": "Etching and drypoint on paper", 
+            "last_processed": "2014-04-26 23:19:45", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2F, shelf SH92, box EE1C", 
+            "marks": "'F. Goulding Printer Nov.27 1903'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 140, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching (printing process)", 
+                        "museumobject_count": 5752, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53241", 
+                        "museumobject_image_count": 1418, 
+                        "type": "", 
+                        "slug": "etching-printing-process"
+                    }
+                }, 
+                {
+                    "pk": 249, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drypoint", 
+                        "museumobject_count": 235, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53228", 
+                        "museumobject_image_count": 125, 
+                        "type": "", 
+                        "slug": "drypoint"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 27153, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12401, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1060390, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "EE1C", 
+                        "case": "MB2F", 
+                        "inventory_number": 658894, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.636-1968", 
+                        "museumobject": 925177, 
+                        "shelf": "SH92", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "circ6361968", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 12142, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1903-07-17", 
+                        "surname": "", 
+                        "name": "Whistler", 
+                        "gender": null, 
+                        "museumobject_count": 147, 
+                        "death_year": 1903, 
+                        "source": "object_production", 
+                        "cis_id": "A8983", 
+                        "museumobject_image_count": 55, 
+                        "forename": "", 
+                        "birth_date": "1834-07-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "whistler-james-abbot-mcneill", 
+                        "birth_year": 1834
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 428780, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 925177, 
+                        "role": "printed", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 428781, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 41
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 925177, 
+                        "role": "subject", 
+                        "place": 41, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ6361968", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 23:19:45", 
+            "public_access_description": "In 1879 Whistler was commissioned by the Fine Art Society to make a set of etchings of Venice. This is a printmaking technique in which acid is used to bite lines in a metal plate. These lines are next filled with ink, which is then printed on to paper.\n\nWhistler was one of the first artists to put his pencilled signature to a print. This practice grew up during the second half of the 19th century in order to identify works printed from surfaces made by the artist him- or herself, as opposed to reproductions of works originally created in other media.", 
+            "exhibition_history": "", 
+            "bibliography": "Wedmore, Frederick. <u>Whistler's Etchings, A Study and a Catalogue</u>. London: Colnaghi & Co, 1899. No.159.\n'THE BEGGARS.  They stand - an elderly woman and a bare-footed young girl - against the wall of a much-shadowed passage-way, which is roofed with dilapidated plaster and rotting timber.  Beyond them a man in a dark cloak.  The figures of two girls, water-carriers, are faintly seen at the end of the passage against the light of the open street.'\np.74\nKennedy, Edward G. <u>The Etched Work of Whistler</u>. San Francisco: Alan Wofsy Fine Arts, 1978. No.194, 9th state.", 
+            "vanda_exhibition_history": "", 
+            "slug": "beggars-print-whistler", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }, 
+                {
+                    "pk": 41, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2463
+                    }, 
+                    "fields": {
+                        "name": "Venice (city)", 
+                        "parent": 2463, 
+                        "country": "Italy", 
+                        "museumobject_count": 1884, 
+                        "longitude": "12.31849000", 
+                        "source": "production", 
+                        "cis_id": "x29237", 
+                        "museumobject_image_count": 940, 
+                        "latitude": "45.43825100", 
+                        "type": "city / town", 
+                        "slug": "venice-city-italy-x29237"
+                    }
+                }
+            ], 
+            "artist": "Whistler", 
+            "namecontext_set": [
+                {
+                    "pk": 560281, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12142
+                    }, 
+                    "fields": {
+                        "name": 12142, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 925177, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1880, 
+            "object_number": "O1034362", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "This is one of twenty-two impressions taken after Whistler's death to complete the edition due to the Fine Art Society. W.159; K.194, 9th state.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
