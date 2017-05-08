@@ -1,0 +1,268 @@
+[
+    {
+        "pk": 14615, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "453-1852", 
+            "date_end": "1854-12-31", 
+            "labels": [
+                {
+                    "pk": 4945, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 14615, 
+                        "label_text": "British Galleries:\nBottles like this were praised at the Exhibition for their 'rich surface decoration' and described as examples of 'excellent modern manufacture'. They were made to look as if they were set with pearls and gemstones."
+                    }
+                }
+            ], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-2.17507000", 
+            "year_start": 1845, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1850 (made)", 
+            "primary_image_id": "2006AM3473", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 23.6 cm maximum, Width: 16.5 cm maximum, Depth: 16.5 cm maximum", 
+            "title": "", 
+            "date_start": "1845-01-01", 
+            "materials_techniques": "Porcelain, blue-glazed, with painted decoration, 'jewelled' and gilt, mounted in gilt metal", 
+            "last_processed": "2014-03-31 19:43:23", 
+            "label": "British Galleries:\nBottles like this were praised at the Exhibition for their 'rich surface decoration' and described as examples of 'excellent modern manufacture'. They were made to look as if they were set with pearls and gemstones. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 122f, case 4", 
+            "marks": "", 
+            "latitude": "53.02936200", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 21936, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 997
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 325049, 
+                        "room": "122F", 
+                        "part_name": "", 
+                        "museum_number": "453-1852", 
+                        "museumobject": 14615, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 122f", 
+                        "museum_number_token": "4531852", 
+                        "gallery": 997
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 997, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "122F", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 122f", 
+                        "site_code": "VA", 
+                        "museumobject_count": 90, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49220", 
+                        "museumobject_image_count": 84, 
+                        "type": "", 
+                        "slug": "122f-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1417, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Copeland & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 221, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A9075", 
+                        "museumobject_image_count": 80, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "copeland-co", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15622, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 67
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14615, 
+                        "role": "made", 
+                        "place": 67, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "4531852", 
+            "object": "Bottle", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:43:23", 
+            "public_access_description": "Object Type\nThis heavily-ornamented bottle with handle was probably intended for display rather than use.  By covering the surface with dots of  thick, coloured enamel paint (a new technique), the manufacturer hoped to convey the impression that this was a precious object,  adorned with costly gems.\n\nPeople\nW.T. Copeland's succeeded the partnership of Copeland and Garrett in 1847.  The original company, that was started by Josiah Spode in about 1761, has traditionally been credited with perfecting bone china in the late 1780s. In this new method, bone ash is added to porcelain to give a whiter and stronger material.\n\nHistorical Associations\nThis bottle was acquired for \u015313.1s.6d. after the Great Exhibition for the Museum of Ornamental Art. The exhibition catalogue listed it as 'a bottle ornamented with imitation jewels'.  The following observations were made concerning the appropriateness of its acquisition: 'Remarkable for beauty of form, but the imitation stones not recommended.  The design of the ornamentation of the bottle appears to have been copied from a plate in Mr. Richardson's work on Ornamental Design'. This refers to Charles James Richardson's Studies of Ornamental Design (1851), which illustrates an example of 'Jewel Embroidery' copied from a portion of a lady's dress in an unnamed 16th-century Italian painting.  The date of the book and that of the bottle are however perhaps too close, though an Art Journal illustration entitled 'Pair of Armada bottles' also hints at a late-16th century inspiration for the design.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "bottle-copeland-co", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 5107, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-14 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:18", 
+                        "priority": 0, 
+                        "image_id": "2006AM3473", 
+                        "sys_id": 113473, 
+                        "last_checked": "2014-03-31 17:09:18", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM3473.jpg"
+                    }
+                }, 
+                {
+                    "pk": 5106, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-14 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:18", 
+                        "priority": 1, 
+                        "image_id": "2006AM3472", 
+                        "sys_id": 113472, 
+                        "last_checked": "2014-03-31 17:09:18", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM3472.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 67, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5363
+                    }, 
+                    "fields": {
+                        "name": "Stoke", 
+                        "parent": 5363, 
+                        "country": "England", 
+                        "museumobject_count": 1528, 
+                        "longitude": "-2.17507000", 
+                        "source": "production", 
+                        "cis_id": "x29185", 
+                        "museumobject_image_count": 1166, 
+                        "latitude": "53.02936200", 
+                        "type": "city / town", 
+                        "slug": "stoke-england-x29185"
+                    }
+                }
+            ], 
+            "artist": "Copeland & Co.", 
+            "namecontext_set": [
+                {
+                    "pk": 14905, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1417
+                    }, 
+                    "fields": {
+                        "name": 1417, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14615, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1854, 
+            "object_number": "O11290", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Manufactured by Copeland & Co., Stoke-on-Trent, Staffordshire", 
+            "place": "Stoke-on-Trent", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
