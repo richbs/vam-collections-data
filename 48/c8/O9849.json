@@ -1,0 +1,201 @@
+[
+    {
+        "pk": 337, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.1E-1962", 
+            "date_end": "1604-12-31", 
+            "labels": [
+                {
+                    "pk": 26, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 337, 
+                        "label_text": "Found on glass house site at Glasshouse Farm, St Weonards, Nr. Ross-on-Wye."
+                    }
+                }
+            ], 
+            "descriptive_line": "Fragment, England, 1595-1605, C.1 e-1962", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1595, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1600 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Tubular fragment of a glass bottle neck.", 
+            "dimensions": "Height: 2.2 cm, Diameter: 1.9 cm smallest", 
+            "title": "", 
+            "date_start": "1595-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-03-31 18:51:17", 
+            "label": "Found on glass house site at Glasshouse Farm, St Weonards, Nr. Ross-on-Wye.", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 85, shelf 5", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 791, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Britain", 
+                        "museumobject_count": 1383, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 88, 
+                        "type": "", 
+                        "slug": "britain"
+                    }
+                }, 
+                {
+                    "pk": 25, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "ancient", 
+                        "museumobject_count": 1363, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29280", 
+                        "museumobject_image_count": 62, 
+                        "type": "", 
+                        "slug": "ancient"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 536, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "85", 
+                        "inventory_number": 359681, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.1E-1962", 
+                        "museumobject": 337, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c1e1962", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 294, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 337, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c1e1962", 
+            "object": "Fragment", 
+            "categories": [], 
+            "last_checked": "2014-03-31 18:51:17", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "fragment", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1604, 
+            "object_number": "O9849", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "From Glasshouse Farm, St Weonards, Nr. Ross-on-Wye.", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

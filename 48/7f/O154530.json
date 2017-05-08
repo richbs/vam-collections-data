@@ -1,0 +1,256 @@
+[
+    {
+        "pk": 122261, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.4-1988", 
+            "date_end": "1986-12-31", 
+            "labels": [], 
+            "descriptive_line": "Ebony bracelet by Thomas Gentille, USA ca. 1986.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1977, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1982 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Wide bracelet carved from ebony, decorated with diamond-shaped areas of red lacquer.", 
+            "dimensions": "Width: 10 cm", 
+            "title": "", 
+            "date_start": "1977-01-01", 
+            "materials_techniques": "Ebony and lacquer", 
+            "last_processed": "2014-04-01 03:01:49", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 39, shelf B, box 5", 
+            "marks": "T. Gentille", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 274, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "lacquer", 
+                        "museumobject_count": 372, 
+                        "source": "cis_materials", 
+                        "cis_id": "14916", 
+                        "museumobject_image_count": 266, 
+                        "type": "", 
+                        "slug": "lacquer"
+                    }
+                }, 
+                {
+                    "pk": 23, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ebony", 
+                        "museumobject_count": 357, 
+                        "source": "cis_materials", 
+                        "cis_id": "12055", 
+                        "museumobject_image_count": 239, 
+                        "type": "", 
+                        "slug": "ebony"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 193118, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "5", 
+                        "case": "39", 
+                        "inventory_number": 539990, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "M.4-1988", 
+                        "museumobject": 122261, 
+                        "shelf": "B", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m41988", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 12495, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Gentille, Thomas", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A22177", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1936-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "gentille-thomas", 
+                        "birth_year": 1936
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 121815, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 122261, 
+                        "role": "made", 
+                        "place": 10, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m41988", 
+            "object": "Bracelet", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:01:49", 
+            "public_access_description": "Organic materials, derived from animal or plant sources, often have a very low intrinsic value, but many have been used in jewellery since ancient times. \n\nIn the catalogue for his exhibition at the Victoria and Albert Museum in 1987 he stated: 'the less precious a material, the more difficult it is to work, to make it speak, to find its soul.' He uses both traditional metals and materials, but also explored a number of unconventional materials transformed through labour-intensive processes. In this piece he has applied an inlay to the ebony and lacquer.\n\nGentille studied painting and sculpture before becoming a goldsmith. In spite of his training he considers himself as self-taught and proud of his interdisciplinary approach. For him the concept of a piece is as important as skilled craftsmanship.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "bracelet-gentille-thomas", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 10, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "United States", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 5088, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 1371, 
+                        "latitude": null, 
+                        "type": "country", 
+                        "slug": "united-states-x29333"
+                    }
+                }
+            ], 
+            "artist": "Gentille, Thomas", 
+            "namecontext_set": [
+                {
+                    "pk": 148874, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12495
+                    }, 
+                    "fields": {
+                        "name": 12495, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 122261, 
+                        "role": "designed and made by", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1986, 
+            "object_number": "O154530", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "USA", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
