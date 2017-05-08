@@ -1,0 +1,297 @@
+[
+    {
+        "pk": 652192, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.556-1932", 
+            "date_end": "1932-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Little Art Rooms. Exhibition of Water-colours, Drawings, Lithographs by Clarke Hutton'. Original water-colour drawing used as a poster. By Clarke Hutton. Great Britain. Early 20th century.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1915, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 6185, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "exhibition", 
+                        "museumobject_count": 205, 
+                        "source": "concept", 
+                        "cis_id": "x37997", 
+                        "museumobject_image_count": 30, 
+                        "type": "", 
+                        "slug": "exhibition"
+                    }
+                }
+            ], 
+            "date_text": "early 20th century (issued)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "'Little Art Rooms. Exhibition of Water-colours, Drawings, Lithographs by Clarke Hutton'. Original water-colour drawing used as a poster.", 
+            "dimensions": "Height: 64 cm, Width: 49.3 cm", 
+            "title": "Exhibition of Water-colours, Drawings, Lithographs by Clarke Hutton", 
+            "date_start": "1915-01-01", 
+            "materials_techniques": "Water-colour drawing", 
+            "last_processed": "2014-04-26 16:46:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case JJ, shelf 17", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1741, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "water-colour", 
+                        "museumobject_count": 3039, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1022, 
+                        "type": "", 
+                        "slug": "water-colour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 787004, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "JJ", 
+                        "inventory_number": 1047124, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.556-1932", 
+                        "museumobject": 652192, 
+                        "shelf": "17", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e5561932", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 34184, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1966-12-31", 
+                        "surname": "", 
+                        "name": "Hutton, Clarke", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": 1966, 
+                        "source": "object_production", 
+                        "cis_id": "A20641", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1898-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hutton-clarke", 
+                        "birth_year": 1898
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 380402, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 652192, 
+                        "role": "issued", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e5561932", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 21, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Advertising", 
+                        "museumobject_count": 4972, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 783, 
+                        "type": "", 
+                        "slug": "advertising"
+                    }
+                }, 
+                {
+                    "pk": 25, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Entertainment & Leisure", 
+                        "museumobject_count": 48755, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31357, 
+                        "type": "", 
+                        "slug": "entertainment-leisure"
+                    }
+                }, 
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12413, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1856, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:46:05", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Summary Catalogue of British Posters to 1988 in the Victoria & Albert Museum in the Department of Design, Prints & Drawing</u>. Emmett Publishing, 1990. 129 p. ISBN: 1 869934 12 1\nThe full text of the entry is as follows: \n\n'<b>HUTTON</b>, Clarke (b 1898) \nLittle Art Rooms. Exhibition of Water-colours, Drawings, Lithographs by Clarke Hutton. Original drawing used as a poster. WC 64 x 49.3 cm \nE.556-1932  fiche 20/C11'", 
+            "vanda_exhibition_history": "", 
+            "slug": "exhibition-of-water-colours-drawings-poster-hutton-clarke", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Hutton, Clarke", 
+            "namecontext_set": [
+                {
+                    "pk": 493471, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 34184
+                    }, 
+                    "fields": {
+                        "name": 34184, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 652192, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1932, 
+            "object_number": "O746384", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
