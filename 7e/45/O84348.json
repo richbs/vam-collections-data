@@ -1,0 +1,258 @@
+[
+    {
+        "pk": 10690, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.888-2002", 
+            "date_end": "1997-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph, 'Oxford Street' by Beat Streuli, 1997", 
+            "shape": "", 
+            "longitude": "-0.14439000", 
+            "year_start": 1997, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23925, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "people", 
+                        "museumobject_count": 327, 
+                        "source": "object", 
+                        "cis_id": "24979", 
+                        "museumobject_image_count": 222, 
+                        "type": "", 
+                        "slug": "people"
+                    }
+                }, 
+                {
+                    "pk": 1568, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Oxford Street, London", 
+                        "museumobject_count": 3, 
+                        "source": "place", 
+                        "cis_id": "x36562", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "oxford-street"
+                    }
+                }
+            ], 
+            "date_text": "1997 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "", 
+            "title": "Oxford Street", 
+            "date_start": "1997-01-01", 
+            "materials_techniques": "C-type print, image made using a telephoto lens", 
+            "last_processed": "2014-03-31 19:26:04", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 990, box C", 
+            "marks": "", 
+            "latitude": "51.51493100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 13410, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "C", 
+                        "case": "X", 
+                        "inventory_number": 699490, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "E.888-2002", 
+                        "museumobject": 10690, 
+                        "shelf": "990", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "e8882002", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2382, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Streuli, Beat", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A10295", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1957-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "streuli-beat", 
+                        "birth_year": 1957
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 11619, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 685
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 10690, 
+                        "role": "photographed", 
+                        "place": 685, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 11620, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 685
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 10690, 
+                        "role": "subject", 
+                        "place": 685, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e8882002", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:26:04", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "oxford-street-photograph-streuli-beat", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 685, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1943
+                    }, 
+                    "fields": {
+                        "name": "Oxford Street (London)", 
+                        "parent": 1943, 
+                        "country": "England", 
+                        "museumobject_count": 7, 
+                        "longitude": "-0.14439000", 
+                        "source": "production", 
+                        "cis_id": "x36562", 
+                        "museumobject_image_count": 4, 
+                        "latitude": "51.51493100", 
+                        "type": "inhabited place", 
+                        "slug": "oxford-street-london-england-x36562"
+                    }
+                }
+            ], 
+            "artist": "Streuli, Beat", 
+            "namecontext_set": [
+                {
+                    "pk": 10653, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2382
+                    }, 
+                    "fields": {
+                        "name": 2382, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 10690, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1997, 
+            "object_number": "O84348", 
+            "events": [], 
+            "credit": "Given by Barbara Lloyd", 
+            "history_note": "", 
+            "place": "Oxford Street (London)", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

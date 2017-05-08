@@ -1,0 +1,427 @@
+[
+    {
+        "pk": 46089, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.41-1972", 
+            "date_end": "1904-12-31", 
+            "labels": [], 
+            "descriptive_line": "Vase of 'eggshell' porcelain, Dutch, 1904, designer J. Juriaan Kok", 
+            "shape": "", 
+            "longitude": "5.33033000", 
+            "year_start": 1904, 
+            "exhibitions": [
+                {
+                    "pk": 111, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2000, 
+                        "name": "Art Nouveau - 1890-1914", 
+                        "date_end": "2000-07-30", 
+                        "museumobject_count": 230, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "2000-04-06", 
+                        "year_end": 2000, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 209, 
+                        "type": "", 
+                        "slug": "art-nouveau-1890-1914", 
+                        "date_text": "06/04/2000 to 30/07/2000"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 26518, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flower", 
+                        "museumobject_count": 908, 
+                        "source": "object", 
+                        "cis_id": "254977", 
+                        "museumobject_image_count": 740, 
+                        "type": "", 
+                        "slug": "flower"
+                    }
+                }, 
+                {
+                    "pk": 7132, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "leaf", 
+                        "museumobject_count": 302, 
+                        "source": "object", 
+                        "cis_id": "x43501", 
+                        "museumobject_image_count": 231, 
+                        "type": "", 
+                        "slug": "leaf"
+                    }
+                }
+            ], 
+            "date_text": "1904 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Vase of 'eggshell porcelain' decorated with orange and green floral design", 
+            "dimensions": "Height: 32.0 cm, Width: 10.3 cm, Depth: 10.3 cm", 
+            "title": "", 
+            "date_start": "1904-01-01", 
+            "materials_techniques": "'Eggshell' porcelain", 
+            "last_processed": "2014-03-31 21:46:04", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "World Ceramics, room 145, case 52", 
+            "marks": "transfer-printed stork factory mark with 'Rozenburg den haag'. 'JS.' monogram and flag date mark for 1904, painter's mark for J. Schellink and a quareterd square and '696' painted in black", 
+            "latitude": "52.10808900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 100, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "bone-china", 
+                        "museumobject_count": 983, 
+                        "source": "cis_materials", 
+                        "cis_id": "233473", 
+                        "museumobject_image_count": 721, 
+                        "type": "", 
+                        "slug": "bone-china"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 130, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Art Nouveau", 
+                        "museumobject_count": 446, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21430", 
+                        "museumobject_image_count": 306, 
+                        "type": "", 
+                        "slug": "art-nouveau"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 90891, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 354
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "52", 
+                        "inventory_number": 377183, 
+                        "room": "145", 
+                        "part_name": "", 
+                        "museum_number": "C.41-1972", 
+                        "museumobject": 46089, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "World Ceramics, room 145", 
+                        "museum_number_token": "c411972", 
+                        "gallery": 354
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 354, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "145", 
+                        "site_name": "", 
+                        "name": "World Ceramics, room 145", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1487, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49865", 
+                        "museumobject_image_count": 1483, 
+                        "type": "", 
+                        "slug": "145-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 8957, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1919-12-31", 
+                        "surname": "", 
+                        "name": "Kok, J. Juriaan", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1919, 
+                        "source": "object_production", 
+                        "cis_id": "A11302", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1861-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "kok-j-juriaan", 
+                        "birth_year": 1861
+                    }
+                }, 
+                {
+                    "pk": 8958, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1958-12-31", 
+                        "surname": "", 
+                        "name": "Schellink, Sam", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": 1958, 
+                        "source": "object_production", 
+                        "cis_id": "A11301", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1876-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "schellink-sam", 
+                        "birth_year": 1876
+                    }
+                }, 
+                {
+                    "pk": 8959, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Van Rossum, J.M.", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A7283", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "van-rossum-jm", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 8960, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Haagsche Plateelbakkerij Rozenburg", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11303", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "haagsche-plateelbakkerij-rozenburg", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 43946, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 106
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 46089, 
+                        "role": "made", 
+                        "place": 106, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c411972", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 81, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Vases", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 942, 
+                        "type": "", 
+                        "slug": "vases"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 21:46:04", 
+            "public_access_description": "The output of the short-lived and modest factory of Rozenburg, in The Hague, includes some of the most powerful examples of ceramics in the Art Nouveau style, which is typified by elongated organic shapes and sinuous, curling designs.\n\tEstablished in 1883, the Rozenburg factory blossomed under the art director J. Juriaan Kok, who took up the post in 1895. Working with the chemist M.N. Engelen, in 1899 he introduced a delicate ceramic product, Eierschaalporselein or 'eggshell porcelain', which is almost identical in composition to English bone china. This was launched at the Paris Universal Exhibition the following year. It can be very thinly potted into flamboyant shapes by means of the slip-casting technique and displays a highly translucent pale ivory hue.\n\tThe brittleness of the ware is enhanced by Kok's elegant design, resulting in pieces that combine form and pattern, fragility and bright vibrant colour. This vase is typical of the faceted style of Rozenberg's work, which synthesizes angular and rounded forms. The decoration, executed by highly skilled painters, owes a debt to French and Belgian Art Nouveau, and Kok's effective use of blank space recalls Japanese principles of design.\n\tThe success of the Rozenburg factory was, in large part, dependent upon the vision of its art director. Kok left the firm in 1913 and production ceased the following year.", 
+            "exhibition_history": "Art Nouveau - 1890-1914 (Victoria and Albert Museum 06/04/2000-30/07/2000)", 
+            "bibliography": "Greenhalgh, Paul Ed., <font u>Art Nouveau : 1890 - 1914</font u>. London: V&A Publications, 2000. 464 p., 12.11pl, ill. ISBN 1851772774\nLiefkes, Reino and Hilary Young, eds. <u>Masterpieces of World Ceramics.</u>. London: V & A Publishing, 2008. p.124-125, ill. ISBN 9781 851 775279.", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-kok-j-juriaan", 
+            "sys_updated": "2014-01-02 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 106, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Netherlands", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 4105, 
+                        "longitude": "5.33033000", 
+                        "source": "production", 
+                        "cis_id": "x29020", 
+                        "museumobject_image_count": 1974, 
+                        "latitude": "52.10808900", 
+                        "type": "country", 
+                        "slug": "netherlands-x29020"
+                    }
+                }
+            ], 
+            "artist": "Kok, J. Juriaan", 
+            "namecontext_set": [
+                {
+                    "pk": 49436, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8957
+                    }, 
+                    "fields": {
+                        "name": 8957, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 46089, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 49437, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8958
+                    }, 
+                    "fields": {
+                        "name": 8958, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 46089, 
+                        "role": "painter", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 49438, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8959
+                    }, 
+                    "fields": {
+                        "name": 8959, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 46089, 
+                        "role": "painter", 
+                        "order": 3
+                    }
+                }, 
+                {
+                    "pk": 49439, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8960
+                    }, 
+                    "fields": {
+                        "name": 8960, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 46089, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1904, 
+            "object_number": "O87867", 
+            "events": [], 
+            "credit": "Given in memory of Lavinia and Charles Handley-Read by Mr Thomas Stainton", 
+            "history_note": "Formerly in the Handley-Read Colln.", 
+            "place": "Netherlands", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
