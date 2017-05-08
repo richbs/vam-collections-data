@@ -1,0 +1,270 @@
+[
+    {
+        "pk": 638328, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1867-1938", 
+            "date_end": "1937-12-31", 
+            "labels": [], 
+            "descriptive_line": "Mukul Chandra Dey. Portrait of the architect Dr. Abinandra Nath Tagore. (Abanindranath Tagore) India, 1937.", 
+            "shape": "", 
+            "longitude": "82.79476200", 
+            "year_start": 1937, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1937 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Drypoint etching, portrait of Dr Abanindranath Tagore", 
+            "dimensions": "Height: 9.9375 in, Width: 8 in", 
+            "title": "Dr. Abinandra Nath Tagore", 
+            "date_start": "1937-01-01", 
+            "materials_techniques": "drypoint etching", 
+            "last_processed": "2014-04-26 16:12:55", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2G, shelf SH68, box EE150", 
+            "marks": "", 
+            "latitude": "21.78660000", 
+            "techniques": [
+                {
+                    "pk": 22, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching", 
+                        "museumobject_count": 11942, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39131", 
+                        "museumobject_image_count": 5158, 
+                        "type": "", 
+                        "slug": "etching"
+                    }
+                }, 
+                {
+                    "pk": 249, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drypoint", 
+                        "museumobject_count": 235, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53228", 
+                        "museumobject_image_count": 125, 
+                        "type": "", 
+                        "slug": "drypoint"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 27153, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12401, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 773078, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "EE150", 
+                        "case": "MB2G", 
+                        "inventory_number": 1062939, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.1867-1938", 
+                        "museumobject": 638328, 
+                        "shelf": "SH68", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e18671938", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 15373, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1989-12-31", 
+                        "surname": "", 
+                        "name": "Mukul Dey", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1989, 
+                        "source": "object_production", 
+                        "cis_id": "A13685", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1895-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "dey-mukul", 
+                        "birth_year": 1895
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 369916, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 29
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 638328, 
+                        "role": "made", 
+                        "place": 29, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e18671938", 
+            "object": "Portrait print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:12:55", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<U>Victoria and Albert Museum, Department of Engraving, Illustration and Design & Department of Paintings, Accessions 1938</u>. London: The Board of Education, 1939.\nThe full text of the record is as follows:\n\n<B>'DEY, Mukul Chandra</B>\n\nPortrait of the architect Dr. Abinandra Nath Tagore\n<i>Signed in pencil</i> Mukul Dey <i>and inscribed with sitter's name.\nDry-point.</i>\nE.1867-1938.\nGiven by Mr. Campbell Dodgson, C.B.E.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "dr-abinandra-nath-tagore-portrait-print-mukul-dey", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 29, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "India", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 4735, 
+                        "longitude": "82.79476200", 
+                        "source": "production", 
+                        "cis_id": "x29790", 
+                        "museumobject_image_count": 1852, 
+                        "latitude": "21.78660000", 
+                        "type": "country", 
+                        "slug": "india-x29790"
+                    }
+                }
+            ], 
+            "artist": "Mukul Dey", 
+            "namecontext_set": [
+                {
+                    "pk": 483815, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 15373
+                    }, 
+                    "fields": {
+                        "name": 15373, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 638328, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1937, 
+            "object_number": "O732399", 
+            "events": [], 
+            "credit": "Given by Mr. Campbell Dodgson, C.B.E.", 
+            "history_note": "", 
+            "place": "India", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

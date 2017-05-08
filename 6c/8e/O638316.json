@@ -1,0 +1,383 @@
+[
+    {
+        "pk": 551655, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "24220", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, half-length portrait of Sir David Dundas in military uniform.  Mezzotint by S.W. Reynolds after William Owen, late-18th century.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1750, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24552, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "uniform", 
+                        "museumobject_count": 232, 
+                        "source": "object", 
+                        "cis_id": "248030", 
+                        "museumobject_image_count": 111, 
+                        "type": "", 
+                        "slug": "uniform"
+                    }
+                }, 
+                {
+                    "pk": 30542, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "officer", 
+                        "museumobject_count": 77, 
+                        "source": "object", 
+                        "cis_id": "236171", 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "officer"
+                    }
+                }, 
+                {
+                    "pk": 37575, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Dundas, David (Sir)", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N11336", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "dundas-david-sir"
+                    }
+                }
+            ], 
+            "date_text": "late 18th century (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Half-length portrait, to front, looking to left and wearing uniform with Garter star; in an oval border.", 
+            "dimensions": "Height: 56.8 cm, Width: 42 cm", 
+            "title": "General, the Rt. Hon. Sir David Dundas", 
+            "date_start": "1750-01-01", 
+            "materials_techniques": "Mezzotint on paper", 
+            "last_processed": "2014-04-26 13:38:43", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PP, shelf 12", 
+            "marks": "'Painted by William Owen Esqr. R.A.   Engraved by S. W. Reynolds, Engraver to the King    General, the Rt. Hon. Sir David Dundas, G.C.B. &c. &c. &c.    This Engraving from an Original Picture by Willm. Owen Esqr. R.A. is dedicated by permission to H.R.H. The Duke of York.'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 248, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "mezzotint", 
+                        "museumobject_count": 2113, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53233", 
+                        "museumobject_image_count": 813, 
+                        "type": "", 
+                        "slug": "mezzotint"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2733, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 686172, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PP", 
+                        "inventory_number": 1170342, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "24220", 
+                        "museumobject": 551655, 
+                        "shelf": "12", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "24220", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32211, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1835-08-13", 
+                        "surname": "", 
+                        "name": "Samuel Reynolds", 
+                        "gender": null, 
+                        "museumobject_count": 110, 
+                        "death_year": 1835, 
+                        "source": "object_production", 
+                        "cis_id": "A17738", 
+                        "museumobject_image_count": 42, 
+                        "forename": "", 
+                        "birth_date": "1773-07-04", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "reynolds-samuel-william", 
+                        "birth_year": 1773
+                    }
+                }, 
+                {
+                    "pk": 53202, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1825-03-11", 
+                        "surname": "", 
+                        "name": "William Owen", 
+                        "gender": null, 
+                        "museumobject_count": 15, 
+                        "death_year": 1825, 
+                        "source": "object_production", 
+                        "cis_id": "A34207", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1769-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "william-owen", 
+                        "birth_year": 1769
+                    }
+                }, 
+                {
+                    "pk": 46949, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1820-12-31", 
+                        "surname": "", 
+                        "name": "Dundas, David (Sir)", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1820, 
+                        "source": "content", 
+                        "cis_id": "N11336", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1735-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "dundas-david-sir", 
+                        "birth_year": 1735
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 341268, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 551655, 
+                        "role": "printed", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "24220", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 13:38:43", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "general-the-rt-hon-sir-print-reynolds-samuel-william", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Reynolds, Samuel William (the elder)", 
+            "namecontext_set": [
+                {
+                    "pk": 443953, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32211
+                    }, 
+                    "fields": {
+                        "name": 32211, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 551655, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 443954, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 53202
+                    }, 
+                    "fields": {
+                        "name": 53202, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 551655, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 443955, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 46949
+                    }, 
+                    "fields": {
+                        "name": 46949, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 551655, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O638316", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
