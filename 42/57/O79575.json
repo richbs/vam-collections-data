@@ -1,0 +1,374 @@
+[
+    {
+        "pk": 10196, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "414:123/&A-1885", 
+            "date_end": "1769-12-31", 
+            "labels": [
+                {
+                    "pk": 3880, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 10196, 
+                        "label_text": "British Galleries:\nAlthough his miniature tea service was probably designed for a child, it was more common for adults to buy such novelties or 'toys' for themselves. Today, children's tea sets are smaller in size and more suited for dolls' houses. The size of this tea cup, however, suggests it was actually used for serving tea."
+                    }
+                }
+            ], 
+            "descriptive_line": "Teapot and lid of soft-paste porcelain painted with enamels of bouquets and sprays of flowers, made by Bow Porcelain Factory, London, ca. 1765.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1760, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 4, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flowers", 
+                        "museumobject_count": 11618, 
+                        "source": "object", 
+                        "cis_id": "x35571", 
+                        "museumobject_image_count": 9046, 
+                        "type": "", 
+                        "slug": "flowers"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1765 (made)", 
+            "primary_image_id": "2006AM7042", 
+            "rights": 3, 
+            "physical_description": "Teapot and lid of soft-paste porcelain painted with enamels of bouquets and sprays of flowers.\n[Teapot] Teapot with a globular body, slightly curved spout, and loop handle.\n[Cover] Lid is domed with a round knob.", 
+            "dimensions": "Height: 8.6 cm, Diameter: 7 cm", 
+            "title": "", 
+            "date_start": "1760-01-01", 
+            "materials_techniques": "Soft-paste porcelain painted with enamels", 
+            "last_processed": "2014-03-31 19:23:47", 
+            "label": "British Galleries:\nAlthough his miniature tea service was probably designed for a child, it was more common for adults to buy such novelties or 'toys' for themselves. Today, children's tea sets are smaller in size and more suited for dolls' houses. The size of this tea cup, however, suggests it was actually used for serving tea. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 52b, case 2", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 28, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painted", 
+                        "museumobject_count": 27627, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30138", 
+                        "museumobject_image_count": 22711, 
+                        "type": "", 
+                        "slug": "painted"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 149, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "soft-paste porcelain", 
+                        "museumobject_count": 4161, 
+                        "source": "cis_materials", 
+                        "cis_id": "10665", 
+                        "museumobject_image_count": 3693, 
+                        "type": "", 
+                        "slug": "soft-paste-porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 12496, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 962
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 322156, 
+                        "room": "52B", 
+                        "part_name": "Teapot", 
+                        "museum_number": "414:123-1885", 
+                        "museumobject": 10196, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 52b", 
+                        "museum_number_token": "4141231885", 
+                        "gallery": 962
+                    }
+                }, 
+                {
+                    "pk": 12497, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 962
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 322155, 
+                        "room": "52B", 
+                        "part_name": "Cover", 
+                        "museum_number": "414:123/A-1885", 
+                        "museumobject": 10196, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 52b", 
+                        "museum_number_token": "414123a1885", 
+                        "gallery": 962
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 962, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "52B", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 52b", 
+                        "site_code": "VA", 
+                        "museumobject_count": 92, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49255", 
+                        "museumobject_image_count": 91, 
+                        "type": "", 
+                        "slug": "52b-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 78, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bow Porcelain Factory", 
+                        "gender": null, 
+                        "museumobject_count": 693, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1505", 
+                        "museumobject_image_count": 589, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "bow-porcelain-factory", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 11154, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 10196, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "4141885", 
+            "object": "Teapot and lid", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:23:47", 
+            "public_access_description": "Object Type\nAlthough small and intended for a child, the service that includes this teapot was probably intended for actual use, as the cups are large enough. Like many ceramic tea services, this one includes both tea bowls and handled cups of a type usually thought to have been for coffee. Tea cups with handles were being made in England at the time that this service was made, but handle-less bowls of the Chinese type were more common. The service includes a small jug for milk or cream - often added to tea after about 1720, when fermented black teas became more popular than the unfermented green varieties - and a covered bowl for refined white sugar.\n\nMaterials & Making\nThe Bow porcelain factory, where the service was made, produced a type of porcelain strengthened with ashes from animal bones. The result was a comparatively durable ceramic material, one that would have been suitable for making wares for children.\n\nTrading\nBow porcelain was sold from a warehouse on the factory site, from London showrooms, and it could be purchased at auction or from dealers in smaller cities. Much was also sold to merchants for export to the American colonies and elsewhere.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "teapot-and-lid-bow-porcelain-factory", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 7478, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:48", 
+                        "priority": 0, 
+                        "image_id": "2006AM7042", 
+                        "sys_id": 117042, 
+                        "last_checked": "2014-03-31 17:09:48", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM7042.jpg"
+                    }
+                }, 
+                {
+                    "pk": 7475, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:48", 
+                        "priority": 1, 
+                        "image_id": "2006AM7039", 
+                        "sys_id": 117039, 
+                        "last_checked": "2014-03-31 17:09:48", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM7039.jpg"
+                    }
+                }, 
+                {
+                    "pk": 7479, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:48", 
+                        "priority": 1, 
+                        "image_id": "2006AM7043", 
+                        "sys_id": 117043, 
+                        "last_checked": "2014-03-31 17:09:48", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM7043.jpg"
+                    }
+                }, 
+                {
+                    "pk": 7474, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:48", 
+                        "priority": 2, 
+                        "image_id": "2006AM7038", 
+                        "sys_id": 117038, 
+                        "last_checked": "2014-03-31 17:09:48", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM7038.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Bow Porcelain Factory", 
+            "namecontext_set": [
+                {
+                    "pk": 10044, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 78
+                    }, 
+                    "fields": {
+                        "name": 78, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 10196, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1769, 
+            "object_number": "O79575", 
+            "events": [], 
+            "credit": "Given by Lady Charlotte Schreiber", 
+            "history_note": "Part of a toy tea service 414:123 to /L-1885 (Sch. I 81 to L).", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

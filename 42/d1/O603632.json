@@ -1,0 +1,416 @@
+[
+    {
+        "pk": 518099, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.4538-1946", 
+            "date_end": "1836-12-31", 
+            "labels": [], 
+            "descriptive_line": "Line engraving on steel by J. C. Bentley depicting Rievaulx Abbey, after a drawing by J. M. W. Turner, for a publication entitled 'The Gallery of Modern British Artists' (1834-36).  Great Britain, 1836.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1836, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 583, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "ruins", 
+                        "museumobject_count": 1256, 
+                        "source": "object", 
+                        "cis_id": "x36535", 
+                        "museumobject_image_count": 776, 
+                        "type": "", 
+                        "slug": "ruins"
+                    }
+                }, 
+                {
+                    "pk": 49398, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "abbeys", 
+                        "museumobject_count": 298, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 140, 
+                        "type": "", 
+                        "slug": "abbeys"
+                    }
+                }, 
+                {
+                    "pk": 10665, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Yorkshire", 
+                        "museumobject_count": 275, 
+                        "source": "place", 
+                        "cis_id": "x29523", 
+                        "museumobject_image_count": 76, 
+                        "type": "", 
+                        "slug": "yorkshire-x29523"
+                    }
+                }, 
+                {
+                    "pk": 8071, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Rievaulx Abbey", 
+                        "museumobject_count": 19, 
+                        "source": "place", 
+                        "cis_id": "x34485", 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "rievaulx-abbey"
+                    }
+                }
+            ], 
+            "date_text": "1836 (engraved)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Line engraving on steel, printed on paper, depicting Rievaulx Abbey in North Yorkshire", 
+            "dimensions": "", 
+            "title": "Rievaulx Abbey (the Small plate, with the Bridge); 'The Gallery of Modern British Artists' (1834-36)", 
+            "date_start": "1836-01-01", 
+            "materials_techniques": "Line engraving", 
+            "last_processed": "2014-04-01 20:44:40", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case EL, shelf 145", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 467, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "line engraving", 
+                        "museumobject_count": 2097, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53231", 
+                        "museumobject_image_count": 17, 
+                        "type": "", 
+                        "slug": "line-engraving"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 652557, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EL", 
+                        "inventory_number": 1216578, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.4538-1946", 
+                        "museumobject": 518099, 
+                        "shelf": "145", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e45381946", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 695, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1851-12-19", 
+                        "surname": "", 
+                        "name": "Turner", 
+                        "gender": null, 
+                        "museumobject_count": 3580, 
+                        "death_year": 1851, 
+                        "source": "object_production", 
+                        "cis_id": "A8934", 
+                        "museumobject_image_count": 62, 
+                        "forename": "", 
+                        "birth_date": "1775-04-23", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "turner-joseph-mallord-william-ra", 
+                        "birth_year": 1775
+                    }
+                }, 
+                {
+                    "pk": 14790, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1851-12-31", 
+                        "surname": "", 
+                        "name": "Joseph Clayton Bentley", 
+                        "gender": null, 
+                        "museumobject_count": 20, 
+                        "death_year": 1851, 
+                        "source": "object_production", 
+                        "cis_id": "A13485", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1809-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bentley-joseph-clayton", 
+                        "birth_year": 1809
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 326050, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 518099, 
+                        "role": "engraved", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 326051, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 973
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 518099, 
+                        "role": "subject", 
+                        "place": 973, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 326052, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 57
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 518099, 
+                        "role": "subject", 
+                        "place": 57, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e45381946", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 133, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Printed pages & sheets", 
+                        "museumobject_count": 4097, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 392, 
+                        "type": "", 
+                        "slug": "printed-pages-sheets"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 20:44:40", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Rievaulx was one of the first Cistercian abbeys to be founded in England. Surrounded by a massive agricultural and industrial estate, staffed by lay brothers, it was intended as the focus of a substantial family of daughter houses throughout northern Britain. Suppressed in 1538, the existing monastic ironworks was developed by new owners, the earls of Rutland. Incorporated into the parkland of Duncombe Park, the shattered abbey ruins became a popular subject for Romantic artists in the 18th and 19th centuries.", 
+            "vanda_exhibition_history": "", 
+            "slug": "rievaulx-abbey-the-small-plate-print-turner", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }, 
+                {
+                    "pk": 973, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 508
+                    }, 
+                    "fields": {
+                        "name": "Rievaulx Abbey", 
+                        "parent": 508, 
+                        "country": "England", 
+                        "museumobject_count": 32, 
+                        "longitude": "-1.11582000", 
+                        "source": "production", 
+                        "cis_id": "x34485", 
+                        "museumobject_image_count": 22, 
+                        "latitude": "54.25653800", 
+                        "type": "site", 
+                        "slug": "rievaulx-abbey-england-x34485"
+                    }
+                }, 
+                {
+                    "pk": 57, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Yorkshire", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 531, 
+                        "longitude": "-1.20788000", 
+                        "source": "production", 
+                        "cis_id": "x29523", 
+                        "museumobject_image_count": 272, 
+                        "latitude": "53.93063000", 
+                        "type": "region", 
+                        "slug": "yorkshire-england-x29523"
+                    }
+                }
+            ], 
+            "artist": "Turner", 
+            "namecontext_set": [
+                {
+                    "pk": 430352, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 695
+                    }, 
+                    "fields": {
+                        "name": 695, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 518099, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 430353, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14790
+                    }, 
+                    "fields": {
+                        "name": 14790, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 518099, 
+                        "role": "engraver", 
+                        "order": 2
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1836, 
+            "object_number": "O603632", 
+            "events": [], 
+            "credit": "Bequeathed by Horace Mummery", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
