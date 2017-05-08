@@ -1,0 +1,346 @@
+[
+    {
+        "pk": 112848, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.97-1987", 
+            "date_end": "1924-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plate, porcelain with hand-painted decoration in enamel colours, designed by Pyotr Vyechegzhanin, made at the Imperial Porcelain Factory, Russia, ca.1920", 
+            "shape": "", 
+            "longitude": "30.30672100", 
+            "year_start": 1915, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 4, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flowers", 
+                        "museumobject_count": 11618, 
+                        "source": "object", 
+                        "cis_id": "x35571", 
+                        "museumobject_image_count": 9046, 
+                        "type": "", 
+                        "slug": "flowers"
+                    }
+                }, 
+                {
+                    "pk": 156, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "leaves", 
+                        "museumobject_count": 2437, 
+                        "source": "object", 
+                        "cis_id": "x34654", 
+                        "museumobject_image_count": 1743, 
+                        "type": "", 
+                        "slug": "leaves"
+                    }
+                }, 
+                {
+                    "pk": 4131, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Hammer and Sickle", 
+                        "museumobject_count": 7, 
+                        "source": "object", 
+                        "cis_id": "x39611", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "hammer-and-sickle"
+                    }
+                }
+            ], 
+            "date_text": "ca.1920 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Porcelain Plate depicting a Hammer and sickle with leaves, ears of corn, flowers and lettering", 
+            "dimensions": "Circumference: 21.3 cm", 
+            "title": "", 
+            "date_start": "1915-01-01", 
+            "materials_techniques": "Porcelain with hand-painted decoration in enamel colours", 
+            "last_processed": "2014-04-01 02:25:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 22, shelf 2", 
+            "marks": "A hammer, sickle, cog and the date 1920\n [illegible mark]", 
+            "latitude": "59.93273900", 
+            "techniques": [
+                {
+                    "pk": 288, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "hand painted", 
+                        "museumobject_count": 161, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39976", 
+                        "museumobject_image_count": 126, 
+                        "type": "", 
+                        "slug": "hand-painted"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 137, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "enamel", 
+                        "museumobject_count": 3083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14910", 
+                        "museumobject_image_count": 2335, 
+                        "type": "", 
+                        "slug": "enamel"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 181386, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "22", 
+                        "inventory_number": 329552, 
+                        "room": "140", 
+                        "part_name": "", 
+                        "museum_number": "C.97-1987", 
+                        "museumobject": 112848, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "c971987", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 34492, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Vyechegzhanin, Pyotr", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A20981", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "vyechegzhanin-pyotr", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 34493, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "State Porcelain Factory", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A23621", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "state-porcelain-factory", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 110650, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 358
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 112848, 
+                        "role": "made", 
+                        "place": 358, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c971987", 
+            "object": "Plate", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:25:05", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Lobanov-Rostovsky, Nina. <u>Revolutionary Ceramics: Soviet porcelain 1917-1927</u>. London : Studio Vista, 1990, no. 59, p72. ISBN 0289800315.", 
+            "vanda_exhibition_history": "", 
+            "slug": "plate-vyechegzhanin-pyotr", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 358, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 66
+                    }, 
+                    "fields": {
+                        "name": "St. Petersburg", 
+                        "parent": 66, 
+                        "country": "Russia", 
+                        "museumobject_count": 221, 
+                        "longitude": "30.30672100", 
+                        "source": "production", 
+                        "cis_id": "x29178", 
+                        "museumobject_image_count": 205, 
+                        "latitude": "59.93273900", 
+                        "type": "city/town", 
+                        "slug": "st-petersburg-russia-x29178"
+                    }
+                }
+            ], 
+            "artist": "Vyechegzhanin, Pyotr", 
+            "namecontext_set": [
+                {
+                    "pk": 136028, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 34492
+                    }, 
+                    "fields": {
+                        "name": 34492, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 112848, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 136029, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 34493
+                    }, 
+                    "fields": {
+                        "name": 34493, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 112848, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1924, 
+            "object_number": "O143703", 
+            "events": [], 
+            "credit": "Bequeathed by Miss Margaret Mabel Shrive through The Art Fund", 
+            "history_note": "", 
+            "place": "St Petersburg", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
