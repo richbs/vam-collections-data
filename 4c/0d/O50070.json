@@ -1,0 +1,246 @@
+[
+    {
+        "pk": 43125, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.482-1997", 
+            "date_end": "1963-12-31", 
+            "labels": [], 
+            "descriptive_line": "Artwork for a `cut away' illustration of a British six-wheeled armoured car, drawn for the `Eagle' comic by L. Ashwell Wood,  1963.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1963, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 5378, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "armoured car", 
+                        "museumobject_count": 1, 
+                        "source": "object", 
+                        "cis_id": "x33406", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "armoured-car"
+                    }
+                }
+            ], 
+            "date_text": "1963 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "`Cut away' illustration of a British six-wheeled armoured car,  in indian ink and watercolour on prepared board, with a modern protective overlay. Various parts are numbered for a key, with numerals stuck on.", 
+            "dimensions": "Height: 40 cm, Width: 49.5 cm", 
+            "title": "British Armoured Car", 
+            "date_start": "1963-01-01", 
+            "materials_techniques": "indian ink and watercolour", 
+            "last_processed": "2014-03-31 21:36:59", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "unique", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2E, shelf DR104", 
+            "marks": "L. Ashwell Wood\n Vol 14/30  Volume 14, issue 30  [June 1963?]\n 14/30  Volume 14, issue 30  [June 1963?]\n Fine line drawing board [....] The established board for wash, line and colour  Manufactured by W.J. Saville & Company Limited, London", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46144, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 14913, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }, 
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12741, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7091, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48108, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 27995, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }, 
+                {
+                    "pk": 304, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Indian ink", 
+                        "museumobject_count": 985, 
+                        "source": "cis_materials", 
+                        "cis_id": "x32680", 
+                        "museumobject_image_count": 281, 
+                        "type": "", 
+                        "slug": "indian-ink"
+                    }
+                }, 
+                {
+                    "pk": 904, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "drawing board", 
+                        "museumobject_count": 338, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33403", 
+                        "museumobject_image_count": 327, 
+                        "type": "", 
+                        "slug": "drawing-board"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 87326, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "MB2E", 
+                        "inventory_number": 638678, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.482-1997", 
+                        "museumobject": 43125, 
+                        "shelf": "DR104", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e4821997", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 8476, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Wood, L. Ashwell", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A4863", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "wood-l-ashwell", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "e4821997", 
+            "object": "Drawing", 
+            "categories": [], 
+            "last_checked": "2014-03-31 21:36:59", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "british-armoured-car-drawing-wood-l-ashwell", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [], 
+            "artist": "Wood, L. Ashwell", 
+            "namecontext_set": [
+                {
+                    "pk": 46047, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8476
+                    }, 
+                    "fields": {
+                        "name": 8476, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 43125, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1963, 
+            "object_number": "O50070", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "According to Chris Mullen: \"EAGLE was a complete comic for children started at the Hulton Press by the Reverend Marcus Morris in 1950. It folded twenty years later. Morris saw the need for a comic that did not rely on the grotesque. He preferred different flavours of realism, and above masses of brightly coloured pages. The tone of EAGLE was cheerful, worthy and informative. It has come to be seen very much as the comic you could trust, a creature of the Establishment. The characters were chosen as the sort of people the young readers might easily meet. Violence and sex were notable for their absence. The visual imagination demonstrated throughout was extraordinary and the Annuals published every year until the demise of the comic give a fair reflection of the vigour of British comic illustration after the Second World War. \nMajor illustrators included,\n\n  \nHickey.... Edison Brain, the Boy Inventor \nMartin..... Pedro the Pirate \nNevin... Marvell of M.I.5 \nFrank Bellamy... back cover and main features \nNorman Williams... features \nHarry Lindfield... Mark Question, the Boy with a future but no past \nMartin Aitchison... Luck of the Legion \nL.Ashwell Wood .... information graphics \nFrank Humphris .... Jeff Arnold, Cowboy \nThelwell .... Chicko \"", 
+            "collection_code": "PDP"
+        }
+    }
+]

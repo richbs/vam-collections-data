@@ -1,0 +1,298 @@
+[
+    {
+        "pk": 42004, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "9036W", 
+            "date_end": "1304-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "5.57259000", 
+            "year_start": 1295, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24330, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "grotesques", 
+                        "museumobject_count": 211, 
+                        "source": "object", 
+                        "cis_id": "10211", 
+                        "museumobject_image_count": 177, 
+                        "type": "", 
+                        "slug": "grotesques"
+                    }
+                }, 
+                {
+                    "pk": 48115, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "dog (animal)", 
+                        "museumobject_count": 137, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 107, 
+                        "type": "", 
+                        "slug": "dog-animal"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1300 (illuminated)", 
+            "primary_image_id": "2009CP4432", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 440 mm, Width: 315 mm", 
+            "title": "Leaf from the Teutonic Knights Bible", 
+            "date_start": "1295-01-01", 
+            "materials_techniques": "Water-based pigments, gilding and ink on parchment", 
+            "last_processed": "2014-03-31 21:32:43", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case I, shelf 81, box S", 
+            "marks": "", 
+            "latitude": "50.64500000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 85011, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "S", 
+                        "case": "I", 
+                        "inventory_number": 707429, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "9036W", 
+                        "museumobject": 42004, 
+                        "shelf": "81", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "9036w", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 39973, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 288
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 42004, 
+                        "role": "illuminated", 
+                        "place": 288, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "9036w", 
+            "object": "Manuscript", 
+            "categories": [
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }, 
+                {
+                    "pk": 30, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Manuscripts", 
+                        "museumobject_count": 1447, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 424, 
+                        "type": "", 
+                        "slug": "manuscripts"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 21:32:43", 
+            "public_access_description": "This is a page from a Bible made for the monastery of the Teutonic Knights at Nieuwe Biesen in Maastricht, where the order owned property. The Teutonic Knights were among the more successful military orders. They were given papal approval in 1199 and oversaw the colonization by German settlers and the imposition of Christianity in what is now Poland and Lithuania. Like their counterparts, the Templars, who suffered the brutal suppression and nationalization of their assets by the French crown just after 1300, they operated a system of banking to get money 'to the front line'. This Bible was made in Li\u00e8ge for their house of Nieuwe Biesen in Maastricht, where the order owned property. The ornament in the initials is inhabited by dragons, heads and grotesques which spill over into the margins.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "leaf-from-the-teutonic-knights-manuscript-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 172270, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:44:29", 
+                        "priority": 0, 
+                        "image_id": "2009CP4432", 
+                        "sys_id": 554432, 
+                        "last_checked": "2014-03-31 17:44:29", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CP/2009CP4432.jpg"
+                    }
+                }, 
+                {
+                    "pk": 22207, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:55", 
+                        "priority": 1, 
+                        "image_id": "2006AT7597", 
+                        "sys_id": 157597, 
+                        "last_checked": "2014-03-31 17:12:55", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT7597.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 288, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Liege", 
+                        "parent": null, 
+                        "country": "Belgium", 
+                        "museumobject_count": 68, 
+                        "longitude": "5.57259000", 
+                        "source": "production", 
+                        "cis_id": "x28976", 
+                        "museumobject_image_count": 28, 
+                        "latitude": "50.64500000", 
+                        "type": "city/town", 
+                        "slug": "liege-belgium-x28976"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 44676, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 42004, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1304, 
+            "object_number": "O86648", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Li\u00e8ge (City)", 
+            "production_note": "", 
+            "historical_context_note": "Data taken from notes compiled by Rowan Watson. The full text of the entry is as follows:\n\n(text also refers to 9036 A to Z, A.Z, F.1; D.544-1906 to 599-1906):\n\n\"No part of the first volume (Genesis to II Chronicles) is known to survive. The second volume was dismantled by the time W. H. James Weale sold individual leaves and cuttings in the 1880s. Part of the MS are now in the British Library, Add. MS 32058, ff. 9-22, and in the V&A, 9036 A-Z, Z.A, F.1 & D.544-1906 to 599-1906. Volume three, the New Testament, is Oxford , Keble College, MS 69. The work probably belonged to the house of the Teutonic Knights in Maestricht, Nieuwe Biesen, according to an inscription in BL Add. MS 32058, fol. 9.\n\nNL (South: Li\u00e8ge?). c. 1300\n\nSee Judith Oliver, 1988, I, pp. 185-188, II, pl. 191-194\"\n\nIndividual item text\n\n'Cat. no. 233.20\n9036 W (MS 740)\nBIBLE (Prologue & Book of 12 Minor Prophets - Hosea)\nLeaf, With a decorated 11-line initial L (interlace decoration and grotesque heads extending into the margin); 8-line initial U with grotesque in vine tendrils: a 3-line initial D in blue with red penwork flourishing. In margin, dog with sketch of dog in pencil, also sketch of vine tendril by the initial V - these sketches either under drawings or instructions to the illuminator.\n\nRubric (1) Incipit prefatio beati Ieron imi presbiteri in librum duodecim proohetarum. Non idem ordo (2) Explicit prologus, incipit Osee. Uerbum domini \n\nNL (South: Li\u00e8ge?). c. 1300\n440 x 315 mm; written space 295 x 215 mm; 40 lines; 2 cols\n\nBought from Weale, 1883\nPub; 1908 cat, 72; 1923 cat, 63'", 
+            "collection_code": "PDP"
+        }
+    }
+]
