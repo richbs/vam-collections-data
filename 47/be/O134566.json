@@ -1,0 +1,327 @@
+[
+    {
+        "pk": 88629, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "160-1888", 
+            "date_end": "1813-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'Shipping in the Orwell, near Ipswich', John Constable, ca. 1806-ca. 1809", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1801, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 328, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Suffolk", 
+                        "museumobject_count": 145, 
+                        "source": "place", 
+                        "cis_id": "x29440", 
+                        "museumobject_image_count": 90, 
+                        "type": "", 
+                        "slug": "suffolk"
+                    }
+                }, 
+                {
+                    "pk": 30480, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "shipping", 
+                        "museumobject_count": 53, 
+                        "source": "object", 
+                        "cis_id": "53899", 
+                        "museumobject_image_count": 17, 
+                        "type": "", 
+                        "slug": "shipping"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1806-ca. 1809 (painted)", 
+            "primary_image_id": "2006BE6563", 
+            "rights": 3, 
+            "physical_description": "Painting with sailboats, figures.", 
+            "dimensions": "Height: 20.2 cm estimate, Width: 23.5 cm estimate, Height: 45.2 cm Frame, Width: 50.2 cm Frame", 
+            "title": "Shipping in the Orwell, near Ipswich", 
+            "date_start": "1801-01-01", 
+            "materials_techniques": "Oil on millboard", 
+            "last_processed": "2014-04-01 00:38:43", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room WS, case 33, shelf L", 
+            "marks": "'Engraved in Englh. Land'", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }, 
+                {
+                    "pk": 170, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "millboard", 
+                        "museumobject_count": 1145, 
+                        "source": "cis_materials", 
+                        "cis_id": "14233", 
+                        "museumobject_image_count": 1106, 
+                        "type": "", 
+                        "slug": "millboard"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 150369, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 616
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "33", 
+                        "inventory_number": 423690, 
+                        "room": "WS", 
+                        "part_name": "", 
+                        "museum_number": "160-1888", 
+                        "museumobject": 88629, 
+                        "shelf": "L", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room WS", 
+                        "museum_number_token": "1601888", 
+                        "gallery": 616
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 616, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "WS", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room WS", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1379, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49603", 
+                        "museumobject_image_count": 329, 
+                        "type": "", 
+                        "slug": "ws-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 221, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1837-03-31", 
+                        "surname": "", 
+                        "name": "John Constable", 
+                        "gender": null, 
+                        "museumobject_count": 470, 
+                        "death_year": 1837, 
+                        "source": "object_production", 
+                        "cis_id": "A8267", 
+                        "museumobject_image_count": 387, 
+                        "forename": "", 
+                        "birth_date": "1776-06-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "constable-john-ra", 
+                        "birth_year": 1776
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 85314, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 98
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88629, 
+                        "role": "subject", 
+                        "place": 98, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "1601888", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:38:43", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<i>Catalogue of the Constable Collection</i>, Graham Reynolds, Victoria and Albert Museum, London: HMSO, 1973, pp. 66, 67\nThe following is an extract from the text of the entry:\n\n\"On the back is a group of five cows in landscape.  Inscribed on the back in ink, not in the artist's hand, <i>Engraved in Englh. Land</i> [...] and with monogram <i>JC.</i>  Mr. Colin Thompson has drawn attention to a sketch of a bridge on the Stour in the National Gallery of Scotland (millboard, 8 x 9 1/4 ins. Isabel Constable sale 28 May 1891, Lot 217; George Salting; Lady Binning gift, 1918) which bears on the <i>verso</i> a study of cows which is a companion piece to No. 96a [160-1888].  No. 96 [160-1888] <i>recto</i> is the original sketch for the mezzotint by David Lucas published with the title 'View on the Orwell.  Near Ipswich' (S. 24).  Although intended for the original edition of <i>English Landscape Scenery</i> it  was not published till Moon's edition of 1838.  In his correspondence with Lucas about the plate Constable sometimes referred to this subject by such titles as \"Ships aground\".\nThe following references are of especial interest:\n<i>c.</i>February 1831 \"I have found a little drawg which will help me on greatly with the Ips river\" (S. : L., p. 41).\n27 September 1831 \"The ships now feer, are too common plaice & vulgar-- & will never unite with the general feeling of the book.  Though I want variety I dont want a 'Hotch potch'--we must not have any one '<i>uncongenical</i>' subject.  if we have, it cannot fail of tinging the whole book--&imparting a discordant feeling\" (S. : L., p. 59).  Shirley (S. : L., p. 185) states that the mezzotint was probably begun by December 1830; certainly by February 1831.\nThe dating of the sketch is difficult, because there is nothing of precisely similar type among the dated works in the collection.  The low tone of colouring and slightly haphazard brushwork suggest a fairly early date, and Holmes's suggestion, p. 241, of <i>c.</i>1809 has been adopted here as the best guide available.  An origin in the decade 1800 to 1810 might be supported by the style of the sketch of cows on the back, always supposing that both sketches were made around the same time.  Key, p. 46, however, assigns this sketch together with Nos. 122 [144-1888] and 235 [786-1888] to 1815.  He seems from the context to be partly influenced by the subject-matter.  The phrase \"fresh natural colour keyed high in tone\" which he uses to characterize all three works is hardly appropriate either to the <i>recto</i> or the <i>verso</i> of No. 96.  Another, though remote, possibility is that the sketch was made <i>ad hoc</i>, <i>c.</i>1831, as Nos. 329 [787-1888], 329a [787-1888], 330 [150-1888], and 332 [132-1888] are believed to have been, for the mezzotint.  Holmes, p. 241, records a replica of No. 96 in the collection of Alexander Young of Blackheath, in 1902.\"\nEvans, M., with N. Costaras and C. Richardson, <u>John Constable. Oil Sketches from the Victoria and Albert Museum</u>, London: V&A, 2011, p. 41, cat. no. 5.", 
+            "vanda_exhibition_history": "", 
+            "slug": "shipping-in-the-orwell-near-oil-painting-constable-john", 
+            "sys_updated": "2013-11-21 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 77157, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 17:24:50", 
+                        "priority": 0, 
+                        "image_id": "2006BE6563", 
+                        "sys_id": 256563, 
+                        "last_checked": "2014-03-31 17:24:50", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BE/2006BE6563.jpg"
+                    }
+                }, 
+                {
+                    "pk": 211220, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 17:52:24", 
+                        "priority": 27, 
+                        "image_id": "2010EE9667", 
+                        "sys_id": 889667, 
+                        "last_checked": "2014-03-31 17:52:24", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EE/2010EE9667.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 98, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Suffolk", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 298, 
+                        "longitude": "1.05166000", 
+                        "source": "production", 
+                        "cis_id": "x29440", 
+                        "museumobject_image_count": 137, 
+                        "latitude": "52.24137100", 
+                        "type": "county", 
+                        "slug": "suffolk-england-x29440"
+                    }
+                }
+            ], 
+            "artist": "Constable, John", 
+            "namecontext_set": [
+                {
+                    "pk": 105052, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 221
+                    }, 
+                    "fields": {
+                        "name": 221, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88629, 
+                        "role": "painter (artist)", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1813, 
+            "object_number": "O134566", 
+            "events": [], 
+            "credit": "Given by Isabel Constable", 
+            "history_note": "Given by Isabel Constable, 1888", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "'There are no paintings or drawings in the Museum's collections known certainly to have been made during the years 1807-1809.  In 1807, 1808, and to some extent in 1809, Constable was painting Lake District subjects for exhibition; and in 1807 he was copying portraits of the Dysart family by Reynolds and Hoppner.  Some of these copies by Constable are at Ham House.'\n\n[G Reynolds, 1973, p. 66]", 
+            "collection_code": "PDP"
+        }
+    }
+]

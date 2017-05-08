@@ -1,0 +1,397 @@
+[
+    {
+        "pk": 256681, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.82-1951", 
+            "date_end": "1704-12-31", 
+            "labels": [], 
+            "descriptive_line": "Statuette, ivory, St Michael, Hispano-Filipino or Chinese, ca. 1700", 
+            "shape": "", 
+            "longitude": "104.16564900", 
+            "year_start": 1695, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24484, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "armour", 
+                        "museumobject_count": 906, 
+                        "source": "object", 
+                        "cis_id": "36745", 
+                        "museumobject_image_count": 591, 
+                        "type": "", 
+                        "slug": "armour"
+                    }
+                }, 
+                {
+                    "pk": 24757, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sword", 
+                        "museumobject_count": 455, 
+                        "source": "object", 
+                        "cis_id": "204570", 
+                        "museumobject_image_count": 296, 
+                        "type": "", 
+                        "slug": "sword"
+                    }
+                }, 
+                {
+                    "pk": 25121, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Michael (Saint)", 
+                        "museumobject_count": 38, 
+                        "source": "name", 
+                        "cis_id": "N631", 
+                        "museumobject_image_count": 26, 
+                        "type": "", 
+                        "slug": "michael-saint"
+                    }
+                }, 
+                {
+                    "pk": 1564, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "devil", 
+                        "museumobject_count": 33, 
+                        "source": "object", 
+                        "cis_id": "x35366", 
+                        "museumobject_image_count": 24, 
+                        "type": "", 
+                        "slug": "devil"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1700 (made)", 
+            "primary_image_id": "2006AD1389", 
+            "rights": 3, 
+            "physical_description": "The winged figure of St Michael stands over the defeated devil, a human headed creature with fangs and breasts, cloven-hoofed hind feet, and clawed forefeet. The saint wears classical armour, and wielding a flaming sword in his raised right hand over the prostrate devil. He has an oval face and heavy-lidded eyes. The wings and right arm are attached separately.", 
+            "dimensions": "Height: 41 cm Base to tip of sword handle (maximum height), Width: 21 cm Across arm and wings (maximum width), Width: 13.5 cm Base, Depth: 13  Base", 
+            "title": "St Michael", 
+            "date_start": "1695-01-01", 
+            "materials_techniques": "Ivory", 
+            "last_processed": "2014-04-01 09:42:26", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 6", 
+            "marks": "", 
+            "latitude": "36.89445100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 38, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ivory", 
+                        "museumobject_count": 2288, 
+                        "source": "cis_materials", 
+                        "cis_id": "11857", 
+                        "museumobject_image_count": 1575, 
+                        "type": "", 
+                        "slug": "ivory"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 345503, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 88699, 
+                        "room": "111", 
+                        "part_name": "Statuette", 
+                        "museum_number": "A.82-1951", 
+                        "museumobject": 256681, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a821951", 
+                        "gallery": 301
+                    }
+                }, 
+                {
+                    "pk": 345504, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 79908, 
+                        "room": "", 
+                        "part_name": "Statuette St. Michael fragment", 
+                        "museum_number": "A.82:2-1951", 
+                        "museumobject": 256681, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "a8221951", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 2734, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Michael (Saint)", 
+                        "gender": null, 
+                        "museumobject_count": 38, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N631", 
+                        "museumobject_image_count": 26, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "michael-saint", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 211233, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "or Hispano-filipino", 
+                        "museumobject": 256681, 
+                        "role": "made", 
+                        "place": 2, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a821951", 
+            "object": "Statuette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 09:42:26", 
+            "public_access_description": "The winged figure of St Michael stands over the defeated devil, a human-headed creature with fangs and breasts, cloven-hoofed hind feet, and clawed forefeet. \nThe figure was classified as Portuguese when acquired, but it is more likely to be Chinese or Hispano-filipino. The oval face and heavy-lidded eyes, as well as the comparatively large size of this piece, suggest it was made in the Philippines, when those islands were under Spanish rule, probably by a Chinese or possibly Filipino sculptor. It is likely to date from around 1700. Such ivories were usually made for export to Spain; the archangel St Michael, in the guise of a warrior, was frequently depicted.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "st-michael-statuette-unknown", 
+            "sys_updated": "2014-02-12 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 36412, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:00", 
+                        "priority": 0, 
+                        "image_id": "2006AD1389", 
+                        "sys_id": 31389, 
+                        "last_checked": "2014-03-31 17:16:00", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AD/2006AD1389.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104173, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:35", 
+                        "priority": 1, 
+                        "image_id": "2007BP9416", 
+                        "sys_id": 349416, 
+                        "last_checked": "2014-03-31 17:30:35", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BP/2007BP9416.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 2, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "China", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 5749, 
+                        "longitude": "104.16564900", 
+                        "source": "production", 
+                        "cis_id": "x29398", 
+                        "museumobject_image_count": 3223, 
+                        "latitude": "36.89445100", 
+                        "type": "country", 
+                        "slug": "china-x29398"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 290479, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 256681, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 290480, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2734
+                    }, 
+                    "fields": {
+                        "name": 2734, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 256681, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1704, 
+            "object_number": "O308903", 
+            "events": [], 
+            "credit": "Given by Dr W.L. Hildburgh F.S.A. in 1951", 
+            "history_note": "The object is said to have been in the Cook Collection previously (presumably the Art collector Sir Francis Cook, 1st Baronet (1817-1901), although no references to this item have been found in the Cook sale catalogues). The figure was classified as Portuguese when acquired, but it is more likely to be Chinese or Hispano-filipino. The oval face and heavily lidded eyes, as well as the curling locks of hair, recall similar features in Hispano-filipino ivories, as does the classical armour worn by the archangel.", 
+            "place": "China", 
+            "production_note": "Hispano-Filipino or Chinese", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

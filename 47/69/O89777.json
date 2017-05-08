@@ -1,0 +1,243 @@
+[
+    {
+        "pk": 55390, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.104-2003", 
+            "date_end": "1963-12-31", 
+            "labels": [], 
+            "descriptive_line": "Black and white photograph of a man in bathing trunks, eating an ice cream cone, photographed by Frank Horvat, Australia (Sydney), 1963", 
+            "shape": "", 
+            "longitude": "151.20695500", 
+            "year_start": 1963, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23877, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "men", 
+                        "museumobject_count": 3159, 
+                        "source": "object", 
+                        "cis_id": "25928", 
+                        "museumobject_image_count": 1353, 
+                        "type": "", 
+                        "slug": "men"
+                    }
+                }, 
+                {
+                    "pk": 4564, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "ice-cream", 
+                        "museumobject_count": 2, 
+                        "source": "object", 
+                        "cis_id": "x37335", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "ice-cream"
+                    }
+                }
+            ], 
+            "date_text": "1963 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Black and white photograph of a man in bathing trunks seated on steps and eating an ice cream cone.", 
+            "dimensions": "Height: 35.5 cm, Width: 24.1 cm", 
+            "title": "Sydney, 1963", 
+            "date_start": "1963-01-01", 
+            "materials_techniques": "gelatin-silver print", 
+            "last_processed": "2014-03-31 22:16:06", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 942, box A", 
+            "marks": "", 
+            "latitude": "-33.86962900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 103966, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "X", 
+                        "inventory_number": 704389, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "E.104-2003", 
+                        "museumobject": 55390, 
+                        "shelf": "942", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "e1042003", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 52170, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Horvat, Frank", 
+                        "gender": null, 
+                        "museumobject_count": 8, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11550", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1928-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "horvat-frank", 
+                        "birth_year": 1928
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 51798, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 3481
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 55390, 
+                        "role": "photographed", 
+                        "place": 3481, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1042003", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:16:06", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "sydney-1963-photograph-horvat-frank", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 3481, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5543
+                    }, 
+                    "fields": {
+                        "name": "Sydney", 
+                        "parent": 5543, 
+                        "country": "Australia", 
+                        "museumobject_count": 13, 
+                        "longitude": "151.20695500", 
+                        "source": "production", 
+                        "cis_id": "x37347", 
+                        "museumobject_image_count": 6, 
+                        "latitude": "-33.86962900", 
+                        "type": "city / town", 
+                        "slug": "sydney-australia-x37347"
+                    }
+                }
+            ], 
+            "artist": "Horvat, Frank", 
+            "namecontext_set": [
+                {
+                    "pk": 59952, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 52170
+                    }, 
+                    "fields": {
+                        "name": 52170, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 55390, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1963, 
+            "object_number": "O89777", 
+            "events": [], 
+            "credit": "Given by John and Judith Hillelson", 
+            "history_note": "", 
+            "place": "Sydney", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
