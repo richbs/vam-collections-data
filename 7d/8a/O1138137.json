@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 310073, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.517-2009", 
+            "date_end": "1970-12-31", 
+            "labels": [], 
+            "descriptive_line": "Wilfrid R. Addey (1912-1999). Gouache drawing looking across a bridge to a modern city.", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1960, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1960 to 1970 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Drawing in gouache looking across a bridge to high rise modern buildings in the distance. The bridge is under construction with beams sticking out to the centre of the composition from the left side.", 
+            "dimensions": "Height: 31.6 cm, Width: 54.3 cm", 
+            "title": "View looking across a bridge towards high rise buildings", 
+            "date_start": "1960-01-01", 
+            "materials_techniques": "Gouache drawing on cardboard", 
+            "last_processed": "2014-04-26 05:45:14", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 101, box A", 
+            "marks": "\"ADDEY\"", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 63, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "gouache", 
+                        "museumobject_count": 5009, 
+                        "source": "cis_materials", 
+                        "cis_id": "70114", 
+                        "museumobject_image_count": 2783, 
+                        "type": "", 
+                        "slug": "gouache"
+                    }
+                }, 
+                {
+                    "pk": 1790, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "board", 
+                        "museumobject_count": 173, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 49, 
+                        "type": "", 
+                        "slug": "board"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 417070, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "WD", 
+                        "inventory_number": 1416323, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.517-2009", 
+                        "museumobject": 310073, 
+                        "shelf": "101", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e5172009", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 43299, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1999-12-31", 
+                        "surname": "", 
+                        "name": "Wilfred R. Addey", 
+                        "gender": null, 
+                        "museumobject_count": 56, 
+                        "death_year": 1999, 
+                        "source": "object_production", 
+                        "cis_id": "A26078", 
+                        "museumobject_image_count": 53, 
+                        "forename": "", 
+                        "birth_date": "1912-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "addey-wilfrid-r", 
+                        "birth_year": 1912
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 234495, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 310073, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e5172009", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 05:45:14", 
+            "public_access_description": "Wilfrid R. Addey (1912-1999) worked as a commercial artist for over sixty years, working for Dorland Advertising and Mitchells among other London advertising firms. His work shows the range of products and illustration styles, from aeroplanes and cars, beer and perfume, to satirical cartoons and calendar pin-up girls and is representative of the post war boom in advertising during the late 1940s and 1950s.\n\nThis gouache drawing shows Addey taking inspiration from the changing modern world around him. The view point looks across a bridge to high rise buildings. There is a feeling of development from the geometric forms of beams of the bridge which is under construction. This is reflected in the angular application of gouache in the work.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "view-looking-across-a-bridge-drawing-addey-wilfrid-r", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Great Britain", 
+                        "museumobject_count": 44632, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13475, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-great-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Addey, Wilfrid R.", 
+            "namecontext_set": [
+                {
+                    "pk": 317071, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 43299
+                    }, 
+                    "fields": {
+                        "name": 43299, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 310073, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1970, 
+            "object_number": "O1138137", 
+            "events": [], 
+            "credit": "Given by K. D. and E. F. Law", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

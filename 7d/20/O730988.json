@@ -1,0 +1,283 @@
+[
+    {
+        "pk": 636920, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.3341-1938", 
+            "date_end": "1750-12-31", 
+            "labels": [], 
+            "descriptive_line": "Giuseppe Galli da Bibiena. A long gallery, preliminary design for a stage scene. Drawing of coffered vaulting on reverse. Second quarter 18th century. Pen, bistre and Indian ink.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1725, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "second quarter 18th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Design for a long gallery to form a stage set. On the reverse, a drawing of coffered vaulting", 
+            "dimensions": "Height: 8.8125 in, Width: 14.1875 in", 
+            "title": "", 
+            "date_start": "1725-01-01", 
+            "materials_techniques": "pen and ink and bistre", 
+            "last_processed": "2014-04-26 16:08:11", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case DT, shelf 32, box A", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 132, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "architectural drawing", 
+                        "museumobject_count": 1156, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54197", 
+                        "museumobject_image_count": 323, 
+                        "type": "", 
+                        "slug": "architectural-drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31965, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18774, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }, 
+                {
+                    "pk": 942, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "bistre", 
+                        "museumobject_count": 228, 
+                        "source": "cis_materials", 
+                        "cis_id": "13351", 
+                        "museumobject_image_count": 206, 
+                        "type": "", 
+                        "slug": "bistre"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 771670, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "DT", 
+                        "inventory_number": 1064411, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.3341-1938", 
+                        "museumobject": 636920, 
+                        "shelf": "32", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e33411938", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 39078, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1757-12-31", 
+                        "surname": "", 
+                        "name": "Giuseppe Galli Bibiena", 
+                        "gender": null, 
+                        "museumobject_count": 123, 
+                        "death_year": 1757, 
+                        "source": "object_production", 
+                        "cis_id": "A24835", 
+                        "museumobject_image_count": 38, 
+                        "forename": "", 
+                        "birth_date": "1696-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "galli-bibiena-giuseppe", 
+                        "birth_year": 1696
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 368422, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 636920, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e33411938", 
+            "object": "Design for a stage set", 
+            "categories": [
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14160, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4778, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 73110, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36746, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }, 
+                {
+                    "pk": 1614, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Theatre", 
+                        "museumobject_count": 4913, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 876, 
+                        "type": "", 
+                        "slug": "theatre"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:08:11", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1938</u>, London: Board of Education, 1939.\nThe full text of the record is as follows:\n\n<b>'GALLI DA BIBIENA, Giuseppe (1696-1756).</b>\n\nA long gallery. Preliminary design for a stage scene. Onb the back, part of a drawing showing coffered vaulting.\n<I>Inscribed in pencil with calculations.\nPen, bistre, and Indian ink wash.</i>\nE.3341-1938'", 
+            "vanda_exhibition_history": "", 
+            "slug": "design-for-a-giuseppe-galli-bibiena", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 13024, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5200, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Giuseppe Galli Bibiena", 
+            "namecontext_set": [
+                {
+                    "pk": 482025, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 39078
+                    }, 
+                    "fields": {
+                        "name": 39078, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 636920, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1750, 
+            "object_number": "O730988", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
