@@ -1,0 +1,331 @@
+[
+    {
+        "pk": 13193, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "805:1, 2 -1890", 
+            "date_end": "1764-05-28", 
+            "labels": [
+                {
+                    "pk": 4693, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 13193, 
+                        "label_text": "British Galleries:\nSome collectors preferred to collect one particular type of antique. Joseph Bond (died 1886), the owner of these candlesticks, liked silver made in Britain between 1700 and 1824. He sold part of his collection to the Museum in 1874 and lent more silver for display ten years later."
+                    }
+                }
+            ], 
+            "descriptive_line": "Silver, (one of a pair), London hallmarks for 1763-4, mark of Louis Black (possibly).", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1763, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1763-1764 (made)", 
+            "primary_image_id": "2006AM3146", 
+            "rights": 3, 
+            "physical_description": "Candlestick, one of a pair", 
+            "dimensions": "Height: 35 cm, Width: 15.4 cm base, Depth: 15.4 cm base", 
+            "title": "", 
+            "date_start": "1763-05-29", 
+            "materials_techniques": "Silver, with embossed and chased decoration", 
+            "last_processed": "2014-03-31 19:38:07", 
+            "label": "British Galleries:\nSome collectors preferred to collect one particular type of antique. Joseph Bond (died 1886), the owner of these candlesticks, liked silver made in Britain between 1700 and 1824. He sold part of his collection to the Museum in 1874 and lent more silver for display ten years later. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 123, case 10", 
+            "marks": "London hallmarks for 1763-1764\n Mark of Louis Black (possibly)", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 70, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "embossing", 
+                        "museumobject_count": 1202, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53826", 
+                        "museumobject_image_count": 437, 
+                        "type": "", 
+                        "slug": "embossing"
+                    }
+                }, 
+                {
+                    "pk": 65, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "chasing", 
+                        "museumobject_count": 963, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54016", 
+                        "museumobject_image_count": 745, 
+                        "type": "", 
+                        "slug": "chasing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 20030, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1000
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "10", 
+                        "inventory_number": 536473, 
+                        "room": "123", 
+                        "part_name": "Candlestick", 
+                        "museum_number": "805:1-1890", 
+                        "museumobject": 13193, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 123", 
+                        "museum_number_token": "80511890", 
+                        "gallery": 1000
+                    }
+                }, 
+                {
+                    "pk": 20031, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1000
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "10", 
+                        "inventory_number": 239638, 
+                        "room": "123", 
+                        "part_name": "Drip pan", 
+                        "museum_number": "805:2-1890", 
+                        "museumobject": 13193, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 123", 
+                        "museum_number_token": "80521890", 
+                        "gallery": 1000
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1000, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "123", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 123", 
+                        "site_code": "VA", 
+                        "museumobject_count": 72, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49217", 
+                        "museumobject_image_count": 72, 
+                        "type": "", 
+                        "slug": "123-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2913, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Black, Louis", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A8153", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "black-louis", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 14142, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 13193, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "8051890", 
+            "object": "Candlestick", 
+            "categories": [
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 78, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Lighting", 
+                        "museumobject_count": 1184, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 554, 
+                        "type": "", 
+                        "slug": "lighting"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:38:07", 
+            "public_access_description": "Object Type\nThe fluted columns and Corinthian capitals of this candlestick which is one of a pair (805A/1, 2-1890) are motifs characteristic of the Neo-classical style. They are particularly suitable for the vertical form of a candlestick.\n\nCollecting\nOne fascinating aspect in the history of collecting was the resurgent interest in the 18th century among collectors in the second half of the 19th century. Joseph Bond (died 1886) was typical of those who focused their collecting on one material and a particular period. The Museum was encouraged to formally acquire Bond's collection by the fact that 'the collection consists entirely of English plate dating from 1700 to 1824 and well illustrates the history of English silversmiths' work during that period'. The Bond Collection in the Museum consists of over 50 pieces, predominantly tableware and lighting that range in date from 1731 to 1834.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "candlestick-black-louis", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 4867, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-14 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:15", 
+                        "priority": 0, 
+                        "image_id": "2006AM3146", 
+                        "sys_id": 113146, 
+                        "last_checked": "2014-03-31 17:09:15", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM3146.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Black, Louis", 
+            "namecontext_set": [
+                {
+                    "pk": 13183, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2913
+                    }, 
+                    "fields": {
+                        "name": 2913, 
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 13193, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1764, 
+            "object_number": "O10901", 
+            "events": [], 
+            "credit": "Given by Joseph Bond", 
+            "history_note": "Possibly made in London by Louis Black (first recorded mark 1756)", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

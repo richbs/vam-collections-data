@@ -1,0 +1,365 @@
+[
+    {
+        "pk": 53943, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.123-1956", 
+            "date_end": "1704-12-31", 
+            "labels": [], 
+            "descriptive_line": "Medallion relief, ivory, portrait of David Melville 3rd Earl of Leven and 2nd Earl of Melville, by David Le Marchand, British, ca. 1696-1700", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1691, 
+            "exhibitions": [
+                {
+                    "pk": 842, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 1315, 
+                        "year_start": 1996, 
+                        "name": "David Le Marchand 1674-1726", 
+                        "date_end": "1996-05-06", 
+                        "museumobject_count": 15, 
+                        "venue": "National Gallery of Scotland, Edinburgh", 
+                        "date_start": "1996-03-07", 
+                        "year_end": 1996, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 15, 
+                        "type": "", 
+                        "slug": "david-le-marchand-1674-1726", 
+                        "date_text": "07/03/1996-06/05/1996"
+                    }
+                }, 
+                {
+                    "pk": 882, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 2673, 
+                        "year_start": 1991, 
+                        "name": "Virtue and Vision", 
+                        "date_end": "1991-09-15", 
+                        "museumobject_count": 3, 
+                        "venue": "Royal Scottish Academy", 
+                        "date_start": "1991-07-18", 
+                        "year_end": 1991, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "virtue-and-vision", 
+                        "date_text": "18/07/1991-15/09/1991"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 28131, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Melville, David (3rd Earl of Leven and 2nd Earl of Melville)", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N3596", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "melville-david-3rd-earl-of-leven-and-2nd-earl-of-melville"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1696 - ca. 1700 (made)", 
+            "primary_image_id": "2006AN6528", 
+            "rights": 3, 
+            "physical_description": "Oval-shaped ivory portrait medallion of David Melville in full bottom wig; wearing a draped cloak over a shirt with a lace collar; profile to the right; inscribed.", 
+            "dimensions": "Height: 8.25 cm, Width: 6.7 cm", 
+            "title": "David Melville, 3rd Earl of Leven and 2nd Earl of Mellville", 
+            "date_start": "1691-01-01", 
+            "materials_techniques": "Ivory", 
+            "last_processed": "2014-03-31 22:11:45", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR5", 
+            "marks": "'DAVID EARLE OF LEVEN'", 
+            "latitude": "54.31391900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 38, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ivory", 
+                        "museumobject_count": 2288, 
+                        "source": "cis_materials", 
+                        "cis_id": "11857", 
+                        "museumobject_image_count": 1575, 
+                        "type": "", 
+                        "slug": "ivory"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 101927, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR5", 
+                        "inventory_number": 88586, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.123-1956", 
+                        "museumobject": 53943, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a1231956", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1724, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1726-12-31", 
+                        "surname": "", 
+                        "name": "Le Marchand, David", 
+                        "gender": null, 
+                        "museumobject_count": 16, 
+                        "death_year": 1726, 
+                        "source": "object_production", 
+                        "cis_id": "A8602", 
+                        "museumobject_image_count": 16, 
+                        "forename": "", 
+                        "birth_date": "1674-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "le-marchand-david", 
+                        "birth_year": 1674
+                    }
+                }, 
+                {
+                    "pk": 9987, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1728-12-31", 
+                        "surname": "", 
+                        "name": "Melville, David (3rd Earl of Leven and 2nd Earl of Melville)", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1728, 
+                        "source": "content", 
+                        "cis_id": "N3596", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1660-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "melville-david-3rd-earl-of-leven-and-2nd-earl-of-melville", 
+                        "birth_year": 1660
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 50461, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53943, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a1231956", 
+            "object": "Relief", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:11:45", 
+            "public_access_description": "This is an ivory portrait representing David Melville, third Earl of Leven and second Earl of Melville (1660-1728) and is carved by David Le Marchand (1674-1726), in England in ca. 1696-1700.\nDavid Le Marchand was famed for his ivory carvings, particularly his portraits. He was a native of Dieppe, France, and came from a Huguenot, or Protestant, family. With the Revocation of the Edict of Nantes in 1685, and the consequent persecution of non-Catholics, he had to flee France. He was next recorded in Edinburgh in 1696, where he is documented as receiving official permission to open a shop and take on apprentices. He was in London by 1700, when he started to achieve a reputation for his portraits. Despite his wide circle of important patrons and his evident success, Le Marchand apparently died in poverty, though the exact reasons for this are unknown. He is recognised as the most distinguished ivory carver to have worked in England in the early 18th century, a period when the art enjoyed a popularity unknown since the Middle Ages.\n\nThe subject David Melville, who was a military commander. In 1685 he entered the service of the Elector of Brandenburg as Captain of Horse, and was appointed Colonel two years later. He took an active part in promoting the succession of Queen Anne in 1702. After the Act of Union he was chosen as a representative peer for Scotland, but in 1712 he was deprived of all his offices by the Tory administration. Both the 3rd Earl of Leven and his father, the 1st Earl of Melville, showed an interest in art.", 
+            "exhibition_history": "David Le Marchand 1674-1726 (City Art Gallery, Leeds 21/10/1996-05/01/1997)\nDavid Le Marchand 1674-1726 (British Museum 23/05/1996-15/09/1996)\nDavid Le Marchand 1674-1726 (National Gallery of Scotland, Edinburgh 07/03/1996-06/05/1996)\nVirtue and Vision (Royal Scottish Academy 18/07/1991-15/09/1991)", 
+            "bibliography": "Avery, Charles. <u>David le Marchand, 1674-1726 : \"an ingenious man for carving in ivory\".</u> London : Lund Humphries, 1996, pp. 53 & 54\nRoscoe, I., with Sullivan, M.G. and Hardy, E., <u>A Biographical Dictionary of Sculptors in Britain, 1660 to 1851</u>, New Haven, 2009, p. 729\nTrusted, Marjorie, <u>Baroque & Later Ivories</u>, Victoria & Albert Museum, London, 2013, cat. no. 135", 
+            "vanda_exhibition_history": "", 
+            "slug": "david-melville-3rd-earl-of-relief-le-marchand-david", 
+            "sys_updated": "2013-09-13 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 13293, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-11-30 00:00:00", 
+                        "last_processed": "2014-03-31 17:11:02", 
+                        "priority": 0, 
+                        "image_id": "2006AN6528", 
+                        "sys_id": 126528, 
+                        "last_checked": "2014-03-31 17:11:02", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AN/2006AN6528.jpg"
+                    }
+                }, 
+                {
+                    "pk": 37508, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:14", 
+                        "priority": 1, 
+                        "image_id": "2006AE3944", 
+                        "sys_id": 43944, 
+                        "last_checked": "2014-03-31 17:16:14", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE3944.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Le Marchand, David", 
+            "namecontext_set": [
+                {
+                    "pk": 58589, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1724
+                    }, 
+                    "fields": {
+                        "name": 1724, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53943, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 58590, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 9987
+                    }, 
+                    "fields": {
+                        "name": 9987, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53943, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1704, 
+            "object_number": "O89504", 
+            "events": [], 
+            "credit": "Bequeathed by Dr W. L. Hildburgh FSA", 
+            "history_note": "Given by Dr. W. L. Hildburgh, F. S. A., 1956. Formerly in the collection of S. Hand Esq., and sold at Sotheby's, London, 3 November 1955, lot 9, for \u00a310.", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
