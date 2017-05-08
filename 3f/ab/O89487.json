@@ -1,0 +1,370 @@
+[
+    {
+        "pk": 53405, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.58-1956", 
+            "date_end": "1644-12-31", 
+            "labels": [], 
+            "descriptive_line": "Statuette, bronze, Venus and Adonis, workshop of Francesco Fanelli (active 1609-1665), Anglo-Italian, ca. 1640", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1635, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23957, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Venus", 
+                        "museumobject_count": 363, 
+                        "source": "name", 
+                        "cis_id": "N25", 
+                        "museumobject_image_count": 274, 
+                        "type": "", 
+                        "slug": "venus"
+                    }
+                }, 
+                {
+                    "pk": 25741, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Adonis", 
+                        "museumobject_count": 49, 
+                        "source": "name", 
+                        "cis_id": "N159", 
+                        "museumobject_image_count": 36, 
+                        "type": "", 
+                        "slug": "adonis"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1640 (made)", 
+            "primary_image_id": "2006AE9280", 
+            "rights": 3, 
+            "physical_description": "Venus, semi-nude and seated on a tree-trunk (?), grasps Adonis, dressed in hunting gear with two hounds, around the waist and gazes up at him lovingly.", 
+            "dimensions": "Height: 15.2 cm", 
+            "title": "Venus and Adonis", 
+            "date_start": "1635-01-01", 
+            "materials_techniques": "Bronze", 
+            "last_processed": "2014-03-31 22:10:03", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 4", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 101296, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 89048, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.58-1956", 
+                        "museumobject": 53405, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a581956", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1721, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1664-12-31", 
+                        "surname": "", 
+                        "name": "Francesco Fanelli", 
+                        "gender": null, 
+                        "museumobject_count": 42, 
+                        "death_year": 1664, 
+                        "source": "object_production", 
+                        "cis_id": "A8376", 
+                        "museumobject_image_count": 38, 
+                        "forename": "", 
+                        "birth_date": "1572-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "fanelli-francesco", 
+                        "birth_year": 1572
+                    }
+                }, 
+                {
+                    "pk": 54, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Venus", 
+                        "gender": null, 
+                        "museumobject_count": 359, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N25", 
+                        "museumobject_image_count": 273, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "venus", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 4022, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Adonis", 
+                        "gender": null, 
+                        "museumobject_count": 49, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N159", 
+                        "museumobject_image_count": 36, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "adonis", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 49971, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53405, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a581956", 
+            "object": "Statuette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 46, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Myths & Legends", 
+                        "museumobject_count": 2183, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1013, 
+                        "type": "", 
+                        "slug": "myths-legends"
+                    }
+                }, 
+                {
+                    "pk": 52, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 307, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 156, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:10:03", 
+            "public_access_description": "Bronzes often exist in a number of versions, made over many decades or even centuries. This is achieved through a variety of means, such as changes in the wax, new moulds taken from an existing bronze or the reuse of the existing model.This statuette of Venus, the Roman goddess of love and fertility, restraining the beautiful youth Adonis and (inv.no. A.118-1910) were probably cast from the same moulds. Fanelli varied the composition of his small bronzes by making changes to the wax. There are a number of small differences between these two groups, particularly in the dogs on the left and the slain boars on the right.\nVenus, the Roman goddess of Love and Fertility and mother of Cupid, fell in love with Adonis after being accidentially grazed Cupid's arrow. Adonis was killed by a wild boar while out hunting and is usually shown with his hounds and prey.", 
+            "exhibition_history": "", 
+            "bibliography": "Penny, Nicholas. <u>Catalogue of European Sculpture in the Ashmolean Museum</u>, Vol III, Oxford, 1992, p. 62\nTrusted, Marjorie, ed. <u>The Making of Sculpture. The Materials and Techniques of European Sculpture</u>. London: 2007, p. 58, pl. 93", 
+            "vanda_exhibition_history": "", 
+            "slug": "venus-and-adonis-statuette-fanelli-francesco", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 39483, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:39", 
+                        "priority": 0, 
+                        "image_id": "2006AE9280", 
+                        "sys_id": 49280, 
+                        "last_checked": "2014-03-31 17:16:39", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE9280.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Fanelli, Francesco", 
+            "namecontext_set": [
+                {
+                    "pk": 57923, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1721
+                    }, 
+                    "fields": {
+                        "name": 1721, 
+                        "part_name": "", 
+                        "uncertainty": "workshop of", 
+                        "museumobject": 53405, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 57924, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 54
+                    }, 
+                    "fields": {
+                        "name": 54, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53405, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 57925, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4022
+                    }, 
+                    "fields": {
+                        "name": 4022, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 53405, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1644, 
+            "object_number": "O89487", 
+            "events": [], 
+            "credit": "Bequeathed by Dr W. L. Hildburgh FSA", 
+            "history_note": "Given by Dr. W. L. Hildburgh, F. S. A., 1956.", 
+            "place": "London", 
+            "production_note": "Anglo-Italian", 
+            "historical_context_note": "A version of this composition was among the small-scale sculpture placed on the window sills of the throne room at Whitehall in the 1640s.", 
+            "collection_code": "SCP"
+        }
+    }
+]
