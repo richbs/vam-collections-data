@@ -1,0 +1,292 @@
+[
+    {
+        "pk": 7631, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.136-1953", 
+            "date_end": "1909-12-31", 
+            "labels": [], 
+            "descriptive_line": "Vase, designed by A. Stainer, made by Stuart & Sons, England (Stourbridge), 1900-1910", 
+            "shape": "", 
+            "longitude": "-2.14782900", 
+            "year_start": 1900, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1905 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Vase, glass with green trails.", 
+            "dimensions": "Height: 38.7 cm, Width: 10.5 cm maximum", 
+            "title": "", 
+            "date_start": "1900-01-01", 
+            "materials_techniques": "Glass with green trails", 
+            "last_processed": "2014-03-31 19:13:47", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 24, shelf 3", 
+            "marks": "", 
+            "latitude": "52.45419500", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 15, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Victorian", 
+                        "museumobject_count": 8255, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29321", 
+                        "museumobject_image_count": 6056, 
+                        "type": "", 
+                        "slug": "victorian"
+                    }
+                }, 
+                {
+                    "pk": 130, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Art Nouveau", 
+                        "museumobject_count": 446, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21430", 
+                        "museumobject_image_count": 306, 
+                        "type": "", 
+                        "slug": "art-nouveau"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 8879, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "24", 
+                        "inventory_number": 358594, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.136-1953", 
+                        "museumobject": 7631, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "circ1361953", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1463, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Stainer, A.", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A932", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "stainer-a", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 1001, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Stuart & Sons Ltd", 
+                        "gender": null, 
+                        "museumobject_count": 22, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A403", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "stuart-sons-ltd", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 8374, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 324
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 7631, 
+                        "role": "made", 
+                        "place": 324, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ1361953", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 81, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Vases", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 942, 
+                        "type": "", 
+                        "slug": "vases"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:13:47", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-stainer-a", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 324, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 546
+                    }, 
+                    "fields": {
+                        "name": "Stourbridge", 
+                        "parent": 546, 
+                        "country": "England", 
+                        "museumobject_count": 203, 
+                        "longitude": "-2.14782900", 
+                        "source": "production", 
+                        "cis_id": "x29187", 
+                        "museumobject_image_count": 57, 
+                        "latitude": "52.45419500", 
+                        "type": "city/town", 
+                        "slug": "stourbridge-england-x29187"
+                    }
+                }
+            ], 
+            "artist": "Stainer, A.", 
+            "namecontext_set": [
+                {
+                    "pk": 6521, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1463
+                    }, 
+                    "fields": {
+                        "name": 1463, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 7631, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 6522, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1001
+                    }, 
+                    "fields": {
+                        "name": 1001, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 7631, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1909, 
+            "object_number": "O6196", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Stourbridge", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
