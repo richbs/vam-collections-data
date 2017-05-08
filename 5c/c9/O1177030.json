@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 1055544, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.12-2011", 
+            "date_end": "2010-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 2010, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "2010 (printed)", 
+            "primary_image_id": "2011EW4920", 
+            "rights": 3, 
+            "physical_description": "A sample of William Morris 'Vine' wallpaper (a modern reprint) overprinted with a repeated red and black striped/geometric motif.", 
+            "dimensions": "Height: 70 cm, Width: 52 cm", 
+            "title": "Liubov Popova Untitled Textile Design on William Morris Wallpaper for HM", 
+            "date_start": "2010-01-01", 
+            "materials_techniques": "Screenprint on wallpaper", 
+            "last_processed": "2014-04-27 03:51:54", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case LP, shelf 30", 
+            "marks": "David Mabb 98/100", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1241097, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "LP", 
+                        "inventory_number": 1453940, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.12-2011", 
+                        "museumobject": 1055544, 
+                        "shelf": "30", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e122011", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 33361, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "David Mabb", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A19472", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1959-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mabb-david", 
+                        "birth_year": 1959
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 464907, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1055544, 
+                        "role": "printed", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e122011", 
+            "object": "print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 23, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Textiles", 
+                        "museumobject_count": 49001, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10808, 
+                        "type": "", 
+                        "slug": "textiles"
+                    }
+                }, 
+                {
+                    "pk": 48, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Wall coverings", 
+                        "museumobject_count": 10191, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2274, 
+                        "type": "", 
+                        "slug": "wall-coverings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 03:51:54", 
+            "public_access_description": "This print is one of 100 Mabb has made as a fundraising exercise for the journal Historical Materialism.\n\nFor some years now, David Mabb has been engaged in a kind of posthumous collaboration with William Morris, using Morris fabrics and wallpapers as sources of inspiration, and also using them as grounds for paintings or incorporating them into printed works, as here.  Mabb's interest in Morris focuses not only on the design of his patterns but also the inherent contradictions between Morris's political beliefs - he was a campaigning Socialist - and his practice as a designer and business-man - he made his living creating luxury goods that were affordable only by the upper middle-classes. \n\nIn this print Mabb contrasts the political philosophies and design practices of two artists who held Socialist views and produced designs intended to enhance the lives of the labouring classes. Each used pattern design as a medium to promote different forms of socialism and utopian enterprise. Morris's designs were hand-printed (and thus labour-intensive and costly), and his patterns were invariably flower and foliage designs suggestive of a nostalgia for rural life; Liubov Popova (1889-1924) was a member of the Russian Constructivist group of artists who promoted a radical socialism and produced a number of textile designs which were to be machine-printed (and therefore cheap), with simple abstract motifs. Mabb unites the craft aesthetic of Morris with the machine aesthetic of Popova.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "liubov-popova-untitled-textile-design-print-mabb-david", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 258989, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-02-25 00:00:00", 
+                        "last_processed": "2014-04-25 14:37:35", 
+                        "priority": 0, 
+                        "image_id": "2011EW4920", 
+                        "sys_id": 1024920, 
+                        "last_checked": "2014-04-25 14:37:35", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2011EW/2011EW4920.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Mabb, David", 
+            "namecontext_set": [
+                {
+                    "pk": 646630, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 33361
+                    }, 
+                    "fields": {
+                        "name": 33361, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1055544, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2010, 
+            "object_number": "O1177030", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,279 @@
+[
+    {
+        "pk": 1092970, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.9-1953", 
+            "date_end": "1887-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour depicting San Giorgio, Venice, by William Callow, R.W.S.  Ca. 1883.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1878, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 187, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Venice", 
+                        "museumobject_count": 225, 
+                        "source": "place", 
+                        "cis_id": "x29237", 
+                        "museumobject_image_count": 72, 
+                        "type": "", 
+                        "slug": "venice"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1883 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Painting depicting San Giorgio, Venice.  Signed and dated 'Wm Callow 188[3?]' and inscribed on the back 'No 8 St Giorgio. Venice'.", 
+            "dimensions": "Height: 22.23 cm, Width: 35.24 cm", 
+            "title": "San Giorgio, Venice", 
+            "date_start": "1878-01-01", 
+            "materials_techniques": "Watercolour", 
+            "last_processed": "2014-04-27 04:57:19", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 7, box A", 
+            "marks": "'Wm Callow 188[3?]'\n 'No 8 St Giorgio. Venice'", 
+            "latitude": "42.50299800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1280049, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "WD", 
+                        "inventory_number": 1489714, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "P.9-1953", 
+                        "museumobject": 1092970, 
+                        "shelf": "7", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "p91953", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 58404, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1908-12-31", 
+                        "surname": "", 
+                        "name": "Callow", 
+                        "gender": null, 
+                        "museumobject_count": 232, 
+                        "death_year": 1908, 
+                        "source": "object_production", 
+                        "cis_id": "A36126", 
+                        "museumobject_image_count": 67, 
+                        "forename": "", 
+                        "birth_date": "1812-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "callow-william", 
+                        "birth_year": 1812
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 470158, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 1092970, 
+                        "role": "painted", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 470159, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 41
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1092970, 
+                        "role": "subject", 
+                        "place": 41, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p91953", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18756, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11926, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 04:57:19", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1953 </u> London: HMSO, 1963\nThe full text of the entry is as follows: \n\n\"<b>CALLOW, William, R.W.S. (1812-1908)</b> \n\nSan Giorgio, Venice. \n<i>Signed and dated</i> Wm Callow 188[3?].  <i>Inscribed on the back</i> No 8 St Giorgio. Venice. \n<i>Water-colour.</i>              P.9-1953 \n\nBequeathed in memory of Alexander Allan Paton, C.B. by his sister Mary Paton\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "san-giorgio-venice-watercolour-callow-william", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 13024, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5200, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }, 
+                {
+                    "pk": 41, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2463
+                    }, 
+                    "fields": {
+                        "name": "Venice (city)", 
+                        "parent": 2463, 
+                        "country": "Italy", 
+                        "museumobject_count": 1884, 
+                        "longitude": "12.31849000", 
+                        "source": "production", 
+                        "cis_id": "x29237", 
+                        "museumobject_image_count": 940, 
+                        "latitude": "45.43825100", 
+                        "type": "city / town", 
+                        "slug": "venice-city-italy-x29237"
+                    }
+                }
+            ], 
+            "artist": "Callow, William", 
+            "namecontext_set": [
+                {
+                    "pk": 655666, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 58404
+                    }, 
+                    "fields": {
+                        "name": 58404, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1092970, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1887, 
+            "object_number": "O1222964", 
+            "events": [], 
+            "credit": "Bequeathed in memory of Alexander Allan Paton, C.B. by his sister Mary Paton", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

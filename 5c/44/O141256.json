@@ -1,0 +1,373 @@
+[
+    {
+        "pk": 110712, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "T.105,A-D-1976", 
+            "date_end": "1963-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1963, 
+            "exhibitions": [
+                {
+                    "pk": 732, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2006, 
+                        "name": "Sixties Fashion", 
+                        "date_end": "2006-12-31", 
+                        "museumobject_count": 74, 
+                        "venue": "v&a", 
+                        "date_start": "2006-01-01", 
+                        "year_end": 2006, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 60, 
+                        "type": "", 
+                        "slug": "sixties-fashion", 
+                        "date_text": "2006"
+                    }
+                }, 
+                {
+                    "pk": 471, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 1837, 
+                        "year_start": 1973, 
+                        "name": "Mary Quant's London", 
+                        "date_end": "1973-12-31", 
+                        "museumobject_count": 15, 
+                        "venue": "Museum of London", 
+                        "date_start": "1973-01-01", 
+                        "year_end": 1973, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "mary-quants-london", 
+                        "date_text": "1973"
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "1963 (designed)\n1973 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Ginger wool sleeveless pinafore dress with striped bodice, cutaway armholes and low V-neck, laced front, worn over black wool roll-necked jumper, with matching hat and boots", 
+            "dimensions": "", 
+            "title": "Snob", 
+            "date_start": "1963-01-01", 
+            "materials_techniques": "wool", 
+            "last_processed": "2014-04-01 02:17:03", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Ready to wear", 
+            "collections": [
+                {
+                    "pk": 8, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "T&F", 
+                        "name": "Textiles and Fashion Collection", 
+                        "museumobject_count": 71437, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 14830, 
+                        "type": "", 
+                        "slug": "tf"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "'MARY QUANT / MADE IN GREAT BRITAIN'", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 42, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wool", 
+                        "museumobject_count": 2874, 
+                        "source": "cis_materials", 
+                        "cis_id": "243430", 
+                        "museumobject_image_count": 1246, 
+                        "type": "", 
+                        "slug": "wool"
+                    }
+                }, 
+                {
+                    "pk": 9, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "metal", 
+                        "museumobject_count": 2422, 
+                        "source": "cis_materials", 
+                        "cis_id": "10900", 
+                        "museumobject_image_count": 854, 
+                        "type": "", 
+                        "slug": "metal"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 178967, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 489372, 
+                        "room": "", 
+                        "part_name": "Dress", 
+                        "museum_number": "T.105-1976", 
+                        "museumobject": 110712, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "t1051976", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 178968, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 493224, 
+                        "room": "", 
+                        "part_name": "Hat", 
+                        "museum_number": "T.105A-1976", 
+                        "museumobject": 110712, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "t105a1976", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 178969, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 489371, 
+                        "room": "", 
+                        "part_name": "Jumper", 
+                        "museum_number": "T.105B-1976", 
+                        "museumobject": 110712, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "t105b1976", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 178970, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 500725, 
+                        "room": "", 
+                        "part_name": "Boot [1]", 
+                        "museum_number": "T.105C-1976", 
+                        "museumobject": 110712, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "t105c1976", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 178971, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 500724, 
+                        "room": "", 
+                        "part_name": "Boot [2]", 
+                        "museum_number": "T.105D-1976", 
+                        "museumobject": 110712, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "t105d1976", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 259, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Quant, Mary", 
+                        "gender": null, 
+                        "museumobject_count": 61, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A2349", 
+                        "museumobject_image_count": 27, 
+                        "forename": "", 
+                        "birth_date": "1934-02-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "quant", 
+                        "birth_year": 1934
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 108547, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 110712, 
+                        "role": "retailed", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "t1051976", 
+            "object": "Ensemble (dress, hat & boots)", 
+            "categories": [
+                {
+                    "pk": 28, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Clothing", 
+                        "museumobject_count": 26643, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 18390, 
+                        "type": "", 
+                        "slug": "clothing"
+                    }
+                }, 
+                {
+                    "pk": 60, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Fashion", 
+                        "museumobject_count": 43998, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31725, 
+                        "type": "", 
+                        "slug": "fashion"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:17:03", 
+            "public_access_description": "", 
+            "exhibition_history": "Sixties Fashion (Victoria and Albert Museum 01/01/2006-31/12/2006)\nMary Quant's London (Museum of London 01/01/1973-31/12/1973)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "snob-ensemble-dress-hat-mary-quant", 
+            "sys_updated": "2014-03-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Mary Quant", 
+            "namecontext_set": [
+                {
+                    "pk": 132801, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 259
+                    }, 
+                    "fields": {
+                        "name": 259, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 110712, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1963, 
+            "object_number": "O141256", 
+            "events": [], 
+            "credit": "Given by Mary Quant", 
+            "history_note": "Snob was a key outfit from Mary Quant's first collection for her Ginger Group label, and one of the most influential of her designs. This is not the actual dress featured in the Museum of London retrospective as number 26, being a Quant-made 1973 replica", 
+            "place": "London", 
+            "production_note": "Remade in 1973 for Museum of London retrospective", 
+            "historical_context_note": "", 
+            "collection_code": "T&F"
+        }
+    }
+]
