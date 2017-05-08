@@ -1,0 +1,286 @@
+[
+    {
+        "pk": 1000031, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "7776", 
+            "date_end": "1849-12-31", 
+            "labels": [], 
+            "descriptive_line": "Copy by Ludwig Gruner of murals in the Chapel of St Pietro Martire, St. Eustorgio, Milan", 
+            "shape": "", 
+            "longitude": "9.16772600", 
+            "year_start": 1840, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48424, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Churches", 
+                        "museumobject_count": 1707, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 646, 
+                        "type": "", 
+                        "slug": "churches"
+                    }
+                }, 
+                {
+                    "pk": 4615, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Milan (city)", 
+                        "museumobject_count": 14, 
+                        "source": "place", 
+                        "cis_id": "x29007", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "milan-city"
+                    }
+                }
+            ], 
+            "date_text": "circa 1845 (made)", 
+            "primary_image_id": "2009CC1877", 
+            "rights": 3, 
+            "physical_description": "Interior view of the Chapel of St Peter Martyr (also known as the Portinari Chapel) at the Basillica of Sant'Eustorgio, Milan. Internally the chapel has architectural features that bear similarity to Brunelleschi's Old Sacristy at San Lorenzo and is articulated with a system of pilasters and arches, in places richly decorated with formal motifs. Between the arches can be seen three of the four frescoed pendentives by Vincenzo Foppa of the Four Doctors of the Church. The remainder of Foppa's frescoes remain hidden (they were not rediscovered until 1878), except for a small fragment to the left of the right-hand window.", 
+            "dimensions": "Height: 63.2 cm, Width: 43.8 cm", 
+            "title": "Interior view of the Chapel of St Peter Martyr, St Eustorgio, Milan", 
+            "date_start": "1840-01-01", 
+            "materials_techniques": "pencil and gouache", 
+            "last_processed": "2014-04-27 01:16:45", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case A, shelf 2", 
+            "marks": "Inscribed 'Capella di St. Pietro Martire fresco alla Chiesa de Sant' Eustorgio a Milano / del Michelozzo' and with scale.", 
+            "latitude": "45.43330300", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1135317, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "A", 
+                        "inventory_number": 430023, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "7776", 
+                        "museumobject": 1000031, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "7776", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 50420, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1882-12-31", 
+                        "surname": "", 
+                        "name": "Ludwig Gruner", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1882, 
+                        "source": "object_production", 
+                        "cis_id": "A8457", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1801-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "ludwig-gruner", 
+                        "birth_year": 1801
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 441722, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 45
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1000031, 
+                        "role": "made", 
+                        "place": 45, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 441723, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 45
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1000031, 
+                        "role": "subject", 
+                        "place": 45, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "7776", 
+            "object": "Design", 
+            "categories": [
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14160, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4778, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 73110, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36746, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 01:16:45", 
+            "public_access_description": "Wilhelm Heinrich Ludwig Gruner (1801-82) acted as artistic advisor to Prince Albert from 1841 to 1855 and encouraged his taste for early German and Italian art. During this time Gruner acquired, commissioned and designed works of art and also directed decoration projects at Buckingham Palace and Osborne House. He was formally appointed the Queen\u2019s Advisor in Art in July 1845 and acquired more than sixty paintings and sculptures for the Royal Collection. Despite returning to his native Dresden in 1856, he returned to England to design the mausoleum erected at Frogmore following the deaths of the Duchess of Kent and Prince Albert.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "interior-view-of-the-chapel-design-ludwig-gruner", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 162015, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-04-25 14:19:59", 
+                        "priority": 0, 
+                        "image_id": "2009CC1877", 
+                        "sys_id": 441877, 
+                        "last_checked": "2014-04-25 14:19:59", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CC/2009CC1877.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 45, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1062
+                    }, 
+                    "fields": {
+                        "name": "Milan", 
+                        "parent": 1062, 
+                        "country": "Italy", 
+                        "museumobject_count": 406, 
+                        "longitude": "9.16772600", 
+                        "source": "production", 
+                        "cis_id": "x29007", 
+                        "museumobject_image_count": 245, 
+                        "latitude": "45.43330300", 
+                        "type": "city / town", 
+                        "slug": "milan-italy-x29007"
+                    }
+                }
+            ], 
+            "artist": "Ludwig Gruner", 
+            "namecontext_set": [
+                {
+                    "pk": 572611, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 50420
+                    }, 
+                    "fields": {
+                        "name": 50420, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1000031, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1849, 
+            "object_number": "O1110011", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "The design is an original drawing for 'Descriptions of the plates of Fresco decorations and stuccoes of churches and palaces in Italy during the fifteenth and sixteenth centuries' by Lewis Gruner, 1844", 
+            "place": "Milan", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

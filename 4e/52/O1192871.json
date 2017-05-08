@@ -1,0 +1,434 @@
+[
+    {
+        "pk": 215132, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FE.16:1, 2-2011", 
+            "date_end": "1926-12-31", 
+            "labels": [], 
+            "descriptive_line": "Cloisonn\u00e9 enamel vase decorated with fish, Nagoya, Japan, c.1912-26 \n[Stand] Stand for vase with detailing.", 
+            "shape": "", 
+            "longitude": "136.92622400", 
+            "year_start": 1907, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "c.1912-26 (made)\n20th century (made)\nca. 1912-26 (made)", 
+            "primary_image_id": "2006AC6549", 
+            "rights": 3, 
+            "physical_description": "Cloisonn\u00e9 enamel vase decorated with fish. This vase has an applied silver rim and base-plate.\n[Stand] Stand for vase.\n[Vase] Vase decorated with goldfish and pondweed in various colours of shaded enamel on a pale translucent blue-green ground.", 
+            "dimensions": "Height: 9 cm, Width: 8 cm\n[Vase] Height: 9 cm, Width: 8 cm", 
+            "title": "", 
+            "date_start": "1907-01-01", 
+            "materials_techniques": "This vase has an applied silver rim and base-plate. The background is translucent <i>shotai-jippo </i>(the metal body is dissolved after firing and polishing) while the fish are formed from the silver <i>yusen</i> (with wires) technique.", 
+            "last_processed": "2014-04-26 02:27:45", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 2, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "EAS", 
+                        "name": "Far Eastern Collection", 
+                        "museumobject_count": 78162, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 38235, 
+                        "type": "", 
+                        "slug": "eas"
+                    }
+                }
+            ], 
+            "location": "Japan, room 45, case 12", 
+            "marks": "", 
+            "latitude": "35.14986000", 
+            "techniques": [
+                {
+                    "pk": 74, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "enamelling", 
+                        "museumobject_count": 1218, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x37485", 
+                        "museumobject_image_count": 868, 
+                        "type": "", 
+                        "slug": "enamelling"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8175, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3508, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }, 
+                {
+                    "pk": 10, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wood", 
+                        "museumobject_count": 3518, 
+                        "source": "cis_materials", 
+                        "cis_id": "11914", 
+                        "museumobject_image_count": 1499, 
+                        "type": "", 
+                        "slug": "wood"
+                    }
+                }, 
+                {
+                    "pk": 1071, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cloisonn\u00e9 enamel", 
+                        "museumobject_count": 91, 
+                        "source": "cis_materials", 
+                        "cis_id": "x39039", 
+                        "museumobject_image_count": 86, 
+                        "type": "", 
+                        "slug": "cloisonne-enamel"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 296204, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 1455619, 
+                        "room": "", 
+                        "part_name": "Stand", 
+                        "museum_number": "FE.16:2-2011", 
+                        "museumobject": 215132, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "fe1622011", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 296205, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 418
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "12", 
+                        "inventory_number": 1455618, 
+                        "room": "45", 
+                        "part_name": "Vase", 
+                        "museum_number": "FE.16:1-2011", 
+                        "museumobject": 215132, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Japan, room 45", 
+                        "museum_number_token": "fe1612011", 
+                        "gallery": 418
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 418, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "45", 
+                        "site_name": "", 
+                        "name": "Japan, room 45", 
+                        "site_code": "VA", 
+                        "museumobject_count": 591, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49801", 
+                        "museumobject_image_count": 337, 
+                        "type": "", 
+                        "slug": "45-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Unknown", 
+                        "gender": null, 
+                        "museumobject_count": 143046, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58959, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 191805, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 466
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 215132, 
+                        "role": "made", 
+                        "place": 466, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 191806, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 215132, 
+                        "role": "made", 
+                        "place": 2, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 191807, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 17
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 215132, 
+                        "role": "made", 
+                        "place": 17, 
+                        "order": 3
+                    }
+                }, 
+                {
+                    "pk": 191808, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 466
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 215132, 
+                        "role": "made", 
+                        "place": 466, 
+                        "order": 4
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fe162011", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 3, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Containers", 
+                        "museumobject_count": 4843, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2700, 
+                        "type": "", 
+                        "slug": "containers"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24796, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10870, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 81, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Vases", 
+                        "museumobject_count": 1990, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 953, 
+                        "type": "", 
+                        "slug": "vases"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 02:27:45", 
+            "public_access_description": "The left-hand vase has an applied silver rim and base plate; the right-hand vase has a chrome-plated rim and base plate, both of which are slightly tarnished. There are small circular and semi-circular cloisons around the base plates and rims, those around the rims resembling bubbles rising to the surface. Both vases have silver yusen designs of fringe-tail goldfish (perhaps of the type known as ryukin) and pondweed in various colours of shaded enamel on a pale translucent blue-green shotai-jippo ground. The thick and heavy enamel ground on both vases creates the effect of looking at fish as if through water.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-unknown", 
+            "sys_updated": "2013-08-16 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 34764, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-04-25 13:57:37", 
+                        "priority": 0, 
+                        "image_id": "2006AC6549", 
+                        "sys_id": 26549, 
+                        "last_checked": "2014-04-25 13:57:37", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AC/2006AC6549.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 466, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3149
+                    }, 
+                    "fields": {
+                        "name": "Nagoya", 
+                        "parent": 3149, 
+                        "country": "Japan", 
+                        "museumobject_count": 203, 
+                        "longitude": "136.92622400", 
+                        "source": "production", 
+                        "cis_id": "x32167", 
+                        "museumobject_image_count": 180, 
+                        "latitude": "35.14986000", 
+                        "type": "city / town", 
+                        "slug": "nagoya-japan-x32167"
+                    }
+                }, 
+                {
+                    "pk": 2, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "China", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 5846, 
+                        "longitude": "104.16564900", 
+                        "source": "production", 
+                        "cis_id": "x29398", 
+                        "museumobject_image_count": 3224, 
+                        "latitude": "36.89445100", 
+                        "type": "country", 
+                        "slug": "china-x29398"
+                    }
+                }, 
+                {
+                    "pk": 17, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Japan", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 4047, 
+                        "longitude": "139.83828700", 
+                        "source": "production", 
+                        "cis_id": "x29399", 
+                        "museumobject_image_count": 1987, 
+                        "latitude": "37.48759800", 
+                        "type": "country", 
+                        "slug": "japan-x29399"
+                    }
+                }
+            ], 
+            "artist": "unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 267617, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 215132, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 267618, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 215132, 
+                        "role": "maker", 
+                        "order": 2
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1926, 
+            "object_number": "O1192871", 
+            "events": [], 
+            "credit": "Gift of Edwin Davies", 
+            "history_note": "", 
+            "place": "Nagoya", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "EAS"
+        }
+    }
+]
