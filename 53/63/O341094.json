@@ -1,0 +1,375 @@
+[
+    {
+        "pk": 282105, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.131-1985", 
+            "date_end": "1808-12-31", 
+            "labels": [], 
+            "descriptive_line": "Figure in soft-paste porcelain painted with enamels and moulded of a young woman dancing, factory of Jacques Boselly (Giacomo Boselli) and Joseppe Raibaud (Guiseppe Rubatti), Savona, 1780-1782 or 1798-1808.", 
+            "shape": "", 
+            "longitude": "8.48377000", 
+            "year_start": 1780, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "figures", 
+                        "museumobject_count": 3080, 
+                        "source": "object", 
+                        "cis_id": "x31098", 
+                        "museumobject_image_count": 2330, 
+                        "type": "", 
+                        "slug": "figures"
+                    }
+                }, 
+                {
+                    "pk": 161, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "dancing", 
+                        "museumobject_count": 308, 
+                        "source": "object", 
+                        "cis_id": "x37546", 
+                        "museumobject_image_count": 136, 
+                        "type": "", 
+                        "slug": "dancing"
+                    }
+                }
+            ], 
+            "date_text": "1780-1782 or 1798-1808 (made)", 
+            "primary_image_id": "2009CR0261", 
+            "rights": 3, 
+            "physical_description": "Figure in soft-paste porcelain painted with enamels and moulded of a young woman dancing. She stands on a rocky base, her right arm raised and outstretched holding a pair of castanets. She holds up her petticoat in her left, revealing the front of her dress and the striped pattern.", 
+            "dimensions": "Height: 22 cm", 
+            "title": "", 
+            "date_start": "1780-01-01", 
+            "materials_techniques": "Soft-paste porcelain painted with enamels, moulded and glazed", 
+            "last_processed": "2014-04-01 10:52:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Ceramics Study Galleries, Britain & Europe, room 139, case 24, shelf 5", 
+            "marks": "'Jacques Boselly Joseppe Raibaud'", 
+            "latitude": "44.30590800", 
+            "techniques": [
+                {
+                    "pk": 28, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painted", 
+                        "museumobject_count": 27627, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30138", 
+                        "museumobject_image_count": 22711, 
+                        "type": "", 
+                        "slug": "painted"
+                    }
+                }, 
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }, 
+                {
+                    "pk": 7, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "moulded", 
+                        "museumobject_count": 5554, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30076", 
+                        "museumobject_image_count": 2897, 
+                        "type": "", 
+                        "slug": "moulded"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 149, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "soft-paste porcelain", 
+                        "museumobject_count": 4161, 
+                        "source": "cis_materials", 
+                        "cis_id": "10665", 
+                        "museumobject_image_count": 3693, 
+                        "type": "", 
+                        "slug": "soft-paste-porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 381541, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 3195
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "24", 
+                        "inventory_number": 353604, 
+                        "room": "139", 
+                        "part_name": "", 
+                        "museum_number": "C.131-1985", 
+                        "museumobject": 282105, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "museum_number_token": "c1311985", 
+                        "gallery": 3195
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 3195, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "139", 
+                        "site_name": "", 
+                        "name": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "site_code": "VA", 
+                        "museumobject_count": 12503, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49874", 
+                        "museumobject_image_count": 12417, 
+                        "type": "", 
+                        "slug": "139-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2258, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1808-12-31", 
+                        "surname": "", 
+                        "name": "Boselli, Giacomo", 
+                        "gender": null, 
+                        "museumobject_count": 9, 
+                        "death_year": 1808, 
+                        "source": "object_production", 
+                        "cis_id": "A20511", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": "1744-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "boselli-giacomo", 
+                        "birth_year": 1744
+                    }
+                }, 
+                {
+                    "pk": 2259, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1825-12-31", 
+                        "surname": "", 
+                        "name": "Rubatti, Giuseppe", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1825, 
+                        "source": "object_production", 
+                        "cis_id": "A28581", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1752-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rubatti-giuseppe", 
+                        "birth_year": 1752
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 222394, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2765
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 282105, 
+                        "role": "made", 
+                        "place": 2765, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c1311985", 
+            "object": "Figure", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 10:52:13", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "d'Agliano, Andreina (ed). <u>Porcellane Italiane dalla Collezione Lokar</u>, Silvana Editoriale, Milan, 2013. Published with dual text in Italian and English. This figure and its pair are cited by Andreina d'Agliano pp.275-277. 'Two statues in soft porcelain and marked 'Jacques Boselly Joseppe Raibaud' indicating the years of their partnership survive from this period: they are now in the Victoria and Albert Museum, in London, but were previously part of the Goldblatt Collection. The soft porcelain is white with hints of yellow, not unlike the soft porcelain produced in France. The applied colours are often those used on the Boselly maiolica, with a predominance of crimson and emerald green. The figures of a peasant girl dancing and playing the castanets, and of a peasant offering her flowers are also reminiscent of French porcelain. In particular the young man is derived from the same source as the figure in the ceramics museum in S\u00e8vres and the one in the Fondazione de Mari in Savona.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "figure-boselli-giacomo", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 175405, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:45:07", 
+                        "priority": 0, 
+                        "image_id": "2009CR0261", 
+                        "sys_id": 560261, 
+                        "last_checked": "2014-03-31 17:45:07", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CR/2009CR0261.jpg"
+                    }
+                }, 
+                {
+                    "pk": 175406, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:45:07", 
+                        "priority": 1, 
+                        "image_id": "2009CR0262", 
+                        "sys_id": 560262, 
+                        "last_checked": "2014-03-31 17:45:07", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CR/2009CR0262.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 2765, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Savona", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 13, 
+                        "longitude": "8.48377000", 
+                        "source": "production", 
+                        "cis_id": "x35293", 
+                        "museumobject_image_count": 13, 
+                        "latitude": "44.30590800", 
+                        "type": "city / town", 
+                        "slug": "savona-italy-x35293"
+                    }
+                }
+            ], 
+            "artist": "Boselli, Giacomo", 
+            "namecontext_set": [
+                {
+                    "pk": 304671, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2258
+                    }, 
+                    "fields": {
+                        "name": 2258, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 282105, 
+                        "role": "factory (studio)", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 304672, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2259
+                    }, 
+                    "fields": {
+                        "name": 2259, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 282105, 
+                        "role": "factory (studio)", 
+                        "order": 2
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1808, 
+            "object_number": "O341094", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "One of a pair with C.130-1985.", 
+            "place": "Savona", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

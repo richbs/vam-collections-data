@@ -1,0 +1,314 @@
+[
+    {
+        "pk": 261166, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.245-1910", 
+            "date_end": "1550-12-31", 
+            "labels": [], 
+            "descriptive_line": "Medal, bronze, Leo X (Giovanni de Medici), ascribed to Francesco di San Gallo, Italy (Florence), early 16th century", 
+            "shape": "", 
+            "longitude": "11.25499000", 
+            "year_start": 1500, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24738, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "arms", 
+                        "museumobject_count": 105, 
+                        "source": "object", 
+                        "cis_id": "40237", 
+                        "museumobject_image_count": 65, 
+                        "type": "", 
+                        "slug": "arms"
+                    }
+                }, 
+                {
+                    "pk": 30798, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Leo X", 
+                        "museumobject_count": 6, 
+                        "source": "name", 
+                        "cis_id": "N4925", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "leo-x"
+                    }
+                }
+            ], 
+            "date_text": "early 16th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Medal depicts on the obverse the bust to the left of Leo, wearing a skull-cap completely covering the hair; and a cowl thrown back. Inscription. On the reverse the Medici arms, surmounted by the crossed keys and Papal tiara. Inscription.", 
+            "dimensions": "Diameter: 7.5 cm", 
+            "title": "Leo X", 
+            "date_start": "1500-01-01", 
+            "materials_techniques": "Bronze", 
+            "last_processed": "2014-04-01 09:55:16", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "'LEO . X . P . MAX'\n 'GLORIA . ET HONORE CORONASTI . EV . DE'", 
+            "latitude": "43.78237200", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 350626, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 90248, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "A.245-1910", 
+                        "museumobject": 261166, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "a2451910", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 54089, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1570-12-31", 
+                        "surname": "", 
+                        "name": "di San Gallo, Francesco", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1570, 
+                        "source": "object_production", 
+                        "cis_id": "A35699", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1493-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "di-san-gallo-francesco", 
+                        "birth_year": 1493
+                    }
+                }, 
+                {
+                    "pk": 31734, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1521-12-31", 
+                        "surname": "", 
+                        "name": "Leo X", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1521, 
+                        "source": "content", 
+                        "cis_id": "N4925", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": "1475-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "leo-x", 
+                        "birth_year": 1475
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 213649, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 20
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 261166, 
+                        "role": "made", 
+                        "place": 20, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a2451910", 
+            "object": "Medal", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }, 
+                {
+                    "pk": 89, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Coins & Medals", 
+                        "museumobject_count": 2602, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 654, 
+                        "type": "", 
+                        "slug": "coins-medals"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 09:55:16", 
+            "public_access_description": "This medal depicts Leo X (Giovanni de Medici), who became Pope in 1513. It is ascribed to the medallist Francesco di San Gallo (b. 1493; d. 1570).\nThe Medici were a powerful and influential Florentine family, with great influence in Florence from the 14th to the 18th century. There were three Popes among the family and many rulers of Florence, like of example Lorenzo de'Medici or Lorenzo the Magnificent (1449-1492), who was patron of some of the most important artists of the Renaissance.", 
+            "exhibition_history": "", 
+            "bibliography": "'Salting Bequest (A. 70 to A. 1029-1910) / Murray Bequest (A. 1030 to A. 1096-1910)'. In: <u>List of Works of Art Acquired by the Victoria and Albert Museum (Department of Architecture and Sculpture)</u>. London: Printed under the Authority of his Majesty's Stationery Office, by Eyre and Spottiswoode, Limited, East Harding Street, EC, p. 32", 
+            "vanda_exhibition_history": "", 
+            "slug": "leo-x-medal-di-san-gallo", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 20, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Florence", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 1283, 
+                        "longitude": "11.25499000", 
+                        "source": "production", 
+                        "cis_id": "x28848", 
+                        "museumobject_image_count": 813, 
+                        "latitude": "43.78237200", 
+                        "type": "city / town", 
+                        "slug": "florence-italy-x28848"
+                    }
+                }
+            ], 
+            "artist": "di San Gallo, Francesco", 
+            "namecontext_set": [
+                {
+                    "pk": 294630, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 54089
+                    }, 
+                    "fields": {
+                        "name": 54089, 
+                        "part_name": "", 
+                        "uncertainty": "ascribed to", 
+                        "museumobject": 261166, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 294631, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31734
+                    }, 
+                    "fields": {
+                        "name": 31734, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 261166, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1550, 
+            "object_number": "O313622", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "From the Salting bequest.", 
+            "place": "Florence", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

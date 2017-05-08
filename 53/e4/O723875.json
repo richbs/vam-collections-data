@@ -1,0 +1,279 @@
+[
+    {
+        "pk": 629809, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.556-1945", 
+            "date_end": "1822-12-31", 
+            "labels": [], 
+            "descriptive_line": "Jakob Josef Eeckhout. Portrait of Pieter Frans de Noter, the Younger. Lithography by G P Van Den Burggraff. One of 49 from a set, <I>Collection de portraits d'artistes modernes n\u00e9s dans le royaume des Pays-Bas</I>, published Brussels, 1822.", 
+            "shape": "", 
+            "longitude": "4.34968000", 
+            "year_start": 1822, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1822 (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Lithographic portrait of a Netherlands artist from the early 1800s", 
+            "dimensions": "Height: 6.25 in, Width: 6 in", 
+            "title": "Pieter Frans de Noter, the Younger; Collection de portraits d'artistes modernes n\u00e9s dans le royaume des Pays-Bas", 
+            "date_start": "1822-01-01", 
+            "materials_techniques": "lithography", 
+            "last_processed": "2014-04-26 15:51:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case 95, shelf B, box 10", 
+            "marks": "", 
+            "latitude": "50.84838100", 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18725, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3490, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 764559, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "10", 
+                        "case": "95", 
+                        "inventory_number": 1072259, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.556-1945", 
+                        "museumobject": 629809, 
+                        "shelf": "B", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e5561945", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 75836, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1861-12-31", 
+                        "surname": "", 
+                        "name": "Jakob Josef Eeckhout", 
+                        "gender": null, 
+                        "museumobject_count": 49, 
+                        "death_year": 1861, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH318470", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1793-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jakob-josef-eeckhout", 
+                        "birth_year": 1793
+                    }
+                }, 
+                {
+                    "pk": 75837, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "G. P. van den Burggraff", 
+                        "gender": null, 
+                        "museumobject_count": 49, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH318471", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "g-p-van-den-burggraff", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 363880, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 27
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 629809, 
+                        "role": "published", 
+                        "place": 27, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e5561945", 
+            "object": "Portrait print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:51:13", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1945</u>, London: HMSO, 1956.\nThe full text of the record is as follows:\n\n'<b>EECKHOUT, Jakob Josef (1793-1861)</b>\n\nPlates (49) from a set entitled <I>Collection de portraits d'artistes modernes n\u00e9s dans le royaume des Pays-Bas</I>, published in Brussels, 1822.\n<i>Each lettered with name of sitter, brief biographical notes and (with variations)</i> J.J. Eeckhout ft. Lithog. de Burggraaff.\n<i>Lithographs.</i>\nE.522 - 575-1945\n\nGiven by Mr. G. H. Clarke\n\nMarie Baesten (born Ommeganck) (1784-p.1822). Portrait, head and shoulders, full face. E.527-1945\nJean Baptiste Berr\u00e9 (1777-1838). Portrait, head and shoulders, facing half right. E.528-1945\nJean Blom (1748-1825). Portrait, head and shoulders, facing half right. E.529-1945\nHeinrich Blomaerts (1754/5-1837). Portrait, head and shoulders, facing half left. E.530-1945\nJoseph de Cauwer (called Cauwer-Ronse) (1779-1854). Portrait, head and shoulders, full face.E.531-1945\nConstantin Fid\u00e8le Coene (1779/80-1841). Portrait, head and shoulders, facing half right. E.532-1945\nJan Frans van Dael (1764-1840). Portrait, head and shoulders, facing half right. E.533-1945\nFerdinand Marie Delvaux (1782-1815). Portrait, head and shoulders, facing half right. E.534-1945\nJulien Joseph Ducorron (1770-1848). Portrait, head and shoulders, facing half left. E.535-1945\nAd\u00e8le Evrard (1792-1889). Portrait, head and shoulders, full face. E.536-1945\nFr\u00e9d\u00e9ric Th\u00e9odore Faber (1782-1844). Portrait, head and shoulders, facing half left. E.537-1945\nPierre Joseph C\u00e9lestin Fran\u00e7ois (1759-1851). Portrait, head and shoulders, full face. E.538-1945\nJan Frans van Geel (1756-1830). Portrait, head and shoulders, facing half left. E.539-1945\nMaximillen Lambert Gelissen (1786/7-1867). Portrait, head and shoulders, facing half left. E.540-1945\nGilles Lambert Godecharle (1750-1835). Portrait, head and shoulders, facing half right. E.541-1945\nPieter van Hanselaere (1786-1862). Portrait, head and shoulders, facing half left. E.542-1945\nPierre Jean Hellemans (1787-1845). Portrait, head and shoulders, facing half left. E.543-1945\nWillem Jacob Herreyns (1743-1827). Portrait, head and shoulders, facing half left. E.544-1945\nPieter van Huffel (1767-1844). Portrait, head and shoulders, facing half right. E.545-1945\nGuillaume P. Huygens (1772-1821). Portrait, head and shoulders, left profile. E.546-1945\nPeter Frans Jacobs (1780-1808). Portrait, head and shoulders, facing half left. E.547-1945\nJan de Landtsheer (1750-1828).  Portrait, head and shoulders, facing half right. E.548-1945\nJ. T. M. Latteur (1764-p.1822). ). Portrait, head and shoulders, full face. E.549-1945\nAndries Cornelis Lens (1739-1822). Portrait, head and shoulders, facing half right. E.550-1945\nJoannes Josephus de Loose (1770-1849). Portrait, head and shoulders, facing half left. E.551-1945\nJoseph Charles de Meulemeester (1771/4-1836). Portrait, head and shoulders, right profile. E.552-1945\nLudovicus Adriaen Frans Moons (1769-1844). Portrait, head and shoulders, facing half left. E.553-1945\nFran\u00e7ois Joseph Navez (1787-1869). Portrait, head and shoulders, facing half right. E.554-1945\nJean Baptiste Andr\u00e9 de Noter (1786/7-1855). Portrait, head and shoulders, facing half left. E.555-1945\nPieter Frans de Noter, the Younger (1779-1843). Portrait, head and shoulders, facing half right. E.556-1945\nBalthasar Paul Ommeganck (1755-1826). Portrait, head and shoulders, facing half left. E.557-1945\nJoseph Paelinck (1781-1839). Portrait, head and shoulders, facing half right. E.558-1945\nCharles Fran\u00e7ois van Poucke (1740-1809). Portrait, head and shoulders, facing half left. E.559-1945\nJacques Jean de Raedt (1757-1838). Portrait, head and shoulders, facing half left. E.560-1945\nJean Baptiste de Roy (1759-1839). Portrait, head and shoulders, facing half right. E.561-1945\nJacques Albert S\u00e9nave (1758-1829). Portrait, head and shoulders, right profile. E.562-1945\nMichel Joseph Speeckaert (1748-1838). Portrait, head and shoulders, facing half right. E.563-1945\nCharles Spruyt (1769-1851). Portrait, head and shoulders, facing half left. E.564-1945\nC.F.J. Stevens (1772-p.1822). Portrait, head and shoulders, facing slightly left. E.565-1945\nAnton Ignaz Steyaert (1761/65-1841). Portrait, head and shoulders, facing half right. E.566-1945\nJean Fran\u00e7ois Thys (1780/83-1865). Portrait, head and shoulders, facing half left. E.567-1945\nHenri van Assche (1774/5-1841). Portrait, head and shoulders,  full face. E.568-1945\nHendrik Josef Franciscus van der Poorten (1789-1874). Portrait, head and shoulders, facing half left. E.569-1945\nPetrus Johannes van Regemorter (1755-1830). Portrait, head and shoulders, facing half right. E.570-1945\nIgnatius Jozef Pieter van Regemorter (1785-1873). Portrait, head and shoulders, facing half left. E.571-1945\nEug\u00e8ne Joseph Veboeckhoven (1798/9-1881). Portrait, head and shoulders, facing half left. E.572-1945\nJean Joseph Verellen (1788-1856). Portrait, head and shoulders, facing half left. E.573-1945\nCharles Pierre Verhulst (1774/5-1820). Portrait, head and shoulders, facing half right. E.574-1945\nHenri Voordecker (1779-1861). Portrait, head and shoulders, facing half left. E.575-1945'", 
+            "vanda_exhibition_history": "", 
+            "slug": "pieter-frans-de-noter-the-portrait-print-jakob-josef-eeckhout", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 27, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2943
+                    }, 
+                    "fields": {
+                        "name": "Brussels", 
+                        "parent": 2943, 
+                        "country": "Belgium", 
+                        "museumobject_count": 388, 
+                        "longitude": "4.34968000", 
+                        "source": "production", 
+                        "cis_id": "x31976", 
+                        "museumobject_image_count": 158, 
+                        "latitude": "50.84838100", 
+                        "type": "city / town", 
+                        "slug": "brussels-belgium-x31976"
+                    }
+                }
+            ], 
+            "artist": "Jakob Josef Eeckhout", 
+            "namecontext_set": [
+                {
+                    "pk": 476285, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 75836
+                    }, 
+                    "fields": {
+                        "name": 75836, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 629809, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 476286, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 75837
+                    }, 
+                    "fields": {
+                        "name": 75837, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 629809, 
+                        "role": "lithographer", 
+                        "order": 2
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1822, 
+            "object_number": "O723875", 
+            "events": [], 
+            "credit": "Given by Mr G. H. Clarke", 
+            "history_note": "This is one of a series of 49 lithographs published in Brussels in 1822 showing portraits of contemporary (early 1800s) artists from the Netherlands.", 
+            "place": "Brussels", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
