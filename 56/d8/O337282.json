@@ -1,0 +1,285 @@
+[
+    {
+        "pk": 278360, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "35-1864", 
+            "date_end": "1864-12-31", 
+            "labels": [], 
+            "descriptive_line": "Vase of porcelain, made by Fran\u00e7ois-Eug\u00e8ne Rousseau, Paris, 19th century", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1800, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "figures", 
+                        "museumobject_count": 3080, 
+                        "source": "object", 
+                        "cis_id": "x31098", 
+                        "museumobject_image_count": 2330, 
+                        "type": "", 
+                        "slug": "figures"
+                    }
+                }, 
+                {
+                    "pk": 30796, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "bacchanalia", 
+                        "museumobject_count": 7, 
+                        "source": "event", 
+                        "cis_id": "V500", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "bacchanalia"
+                    }
+                }
+            ], 
+            "date_text": "19th century (made)", 
+            "primary_image_id": "2010EC6484", 
+            "rights": 3, 
+            "physical_description": "Vase of porcelain. Goblet-shaped. The foot and bowl are dark blue, and the body has Bacchanalian figures and emblems in colours.", 
+            "dimensions": "Height: 31.4 cm, Diameter: 16.8 cm", 
+            "title": "", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "Porcelain", 
+            "last_processed": "2014-04-01 10:45:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Ceramics Study Galleries, Britain & Europe, room 139, case 37, shelf 4", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 376770, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 3195
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "37", 
+                        "inventory_number": 341864, 
+                        "room": "139", 
+                        "part_name": "", 
+                        "museum_number": "35-1864", 
+                        "museumobject": 278360, 
+                        "shelf": "4", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "museum_number_token": "351864", 
+                        "gallery": 3195
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 3195, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "139", 
+                        "site_name": "", 
+                        "name": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "site_code": "VA", 
+                        "museumobject_count": 12503, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49874", 
+                        "museumobject_image_count": 12417, 
+                        "type": "", 
+                        "slug": "139-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 658, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1891-12-31", 
+                        "surname": "", 
+                        "name": "Rousseau, Fran\u00e7ois-Eug\u00e8ne", 
+                        "gender": null, 
+                        "museumobject_count": 39, 
+                        "death_year": 1891, 
+                        "source": "object_production", 
+                        "cis_id": "A892", 
+                        "museumobject_image_count": 37, 
+                        "forename": "", 
+                        "birth_date": "1827-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rousseau", 
+                        "birth_year": 1827
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 221825, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 278360, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "351864", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 10:45:56", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-rousseau-francois-eugene", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 201099, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:50:19", 
+                        "priority": 0, 
+                        "image_id": "2010EC6484", 
+                        "sys_id": 866484, 
+                        "last_checked": "2014-03-31 17:50:19", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EC/2010EC6484.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Rousseau, Fran\u00e7ois-Eug\u00e8ne", 
+            "namecontext_set": [
+                {
+                    "pk": 304256, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 658
+                    }, 
+                    "fields": {
+                        "name": 658, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 278360, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1864, 
+            "object_number": "O337282", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

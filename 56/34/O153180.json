@@ -1,0 +1,255 @@
+[
+    {
+        "pk": 121072, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.621-1972", 
+            "date_end": "1971-12-31", 
+            "labels": [], 
+            "descriptive_line": "Vase, stoneware with black matt glaze, by Jean Lerat, France, 1971", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1971, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1971 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Stoneware vase, roughly oval with an uneven surface, with black matt glaze.", 
+            "dimensions": "Height: 49.5 cm, Depth: 24 cm", 
+            "title": "", 
+            "date_start": "1971-01-01", 
+            "materials_techniques": "Stoneware with matt glaze", 
+            "last_processed": "2014-04-01 02:57:07", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Studio Ceramics, room 142, case 1, shelf 1", 
+            "marks": "'J. LERAT'", 
+            "latitude": "46.71244800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 191641, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 351
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "1", 
+                        "inventory_number": 363037, 
+                        "room": "142", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.621-1972", 
+                        "museumobject": 121072, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Studio Ceramics, room 142", 
+                        "museum_number_token": "circ6211972", 
+                        "gallery": 351
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 351, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "142", 
+                        "site_name": "", 
+                        "name": "Studio Ceramics, room 142", 
+                        "site_code": "VA", 
+                        "museumobject_count": 489, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49868", 
+                        "museumobject_image_count": 483, 
+                        "type": "", 
+                        "slug": "142-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 35945, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Lerat, Jean", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A21969", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "lerat-jean", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 120233, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 121072, 
+                        "role": "made", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ6211972", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 69, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Studio Pottery", 
+                        "museumobject_count": 665, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 572, 
+                        "type": "", 
+                        "slug": "studio-pottery"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stoneware", 
+                        "museumobject_count": 3435, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3026, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }, 
+                {
+                    "pk": 81, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Vases", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 942, 
+                        "type": "", 
+                        "slug": "vases"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:57:07", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-lerat-jean", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "Lerat, Jean", 
+            "namecontext_set": [
+                {
+                    "pk": 147349, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 35945
+                    }, 
+                    "fields": {
+                        "name": 35945, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 121072, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1971, 
+            "object_number": "O153180", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

@@ -1,0 +1,461 @@
+[
+    {
+        "pk": 87691, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.171-1941", 
+            "date_end": "1801-12-31", 
+            "labels": [], 
+            "descriptive_line": "Enamelled gold box, Guidon, R\u00e9mond. Gide & Cie., Geneva, 1792-1801", 
+            "shape": "", 
+            "longitude": "6.14270000", 
+            "year_start": 1792, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 30238, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Angelica", 
+                        "museumobject_count": 6, 
+                        "source": "name", 
+                        "cis_id": "N4494", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "angelica"
+                    }
+                }, 
+                {
+                    "pk": 30239, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Medoro", 
+                        "museumobject_count": 5, 
+                        "source": "name", 
+                        "cis_id": "N4648", 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "medoro"
+                    }
+                }
+            ], 
+            "date_text": "1792-1801 (made)", 
+            "primary_image_id": "2006BJ7730", 
+            "rights": 3, 
+            "physical_description": "Enamelled gold box set with pearls and enamelled with a scene from Ariosto's Orlando Furioso in which Angelica aids the wounded Medoro, adapted from a painting by Giovanni Battista Cipriani (1727-85)", 
+            "dimensions": "Height: 2.4 cm, Width: 7.4 cm, Depth: 4.8 cm", 
+            "title": "", 
+            "date_start": "1792-01-01", 
+            "materials_techniques": "Enamelled gold", 
+            "last_processed": "2014-04-01 00:34:14", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91 mezzanine, case 64, shelf B, box 3", 
+            "marks": "Maker's mark of Guidon, R\u00e9mond, Gide & Cie", 
+            "latitude": "46.20835100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 67, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Gold", 
+                        "museumobject_count": 6695, 
+                        "source": "cis_materials", 
+                        "cis_id": "11021", 
+                        "museumobject_image_count": 4435, 
+                        "type": "", 
+                        "slug": "gold"
+                    }
+                }, 
+                {
+                    "pk": 137, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "enamel", 
+                        "museumobject_count": 3083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14910", 
+                        "museumobject_image_count": 2335, 
+                        "type": "", 
+                        "slug": "enamel"
+                    }
+                }, 
+                {
+                    "pk": 139, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pearls", 
+                        "museumobject_count": 132, 
+                        "source": "cis_materials", 
+                        "cis_id": "11827", 
+                        "museumobject_image_count": 62, 
+                        "type": "", 
+                        "slug": "pearls"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 148862, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 555232, 
+                        "room": "", 
+                        "part_name": "Case", 
+                        "museum_number": "M.171PART-1941", 
+                        "museumobject": 87691, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "m171part1941", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 148863, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1080
+                    }, 
+                    "fields": {
+                        "box": "3", 
+                        "case": "64", 
+                        "inventory_number": 559780, 
+                        "room": "91M", 
+                        "part_name": "Box", 
+                        "museum_number": "M.171-1941", 
+                        "museumobject": 87691, 
+                        "shelf": "B", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91 mezzanine", 
+                        "museum_number_token": "m1711941", 
+                        "gallery": 1080
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1080, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91M", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91 mezzanine", 
+                        "site_code": "VA", 
+                        "museumobject_count": 904, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49137", 
+                        "museumobject_image_count": 895, 
+                        "type": "", 
+                        "slug": "91m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 57849, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Guidon, R\u00e9mond, Gide & Cie", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A36198", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "guidon-remond-gide-cie-36198", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 15576, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Angelica", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N4494", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "angelica", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 15577, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Medoro (Prince)", 
+                        "gender": null, 
+                        "museumobject_count": 5, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N4648", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "medoro", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 84280, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1231
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 87691, 
+                        "role": "made", 
+                        "place": 1231, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m1711941", 
+            "object": "Box", 
+            "categories": [
+                {
+                    "pk": 3, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Containers", 
+                        "museumobject_count": 4829, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2686, 
+                        "type": "", 
+                        "slug": "containers"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:34:14", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "box-guidon-remond-gide", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 87329, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:27:03", 
+                        "priority": 0, 
+                        "image_id": "2006BJ7730", 
+                        "sys_id": 297730, 
+                        "last_checked": "2014-03-31 17:27:03", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ7730.jpg"
+                    }
+                }, 
+                {
+                    "pk": 87330, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:27:03", 
+                        "priority": 1, 
+                        "image_id": "2006BJ7731", 
+                        "sys_id": 297731, 
+                        "last_checked": "2014-03-31 17:27:03", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ7731.jpg"
+                    }
+                }, 
+                {
+                    "pk": 87309, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:27:02", 
+                        "priority": 2, 
+                        "image_id": "2006BJ7710", 
+                        "sys_id": 297710, 
+                        "last_checked": "2014-03-31 17:27:02", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ7710.jpg"
+                    }
+                }, 
+                {
+                    "pk": 60875, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-10 00:00:00", 
+                        "last_processed": "2014-03-31 17:21:19", 
+                        "priority": 3, 
+                        "image_id": "2006BA1088", 
+                        "sys_id": 211088, 
+                        "last_checked": "2014-03-31 17:21:19", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BA/2006BA1088.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1231, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Geneva", 
+                        "parent": null, 
+                        "country": "Switzerland", 
+                        "museumobject_count": 126, 
+                        "longitude": "6.14270000", 
+                        "source": "production", 
+                        "cis_id": "x32975", 
+                        "museumobject_image_count": 69, 
+                        "latitude": "46.20835100", 
+                        "type": "city / town", 
+                        "slug": "geneva-switzerland-x32975"
+                    }
+                }
+            ], 
+            "artist": "Guidon, R\u00e9mond, Gide & Cie", 
+            "namecontext_set": [
+                {
+                    "pk": 103820, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 57849
+                    }, 
+                    "fields": {
+                        "name": 57849, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 87691, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 103821, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 15576
+                    }, 
+                    "fields": {
+                        "name": 15576, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 87691, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 103822, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 15577
+                    }, 
+                    "fields": {
+                        "name": 15577, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 87691, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1801, 
+            "object_number": "O113366", 
+            "events": [], 
+            "credit": "Given by Mrs Samuel S. Joseph", 
+            "history_note": "", 
+            "place": "Geneva", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
