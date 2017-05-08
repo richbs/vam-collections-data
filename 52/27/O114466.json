@@ -1,0 +1,420 @@
+[
+    {
+        "pk": 88569, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.1111-1927", 
+            "date_end": "1816-12-31", 
+            "labels": [], 
+            "descriptive_line": "Cast and chased gold watch, movement by 'Litherland Davies & Co., Liverpool, 8463', and casemaker Thomas Helsby, with Chester hallmarks for 1815-16.", 
+            "shape": "", 
+            "longitude": "-2.97848100", 
+            "year_start": 1815, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1815-16 (made)", 
+            "primary_image_id": "2007BP9469", 
+            "rights": 3, 
+            "physical_description": "Gold, cast and chased , signed 'Litherland Davies & Co., Liverpool, 8463', and casemaker's mark 'TH' for Thomas Helsby with Chester hallmarks for 1837-38", 
+            "dimensions": "Height: 5.4 cm, Width: 4.6 cm, Depth: 2.4 cm, Height: 6.2 cm With suspension loop", 
+            "title": "", 
+            "date_start": "1815-01-01", 
+            "materials_techniques": "cast and chased gold", 
+            "last_processed": "2014-04-01 00:38:27", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91 mezzanine, case 67, shelf C, box 5", 
+            "marks": "signed 'Litherland Davies & Co., Liverpool, 8468'\n mark 'TH' for Thomas Helsby\n marks", 
+            "latitude": "53.40977300", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 67, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Gold", 
+                        "museumobject_count": 6695, 
+                        "source": "cis_materials", 
+                        "cis_id": "11021", 
+                        "museumobject_image_count": 4435, 
+                        "type": "", 
+                        "slug": "gold"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 150278, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1080
+                    }, 
+                    "fields": {
+                        "box": "5", 
+                        "case": "67", 
+                        "inventory_number": 557049, 
+                        "room": "91M", 
+                        "part_name": "", 
+                        "museum_number": "M.1111-1927", 
+                        "museumobject": 88569, 
+                        "shelf": "C", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91 mezzanine", 
+                        "museum_number_token": "m11111927", 
+                        "gallery": 1080
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1080, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91M", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91 mezzanine", 
+                        "site_code": "VA", 
+                        "museumobject_count": 904, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49137", 
+                        "museumobject_image_count": 895, 
+                        "type": "", 
+                        "slug": "91m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 30942, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Thomas Helsby", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A22088", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "thomas-helsby", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 30941, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Litherland Davies & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A15167", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "litherland-davies-co", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 85251, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 102
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88569, 
+                        "role": "made", 
+                        "place": 102, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m11111927", 
+            "object": "Watch", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 71, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Clocks & Watches", 
+                        "museumobject_count": 468, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 370, 
+                        "type": "", 
+                        "slug": "clocks-watches"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:38:27", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "watch-thomas-helsby", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 104208, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:35", 
+                        "priority": 0, 
+                        "image_id": "2007BP9469", 
+                        "sys_id": 349469, 
+                        "last_checked": "2014-03-31 17:30:35", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BP/2007BP9469.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104951, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:45", 
+                        "priority": 1, 
+                        "image_id": "2007BR2757", 
+                        "sys_id": 352757, 
+                        "last_checked": "2014-03-31 17:30:45", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BR/2007BR2757.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104950, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:45", 
+                        "priority": 2, 
+                        "image_id": "2007BR2756", 
+                        "sys_id": 352756, 
+                        "last_checked": "2014-03-31 17:30:45", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BR/2007BR2756.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104949, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:45", 
+                        "priority": 3, 
+                        "image_id": "2007BR2755", 
+                        "sys_id": 352755, 
+                        "last_checked": "2014-03-31 17:30:45", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BR/2007BR2755.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104948, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:45", 
+                        "priority": 4, 
+                        "image_id": "2007BR2754", 
+                        "sys_id": 352754, 
+                        "last_checked": "2014-03-31 17:30:45", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BR/2007BR2754.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104947, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:45", 
+                        "priority": 5, 
+                        "image_id": "2007BR2753", 
+                        "sys_id": 352753, 
+                        "last_checked": "2014-03-31 17:30:45", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BR/2007BR2753.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104225, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:36", 
+                        "priority": 6, 
+                        "image_id": "2007BP9486", 
+                        "sys_id": 349486, 
+                        "last_checked": "2014-03-31 17:30:36", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BP/2007BP9486.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104210, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:35", 
+                        "priority": 7, 
+                        "image_id": "2007BP9471", 
+                        "sys_id": 349471, 
+                        "last_checked": "2014-03-31 17:30:35", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BP/2007BP9471.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104209, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:35", 
+                        "priority": 8, 
+                        "image_id": "2007BP9470", 
+                        "sys_id": 349470, 
+                        "last_checked": "2014-03-31 17:30:35", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BP/2007BP9470.jpg"
+                    }
+                }, 
+                {
+                    "pk": 104204, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:30:35", 
+                        "priority": 9, 
+                        "image_id": "2007BP9464", 
+                        "sys_id": 349464, 
+                        "last_checked": "2014-03-31 17:30:35", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BP/2007BP9464.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 102, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 582
+                    }, 
+                    "fields": {
+                        "name": "Liverpool", 
+                        "parent": 582, 
+                        "country": "England", 
+                        "museumobject_count": 1000, 
+                        "longitude": "-2.97848100", 
+                        "source": "production", 
+                        "cis_id": "x30239", 
+                        "museumobject_image_count": 847, 
+                        "latitude": "53.40977300", 
+                        "type": "city / town", 
+                        "slug": "liverpool-england-x30239"
+                    }
+                }
+            ], 
+            "artist": "Thomas Helsby", 
+            "namecontext_set": [
+                {
+                    "pk": 104982, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 30942
+                    }, 
+                    "fields": {
+                        "name": 30942, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88569, 
+                        "role": "casemaker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 104983, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 30941
+                    }, 
+                    "fields": {
+                        "name": 30941, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88569, 
+                        "role": "watchmakers", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1816, 
+            "object_number": "O114466", 
+            "events": [], 
+            "credit": "Bequeathed by Mr H A Hance", 
+            "history_note": "", 
+            "place": "Liverpool", 
+            "production_note": "Chester hallmarks for 1815-16", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

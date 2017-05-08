@@ -1,0 +1,339 @@
+[
+    {
+        "pk": 20667, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.170&A-1950", 
+            "date_end": "1949-12-31", 
+            "labels": [], 
+            "descriptive_line": "Teapot; porcelain; Leach Pottery Standard Ware; British; 1949.", 
+            "shape": "", 
+            "longitude": "-1.79076000", 
+            "year_start": 1949, 
+            "exhibitions": [
+                {
+                    "pk": 571, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 3283, 
+                        "year_start": 2002, 
+                        "name": "'Concept and Form'", 
+                        "date_end": "2029-12-31", 
+                        "museumobject_count": 13, 
+                        "venue": "Penlee House Gallery and Museum", 
+                        "date_start": "2002-01-01", 
+                        "year_end": 2029, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13, 
+                        "type": "", 
+                        "slug": "concept-and-form", 
+                        "date_text": "04.05.2002-29.06.2002"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 24040, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "oak leaf", 
+                        "museumobject_count": 89, 
+                        "source": "object", 
+                        "cis_id": "256630", 
+                        "museumobject_image_count": 66, 
+                        "type": "", 
+                        "slug": "oak-leaf"
+                    }
+                }
+            ], 
+            "date_text": "1949 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Teapot with a rounded body and flattened top, decorated with an incised oak-leaf motif.", 
+            "dimensions": "Depth: 27.20 cm, Height: 15.90 cm", 
+            "title": "Standard Ware", 
+            "date_start": "1949-01-01", 
+            "materials_techniques": "Porcelain, with celadon glaze and incised decoration", 
+            "last_processed": "2014-03-31 20:11:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Studio Ceramics, room 142, case 6, shelf 3", 
+            "marks": "'SI' in monogram' impressed", 
+            "latitude": "54.84711800", 
+            "techniques": [
+                {
+                    "pk": 60, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "incising", 
+                        "museumobject_count": 295, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53847", 
+                        "museumobject_image_count": 202, 
+                        "type": "", 
+                        "slug": "incising"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 30478, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 351
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 75885, 
+                        "room": "142", 
+                        "part_name": "Teapot", 
+                        "museum_number": "CIRC.170-1950", 
+                        "museumobject": 20667, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Studio Ceramics, room 142", 
+                        "museum_number_token": "circ1701950", 
+                        "gallery": 351
+                    }
+                }, 
+                {
+                    "pk": 30479, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 351
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 75884, 
+                        "room": "142", 
+                        "part_name": "Cover", 
+                        "museum_number": "CIRC.170A-1950", 
+                        "museumobject": 20667, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Studio Ceramics, room 142", 
+                        "museum_number_token": "circ170a1950", 
+                        "gallery": 351
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 351, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "142", 
+                        "site_name": "", 
+                        "name": "Studio Ceramics, room 142", 
+                        "site_code": "VA", 
+                        "museumobject_count": 489, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49868", 
+                        "museumobject_image_count": 483, 
+                        "type": "", 
+                        "slug": "142-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1543, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1979-05-06", 
+                        "surname": "", 
+                        "name": "Bernard Leach", 
+                        "gender": null, 
+                        "museumobject_count": 67, 
+                        "death_year": 1979, 
+                        "source": "object_production", 
+                        "cis_id": "A1084", 
+                        "museumobject_image_count": 63, 
+                        "forename": "", 
+                        "birth_date": "1887-01-05", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "leach-bernard", 
+                        "birth_year": 1887
+                    }
+                }, 
+                {
+                    "pk": 1544, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Leach Pottery", 
+                        "gender": null, 
+                        "museumobject_count": 33, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A7140", 
+                        "museumobject_image_count": 33, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "leach-pottery", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 21852, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 532
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 20667, 
+                        "role": "made", 
+                        "place": 532, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ1701950", 
+            "object": "Teapot", 
+            "categories": [
+                {
+                    "pk": 68, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Studio Ceramics", 
+                        "museumobject_count": 690, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 687, 
+                        "type": "", 
+                        "slug": "studio-ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:11:13", 
+            "public_access_description": "", 
+            "exhibition_history": "'Concept and Form' (National Museum of Wales, Cardiff 01/01/2003-31/12/2030)\n'Concept and Form' (Penlee House Gallery and Museum 01/01/2002-31/12/2029)\n'Concept and Form' (Cleveland Crafts Centre, Middlesborough 01/01/2002-31/12/2031)\n'Concept and Form' (Penlee House Gallery and Museum 01/01/2002-31/12/2029)", 
+            "bibliography": "Watson, Oliver. <u>British Studio Pottery</u>. Oxford: Phaidon; Christie's Limited; in association with the Victoria and Albert Museum, London, 1990. ISBN 0 7 148 8067 1", 
+            "vanda_exhibition_history": "", 
+            "slug": "standard-ware-teapot-leach-bernard", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 532, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1188
+                    }, 
+                    "fields": {
+                        "name": "St. Ives (Cornwall)", 
+                        "parent": 1188, 
+                        "country": "England", 
+                        "museumobject_count": 55, 
+                        "longitude": "-1.79076000", 
+                        "source": "production", 
+                        "cis_id": "x29411", 
+                        "museumobject_image_count": 48, 
+                        "latitude": "54.84711800", 
+                        "type": "city/town", 
+                        "slug": "st-ives-cornwall-england-x29411"
+                    }
+                }
+            ], 
+            "artist": "Leach, Bernard", 
+            "namecontext_set": [
+                {
+                    "pk": 22680, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1543
+                    }, 
+                    "fields": {
+                        "name": 1543, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 20667, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 22681, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1544
+                    }, 
+                    "fields": {
+                        "name": 1544, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 20667, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1949, 
+            "object_number": "O19479", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Acquisition details: the pottery\n\nRF number: 49/3228", 
+            "place": "St. Ives", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
