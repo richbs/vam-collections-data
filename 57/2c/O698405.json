@@ -1,0 +1,417 @@
+[
+    {
+        "pk": 607269, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1113-1963", 
+            "date_end": "1798-03-26", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Henry Brandon, 2nd Duke of Suffolk.  Colour stipple engraving, with additional colour by hand, by Francesco Bartolozzi after Hans Holbein, 1798.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1798, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 771, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "child", 
+                        "museumobject_count": 587, 
+                        "source": "object", 
+                        "cis_id": "x31382", 
+                        "museumobject_image_count": 398, 
+                        "type": "", 
+                        "slug": "child"
+                    }
+                }, 
+                {
+                    "pk": 45838, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Duke", 
+                        "museumobject_count": 60, 
+                        "source": "name", 
+                        "cis_id": "N15045", 
+                        "museumobject_image_count": 15, 
+                        "type": "", 
+                        "slug": "duke"
+                    }
+                }, 
+                {
+                    "pk": 48679, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "nobility", 
+                        "museumobject_count": 8, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "nobility"
+                    }
+                }, 
+                {
+                    "pk": 40482, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Suffolk, Henry Brandon (2nd Duke)", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N12632", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "suffolk-henry-brandon-2nd-duke"
+                    }
+                }
+            ], 
+            "date_text": "26/03/1798 (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Portrait of Henry Brandon, 2nd Duke of Suffolk, as a child.  Brandon is shown three-quarter length, facing slightly right, leaning on a table.", 
+            "dimensions": "Height: 17.8 cm, Width: 15.2 cm", 
+            "title": "Henry Brandon, 2nd Duke of Suffolk", 
+            "date_start": "1798-03-26", 
+            "materials_techniques": "Colour stipple engraving, with additional colour by hand", 
+            "last_processed": "2014-04-26 15:10:33", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case K, shelf 7, box A", 
+            "marks": "'Henry Eldest Son of Charles Brandon Duke of Suffolk' \n'Holbien [sic]  Pinxt.  F. Bartolozzi Sculpt.  Published as the Act directs March 26.  1798. by I. Chamberlaine Brompton Middlesex.'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 931, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "hand colouring", 
+                        "museumobject_count": 9981, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3295, 
+                        "type": "", 
+                        "slug": "hand-colouring"
+                    }
+                }, 
+                {
+                    "pk": 275, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "stipple engraving", 
+                        "museumobject_count": 1028, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53239", 
+                        "museumobject_image_count": 631, 
+                        "type": "", 
+                        "slug": "stipple-engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 741924, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "K", 
+                        "inventory_number": 1104538, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.1113-1963", 
+                        "museumobject": 607269, 
+                        "shelf": "7", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e11131963", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1533, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1815-12-31", 
+                        "surname": "", 
+                        "name": "Bartolozzi", 
+                        "gender": null, 
+                        "museumobject_count": 138, 
+                        "death_year": 1815, 
+                        "source": "object_production", 
+                        "cis_id": "A1516", 
+                        "museumobject_image_count": 93, 
+                        "forename": "", 
+                        "birth_date": "1727-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bartolozzi-francesco", 
+                        "birth_year": 1727
+                    }
+                }, 
+                {
+                    "pk": 2069, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1543-12-31", 
+                        "surname": "", 
+                        "name": "Holbein, Hans (II)", 
+                        "gender": null, 
+                        "museumobject_count": 90, 
+                        "death_year": 1543, 
+                        "source": "object_production", 
+                        "cis_id": "A8516", 
+                        "museumobject_image_count": 29, 
+                        "forename": "", 
+                        "birth_date": "1497-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "holbein-hans", 
+                        "birth_year": 1497
+                    }
+                }, 
+                {
+                    "pk": 50306, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Chamberlaine, John", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A31220", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "chamberlaine-john", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 50308, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1551-12-31", 
+                        "surname": "", 
+                        "name": "Suffolk, Henry Brandon (2nd Duke)", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1551, 
+                        "source": "content", 
+                        "cis_id": "N12632", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1535-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "suffolk-henry-brandon-2nd-duke", 
+                        "birth_year": 1535
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 355964, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 607269, 
+                        "role": "published", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e11131963", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:10:33", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1963 </u>. London: HMSO, 1964.\nFull text of entry is as follows:  \n \n\"<b>BARTOLOZZI, Francesco, R.A. (1727-1815)</b> \n\nHenry Brandon, 2nd Duke of Suffolk (1535-1551).  Portrait, as a child aged 5 years, three-quarter length, facing slightly right, leaning on a table.   (BM:P:1; B. di V. 1122)  From the miniature by Hans Holbein in the collection of H.M. The Queen.  Plate 12 of Volume 2 of <i>Imitations of Original Drawings by Hans Holbein, in the collection of his Majesty\u2026</i>, published by John Chamberlaine, London, 1792. \n<i>Lettered</i> Henry Eldest Son of Charles Brandon Duke of Suffolk <i>etc. and</i> Holbien <i>(sic)</i> Pinxt.  F. Bartolozzi Sculpt.  Published as the Act directs March 26.  1798. by I. Chamberlaine Brompton Middlesex. \n<i>Colour stipple engraving, with additional colour by hand.</i>  [17.8 x 15.2 cm.] \nE.1113-1963 \n \nBequeathed by Guy Tristram Little\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "henry-brandon-2nd-duke-of-print-bartolozzi-francesco", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Bartolozzi, Francesco", 
+            "namecontext_set": [
+                {
+                    "pk": 466789, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1533
+                    }, 
+                    "fields": {
+                        "name": 1533, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 607269, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 466790, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2069
+                    }, 
+                    "fields": {
+                        "name": 2069, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 607269, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 466791, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 50306
+                    }, 
+                    "fields": {
+                        "name": 50306, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 607269, 
+                        "role": "publisher", 
+                        "order": 3
+                    }
+                }, 
+                {
+                    "pk": 466792, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 50308
+                    }, 
+                    "fields": {
+                        "name": 50308, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 607269, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1798, 
+            "object_number": "O698405", 
+            "events": [], 
+            "credit": "Bequeathed by Guy Tristram Little", 
+            "history_note": "This engraving is taken from the miniature by Hans Holbein in the collection of H.M. The Queen.  It is also plate 12 of Volume 2 of <i>Imitations of Original Drawings by Hans Holbein, in the collection of his Majesty\u2026</i>, first published by John Chamberlaine, London, 1792.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
