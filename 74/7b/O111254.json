@@ -1,0 +1,308 @@
+[
+    {
+        "pk": 86002, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.61-1940", 
+            "date_end": "1902-12-31", 
+            "labels": [], 
+            "descriptive_line": "St Elizabeth, wax head by George Frampton, England (London), 1902", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1902, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 27856, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Elizabeth (Saint)", 
+                        "museumobject_count": 25, 
+                        "source": "name", 
+                        "cis_id": "N3520", 
+                        "museumobject_image_count": 17, 
+                        "type": "", 
+                        "slug": "elizabeth-saint"
+                    }
+                }
+            ], 
+            "date_text": "1902 (made)", 
+            "primary_image_id": "2006AE9372", 
+            "rights": 3, 
+            "physical_description": "Head in coloured wax, St Elizabeth.", 
+            "dimensions": "Height: 47 cm with base, Weight: 3.2 kg", 
+            "title": "St Elizabeth", 
+            "date_start": "1902-01-01", 
+            "materials_techniques": "Wax", 
+            "last_processed": "2014-04-01 00:26:33", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 10, shelf 4", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 11, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wax", 
+                        "museumobject_count": 905, 
+                        "source": "cis_materials", 
+                        "cis_id": "14585", 
+                        "museumobject_image_count": 585, 
+                        "type": "", 
+                        "slug": "wax"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 146569, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "10", 
+                        "inventory_number": 383076, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.61-1940", 
+                        "museumobject": 86002, 
+                        "shelf": "4", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a611940", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 11716, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1928-05-21", 
+                        "surname": "", 
+                        "name": "George James Frampton", 
+                        "gender": null, 
+                        "museumobject_count": 29, 
+                        "death_year": 1928, 
+                        "source": "object_production", 
+                        "cis_id": "A6457", 
+                        "museumobject_image_count": 11, 
+                        "forename": "", 
+                        "birth_date": "1860-06-16", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "frampton-george-james-sir", 
+                        "birth_year": 1860
+                    }
+                }, 
+                {
+                    "pk": 9141, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Elizabeth (Saint)", 
+                        "gender": null, 
+                        "museumobject_count": 25, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N3520", 
+                        "museumobject_image_count": 17, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "elizabeth-saint", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 82452, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86002, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a611940", 
+            "object": "Head", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:26:33", 
+            "public_access_description": "Frampton was once described as being \u2018obsessed with dream and mysticism\u2019. His evocation of the medieval queen, St Elizabeth of Hungary, is modelled with morose elegance in dark coloured wax. This was intended as a finished wax rather than as a model. The headdress is related to those on Frampton's figures on the facade of Lloyd's Registry of Fishing in London.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "st-elizabeth-head-frampton-george-james", 
+            "sys_updated": "2014-01-13 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 39576, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:40", 
+                        "priority": 0, 
+                        "image_id": "2006AE9372", 
+                        "sys_id": 49372, 
+                        "last_checked": "2014-03-31 17:16:40", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE9372.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Frampton, George James (Sir)", 
+            "namecontext_set": [
+                {
+                    "pk": 101587, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11716
+                    }, 
+                    "fields": {
+                        "name": 11716, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86002, 
+                        "role": "modeller", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 101588, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 9141
+                    }, 
+                    "fields": {
+                        "name": 9141, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86002, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1902, 
+            "object_number": "O111254", 
+            "events": [], 
+            "credit": "Given by Miss Gertrude Sichel", 
+            "history_note": "Given by Miss Gertrude Sichel.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
