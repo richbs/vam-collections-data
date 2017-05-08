@@ -1,0 +1,241 @@
+[
+    {
+        "pk": 290477, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.66-1953", 
+            "date_end": "1704-12-31", 
+            "labels": [], 
+            "descriptive_line": "Bust, painted Spanish Cedar, bust of a saint (?), Hispano-American, about 1700", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1695, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24239, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "bust", 
+                        "museumobject_count": 705, 
+                        "source": "object", 
+                        "cis_id": "47457", 
+                        "museumobject_image_count": 365, 
+                        "type": "", 
+                        "slug": "bust"
+                    }
+                }, 
+                {
+                    "pk": 23959, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "saint", 
+                        "museumobject_count": 227, 
+                        "source": "name", 
+                        "cis_id": "N4754", 
+                        "museumobject_image_count": 171, 
+                        "type": "", 
+                        "slug": "saint"
+                    }
+                }, 
+                {
+                    "pk": 48311, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "priest", 
+                        "museumobject_count": 85, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 46, 
+                        "type": "", 
+                        "slug": "priest"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1700 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Bust of a gaunt middle-aged man with sallow skin and black hair. Made up of several solid pieces of wood fitted together. Drapery probably carved from wood, and perhaps a wig or other head-covering were likely to have adorned the figure", 
+            "dimensions": "Height: 57.5 cm", 
+            "title": "Bust of a Saint (?)", 
+            "date_start": "1695-01-01", 
+            "materials_techniques": "Painted Spanish cedar", 
+            "last_processed": "2014-04-01 11:11:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 405, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cedar", 
+                        "museumobject_count": 22, 
+                        "source": "cis_materials", 
+                        "cis_id": "12514", 
+                        "museumobject_image_count": 17, 
+                        "type": "", 
+                        "slug": "cedar"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 391943, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 387994, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "A.66-1953", 
+                        "museumobject": 290477, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "a661953", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "a661953", 
+            "object": "Bust", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 11:11:05", 
+            "public_access_description": "The bust is allied in style to 17th century Sevillian sculpture. It does echo some of the figures of Juan Mart\u00ednez Monta\u00f1es (1568-1649), to whom it was once ascribed. However, the type of wood used (Cedrela odorata), closely related to Mahogany, is restricted to South America, which suggest the piece must be Hispano-American, although strongly influenced by early seventeenth-century Andalusian work. It was perhaps made in South America by an immigrant Sevillian sculptor.\nProbably once part of a life-size figure. It may well have been a processional figure.", 
+            "exhibition_history": "", 
+            "bibliography": "Trusted, Marjorie. <u>Spanish Sculpture. Catalogue of the Post-Medieval Spanish Sculpture in Wood, Terracotta, Alabaster, Marble, Stone, Lead and Jet in the Victoria and Albert Museum</u>, London, 1996, pp. 139, 140, cat. no. 67", 
+            "vanda_exhibition_history": "", 
+            "slug": "bust-of-a-saint-bust-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 307714, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 290477, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1704, 
+            "object_number": "O350114", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Bequeathed by Marmaduke Langdale Horn of 'Michaels', Stoke Charity, Hampshire, in 1953.\n\nHistorical significance: The bust is allied in style to 17th century Sevillian sculpture. It does echo some of the figures of Juan Mart\u00ednez Monta\u00f1es (1568-1649). However, the type of wood used (<i>Cedrela odorata</i>), closely related to Mahogany, is restricted to South America, which suggest the piece must be Hispano-American, although strongly influenced by early seventeenth-century Andalusian work. It was perhaps made in South America by an immigrant Sevillian sculptor.", 
+            "place": "", 
+            "production_note": "Hispano-American", 
+            "historical_context_note": "Probably once part of a life-size figure. It may well have been a processional figure.", 
+            "collection_code": "SCP"
+        }
+    }
+]
