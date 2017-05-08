@@ -1,0 +1,224 @@
+[
+    {
+        "pk": 99116, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.3980-1923", 
+            "date_end": "1900-12-31", 
+            "labels": [], 
+            "descriptive_line": "Etching needle used by Samuel Palmer. Wood, metal alloy and steel. 19th century.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1800, 
+            "exhibitions": [
+                {
+                    "pk": 3276, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 3, 
+                        "year_start": 1926, 
+                        "name": "Exhibition of Drawings, Etchings & Woodcuts by Samuel Palmer and other Disciples of William Blake", 
+                        "date_end": "1926-12-31", 
+                        "museumobject_count": 60, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "1926-10-20", 
+                        "year_end": 1926, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 43, 
+                        "type": "", 
+                        "slug": "exhibition-of-drawings-etchings-woodcuts-by-samuel-palmer-and-ot", 
+                        "date_text": "20/10/1926-31/12/1926"
+                    }
+                }, 
+                {
+                    "pk": 546, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 95, 
+                        "year_start": 2005, 
+                        "name": "Samuel Palmer. Vision and Landscape", 
+                        "date_end": "2006-01-22", 
+                        "museumobject_count": 23, 
+                        "venue": "British Museum", 
+                        "date_start": "2005-10-21", 
+                        "year_end": 2006, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 19, 
+                        "type": "", 
+                        "slug": "samuel-palmer-vision-and-landscape", 
+                        "date_text": "21/10/2005-22/01/2006"
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "19th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Etching needle (tool) with a sharp point, as used by Samuel Palmer.", 
+            "dimensions": "", 
+            "title": "Etching Needle used by Samuel Palmer", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-04-01 01:26:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 514a, case 19, shelf 21", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 10, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wood", 
+                        "museumobject_count": 3505, 
+                        "source": "cis_materials", 
+                        "cis_id": "11914", 
+                        "museumobject_image_count": 1492, 
+                        "type": "", 
+                        "slug": "wood"
+                    }
+                }, 
+                {
+                    "pk": 33, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "steel", 
+                        "museumobject_count": 1527, 
+                        "source": "cis_materials", 
+                        "cis_id": "133751", 
+                        "museumobject_image_count": 834, 
+                        "type": "", 
+                        "slug": "steel"
+                    }
+                }, 
+                {
+                    "pk": 277, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "alloy", 
+                        "museumobject_count": 27, 
+                        "source": "cis_materials", 
+                        "cis_id": "10902", 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "alloy"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 164359, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 446
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "19", 
+                        "inventory_number": 714901, 
+                        "room": "514A", 
+                        "part_name": "", 
+                        "museum_number": "E.3980-1923", 
+                        "museumobject": 99116, 
+                        "shelf": "21", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 514a", 
+                        "museum_number_token": "e39801923", 
+                        "gallery": 446
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 446, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "514A", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 514a", 
+                        "site_code": "VA", 
+                        "museumobject_count": 5045, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49773", 
+                        "museumobject_image_count": 284, 
+                        "type": "", 
+                        "slug": "514a-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "e39801923", 
+            "object": "Tool", 
+            "categories": [
+                {
+                    "pk": 51, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tools & Equipment", 
+                        "museumobject_count": 1382, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 611, 
+                        "type": "", 
+                        "slug": "tools-equipment"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:26:09", 
+            "public_access_description": "", 
+            "exhibition_history": "Exhibition of Drawings, Etchings & Woodcuts by Samuel Palmer and other Disciples of William Blake (Victoria and Albert Museum 20/10/1926-31/12/1926)\nSamuel Palmer. Vision and Landscape (Metropolitan Museum of Art, New York 07/03/2006-28/05/2006)\nSamuel Palmer. Vision and Landscape (British Museum 21/10/2005-22/01/2006)", 
+            "bibliography": "Vaughan, William, Elizabeth E. Barker and Colin Harrison, eds. <u>Samuel Palmer 1805-1881: Vision and Landscape</u>. London: The British Museum Press, 2005. 256 p., ill. (chiefly col.). Catalogue of the exhibition held at the British Museum, 12 October 2005 \u2013 22 January 2006. ISBN 0714126411. Cat. no. 127a, p.205, illus. p. 206.\nThe full text of the entry is as follows: \n \n\u2018127a \nEtching needle used by Samuel  \nPalmer  \n \nWood, metal alloy and steel \n \nLit: V&A 1926, 19 \n \nLondon, Victoria and Albert Museum, \nE.459-1953; presented by Dorothea Short\u2019\n<u>Catalogue of an Exhibition of Drawings, Etchings & Woodcuts by Samuel Palmer and other Disciples of William Blake October 20 - December 31, 1926</u>. London : Published under the authority of the Board of Education, 1926. Publication No. 178 E.I.D.\nThe full text of the entry is as follows: \n\n'DRAWINGS BY SAMUEL PALMER\u2019S FRIENDS, AND HISTORICAL EXHIBITS \n\n[ \u2026 ] \n\nSAMUEL PALMER \n\n[ ... ] \n\n19. Etching needle used by Samuel Palmer.  E.3980-1923. \nPresented by Martin Hardie, Esq., R.I., R.E.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "etching-needle-used-by-samuel-tool", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1900, 
+            "object_number": "O126830", 
+            "events": [], 
+            "credit": "Presented by A. H. Palmer, Esq.", 
+            "history_note": "In 1850, at the age of forty-five, Samuel Palmer took up etching. The artist's son, A. H. Palmer, gave the tools to three people: Sir Frank Short, Martin Hardie, and F.L. Griggs. Hardie and Short each donated two of Palmer's etching tools to the V&A museum. In a note sent to Martin Hardie in 1923 A. H. Palmer recalled that the tools with 'German silver fittings were made by one Donaldson, in industrious, between bibulous, intervals - a noted man at his craft'.", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
