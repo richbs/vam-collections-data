@@ -1,0 +1,358 @@
+[
+    {
+        "pk": 2764, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "4467&A-1901", 
+            "date_end": "1875-12-31", 
+            "labels": [
+                {
+                    "pk": 482, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 2764, 
+                        "label_text": "The goblet is engraved with a stag-hunting scene, while the cover has eight oval panels in relief, engraved with animals and birds."
+                    }
+                }
+            ], 
+            "descriptive_line": "Goblet and cover, Bohemia or Silesia, 1840-1850", 
+            "shape": "", 
+            "longitude": "14.47879000", 
+            "year_start": 1825, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48061, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "bird", 
+                        "museumobject_count": 947, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 772, 
+                        "type": "", 
+                        "slug": "bird"
+                    }
+                }, 
+                {
+                    "pk": 804, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stag", 
+                        "museumobject_count": 157, 
+                        "source": "object", 
+                        "cis_id": "x30301", 
+                        "museumobject_image_count": 117, 
+                        "type": "", 
+                        "slug": "stag"
+                    }
+                }, 
+                {
+                    "pk": 581, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "animal", 
+                        "museumobject_count": 106, 
+                        "source": "object", 
+                        "cis_id": "x33594", 
+                        "museumobject_image_count": 88, 
+                        "type": "", 
+                        "slug": "animal"
+                    }
+                }, 
+                {
+                    "pk": 48117, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "hunter", 
+                        "museumobject_count": 55, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 43, 
+                        "type": "", 
+                        "slug": "hunter"
+                    }
+                }
+            ], 
+            "date_text": "mid 19th century (made)", 
+            "primary_image_id": "2006AM3952", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 43.5 cm, Width: 17.2 cm maximum, Weight: 3 kg", 
+            "title": "", 
+            "date_start": "1825-01-01", 
+            "materials_techniques": "Ruby glass, cut and engraved", 
+            "last_processed": "2014-03-31 19:00:14", 
+            "label": "The goblet is engraved with a stag-hunting scene, while the cover has eight oval panels in relief, engraved with animals and birds.", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 27, shelf 1", 
+            "marks": "", 
+            "latitude": "49.80358900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 26, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "19TH CONT", 
+                        "museumobject_count": 640, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29275", 
+                        "museumobject_image_count": 127, 
+                        "type": "", 
+                        "slug": "19th-cont"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 3748, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "27", 
+                        "inventory_number": 351355, 
+                        "room": "131", 
+                        "part_name": "Cover", 
+                        "museum_number": "4467A-1901", 
+                        "museumobject": 2764, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "4467a1901", 
+                        "gallery": 337
+                    }
+                }, 
+                {
+                    "pk": 3749, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "27", 
+                        "inventory_number": 351356, 
+                        "room": "131", 
+                        "part_name": "Goblet", 
+                        "museum_number": "4467-1901", 
+                        "museumobject": 2764, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "44671901", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 2871, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 121
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 2764, 
+                        "role": "made", 
+                        "place": 121, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "44671901", 
+            "object": "Goblet and cover", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 15, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drinking", 
+                        "museumobject_count": 5467, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2065, 
+                        "type": "", 
+                        "slug": "drinking"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:00:14", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Stefania Zelasko, Gr\u00e4flich Schaffgotsch'sche JOSEPHINENH\u00dcTTE: Kunstglasfabrik in Schreiberhau und Franz Pohl 1841-1900, Passau 2005, p. 157 for an amber-coloured goblet of the same shape attributed to Silesia in the Glasmuseum Passau.", 
+            "vanda_exhibition_history": "", 
+            "slug": "goblet-and-cover-unknown", 
+            "sys_updated": "2013-12-10 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 5411, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-02-22 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:22", 
+                        "priority": 0, 
+                        "image_id": "2006AM3952", 
+                        "sys_id": 113952, 
+                        "last_checked": "2014-03-31 17:09:22", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM3952.jpg"
+                    }
+                }, 
+                {
+                    "pk": 5410, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-02-22 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:22", 
+                        "priority": 1, 
+                        "image_id": "2006AM3951", 
+                        "sys_id": 113951, 
+                        "last_checked": "2014-03-31 17:09:22", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM3951.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 121, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 198
+                    }, 
+                    "fields": {
+                        "name": "Bohemia", 
+                        "parent": 198, 
+                        "country": "Czech Republic", 
+                        "museumobject_count": 362, 
+                        "longitude": "14.47879000", 
+                        "source": "production", 
+                        "cis_id": "x28753", 
+                        "museumobject_image_count": 67, 
+                        "latitude": "49.80358900", 
+                        "type": "region", 
+                        "slug": "bohemia-czech-republic-x28753"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 2544, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2764, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1875, 
+            "object_number": "O1056", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Bohemia", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
