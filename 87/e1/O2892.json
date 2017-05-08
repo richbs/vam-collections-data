@@ -1,0 +1,213 @@
+[
+    {
+        "pk": 4468, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.165-1956", 
+            "date_end": "1720-12-31", 
+            "labels": [], 
+            "descriptive_line": "Wine glass, Germany (Saxony) or Bohemia, , 1710-1720, C.165-1956  .", 
+            "shape": "", 
+            "longitude": "13.45719000", 
+            "year_start": 1710, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1710 - 1720 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 12.0 cm", 
+            "title": "", 
+            "date_start": "1710-01-01", 
+            "materials_techniques": "with ruby twist, and engraved decoration", 
+            "last_processed": "2014-03-31 19:04:32", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 74, shelf 2", 
+            "marks": "", 
+            "latitude": "50.92802800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 87, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "EUROPE", 
+                        "museumobject_count": 960, 
+                        "source": "cis_style_period", 
+                        "cis_id": "20656", 
+                        "museumobject_image_count": 190, 
+                        "type": "", 
+                        "slug": "europe"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 5516, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "74", 
+                        "inventory_number": 360216, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.165-1956", 
+                        "museumobject": 4468, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c1651956", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 4835, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 213
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 4468, 
+                        "role": "made", 
+                        "place": 213, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 4836, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 121
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 4468, 
+                        "role": "made", 
+                        "place": 121, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c1651956", 
+            "object": "Wine glass", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:04:32", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "wine-glass", 
+            "sys_updated": "2014-01-29 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 213, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5
+                    }, 
+                    "fields": {
+                        "name": "Saxony", 
+                        "parent": 5, 
+                        "country": "Germany", 
+                        "museumobject_count": 76, 
+                        "longitude": "13.45719000", 
+                        "source": "production", 
+                        "cis_id": "x29125", 
+                        "museumobject_image_count": 38, 
+                        "latitude": "50.92802800", 
+                        "type": "region / state", 
+                        "slug": "saxony-germany-x29125"
+                    }
+                }, 
+                {
+                    "pk": 121, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 198
+                    }, 
+                    "fields": {
+                        "name": "Bohemia", 
+                        "parent": 198, 
+                        "country": "Czech Republic", 
+                        "museumobject_count": 362, 
+                        "longitude": "14.47879000", 
+                        "source": "production", 
+                        "cis_id": "x28753", 
+                        "museumobject_image_count": 67, 
+                        "latitude": "49.80358900", 
+                        "type": "region", 
+                        "slug": "bohemia-czech-republic-x28753"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1720, 
+            "object_number": "O2892", 
+            "events": [], 
+            "credit": "Given by R.W. Morris", 
+            "history_note": "", 
+            "place": "Saxony", 
+            "production_note": "Possibly Saxony or Bohemia; This attribution and date suggested by Olga Drahotov\u00e0 1992. For a similar glass see Gisela Haase, S\u00e4chsisches Glas (1988), cat. 158.", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
