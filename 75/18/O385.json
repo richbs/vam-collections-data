@@ -1,0 +1,261 @@
+[
+    {
+        "pk": 2142, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "16-1882", 
+            "date_end": "1884-12-31", 
+            "labels": [
+                {
+                    "pk": 301, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 2142, 
+                        "label_text": "A number of German and Bohemian glassworks made this type of glass after Roman examples.  This vase was bought in Germany; the type is close to those supplied to the Tschernich company at Haida (Bor) in Bohemia, near the German border and possibly made by J Loetz Witwe."
+                    }
+                }
+            ], 
+            "descriptive_line": "Vase, Bohemia (Klosterm\u00fchle), possibly made by J. Loetz Witwe glassworks, 1880-1882, 16-1882  .", 
+            "shape": "", 
+            "longitude": "14.47879000", 
+            "year_start": 1875, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1880 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 13.0 cm", 
+            "title": "", 
+            "date_start": "1875-01-01", 
+            "materials_techniques": "iridised", 
+            "last_processed": "2014-03-31 18:58:39", 
+            "label": "A number of German and Bohemian glassworks made this type of glass after Roman examples.  This vase was bought in Germany; the type is close to those supplied to the Tschernich company at Haida (Bor) in Bohemia, near the German border and possibly made by J Loetz Witwe.", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 28, shelf 3", 
+            "marks": "", 
+            "latitude": "49.80358900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 26, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "19TH CONT", 
+                        "museumobject_count": 640, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29275", 
+                        "museumobject_image_count": 127, 
+                        "type": "", 
+                        "slug": "19th-cont"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 3091, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "28", 
+                        "inventory_number": 373031, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "16-1882", 
+                        "museumobject": 2142, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "161882", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 734, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Johann Loetz Witwe Glassworks", 
+                        "gender": null, 
+                        "museumobject_count": 25, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1276", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "johann-loetz-witwe-glassworks", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 2090, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 121
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 2142, 
+                        "role": "made", 
+                        "place": 121, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 2091, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 296
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 2142, 
+                        "role": "made", 
+                        "place": 296, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "161882", 
+            "object": "Vase", 
+            "categories": [], 
+            "last_checked": "2014-03-31 18:58:39", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Spiegl, W.....", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-johann-loetz-witwe", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 121, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 198
+                    }, 
+                    "fields": {
+                        "name": "Bohemia", 
+                        "parent": 198, 
+                        "country": "Czech Republic", 
+                        "museumobject_count": 362, 
+                        "longitude": "14.47879000", 
+                        "source": "production", 
+                        "cis_id": "x28753", 
+                        "museumobject_image_count": 67, 
+                        "latitude": "49.80358900", 
+                        "type": "region", 
+                        "slug": "bohemia-czech-republic-x28753"
+                    }
+                }, 
+                {
+                    "pk": 296, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4710
+                    }, 
+                    "fields": {
+                        "name": "Kl\u00f6stermuhle", 
+                        "parent": 4710, 
+                        "country": "Czech Republic", 
+                        "museumobject_count": 23, 
+                        "longitude": "14.88086000", 
+                        "source": "production", 
+                        "cis_id": "x28954", 
+                        "museumobject_image_count": 6, 
+                        "latitude": "49.33705100", 
+                        "type": "city/town", 
+                        "slug": "klostermuhle-czech-republic-x28954"
+                    }
+                }
+            ], 
+            "artist": "Johann Loetz Witwe Glassworks", 
+            "namecontext_set": [
+                {
+                    "pk": 2389, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 734
+                    }, 
+                    "fields": {
+                        "name": 734, 
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 2142, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1884, 
+            "object_number": "O385", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Bohemia", 
+            "production_note": "See similar glass in IPM, Prague descr. as 'Tschernich a spol., Bor, 1897'", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

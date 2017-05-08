@@ -1,0 +1,319 @@
+[
+    {
+        "pk": 200123, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1049:1-2008", 
+            "date_end": "1984-12-31", 
+            "labels": [], 
+            "descriptive_line": "Portrait of Albert Einstein, 220 plastic dominoes, wood, glue in a metal frame, 'Domino-Pix', by Ken Knowlton, California, 1984", 
+            "shape": "", 
+            "longitude": "-119.27020300", 
+            "year_start": 1984, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 34372, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Einstein, Albert", 
+                        "museumobject_count": 8, 
+                        "source": "name", 
+                        "cis_id": "N3624", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "einstein-albert"
+                    }
+                }, 
+                {
+                    "pk": 42293, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "domino", 
+                        "museumobject_count": 2, 
+                        "source": "object", 
+                        "cis_id": "211090", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "domino"
+                    }
+                }
+            ], 
+            "date_text": "1984 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "This is a picture frame with wooden back and metal frame containing the 220 dominoes making up the whole picture, which is representing Albert Einstein. The dominoes are glued to the wooden back. Each plastic domino has the numbers embossed with white dots, like on a dice.", 
+            "dimensions": "Length: 49.5 cm, Width: 45 cm", 
+            "title": "Domino-Pix", 
+            "date_start": "1984-01-01", 
+            "materials_techniques": "Plastic dominoes in metal frame with wooden base", 
+            "last_processed": "2014-04-01 07:21:44", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2E, shelf DR53, box PATRIC PRINCE", 
+            "marks": "", 
+            "latitude": "37.27183200", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 29, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "plastic", 
+                        "museumobject_count": 4498, 
+                        "source": "cis_materials", 
+                        "cis_id": "14570", 
+                        "museumobject_image_count": 535, 
+                        "type": "", 
+                        "slug": "plastic"
+                    }
+                }, 
+                {
+                    "pk": 10, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wood", 
+                        "museumobject_count": 3505, 
+                        "source": "cis_materials", 
+                        "cis_id": "11914", 
+                        "museumobject_image_count": 1492, 
+                        "type": "", 
+                        "slug": "wood"
+                    }
+                }, 
+                {
+                    "pk": 9, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "metal", 
+                        "museumobject_count": 2422, 
+                        "source": "cis_materials", 
+                        "cis_id": "10900", 
+                        "museumobject_image_count": 854, 
+                        "type": "", 
+                        "slug": "metal"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 279545, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "PATRIC PRINCE", 
+                        "case": "MB2E", 
+                        "inventory_number": 1390330, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.1049:1-2008", 
+                        "museumobject": 200123, 
+                        "shelf": "DR53", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e104912008", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 41516, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Knowlton, Ken", 
+                        "gender": null, 
+                        "museumobject_count": 45, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A21847", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1931-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "knowlton-ken", 
+                        "birth_year": 1931
+                    }
+                }, 
+                {
+                    "pk": 41475, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1955-04-18", 
+                        "surname": "", 
+                        "name": "Einstein, Albert", 
+                        "gender": null, 
+                        "museumobject_count": 8, 
+                        "death_year": 1955, 
+                        "source": "content", 
+                        "cis_id": "N3624", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1879-03-14", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "einstein-albert", 
+                        "birth_year": 1879
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 183359, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 922
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 200123, 
+                        "role": "made", 
+                        "place": 922, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e104912008", 
+            "object": "Mixed media", 
+            "categories": [
+                {
+                    "pk": 1337, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Computer Art", 
+                        "museumobject_count": 515, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 423, 
+                        "type": "", 
+                        "slug": "computer-art"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 07:21:44", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "domino-pix-mixed-media-knowlton-ken", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 922, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 10
+                    }, 
+                    "fields": {
+                        "name": "California", 
+                        "parent": 10, 
+                        "country": "United States", 
+                        "museumobject_count": 189, 
+                        "longitude": "-119.27020300", 
+                        "source": "production", 
+                        "cis_id": "x28779", 
+                        "museumobject_image_count": 31, 
+                        "latitude": "37.27183200", 
+                        "type": "region / state", 
+                        "slug": "california-united-states-x28779"
+                    }
+                }
+            ], 
+            "artist": "Knowlton, Ken", 
+            "namecontext_set": [
+                {
+                    "pk": 255960, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 41516
+                    }, 
+                    "fields": {
+                        "name": 41516, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 200123, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 255961, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 41475
+                    }, 
+                    "fields": {
+                        "name": 41475, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 200123, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1984, 
+            "object_number": "O239493", 
+            "events": [], 
+            "credit": "Given by the American Friends of the V&A through the generosity of Patric Prince", 
+            "history_note": "", 
+            "place": "California", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
