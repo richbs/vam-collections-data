@@ -1,0 +1,341 @@
+[
+    {
+        "pk": 20738, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.10&A-1989", 
+            "date_end": "1988-12-31", 
+            "labels": [], 
+            "descriptive_line": "Stoneware teapot and lid by Carol McNicoll; British; 1988.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1988, 
+            "exhibitions": [
+                {
+                    "pk": 122, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 4490, 
+                        "year_start": 2003, 
+                        "name": "Carol McNicoll Retrospective", 
+                        "date_end": "2003-11-01", 
+                        "museumobject_count": 6, 
+                        "venue": "The City Gallery, Leicester", 
+                        "date_start": "2003-09-06", 
+                        "year_end": 2003, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "carol-mcnicoll-retrospective", 
+                        "date_text": "06/09/2003 - 01/11/2003"
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "1988 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Teapot made up of interlocking 'ribbons' which are curved to form the body, handle and spout, decorated with abstract patterns in blue, white and brown.", 
+            "dimensions": "Depth: 34.00 cm, Height: 16.80 cm", 
+            "title": "", 
+            "date_start": "1988-01-01", 
+            "materials_techniques": "Hand-built stoneware, inlaid, incised and painted in blue, white and brown", 
+            "last_processed": "2014-03-31 20:11:29", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Studio Ceramics, room 142, case 10, shelf 2", 
+            "marks": "'Carol McNicoll', signed in black", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 527, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "inlay", 
+                        "museumobject_count": 340, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x40072", 
+                        "museumobject_image_count": 178, 
+                        "type": "", 
+                        "slug": "inlay"
+                    }
+                }, 
+                {
+                    "pk": 60, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "incising", 
+                        "museumobject_count": 295, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53847", 
+                        "museumobject_image_count": 202, 
+                        "type": "", 
+                        "slug": "incising"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 159, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "stoneware", 
+                        "museumobject_count": 3966, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30197", 
+                        "museumobject_image_count": 3509, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 30557, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 351
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "10", 
+                        "inventory_number": 75892, 
+                        "room": "142", 
+                        "part_name": "Teapot body", 
+                        "museum_number": "C.10-1989", 
+                        "museumobject": 20738, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Studio Ceramics, room 142", 
+                        "museum_number_token": "c101989", 
+                        "gallery": 351
+                    }
+                }, 
+                {
+                    "pk": 30558, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 351
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "10", 
+                        "inventory_number": 75891, 
+                        "room": "142", 
+                        "part_name": "Teapot cover", 
+                        "museum_number": "C.10A-1989", 
+                        "museumobject": 20738, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Studio Ceramics, room 142", 
+                        "museum_number_token": "c10a1989", 
+                        "gallery": 351
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 351, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "142", 
+                        "site_name": "", 
+                        "name": "Studio Ceramics, room 142", 
+                        "site_code": "VA", 
+                        "museumobject_count": 489, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49868", 
+                        "museumobject_image_count": 483, 
+                        "type": "", 
+                        "slug": "142-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3002, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Carol McNicoll", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A2743", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": "1943-12-24", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mcnicoll-carol", 
+                        "birth_year": 1943
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 21909, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 20738, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c101989", 
+            "object": "Teapot", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 68, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Studio Ceramics", 
+                        "museumobject_count": 690, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 687, 
+                        "type": "", 
+                        "slug": "studio-ceramics"
+                    }
+                }, 
+                {
+                    "pk": 69, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Studio Pottery", 
+                        "museumobject_count": 665, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 572, 
+                        "type": "", 
+                        "slug": "studio-pottery"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stoneware", 
+                        "museumobject_count": 3435, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3026, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:11:29", 
+            "public_access_description": "", 
+            "exhibition_history": "Carol McNicoll Retrospective (Birmingham Museum and Art Gallery 14/02/2004-06/06/2004)\nCarol McNicoll Retrospective (The City Gallery, Leicester 06/09/2003-01/11/2003)", 
+            "bibliography": "Watson, Oliver. <u>British Studio Pottery</u>. Oxford: Phaidon; Christie's Limited; in association with the Victoria and Albert Museum, London, 1990. ISBN 0 7 148 8067 1", 
+            "vanda_exhibition_history": "", 
+            "slug": "teapot-mcnicoll-carol", 
+            "sys_updated": "2013-09-13 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "McNicoll, Carol", 
+            "namecontext_set": [
+                {
+                    "pk": 22768, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3002
+                    }, 
+                    "fields": {
+                        "name": 3002, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 20738, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1988, 
+            "object_number": "O19551", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Acquisition details: CAA, London", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
