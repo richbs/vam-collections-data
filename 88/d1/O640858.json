@@ -1,0 +1,447 @@
+[
+    {
+        "pk": 554159, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "23576", 
+            "date_end": "1839-10-01", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Charles Dickens seated in a chair, engraving by William Finden after Daniel Maclise, 1839.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1839, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48071, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "author", 
+                        "museumobject_count": 45, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "author"
+                    }
+                }, 
+                {
+                    "pk": 267, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "writer", 
+                        "museumobject_count": 36, 
+                        "source": "object", 
+                        "cis_id": "x36825", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "writer"
+                    }
+                }, 
+                {
+                    "pk": 27288, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Dickens, Charles", 
+                        "museumobject_count": 36, 
+                        "source": "name", 
+                        "cis_id": "N2443", 
+                        "museumobject_image_count": 26, 
+                        "type": "", 
+                        "slug": "dickens-charles-2443"
+                    }
+                }
+            ], 
+            "date_text": "01/10/1839 (published)", 
+            "primary_image_id": "2011FD5479", 
+            "rights": 3, 
+            "physical_description": "Half-length portrait in an oval; seated to right, and looking to left with right hand raised and elbow leaning on arm of chair; facsimile subscription and signature below.", 
+            "dimensions": "Height: 25.1 cm, Width: 17.6 cm", 
+            "title": "Charles Dickens", 
+            "date_start": "1839-10-01", 
+            "materials_techniques": "Engraving on paper", 
+            "last_processed": "2014-04-26 13:41:40", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PP, shelf 11, box A", 
+            "marks": "'Painted by D. Maclise, A.R.A.   Engraved by Finden.   Printed by J. Yates.   London, Published Octr. 1, 1839, by Chapman & Hall, 186, Strand.'\n 'Faithfully yours Charles Dickens'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 24215, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7670, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2733, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 688676, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "PP", 
+                        "inventory_number": 1167769, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "23576", 
+                        "museumobject": 554159, 
+                        "shelf": "11", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "23576", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 42316, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1852-09-20", 
+                        "surname": "", 
+                        "name": "William Finden", 
+                        "gender": null, 
+                        "museumobject_count": 160, 
+                        "death_year": 1852, 
+                        "source": "object_production", 
+                        "cis_id": "A25467", 
+                        "museumobject_image_count": 15, 
+                        "forename": "", 
+                        "birth_date": "1787-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "finden-william", 
+                        "birth_year": 1787
+                    }
+                }, 
+                {
+                    "pk": 754, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1870-04-25", 
+                        "surname": "", 
+                        "name": "Maclise, Daniel", 
+                        "gender": null, 
+                        "museumobject_count": 467, 
+                        "death_year": 1870, 
+                        "source": "object_production", 
+                        "cis_id": "A2282", 
+                        "museumobject_image_count": 84, 
+                        "forename": "", 
+                        "birth_date": "1806-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "maclise-daniel", 
+                        "birth_year": 1806
+                    }
+                }, 
+                {
+                    "pk": 1110, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Chapman", 
+                        "gender": null, 
+                        "museumobject_count": 50, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A9673", 
+                        "museumobject_image_count": 33, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "chapman-hall", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 8126, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1870-12-31", 
+                        "surname": "", 
+                        "name": "Dickens, Charles", 
+                        "gender": null, 
+                        "museumobject_count": 390, 
+                        "death_year": 1870, 
+                        "source": "content", 
+                        "cis_id": "N2443", 
+                        "museumobject_image_count": 289, 
+                        "forename": "", 
+                        "birth_date": "1812-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "dickens-charles-2443", 
+                        "birth_year": 1812
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 341338, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 554159, 
+                        "role": "published", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "23576", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 1665, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Dickens", 
+                        "museumobject_count": 260, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 181, 
+                        "type": "", 
+                        "slug": "dickens"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 13:41:40", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "charles-dickens-print-finden-william", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 276677, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-07-11 00:00:00", 
+                        "last_processed": "2014-04-25 14:41:05", 
+                        "priority": 3, 
+                        "image_id": "2011FD5479", 
+                        "sys_id": 1085479, 
+                        "last_checked": "2014-04-25 14:41:05", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2011FD/2011FD5479.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Finden, William", 
+            "namecontext_set": [
+                {
+                    "pk": 444256, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 42316
+                    }, 
+                    "fields": {
+                        "name": 42316, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 554159, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 444257, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 754
+                    }, 
+                    "fields": {
+                        "name": 754, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 554159, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 444258, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1110
+                    }, 
+                    "fields": {
+                        "name": 1110, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 554159, 
+                        "role": "publisher", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 444259, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8126
+                    }, 
+                    "fields": {
+                        "name": 8126, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 554159, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1839, 
+            "object_number": "O640858", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "India proof", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
