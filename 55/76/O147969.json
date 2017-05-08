@@ -1,0 +1,363 @@
+[
+    {
+        "pk": 116516, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "SD.763", 
+            "date_end": "1911-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing,`The Pen is Handier Than The Sword', 1911, by Sir John Bernard Partridge  RI", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1911, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 639, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "war", 
+                        "museumobject_count": 667, 
+                        "source": "concept", 
+                        "cis_id": "x35624", 
+                        "museumobject_image_count": 228, 
+                        "type": "", 
+                        "slug": "war"
+                    }
+                }, 
+                {
+                    "pk": 5371, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Illustration", 
+                        "museumobject_count": 649, 
+                        "source": "concept", 
+                        "cis_id": "x33379", 
+                        "museumobject_image_count": 370, 
+                        "type": "", 
+                        "slug": "illustration"
+                    }
+                }, 
+                {
+                    "pk": 24006, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "soldiers", 
+                        "museumobject_count": 570, 
+                        "source": "object", 
+                        "cis_id": "185678", 
+                        "museumobject_image_count": 351, 
+                        "type": "", 
+                        "slug": "soldiers"
+                    }
+                }, 
+                {
+                    "pk": 3512, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "caricature", 
+                        "museumobject_count": 283, 
+                        "source": "concept", 
+                        "cis_id": "x32507", 
+                        "museumobject_image_count": 225, 
+                        "type": "", 
+                        "slug": "caricature"
+                    }
+                }, 
+                {
+                    "pk": 29390, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Bellona", 
+                        "museumobject_count": 12, 
+                        "source": "name", 
+                        "cis_id": "N308", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "bellona"
+                    }
+                }
+            ], 
+            "date_text": "1911 (drawn)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 36.5 cm, Width: 27.1 cm", 
+            "title": "The Pen is Handier Than The Sword", 
+            "date_start": "1911-01-01", 
+            "materials_techniques": "Pen and Indian ink, over pencil, on card", 
+            "last_processed": "2014-04-01 02:39:03", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case 86, shelf SC, box 31", 
+            "marks": "Signed Bernard Partridge -, inscribed with title and caption Punch, 18 October 1911, p.279.", 
+            "latitude": "54.31391900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Orientalism", 
+                        "museumobject_count": 2315, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31272", 
+                        "museumobject_image_count": 1552, 
+                        "type": "", 
+                        "slug": "orientalism"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 185693, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "31", 
+                        "case": "86", 
+                        "inventory_number": 112796, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "SD.763", 
+                        "museumobject": 116516, 
+                        "shelf": "SC", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "sd763", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 7482, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1945-12-31", 
+                        "surname": "", 
+                        "name": "John Bernard Partridge", 
+                        "gender": null, 
+                        "museumobject_count": 51, 
+                        "death_year": 1945, 
+                        "source": "object_production", 
+                        "cis_id": "A4278", 
+                        "museumobject_image_count": 31, 
+                        "forename": "", 
+                        "birth_date": "1861-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "partridge-bernard-j-sir", 
+                        "birth_year": 1861
+                    }
+                }, 
+                {
+                    "pk": 13339, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bellona", 
+                        "gender": null, 
+                        "museumobject_count": 13, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N308", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bellona", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 114481, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 116516, 
+                        "role": "drawn", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "sd763", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:39:03", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-pen-is-handier-than-drawing-partridge-john-bernard", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Partridge, John Bernard (Sir  RI)", 
+            "namecontext_set": [
+                {
+                    "pk": 141443, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 7482
+                    }, 
+                    "fields": {
+                        "name": 7482, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 116516, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 141444, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 13339
+                    }, 
+                    "fields": {
+                        "name": 13339, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 116516, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1911, 
+            "object_number": "O147969", 
+            "events": [
+                {
+                    "pk": 491, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "Italo-Turkish War", 
+                        "date_end": null, 
+                        "museumobject_count": 1, 
+                        "year_end": null, 
+                        "source": "subject", 
+                        "cis_id": "V619", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "italo-turkish-war-v619"
+                    }
+                }
+            ], 
+            "credit": "Purchased with the assistance of The Art Fund, the National Heritage Memorial Fund, Shell International and the Friends of the V&A", 
+            "history_note": "According to Rodney Searight: - `Bt Holder, Oct.1979, \u00a321 (exchanged for lithographs to the same value).'", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "The Italo-Turkish or Turco-Italian War (also known in Italy as guerra di Libia, \"the Libyan war\", and in Turkey as Trablusgarp Savasi) was fought between the Ottoman Empire and Italy from September 29, 1911 to October 18, 1912. The cartoon presumably refers to Turkey's unsuccessful appeal to European powers for help in transporting troops.", 
+            "collection_code": "PDP"
+        }
+    }
+]

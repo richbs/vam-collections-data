@@ -1,0 +1,232 @@
+[
+    {
+        "pk": 681673, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.620-1922", 
+            "date_end": "1599-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing, design for a pedimented niche, containing a figure of St Catheine of Sienne; above, an alternting deisng for the pediment, Rome, late 16th century.", 
+            "shape": "", 
+            "longitude": "12.49576000", 
+            "year_start": 1550, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "late 16th century (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Length: 321 mm, Width: 203 mm", 
+            "title": "Design for a pedimented niche", 
+            "date_start": "1550-01-01", 
+            "materials_techniques": "Blue wash over black chalk, strengthened in places with pen and ink", 
+            "last_processed": "2014-04-26 17:34:28", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case A, shelf 191", 
+            "marks": "", 
+            "latitude": "41.90311100", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31965, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18774, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }, 
+                {
+                    "pk": 213, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "black chalk", 
+                        "museumobject_count": 1501, 
+                        "source": "cis_materials", 
+                        "cis_id": "80058", 
+                        "museumobject_image_count": 301, 
+                        "type": "", 
+                        "slug": "black-chalk"
+                    }
+                }, 
+                {
+                    "pk": 263, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "blue wash", 
+                        "museumobject_count": 21, 
+                        "source": "cis_materials", 
+                        "cis_id": "x32683", 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "blue-wash"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 65, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Italian School", 
+                        "museumobject_count": 759, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31264", 
+                        "museumobject_image_count": 255, 
+                        "type": "", 
+                        "slug": "italian-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 816516, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "A", 
+                        "inventory_number": 1012363, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.620-1922", 
+                        "museumobject": 681673, 
+                        "shelf": "191", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e6201922", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 388247, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 3201
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 681673, 
+                        "role": "made", 
+                        "place": 3201, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e6201922", 
+            "object": "Drawing", 
+            "categories": [], 
+            "last_checked": "2014-04-26 17:34:28", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Ward-Jackson, Peter, Italian Drawings Volume I. 14th-16th century, London, 1979, p. 221. The text is as follows: ROME: late 16th century 492 Design for a pedimented niche, containing a figure of St Catherine of Sienna; above, an alternative design for the pediment Inscribed 'trenta' and numbered '30' Blue wash over black chalk, strengthened in places with pen and ink 12 5/8 x 8 (321 x 203) E.620-1922 PROVENANCE Lord Amherst of Hackney (sale, Sotheby, 14 December 1921; bought by E. M. Meat yard and sold by him to the Museum) By the same hand as no. 493 below. Both drawings are reminiscent of Perino del Vaga in the handling, but the advanced character of the architecture suggests a date well on into the second half of the 16th century. The animal reclining within the pediment in the alternative design appears to be a bear cub, perhaps the emblem of the family for which the design was made. The Orsini sometimes used the bear as a supporter: for examples see G. Falcidia's article on Benefial in Bolletino dei Musei Communali di Roma, II, 1964, nos. 1-4, p. 24, n. 11.", 
+            "vanda_exhibition_history": "", 
+            "slug": "design-for-a-pedimented-niche-drawing", 
+            "sys_updated": "2014-02-18 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 3201, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3766
+                    }, 
+                    "fields": {
+                        "name": "Rome", 
+                        "parent": 3766, 
+                        "country": "Italy", 
+                        "museumobject_count": 81, 
+                        "longitude": "12.49576000", 
+                        "source": "production", 
+                        "cis_id": "x37065", 
+                        "museumobject_image_count": 41, 
+                        "latitude": "41.90311100", 
+                        "type": "administrative district", 
+                        "slug": "rome-italy-x37065"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1599, 
+            "object_number": "O776019", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Rome", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
