@@ -1,0 +1,243 @@
+[
+    {
+        "pk": 101191, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.679-1981", 
+            "date_end": "1980-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print representing moves of the knight in a game of chess, made by Jonathan Turner, UK, 1980", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1980, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 26651, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "chess", 
+                        "museumobject_count": 43, 
+                        "source": "object", 
+                        "cis_id": "216608", 
+                        "museumobject_image_count": 17, 
+                        "type": "", 
+                        "slug": "chess"
+                    }
+                }
+            ], 
+            "date_text": "1980 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Portrait format print with grid overlaid with coloured lines.", 
+            "dimensions": "Height: 83 cm, Width: 75 cm", 
+            "title": "'63 of the Knight's moves in chess covering each of the chessboard's squares in turn'", 
+            "date_start": "1980-01-01", 
+            "materials_techniques": "Colour screenprint on paper", 
+            "last_processed": "2014-04-01 01:35:45", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2G, shelf DR76, box MP341", 
+            "marks": "'Jonathan Turner '80'\n '6/60'", 
+            "latitude": "54.31391900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 166975, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "MP341", 
+                        "case": "MB2G", 
+                        "inventory_number": 1280903, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.679-1981", 
+                        "museumobject": 101191, 
+                        "shelf": "DR76", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e6791981", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32693, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Turner, Jonathan", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A18263", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1937-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "turner-jonathan", 
+                        "birth_year": 1937
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 98359, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 21
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 101191, 
+                        "role": "made", 
+                        "place": 21, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e6791981", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 103, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Games", 
+                        "museumobject_count": 1466, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 443, 
+                        "type": "", 
+                        "slug": "games"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:35:45", 
+            "public_access_description": "This print, as the title says, represents 63 of the Knight's moves in a game of chess covering each of the chessboard's squares in turn. The print is based on the first so-called Magic Square devised by the mathematician Leonhard Euler (1707\u20131783). He described this four-by-four grid of numbers in a letter he sent in 1770 to Joseph-Louis Lagrange (1736\u20131813). Typically, a magic square consists of a set of distinct integers arranged in the form of a square so that the numbers in each row, column, and diagonal all add up to the same total. The most recent developments concern magic squares in which each of the entries is a different squared number\u2014a magic square of squares. \n\nJonathan Turner has explained the format of his print as follows: \"To make my print I equipped each square of the sixty-four found on a chess board with four motor-lanes, four running horizontally, four vertically. Scrupulously keeping to the left hand side my line was \"driven\", using the knight's well-known right-angled moves, from square one to two ...to  sixty-four.\"", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "63-of-the-knights-moves-print-turner-jonathan", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 21, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "United Kingdom", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 5090, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x29336", 
+                        "museumobject_image_count": 1791, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "united-kingdom-x29336"
+                    }
+                }
+            ], 
+            "artist": "Turner, Jonathan", 
+            "namecontext_set": [
+                {
+                    "pk": 120845, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32693
+                    }, 
+                    "fields": {
+                        "name": 32693, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 101191, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1980, 
+            "object_number": "O129413", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "The print was made with the aid of a stencil cutter at Christopher Prater's KELPRA studio.", 
+            "place": "United Kingdom", 
+            "production_note": "The print was made with the aid of a stencil cutter at Christopher Prater's KELPRA studio.", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,238 @@
+[
+    {
+        "pk": 1019713, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "DYCE.163", 
+            "date_end": "1599-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing, Study after a section of Michelangelo's Battle of Cascina, attributed to Baccio Bandinelli, Florentine school, 16th century", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1500, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23877, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "men", 
+                        "museumobject_count": 3175, 
+                        "source": "object", 
+                        "cis_id": "25928", 
+                        "museumobject_image_count": 1359, 
+                        "type": "", 
+                        "slug": "men"
+                    }
+                }, 
+                {
+                    "pk": 48135, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "soldier", 
+                        "museumobject_count": 283, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 180, 
+                        "type": "", 
+                        "slug": "soldier"
+                    }
+                }
+            ], 
+            "date_text": "16th century (made)", 
+            "primary_image_id": "2010EG3806", 
+            "rights": 3, 
+            "physical_description": "Study, from the Cartoon of Pisa, of the man assisting his companions by the arm, and the naked soldier seated by his side; Pen, washed.", 
+            "dimensions": "Height: 13.8 in, Width: 10.8 in", 
+            "title": "", 
+            "date_start": "1500-01-01", 
+            "materials_techniques": "Pen, washed", 
+            "last_processed": "2014-04-27 02:14:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case DG, shelf 33", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }, 
+                {
+                    "pk": 347, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "wash technique", 
+                        "museumobject_count": 2090, 
+                        "source": "cis_techniques", 
+                        "cis_id": "182748", 
+                        "museumobject_image_count": 963, 
+                        "type": "", 
+                        "slug": "wash-technique"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31965, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18774, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 151, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Florentine School", 
+                        "museumobject_count": 58, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31262", 
+                        "museumobject_image_count": 56, 
+                        "type": "", 
+                        "slug": "florentine-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 1202960, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DG", 
+                        "inventory_number": 1401583, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "DYCE.163", 
+                        "museumobject": 1019713, 
+                        "shelf": "33", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "dyce163", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "dyce163", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 02:14:09", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>DYCE COLLECTION. A Catalogue of the Paintings, Miniatures, Drawings, Engravings, Rings and Miscellaneous Objects Bequeathed by The Reverend Alexander Dyce</u>. London : South Kensington Museum, 1874.\nThe relevant  text of the entry is as follows:\n\n'FLORETINE SCHOOL.\n...\nMICHEL ANGELO BUONARROTI.\nSculptor and Painter.\nBorn at Arezzo in Tuscany in 1474, died at Rome in 1563.\n...\nMICHEL ANGELO BUONARROTI-( continued). \nSTUDY, from the Cartoon of Pisa, of the man assisting his companions by the arm, and the naked soldier seated by his side. Pen, washed. 163\n<i>Height</i>, 13 10/12 <i>inches.  Width</i>, 10 9/12 <i>inches.</i>'\nLambert, Susan. <u>Drawing: Technique & Purpose</u>. London: Victoria & Albert Museum, 1981. pp.27-28.\nThe full text of the entry is as follows: \n \n\"<b>II. Drawing as a discipline</b> \n \n[\u2026]  \n \n<b>DRAWN COPIES FROM THE FLAT</b>   \n \n[\u2026]  \n \n<b>58.</b> Baccio Bandinelli (1493-1560); Italian \nStudy of two male nudes after Michel- \nangelo\u2019s cartoon for the Battle of Cascina; \nbelow, a slight sketch of a hand in black \nchalk \n \nInscribed <i>Michelangelo</i>. With the mark of ? \nCount [?] Gelozzoi or Gelosi (Lugt 545) \nPen and ink and wash. 33.3 x 27.6 cm \nVAM Dyce 163 (Dyce Bequest 1869) \n \nWard-Jackson noted that \u2018According to \nVasari, Bandinelli was the most assiduous of \nthose Florentine artists who made Michel- \nangelo\u2019s cartoon their study during the short \nperiod when it was accessible to them, before \nit was divided up, scattered and destroyed. \nThe two figures represented in this drawing \ndiffer substantially from those in any known \npreparatory studies by Michelangelo and in  \nlater copies after the Cartoon\u2026 There is no \nway of deciding whether Bandinelli intro- \nduced these variations, or whether they are  \nbased on an earlier preparatory study by \nMichelangelo.\u2019 \n(PWJ I 31)\"\nWard-Jackson, Peter, <u>Italian Drawings. Volume I. 14th-16th century</u>, London, 1979, p. 32 The following is the full text of the entry: BANDINELLI, BACCIO Bartolommeo Bandinelli (1493-1560) 31 Study of two males nudes after Michelangelo\u2019s cartoon for the Battle of Cascina ; below a slight sketch of a hand in black chalk Inscribed \u2018Michelangelo\u2019 and on the back \u2018Schizo di mano propria di Michel Angolo buonaroti\u2026 2\u2019 Pen and ink and wash 13 1/8 x 10 7/8 (333 x 276) Dyce 163 PROVENANCE The indistinct mark is probably Lugt 545, Count ( ?) Gelozzi or Gelosi ; Dyce Bequest 1869 LITERATURE <i>Dyce Catalogue</i> no 163 (under Michelangelo) According to Vasari, Bandinelli was the most assiduous of those Florentine artists who made Michelangelo\u2019s cartoon their study during the short period when it was accessible to them, before it was divided up, scattered and destroyed. The two figures represented in this drawing differ substantially from those shown in any known preparatory studies by Michelangelo and in later copies after the cartoon. The man helping his comrade out of the river is kneeling on one knee instead of two, and his right hand is placed on a rock or tree stump instead of on the ground; while his seated companion leans over to the left instead of to the right and his arms are in a new position. There is no way of deciding whether Bandinelli introduced these variations, or whether they are based on an earlier preparatory study by Michelangelo. The best extant illustration of the lost cartoon is the grisaille copy at Holkham Hall. This copy is illustrated in numerous works, inlcuding BB. 1938, 3, fig. 584 ; W. K\u00f6hler, \u2018Michelangelo Schlachtkarton\u2019in <i>Kunstgeschichtliches Jahrbuch der K.K. Zentralkommission f\u00fcr Erforschung </i>etc., Vienna, I, 1907, p. 138, pl. 12 ; C. de Tolnay, <i>Michelangelo</i>, Princeton, 1943, I, pl. 232.", 
+            "vanda_exhibition_history": "", 
+            "slug": "drawing", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 216357, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-13 00:00:00", 
+                        "last_processed": "2014-04-25 14:29:40", 
+                        "priority": 0, 
+                        "image_id": "2010EG3806", 
+                        "sys_id": 903806, 
+                        "last_checked": "2014-04-25 14:29:40", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EG/2010EG3806.jpg"
+                    }
+                }
+            ], 
+            "places": [], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1599, 
+            "object_number": "O1136797", 
+            "events": [], 
+            "credit": "Bequeathed by Rev. Alexander Dyce", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
