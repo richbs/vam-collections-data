@@ -1,0 +1,423 @@
+[
+    {
+        "pk": 121491, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "SD.1260", 
+            "date_end": null, 
+            "labels": [], 
+            "descriptive_line": "Watercolour, The Room of the Beds in the Alhambra, after 1848. Artist unknown", 
+            "shape": "", 
+            "longitude": "-2.98868000", 
+            "year_start": 1849, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 5822, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Spain", 
+                        "museumobject_count": 141, 
+                        "source": "place", 
+                        "cis_id": "x29170", 
+                        "museumobject_image_count": 71, 
+                        "type": "", 
+                        "slug": "spain"
+                    }
+                }, 
+                {
+                    "pk": 1345, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Alhambra", 
+                        "museumobject_count": 53, 
+                        "source": "place", 
+                        "cis_id": "x38957", 
+                        "museumobject_image_count": 44, 
+                        "type": "", 
+                        "slug": "alhambra"
+                    }
+                }, 
+                {
+                    "pk": 2105, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Granada", 
+                        "museumobject_count": 49, 
+                        "source": "place", 
+                        "cis_id": "x33073", 
+                        "museumobject_image_count": 44, 
+                        "type": "", 
+                        "slug": "granada"
+                    }
+                }
+            ], 
+            "date_text": "after 1848 (painted)", 
+            "primary_image_id": "2008BT8026", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 21.4 cm, Width: 31.9 cm", 
+            "title": "The Room of the Beds in the Alhambra", 
+            "date_start": "1849-01-01", 
+            "materials_techniques": "Watercolour over pencil, heightened with white", 
+            "last_processed": "2014-04-01 02:58:48", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case 87, shelf SC, box 43", 
+            "marks": "On the back, inscribed [incorrectly] by Sir William Gore Ouseley  25   ?Persia,  probably in a modern hand", 
+            "latitude": "39.89502000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 54386, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27199, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }, 
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48108, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 27995, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Orientalism", 
+                        "museumobject_count": 2315, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31272", 
+                        "museumobject_image_count": 1552, 
+                        "type": "", 
+                        "slug": "orientalism"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 192133, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "43", 
+                        "case": "87", 
+                        "inventory_number": 112270, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "SD.1260", 
+                        "museumobject": 121491, 
+                        "shelf": "SC", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "sd1260", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 120880, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 74
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 121491, 
+                        "role": "painted", 
+                        "place": 74, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 120881, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 74
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 121491, 
+                        "role": "subject", 
+                        "place": 74, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 120882, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 611
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 121491, 
+                        "role": "subject", 
+                        "place": 611, 
+                        "order": 3
+                    }
+                }, 
+                {
+                    "pk": 120883, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 34
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 121491, 
+                        "role": "subject", 
+                        "place": 34, 
+                        "order": 4
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "sd1260", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 42, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Interiors", 
+                        "museumobject_count": 11483, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3045, 
+                        "type": "", 
+                        "slug": "interiors"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:58:48", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-room-of-the-beds-watercolour-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 113034, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-28 00:00:00", 
+                        "last_processed": "2014-03-31 17:32:26", 
+                        "priority": 0, 
+                        "image_id": "2008BT8026", 
+                        "sys_id": 368026, 
+                        "last_checked": "2014-03-31 17:32:26", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BT/2008BT8026.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 74, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Spain", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 2285, 
+                        "longitude": "-2.98868000", 
+                        "source": "production", 
+                        "cis_id": "x29170", 
+                        "museumobject_image_count": 719, 
+                        "latitude": "39.89502000", 
+                        "type": "country", 
+                        "slug": "spain-x29170"
+                    }
+                }, 
+                {
+                    "pk": 611, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Alhambra", 
+                        "parent": null, 
+                        "country": "Spain", 
+                        "museumobject_count": 99, 
+                        "longitude": "-3.05197900", 
+                        "source": "production", 
+                        "cis_id": "x38957", 
+                        "museumobject_image_count": 77, 
+                        "latitude": "38.89713000", 
+                        "type": "site", 
+                        "slug": "alhambra-spain-x38957"
+                    }
+                }, 
+                {
+                    "pk": 34, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Granada", 
+                        "parent": null, 
+                        "country": "Spain", 
+                        "museumobject_count": 369, 
+                        "longitude": "-3.60542600", 
+                        "source": "production", 
+                        "cis_id": "x33073", 
+                        "museumobject_image_count": 284, 
+                        "latitude": "37.17039800", 
+                        "type": "city / town", 
+                        "slug": "granada-spain-x33073"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 147792, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 121491, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": null, 
+            "object_number": "O153673", 
+            "events": [], 
+            "credit": "Purchased with the assistance of The Art Fund, the National Heritage Memorial Fund, Shell International and the Friends of the V&A", 
+            "history_note": "", 
+            "place": "Spain", 
+            "production_note": "", 
+            "historical_context_note": "The Room of the Beds was not often chosen as a subject by artists. The main room of the Royal Baths, it underwent restoration from 1848-66.  For a description of the room by an English traveller in 1843, and for further information about the restoration of the Alhambra, see Searight Archive. Dr. T. Raquejo, `The \"Arab Cathedrals\": Moorish architecture as seen by British Travellers', Burlington Magazine, August, 1986, pp.555-563.", 
+            "collection_code": "PDP"
+        }
+    }
+]
