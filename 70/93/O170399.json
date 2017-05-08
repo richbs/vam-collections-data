@@ -1,0 +1,302 @@
+[
+    {
+        "pk": 135603, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.18&A-1960", 
+            "date_end": "1953-12-31", 
+            "labels": [], 
+            "descriptive_line": "Coffee pot and cover of porcelain, 'Arzberg 2000' design by Heinrich L\u00f6ffelhardt 1953, made by Porzellanfabrik Arzberg, Arzberg, middle 20th century.", 
+            "shape": "", 
+            "longitude": "11.40798000", 
+            "year_start": 1953, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1953 (designed)\nmiddle 20th century (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Coffee pot and cover of porcelain.", 
+            "dimensions": "Height: 15.2 cm, Width: 16.5 cm", 
+            "title": "Arzberg 2000", 
+            "date_start": "1953-01-01", 
+            "materials_techniques": "Porcelain", 
+            "last_processed": "2014-04-01 03:55:18", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 4, shelf 1", 
+            "marks": "", 
+            "latitude": "48.91743100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 210043, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 330562, 
+                        "room": "140", 
+                        "part_name": "Cover", 
+                        "museum_number": "CIRC.18A-1960", 
+                        "museumobject": 135603, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ18a1960", 
+                        "gallery": 348
+                    }
+                }, 
+                {
+                    "pk": 210044, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 330563, 
+                        "room": "140", 
+                        "part_name": "Teapot", 
+                        "museum_number": "CIRC.18-1960", 
+                        "museumobject": 135603, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ181960", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 38123, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1979-12-31", 
+                        "surname": "", 
+                        "name": "L\u00f6ffelhardt, Heinz", 
+                        "gender": null, 
+                        "museumobject_count": 9, 
+                        "death_year": 1979, 
+                        "source": "object_production", 
+                        "cis_id": "A23594", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": "1901-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "loffelhardt-heinz", 
+                        "birth_year": 1901
+                    }
+                }, 
+                {
+                    "pk": 34226, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Porzellanfabrik Arzberg", 
+                        "gender": null, 
+                        "museumobject_count": 26, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1960", 
+                        "museumobject_image_count": 25, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "porzellanfabrik-arzberg", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 134534, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 968
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 135603, 
+                        "role": "made", 
+                        "place": 968, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ181960", 
+            "object": "Coffee pot and cover", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:55:18", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "arzberg-2000-coffee-pot-and-heinz-loffelhardt", 
+            "sys_updated": "2014-01-14 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 968, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 455
+                    }, 
+                    "fields": {
+                        "name": "Arzberg", 
+                        "parent": 455, 
+                        "country": "Germany", 
+                        "museumobject_count": 21, 
+                        "longitude": "11.40798000", 
+                        "source": "production", 
+                        "cis_id": "x30756", 
+                        "museumobject_image_count": 21, 
+                        "latitude": "48.91743100", 
+                        "type": "city / town", 
+                        "slug": "arzberg-germany-x30756"
+                    }
+                }
+            ], 
+            "artist": "Heinz Loffelhardt", 
+            "namecontext_set": [
+                {
+                    "pk": 166716, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 38123
+                    }, 
+                    "fields": {
+                        "name": 38123, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 135603, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 166717, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 34226
+                    }, 
+                    "fields": {
+                        "name": 34226, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 135603, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1953, 
+            "object_number": "O170399", 
+            "events": [], 
+            "credit": "Given by the makers", 
+            "history_note": "", 
+            "place": "Arzberg", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

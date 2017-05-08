@@ -1,0 +1,373 @@
+[
+    {
+        "pk": 8591, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "601-1882", 
+            "date_end": "1742-12-31", 
+            "labels": [
+                {
+                    "pk": 2710, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 8591, 
+                        "label_text": "British Galleries:\nThis portrait shows the popular actress Peg Woffington wearing lace from Flanders (now Belgium) in a Rococo design. It was possibly painted by Jean-Baptiste van Loo, a French painter, who came to London in 1737. The painting has a splendid scrolled Rococo frame of a slightly later date."
+                    }
+                }
+            ], 
+            "descriptive_line": "Oil painting, 'Margaret (Peg) Woffington', attributed to Jean-Baptiste van Loo, ca. 1738", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1733, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24663, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Woffington, Margaret ('Peg)", 
+                        "museumobject_count": 26, 
+                        "source": "name", 
+                        "cis_id": "N2487", 
+                        "museumobject_image_count": 24, 
+                        "type": "", 
+                        "slug": "woffington-margaret-peg"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1738 (made)", 
+            "primary_image_id": "2006AM8772", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 111 cm, Width: 88 cm, Depth: 9.8 cm", 
+            "title": "Margaret ('Peg') Woffington, Actress", 
+            "date_start": "1733-01-01", 
+            "materials_techniques": "oil on canvas", 
+            "last_processed": "2014-03-31 19:16:54", 
+            "label": "British Galleries:\nThis portrait shows the popular actress Peg Woffington wearing lace from Flanders (now Belgium) in a Rococo design. It was possibly painted by Jean-Baptiste van Loo, a French painter, who came to London in 1737. The painting has a splendid scrolled Rococo frame of a slightly later date. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 53a, case WN", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 33, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Rococo", 
+                        "museumobject_count": 701, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21155", 
+                        "museumobject_image_count": 347, 
+                        "type": "", 
+                        "slug": "rococo"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 9926, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 456
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WN", 
+                        "inventory_number": 388475, 
+                        "room": "53A", 
+                        "part_name": "", 
+                        "museum_number": "601-1882", 
+                        "museumobject": 8591, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 53a", 
+                        "museum_number_token": "6011882", 
+                        "gallery": 456
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 456, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "53A", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 53a", 
+                        "site_code": "VA", 
+                        "museumobject_count": 93, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49763", 
+                        "museumobject_image_count": 91, 
+                        "type": "", 
+                        "slug": "53a-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1649, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1745-12-31", 
+                        "surname": "", 
+                        "name": "Vanloo", 
+                        "gender": null, 
+                        "museumobject_count": 14, 
+                        "death_year": 1745, 
+                        "source": "object_production", 
+                        "cis_id": "A8628", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": "1684-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "loo-jean-baptiste-van", 
+                        "birth_year": 1684
+                    }
+                }, 
+                {
+                    "pk": 1650, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1760-12-31", 
+                        "surname": "", 
+                        "name": "Woffington", 
+                        "gender": null, 
+                        "museumobject_count": 26, 
+                        "death_year": 1760, 
+                        "source": "content", 
+                        "cis_id": "N2487", 
+                        "museumobject_image_count": 24, 
+                        "forename": "", 
+                        "birth_date": "1718-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "woffington-margaret-peg", 
+                        "birth_year": 1718
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 9369, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 8591, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "6011882", 
+            "object": "Painting", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:16:54", 
+            "public_access_description": "Object Type\nAlthough this is technically a portrait, the image of a young woman at a window with a pet bird in a cage was a frequently employed motif in popular paintings and prints of the late 17th and early 18th centuries. Sometimes the women depicted were actresses or courtesans.\n\nPeople\nMargaret Woffington, (1718-1760), popularly known as `Peg', and the most famous actress of her day, enjoyed a lively and unconventional life. Various artists painted her, and this is almost certainly a portrait of her, although many pictures of attractive young women of that period are wrongly thought to be of her. This portrait is not signed,  but the delicate treatment of the flesh tones and the sensitive rendering of the costume justify the attribution to Jean-Baptiste van Loo (1684-1745). He was so successful as a portrait painter, by 1738 he had to give five sittings a day at his studio in Henrietta Street, Covent Garden, and prospective sitters were forced to apply six weeks in advance.", 
+            "exhibition_history": "", 
+            "bibliography": "Ashton, Geoffrey. <u>Catalogue of Paintings at the Theatre Museum, London.</u> ed. James Fowler, London : Victoria and Albert Museum, 1992. 224p. ill. ISBN 1851771026\nThe following is the full text of the entry:\n\n\"6 Jean-Baptiste Van Loo (1684-1745) (?) \n\n<i>Margaret Woffington</i>\n\nThere is some doubt as to the identity of the sitter but she resembles the somewhat plainer and possibly more mature lady in Arthur Pond's indubitable portrait of Peg Woffington, engraved by James McArdell at an unknown date, probably in the late 1740s. The narrative interest of the picture is amorous rather than theatrical and the meaning of the allegory of white birds at liberty and darker birds in captivity would have been clear to contemporaries. \n\n6 is one of at least three surviving versions of the portrait, and is possibly a copy of the lost original. The two other surviving versions (Coll: Sir John Hanbury-Williams, Oil on canvas 88.9 X 69.9 cm.; and Hoe Sale, American Art Association, New York 15 February 1911 Lot 68 Oil on canvas 90.2 X 71.1 cm.) show a sitter with rather more archaized features in the manner of John Giles Eccard (fl.c.1740-1779), who was Van Loo's assistant. These two pictures show a length of velvet draped over the foreground ledge and it folds in a convincingly velvety way to the right of the cage. In 6 the velvet has been changed to lace-edged linen and the fold, which is retained, looks entirely contrived. Given the date, this anomaly may have been caused by an inattentive drapery painter. Even if it is a copy, 6 seems to be much fresher in concept and much more pleasing and direct as a portrait than the other two surviving versions. The attribution to Van Loo of one or all versions is more convincing than other candidates who have appeared over the years; Hogarth, Highmore, Knapton, Hudson &c. \n\n\nOil on canvas 92 x 71.3 cm. \n\n1740--42 ? \n\nProvenance: Jones bequest, 1882 \n\nExhibited: 1867:  <i>National Portrait Exhibition</i>\n\nCondition: Lined. Old repaired tears on left forearm and neck; repairs in background possibly covering tears. There is some discoloured retouching. \n\nTechnique: Cream-white ground on tabby weave canvas. \n\nP.601-1HH2 Neg: HG 6H2/CT 16435\"\n\nGeoffrey Ashton, 1992.", 
+            "vanda_exhibition_history": "", 
+            "slug": "margaret-peg-woffington-actress-painting-loo-jean-baptiste", 
+            "sys_updated": "2013-09-03 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 8716, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-01-09 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:04", 
+                        "priority": 0, 
+                        "image_id": "2006AM8772", 
+                        "sys_id": 118772, 
+                        "last_checked": "2014-03-31 17:10:04", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM8772.jpg"
+                    }
+                }, 
+                {
+                    "pk": 27160, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-18 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:59", 
+                        "priority": 1, 
+                        "image_id": "2006AV2989", 
+                        "sys_id": 172989, 
+                        "last_checked": "2014-03-31 17:13:59", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AV/2006AV2989.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Loo, Jean-Baptiste van", 
+            "namecontext_set": [
+                {
+                    "pk": 7947, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1649
+                    }, 
+                    "fields": {
+                        "name": 1649, 
+                        "part_name": "", 
+                        "uncertainty": "attributed to", 
+                        "museumobject": 8591, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 7948, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1650
+                    }, 
+                    "fields": {
+                        "name": 1650, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 8591, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1742, 
+            "object_number": "O77685", 
+            "events": [], 
+            "credit": "Bequeathed by John Jones", 
+            "history_note": "Bequeathed by John Jones, 1882", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
