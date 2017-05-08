@@ -1,0 +1,254 @@
+[
+    {
+        "pk": 8889, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.273-1987", 
+            "date_end": "1844-12-31", 
+            "labels": [
+                {
+                    "pk": 2917, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 8889, 
+                        "label_text": "British Galleries:\nThe shape of the jug is similar to an earlier Wedgwood style, although the applied image of the Queen shows it was not an everyday household ware. It was made as a commemmorative piece which would probably have taken pride of place on a dresser."
+                    }
+                }
+            ], 
+            "descriptive_line": "Staffordshire jug", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1835, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1840 (made)", 
+            "primary_image_id": "2006AM6051", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 17.6 cm, Diameter: 18.8 cm", 
+            "title": "", 
+            "date_start": "1835-01-01", 
+            "materials_techniques": "White earthenware, with applied sprigs in blue", 
+            "last_processed": "2014-03-31 19:18:08", 
+            "label": "British Galleries:\nThe shape of the jug is similar to an earlier Wedgwood style, although the applied image of the Queen shows it was not an everyday household ware. It was made as a commemmorative piece which would probably have taken pride of place on a dresser. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 123, case 1", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 10342, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1000
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "1", 
+                        "inventory_number": 336341, 
+                        "room": "123", 
+                        "part_name": "", 
+                        "museum_number": "C.273-1987", 
+                        "museumobject": 8889, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 123", 
+                        "museum_number_token": "c2731987", 
+                        "gallery": 1000
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1000, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "123", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 123", 
+                        "site_code": "VA", 
+                        "museumobject_count": 72, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49217", 
+                        "museumobject_image_count": 72, 
+                        "type": "", 
+                        "slug": "123-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 9692, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 8889, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c2731987", 
+            "object": "Jug", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 55, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Earthenware", 
+                        "museumobject_count": 10312, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8875, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:18:08", 
+            "public_access_description": "Object Type\nThis jug is part of a long line of ceramics depicting royal subjects. Many royal portraits appear on relatively utilitarian objects. Though no specific event is referred to, the jug perhaps commemorates the marriage of Queen Victoria to Prince Albert in 1840.\n\nMaterials & Making\nThis jug is decorated in relief with what are known as 'sprigs'. These are made by pressing clay into small, shallow moulds. The 'sprigs' thus formed are then carefully removed and attached to the pot using liquid clay to assist in making the bond. The technique became popular from the mid-18th century, following the advent of plaster of Paris. This provided an ideal material for moulds, as it quickly absorbed moisture from the clay and thus allowed the moulded pieces to be removed easily. Through the use of applied sprigs, basic pottery shapes (often jugs), could be decorated with an endless variety of designs. In this example, sprigs have been used to produce a royal souvenir depicting Queen Victoria and Prince Albert.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "jug-unknown", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 6740, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:39", 
+                        "priority": 0, 
+                        "image_id": "2006AM6051", 
+                        "sys_id": 116051, 
+                        "last_checked": "2014-03-31 17:09:39", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM6051.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 8376, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 8889, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1844, 
+            "object_number": "O77902", 
+            "events": [], 
+            "credit": "Bequeathed by Michael Franklin", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

@@ -1,0 +1,258 @@
+[
+    {
+        "pk": 10001, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.26-1997", 
+            "date_end": "1912-06-07", 
+            "labels": [], 
+            "descriptive_line": "Drawing in black crayon by Philip Connard depicting a female nude with feet crossed.  Great Britain, ca. 1900-1912.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1895, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48165, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "nudes", 
+                        "museumobject_count": 335, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 92, 
+                        "type": "", 
+                        "slug": "nudes"
+                    }
+                }
+            ], 
+            "date_text": "ca.1900-1912 (drawn)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Drawing in black crayon on paper of a female nude, seated with feet crossed.", 
+            "dimensions": "Height: 55.9 cm, Width: 37.6 cm", 
+            "title": "Female nude; seated with feet crossed", 
+            "date_start": "1895-01-01", 
+            "materials_techniques": "Black crayon on paper", 
+            "last_processed": "2014-03-31 19:23:11", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 319", 
+            "marks": "Inscribed in pencil, probably by Dr T W Lumsden \"by Philip Connard from whom bought 7/6/1912\"", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46144, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 14913, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 94, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Crayon", 
+                        "museumobject_count": 651, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30605", 
+                        "museumobject_image_count": 277, 
+                        "type": "", 
+                        "slug": "crayon"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 12266, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PD", 
+                        "inventory_number": 638230, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.26-1997", 
+                        "museumobject": 10001, 
+                        "shelf": "319", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e261997", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2186, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1958-12-31", 
+                        "surname": "", 
+                        "name": "Connard", 
+                        "gender": null, 
+                        "museumobject_count": 12, 
+                        "death_year": 1958, 
+                        "source": "object_production", 
+                        "cis_id": "A5400", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1875-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "connard-philip", 
+                        "birth_year": 1875
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 10856, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 10001, 
+                        "role": "drawn", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e261997", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:23:11", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "female-nude-seated-with-feet-drawing-connard-philip", 
+            "sys_updated": "2014-02-10 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Connard, Philip", 
+            "namecontext_set": [
+                {
+                    "pk": 9829, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2186
+                    }, 
+                    "fields": {
+                        "name": 2186, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 10001, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1912, 
+            "object_number": "O79360", 
+            "events": [], 
+            "credit": "The Lumsden Collection", 
+            "history_note": "This drawing (E.26-1997) and E.25-1997 (also by Philip Connard) were acquired as part of a gift of 10 drawings (E.25-34-1997).  These drawings were acquired in the belief that all 10 were by Philip Connard.  Museum numbers E.27-34-1997 are in fact by Austin Osman Spare (1886-1956).  All 10 were part of a larger collection belonging to Dr. T.W. Lumsden who worked as a critic on local papers in Chelsea before the 1st World War and who acquired many drawings directly from the artists.", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "By his will Dr Lumsden left his collection of pictures to his second wife for her life.  They were then to be offered to the Museum.  Mrs Lumsden died on 6th October 1995.  E.25-34-1997 were selected by the Museum from the larger collection, held at that time by the grandson of Dr Lumsden and his first wife (divorced 1922), Mr Richard Bourdon-Smith.  \nNB. Material from the Lumsden estate was sold by Bearne\u2019s Ltd., Fine Art Auctioneers and Valuers, Rainbow, Avenue Road, Torquay, Devon TQ2 5TG on Wednesday 4th September, 1991.", 
+            "collection_code": "PDP"
+        }
+    }
+]
