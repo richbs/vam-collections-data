@@ -1,0 +1,265 @@
+[
+    {
+        "pk": 97912, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "900", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.1:1-2006", 
+            "date_end": "2005-12-31", 
+            "labels": [], 
+            "descriptive_line": "Necklace, made by Nel Linssen, Netherlands, 2005", 
+            "shape": "", 
+            "longitude": "5.33033000", 
+            "year_start": 2005, 
+            "exhibitions": [
+                {
+                    "pk": 3332, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 3, 
+                        "year_start": 2006, 
+                        "name": "Collect 2006", 
+                        "date_end": "2006-02-13", 
+                        "museumobject_count": 3, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "2006-02-09", 
+                        "year_end": 2006, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "collect-2006", 
+                        "date_text": "09/02/2006-13/02/2006"
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "2005 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Articulated cardboard collar of speckled blue, black and green, with ridged tubular profile. The folded cardboard elements are blue on one side and black on the other.", 
+            "dimensions": "Circumference: 16.5 cm, Depth: 3.5 cm", 
+            "title": "'Wave'", 
+            "date_start": "2005-01-01", 
+            "materials_techniques": "Laminated paper stiffened with a middle layer of green glass fibre; folded repeating elements threaded on an elastic cord", 
+            "last_processed": "2014-04-01 01:20:36", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 44, shelf C, box 1", 
+            "marks": "'\u00a9Nel. 05'", 
+            "latitude": "52.10808900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 162773, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "1", 
+                        "case": "44", 
+                        "inventory_number": 1120662, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "M.1:1-2006", 
+                        "museumobject": 97912, 
+                        "shelf": "C", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m112006", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32222, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Linssen, Nel", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A18300", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1935-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "linssen-nel", 
+                        "birth_year": 1935
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 94903, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 106
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 97912, 
+                        "role": "made", 
+                        "place": 106, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "Euros ( \u20ac )  [European monetary unit from 2002]", 
+            "museum_number_token": "m112006", 
+            "object": "Necklace", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:20:36", 
+            "public_access_description": "Nel Linssen's necklaces and bracelets explore the transformation of a non-precious material, paper, within jewellery.  The distinctive and meticulous technique that she has evolved has lead to minimalist, sculptural work of great beauty and subtlety where pattern and form are completely integrated.  The extraordinary flexibility and movement within her work, and its changing visual qualities depending on the viewer's angle give it an interracting appeal to sight, touch and contemplation.\n\nShe graduated in 1956 from the Academy of Fine Arts, Arnhem, and originally worked with textiles. It was not until 1981 that she created her first jewellery made of folded paper, which has today become her trademark. Linssen draws her inspiration from structures and rhythm found in the botanical world.", 
+            "exhibition_history": "Collect 2006 (Victoria and Albert Museum 09/02/2006-13/02/2006)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "wave-necklace-linssen-nel", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 106, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Netherlands", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 4105, 
+                        "longitude": "5.33033000", 
+                        "source": "production", 
+                        "cis_id": "x29020", 
+                        "museumobject_image_count": 1974, 
+                        "latitude": "52.10808900", 
+                        "type": "country", 
+                        "slug": "netherlands-x29020"
+                    }
+                }
+            ], 
+            "artist": "Linssen, Nel", 
+            "namecontext_set": [
+                {
+                    "pk": 116675, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32222
+                    }, 
+                    "fields": {
+                        "name": 32222, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 97912, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2005, 
+            "object_number": "O125328", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Netherlands", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
