@@ -1,0 +1,393 @@
+[
+    {
+        "pk": 1062217, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.451", 
+            "date_end": "1879-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour by Bragg depicting Battersea.  Great Britain, ca. mid 19th century.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1820, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 44, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "London", 
+                        "museumobject_count": 1797, 
+                        "source": "place", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 435, 
+                        "type": "", 
+                        "slug": "london"
+                    }
+                }, 
+                {
+                    "pk": 24474, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cities", 
+                        "museumobject_count": 174, 
+                        "source": "object", 
+                        "cis_id": "8389", 
+                        "museumobject_image_count": 90, 
+                        "type": "", 
+                        "slug": "cities"
+                    }
+                }, 
+                {
+                    "pk": 4843, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Battersea", 
+                        "museumobject_count": 17, 
+                        "source": "place", 
+                        "cis_id": "x29513", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "battersea"
+                    }
+                }
+            ], 
+            "date_text": "ca. mid 19th century (drawn)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Watercolour drawing of Battersea in South London", 
+            "dimensions": "Height: 4 in, Width: 5.75 in", 
+            "title": "Battersea", 
+            "date_start": "1820-01-01", 
+            "materials_techniques": "Watercolour", 
+            "last_processed": "2014-04-27 04:06:36", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 164, box E", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }, 
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12963, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7122, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1248174, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "E", 
+                        "case": "PD", 
+                        "inventory_number": 1407755, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "FA.451", 
+                        "museumobject": 1062217, 
+                        "shelf": "164", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "fa451", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 78737, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1875-12-31", 
+                        "surname": "", 
+                        "name": "Edward Bragg", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1875, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH321857", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1780-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "edward-bragg", 
+                        "birth_year": 1780
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 468181, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1062217, 
+                        "role": "drawn", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 468182, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 457
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1062217, 
+                        "role": "subject", 
+                        "place": 457, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 468183, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1062217, 
+                        "role": "subject", 
+                        "place": 7, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa451", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18756, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11926, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 04:06:36", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "battersea-watercolour-edward-bragg", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }, 
+                {
+                    "pk": 457, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2273
+                    }, 
+                    "fields": {
+                        "name": "Battersea", 
+                        "parent": 2273, 
+                        "country": "England", 
+                        "museumobject_count": 58, 
+                        "longitude": "-0.16284000", 
+                        "source": "production", 
+                        "cis_id": "x29513", 
+                        "museumobject_image_count": 14, 
+                        "latitude": "51.46746100", 
+                        "type": "district", 
+                        "slug": "battersea-england-x29513"
+                    }
+                }, 
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Edward Bragg", 
+            "namecontext_set": [
+                {
+                    "pk": 650195, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 78737
+                    }, 
+                    "fields": {
+                        "name": 78737, 
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 1062217, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1879, 
+            "object_number": "O1190479", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

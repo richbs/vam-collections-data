@@ -1,0 +1,388 @@
+[
+    {
+        "pk": 67793, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.9-1984", 
+            "date_end": "1744-12-31", 
+            "labels": [], 
+            "descriptive_line": "Figure of Harlequin, hard-paste porcelain painted in enamels and gilt, modelled by J. J. Kaendler, ca. 1740-41, made by Meissen porcelain factory, Germany, about 1740.", 
+            "shape": "", 
+            "longitude": "13.76162000", 
+            "year_start": 1740, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 26468, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Harlequin", 
+                        "museumobject_count": 86, 
+                        "source": "name", 
+                        "cis_id": "N1204", 
+                        "museumobject_image_count": 55, 
+                        "type": "", 
+                        "slug": "harlequin"
+                    }
+                }, 
+                {
+                    "pk": 615, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Commedia dell'Arte", 
+                        "museumobject_count": 54, 
+                        "source": "literary_ref", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 42, 
+                        "type": "", 
+                        "slug": "commedia-dellarte"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1740 (made)\nca. 1740-1741 (made)", 
+            "primary_image_id": "2006AV5345", 
+            "rights": 3, 
+            "physical_description": "Hard-paste porcelain figure of Harlequin propped against a tree stump, his face with a mischievious expression as he pulls the tail of a complaining pug dog held under his left arm as if winding the handle of a hurdy-gurdy, painted in enamel colours and gilded.", 
+            "dimensions": "Height: 17.1 cm, Width: 10.6 cm", 
+            "title": "", 
+            "date_start": "1740-01-01", 
+            "materials_techniques": "Hard-paste porcelain, painted in enamel colours and gilded", 
+            "last_processed": "2014-03-31 23:07:55", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "World Ceramics, room 145, case 11, shelf 2", 
+            "marks": "'I'", 
+            "latitude": "51.11447000", 
+            "techniques": [
+                {
+                    "pk": 28, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painted", 
+                        "museumobject_count": 27627, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30138", 
+                        "museumobject_image_count": 22711, 
+                        "type": "", 
+                        "slug": "painted"
+                    }
+                }, 
+                {
+                    "pk": 7, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "moulded", 
+                        "museumobject_count": 5554, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30076", 
+                        "museumobject_image_count": 2897, 
+                        "type": "", 
+                        "slug": "moulded"
+                    }
+                }, 
+                {
+                    "pk": 915, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "gilded", 
+                        "museumobject_count": 4903, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4138, 
+                        "type": "", 
+                        "slug": "gilded"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 195, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "hard paste porcelain", 
+                        "museumobject_count": 2324, 
+                        "source": "cis_materials", 
+                        "cis_id": "10663", 
+                        "museumobject_image_count": 2129, 
+                        "type": "", 
+                        "slug": "hard-paste-porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 120602, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 354
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "11", 
+                        "inventory_number": 360778, 
+                        "room": "145", 
+                        "part_name": "", 
+                        "museum_number": "C.9-1984", 
+                        "museumobject": 67793, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "World Ceramics, room 145", 
+                        "museum_number_token": "c91984", 
+                        "gallery": 354
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 354, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "145", 
+                        "site_name": "", 
+                        "name": "World Ceramics, room 145", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1487, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49865", 
+                        "museumobject_image_count": 1483, 
+                        "type": "", 
+                        "slug": "145-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1753, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1775-05-17", 
+                        "surname": "", 
+                        "name": "K\u00e4ndler, Johann Joachim", 
+                        "gender": null, 
+                        "museumobject_count": 126, 
+                        "death_year": 1775, 
+                        "source": "object_production", 
+                        "cis_id": "A6734", 
+                        "museumobject_image_count": 125, 
+                        "forename": "", 
+                        "birth_date": "1706-06-15", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "kaendler-j-j", 
+                        "birth_year": 1706
+                    }
+                }, 
+                {
+                    "pk": 1759, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Meissen porcelain factory", 
+                        "gender": null, 
+                        "museumobject_count": 35, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A3708", 
+                        "museumobject_image_count": 32, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "meissen-porcelain-factory", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 63805, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 565
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 67793, 
+                        "role": "made", 
+                        "place": 565, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c91984", 
+            "object": "Figure", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 97, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Figures & Decorative ceramics", 
+                        "museumobject_count": 1138, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1033, 
+                        "type": "", 
+                        "slug": "figures-decorative-ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:07:55", 
+            "public_access_description": "In the 1740s the Meissen modeller J. J. Kaendler devised a wide range of porcelain figures for table decoration. The most popular were probably characters from the Italian Opera. This was a popular satirical travelling theatre, from which the miniature Punch and Judy developed in the 1800s. The colourful figure of Harlequin could be displayed in many postures and guises.", 
+            "exhibition_history": "", 
+            "bibliography": "Hildyard, Robin. <font u>European Ceramics</font u>. London : V&A Publications, 1999. 144 p., ill. ISBN 185177260X\nJansen, Reinhard, ed. <i><u>Commedia Dell'Arte, Fest der Kom\u00f6dianten, Keramische Kostbarkeiten aus den Museen der Welt</i></u> with essays by Ulrich Pietsch, Meredith Chilton, Reinhard Jansen, Samuel Wittwer etc. Catalogue of the exhibition held at Schloss Charlottenburg and the Br\u00f6han Museum, 2001, together with separate summary in English and booklet of source prints. Stuttgart: Arnoldsche, 2001\nSee no. 13, 42 p. for another example of the same model in the Alter Bestand Staatliche Kunstsammulungen Dresden\nRafael, Johannes <i><u>Zur \"Taxa Kaendler\"</u></i>, Keramos 203/204, 2009 pp. 25-69, including a full transcription of the 'Taxa' and parallel text in German and English. Keramos is the quarterly magazine of Ceramics Society of D\u00fcsseldorf, editor, Dr. Alfred Ziffer, January-April, Deggendorf, 2009\nSee p. 46 for entry no. 6 in the 'Taxa':  '1 theatrical figure holding a dog in lieu of a hurdy-gurdy under his arm, in the act of playing it.....2 Thlr'.  The Taxa is a list entitled 'Taxa of new models produced and delivered to the Royal Porcelain Manufactury in Meissen by Herrn Modell-Meister K\u00e4ndler since anno 1740', together with the price received by K\u00e4ndler from the factory for each model.", 
+            "vanda_exhibition_history": "", 
+            "slug": "figure-kandler-johann-joachim", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 27534, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:14:04", 
+                        "priority": 0, 
+                        "image_id": "2006AV5345", 
+                        "sys_id": 175345, 
+                        "last_checked": "2014-03-31 17:14:04", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AV/2006AV5345.jpg"
+                    }
+                }, 
+                {
+                    "pk": 29588, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-09-11 00:00:00", 
+                        "last_processed": "2014-03-31 17:14:30", 
+                        "priority": 2, 
+                        "image_id": "2006AW0753", 
+                        "sys_id": 180753, 
+                        "last_checked": "2014-03-31 17:14:30", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AW/2006AW0753.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 565, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3213
+                    }, 
+                    "fields": {
+                        "name": "Meissen", 
+                        "parent": 3213, 
+                        "country": "Germany", 
+                        "museumobject_count": 925, 
+                        "longitude": "13.76162000", 
+                        "source": "production", 
+                        "cis_id": "x35076", 
+                        "museumobject_image_count": 837, 
+                        "latitude": "51.11447000", 
+                        "type": "city/town", 
+                        "slug": "meissen-germany-x35076"
+                    }
+                }
+            ], 
+            "artist": "K\u00e4ndler, Johann Joachim", 
+            "namecontext_set": [
+                {
+                    "pk": 76595, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1753
+                    }, 
+                    "fields": {
+                        "name": 1753, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 67793, 
+                        "role": "modeller", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 76596, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1759
+                    }, 
+                    "fields": {
+                        "name": 1759, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 67793, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1744, 
+            "object_number": "O70985", 
+            "events": [], 
+            "credit": "Given by Mrs O. J. Finney in memory of Oswald James Finney", 
+            "history_note": "", 
+            "place": "Meissen", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
