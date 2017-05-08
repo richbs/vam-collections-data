@@ -1,0 +1,310 @@
+[
+    {
+        "pk": 483788, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.78-1959", 
+            "date_end": "1890-12-31", 
+            "labels": [], 
+            "descriptive_line": "Two drawings of stained glass windows from North Luffenham Church, Rutland.  One of 83 drawings of stained glass in England and France, mounted in two volumes.  English, ca.1880-1890.", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1875, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25917, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stained glass", 
+                        "museumobject_count": 869, 
+                        "source": "object", 
+                        "cis_id": "10853", 
+                        "museumobject_image_count": 42, 
+                        "type": "", 
+                        "slug": "stained-glass"
+                    }
+                }, 
+                {
+                    "pk": 29864, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "windows", 
+                        "museumobject_count": 189, 
+                        "source": "object", 
+                        "cis_id": "3039", 
+                        "museumobject_image_count": 89, 
+                        "type": "", 
+                        "slug": "windows"
+                    }
+                }
+            ], 
+            "date_text": "ca.1880-1890 (drawn)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Two drawings on one sheet of the head of a canopy and another, a detail from a stained glass window, of the head of a saint.  One of 83 drawings mounted in two volumes, half-bound in morocco, gold tooled, lettered on the spine \u2018Studies of Ancient Glass  John R. Clayton And Alfred Bell\u2019 and dated 1895.", 
+            "dimensions": "", 
+            "title": "", 
+            "date_start": "1875-01-01", 
+            "materials_techniques": "Pen and ink and water-colour", 
+            "last_processed": "2014-04-01 18:47:01", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case 94, shelf J, box 34", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46144, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 14913, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }, 
+                {
+                    "pk": 152, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "binding", 
+                        "museumobject_count": 1799, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53592", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "binding"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 39, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ink", 
+                        "museumobject_count": 22898, 
+                        "source": "cis_materials", 
+                        "cis_id": "187371", 
+                        "museumobject_image_count": 13758, 
+                        "type": "", 
+                        "slug": "ink"
+                    }
+                }, 
+                {
+                    "pk": 1741, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "water-colour", 
+                        "museumobject_count": 3039, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1022, 
+                        "type": "", 
+                        "slug": "water-colour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 618222, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "34", 
+                        "case": "94", 
+                        "inventory_number": 1255828, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.78-1959", 
+                        "museumobject": 483788, 
+                        "shelf": "J", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e781959", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 300170, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483788, 
+                        "role": "drawn", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e781959", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 41, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stained Glass", 
+                        "museumobject_count": 4008, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 995, 
+                        "type": "", 
+                        "slug": "stained-glass"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:47:01", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1959 </u>. London: HMSO, 1964.\nThe full text of the entry is as follows: \n \n\"<b>ANONYMOUS: Stained Glass</b>  \n \nCopies (on 83 sheets) of stained glass in England and France, made for Clayton & Bell.  English, c.1880-90.  Mounted in two volumes, half-bound in morocco, gold tooled, lettered on the spine 'Studies of Ancient Glass  John R. Clayton And Alfred Bell' and dated 1895.    \n<i>Each inscribed with location with a scale in feet. \nPen and ink and water-colour.  Various sizes.</i>        E.12-94-1959  \n[\u2026]\n \nHead of a canopy; a female saint.  North Luffenham Church, Rutland.  English, 14th century. \nE.78(1,2)-1959\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "drawing-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 400039, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483788, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1890, 
+            "object_number": "O569051", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
