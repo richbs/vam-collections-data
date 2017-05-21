@@ -1,0 +1,262 @@
+[
+    {
+        "pk": 1102591, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "S.687-2012", 
+            "date_end": "1925-12-31", 
+            "labels": [], 
+            "descriptive_line": "Bronze portrait medallion of Mrs. Gabrielle Enthoven (1868-1950) by Antonio Maraini (1886-1963), mounted in a glazed wooden frame.", 
+            "shape": "", 
+            "longitude": "12.49576000", 
+            "year_start": 1925, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 55408, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Mrs. Gabrielle Enthoven", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "AUTH320080", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "mrs-gabrielle-enthoven"
+                    }
+                }
+            ], 
+            "date_text": "1925 (cast)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Bronze relief portrait medallion of Gabrielle Enthoven, looking to right, with 'GABRIELLE' and '1925' in relief around circumference. Mounted in a glazed wooden frame.", 
+            "dimensions": "Diameter: 17.0 cm, Length: 39.9 cm frame, Width: 32.4 cm frame, Depth: 4.9 cm frame", 
+            "title": "Gabrielle", 
+            "date_start": "1925-01-01", 
+            "materials_techniques": "Cast bronze", 
+            "last_processed": "2014-04-27 05:23:04", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 10, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "T&P", 
+                        "name": "Theatre and Performance Collection", 
+                        "museumobject_count": 67755, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 47043, 
+                        "type": "", 
+                        "slug": "tp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "", 
+            "latitude": "41.90311100", 
+            "techniques": [
+                {
+                    "pk": 77, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "cast", 
+                        "museumobject_count": 954, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32615", 
+                        "museumobject_image_count": 485, 
+                        "type": "", 
+                        "slug": "cast"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1079, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1292352, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": null, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "S.678-2012", 
+                        "museumobject": 1102591, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "s6782012", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 77167, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1963-05-23", 
+                        "surname": "", 
+                        "name": "Antonio Maraini", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1963, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH320075", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1886-04-05", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "antonio-maraini", 
+                        "birth_year": 1886
+                    }
+                }, 
+                {
+                    "pk": 77168, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1950-12-31", 
+                        "surname": "", 
+                        "name": "Mrs. Gabrielle Enthoven", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1950, 
+                        "source": "content", 
+                        "cis_id": "AUTH320080", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1868-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mrs-gabrielle-enthoven", 
+                        "birth_year": 1868
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 477355, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 51
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 1102591, 
+                        "role": "cast", 
+                        "place": 51, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "s6872012", 
+            "object": "Medallion", 
+            "categories": [], 
+            "last_checked": "2014-04-27 05:23:04", 
+            "public_access_description": "Gabrielle Enthoven (1868-1950) was a collector of theatrical memorabilia relating to the London stage whose collection became the basis of the Department of Theatre and Performance at the Victoria and Albert Museum. She started her remarkable collection in the 1890s, in her flat in Cadogan Gardens. As her collection grew she came to the realisation that London was the only European capital without a public collection of theatrical records, and that an institution was needed to take it on as a gift to ensure its future. In 1911 she wrote to The Observer pointing out the need for a central repository of theatrical material that could be generally accessible, suggesting: \u2018a comprehensive theatrical section in an existing museum to comprise specimens of all the different branches necessary to the workings of a play from the construction of the theatre, the designing of the scenery and costumes, to the smallest workings necessary in the house. Also a library and a collection of playbills, prints, pictures and relics etc.\u2019\n\nAfter the initial refusal from the director of the Victoria and Albert Museum Cecil Harcourt-Smith to accept her material, Mrs Enthoven remained undeterred; and after the successful and influential International Theatre Exhibition of around 900 theatre designs, brought over from Amsterdam in 1922 and staged at the V&amp;A, Mrs Enthoven renewed her efforts to get the museum to accept her collection and in March 1924 she succeeded.\n\nThe sculptor Antonio Maraini (1886-1963) studied law but became one of Italy's best-known sculptors and art critics, especially in Rome, between the two world wars. He was General Secretary of the Venice Biennale from 1927 to 1938 and between 1929 and 1932 worked on two major projects in Rome: the bronze door of St. Paul Outside the Walls and the decoration of the staircase to the Vatican Museums.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "gabrielle-medallion-antonio-maraini", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 51, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Rome", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 4054, 
+                        "longitude": "12.49576000", 
+                        "source": "production", 
+                        "cis_id": "x29106", 
+                        "museumobject_image_count": 1702, 
+                        "latitude": "41.90311100", 
+                        "type": "city / town", 
+                        "slug": "rome-italy-x29106"
+                    }
+                }
+            ], 
+            "artist": "Antonio Maraini", 
+            "namecontext_set": [
+                {
+                    "pk": 666351, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 77167
+                    }, 
+                    "fields": {
+                        "name": 77167, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1102591, 
+                        "role": "made", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 666352, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 77168
+                    }, 
+                    "fields": {
+                        "name": 77168, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1102591, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1925, 
+            "object_number": "O1248876", 
+            "events": [], 
+            "credit": "Gabrielle Enthoven Collection", 
+            "history_note": "", 
+            "place": "Rome", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "T&P"
+        }
+    }
+]

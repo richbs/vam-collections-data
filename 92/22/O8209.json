@@ -1,0 +1,289 @@
+[
+    {
+        "pk": 11056, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "B.155:1-1998", 
+            "date_end": "1998-05-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1998, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "January 1998 - May 1998", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "[Sideboard] Sideboard of very light wood, with the pieces glued together.  It has two hinged doors opening from the centre with two round wooden knobs painted red.  It stands flush to the floor.\n[Box] Cardboard printed to represent wood grain, in yellow to light brown; corners are stapled.\n[Box] Box base of white card, stapled at the corners", 
+            "dimensions": "[Sideboard] width: 14.5 cm, depth: 6 cm, height: 7.5 cm\n[Box] length: 24 cm, width: 15 cm, depth: 9 cm", 
+            "title": "Anrichte", 
+            "date_start": "1998-01-01", 
+            "materials_techniques": "[Sideboard] maple wood, plain with the knobs painted red\n[Box] cardboard, printed to show wood grain", 
+            "last_processed": "2014-03-31 19:27:48", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "mass produced", 
+            "collections": [
+                {
+                    "pk": 5, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MoC", 
+                        "name": "Museum of Childhood", 
+                        "museumobject_count": 29148, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3179, 
+                        "type": "", 
+                        "slug": "moc"
+                    }
+                }
+            ], 
+            "location": "Museum of Childhood, Creativity Gallery, case 3", 
+            "marks": "[Box] heart within a house", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 6, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "Printed", 
+                        "museumobject_count": 5722, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53319", 
+                        "museumobject_image_count": 1212, 
+                        "type": "", 
+                        "slug": "printed"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 8, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cardboard", 
+                        "museumobject_count": 1302, 
+                        "source": "cis_materials", 
+                        "cis_id": "14224", 
+                        "museumobject_image_count": 438, 
+                        "type": "", 
+                        "slug": "cardboard"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "maple", 
+                        "museumobject_count": 146, 
+                        "source": "cis_materials", 
+                        "cis_id": "12236", 
+                        "museumobject_image_count": 38, 
+                        "type": "", 
+                        "slug": "maple"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 14002, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1064
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "3", 
+                        "inventory_number": 22229, 
+                        "room": "C", 
+                        "part_name": "Sideboard", 
+                        "museum_number": "B.155:1-1998", 
+                        "museumobject": 11056, 
+                        "shelf": "", 
+                        "site": "BGM", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Museum of Childhood, Creativity Gallery", 
+                        "museum_number_token": "b15511998", 
+                        "gallery": 1064
+                    }
+                }, 
+                {
+                    "pk": 14003, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 22231, 
+                        "room": "", 
+                        "part_name": "Box [1]", 
+                        "museum_number": "B.155:2-1998", 
+                        "museumobject": 11056, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b15521998", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 14004, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 22232, 
+                        "room": "", 
+                        "part_name": "Box [2]", 
+                        "museum_number": "B.155:3-1998", 
+                        "museumobject": 11056, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b15531998", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1064, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "C", 
+                        "site_name": "", 
+                        "name": "Museum of Childhood, Creativity Gallery", 
+                        "site_code": "MOC", 
+                        "museumobject_count": 1006, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49153", 
+                        "museumobject_image_count": 256, 
+                        "type": "", 
+                        "slug": "c-moc"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 6, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bodo Hennig", 
+                        "gender": null, 
+                        "museumobject_count": 100, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1360", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "bodo-hennig", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 12017, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 19888
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11056, 
+                        "role": "", 
+                        "place": 19888, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "b1551998", 
+            "object": "Sideboard", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:27:48", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Bodo Hennig catalogue, 1998", 
+            "vanda_exhibition_history": "", 
+            "slug": "anrichte-sideboard-bodo-hennig", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 19888, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "", 
+                        "parent": null, 
+                        "country": "", 
+                        "museumobject_count": 1776, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "", 
+                        "museumobject_image_count": 208, 
+                        "latitude": null, 
+                        "type": "", 
+                        "slug": null
+                    }
+                }
+            ], 
+            "artist": "Bodo Hennig", 
+            "namecontext_set": [
+                {
+                    "pk": 11095, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6
+                    }, 
+                    "fields": {
+                        "name": 6, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11056, 
+                        "role": "production", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1998, 
+            "object_number": "O8209", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "This is part of the furniture for the doll's house B.145 to 151-1998", 
+            "place": "Germany", 
+            "production_note": "Reason For Production: retail", 
+            "historical_context_note": "", 
+            "collection_code": "MoC"
+        }
+    }
+]

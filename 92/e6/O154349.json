@@ -1,0 +1,328 @@
+[
+    {
+        "pk": 122108, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.17:1 to 3-2008", 
+            "date_end": "1991-12-31", 
+            "labels": [], 
+            "descriptive_line": "Ring of white gold and with rock cyrstal, into which is set a rose-cut diamond, set topside down, designed and made by Charlotte de Syllas, England, London, 1991", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1991, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1991 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Ring with specially-made wooden box.\n[Box] Box lid of dark wood decorated with four rows of inlaid pale wood dots.\n[Box] Box base of dark wood with fitted leather lining.\n[Ring] Ring of white gold and with rock cyrstal, into which is set a rose-cut diamond, set topside down.", 
+            "dimensions": "[Box] Height: 5 cm, Width: 5 cm, Depth: 5 cm\n[Box] Height: 5 cm, Width: 5 cm, Depth: 5 cm\n[Ring] Height: 2.12 cm, Width: 2.9 cm, Depth: 2.52 cm", 
+            "title": "", 
+            "date_start": "1991-01-01", 
+            "materials_techniques": "[Box] Wood\n[Box] Wood and leather", 
+            "last_processed": "2014-04-01 03:01:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 43, shelf B, box 7", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 67, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Gold", 
+                        "museumobject_count": 6695, 
+                        "source": "cis_materials", 
+                        "cis_id": "11021", 
+                        "museumobject_image_count": 4435, 
+                        "type": "", 
+                        "slug": "gold"
+                    }
+                }, 
+                {
+                    "pk": 183, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "diamond", 
+                        "museumobject_count": 554, 
+                        "source": "cis_materials", 
+                        "cis_id": "11084", 
+                        "museumobject_image_count": 471, 
+                        "type": "", 
+                        "slug": "diamond"
+                    }
+                }, 
+                {
+                    "pk": 1738, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "rock crystal", 
+                        "museumobject_count": 161, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137, 
+                        "type": "", 
+                        "slug": "rock-crystal"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 192919, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 1369553, 
+                        "room": "", 
+                        "part_name": "Box [1]", 
+                        "museum_number": "M.17:3-2008", 
+                        "museumobject": 122108, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "m1732008", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 192920, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 1369547, 
+                        "room": "", 
+                        "part_name": "Box [2]", 
+                        "museum_number": "M.17:2-2008", 
+                        "museumobject": 122108, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "m1722008", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 192921, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "7", 
+                        "case": "43", 
+                        "inventory_number": 1369546, 
+                        "room": "91", 
+                        "part_name": "Ring", 
+                        "museum_number": "M.17:1-2008", 
+                        "museumobject": 122108, 
+                        "shelf": "B", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m1712008", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 36203, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "de Syllas, Charlotte", 
+                        "gender": null, 
+                        "museumobject_count": 5, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A22144", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": "1946-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "de-syllas-charlotte", 
+                        "birth_year": 1946
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 121671, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 122108, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m172008", 
+            "object": "Ring", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }, 
+                {
+                    "pk": 70, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Accessories", 
+                        "museumobject_count": 9759, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3296, 
+                        "type": "", 
+                        "slug": "accessories"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:01:13", 
+            "public_access_description": "This ring has at its centre a rose-cut diamond which had previously been set into the wedding ring of the donor's mother, in about 1930. In the design by Charlotte de Syllas the diamond is set topside down to form the pupil of a rock crystal eye.\n\nCharlotte de Syllas trained at Hornsey College of Art under Gerda Flockinger. In 1966 she started working as a freelance artist jeweller since when she has become known as a pre-eminent carver of hardstones. In 1995 was joint-winner of the first Jerwood Prize for Jewellery.", 
+            "exhibition_history": "", 
+            "bibliography": "Sylvie Raulet 'Rock Crystal Treasures from Antiquity to Today' page 227", 
+            "vanda_exhibition_history": "", 
+            "slug": "ring-de-syllas-charlotte", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "de Syllas, Charlotte", 
+            "namecontext_set": [
+                {
+                    "pk": 148698, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 36203
+                    }, 
+                    "fields": {
+                        "name": 36203, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 122108, 
+                        "role": "designer and maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1991, 
+            "object_number": "O154349", 
+            "events": [], 
+            "credit": "Given by Gulderen Tekvar, in memory of her mother", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

@@ -1,0 +1,339 @@
+[
+    {
+        "pk": 105060, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.52-1938", 
+            "date_end": "1714-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'A Man Wearing a Red Coat', Luca Carlevarijs, ca. 1700-ca. 1710", 
+            "shape": "", 
+            "longitude": "12.31849000", 
+            "year_start": 1695, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24115, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "swords", 
+                        "museumobject_count": 188, 
+                        "source": "object", 
+                        "cis_id": "37048", 
+                        "museumobject_image_count": 137, 
+                        "type": "", 
+                        "slug": "swords"
+                    }
+                }, 
+                {
+                    "pk": 24020, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "coat", 
+                        "museumobject_count": 80, 
+                        "source": "object", 
+                        "cis_id": "46143", 
+                        "museumobject_image_count": 48, 
+                        "type": "", 
+                        "slug": "coat"
+                    }
+                }, 
+                {
+                    "pk": 48787, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "tricornes", 
+                        "museumobject_count": 4, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "tricornes"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1700-ca. 1710 (painted)", 
+            "primary_image_id": "2007BN4186", 
+            "rights": 3, 
+            "physical_description": "A man wearing a red coat and stockings, a black tricorned hat and a sword at his waist.", 
+            "dimensions": "Height: 19.2 cm approx., Width: 9 cm approx.", 
+            "title": "A man wearing a red coat and stockings", 
+            "date_start": "1695-01-01", 
+            "materials_techniques": "Oil on canvas mounted on paper", 
+            "last_processed": "2014-04-01 01:52:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 213, box A", 
+            "marks": "", 
+            "latitude": "45.43825100", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 152, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Venetian School", 
+                        "museumobject_count": 131, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x36536", 
+                        "museumobject_image_count": 127, 
+                        "type": "", 
+                        "slug": "venetian-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 171651, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "WD", 
+                        "inventory_number": 14348, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "P.52-1938", 
+                        "museumobject": 105060, 
+                        "shelf": "213", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "p521938", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32914, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1730-12-31", 
+                        "surname": "", 
+                        "name": "Carlevarijs", 
+                        "gender": null, 
+                        "museumobject_count": 91, 
+                        "death_year": 1730, 
+                        "source": "object_production", 
+                        "cis_id": "A18624", 
+                        "museumobject_image_count": 57, 
+                        "forename": "", 
+                        "birth_date": "1663-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "carlevarijs-luca", 
+                        "birth_year": 1663
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 102645, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 41
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 105060, 
+                        "role": "painted", 
+                        "place": 41, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p521938", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 28, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Clothing", 
+                        "museumobject_count": 26643, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 18390, 
+                        "type": "", 
+                        "slug": "clothing"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:52:09", 
+            "public_access_description": "A man wearing a red coat and stockings, a black tricorned hat and a sword at his waist.  This work is part of an album of fifty-three sketches by Carlevarijs which includes figures he appears to have painted in the open air in preparation for insertion into formal compositions.  Figures in very similar dress appear for example in Carlevarijs' paintings depicting the Entry of foreign Embassies such as Spain and France into the Palazzo Ducale, Venice.", 
+            "exhibition_history": "", 
+            "bibliography": "Kauffmann, C.M., <u>Catalogue of Foreign Paintings, I. Before 1800</u>, London: Victoria and Albert Museum, 1973, p. 56-63, cat. no. 60 (P.26-1938 - P.78-1938)\nThe following is the full text of the entry:\n\n\"Luca CARLEVARIJS (1663-1730) \n<i>Venetian School</i>  \nBorn at Udine, he moved to Venice with his sister in 1679, and later visited Rome. He was influenced by Sebastiano Ricci (1659-1734). A mathematician and architect as well as a painter and engraver, he was the first Venetian to paint vedute (mainly for a foreign and diplomatic market), his predecessors having been foreigners such as Joseph Heintz (in Venice by 1625). There is no evidence for the view that Canaletto was taught by him, though Canaletto was plainly influenced by his works. His paintings are comparatively rare. \n\n60 \nFIFTY-THREE STUDIES \n<i>Canvas</i> \n(except where otherwise indicated) \n\nP.52-1938 A man wearing a red coat 7 5/8 x 3 1/2 (19.2 x 9)\nRizzi (1967): No.27, fig.25\n\nThese well-known sketches by Carlevarijs include figures which he used frequently and virtually without variations in his paintings between 1707 and 1726. In addition, some of the figures in his etchings of 1703, <i>Le fabriche e vedute di Venetia</i>, are related to them (Pope-Hennessy, 1938). He seems therefore to have used them during the greater part of his active life as a painter. They demonstrate his influence on Canaletto, whose figures and their arrangement in some of his early paintings show a marked debt to Carlevarijs, in, for example, <i>The Doge visiting the Church and Scuola di S. Rocco</i> of circa 1735 (London, N. G.) (Constable, 1962). \nAmong the figures which are used most often, P.68 appears in: <i>Piazza S. Marco con ciarlatini</i> (Berlin-Dahlem, Rizzi, 1967, pls. 104-07), <i>Piazza S. Marco with a market</i> (Rome, formerly Lazzaroni Collection; Rizzi, 1967, pls. 101-03), <i>Piazzetta seen from the Molo</i> (Milan, private collection; Rizzi, 1967, pl. 42), <i>Regatta on the Grand Canal</i> (Copenhagen, Frederiksberg Castle; Rizzi, 1967, pls. 35-7), <i>Piazzetta from the Sea</i> (formerly Munich, Collection Drey; Rizzi, 1964, pl. xxxii), <i>Molo with the Zecca</i> (Rome, Galleria Nazionale; Rizzi, 1967, pl. 57 f.), <i>Piazza</i> (Poznan; Mauroner, 1945, fig. 25). The left-hand figure of P.65 appears in, amongst other paintings: <i>The Duke of Manchester's Entry into the Doge's Palace</i> (Birmingham, City Art Gallery; Rizzi, 1967, pls, 28-30), and the other version of this subject (The Hague; Rizzi, 1967, pls. 31-4), <i>Piazza S. Marco</i> (Balcarres; Rizzi, 1967, pls, 96-9), <i>Piazza S. Marco</i> (Kiplin Hall; Rizzi, 1967, pl. 119 f.), <i>Il bucintoro in bacino S. Marco</i> (Rome, formerly Lazzaroni Collection; Rizzi, 1967, pls. 43-4), <i>Riva degli schiavoni</i> (Milan, Collection Fano; Rizzi, 1967, pls. 54-6), <i>Piazza S. Marco con ciarlatini</i> (Berlin Dahlem; Rizzi, 1967, pls, 104-07). P. 76 can be seen in: <i>Piazza S. Marco</i> (Kiplin Hall; Rizzi, 1967, pl. 119 f.), <i>The Duke of Manchester's Entry into the Doge's Palace</i> (The Hague; Rizzi, 1967, pls. 30-4), and <i>Piazzetta seen from the Malo</i> (Milan, private collection; Rizzi, 1967, pl. 42). P. 69 appears in the first two of those paintings, and P.72 in <i>Piazza S. Marco</i> (Hartford; Rizzi, 1967, pls, 115-16), and <i>Piazza S. Marco</i> (Kiplin Hall; Rizzi, 1967, pl. 119 f.). \nThe earliest dateable painting, <i>The Duke of Manchester's Entry into the Doge's Palace</i>, 1707 (Birmingham City Art Gallery) includes P.37, P.64, P.65 and P.69. Even more of the figures are used in <i>The Reception of Count Colloredo</i> (Dresden), dated by Rizzi to Colloredo's mission of 1726, rather than that of 1714: P.42, P.43, P.44, P.50, P.55, P.57, P.58, P.59, P.61, P.63, P.67.\nThis is not intended as a complete list of paintings in which the sketches were used, but it does demonstrate that once Carlevarijs had devised his principal figure types he used them again and again throughout his career. He presumably worked them up from pen and pencil sketches from life such as those also in the Museum (D.1352A-1887), several of which relate in general terms to the oil sketches. \n\n<i>Prov</i>. Bought from Dr Vitale Bloch in 1938. \n<i>Exh. Carlevarijs, disegni, incisioni e bozzetti,</i>Udine, 1964: P.37, P.48, P.50, P.55, P.57, p.65, p.68, p.69; <i>Life in xviii century Venice,</i>Iveagh Bequest, Kenwood, 1966: \nP.36, P.37, P.38, P.41, P.43, P.44, P.48, P.54, P.57, P.66, P.69, P.70. \n<i>Lit.</i> J. Pope-Hennessy, 'A group of studies by Luca Carlevarijs' in <i>Burl. Mag.,</i>lxxiii, 1938, p. 126 f.; Anon., 'Early Venetian Costume Studies' in <i>Listener,</i>22 September 1938, p. 613; F. Mauroner, <i>Luca Carlevarijs,</i>2nd ed., 1945, p. 24, figs. 32 (P.57), 33 (P.55), 34 (P.69); M. Levey, <i>Painting in xviii century Venice,</i>1959, p. 79; W. G. Constable, <i>Canaletto,</i>i, 1962, pp. 70, 73 f., pl. 9 a (P.69) and b (P.55); A. Rizzi, <i>Disegni, incisioni e bozzetti del Carlevarijs,</i><i>cat. delta Mostra,</i>Udine, 1964, pp. 53-7, figs. 113-20; A. Rizzi, <i>Luca Carlevarijs,</i>1967, p. 97 f., figs. 1-53 (Bozzetti).\"\nJohn Pope-Hennessy, 'A Group of Studies by Luca Carlevarijs', <u>The Burlington Magazine for Connoisseurs</u>, Vol. 73, No. 426 (Sep., 1938), pp. 126-131.\nAnon., 'Early Venetian Costume Studies' in <u>Listener,</u>22 September 1938, p. 613.\nF. Mauroner, <u>Luca Carlevarijs,</u>2nd ed., 1945, p. 24, figs. 32 (P.57), 33 (P.55), 34 (P.69)\nM. Levey, <u>Painting in XVIII century Venice,</u> 1959, p. 79.\nW. G. Constable, <u>Canaletto,</u>i, 1962, pp. 70, 73 f., pl. 9 a (P.69) and b (P.55)\nAlthough this work is not discussed specifically, it derives from the same album as works that are. The sketches that are discussed include the following museum numbers: (P.69-1038) and b (P.55-1938).\nA. Rizzi, <u>Disegni, incisioni e bozzetti del Carlevarijs,</u> Exh. Cat. Udine, 1964, pp. 53-7, figs. 113-20.\nAlthough this work was not part of the exhibition, it derives from the same album as V&A   pictures that were lent including the following museum numbers: P.37-1938, P.48-1938, P.50-1938, P.55-1938, P.57-1938, P.65-1938, P.68-1938, P. 69-1938.\n<u>The Glory of Venice : art in the eighteenth century.</u> Jane Martineau and Andrew Robison (eds.), Exhibition held at the Royal Academy of Arts, London, September 15 - December 14, 1994 and at the National Gallery of Art, Washington, D.C., January 29 - April 23, 1995. pp. 93-97, 443-444, no. 21.\nGeneral reference, although this work not lent to exhibition, P.51-1938; P. 71-1038 and P.72.-1038 were lent.\n<u>Life in XVIII century Venice,</u> Iveagh Bequest, Kenwood, 1966.\nAlthough this work was not part of the exhibition, it derives from the same album as V&A pictures that were lent including the following museum numbers:  P.36-1938, P.37-1938, P.38-1938, P.41-1938, P.43-1938, P.44-1938, P.48-1938, P.54-1938, P.57-1938, P.66-1938, P.69-1938, P.70-1938.\nA. Rizzi, <u>Luca Carlevarijs,</u>1967, p. 97 f., figs. 1-53 (Bozzetti).\nIsabella Reale and Dario Succi, <u>Luca Carlevarijs e la veduta veneziana del Settecento</u> Exh. Cat., Milano : Electa, c1994.\nGeneral Ref. V&A objects not lent to exhibition.\nSee pp. 99-144 for in depth discussion of figural studies.\n<u>Venice, 1700-1800: an exhibition of Venice and the eighteenth century</u> (The Detroit Institute of Arts [and] John Herron Art Museum), 1952, pp. 9-12, 23-26.\nGeneral Ref. V&A objects not lent to exhibition.\n<u>Luca Carlevarijs, Le fabriche e vedute di Venetia</u> Exh. Cat., Venezia : Marsilio, 1995-1996.\nGeneral Reference, not lent to exhibition\nCharles Beddington, <u>Luca Carlevarijs : views of Venice</u> Exh. Cat. (San Diego, Calif.: Timken Museum of Art, c. 2001), p. 19, fig. 17.\nNote that though the work was not lent to this exhibition sketches are generally discussed in the catalogue.\n<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1938</u>, London: Board of Education, 1939.\nThe full text of the record is as follows:\n\n<b>'CARLEVARIJS, Luca (1665-1731).</b>\n\nA collection of Venetian sketches (53), c.1703-1714, including figure studies, gondolas, etc., some of them preliminary sketches for figures in the following paintings by Carlevarijs: \"The Reception of Count Colloredo\", 1714, (Dresden: Germ\u00e4ldegalerie, No. 553); \"The Entry of Lord Manchester into the Doge's Palace\" 1707, (Collection of the Duke of Manchester, Kimbolton); \"Veduta della Piazzetta\" (Collection of the Earl of Crawford and Balcarres, London); \"Ceremonia Veneziana\" (Bergamo: Accademia Carrara); \"La Piazzetta\" (Posen: Museum No. 41); \"The Doge's Palace, Venice\" (Haversham Sale, Christie's, Feb. 22 1924, Lot 78); \"Piazza San Marco,\" (Palkse Sale, Naples, March 5-10, 1928, Lot 683); \"La Piazzetta\" (Agosti e Mendoza Sale, Milan, Jan. 25-29, 1937, Lot 183); \"Veduta della Piazzetta\" (formerly in the Salvadori Collection, Venice); \"Le Fabriche e Vedute di Venetia\" (105 plates drawn and engraved by Carlevarijs and published in Venice, 1703).\n<I>Oil on paper and canvas.</i>\nE.26 - 78-1938\nPurchased from the funds of Captain H. B. Murray's bequest.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "a-man-wearing-a-red-oil-painting-carlevarijs-luca", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 99221, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-21 00:00:00", 
+                        "last_processed": "2014-03-31 17:29:34", 
+                        "priority": 0, 
+                        "image_id": "2007BN4186", 
+                        "sys_id": 334186, 
+                        "last_checked": "2014-03-31 17:29:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2007BN/2007BN4186.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 41, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2463
+                    }, 
+                    "fields": {
+                        "name": "Venice (city)", 
+                        "parent": 2463, 
+                        "country": "Italy", 
+                        "museumobject_count": 1878, 
+                        "longitude": "12.31849000", 
+                        "source": "production", 
+                        "cis_id": "x29237", 
+                        "museumobject_image_count": 936, 
+                        "latitude": "45.43825100", 
+                        "type": "city / town", 
+                        "slug": "venice-city-italy-x29237"
+                    }
+                }
+            ], 
+            "artist": "Carlevarijs, Luca", 
+            "namecontext_set": [
+                {
+                    "pk": 125693, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32914
+                    }, 
+                    "fields": {
+                        "name": 32914, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 105060, 
+                        "role": "painter (artist)", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1714, 
+            "object_number": "O134480", 
+            "events": [], 
+            "credit": "Purchased from the funds of Captain H. B. Murray's bequest.", 
+            "history_note": "Purchased, 1938\n\nHistorical significance: A man wearing a red coat and stockings, a black tricorned hat and a sword at his waist. It is one of Carlevarijs\u2019 studies known as <i>macchiette</i>, the quick sketches he made with daubs of colour to indicate animated Venetian figures.  Carlevarijs first drew the figures on paper, copying them from people he saw in the streets and then transformed them into lively oil sketches, such as this one, which represent a crucial part of his artistic process. Studies such as these would ultimately form part of a Venetian <i>veduta</i> or prospect painting, which is a genre Carlevarijs is generally credited with establishing in the eighteenth century. He populated his <i>vedute</i> with elegantly posed and well-dressed figures, concealing the decline of the Republic under the splendour of the pageants, festivals and regattas he often represented. The tricorne hat was a popular style during the late 17th century and 18th century, falling out of style shortly before the French Revolution. At the peak of its popularity, it was worn as civilian dress and as part of military and naval uniforms. The tricorne appeared as a result of the evolution of the broad brim round hat used by Spanish soldiers in Flanders during the 17th century. By pledging the brims, a triangular shape was obtained, and since the corners offered protection from the rainy Flemish weather, this shape was favored by Spanish soldiers. From there, during the military struggles between the French and the Spaniards, its use spread to the French armies, and King Louis XIV made it fashionable throughout Europe, both as a civil and military wear.  Figures in very similar dress appear for example in Carlevarijs' paintings depicting the Entry of foreign Embassies such as Spain and France into the Palazzo Ducale, Venice. \nCarlevarijs' sketches also demonstrate his great influence on Canaletto, whose figures and their arrangement often show a marked debt to the older Master such as in <i>Venice: The Feast Day of Saint Roch</i> ca. 1735 (National Gallery, London, NG937).", 
+            "place": "Venice", 
+            "production_note": "", 
+            "historical_context_note": "This work is part of an album of fifty-three sketches by Carlevarijs which includes figures he appears to have painted in the open air in preparation for insertion into formal compositions. The figures and objects appear frequently and virtually without variations in his paintings between 1707 and 1726 and are closely related to his etchings of 1703 in <u>Le fabriche e vedute di Venetia</u>.  Composed of 104 views of Venice, the etchings formed the most complete survey of the fabric of the city ever produced and served as a model for Venetian view painters throughout the 18th century.   Carlevarijs' sketches reveal a particular attention to costume, highlighting Venetian style of dress which was highly regarded in fashionable circles throughout Europe from the 16th through the 18th centuries. The maritime republic imported raw materials from the Far East and exported finished products including highly desirable velvets and brocades. The taste for Venetian textiles persisted into the 18th century. In this period however, Venice's power was dwindling and her government corrupt. The city nevertheless sought to present a facade of a wealthy city peopled with bright and gregarious multitude engaged in pleasurable pursuits. As Carlevarijs stated in the dedication to <u>Le fabriche,</u> he intended his paintings to <i>'rendere pi\u00f9 facile alla notitzia de Paesi stranieri le Venete Magnificenze'</i> [render more clearly the magnificence of Venice to foreign countries]", 
+            "collection_code": "PDP"
+        }
+    }
+]
