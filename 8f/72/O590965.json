@@ -1,0 +1,334 @@
+[
+    {
+        "pk": 505648, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.458-1953", 
+            "date_end": "1875-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing by George Richmond of Samuel Palmer, pen and ink, mid-19th century.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1825, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24027, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "artist", 
+                        "museumobject_count": 145, 
+                        "source": "object", 
+                        "cis_id": "25103", 
+                        "museumobject_image_count": 39, 
+                        "type": "", 
+                        "slug": "artist"
+                    }
+                }, 
+                {
+                    "pk": 31056, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Palmer, Samuel", 
+                        "museumobject_count": 4, 
+                        "source": "name", 
+                        "cis_id": "N3995", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "palmer-samuel"
+                    }
+                }
+            ], 
+            "date_text": "mid 19th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Drawing, portrait of Samuel Palmer, head and shoulders, facing half left.", 
+            "dimensions": "Height: 9.2 cm, Width: 6.4 cm", 
+            "title": "Samuel Palmer", 
+            "date_start": "1825-01-01", 
+            "materials_techniques": "Pen and ink drawing", 
+            "last_processed": "2014-04-01 20:06:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 202, box I", 
+            "marks": "'Portrait of S. Palmer probably by Mr Richmond'\n 'Qy use for the proposed Life of S P' \n'For Sir Frank Short'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46144, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 14913, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 39, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ink", 
+                        "museumobject_count": 22898, 
+                        "source": "cis_materials", 
+                        "cis_id": "187371", 
+                        "museumobject_image_count": 13758, 
+                        "type": "", 
+                        "slug": "ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 640082, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "I", 
+                        "case": "PD", 
+                        "inventory_number": 1230979, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.458-1953", 
+                        "museumobject": 505648, 
+                        "shelf": "202", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e4581953", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32357, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1896-12-31", 
+                        "surname": "", 
+                        "name": "Richmond, George (R.A.)", 
+                        "gender": null, 
+                        "museumobject_count": 27, 
+                        "death_year": 1896, 
+                        "source": "object_production", 
+                        "cis_id": "A16281", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1809-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "richmond-george", 
+                        "birth_year": 1809
+                    }
+                }, 
+                {
+                    "pk": 32358, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Palmer, Samuel", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N3995", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "palmer-samuel-3995", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 314719, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 505648, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e4581953", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 20:06:25", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1953 </u> London: HMSO, 1963\nThe full text of the entry is as follows: \n\n\"<b>RICHMOND, George, R.A. (1809-1896)</b> \n\nSamuel Palmer (1805-1881), artist.  Portrait, head and shoulders, facing half left. \n<i>Inscribed in pencil</i> Portrait of S. Palmer probably by Mr Richmond <i>and on the back</i> Qy use for the proposed Life of S P <i>and</i> For Sir Frank Short. \n<i>Pen and ink.</i>               E.458-1953 \n\n<i>Note:</i> This drawing was formerly in the collection of Sir Frank Short, R.A., P.R.E., R.I.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "samuel-palmer-drawing-london-george-richmond", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "London George Richmond", 
+            "namecontext_set": [
+                {
+                    "pk": 418876, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32357
+                    }, 
+                    "fields": {
+                        "name": 32357, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 505648, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 418877, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32358
+                    }, 
+                    "fields": {
+                        "name": 32358, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 505648, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1875, 
+            "object_number": "O590965", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,333 @@
+[
+    {
+        "pk": 482171, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.138-1960", 
+            "date_end": "1575-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Charles IX, King of France, and Elisabeth of Austria, engraving by Abraham de Bruyn, mid-16th century.", 
+            "shape": "", 
+            "longitude": "4.47677000", 
+            "year_start": 1525, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 667, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "king", 
+                        "museumobject_count": 342, 
+                        "source": "object", 
+                        "cis_id": "x31541", 
+                        "museumobject_image_count": 150, 
+                        "type": "", 
+                        "slug": "king"
+                    }
+                }, 
+                {
+                    "pk": 32671, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Queen", 
+                        "museumobject_count": 139, 
+                        "source": "name", 
+                        "cis_id": "N7519", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "queen"
+                    }
+                }, 
+                {
+                    "pk": 30657, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Charles IX (King of France)", 
+                        "museumobject_count": 2, 
+                        "source": "name", 
+                        "cis_id": "N5042", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "charles-ix-king-of-france"
+                    }
+                }
+            ], 
+            "date_text": "mid 16th century (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, portrait of a man and a woman, head and shoulders, facing respectively half left and half right, each within an oval  border.", 
+            "dimensions": "Height: 8.3 cm, Width: 11.4 cm", 
+            "title": "Charles IX, King of France, and Elisabeth of Austria", 
+            "date_start": "1525-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 18:40:11", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PS, shelf 5", 
+            "marks": "'ADB.'", 
+            "latitude": "50.50099200", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 105, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Flemish School", 
+                        "museumobject_count": 468, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31261", 
+                        "museumobject_image_count": 367, 
+                        "type": "", 
+                        "slug": "flemish-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 616604, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PS", 
+                        "inventory_number": 1257644, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.138-1960", 
+                        "museumobject": 482171, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e1381960", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1940, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1587-12-31", 
+                        "surname": "", 
+                        "name": "Abraham de Bruyn", 
+                        "gender": null, 
+                        "museumobject_count": 13, 
+                        "death_year": 1587, 
+                        "source": "object_production", 
+                        "cis_id": "A8195", 
+                        "museumobject_image_count": 12, 
+                        "forename": "", 
+                        "birth_date": "1540-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bruyn-abraham-de", 
+                        "birth_year": 1540
+                    }
+                }, 
+                {
+                    "pk": 31418, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1574-12-31", 
+                        "surname": "", 
+                        "name": "Charles IX", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1574, 
+                        "source": "content", 
+                        "cis_id": "N5042", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1550-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "charles-ix-king-of-france", 
+                        "birth_year": 1550
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 298568, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 129
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482171, 
+                        "role": "printed", 
+                        "place": 129, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1381960", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:40:11", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1960: Volume 2, Edgar Seligman Gift.</u> London: HMSO, 1966.\nThe full text of the entry is as follows:\n\n\u2018<b>BRUYN. Abraham de (1540-1587)</b>\nCharles XI, King of France (1550-1574) and his wife Elisabeth of Austria )1554-1592).  Portraits (2 on 1 plate), head and shoulders, facing respectively half left and half right, each within an oval border.\n<i>Signed with monogram</i> ADB.  <i>With the mark of the collection of Sydney Vacher (1854-1935) (Lugt 2374).\nEngraving.  Cut to</i> 8.3 x 11.4 cm.\nE.138-1960\u2019", 
+            "vanda_exhibition_history": "", 
+            "slug": "charles-ix-king-of-france-print-abraham-de-bruyn", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 129, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Belgium", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 1265, 
+                        "longitude": "4.47677000", 
+                        "source": "production", 
+                        "cis_id": "x28742", 
+                        "museumobject_image_count": 285, 
+                        "latitude": "50.50099200", 
+                        "type": "country", 
+                        "slug": "belgium-x28742"
+                    }
+                }
+            ], 
+            "artist": "Abraham de Bruyn", 
+            "namecontext_set": [
+                {
+                    "pk": 396810, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1940
+                    }, 
+                    "fields": {
+                        "name": 1940, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482171, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 396811, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31418
+                    }, 
+                    "fields": {
+                        "name": 31418, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482171, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1575, 
+            "object_number": "O567430", 
+            "events": [], 
+            "credit": "Given by Edgar Seligman", 
+            "history_note": "", 
+            "place": "Belgium", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
