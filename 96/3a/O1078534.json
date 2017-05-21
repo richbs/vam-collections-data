@@ -1,0 +1,305 @@
+[
+    {
+        "pk": 968748, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1249-1926", 
+            "date_end": "1890-12-31", 
+            "labels": [], 
+            "descriptive_line": "Frederick William Hayes. 'Llandudno 1899 | Borth | Ribbehead | Aysgarth.' Sketchbook, mainly scenes in North Wales and Yorkshire. 1890.", 
+            "shape": "", 
+            "longitude": "-3.98509000", 
+            "year_start": 1890, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1890 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Sketchbook containing pencil sketches", 
+            "dimensions": "Height: 8.9375 in, Width: 11.25 in", 
+            "title": "Llandudno 1899 | Borth | Ribbehead | Aysgarth", 
+            "date_start": "1890-01-01", 
+            "materials_techniques": "pencil sketches in volume bound in canvas", 
+            "last_processed": "2014-04-27 00:29:11", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case 91, shelf D, box 1", 
+            "marks": "", 
+            "latitude": "52.36854900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 55030, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27388, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1104024, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "1", 
+                        "case": "91", 
+                        "inventory_number": 315283, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.1249-1926", 
+                        "museumobject": 968748, 
+                        "shelf": "D", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e12491926", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32166, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1918-12-31", 
+                        "surname": "", 
+                        "name": "Frederick William Hayes", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1918, 
+                        "source": "object_production", 
+                        "cis_id": "A17689", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1848-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hayes-frederick-william", 
+                        "birth_year": 1848
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 436996, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 629
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 968748, 
+                        "role": "made", 
+                        "place": 629, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 436997, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 57
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 968748, 
+                        "role": "made", 
+                        "place": 57, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e12491926", 
+            "object": "Sketchbook", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 127, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Books", 
+                        "museumobject_count": 6385, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 323, 
+                        "type": "", 
+                        "slug": "books"
+                    }
+                }, 
+                {
+                    "pk": 1616, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tourism & Travel", 
+                        "museumobject_count": 7821, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5241, 
+                        "type": "", 
+                        "slug": "tourism-travel"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 00:29:11", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1926</u>, London: Board of Education, 1927\nThe full text of the record is as follows:\n\n<b>'HAYES, Frederick William (1848-1918).</B>\n\nVolume containing pencil sketches of sailing-boats (f.16) and landscape scenery, chiefly of places in North Wales and Yorkshire.\nAmongst the places specified by name are Pen-y-ghent ; Borth (2 views) ; Little Orme's Head (1890) ; Aysgarth Upper Fall ; Aysgarth Church ; Moel Hebog from L. Gadar ; Snowdon from Rhyd-ddu ; Arran from Quellyn [Cwellyn] ; Ribbleshead (July 1894). Most of the sketches have notes as to colour. 29 ff. in canvas binding fitted with elastic band and pencil slot.\n<i>Inscribed in pencil on outside of front cover</i> Llandudno 1899 | Borth | Ribbehead <i>(sic)</i> | Aysgarth <i>Inscribed in ink inside front and back covers</i> F. W. Hayes 12 Westcroft Sq. London, W.\nE.1249-1926\nPresented by Gerald R. Hayes, Esq.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "llandudno-1899-borth-ribbehead-aysgarth-sketchbook-frederick-william-hayes", 
+            "sys_updated": "2014-03-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 629, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "Wales", 
+                        "parent": 1, 
+                        "country": "Great Britain", 
+                        "museumobject_count": 751, 
+                        "longitude": "-3.98509000", 
+                        "source": "production", 
+                        "cis_id": "x29337", 
+                        "museumobject_image_count": 340, 
+                        "latitude": "52.36854900", 
+                        "type": "country", 
+                        "slug": "wales-great-britain-x29337"
+                    }
+                }, 
+                {
+                    "pk": 57, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Yorkshire", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 554, 
+                        "longitude": "-1.20788000", 
+                        "source": "production", 
+                        "cis_id": "x29523", 
+                        "museumobject_image_count": 273, 
+                        "latitude": "53.93063000", 
+                        "type": "region", 
+                        "slug": "yorkshire-england-x29523"
+                    }
+                }
+            ], 
+            "artist": "Frederick William Hayes", 
+            "namecontext_set": [
+                {
+                    "pk": 568249, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32166
+                    }, 
+                    "fields": {
+                        "name": 32166, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 968748, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1890, 
+            "object_number": "O1078534", 
+            "events": [], 
+            "credit": "Given by Gerald R. Hayes, Esq.", 
+            "history_note": "", 
+            "place": "Wales", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
