@@ -1,0 +1,295 @@
+[
+    {
+        "pk": 115325, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "SD.627", 
+            "date_end": "1923-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour, `The Exorcist', 1923, by Fortunino Matania RI", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1923, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 5371, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Illustration", 
+                        "museumobject_count": 649, 
+                        "source": "concept", 
+                        "cis_id": "x33379", 
+                        "museumobject_image_count": 370, 
+                        "type": "", 
+                        "slug": "illustration"
+                    }
+                }, 
+                {
+                    "pk": 12657, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Exorcism", 
+                        "museumobject_count": 2, 
+                        "source": "object", 
+                        "cis_id": "x41881", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "exorcism"
+                    }
+                }, 
+                {
+                    "pk": 12658, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Ancient Egyptians", 
+                        "museumobject_count": 2, 
+                        "source": "object", 
+                        "cis_id": "x41882", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "ancient-egyptians"
+                    }
+                }, 
+                {
+                    "pk": 31885, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Tutankhamun", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N7020", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "tutankhamun"
+                    }
+                }
+            ], 
+            "date_text": "1923 (painted)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 40.1 cm, Width: 27.3 cm", 
+            "title": "The Exorcist", 
+            "date_start": "1923-01-01", 
+            "materials_techniques": "Watercolour and gouache over pencil, on board", 
+            "last_processed": "2014-04-01 02:34:50", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case 89, shelf SCX, box 5", 
+            "marks": "Signed F. Matania; on the back inscribed in another hand with title (twice), artist's name and printers' notes, stamped THE SPHERE No and numbered I.205.; in the margins, inscribed with further printers' notes", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 76, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Orientalism", 
+                        "museumobject_count": 2315, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31272", 
+                        "museumobject_image_count": 1552, 
+                        "type": "", 
+                        "slug": "orientalism"
+                    }
+                }, 
+                {
+                    "pk": 65, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Italian School", 
+                        "museumobject_count": 759, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31264", 
+                        "museumobject_image_count": 255, 
+                        "type": "", 
+                        "slug": "italian-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 184311, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "5", 
+                        "case": "89", 
+                        "inventory_number": 113048, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "SD.627", 
+                        "museumobject": 115325, 
+                        "shelf": "SCX", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "sd627", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 35016, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1963-12-31", 
+                        "surname": "", 
+                        "name": "Matania, Fortunino", 
+                        "gender": null, 
+                        "museumobject_count": 14, 
+                        "death_year": 1963, 
+                        "source": "object_production", 
+                        "cis_id": "A21460", 
+                        "museumobject_image_count": 12, 
+                        "forename": "", 
+                        "birth_date": "1881-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "matania-fortunino", 
+                        "birth_year": 1881
+                    }
+                }, 
+                {
+                    "pk": 35017, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Tutankhamun", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N7020", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "tutankhamun", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "sd627", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:34:50", 
+            "public_access_description": "One of the many ways in which Howard Carter's discovery of Tutankhamun's tomb caught popular imagination is illustrated in this fanciful interpretation of the death of an Egyptian Pharaoh, made for a special Egyptian section of The Sphere magazine for 24 February 1923. Entitled Pharaoh Falls III - The Exorcist is called in, it was the first of four equally far-fetched illustrations depicting the last journey of a pharaoh from his palace to his tomb. The necromancer has been summoned to drive away the evil spirit possessing the body of the sick ruler, but the charms he holds out and the incantations he utters are to no avail, and the pharaoh dies. \n\nMatania was an Italian illustrator and historical painter, described in the introduction to this Egyptian section in the magazine as having 'a very special genius for reconstructing the past'. He was The Sphere's Special Artist, and also worked for other periodicals in Milan, Paris and London.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-exorcist-watercolour-matania-fortunino", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [], 
+            "artist": "Matania, Fortunino", 
+            "namecontext_set": [
+                {
+                    "pk": 139718, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 35016
+                    }, 
+                    "fields": {
+                        "name": 35016, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 115325, 
+                        "role": "painter", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 139719, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 35017
+                    }, 
+                    "fields": {
+                        "name": 35017, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 115325, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1923, 
+            "object_number": "O146532", 
+            "events": [], 
+            "credit": "Purchased with the assistance of The Art Fund, the National Heritage Memorial Fund, Shell International and the Friends of the V&A", 
+            "history_note": "According to Rodney Searight: - `Bt. fr. Walter T. Spencer 27 New Oxford St.  Feb.'61   \u00a31-10 [shillings] '.", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "Reproduced in colour in The Sphere, No.1205, 24 February, 1923, p.197, titled Episode I.: Pharaoh Falls Ill - The Exorcist Is Called In. One of a series of illustrations by Matania showing the journey of an Egyptian Pharaoh from his death-bed in his palace to his burial in his tomb; all reproduced in The Sphere in 1923, shortly after the discovery of the Tomb of Tutankhamun at Thebes.", 
+            "collection_code": "PDP"
+        }
+    }
+]
