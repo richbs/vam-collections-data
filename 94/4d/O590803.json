@@ -1,0 +1,322 @@
+[
+    {
+        "pk": 505486, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.625-1953", 
+            "date_end": "1798-12-31", 
+            "labels": [], 
+            "descriptive_line": "Thomas Girtin, King John's Palace, Eltham. Pencil on wove paper.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1789, 
+            "exhibitions": [
+                {
+                    "pk": 3045, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": 1954, 
+                        "name": "The Art of Thomas Girtin", 
+                        "date_end": "1954-12-31", 
+                        "museumobject_count": 1, 
+                        "venue": "", 
+                        "date_start": "1954-01-01", 
+                        "year_end": 1954, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "the-art-of-thomas-girtin", 
+                        "date_text": "1954"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 40510, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Eltham", 
+                        "museumobject_count": 5, 
+                        "source": "place", 
+                        "cis_id": "x45642", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "eltham"
+                    }
+                }
+            ], 
+            "date_text": "ca.1794-1797 (drawn)", 
+            "primary_image_id": "2010EJ4950", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 31.2 cm, Width: 27.4 cm", 
+            "title": "King John's Palce, Eltham", 
+            "date_start": "1789-01-01", 
+            "materials_techniques": "Graphite ('pencil') on cream wove paper", 
+            "last_processed": "2014-04-01 20:05:46", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Unique", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 182, box (I)", 
+            "marks": "'T. Girtin'", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 39, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing (image-making)", 
+                        "museumobject_count": 4474, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54196", 
+                        "museumobject_image_count": 2626, 
+                        "type": "", 
+                        "slug": "drawing-image-making"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 54386, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27199, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }, 
+                {
+                    "pk": 79, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wove paper", 
+                        "museumobject_count": 575, 
+                        "source": "cis_materials", 
+                        "cis_id": "14187", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "wove-paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 9, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British", 
+                        "museumobject_count": 673, 
+                        "source": "cis_style_period", 
+                        "cis_id": "111159", 
+                        "museumobject_image_count": 220, 
+                        "type": "", 
+                        "slug": "british"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 639920, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "(I)", 
+                        "case": "PD", 
+                        "inventory_number": 1231146, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.625-1953", 
+                        "museumobject": 505486, 
+                        "shelf": "182", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e6251953", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 6077, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1802-11-09", 
+                        "surname": "", 
+                        "name": "Girtin", 
+                        "gender": null, 
+                        "museumobject_count": 41, 
+                        "death_year": 1802, 
+                        "source": "object_production", 
+                        "cis_id": "A3172", 
+                        "museumobject_image_count": 31, 
+                        "forename": "", 
+                        "birth_date": "1775-02-18", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "girtin-thomas", 
+                        "birth_year": 1775
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 314589, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8555
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 505486, 
+                        "role": "subject", 
+                        "place": 8555, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e6251953", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 20:05:46", 
+            "public_access_description": "", 
+            "exhibition_history": "The Art of Thomas Girtin (01/01/1954-31/12/1954)", 
+            "bibliography": "Lambert, Susan. <u>Drawing: Technique & Purpose</u>. London: Victoria & Albert Museum, 1981. 17 p.\nThe full text of entry is as follows:\n\n<b>30.</b> Thomas Girtin (1775-1802); British\nKing John's Palace, Eltham \nSigned <i>T. Girtin</i> and inscribed with title; inscribed similarly on the back \nGraphite ('pencil') n cream wove paper.\n31.2 x 27.4 cm \nVAM E.625-1953\n\nThis drawing dates from the period of Girtin's involvement in the so-called 'Monro School', an association of young artists who met at the house of Dr. Thomas Monro in Adelphi Terrace in order to study landscape and architectural drawings in his collection. Something like a house style seems to have been worked out amongst the artists concerned, and it is impossible to be at all precise in attribution. One can however often recognise Girtin's hand, attested here by the signature, but almost always distinctive in its nervous and strikingly vivid use of the graphite medium. He was the most brilliant practitioner of a way of drawing that was capable of describing variations in surface texture of the intricate details of an architectural fa\u00e7ade with a fullness and rapid economy difficult in any other medium.\n\n\t\tQuite largely on Girtin's example the style became dominant as a sketch medium in the English School and often, in the work of Cotman or Varley for example, it provided the firm structural underpinning of finished watercolours. \n\n(T. Girtin and D. Loshak, <i>The Art of Thomas Girtin,</i> 1954, no. 137)\n<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1953 </u> London: HMSO, 1963\nThe full text of the entry is as follows: \n\n\"<b>GIRTIN, Thomas (1775-1802)</b> \n\nThe Banqueting Hall, Eltham Palace, Kent: exterior from south-west. \n<i>Signed</i> T. Girtin.  <i>Inscribed</i> King Johns Palace, Eltham. \n<i>Pencil.</i>                   E.625-1953 \n\nBequeathed by Sir Edward Marsh, K.C.V.O., C.B., C.M.G., through the National Art-Collections Fund\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "king-johns-palce-eltham-drawing-girtin-thomas", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 226585, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:55:32", 
+                        "priority": 0, 
+                        "image_id": "2010EJ4950", 
+                        "sys_id": 924950, 
+                        "last_checked": "2014-03-31 17:55:32", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EJ/2010EJ4950.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8555, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 585
+                    }, 
+                    "fields": {
+                        "name": "Eltham", 
+                        "parent": 585, 
+                        "country": "England", 
+                        "museumobject_count": 6, 
+                        "longitude": "-76.82548300", 
+                        "source": "production", 
+                        "cis_id": "x45642", 
+                        "museumobject_image_count": 3, 
+                        "latitude": "37.52463800", 
+                        "type": "district", 
+                        "slug": "eltham-england-x45642"
+                    }
+                }
+            ], 
+            "artist": "Girtin, Thomas", 
+            "namecontext_set": [
+                {
+                    "pk": 418650, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6077
+                    }, 
+                    "fields": {
+                        "name": 6077, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 505486, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1798, 
+            "object_number": "O590803", 
+            "events": [], 
+            "credit": "Bequeathed by Sir Edward Marsh through The Art Fund", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
