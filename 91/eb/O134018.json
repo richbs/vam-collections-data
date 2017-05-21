@@ -1,0 +1,326 @@
+[
+    {
+        "pk": 97155, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.56[O]", 
+            "date_end": "1840-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting entitled 'Beneficence' by Charles West Cope.  Great Britain, 1840.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1840, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 28291, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "elderly", 
+                        "museumobject_count": 102, 
+                        "source": "object", 
+                        "cis_id": "25913", 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "elderly"
+                    }
+                }, 
+                {
+                    "pk": 23949, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stairs", 
+                        "museumobject_count": 29, 
+                        "source": "object", 
+                        "cis_id": "3256", 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "stairs"
+                    }
+                }
+            ], 
+            "date_text": "1840 (painted)", 
+            "primary_image_id": "2006BC3102", 
+            "rights": 3, 
+            "physical_description": "Oil on panel entitled 'Beneficence' depicting a young women helping an elderly man to climb a flight of stairs.", 
+            "dimensions": "Height: 69.9 cm estimate, Width: 45.1 cm estimate, Height: 92 cm Frame, Width: 69 cm Frame", 
+            "title": "Beneficence", 
+            "date_start": "1840-01-01", 
+            "materials_techniques": "Oil on panel", 
+            "last_processed": "2014-04-01 01:17:01", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 315, case R, shelf 24, box L", 
+            "marks": "'C W Cope 1840'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }, 
+                {
+                    "pk": 65, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "panel", 
+                        "museumobject_count": 427, 
+                        "source": "cis_materials", 
+                        "cis_id": "14657", 
+                        "museumobject_image_count": 405, 
+                        "type": "", 
+                        "slug": "panel"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 15, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Victorian", 
+                        "museumobject_count": 8255, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29321", 
+                        "museumobject_image_count": 6056, 
+                        "type": "", 
+                        "slug": "victorian"
+                    }
+                }, 
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 161958, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 682
+                    }, 
+                    "fields": {
+                        "box": "L", 
+                        "case": "R", 
+                        "inventory_number": 93458, 
+                        "room": "315", 
+                        "part_name": "", 
+                        "museum_number": "FA.56[O]", 
+                        "museumobject": 97155, 
+                        "shelf": "24", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 315", 
+                        "museum_number_token": "fa56o", 
+                        "gallery": 682
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 682, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "315", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 315", 
+                        "site_code": "VA", 
+                        "museumobject_count": 231, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49535", 
+                        "museumobject_image_count": 127, 
+                        "type": "", 
+                        "slug": "315-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1947, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1890-12-31", 
+                        "surname": "", 
+                        "name": "Charles West Cope", 
+                        "gender": null, 
+                        "museumobject_count": 121, 
+                        "death_year": 1890, 
+                        "source": "object_production", 
+                        "cis_id": "A8279", 
+                        "museumobject_image_count": 13, 
+                        "forename": "", 
+                        "birth_date": "1811-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "cope-charles-west-ra", 
+                        "birth_year": 1811
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 94090, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 97155, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa56o", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:17:01", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Parkinson, R., Victoria and Albert Museum, <u>Catalogue of British Oil Paintings 1820-1860</u>, London: HMSO, 1990, pp. 47-48\nThe following is the full text of the entry:\n\"COPE, Charles West, RA (1811-1890)\n\nBorn Leeds, Yorkshire, 28 July 1811, son of Charles Cope, a landscape watercolourist and friend of the collector John Sheepshanks. Briefly at school in London, then Leeds Grammar School. Returned to London 1827 to study at Sass's art school and 1828 at RA Schools. Travelled to Paris 1832 and Italy 1833-5. Exhibited 134 works at the RA between 1833 and 1882, 14 at the BI 1836--43, and one at the SBA 1837. Nearly all his paintings were literary, biblical or historical subjects and domestic genre; the fact that he was Roman Catholic may explain his choice of many of the subjects. Founder member of the Etching Club in about 1840. Awarded one of the three first prizes in the 1843 competition for the new Palace of Westminster decorations with 'An Early Trial by Jury'; travelled again to Italy to study fresco painting before painting several frescos at Westminster. Elected ARA 1843, RA 1848; appointed Professor of Painting at the RA 1867, and examiner in painting for the South Kensington Schools of Art 1870. Visited America and Canada 1876. Died Bournemouth, Hampshire, 21 August 1890. \n\nLIT: <i>Art Journal</i> 1869, ppl77-9; CH Cope <i>Reminiscences of Charles West Cope</i> RA 1891 (referred to below as <i>Reminiscences</i>) \n\n<b>Beneficence</b> \nFA56 \nPanel, 69.9 x 45.1 cm (27\u00bd x 17\u00be ins) \nSigned and dated 'C W Cope 1840' br \nSheepshanks Gift 1857 \n\nPainted for John Sheepshanks, and exhibited at the RA in 1840 with no title given in the catalogue, but the quotation 'Help thy father in his age, and despise him not when thou art in thy full strength'. No source for the quotation is given, but a similar sentiment is expressed in the Apocrypha, <i>Book of Ecclesiasticus</i> Chapter 3 verse 12: 'My son, help thy father in his age, and grieve him not as long as he liveth'. \n\nIt is a pendant with 'Almsgiving' (see FA57, p48); according to the <i>Reminiscences</i> they were hung together under the line (that is, below eye-level) in the Great Room at the 1840 RA exhibition. The <i>Athenaeum</i> critic noted that the picture illustrated the virtue of obedience, but preferred and discussed more fully the pendant. \n\nThe 1977 Bristol exhibition catalogue notes that the ivy in the foreground is a symbol of longevity and also of dependence, 'typically of female dependence, but here used to comment on the reversal of roles that ageing compels between the generations'. The setting and the costumes suggest Italy in the Renaissance, 16th century in general style. \n\nEXH: RA 1840 (198); <i>Victorian Narrative Painting</i> Bristol Cathedral 1977 (l0) \n\nLIT: <i>Athenaeum</i> 16 May 1840, p401; <i>Reminiscences</i> p377\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "beneficence-oil-painting-cope-charles-west", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 73573, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-20 00:00:00", 
+                        "last_processed": "2014-03-31 17:24:05", 
+                        "priority": 0, 
+                        "image_id": "2006BC3102", 
+                        "sys_id": 233102, 
+                        "last_checked": "2014-03-31 17:24:05", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BC/2006BC3102.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Cope, Charles West", 
+            "namecontext_set": [
+                {
+                    "pk": 115776, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1947
+                    }, 
+                    "fields": {
+                        "name": 1947, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 97155, 
+                        "role": "painter (artist)", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1840, 
+            "object_number": "O134018", 
+            "events": [], 
+            "credit": "Given by John Sheepshanks, 1857", 
+            "history_note": "Given by John Sheepshanks, 1857", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
