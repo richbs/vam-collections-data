@@ -1,0 +1,289 @@
+[
+    {
+        "pk": 96945, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.223-1963", 
+            "date_end": "1959-12-31", 
+            "labels": [], 
+            "descriptive_line": "Flamingo armchair, designed by Ernest Race, 1959; manufactured by Race Furniture Ltd, 1959-62; metal frame, foam padding, blue wool upholstery, wood legs and plastic feet.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1959, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1959 (Designed)\n1959-62 (Manufactured)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Armchair, metal frame with foam rubber padding upholstered in dark blue wool fabric, wooden legs and circular plastic feet.", 
+            "dimensions": "Height: 91.5 cm, Width: 84 cm, Depth: 83.5 cm, Height: 370 mm of seat", 
+            "title": "Flamingo armchair", 
+            "date_start": "1959-01-01", 
+            "materials_techniques": "Metal frame, foam rubber padding, wool upholstery, wood, plastic", 
+            "last_processed": "2014-04-01 01:15:54", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 6, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "FWK", 
+                        "name": "Furniture and Woodwork Collection", 
+                        "museumobject_count": 10795, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2981, 
+                        "type": "", 
+                        "slug": "fwk"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1725, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wool (textile)", 
+                        "museumobject_count": 725, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 290, 
+                        "type": "", 
+                        "slug": "wool-textile"
+                    }
+                }, 
+                {
+                    "pk": 6, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "foam rubber", 
+                        "museumobject_count": 45, 
+                        "source": "cis_materials", 
+                        "cis_id": "14562", 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "foam-rubber"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 161658, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 532257, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.223-1963", 
+                        "museumobject": 96945, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "circ2231963", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 32022, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1964-12-31", 
+                        "surname": "", 
+                        "name": "Race, Ernest", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": 1964, 
+                        "source": "object_production", 
+                        "cis_id": "A18323", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": "1913-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "race-ernest", 
+                        "birth_year": 1913
+                    }
+                }, 
+                {
+                    "pk": 32023, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Race Furniture Ltd", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A19317", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "race-furniture-ltd", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 93906, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 96945, 
+                        "role": "Designed", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 93907, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 96945, 
+                        "role": "Manufactured", 
+                        "place": 7, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ2231963", 
+            "object": "Armchair", 
+            "categories": [
+                {
+                    "pk": 10, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Furniture", 
+                        "museumobject_count": 5031, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1914, 
+                        "type": "", 
+                        "slug": "furniture"
+                    }
+                }, 
+                {
+                    "pk": 1581, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Design Council Award Winner", 
+                        "museumobject_count": 239, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 43, 
+                        "type": "", 
+                        "slug": "design-council-award-winner"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:15:54", 
+            "public_access_description": "Unlike upholstered furniture from before the Second World War, this armchair is lightweight and slender. The volume of the chair has been pared down without reducing its comfort, and new foam-rubber padding has been used in place of bulky springs. The upholstery looks as if it has been draped over the metal frame.\n\nThe Flamingo armchair undeniably shows the influence of international design trends on mid-twentieth-century British furniture design. Specifically, it recalls the form of the Womb Chair, designed by Eero Saarinen in 1948 and made by the American manufacturer Knoll.  Ernest Race was a leading British designer of the post-War years, who introduced new materials and techniques to British furniture. The Flamingo armchair was selected as a 'design of the year' by the Council of Industrial Design in 1959.", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Ernest Race</u>, Hazel Conway, Design Council, 1982.", 
+            "vanda_exhibition_history": "", 
+            "slug": "flamingo-armchair-armchair-race-ernest", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Race, Ernest", 
+            "namecontext_set": [
+                {
+                    "pk": 115468, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32022
+                    }, 
+                    "fields": {
+                        "name": 32022, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 96945, 
+                        "role": "Designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 115469, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32023
+                    }, 
+                    "fields": {
+                        "name": 32023, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 96945, 
+                        "role": "Manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1959, 
+            "object_number": "O134287", 
+            "events": [], 
+            "credit": "Given by the manufacturer", 
+            "history_note": "Historical significance: The Flamingo armchair was selected as a 'design of the year' by the Council of Industrial Design in 1959.  See advertisement for Race Furniture Ltd in House and Garden, June 1959.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "FWK"
+        }
+    }
+]
