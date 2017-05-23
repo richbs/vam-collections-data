@@ -1,0 +1,310 @@
+[
+    {
+        "pk": 107958, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "W.9-2007", 
+            "date_end": "2002-12-31", 
+            "labels": [], 
+            "descriptive_line": "Louis Ghost armchair, designed by Philippe Starck, 2002, manufactured by Kartell, Italy, 2007, injection moulded clear polycarbonate", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 2002, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "2002 (designed)\n2007 (manufactured)", 
+            "primary_image_id": "", 
+            "rights": 1, 
+            "physical_description": "Armchair injection-moulded in one piece from clear polycarbonate, with four legs, scooped arms and a sheild back, reminiscent in shape overall of an eighteenth century armchair", 
+            "dimensions": "Height: 940 mm, Width: 540 mm, Depth: 550 mm", 
+            "title": "Louis Ghost armchair", 
+            "date_start": "2002-01-01", 
+            "materials_techniques": "Injection-moulded clear polycarbonate", 
+            "last_processed": "2014-04-01 02:04:28", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Mass produced", 
+            "collections": [
+                {
+                    "pk": 6, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "FWK", 
+                        "name": "Furniture and Woodwork Collection", 
+                        "museumobject_count": 10795, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2981, 
+                        "type": "", 
+                        "slug": "fwk"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "", 
+            "latitude": "46.71244800", 
+            "techniques": [
+                {
+                    "pk": 584, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "injection moulded", 
+                        "museumobject_count": 12, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x35877", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "injection-moulded"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1153, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "polycarbonate", 
+                        "museumobject_count": 10, 
+                        "source": "cis_materials", 
+                        "cis_id": "14473", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "polycarbonate"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 175122, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 1332871, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "W.9-2007", 
+                        "museumobject": 107958, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "w92007", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 16315, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Philippe Starck", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A14926", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1949-01-18", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "starck-philippe", 
+                        "birth_year": 1949
+                    }
+                }, 
+                {
+                    "pk": 12369, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Kartell", 
+                        "gender": null, 
+                        "museumobject_count": 8, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A6742", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "kartell", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 105686, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 107958, 
+                        "role": "designed", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 105687, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 45
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 107958, 
+                        "role": "manufactured", 
+                        "place": 45, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "w92007", 
+            "object": "Armchair", 
+            "categories": [
+                {
+                    "pk": 10, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Furniture", 
+                        "museumobject_count": 5031, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1914, 
+                        "type": "", 
+                        "slug": "furniture"
+                    }
+                }, 
+                {
+                    "pk": 42, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Interiors", 
+                        "museumobject_count": 11483, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3045, 
+                        "type": "", 
+                        "slug": "interiors"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:04:28", 
+            "public_access_description": "Philippe Starck has designed numerous plastic chairs, always seeking to lower their cost without compromising their quality.  One means is to mould the chair entirely as a single piece, as here, reducing assembly and handling costs to a minimum. The Louis Ghost armchair, and related chairs designed for Kartell in Milan, is made from injection-moulded polycarbonate, a very strong, glassy plastic. Starck's rendering of a late eighteenth-century form of armchair evokes historic good taste, but is sharply contrasted by the icy perfection of the transparent plastic, which is more suggestive of modernity and the future than of the past. The Louis Ghost chair, therefore, combines all the glamour of the Salon with the efficiency of an industrially made product. In the first three years of its production over 100,000 chairs had been sold.", 
+            "exhibition_history": "", 
+            "bibliography": "Williams, Gareth, 'The Furniture Machine, furniture since 1990', 2006, pp90-92", 
+            "vanda_exhibition_history": "", 
+            "slug": "louis-ghost-armchair-armchair-starck-philippe", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }, 
+                {
+                    "pk": 45, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1062
+                    }, 
+                    "fields": {
+                        "name": "Milan", 
+                        "parent": 1062, 
+                        "country": "Italy", 
+                        "museumobject_count": 406, 
+                        "longitude": "9.16772600", 
+                        "source": "production", 
+                        "cis_id": "x29007", 
+                        "museumobject_image_count": 246, 
+                        "latitude": "45.43330300", 
+                        "type": "city / town", 
+                        "slug": "milan-italy-x29007"
+                    }
+                }
+            ], 
+            "artist": "Starck, Philippe", 
+            "namecontext_set": [
+                {
+                    "pk": 128940, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 16315
+                    }, 
+                    "fields": {
+                        "name": 16315, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 107958, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 128941, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12369
+                    }, 
+                    "fields": {
+                        "name": 12369, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 107958, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2002, 
+            "object_number": "O137850", 
+            "events": [], 
+            "credit": "Given by the manufacturer", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "FWK"
+        }
+    }
+]

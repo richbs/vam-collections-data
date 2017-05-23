@@ -1,0 +1,268 @@
+[
+    {
+        "pk": 146761, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "PH.4-1983", 
+            "date_end": "1900-12-31", 
+            "labels": [], 
+            "descriptive_line": "19thC; Frith F, Jerusalem from the Mount of Olives", 
+            "shape": "", 
+            "longitude": "35.22499800", 
+            "year_start": 1800, 
+            "exhibitions": [
+                {
+                    "pk": 132, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 97, 
+                        "year_start": 2009, 
+                        "name": "The Pre-Raphaelites: Dream and Reality in 19th Century Britain", 
+                        "date_end": "2009-05-24", 
+                        "museumobject_count": 24, 
+                        "venue": "Nationalmuseum, Stockholm", 
+                        "date_start": "2009-02-26", 
+                        "year_end": 2009, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 24, 
+                        "type": "", 
+                        "slug": "the-pre-raphaelites-dream-and-reality-in-19th-century-britain", 
+                        "date_text": "26/02/09-24/05/09"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 15479, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Jerusalem", 
+                        "museumobject_count": 9, 
+                        "source": "place", 
+                        "cis_id": "x41645", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "jerusalem-district"
+                    }
+                }
+            ], 
+            "date_text": "19th Century (photographed)", 
+            "primary_image_id": "2009BX1394", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 37.7 cm from catalogue, Width: 57.4 cm from catalogue", 
+            "title": "Jerusalem from the Mount of Olives", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "albumen print", 
+            "last_processed": "2014-04-01 04:31:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 48, box B", 
+            "marks": "", 
+            "latitude": "31.77360000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 222486, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "X", 
+                        "inventory_number": 100354, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "PH.4-1983", 
+                        "museumobject": 146761, 
+                        "shelf": "48", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "ph41983", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 16201, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Francis Frith & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 82, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A14810", 
+                        "museumobject_image_count": 71, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "francis-frith-co", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 142748, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 4503
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 146761, 
+                        "role": "photographed", 
+                        "place": 4503, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 142749, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 4503
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 146761, 
+                        "role": "subject", 
+                        "place": 4503, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "ph41983", 
+            "object": "Photographs", 
+            "categories": [], 
+            "last_checked": "2014-04-01 04:31:13", 
+            "public_access_description": "", 
+            "exhibition_history": "The Pre-Raphaelites: Dream and Reality in 19th Century Britain (Nationalmuseum, Stockholm 26/02/2009-24/05/2009)", 
+            "bibliography": "Mikael Ahlund, ed, including an essay by Martin Barnes, <u>The Pre-Raphaelites</u> Stockholm: Nationalmuseum, 2009. ISBN: 978-91-7100-809-1.\nExhibition catalogue", 
+            "vanda_exhibition_history": "", 
+            "slug": "jerusalem-from-the-mount-of-photographs-francis-frith-co", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 132690, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:36:27", 
+                        "priority": 0, 
+                        "image_id": "2009BX1394", 
+                        "sys_id": 401394, 
+                        "last_checked": "2014-03-31 17:36:27", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009BX/2009BX1394.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 4503, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 696
+                    }, 
+                    "fields": {
+                        "name": "Jerusalem (district)", 
+                        "parent": 696, 
+                        "country": "Israel", 
+                        "museumobject_count": 10, 
+                        "longitude": "35.22499800", 
+                        "source": "production", 
+                        "cis_id": "x41645", 
+                        "museumobject_image_count": 3, 
+                        "latitude": "31.77360000", 
+                        "type": "district", 
+                        "slug": "jerusalem-district-israel-x41645"
+                    }
+                }
+            ], 
+            "artist": "Francis Frith & Co.", 
+            "namecontext_set": [
+                {
+                    "pk": 182760, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 16201
+                    }, 
+                    "fields": {
+                        "name": 16201, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 146761, 
+                        "role": "photographer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1900, 
+            "object_number": "O182130", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "From album 'Egypt, Sinai and Jerusalem: 20 photographic views', 1858. Ph.2 to 21-1983.", 
+            "place": "Jerusalem (district)", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

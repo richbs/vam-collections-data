@@ -1,0 +1,329 @@
+[
+    {
+        "pk": 605428, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.870-1965", 
+            "date_end": "1694-12-31", 
+            "labels": [], 
+            "descriptive_line": "Engraving by William Elder after a portrait by Hargreaves.  Portrait of Charles Snell (1667-1733), writing master.  Head and shoulders, facing half right, within an oval border with letters, on a plinth.  Frontispiece to his <i>Penman\u2019s Treasury open\u2019d</i>, London, 1694.  Lettered with name of sitter, artist, engraver and six lines of verse.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1694, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24007, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "portraits", 
+                        "museumobject_count": 1326, 
+                        "source": "object", 
+                        "cis_id": "15637", 
+                        "museumobject_image_count": 714, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 51284, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Charles Snell", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "AUTH315752", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "charles-snell"
+                    }
+                }
+            ], 
+            "date_text": "1694 (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Portrait engraving of Charles Snell (1667-1733), writing master.  Head and shoulders, facing half right, within an oval border with letters, on a plinth.  Frontispiece to his <i>Penman\u2019s Treasury open\u2019d</i>, London, 1694.  Lettered with name of sitter etc. and 'Aetat: suae 23.  Anagr: Carolus Snellius. Ars Illucens Luso., 6 lines of verse Artis inerti\u2026Ars tibi Luso. K:C: I: Hargraves pinx:  W:Elder sculp:'.", 
+            "dimensions": "Height: 26.3 cm, Width: 19.7 cm", 
+            "title": "Charles Snell (1667-1733), writing master", 
+            "date_start": "1694-01-01", 
+            "materials_techniques": "Engraving print on paper", 
+            "last_processed": "2014-04-26 15:05:50", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PP, shelf 66", 
+            "marks": "'Aetat: suae 23.  Anagr: Carolus Snellius. Ars Illucens Luso., 6 lines of verse Artis inerti\u2026Ars tibi Luso. K:C: I: Hargraves pinx:  W:Elder sculp:'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 24215, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7670, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 27153, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12401, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 740083, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PP", 
+                        "inventory_number": 1106679, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.870-1965", 
+                        "museumobject": 605428, 
+                        "shelf": "66", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e8701965", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 73311, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1704-12-31", 
+                        "surname": "", 
+                        "name": "William Elder", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1704, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH315750", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1675-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "william-elder", 
+                        "birth_year": 1675
+                    }
+                }, 
+                {
+                    "pk": 73312, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Hargraves", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH315751", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hargraves", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 73313, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1733-12-31", 
+                        "surname": "", 
+                        "name": "Charles Snell", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1733, 
+                        "source": "content", 
+                        "cis_id": "AUTH315752", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1667-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "charles-snell", 
+                        "birth_year": 1667
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 354442, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 605428, 
+                        "role": "engraved", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e8701965", 
+            "object": "Print", 
+            "categories": [], 
+            "last_checked": "2014-04-26 15:05:50", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "The full text of the entry is as follows: '<b>ELDER, William (worked c.1680-c.1700) </b> Charles Snell (1667-1733), writing master. Portrait, head and shoulders, facing half right, within an oval border with letters, on a plinth. (BM:P.1; Heal pp.102, 161, 209 and Pl.16) Frontispiece to his <i>Penman\u2019s Treasury open\u2019d</i>, London, 1694. <i>Lettered with name of sitter etc. and</i> Aetat: suae 23. Anagr: Carolus Snellius. Ars Illucens Luso., <i>6 lines of verse</i> Artis inerti\u2026Ars tibi Luso. K:C: I: Har- graves pinx: W:Elder sculp: <i>Engravin</i><i>g. Cut to</i> 10 3/8 x 7 \u00be (26.3 x 19.7 cm.) E.870-1965 Bequeathed by Sir Ambrose Heal'", 
+            "vanda_exhibition_history": "", 
+            "slug": "charles-snell-1667-1733-writing-print-william-elder", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "William Elder", 
+            "namecontext_set": [
+                {
+                    "pk": 464659, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 73311
+                    }, 
+                    "fields": {
+                        "name": 73311, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 605428, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 464660, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 73312
+                    }, 
+                    "fields": {
+                        "name": 73312, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 605428, 
+                        "role": "painter", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 464661, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 73313
+                    }, 
+                    "fields": {
+                        "name": 73313, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 605428, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1694, 
+            "object_number": "O696564", 
+            "events": [], 
+            "credit": "Bequeathed by Sir Ambrose Heal", 
+            "history_note": "BM:P.1; Heal pp.102, 161, 209 and Pl.16.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
