@@ -1,0 +1,275 @@
+[
+    {
+        "pk": 11121, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "B.177:1-1998", 
+            "date_end": "1998-05-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1998, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "January 1998 - May 1998", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "[Cupboard] Made of very pale maple wood and glued together, the edges of the side and top are rounded.  At the bottom is a kickboard painted light blue.  The door is hinged on the right and has a red knob handle.  Inside there is a shelf at the top and one at the bottom.\n[Box] Box lid of white card, folded and stapled at the corners.\nOn one end is the label which has partly been covered with a plain white sticky label.\n[Box] Box base of white card, folded and stapled at the corners.", 
+            "dimensions": "[Cupboard] height: 17.5 cm, width: 6.5 cm, depth: 5.5 cm\n[Box] length: 20.5 cm, width: 10 cm, depth: 9 cm", 
+            "title": "", 
+            "date_start": "1998-01-01", 
+            "materials_techniques": "[Cupboard] maple wood\n[Box] white card", 
+            "last_processed": "2014-03-31 19:28:14", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "mass produced", 
+            "collections": [
+                {
+                    "pk": 5, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MoC", 
+                        "name": "Museum of Childhood", 
+                        "museumobject_count": 29148, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3179, 
+                        "type": "", 
+                        "slug": "moc"
+                    }
+                }
+            ], 
+            "location": "Museum of Childhood, Creativity Gallery, case 3", 
+            "marks": "[Box] Broom Cupboard 1228\n[Box] heart within a house", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 8, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cardboard", 
+                        "museumobject_count": 1302, 
+                        "source": "cis_materials", 
+                        "cis_id": "14224", 
+                        "museumobject_image_count": 438, 
+                        "type": "", 
+                        "slug": "cardboard"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "maple", 
+                        "museumobject_count": 146, 
+                        "source": "cis_materials", 
+                        "cis_id": "12236", 
+                        "museumobject_image_count": 38, 
+                        "type": "", 
+                        "slug": "maple"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 14201, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1064
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "3", 
+                        "inventory_number": 22029, 
+                        "room": "C", 
+                        "part_name": "Cupboard", 
+                        "museum_number": "B.177:1-1998", 
+                        "museumobject": 11121, 
+                        "shelf": "", 
+                        "site": "BGM", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Museum of Childhood, Creativity Gallery", 
+                        "museum_number_token": "b17711998", 
+                        "gallery": 1064
+                    }
+                }, 
+                {
+                    "pk": 14202, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 22028, 
+                        "room": "", 
+                        "part_name": "Box [1]", 
+                        "museum_number": "B.177:2-1998", 
+                        "museumobject": 11121, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b17721998", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 14203, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 22027, 
+                        "room": "", 
+                        "part_name": "Box [2]", 
+                        "museum_number": "B.177:3-1998", 
+                        "museumobject": 11121, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b17731998", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1064, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "C", 
+                        "site_name": "", 
+                        "name": "Museum of Childhood, Creativity Gallery", 
+                        "site_code": "MOC", 
+                        "museumobject_count": 1006, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49153", 
+                        "museumobject_image_count": 256, 
+                        "type": "", 
+                        "slug": "c-moc"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 6, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bodo Hennig", 
+                        "gender": null, 
+                        "museumobject_count": 100, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1360", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "bodo-hennig", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 12086, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11121, 
+                        "role": "", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "b1771998", 
+            "object": "Broom cupboard", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:28:14", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Bodo Hennig catalogue, 1998", 
+            "vanda_exhibition_history": "", 
+            "slug": "broom-cupboard-bodo", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }
+            ], 
+            "artist": "bodo", 
+            "namecontext_set": [
+                {
+                    "pk": 11174, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6
+                    }, 
+                    "fields": {
+                        "name": 6, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 11121, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1998, 
+            "object_number": "O8310", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "This is part of the furniture for the dolls' house, B.145 to 151-1998.", 
+            "place": "Germany", 
+            "production_note": "Reason For Production: retail", 
+            "historical_context_note": "", 
+            "collection_code": "MoC"
+        }
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "pk": 111647, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "SD.217", 
+            "date_end": "1963-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour, `Road from Shiraz', about 1959, by Sir Hugh (Maxwell) Casson", 
+            "shape": "", 
+            "longitude": "52.53134200", 
+            "year_start": 1954, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 11970, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Shiraz", 
+                        "museumobject_count": 8, 
+                        "source": "place", 
+                        "cis_id": "x29140", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "shiraz"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1959 (painted)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 14 cm, Width: 23.5 cm", 
+            "title": "Road from Shiraz", 
+            "date_start": "1954-01-01", 
+            "materials_techniques": "Pen and ink and watercolour", 
+            "last_processed": "2014-04-01 02:20:32", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case 85, shelf SC, box 9", 
+            "marks": "Inscribed with title and signed with initials H.C.", 
+            "latitude": "29.60198000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Orientalism", 
+                        "museumobject_count": 2315, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31272", 
+                        "museumobject_image_count": 1552, 
+                        "type": "", 
+                        "slug": "orientalism"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 180071, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "9", 
+                        "case": "85", 
+                        "inventory_number": 110308, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "SD.217", 
+                        "museumobject": 111647, 
+                        "shelf": "SC", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "sd217", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 34351, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1999-12-31", 
+                        "surname": "", 
+                        "name": "Hugh Maxwell Casson", 
+                        "gender": null, 
+                        "museumobject_count": 14, 
+                        "death_year": 1999, 
+                        "source": "object_production", 
+                        "cis_id": "A18573", 
+                        "museumobject_image_count": 12, 
+                        "forename": "", 
+                        "birth_date": "1910-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "casson-hugh-maxwell-sir-ch-kcvo-ppra-rdi-riba-fsiad", 
+                        "birth_year": 1910
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 109396, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 286
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 111647, 
+                        "role": "painted", 
+                        "place": 286, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 109397, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 286
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 111647, 
+                        "role": "subject", 
+                        "place": 286, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "sd217", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:20:32", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "road-from-shiraz-watercolour-casson-hugh-maxwell", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 286, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Shiraz", 
+                        "parent": null, 
+                        "country": "Iran", 
+                        "museumobject_count": 28, 
+                        "longitude": "52.53134200", 
+                        "source": "production", 
+                        "cis_id": "x29140", 
+                        "museumobject_image_count": 7, 
+                        "latitude": "29.60198000", 
+                        "type": "city/town", 
+                        "slug": "shiraz-iran-x29140"
+                    }
+                }
+            ], 
+            "artist": "Casson, Hugh Maxwell (Sir  CH KCVO PPRA RDI RIBA FSIAD)", 
+            "namecontext_set": [
+                {
+                    "pk": 134292, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 34351
+                    }, 
+                    "fields": {
+                        "name": 34351, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 111647, 
+                        "role": "painter (artist)", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1963, 
+            "object_number": "O142330", 
+            "events": [], 
+            "credit": "Purchased with the assistance of The Art Fund, the National Heritage Memorial Fund, Shell International and the Friends of the V&A", 
+            "history_note": "According to Rodney Searight: `Bt at Phillips 16.5.83 (104).'  [See letter from the artist in Searight Archive.]", 
+            "place": "Shiraz", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

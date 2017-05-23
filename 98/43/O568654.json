@@ -1,0 +1,308 @@
+[
+    {
+        "pk": 483391, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.478-1959", 
+            "date_end": "1850-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, half-length portrait of John Tomes of Warwick seated before a curtain.  Mezzotint by Henry Hoppner Meyer after Thomas Kirkby; proof, early 19th century.", 
+            "shape": "", 
+            "longitude": "-1.53532000", 
+            "year_start": 1800, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "early 19th century (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Portrait, half-length, full face seated before a curtain.", 
+            "dimensions": "Height: 35.6 cm, Width: 25.4 cm", 
+            "title": "John Tomes of Warwick", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "Mezzotint", 
+            "last_processed": "2014-04-01 18:45:21", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PP, shelf 60, box A", 
+            "marks": "'John Tomes Esqr. Warwick.  Painted by Thos. Kirkby.  Engraved by Henry Meyer, 3 Red Lion Square.  Published by Thos. Kirkby, Portrait Painter, Leamington Spa. Proof.'", 
+            "latitude": "52.28913900", 
+            "techniques": [
+                {
+                    "pk": 248, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "mezzotint", 
+                        "museumobject_count": 2106, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53233", 
+                        "museumobject_image_count": 813, 
+                        "type": "", 
+                        "slug": "mezzotint"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 617825, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "PP", 
+                        "inventory_number": 1256228, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.478-1959", 
+                        "museumobject": 483391, 
+                        "shelf": "60", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e4781959", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 39475, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1847-12-31", 
+                        "surname": "", 
+                        "name": "Henry Hoppner Meyer", 
+                        "gender": null, 
+                        "museumobject_count": 76, 
+                        "death_year": 1847, 
+                        "source": "object_production", 
+                        "cis_id": "A25540", 
+                        "museumobject_image_count": 39, 
+                        "forename": "", 
+                        "birth_date": "1782-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "meyer-henry", 
+                        "birth_year": 1782
+                    }
+                }, 
+                {
+                    "pk": 46739, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1851-12-31", 
+                        "surname": "", 
+                        "name": "Thomas Kirkby", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": 1851, 
+                        "source": "object_production", 
+                        "cis_id": "A29632", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1775-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "kirkby-t", 
+                        "birth_year": 1775
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 299768, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 944
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483391, 
+                        "role": "published", 
+                        "place": 944, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e4781959", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:45:21", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1959 </u>. London: HMSO, 1964.\nThe full text of the entry is as follows:  \n \n\"<b>MEYER, Henry Hoppner (1783-1847)</b> [\u2026]\n \nJohn Tomes of Warwick.  Portrait, half-length, full face seated before a curtain.  [Not in BM:P.] \n<i>Lettered</i> John Tomes Esqr. Warwick.  Painted by Thos. Kirkby.  Engraved by Henry Meyer, 3 Red Lion Square.  Published by Thos. Kirkby, Portrait Painter, Leamington Spa. Proof.\n<i>Mezzotint.</i>  35.6 x 25.4 cm.          E.478-1959 \n \nGiven by Mrs E. B. Westwood\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "john-tomes-of-warwick-print-meyer-henry-hoppner", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 944, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 618
+                    }, 
+                    "fields": {
+                        "name": "Royal Leamington Spa", 
+                        "parent": 618, 
+                        "country": "England", 
+                        "museumobject_count": 3862, 
+                        "longitude": "-1.53532000", 
+                        "source": "production", 
+                        "cis_id": "x36742", 
+                        "museumobject_image_count": 5, 
+                        "latitude": "52.28913900", 
+                        "type": "city / town", 
+                        "slug": "royal-leamington-spa-england-x36742"
+                    }
+                }
+            ], 
+            "artist": "Meyer, Henry Hoppner", 
+            "namecontext_set": [
+                {
+                    "pk": 399121, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 39475
+                    }, 
+                    "fields": {
+                        "name": 39475, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483391, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 399122, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 46739
+                    }, 
+                    "fields": {
+                        "name": 46739, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483391, 
+                        "role": "publisher", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 399123, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 46739
+                    }, 
+                    "fields": {
+                        "name": 46739, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 483391, 
+                        "role": "artist", 
+                        "order": 3
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1850, 
+            "object_number": "O568654", 
+            "events": [], 
+            "credit": "Given by Mrs E. B. Westwood", 
+            "history_note": "", 
+            "place": "Leamington Spa", 
+            "production_note": "Attribution note: Proof.", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
