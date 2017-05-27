@@ -1,0 +1,385 @@
+[
+    {
+        "pk": 14450, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.114[O]", 
+            "date_end": "1841-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting by Charles Robert Leslie entitled 'Florizel and Perdita' from Shakespeare's 'A Winter's Tale' (Act IV, Scene 4).  Great Britain, ca. 1836.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1832, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25292, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Perdita", 
+                        "museumobject_count": 2, 
+                        "source": "name", 
+                        "cis_id": "N2589", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "perdita"
+                    }
+                }, 
+                {
+                    "pk": 25291, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Florizel", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N2588", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "florizel"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1837 (painted)", 
+            "primary_image_id": "2006AG4473", 
+            "rights": 3, 
+            "physical_description": "Oil painting depicting Florizel and Perdita from Shakespeare's 'A Winter's Tale' (Act IV, Scene 4).", 
+            "dimensions": "Height: 53.3 cm estimate, Width: 73.6 cm estimate", 
+            "title": "Florizel and Perdita", 
+            "date_start": "1832-01-01", 
+            "materials_techniques": "oil on canvas", 
+            "last_processed": "2014-03-31 19:42:40", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 82, case EAST WALL", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 21726, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 507
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EAST WALL", 
+                        "inventory_number": 93178, 
+                        "room": "82", 
+                        "part_name": "", 
+                        "museum_number": "FA.114[O]", 
+                        "museumobject": 14450, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 82", 
+                        "museum_number_token": "fa114o", 
+                        "gallery": 507
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 507, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "82", 
+                        "site_name": "", 
+                        "name": "Paintings, room 82", 
+                        "site_code": "VA", 
+                        "museumobject_count": 78, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49712", 
+                        "museumobject_image_count": 75, 
+                        "type": "", 
+                        "slug": "82-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 522, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1859-12-31", 
+                        "surname": "", 
+                        "name": "Charles Robert Leslie", 
+                        "gender": null, 
+                        "museumobject_count": 31, 
+                        "death_year": 1859, 
+                        "source": "object_production", 
+                        "cis_id": "A8612", 
+                        "museumobject_image_count": 24, 
+                        "forename": "", 
+                        "birth_date": "1794-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "leslie-charles-robert-ra", 
+                        "birth_year": 1794
+                    }
+                }, 
+                {
+                    "pk": 3239, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Florizel", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N2588", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "florizel", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 3240, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Perdita", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N2589", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "perdita", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15458, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 14450, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa114o", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:42:40", 
+            "public_access_description": "The characters are from Shakespeare's play A Winter's Tale. They are the beautiful shepherdess Perdita (really the daughter of King Leontes) with Florizel (really the son of King Polixines) and Dorcas, another shepherdess. On the right, and also in disguise, are King Polixines and Camillo, a Sicilian nobleman.\nLeslie was brought up in the United States, but worked in London. He was a friend and biographer of the landscape painter John Constable.", 
+            "exhibition_history": "", 
+            "bibliography": "<i>Catalogue of British Oil Paintings 1820-1860</i>, Ronald Parkinson, Victoria and Albert Museum, London: HMSO, 1990, pp. 162-64\nThe following is the full text of the entry:\n\nLESLIE, Charles Robert, RA (1794-1859) \nBorn London 19 October 1794, eldest son of American parents, with whom he went to Philadelphia 1799. Apprenticed to a publisher 1808, received a few lessons in painting from Thomas Sully. A subscription was raised to enable him to study art in Europe; returned to London 1811, entered RA Schools and studied with Benjamin West and Washington Allston. Visited Paris 1817 with Allston and Wilkie Collins, met G S Newton, with whom he visited Brussels and Antwerp. Also friend and biographer (published 1843) of John Constable. Exhibited 76 works at the RA between 1813 and 1859, and 11 at the BI 1815-32. Some were portraits, but most were his much admired literary subjects, particularly drawn from Cervantes, Moliere, Shakespeare and Sterne. Elected ARA 1821, RA 1826. Several of his works were engraved, and he made six illustrations for Sir Walter Scott's Waverley novels 1824. Worked for six months as drawing master at West Point Military Academy, New York State, 1833. Professor of Painting at RA 1848-52; his lectures were published as a Handbook for Young Painters (1855). His Life of Reynolds was finished by Tom Taylor and published 1865. Died St John's Wood, London, 5 May 1859. An exhibition at the RA of 30 of his works was held winter 1870. His two sons, George Dunlop and Robert, were also artists. The Athenaeum critic (9 May 1846, p480) wrote that he was 'unrivalled for the certainty of his powers, the wit of his pencil, the deep knowledge of human nature as exhibited in the more ordinary scenes of life'. \nLIT: \tArt Journal 1856, pp73-5 and 105-7,1859, p187 (obit); C R Leslie Autobiographical Recollections ed T Taylor, 2 vols,'1860; J Dafforne Pictures by C R Leslie nd (1875]; Art Journal 1902 pp144-8; J Constable The Letters of John Constable and C R  Leslie 1931; ed R B Beckett John Constable's Correspondence III, Ipswich 1965 \n\n\nFlorize1 and Perdita FA1l4 Neg 74190 \n\nCanvas, 53.3 X 73.6 cm (21 X 29 ins) Sheepshanks Gift 1857 \n\nExhibited at the RA in 1837, and according to Taylor (Leslie II, p232), painted for John Sheepshanks. The title given in the RA catalogue was 'Perdita', with the following quotation appended: \n- Here's flowers for you; \nHot lavender, mints, savory, marjoram; \n\nThe marigold, that goes to bed with the sun,\n And with him rises weeping; these are flowers \nOf middle summer; and, I think, are given \nTo men of middle age. You are very welcome. \nThe subject and the quotation are taken from Shakespeare's play The Winter's Tale, act 4 scene 3. In this famous scene, the shepherdess Perdita (really the daughter of Leontes, King of Sicilia) makes her first appearance as an adult; she is accompanied by Florizel (really the son of Polixines, King of Bohemia) and Dorcas, a shepherdness; on the right are the visitors (in disguise) King Polixines and Camillo, a Sicilian nobleman. Leslie does not include the shepherd, the clown, or Mopsa. \nThe Athenaeum critic thought: \nThere is a grace and an artlessness, and an inborn nobility, lavished by Shakespeare upon Perdita and Florizel - an overlow of the loveliest, freshest poetry ever poured forth, in the love scenes, where the foundling dispenses her flowers at the shearing feast, and the prince looks yet more passion than he can speak - which must distance any painter. Mr Leslie has been happier in the youth than the maiden, and happier in the two disguised strangers, who are ready to drop the flowers she has given to them, in their surprise at discovering such rare beauty and grace clad in the weeds of a shepherdess. \nThe Art Journal twenty years later, while finding it 'one of the most graceful conceptions Leslie ever traced on canvas', believed that: \nObjection may probably be taken to the two more prominent figures in the composition, Perdita and Florizel, on the ground that the character assumed by each is scarcely sustained by their unequivocal high-born physiognomies and general appearance, and especially by the costume of the lady, which, though not of costly materials, certainly indicates a style altogether unusual among shepherdesses'. \nIn the 1857 review of the Sheepshanks collection in the same journal, the critic also found 'the costumes are rather scenic rather than true; in these it is felt that the painter had yielded rather to stage impressions than endeavoured to originate'. \nTaylor was very enthusiastic about the picture: 'The painter has not fallen behind the exquisite sentiment of Shakespeare's scene ... Perdita herself is one of the sweetest and most graceful creatures ever embodied on canvas; and the painter has never, as far as I know, exceeded this most graceful conception for ,loveliness and unaffected charm'. However, he adds: 'Exception may be taken to the colour and texture of the scarf over her shoulders, which looks more like oiled silk than any other material. Nor can I admire the disguised Polixenes and Camillo; nor does the Florizel seem to me worthy of such a Perdita'. \nAccording to Taylor in 1860, a study for the work belonged to A J Heugh, and according to the artist J C Horsley's Recollections ... (1903, p54), the figure of the Duke (presumably Camillo) was painted from John Constable; while he and Leslie were friends, the year of the picture, 1837, was the year of Constable's death, and the matter is not mentioned in Leslie's Memoirs of the Life of John Constable, or in any of their published correspondence. As Ashton points out, the figure of Dorcas had appeared in the companion picture of 1836, 'Autolycus' (see FA115 p164), 'the only character to appear in both paintings. Leslie has used the same model with the same costume and flowers in her hair, and in both pictures she drapes her hands in a rather self-conscious way'. The artist adapted the figure of Perdita for plate 21 of Charles Heath's 'The Shakespeare Gallery ... ' (1836-7). \nAshron also notes as a possible source for Leslie's work W H Worthington's version of the subject exhibited at the RA in 1831; he lists other later Winter's Tale subjects exhibited at the RA perhaps inspired by the success of the present painting. \nEXH: \tRA 1837 (47); Victorian Painting Nottingham University Art Gallery 1959 (41); Shakespeare in Pictures Ulster Museum, Belfast, 1964 (26); Shakespeare's Heroines Buxton Museum and Art Gallery 1980 (17) \n\nR Parkinson\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "florizel-and-perdita-oil-painting-leslie-charles-robert", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 46514, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-11 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:12", 
+                        "priority": 0, 
+                        "image_id": "2006AG4473", 
+                        "sys_id": 64473, 
+                        "last_checked": "2014-03-31 17:18:12", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG4473.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Leslie, Charles Robert (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 14675, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 522
+                    }, 
+                    "fields": {
+                        "name": 522, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14450, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 14676, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3239
+                    }, 
+                    "fields": {
+                        "name": 3239, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14450, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 14677, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3240
+                    }, 
+                    "fields": {
+                        "name": 3240, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14450, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1841, 
+            "object_number": "O80880", 
+            "events": [], 
+            "credit": "Given by John Sheepshanks, 1857", 
+            "history_note": "Given by John Sheepshanks, 1857", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

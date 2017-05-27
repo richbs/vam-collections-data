@@ -1,0 +1,333 @@
+[
+    {
+        "pk": 482299, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.8-1960", 
+            "date_end": "1699-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Caspar Schmidt, engraving by Karl Gustave Amling, late 17th century.", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1650, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48119, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "coat of arms", 
+                        "museumobject_count": 505, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 252, 
+                        "type": "", 
+                        "slug": "coat-of-arms"
+                    }
+                }, 
+                {
+                    "pk": 24240, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "chancellor", 
+                        "museumobject_count": 18, 
+                        "source": "object", 
+                        "cis_id": "236406", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "chancellor"
+                    }
+                }, 
+                {
+                    "pk": 54464, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Caspar Schmidt", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "AUTH319196", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "caspar-schmidt"
+                    }
+                }
+            ], 
+            "date_text": "late 17th century (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, portrait of a man, head and shoulders, looking half right, within an oval border of roses, on a plinth with a coat of arms.", 
+            "dimensions": "Height: 22.2 cm, Width: 17.1 cm", 
+            "title": "Caspar Schmidt", 
+            "date_start": "1650-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 18:40:50", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PS, shelf 3", 
+            "marks": "'Gaspart Schmidt Gr: Chan. de Bavi\u00e8re.'", 
+            "latitude": "51.09083900", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 49, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "German School", 
+                        "museumobject_count": 253, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x37758", 
+                        "museumobject_image_count": 191, 
+                        "type": "", 
+                        "slug": "german-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 616732, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PS", 
+                        "inventory_number": 1257514, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.8-1960", 
+                        "museumobject": 482299, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e81960", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 75225, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1702-12-31", 
+                        "surname": "", 
+                        "name": "Karl Gustave Amling", 
+                        "gender": null, 
+                        "museumobject_count": 5, 
+                        "death_year": 1702, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH318176", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1651-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "karl-gustave-amling", 
+                        "birth_year": 1651
+                    }
+                }, 
+                {
+                    "pk": 76162, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1693-12-31", 
+                        "surname": "", 
+                        "name": "Caspar Schmidt", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1693, 
+                        "source": "content", 
+                        "cis_id": "AUTH319196", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1622-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "caspar-schmidt", 
+                        "birth_year": 1622
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 298690, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482299, 
+                        "role": "printed", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e81960", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:40:50", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1960: Volume 2, Edgar Seligman Gift.</u> London: HMSO, 1966.\nThe full text of the entry is as follows:\n\n\u2018<b>AMLING, Karl Gustav von (1651-1702)</b>\n\nCaspar Schmidt (1622-1693), Chancellor of Bavaria.  Portrait, head and shoulders, looking half right, within an oval border of roses, on a plinth with a coat of arms.  (Singer (?)81816)\n<i>Inscribed on the back in an (?) 18th century hand</i> Gaspart Schmidt Gr: Chan. de Bavi\u00e8re.  <i>With the mark of the collection of Lawson Thompson (1837-1919) (Lugt 1770).\nEngraving.</i>  22.2 x 17.1 cm.\nE.8-1960\u2019\nSinger, Hans Wolfgang. <u>Allgemeiner Bildinskatalog</u>. Leipzig: K.W. Hiersemann, 14 v.\nPossibly listed in Singer, 81816 (?).", 
+            "vanda_exhibition_history": "", 
+            "slug": "caspar-schmidt-print-karl-gustave-amling", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }
+            ], 
+            "artist": "Karl Gustave Amling", 
+            "namecontext_set": [
+                {
+                    "pk": 397146, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 75225
+                    }, 
+                    "fields": {
+                        "name": 75225, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482299, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 397147, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 76162
+                    }, 
+                    "fields": {
+                        "name": 76162, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482299, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1699, 
+            "object_number": "O567558", 
+            "events": [], 
+            "credit": "Given by Edgar Seligman", 
+            "history_note": "", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
