@@ -1,0 +1,397 @@
+[
+    {
+        "pk": 133664, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.86-1987", 
+            "date_end": "1913-12-31", 
+            "labels": [], 
+            "descriptive_line": "Vase, porcelain with blue crystalline glaze and silver gilt mounts, manufactured by Royal Copenhagen, glazed by Valdemar Engelhardt, the mounts by the firm of Anton Michelsen, Denmark, ca. 1909.", 
+            "shape": "", 
+            "longitude": "12.56935000", 
+            "year_start": 1904, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 32982, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "beech", 
+                        "museumobject_count": 10, 
+                        "source": "object", 
+                        "cis_id": "11948", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "beech"
+                    }
+                }, 
+                {
+                    "pk": 1432, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "mushroom", 
+                        "museumobject_count": 8, 
+                        "source": "object", 
+                        "cis_id": "x33488", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "mushroom"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1909 (manufactured)", 
+            "primary_image_id": "2009BY9753", 
+            "rights": 3, 
+            "physical_description": "Porcelain vase with cylindrical body and wide neck, covered with blue crystalline glaze and silver gilt mounts at rim and base, the rim in the shape of a band of beech leaves, the base with a frieze of mushrooms or toadstools.", 
+            "dimensions": "Height: 25.8 cm", 
+            "title": "", 
+            "date_start": "1904-01-01", 
+            "materials_techniques": "Porcelain with crytalline glaze", 
+            "last_processed": "2014-04-01 03:47:53", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 18, shelf 2", 
+            "marks": "\u2018ROYAL COPENHAGEN\u2019 and a crown\n Three wavy lines, 'VE' in monogram and 'V934'\n 'EP', three towers, 'MICHELSEN', a crown and '9255 09 HCG ER'", 
+            "latitude": "55.67631100", 
+            "techniques": [
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 135, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glaze", 
+                        "museumobject_count": 2900, 
+                        "source": "cis_materials", 
+                        "cis_id": "15091", 
+                        "museumobject_image_count": 2542, 
+                        "type": "", 
+                        "slug": "glaze"
+                    }
+                }, 
+                {
+                    "pk": 70, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver-gilt", 
+                        "museumobject_count": 1099, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30492", 
+                        "museumobject_image_count": 603, 
+                        "type": "", 
+                        "slug": "silver-gilt"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 207555, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "18", 
+                        "inventory_number": 378957, 
+                        "room": "140", 
+                        "part_name": "", 
+                        "museum_number": "C.86-1987", 
+                        "museumobject": 133664, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "c861987", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 37818, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1915-12-31", 
+                        "surname": "", 
+                        "name": "Engelhardt, Valdemar", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": 1915, 
+                        "source": "object_production", 
+                        "cis_id": "A23225", 
+                        "museumobject_image_count": 11, 
+                        "forename": "", 
+                        "birth_date": "1860-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "engelhardt-valdemar", 
+                        "birth_year": 1860
+                    }
+                }, 
+                {
+                    "pk": 4065, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Royal Copenhagen", 
+                        "gender": null, 
+                        "museumobject_count": 134, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A3549", 
+                        "museumobject_image_count": 126, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "royal-copenhagen", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 37829, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Anton Michelsen", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A23324", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "anton-michelsen", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 132944, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 735
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 133664, 
+                        "role": "manufactured", 
+                        "place": 735, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c861987", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:47:53", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Opie, Jennifer Hawkins. <u>Scandinavia: ceramics & glass in the twentieth century</u>. London: V&A Publications, 1989. 37 p. ISBN 1851770712.\nAnton Michelsen was succeeded by his son Carl in 1877. The company's traditional style continued until about 1888-90 when it was influenced by the Japanese-inspired work of Arnold Krog, the art director of Royal Copenhagen. By 1900 Michelsen also used a distinctive Danish Art Nouveau style combined with a vigorous naturalism.", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-engelhardt-valdemar", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 146270, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:39:10", 
+                        "priority": 0, 
+                        "image_id": "2009BY9753", 
+                        "sys_id": 419753, 
+                        "last_checked": "2014-03-31 17:39:10", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009BY/2009BY9753.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 735, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Copenhagen", 
+                        "parent": null, 
+                        "country": "Denmark", 
+                        "museumobject_count": 370, 
+                        "longitude": "12.56935000", 
+                        "source": "production", 
+                        "cis_id": "x32462", 
+                        "museumobject_image_count": 252, 
+                        "latitude": "55.67631100", 
+                        "type": "city / town", 
+                        "slug": "copenhagen-denmark-x32462"
+                    }
+                }
+            ], 
+            "artist": "Engelhardt, Valdemar", 
+            "namecontext_set": [
+                {
+                    "pk": 163443, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 37818
+                    }, 
+                    "fields": {
+                        "name": 37818, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 133664, 
+                        "role": "glazer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 163444, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4065
+                    }, 
+                    "fields": {
+                        "name": 4065, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 133664, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 163445, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 37829
+                    }, 
+                    "fields": {
+                        "name": 37829, 
+                        "part_name": "", 
+                        "uncertainty": "mount", 
+                        "museumobject": 133664, 
+                        "role": "maker", 
+                        "order": 102
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1913, 
+            "object_number": "O167420", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Copenhagen", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

@@ -1,0 +1,219 @@
+[
+    {
+        "pk": 35806, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "REPRO.1884-660", 
+            "date_end": "1522-12-31", 
+            "labels": [], 
+            "descriptive_line": "19th century plaster cast (relief) after the marble original 'Christ Shown to the People' in the Biblioteca Ambrosiana, Milan, by Agostino Busti, begun 1522.", 
+            "shape": "", 
+            "longitude": "11.05838900", 
+            "year_start": 1522, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1522 (made)\n19th century (cast)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Plaster cast (relief) after the marble original 'Christ shown to the People' in the Biblioteca Ambrosiana, Milan, by Agostino Busti, begun 1522.", 
+            "dimensions": "Weight: 17 kg", 
+            "title": "Christ Shown to the People", 
+            "date_start": "1522-01-01", 
+            "materials_techniques": "Plaster cast", 
+            "last_processed": "2014-03-31 21:12:43", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "", 
+            "latitude": "45.87683300", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 76374, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 85256, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "REPRO.1884-660", 
+                        "museumobject": 35806, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "repro1884660", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 4838, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1548-06-11", 
+                        "surname": "", 
+                        "name": "Bambaia", 
+                        "gender": null, 
+                        "museumobject_count": 18, 
+                        "death_year": 1548, 
+                        "source": "object_production", 
+                        "cis_id": "A2014", 
+                        "museumobject_image_count": 14, 
+                        "forename": "", 
+                        "birth_date": "1483-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bambaia", 
+                        "birth_year": 1483
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 34851, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 277
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 35806, 
+                        "role": "made", 
+                        "place": 277, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 34852, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 35806, 
+                        "role": "cast", 
+                        "place": 52, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "repro1884660", 
+            "object": "Plaster cast", 
+            "categories": [], 
+            "last_checked": "2014-03-31 21:12:43", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "christ-shown-to-the-people-plaster-cast-bambaia", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 277, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 52
+                    }, 
+                    "fields": {
+                        "name": "Lombardy", 
+                        "parent": 52, 
+                        "country": "Italy", 
+                        "museumobject_count": 125, 
+                        "longitude": "11.05838900", 
+                        "source": "production", 
+                        "cis_id": "x29366", 
+                        "museumobject_image_count": 83, 
+                        "latitude": "45.87683300", 
+                        "type": "region", 
+                        "slug": "lombardy-italy-x29366"
+                    }
+                }, 
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Bambaia", 
+            "namecontext_set": [
+                {
+                    "pk": 36807, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4838
+                    }, 
+                    "fields": {
+                        "name": 4838, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 35806, 
+                        "role": "sculptor", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1522, 
+            "object_number": "O40702", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Lombardy", 
+            "production_note": "Begun in 1522. Bambaia is also known as Agostino Busti.", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
