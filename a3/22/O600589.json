@@ -1,0 +1,296 @@
+[
+    {
+        "pk": 515059, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1375-1948", 
+            "date_end": "1910-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1890, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48085, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stars", 
+                        "museumobject_count": 394, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 257, 
+                        "type": "", 
+                        "slug": "stars"
+                    }
+                }, 
+                {
+                    "pk": 24927, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sea", 
+                        "museumobject_count": 257, 
+                        "source": "object", 
+                        "cis_id": "8694", 
+                        "museumobject_image_count": 141, 
+                        "type": "", 
+                        "slug": "sea"
+                    }
+                }, 
+                {
+                    "pk": 4915, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "monster", 
+                        "museumobject_count": 97, 
+                        "source": "object", 
+                        "cis_id": "x39230", 
+                        "museumobject_image_count": 50, 
+                        "type": "", 
+                        "slug": "monster"
+                    }
+                }, 
+                {
+                    "pk": 33166, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cavern", 
+                        "museumobject_count": 10, 
+                        "source": "object", 
+                        "cis_id": "129031", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "cavern"
+                    }
+                }
+            ], 
+            "date_text": "1890-1910 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Drawing for an illustration in indian ink, heightened with white. A female sea-monster, seated on rocks at the entrance to a cavern, through the mouth of which is seen a galaxy of stars.", 
+            "dimensions": "", 
+            "title": "A Female sea-monster, seated on rocks at the entrance to a cavern", 
+            "date_start": "1890-01-01", 
+            "materials_techniques": "Indian ink, heightened with white", 
+            "last_processed": "2014-04-01 20:35:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case I, shelf 150, box AII", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46144, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 14913, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 304, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Indian ink", 
+                        "museumobject_count": 985, 
+                        "source": "cis_materials", 
+                        "cis_id": "x32680", 
+                        "museumobject_image_count": 281, 
+                        "type": "", 
+                        "slug": "indian-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 649517, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "AII", 
+                        "case": "I", 
+                        "inventory_number": 1219979, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.1375-1948", 
+                        "museumobject": 515059, 
+                        "shelf": "150", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e13751948", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32653, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1941-12-31", 
+                        "surname": "", 
+                        "name": "Sime, Sidney H.", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": 1941, 
+                        "source": "object_production", 
+                        "cis_id": "A18223", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1867-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "sime-sidney-h", 
+                        "birth_year": 1867
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 323017, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 515059, 
+                        "role": "Made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e13751948", 
+            "object": "Print", 
+            "categories": [], 
+            "last_checked": "2014-04-01 20:35:56", 
+            "public_access_description": "Sidney Sime  (1867-1941) worked in a mine as a child and then for a draper, barber, and sign writer, before studying at Luverpool School of Art. During the 1890s he contributed illustrations to periodicals including Eureka and The Idler. His black and white illustrations show the influence of Aubrey Beardsley. However the setting and creatures featured in his work have nightmarish undertones.\n\nThis sea-monsterhas a coiled serpentine lower body, while the writhing snakes of her hair recall the classical Greek gorgon, Medusa. The stark black and white colours and her challenging gaze conjure up a sense of nightmare that can often be found in Sime's illustrations.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "a-female-sea-monster-seated-print-sime-sidney-h", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Sime, Sidney H.", 
+            "namecontext_set": [
+                {
+                    "pk": 427005, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32653
+                    }, 
+                    "fields": {
+                        "name": 32653, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 515059, 
+                        "role": "designed and made by", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1910, 
+            "object_number": "O600589", 
+            "events": [], 
+            "credit": "Bequeathed by H. H. Harrod", 
+            "history_note": "Bequeathed by H. H. Harrod", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,291 @@
+[
+    {
+        "pk": 29956, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.450-2003", 
+            "date_end": "1955-12-31", 
+            "labels": [], 
+            "descriptive_line": "Colour lithograph, 'Hartlepool Docks', by Ronald Frederick Holmes, early 1950s", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1950, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25428, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cranes", 
+                        "museumobject_count": 74, 
+                        "source": "object", 
+                        "cis_id": "22331", 
+                        "museumobject_image_count": 54, 
+                        "type": "", 
+                        "slug": "cranes"
+                    }
+                }, 
+                {
+                    "pk": 26513, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "docks", 
+                        "museumobject_count": 40, 
+                        "source": "object", 
+                        "cis_id": "120801", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "docks"
+                    }
+                }, 
+                {
+                    "pk": 4339, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Hartlepool", 
+                        "museumobject_count": 2, 
+                        "source": "place", 
+                        "cis_id": "x37134", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "hartlepool"
+                    }
+                }
+            ], 
+            "date_text": "early 1950s (printed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Hartlepool Docks is an atmospheric composition in blues and blacks, executed in painterly style. It is mostly blue, with black reflections of buildings and cranes on the water surface.", 
+            "dimensions": "Height: 41 cm sheet, Width: 66 cm sheet, Height: 28.5 cm plate, Width: 63.8 cm plate", 
+            "title": "Hartlepool Docks", 
+            "date_start": "1950-01-01", 
+            "materials_techniques": "Colour lithograph", 
+            "last_processed": "2014-03-31 20:51:07", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case MP, shelf 295, box A", 
+            "marks": "'Hartlepool Docks 18/18 PJH pp RF Holmes'", 
+            "latitude": "54.31391900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 56301, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "MP", 
+                        "inventory_number": 705396, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.450-2003", 
+                        "museumobject": 29956, 
+                        "shelf": "295", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e4502003", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 6612, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1977-12-31", 
+                        "surname": "", 
+                        "name": "Ronald Frederick Holmes", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": 1977, 
+                        "source": "object_production", 
+                        "cis_id": "A10416", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1924-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "holmes-ronald-frederick", 
+                        "birth_year": 1924
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 30677, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 29956, 
+                        "role": "printed", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 30678, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1386
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 29956, 
+                        "role": "subject", 
+                        "place": 1386, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e4502003", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:51:07", 
+            "public_access_description": "Holmes designed textiles and commercial graphics, and worked as a printmaker and photographer alongside teaching graphic design. He worked in a variety of print techniques such as linocut and woodcut; this print is a lithograph.\n\nThis print shows an atmospheric scene of docks at nightfall. It is composed in dark blue and black, with shadowy reflections of cranes and buildings on the water's surface. Even though the view shown is of industrial machinery in a man-made environment, it is treated so beautifully that it becomes an evocative, tranquil landscape.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "hartlepool-docks-print-holmes-ronald-frederick", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }, 
+                {
+                    "pk": 1386, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Hartlepool", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 10, 
+                        "longitude": "-1.21411900", 
+                        "source": "production", 
+                        "cis_id": "x37134", 
+                        "museumobject_image_count": 2, 
+                        "latitude": "54.68540500", 
+                        "type": "unitary authority", 
+                        "slug": "hartlepool-england-x37134"
+                    }
+                }
+            ], 
+            "artist": "Holmes, Ronald Frederick", 
+            "namecontext_set": [
+                {
+                    "pk": 33265, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6612
+                    }, 
+                    "fields": {
+                        "name": 6612, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 29956, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1955, 
+            "object_number": "O85054", 
+            "events": [], 
+            "credit": "Purchased through the Julie and Robert Breckman Print Fund", 
+            "history_note": "", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

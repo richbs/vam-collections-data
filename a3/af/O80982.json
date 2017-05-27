@@ -1,0 +1,353 @@
+[
+    {
+        "pk": 14903, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.143[O]", 
+            "date_end": "1842-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting entitled 'Open Your Mouth and Shut Your Eyes' by William Mulready.  Great Britain, 1838.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1833, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23968, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fruit", 
+                        "museumobject_count": 1167, 
+                        "source": "object", 
+                        "cis_id": "11868", 
+                        "museumobject_image_count": 857, 
+                        "type": "", 
+                        "slug": "fruit"
+                    }
+                }, 
+                {
+                    "pk": 358, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "children", 
+                        "museumobject_count": 950, 
+                        "source": "object", 
+                        "cis_id": "x31526", 
+                        "museumobject_image_count": 560, 
+                        "type": "", 
+                        "slug": "children"
+                    }
+                }, 
+                {
+                    "pk": 48386, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cherry", 
+                        "museumobject_count": 23, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "cherry"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1838 (painted)", 
+            "primary_image_id": "2006AP8078", 
+            "rights": 3, 
+            "physical_description": "Oil painting entitled 'Open Your Mouth and Shut Your Eyes' depicting a man lying in a field with a young baby, feeding cherries to a girl.", 
+            "dimensions": "Height: 31.5 cm estimate, Width: 30.2 cm estimate", 
+            "title": "Open Your Mouth and Shut Your Eyes", 
+            "date_start": "1833-01-01", 
+            "materials_techniques": "oil on panel", 
+            "last_processed": "2014-03-31 19:44:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 82, case EAST WALL", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }, 
+                {
+                    "pk": 65, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "panel", 
+                        "museumobject_count": 427, 
+                        "source": "cis_materials", 
+                        "cis_id": "14657", 
+                        "museumobject_image_count": 405, 
+                        "type": "", 
+                        "slug": "panel"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 22314, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 507
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EAST WALL", 
+                        "inventory_number": 93141, 
+                        "room": "82", 
+                        "part_name": "", 
+                        "museum_number": "FA.143[O]", 
+                        "museumobject": 14903, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 82", 
+                        "museum_number_token": "fa143o", 
+                        "gallery": 507
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 507, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "82", 
+                        "site_name": "", 
+                        "name": "Paintings, room 82", 
+                        "site_code": "VA", 
+                        "museumobject_count": 78, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49712", 
+                        "museumobject_image_count": 75, 
+                        "type": "", 
+                        "slug": "82-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 224, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1863-07-07", 
+                        "surname": "", 
+                        "name": "Mulready", 
+                        "gender": null, 
+                        "museumobject_count": 67, 
+                        "death_year": 1863, 
+                        "source": "object_production", 
+                        "cis_id": "A8680", 
+                        "museumobject_image_count": 36, 
+                        "forename": "", 
+                        "birth_date": "1786-04-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mulready-william", 
+                        "birth_year": 1786
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15890, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 14903, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa143o", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 35, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Children & Childhood", 
+                        "museumobject_count": 9983, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1893, 
+                        "type": "", 
+                        "slug": "children-childhood"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:44:25", 
+            "public_access_description": "The subject is taken from an old nursey saying: 'Open your mouth, shut your eyes, and see what Providence will send you'. Mulready has adapted the context to adolescence. The painting was probably a companion piece to 'The Sonnet', another painting by Mulready.", 
+            "exhibition_history": "", 
+            "bibliography": "<i>Catalogue of British Oil Paintings 1820-1860</i>, Ronald Parkinson, Victoria and Albert Museum, London: HMSO, 1990, pp. 202-204\nThe following is the full text of the entry:\n\n\"MULREADY, William, RA (1786-1863) \n\nBorn Ennis, County Clare, Ireland, 1 April (not 30 as is sometimes recorded) 1786, son of a leather breeches maker and amateur draughtsman. Moved to Dublin 1797, London about 1799; encouraged by the Scottish painter John Graham and the sculptor Joseph Banks, entered RA Schools 1800 (won silver medal for drawing 1806). Pupil and assistant of John Varley, whose sister Elizabeth (also an artist) he married 1803 (separated 1810). Exhibited 78 works at the RA between 1804 and 1862, and five at the BI 1808-9 and 1826. Wide range of subjects in early years, including history and portraits, but by 1815 almost exclusively domestic subjects of precise detail and brilliant colour, and with Wilkie the most popular and admired artist in the genre. He noted his own goals as 'Story, Character, Expression, Beauty'. Elected ARA 1815, RA 1816. Many book illustrations; accomplished draughtsman, particularly perhaps of academic nude studies. Designed first penny postage envelope 1840. Elected member of many distinguished institutions at home and abroad. Died 7 July 1863; his studio sale was at Christie's 28-30 April 1864. His four sons Paul Augustus, William junior (see entry below), Michael (see entry above) and John were all trained as artists. Much manuscript and graphic material in National Art Library and V&A collections, also Tate Gallery. \nLIT: \tF G Stephens Memorials ofWilliam Mulready RA 1890; A Rorimer Drawings by William Mulready V&A exhibition catalogue 1972; K Heleniak William Mulready 1980; M Pointon Mulready V&A exhibition book and catalogue 1986. (The three last all have full bibliographies) \nThe most comprehensive recent catalogue raison\u00e9e of Mulready's works, arranged in chronological order, has been compiled by Kathryn Moore Heleniak, in her book William Mulready 1980, which provides the basis for the following entries. Her numbers have been quoted, and a brief resume given of her listing of alternative versions and related drawings. Further reference should be made to both her book and to Marcia Pointon's catalogue Mulready which accompanied the exhibition of 1986 held at the V&A, National Gallery, Dublin and Ulster Museum, Belfast; to Heleniak for more detailed comments on related works and documentation and Pointon for social commentary and aesthetic analysis. \nOpen Your Mouth and Shut your Eyes\nFA143 Neg GH1582 \nPanel, 31.5 \u00d7 30.2 cm (12 \u00bd \u00d7 12 ins) Sheepshanks Gift 1857 \n\nPainted mainly in 1838 and exhibited at the RA in 1839. The artist's Account Book records under the list of works for 1814: 'Open your mouth'; and under 1835: 'July 27 \"Open your Mouth\" on panel'; and under 1838: 'Oct 17 J Sh:[eepshanks] 78.15 \"Open your Mouth\" 157.10'. Of the four preparatory drawings exhibited at South Kensington in 1864 (132, 150, 171 and 195 - the last now in the V&A collections E1798-1910), one was dated \n20 December 1814. \n\nWhile The Examiner thought it 'has the faults of its companion [that is, 'The Sonnet', see FA146, p206]; but the merits it does not possess in equal degree', the Art Union described it as 'Another of his delicious subjects. The lovely girl ... is beautifully painted'. Blackwood's Magazine found that 'The Sonnet and its companion are very beautiful ... somewhat too hot, but they are gems'. The Literary Gazette considered 'The Sonnet' 'a beautiful pastoral', and the present work 'a boyish sport', but that both were 'rendered interesting by their skilfull treatment and the rich and harmonious tone and colour under which they appear'. \n\nThe subject is taken from an old nursery saying: for M W Sharp's painting of the subject at the exhibition at the Society of British Artists in 1826 (188), the catalogue quotes also the second line: 'Open your mouth, shut your eyes, and see what Providence will send you'. \nPointon notes the work as: 'A fine example of Mulreadv's mature technique - brilliant pigment over a white ground - this is another painting based on a childish game involving oral satisfaction [Pointon is rightly referring to the 'Lending a Bite' of 1819, now in a private collection, 'Giving a bite', a watercolour of 1834 now in the Ulster Museum, Belfast, and 'Giving a bite', exhibited at the RA in 1836, also in the Sheepshanks Gift (see FA140, p200)]. Here, however, the protagonists are a young man, accompanied by a baby, and a nubile girl with exposed shoulders. The image undoubtedly possessed explicit erotic overtones for a contemporary audience and is a reminder of the risqu\u00e9 connotations of games as they occur in a literary narrative tradition, as for example, in the Hunt the Slipper scene in Goldsmith's The Vicar of Wake field [it is perhaps worth remembering here that Mulready illustrated the 1843 edition of that book]. There seems no doubt that the erotic content was very deliberately produced by the artist who possessed a clear understanding of his audience, and of the operation of desire with regard to ownership of paintings with suggestive images such as this.'\nPointon then refers to the entry in Mulready's personal notebook (now National Art Library, V&A) in May 1844; she comments that that 'this extraordinary passage suggests a deliberate strategy and a consciousness about the affectiveness of his subject matter and how to make it acceptable to an audience regarded in a cynical light'. This passage reads: ' ... in the present state of the art almost any subject matter may be raised into importance by truth and beauty of light and shade and colours with an ostentatious mastery of execution. The higher qualities of art, beautiful form, character and expression are chatted about, not felt or understood but by very few. Expression, if strong, or character bordering on caricature are recognised by the people. Female beauty and innocence will be much talked about and sell well. Let it be covertly exciting, its material flesh and blood approaching a sensual existence and it will be talked more about and sell much better, well in the first state, doubly well in the second, but let excitement appear to be the object and the hypocrites will shout and scream and scare away the sensuality, the birds that would be pecking: when the scarecrow hypocrisy is silent, some blessed watchful crow will bear the fruit to his quiet parsonage'. \nWhile it is possible to read the present work as a family group father/older brother, daughter/younger sister, and son/younger brother enjoying an afternoon of fruit-picking in the countryside, Mulready does not make this reading very clear. It is worth noting that the pose of the man may well be an adaptation of Michelangelo's figure of Adam in the Creation section of the Sistine Chapel ceiling fresco, although seen from a different angle and in reverse (although this is not so evident in a preliminary drawing also in the V&A collections, E1798-1910, repr. Rorimer fig. 39). The work's companion piece, 'The Sonnet', also used Michelangelesque prototypes. The image of Adam would refer to the Garden of Eden and the Fall. Also, despite Mulreadv's comments in his Notebook (quoted above) about covert excitement, it seems unlikely that Pointon's reference to 'oral satisfaction' can be interpreted further to encompass fellatio - however common that practice might have been in the nineteenth century. But the subject is unusual, and, if the present work shows an innocent family genre scene, it is very unusually depicted, particularly if one considers the observant Cupid-like child on the right. \nHeleniak is surely correct to note 'undertones of sexuality', although the present writer disagrees with her description of the right-hand figure as a 'small baby'; Heleniak also notes the 'inherent sensuality, which was unconsciously acknowledged in the Art Union's commentary' and demands an alternative reading from 'the seemingly innocent theme of rustic family life'. Most tellingly, Heleniak points to the cherries and green apples which indicate 'the pre-adolescent girl's own unripe state as \"green fruit\", to borrow the 19th-century phrase for girlish virgins'. Heleniak continues to discuss the phenomenon of love scenes between children, and between children and adults, concluding 'This passion for the bud, the unripe fruit, engendered a flourishing market, in which very young girl prostitutes or older women coyly dressed to look like children' (see R Pearsall The Worm in the Bud: the world of Victorian sexuality 1969, pp 91, 290). The present work 'can be viewed in this context; its expressive power derives in part from the suggestion of seduction, of innocence violated'. \n\nEXH: \tRA 1839 (143); Society of Arts 1848 (XLVIII); William Mulready South Kensington Museum 1864 (79); William Mulready V&A 1986 (135) \nLIT: \tExaminer 1839, p486; Art Union 1839, p68; Blackwood's Magazine September 1839, p316; Literary Gazette 1839, p316; Heleniak pp 1302,212-3 (cat. no. 145, repr. pi 130); Pointon pp93-4, 158 (repr, in colour p137, pl XXIX) \nREPR: \tEnglish Art in the Public Galleries of London  nd [1888], p129; Rorimer p36 (fig. 39a) \n\nRonald Parkinson\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "open-your-mouth-and-shut-oil-painting-mulready-william-ra", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 17404, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-21 00:00:00", 
+                        "last_processed": "2014-03-31 17:11:54", 
+                        "priority": 0, 
+                        "image_id": "2006AP8078", 
+                        "sys_id": 138078, 
+                        "last_checked": "2014-03-31 17:11:54", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AP/2006AP8078.jpg"
+                    }
+                }, 
+                {
+                    "pk": 4146, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-21 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:06", 
+                        "priority": 1, 
+                        "image_id": "2006AM1969", 
+                        "sys_id": 111969, 
+                        "last_checked": "2014-03-31 17:09:06", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM1969.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Mulready, William (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 15205, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 224
+                    }, 
+                    "fields": {
+                        "name": 224, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14903, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1842, 
+            "object_number": "O80982", 
+            "events": [], 
+            "credit": "Given by John Sheepshanks, 1857", 
+            "history_note": "Given by John Sheepshanks, 1857", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

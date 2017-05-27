@@ -1,0 +1,285 @@
+[
+    {
+        "pk": 621262, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.355-1914", 
+            "date_end": null, 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": null, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 52106, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "pattern books", 
+                        "museumobject_count": 2853, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 183, 
+                        "type": "", 
+                        "slug": "pattern-books"
+                    }
+                }, 
+                {
+                    "pk": 49457, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "metal-work", 
+                        "museumobject_count": 1358, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 40, 
+                        "type": "", 
+                        "slug": "metal-work"
+                    }
+                }, 
+                {
+                    "pk": 25028, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "furnishings", 
+                        "museumobject_count": 1157, 
+                        "source": "object", 
+                        "cis_id": "37336", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "furnishings"
+                    }
+                }, 
+                {
+                    "pk": 52101, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fittings", 
+                        "museumobject_count": 652, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "fittings"
+                    }
+                }, 
+                {
+                    "pk": 24490, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "prints", 
+                        "museumobject_count": 158, 
+                        "source": "object", 
+                        "cis_id": "41273", 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "date_text": "", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "48 engraved plates featuring 159 designs, bound together as a pattern book.", 
+            "dimensions": "height: 7.375 in, width: 9.1875 in", 
+            "title": "", 
+            "date_start": null, 
+            "materials_techniques": "Engravings, bound", 
+            "last_processed": "2014-04-26 15:38:10", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2E, shelf SH48, box M65A", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 24215, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7670, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }, 
+                {
+                    "pk": 152, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "binding", 
+                        "museumobject_count": 1799, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53592", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "binding"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 756002, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "M65A", 
+                        "case": "MB2E", 
+                        "inventory_number": 1085681, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.355-1914", 
+                        "museumobject": 621262, 
+                        "shelf": "SH48", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e3551914", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 74491, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Longden, Walker & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH317213", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "longden-walker-co", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "e3551914", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24796, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10870, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 61, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Pattern books", 
+                        "museumobject_count": 4068, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 432, 
+                        "type": "", 
+                        "slug": "pattern-books"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:38:10", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Engraving, Illustration & Design, Old English Pattern Books of the Metal Trades: A Descriptive Catalogue of the Collection in the Museum.</u> London: Printed under the Authority of His Majesty\u2019s Stationery Office, 1913.\nThe full text of the entry is as follows:\n\n\"<u><b>IRONWARE.</b></u>\nM. 65. a.\n\n<b>PATTERN BOOK</b> (Metal Work  ; English, c. 1820).\n\nManufacturer's pattern book of fire-grates, register fronts, etc., issued by Messrs. Longden, Walker &amp; Co., Phoenix Foundry, Sheffield, about 1820.\n\n48 <i>engraved plates</i> (159 <i>designs,</i> 1<i> I</i><i>ndian ink drawing and</i> 2 <i>pencil drawings.   In vol.</i> (7\u215cx9<sup>3</sup>/<sub>16</sub>).\nE.355-1914.\n\nPresented by C. F. Longden, Esq.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "print-longden-walker-co", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [], 
+            "artist": "Longden, Walker & Co.", 
+            "namecontext_set": [
+                {
+                    "pk": 473557, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 74491
+                    }, 
+                    "fields": {
+                        "name": 74491, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 621262, 
+                        "role": "publishers", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": null, 
+            "object_number": "O714754", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

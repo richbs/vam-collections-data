@@ -1,0 +1,283 @@
+[
+    {
+        "pk": 1116909, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "", 
+            "date_end": "2013-12-31", 
+            "labels": [], 
+            "descriptive_line": "Sculpture, 'The Severed Head', glazed ceramic, James Rigler, Glasgow, 2013", 
+            "shape": "", 
+            "longitude": "-4.24251000", 
+            "year_start": 2013, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "2013 (made)", 
+            "primary_image_id": "", 
+            "rights": 1, 
+            "physical_description": "Sculptural head of highly abstracted form. Straight-sided upright cylindical form with domed top and undulating base, with openings representing eyes and mouth. Earthenware, press-moulded and altered, bisqued to 1150 degrees, and glaze fired to 1080 degrees with an off-white glaze.", 
+            "dimensions": "Height: 72.5 cm, Diameter: 45 cm", 
+            "title": "The Severed Head", 
+            "date_start": "2013-01-01", 
+            "materials_techniques": "Earthenware, glazed, press-moulded and altered", 
+            "last_processed": "2014-04-27 06:02:44", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56420, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31555, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Contemporary Ceramics, room 141, case PL1", 
+            "marks": "", 
+            "latitude": "55.85780000", 
+            "techniques": [
+                {
+                    "pk": 7, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "moulded", 
+                        "museumobject_count": 5554, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30076", 
+                        "museumobject_image_count": 2897, 
+                        "type": "", 
+                        "slug": "moulded"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 2, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "earthenware", 
+                        "museumobject_count": 13133, 
+                        "source": "cis_materials", 
+                        "cis_id": "x29356", 
+                        "museumobject_image_count": 11225, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }, 
+                {
+                    "pk": 815, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ceramic glaze", 
+                        "museumobject_count": 156, 
+                        "source": "cis_materials", 
+                        "cis_id": "15092", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "ceramic-glaze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1308625, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 349
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PL1", 
+                        "inventory_number": null, 
+                        "room": "141", 
+                        "part_name": "", 
+                        "museum_number": "C.107-2013", 
+                        "museumobject": 1116909, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Contemporary Ceramics, room 141", 
+                        "museum_number_token": "c1072013", 
+                        "gallery": 349
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 349, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "141", 
+                        "site_name": "", 
+                        "name": "Contemporary Ceramics, room 141", 
+                        "site_code": "VA", 
+                        "museumobject_count": 33, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49870", 
+                        "museumobject_image_count": 23, 
+                        "type": "", 
+                        "slug": "141-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 81764, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Rigler, James", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "", 
+                        "cis_id": "AUTH325947", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1978-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rigler-james", 
+                        "birth_year": 1978
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 493642, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 223
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "Glasgow Sculpture Studios", 
+                        "museumobject": 1116909, 
+                        "role": "made", 
+                        "place": 223, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "", 
+            "object": "Sculpture", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 51425, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36059, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8505, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4534, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 69, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Studio Pottery", 
+                        "museumobject_count": 665, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 572, 
+                        "type": "", 
+                        "slug": "studio-pottery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 06:02:44", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-severed-head-sculpture-rigler-james", 
+            "sys_updated": "2014-03-31 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 223, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4975
+                    }, 
+                    "fields": {
+                        "name": "Glasgow", 
+                        "parent": 4975, 
+                        "country": "Scotland", 
+                        "museumobject_count": 248, 
+                        "longitude": "-4.24251000", 
+                        "source": "production", 
+                        "cis_id": "x28891", 
+                        "museumobject_image_count": 115, 
+                        "latitude": "55.85780000", 
+                        "type": "city/town", 
+                        "slug": "glasgow-scotland-x28891"
+                    }
+                }
+            ], 
+            "artist": "Rigler, James", 
+            "namecontext_set": [
+                {
+                    "pk": 685477, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 81764
+                    }, 
+                    "fields": {
+                        "name": 81764, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1116909, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2013, 
+            "object_number": "O1265535", 
+            "events": [], 
+            "credit": "Acquired through the generosity of Gerard and Sarah Griffin", 
+            "history_note": "Originally shown in the exhibtion 'James Rigler: The Fading City', Marsden Woo Gallery, London, 21 March to 4 May 2013, exhibit number 9.", 
+            "place": "Glasgow", 
+            "production_note": "James Riglers first piece made in Glasgow Sculpture Studios.", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

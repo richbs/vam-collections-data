@@ -1,0 +1,328 @@
+[
+    {
+        "pk": 71979, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.275-1973", 
+            "date_end": "1902-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "13.34577000", 
+            "year_start": 1902, 
+            "exhibitions": [
+                {
+                    "pk": 111, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2000, 
+                        "name": "Art Nouveau - 1890-1914", 
+                        "date_end": "2000-07-30", 
+                        "museumobject_count": 230, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "2000-04-06", 
+                        "year_end": 2000, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 209, 
+                        "type": "", 
+                        "slug": "art-nouveau-1890-1914", 
+                        "date_text": "06/04/2000 to 30/07/2000"
+                    }
+                }, 
+                {
+                    "pk": 160, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2005, 
+                        "name": "International Arts & Crafts", 
+                        "date_end": "2005-07-24", 
+                        "museumobject_count": 42, 
+                        "venue": "Victoria & Albert Museum", 
+                        "date_start": "2005-03-17", 
+                        "year_end": 2005, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 40, 
+                        "type": "", 
+                        "slug": "international-arts-crafts", 
+                        "date_text": "17/03/2005 to 24/07/2005"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 26672, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "exhibitions", 
+                        "museumobject_count": 197, 
+                        "source": "object", 
+                        "cis_id": "260349", 
+                        "museumobject_image_count": 67, 
+                        "type": "", 
+                        "slug": "exhibitions"
+                    }
+                }
+            ], 
+            "date_text": "1902 (printed)", 
+            "primary_image_id": "2006AU3151", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 1891 mm, Width: 636 mm", 
+            "title": "Secession. 16 Ausstellung, 1903", 
+            "date_start": "1902-01-01", 
+            "materials_techniques": "Colour lithograph", 
+            "last_processed": "2014-03-31 23:27:41", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 514, case AGAINST WALL", 
+            "marks": "Alfred Roller. 1902.\n A. ONDRA 93", 
+            "latitude": "47.69651000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 130, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Art Nouveau", 
+                        "museumobject_count": 446, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21430", 
+                        "museumobject_image_count": 306, 
+                        "type": "", 
+                        "slug": "art-nouveau"
+                    }
+                }, 
+                {
+                    "pk": 446, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Vienna Secession", 
+                        "museumobject_count": 2, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x36138", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "vienna-secession"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 126384, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 668
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "AGAINST WALL", 
+                        "inventory_number": 655036, 
+                        "room": "514", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.275-1973", 
+                        "museumobject": 71979, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 514", 
+                        "museum_number_token": "circ2751973", 
+                        "gallery": 668
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 668, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "514", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 514", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1279, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49549", 
+                        "museumobject_image_count": 139, 
+                        "type": "", 
+                        "slug": "514-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 13355, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1919-12-31", 
+                        "surname": "", 
+                        "name": "Roller, Alfred", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1919, 
+                        "source": "object_production", 
+                        "cis_id": "A7608", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1845-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "roller-alfred", 
+                        "birth_year": 1845
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 68222, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 130
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 71979, 
+                        "role": "printed", 
+                        "place": 130, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ2751973", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:27:41", 
+            "public_access_description": "This poster advertises the 16th Exhibition of the Vienna Secession Group in 1902. The Group had seceded in 1897 from the conservative Academy in Vienna (hence its name) and included artists, architects, furniture, metalwork and ceramic designers. The poster is unusual in that it does not use the human figure, so often the focal point of posters of this period. The lettering is the main design. It takes up the whole sheet to dramatic effect, with just a small heraldic motif in the background.", 
+            "exhibition_history": "International Arts & Crafts (Fine Arts Museums of San Francisco 18/03/2006-18/06/2006)\nInternational Arts & Crafts (Indianapolis Museum of Art 27/09/2005-22/01/2006)\nInternational Arts & Crafts (Victoria and Albert Museum 17/03/2005-24/07/2005)\nArt Nouveau - 1890-1914 (Victoria and Albert Museum 06/04/2000-30/07/2000)", 
+            "bibliography": "Greenhalgh, Paul Ed., <font u>Art Nouveau : 1890 - 1914</font u>. London: V&A Publications, 2000. 464 p., 9.18pl, ill. ISBN 1851772774\nLivingston, Karen and Parry, Linda, eds <u>International Arts and Crafts</u>. London: Victoria and Albert Museum, 2005. 368 p., ill. ISBN 1851774459.", 
+            "vanda_exhibition_history": "", 
+            "slug": "secession-16-ausstellung-1903-poster-roller-alfred", 
+            "sys_updated": "2013-09-10 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 24967, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-04-18 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:31", 
+                        "priority": 0, 
+                        "image_id": "2006AU3151", 
+                        "sys_id": 163151, 
+                        "last_checked": "2014-03-31 17:13:31", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU3151.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 130, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Austria", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 544, 
+                        "longitude": "13.34577000", 
+                        "source": "production", 
+                        "cis_id": "x28728", 
+                        "museumobject_image_count": 190, 
+                        "latitude": "47.69651000", 
+                        "type": "country", 
+                        "slug": "austria-x28728"
+                    }
+                }
+            ], 
+            "artist": "Roller, Alfred", 
+            "namecontext_set": [
+                {
+                    "pk": 82519, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 13355
+                    }, 
+                    "fields": {
+                        "name": 13355, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 71979, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1902, 
+            "object_number": "O74615", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Poster for the Vienna Seccession : 16th Exhibition 1903", 
+            "place": "Austria", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

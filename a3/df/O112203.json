@@ -1,0 +1,279 @@
+[
+    {
+        "pk": 86704, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.13-2005", 
+            "date_end": "1948-12-31", 
+            "labels": [], 
+            "descriptive_line": "Relief, circular bronzed plaster, with head of man with goatee beard facing left, inscribed Sir Henry J. Wood, by Paul Vincze, Great Britain, ca. 1944", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1939, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 28152, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Wood, Henry (Sir)", 
+                        "museumobject_count": 9, 
+                        "source": "name", 
+                        "cis_id": "N1337", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "wood-henry-sir"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1944 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Circular bronzed plaster relief.", 
+            "dimensions": "Diameter: 8.2 cm", 
+            "title": "", 
+            "date_start": "1939-01-01", 
+            "materials_techniques": "Bronzed plaster", 
+            "last_processed": "2014-04-01 00:29:43", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "'P Vincze 1944'\n 'Sir Henry J. Wood 75'", 
+            "latitude": "54.31391900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 147560, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 727513, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "A.13-2005", 
+                        "museumobject": 86704, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "a132005", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 60866, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1994-12-31", 
+                        "surname": "", 
+                        "name": "Vincze, Paul", 
+                        "gender": null, 
+                        "museumobject_count": 8, 
+                        "death_year": 1994, 
+                        "source": "object_production", 
+                        "cis_id": "A14589", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": "1907-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "vincze-paul", 
+                        "birth_year": 1907
+                    }
+                }, 
+                {
+                    "pk": 10067, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1944-12-31", 
+                        "surname": "", 
+                        "name": "Henry Wood", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": 1944, 
+                        "source": "content", 
+                        "cis_id": "N1337", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": "1869-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "wood-henry-sir", 
+                        "birth_year": 1869
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 83213, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86704, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a132005", 
+            "object": "Relief", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 197, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Reliefs", 
+                        "museumobject_count": 519, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 294, 
+                        "type": "", 
+                        "slug": "reliefs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:29:43", 
+            "public_access_description": "This one-sided circular model for a commemorative medal depicts Sir Henry J. Wood, founder-conductor of the Promenade Concerts which are held each year in the Royal Albert Hall. The portrait of Sir Henry Wood is an early model for a commemorative medal. The Museum holds a further model for the portrait (A.14-2005) and a copy of the medal itself in silver (A.15-2005).\n\nThe model is made by Paul Vincze (1907-1994), a Hungarian-born medallist who took British citizenship in 1948 and lived and worked in London from then until his death. Vincze received wide and varied commissions and found a position in the mainstream of British medallic art.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "relief-vincze-paul", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Vincze, Paul", 
+            "namecontext_set": [
+                {
+                    "pk": 102580, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 60866
+                    }, 
+                    "fields": {
+                        "name": 60866, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86704, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 102581, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10067
+                    }, 
+                    "fields": {
+                        "name": 10067, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86704, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1948, 
+            "object_number": "O112203", 
+            "events": [
+                {
+                    "pk": 52, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "Promenade Concerts", 
+                        "date_end": null, 
+                        "museumobject_count": 6, 
+                        "year_end": null, 
+                        "source": "associated", 
+                        "cis_id": "V386", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "promenade-concerts-v386"
+                    }
+                }
+            ], 
+            "credit": "Given by Arlette Bennett", 
+            "history_note": "Given together with A.11 & A.12, and A.14 to A.17-2005 by Arlette Bennett, in 2005.", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
