@@ -1,0 +1,271 @@
+[
+    {
+        "pk": 286159, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.931-1917", 
+            "date_end": "1904-12-31", 
+            "labels": [], 
+            "descriptive_line": "Two-handled vase of stoneware with a mottled glaze, made at the Atelier de Glatigny, Versailles, ca. 1900", 
+            "shape": "", 
+            "longitude": "2.13112000", 
+            "year_start": 1895, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 32101, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "mottled", 
+                        "museumobject_count": 24, 
+                        "source": "object", 
+                        "cis_id": "252693", 
+                        "museumobject_image_count": 24, 
+                        "type": "", 
+                        "slug": "mottled"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1900 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Two-handled vase of grey stoneware with a mottled green-grey high temperature <i>flam\u00e9e</i>glaze. Ovoid in shape with handles applied at the rim to the mid-body.", 
+            "dimensions": "Height: 13.3 cm, Diameter: 6 cm", 
+            "title": "", 
+            "date_start": "1895-01-01", 
+            "materials_techniques": "Stoneware, glazed", 
+            "last_processed": "2014-04-01 11:01:06", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Ceramics Study Galleries, Britain & Europe, room 139, case 38, shelf 4", 
+            "marks": "'Glatigny'", 
+            "latitude": "48.80192900", 
+            "techniques": [
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 159, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "stoneware", 
+                        "museumobject_count": 3966, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30197", 
+                        "museumobject_image_count": 3509, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 386673, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 3195
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "38", 
+                        "inventory_number": 373552, 
+                        "room": "139", 
+                        "part_name": "", 
+                        "museum_number": "C.931-1917", 
+                        "museumobject": 286159, 
+                        "shelf": "4", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "museum_number_token": "c9311917", 
+                        "gallery": 3195
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 3195, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "139", 
+                        "site_name": "", 
+                        "name": "Ceramics Study Galleries, Britain & Europe, room 139", 
+                        "site_code": "VA", 
+                        "museumobject_count": 12503, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49874", 
+                        "museumobject_image_count": 12417, 
+                        "type": "", 
+                        "slug": "139-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 50870, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Glatigny, Atelier de", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A32234", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "glatigny-atelier-de", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 223631, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 264
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 286159, 
+                        "role": "made", 
+                        "place": 264, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c9311917", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stoneware", 
+                        "museumobject_count": 3435, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3026, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 11:01:06", 
+            "public_access_description": "The Atelier de Glatigny was a ceramics studio established at Versailles, outside Paris, in the late 1890s by a group of anonymous artists, potters and glaze chemists with the aim of producing pieces comparable with the work of studio potters but at lower prices. The company specialized in flamm\u00e9e glazes, as on this vase, and crystalline effects.", 
+            "exhibition_history": "", 
+            "bibliography": "Borrmann, R: <i>Moderne Keramik<i/>, 1902, p.113\n'...an artist colony..', at Versailles\nCameron,E: <i>Encyclopedia of Pottery and Porcelain, the 19th and 20th centuries<i/>, Faber & Faber, 1986", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-glatigny-atelier-de", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 264, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4950
+                    }, 
+                    "fields": {
+                        "name": "Versailles", 
+                        "parent": 4950, 
+                        "country": "France", 
+                        "museumobject_count": 198, 
+                        "longitude": "2.13112000", 
+                        "source": "production", 
+                        "cis_id": "x29546", 
+                        "museumobject_image_count": 148, 
+                        "latitude": "48.80192900", 
+                        "type": "city / town", 
+                        "slug": "versailles-france-x29546"
+                    }
+                }
+            ], 
+            "artist": "Glatigny, Atelier de", 
+            "namecontext_set": [
+                {
+                    "pk": 306008, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 50870
+                    }, 
+                    "fields": {
+                        "name": 50870, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 286159, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1904, 
+            "object_number": "O345264", 
+            "events": [], 
+            "credit": "Given by Mr Herman Hart, in memory of his wife", 
+            "history_note": "", 
+            "place": "Versailles", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
