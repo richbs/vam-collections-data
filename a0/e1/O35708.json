@@ -1,0 +1,204 @@
+[
+    {
+        "pk": 31007, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "B.391:1-1993", 
+            "date_end": "1969-12-31", 
+            "labels": [], 
+            "descriptive_line": "Teddy Bear; Japanese/Hong Kong; 1950s/60s", 
+            "shape": "", 
+            "longitude": "139.83828700", 
+            "year_start": 1950, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1950s - 1960s (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "1. teddy bear; head and arms of pink velvet plush; body and legs of red cotton; inner ears of blue and white gingham; eyes of blue and black plastic; nose of embroidered black threads; mouth of red felt glued on.\nLabel stitched to left leg is white and blue blue woven cotton - HYGENICALLY FILLED FOREIGN. This suggests that it is of oriental original; probably Hong Kong or possibly Japanese. \n2. overalls; blue and white gingham with red trim and ties which pass around the neck.", 
+            "dimensions": "", 
+            "title": "", 
+            "date_start": "1950-01-01", 
+            "materials_techniques": "plush and cotton, plastic, felt", 
+            "last_processed": "2014-03-31 20:55:38", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 5, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MoC", 
+                        "name": "Museum of Childhood", 
+                        "museumobject_count": 29148, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3179, 
+                        "type": "", 
+                        "slug": "moc"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "label attached to leg", 
+            "latitude": "37.48759800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 59426, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 470705, 
+                        "room": "", 
+                        "part_name": "Teddy bear [1]", 
+                        "museum_number": "B.391:1-1993", 
+                        "museumobject": 31007, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b39111993", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 59427, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 470704, 
+                        "room": "", 
+                        "part_name": "Teddy bear [2]", 
+                        "museum_number": "B.391:2-1993", 
+                        "museumobject": 31007, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "b39121993", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 31638, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 17
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "or", 
+                        "museumobject": 31007, 
+                        "role": "made", 
+                        "place": 17, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 31639, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 48
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "or", 
+                        "museumobject": 31007, 
+                        "role": "made", 
+                        "place": 48, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "b3911993", 
+            "object": "Teddy bear", 
+            "categories": [], 
+            "last_checked": "2014-03-31 20:55:38", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "teddy-bear", 
+            "sys_updated": "2013-11-14 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 17, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Japan", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 4003, 
+                        "longitude": "139.83828700", 
+                        "source": "production", 
+                        "cis_id": "x29399", 
+                        "museumobject_image_count": 1957, 
+                        "latitude": "37.48759800", 
+                        "type": "country", 
+                        "slug": "japan-x29399"
+                    }
+                }, 
+                {
+                    "pk": 48, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2
+                    }, 
+                    "fields": {
+                        "name": "Hong Kong", 
+                        "parent": 2, 
+                        "country": "China", 
+                        "museumobject_count": 1605, 
+                        "longitude": "114.15354200", 
+                        "source": "production", 
+                        "cis_id": "x30049", 
+                        "museumobject_image_count": 168, 
+                        "latitude": "22.41124900", 
+                        "type": "region", 
+                        "slug": "hong-kong-china-x30049"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1969, 
+            "object_number": "O35708", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "belonged to the donor, 1937-1992; see B 387-1993", 
+            "place": "Japan", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MoC"
+        }
+    }
+]
