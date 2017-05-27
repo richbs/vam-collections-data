@@ -1,0 +1,298 @@
+[
+    {
+        "pk": 85776, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.68-1959", 
+            "date_end": "1904-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plaque, jewellery, beaten aluminium set with yellow glass, designed by Talwin Morris, Glasgow, Scotland, about 1900", 
+            "shape": "", 
+            "longitude": "-4.24251000", 
+            "year_start": 1895, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1900 (made)", 
+            "primary_image_id": "2006AX8794", 
+            "rights": 3, 
+            "physical_description": "Plaque, beaten aluminium set with yellow glass.", 
+            "dimensions": "Height: 6.4 cm, Width: 3.3 cm, Depth: 1 cm", 
+            "title": "", 
+            "date_start": "1895-01-01", 
+            "materials_techniques": "Beaten aluminium set with a yellow glass jewel.", 
+            "last_processed": "2014-04-01 00:25:31", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 28, shelf B, box 2", 
+            "marks": "", 
+            "latitude": "55.85780000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 4, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glass", 
+                        "museumobject_count": 2754, 
+                        "source": "cis_materials", 
+                        "cis_id": "10797", 
+                        "museumobject_image_count": 1489, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 261, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "aluminium", 
+                        "museumobject_count": 197, 
+                        "source": "cis_materials", 
+                        "cis_id": "11015", 
+                        "museumobject_image_count": 88, 
+                        "type": "", 
+                        "slug": "aluminium"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 146277, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "2", 
+                        "case": "28", 
+                        "inventory_number": 539266, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.68-1959", 
+                        "museumobject": 85776, 
+                        "shelf": "B", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "circ681959", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 15802, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1911-12-31", 
+                        "surname": "", 
+                        "name": "Talwin Morris", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1911, 
+                        "source": "object_production", 
+                        "cis_id": "A8675", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1865-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "morris-talwin", 
+                        "birth_year": 1865
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 82196, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 223
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85776, 
+                        "role": "made", 
+                        "place": 223, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ681959", 
+            "object": "Plaque", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }, 
+                {
+                    "pk": 70, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Accessories", 
+                        "museumobject_count": 9759, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3296, 
+                        "type": "", 
+                        "slug": "accessories"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:25:31", 
+            "public_access_description": "Glasgow at the turn of the 19th and 20th centuries was developing its own distinctive style. Influenced by links to Europe and themes such as symbolist art, Art Nouveau and Japanese design, Glaswegian designers were producing more abstract, linear motifs, as reflected in this plaque.  \n\nIt was made by Talwin Morris, who also designed books for the Glasgow publisher Blackie & Son. Morris was close to other well known Glaswegian figures, including Charles Rennie Mackintosh and his wife Margaret MacDonald.", 
+            "exhibition_history": "", 
+            "bibliography": "'Modern Design in Jewellery and Fans' in <font -u>Studio</font -u> magazine, 1901-02.", 
+            "vanda_exhibition_history": "", 
+            "slug": "plaque-morris-talwin", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 57159, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:29", 
+                        "priority": 0, 
+                        "image_id": "2006AX8794", 
+                        "sys_id": 198794, 
+                        "last_checked": "2014-03-31 17:20:29", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX8794.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57013, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:27", 
+                        "priority": 1, 
+                        "image_id": "2006AX8640", 
+                        "sys_id": 198640, 
+                        "last_checked": "2014-03-31 17:20:27", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX8640.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 223, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4975
+                    }, 
+                    "fields": {
+                        "name": "Glasgow", 
+                        "parent": 4975, 
+                        "country": "Scotland", 
+                        "museumobject_count": 247, 
+                        "longitude": "-4.24251000", 
+                        "source": "production", 
+                        "cis_id": "x28891", 
+                        "museumobject_image_count": 115, 
+                        "latitude": "55.85780000", 
+                        "type": "city/town", 
+                        "slug": "glasgow-scotland-x28891"
+                    }
+                }
+            ], 
+            "artist": "Morris, Talwin", 
+            "namecontext_set": [
+                {
+                    "pk": 101270, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 15802
+                    }, 
+                    "fields": {
+                        "name": 15802, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85776, 
+                        "role": "designer and maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1904, 
+            "object_number": "O110927", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Made in Glasgow. Designed and executed by Talwin Morris. Illustrated in 'Modern Design in Jewellery and Fans' in the <font -u>Studio</font> magazine, 1901-02.", 
+            "place": "Glasgow", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
