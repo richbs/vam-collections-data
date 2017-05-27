@@ -1,0 +1,253 @@
+[
+    {
+        "pk": 16813, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.429-1999", 
+            "date_end": "1992-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "27.02778100", 
+            "year_start": 1992, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25797, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Memory", 
+                        "museumobject_count": 8, 
+                        "source": "concept", 
+                        "cis_id": "254803", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "memory"
+                    }
+                }, 
+                {
+                    "pk": 25796, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Negative", 
+                        "museumobject_count": 2, 
+                        "source": "object", 
+                        "cis_id": "128343", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "negative"
+                    }
+                }, 
+                {
+                    "pk": 2822, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Anar", 
+                        "museumobject_count": 1, 
+                        "source": "place", 
+                        "cis_id": "x30707", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "anar"
+                    }
+                }
+            ], 
+            "date_text": "1992 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Rectangular image showing an installation in a snowy landscape: fifteen negatives of portrait photographs are arranged in a circle and lit by a light bulb suspended above them.", 
+            "dimensions": "Height: 72.2 cm, Width: 100.3 cm", 
+            "title": "Untitled from the series Imaginary Homecoming", 
+            "date_start": "1992-01-01", 
+            "materials_techniques": "Photographic paper: gelatin-silver process", 
+            "last_processed": "2014-03-31 19:52:37", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Limited edition", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "'Jorma Puranen 1992 / untitled from the series /\n\"Imaginary Homecoming\" / printed by J. Puranen in 1997 / 3/20'", 
+            "latitude": "68.90612000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 24980, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 610223, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "E.429-1999", 
+                        "museumobject": 16813, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "e4291999", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 4128, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Puranen, Jorma", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1933", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "puranen-jorma", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 17847, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 909
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 16813, 
+                        "role": "photographed", 
+                        "place": 909, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 17848, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 909
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 16813, 
+                        "role": "subject", 
+                        "place": 909, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e4291999", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:52:37", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Puranen, Jorma. Imaginary Homecoming Oulu (Finland): Kustantaja, 1999. 91p., ill\nThis monograph contains essays about the project of which this image is part. It is illustrated on pp. 86-87.", 
+            "vanda_exhibition_history": "", 
+            "slug": "untitled-from-the-series-imaginary-photograph-puranen-jorma", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 909, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4961
+                    }, 
+                    "fields": {
+                        "name": "Anar", 
+                        "parent": 4961, 
+                        "country": "Finland", 
+                        "museumobject_count": 2, 
+                        "longitude": "27.02778100", 
+                        "source": "production", 
+                        "cis_id": "x30707", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "68.90612000", 
+                        "type": "inhabited place", 
+                        "slug": "anar-finland-x30707"
+                    }
+                }
+            ], 
+            "artist": "Puranen, Jorma", 
+            "namecontext_set": [
+                {
+                    "pk": 17608, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4128
+                    }, 
+                    "fields": {
+                        "name": 4128, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 16813, 
+                        "role": "photographers", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1992, 
+            "object_number": "O12206", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Anar", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
