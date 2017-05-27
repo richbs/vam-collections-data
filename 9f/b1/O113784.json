@@ -1,0 +1,285 @@
+[
+    {
+        "pk": 88042, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.802-1926", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Case for oil of St. Walburga, partially gilded silver, Germany, 1700-1800.", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1700, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1700-1800 (made)", 
+            "primary_image_id": "2006BJ4282", 
+            "rights": 3, 
+            "physical_description": "Case for oil of St. Walburga. On one side the engraved image of the saint, on the other her initials SW; inside would have held a bottle with oil from her tomb in Eichst\u00e4tt.", 
+            "dimensions": "Height: 5 cm, Width: 2.7 cm, Depth: 1.8 cm", 
+            "title": "", 
+            "date_start": "1700-01-01", 
+            "materials_techniques": "Partially gilded silver", 
+            "last_processed": "2014-04-01 00:36:02", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 11, shelf D, box 3", 
+            "marks": "", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 149422, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "3", 
+                        "case": "11", 
+                        "inventory_number": 559366, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "M.802-1926", 
+                        "museumobject": 88042, 
+                        "shelf": "D", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m8021926", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 84645, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88042, 
+                        "role": "made", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m8021926", 
+            "object": "Case", 
+            "categories": [
+                {
+                    "pk": 3, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Containers", 
+                        "museumobject_count": 4829, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2686, 
+                        "type": "", 
+                        "slug": "containers"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:36:02", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "case-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 86311, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:49", 
+                        "priority": 0, 
+                        "image_id": "2006BJ4282", 
+                        "sys_id": 294282, 
+                        "last_checked": "2014-03-31 17:26:49", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ4282.jpg"
+                    }
+                }, 
+                {
+                    "pk": 86310, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:49", 
+                        "priority": 1, 
+                        "image_id": "2006BJ4281", 
+                        "sys_id": 294281, 
+                        "last_checked": "2014-03-31 17:26:49", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ4281.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 104229, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88042, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O113784", 
+            "events": [], 
+            "credit": "Lt. Col. G. B. Croft-Lyons Bequest", 
+            "history_note": "", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

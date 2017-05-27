@@ -1,0 +1,239 @@
+[
+    {
+        "pk": 9333, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.244-1984", 
+            "date_end": "1885-12-31", 
+            "labels": [
+                {
+                    "pk": 3362, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 9333, 
+                        "label_text": "British Galleries:\nLarge trays for serving tea and coffee could be expensive to buy. In 1869 the Elkington catalogue offered similar large trays (32 inches wide) for \u00a336 each."
+                    }
+                }
+            ], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-1.90860000", 
+            "year_start": 1885, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1885 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 9 cm, Width: 54 cm, Length: 82 cm", 
+            "title": "", 
+            "date_start": "1885-01-01", 
+            "materials_techniques": "Electroplate, with cast and applied handles and engraved ornament", 
+            "last_processed": "2014-03-31 19:20:03", 
+            "label": "British Galleries:\nLarge trays for serving tea and coffee could be expensive to buy. In 1869 the Elkington catalogue offered similar large trays (32 inches wide) for \u00a336 each. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 125b, case 2", 
+            "marks": "Engraved with unidentified coat of arms", 
+            "latitude": "52.47858800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 10988, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 326
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 570081, 
+                        "room": "125B", 
+                        "part_name": "", 
+                        "museum_number": "M.244-1984", 
+                        "museumobject": 9333, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 125b", 
+                        "museum_number_token": "m2441984", 
+                        "gallery": 326
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 326, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "125B", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 125b", 
+                        "site_code": "VA", 
+                        "museumobject_count": 149, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49893", 
+                        "museumobject_image_count": 146, 
+                        "type": "", 
+                        "slug": "125b-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1583, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Elkington & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 182, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1408", 
+                        "museumobject_image_count": 66, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "elkington-co", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 10140, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 23
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 9333, 
+                        "role": "made", 
+                        "place": 23, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m2441984", 
+            "object": "Tray", 
+            "categories": [
+                {
+                    "pk": 13, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tea, Coffee & Chocolate wares", 
+                        "museumobject_count": 2349, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1844, 
+                        "type": "", 
+                        "slug": "tea-coffee-chocolate-wares"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:20:03", 
+            "public_access_description": "Object Type\nLarge trays were used for serving tea and coffee at social occasions in the home. Servants could bring the tea equipment into the drawing room on the tray so that the hostess could  pour the tea there safely without fear of spillage. In 1888 Mrs Beeton's Book of Household Management advised that at a weekly 'at home' tea, 'The tea equipage is usually placed upon a silver salver.'\n\nThe Victorian Tea Service\nA complete tea service in one pattern and material was just one option for the Victorian household. Those consumers who could afford it were more likely to purchase a silver teapot, tea kettle and stand, milk jug and sugar bowl to use with porcelain cups and saucers. Domestic advice manuals advised the housewife to buy this sort of tea ware and cutlery as the minimum quantity of silver that a respectable household should own. Electroplated nickel silver (a cheaper, plated alternative ) was an accepted substitute for silver. The tea tray was one of the most expensive items of tea equipment. In 1896 the Goldsmiths' and Silversmiths' Company advertised 24-inch silver trays for \u00a332, four times the cost of a silver teapot or coffee pot. Electroplated trays were a cheaper and socially acceptable alternative at between a half and a third of the silver price. In 1869 the manufacturers Elkington & Co. offered similar electroplated tea trays in their catalogue for \u00a315.\n\nFood & Drink\nThe Victorians introduced the formal afternoon tea, taken at about 4 o'clock, and  by the 1880s it had become an institution. Weekly 'at home' teas were an opportunity for visiting friends and exchanging gossip.  Only tea, bread and butter and cake or fruit were offered to guests at these gatherings. However, Mrs Beeton's  Book of Household Management for 1888 lists a number of different events at which tea played an important role, from large social gatherings such as wedding teas and musical entertainment to smaller family teas.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "tray-elkington-co", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 23, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 6562
+                    }, 
+                    "fields": {
+                        "name": "Birmingham", 
+                        "parent": 6562, 
+                        "country": "England", 
+                        "museumobject_count": 1154, 
+                        "longitude": "-1.90860000", 
+                        "source": "production", 
+                        "cis_id": "x28748", 
+                        "museumobject_image_count": 449, 
+                        "latitude": "52.47858800", 
+                        "type": "city / town", 
+                        "slug": "birmingham-england-x28748"
+                    }
+                }
+            ], 
+            "artist": "Elkington & Co.", 
+            "namecontext_set": [
+                {
+                    "pk": 9002, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1583
+                    }, 
+                    "fields": {
+                        "name": 1583, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 9333, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1885, 
+            "object_number": "O78503", 
+            "events": [], 
+            "credit": "Given by Elkington & Co. Ltd.", 
+            "history_note": "Manufactured by Elkington & Co, Birmingham", 
+            "place": "Birmingham", 
+            "production_note": "Date mark for 1885", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
