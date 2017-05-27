@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 18024, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.3053-2004", 
+            "date_end": "1939-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Still life with tulips', vintage gelatin-silver print, photographed in 1939 by Ilse Bing (1899-1998).", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1939, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 4, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flowers", 
+                        "museumobject_count": 11618, 
+                        "source": "object", 
+                        "cis_id": "x35571", 
+                        "museumobject_image_count": 9046, 
+                        "type": "", 
+                        "slug": "flowers"
+                    }
+                }, 
+                {
+                    "pk": 336, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "tulips", 
+                        "museumobject_count": 183, 
+                        "source": "object", 
+                        "cis_id": "x35467", 
+                        "museumobject_image_count": 132, 
+                        "type": "", 
+                        "slug": "tulips"
+                    }
+                }
+            ], 
+            "date_text": "1939 (photographed)\n1939-40 (Printed)", 
+            "primary_image_id": "", 
+            "rights": 1, 
+            "physical_description": "This gelatin-silver print shows two tulips and a glass.", 
+            "dimensions": "Height: 19.7 cm print goes to edge of paper, Width: 27.7 cm print goes to edge of paper", 
+            "title": "Still Life with ^tulips", 
+            "date_start": "1939-01-01", 
+            "materials_techniques": "Gelatin-silver print on Agfa Brovira paper", 
+            "last_processed": "2014-03-31 19:57:58", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X913, box H", 
+            "marks": "'[1084 -377-D5]'\n 'ILSE BING 1939'", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 16, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Modernist", 
+                        "museumobject_count": 174, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21474", 
+                        "museumobject_image_count": 90, 
+                        "type": "", 
+                        "slug": "modernist"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 27024, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "H", 
+                        "case": "X913", 
+                        "inventory_number": 719306, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "E.3053-2004", 
+                        "museumobject": 18024, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "e30532004", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 220, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1998-12-31", 
+                        "surname": "", 
+                        "name": "Bing, Ilse", 
+                        "gender": null, 
+                        "museumobject_count": 54, 
+                        "death_year": 1998, 
+                        "source": "object_production", 
+                        "cis_id": "A13062", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1899-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bing-ilse", 
+                        "birth_year": 1899
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 19096, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 18024, 
+                        "role": "photographed", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e30532004", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:57:58", 
+            "public_access_description": "Ilse Bing (1899-1998) was one of several leading women photographers in the inter-war period. Born into a Jewish family in Frankfurt, she initially pursued an academic career before moving to Paris in 1930 to concentrate on photography.\n\nIn the early 1930s Bing had been a prolific photographer, well-known for her modernist, journalistic city scenes. This photograph was taken during a period when Bing made few photographs and felt that she had \u2018said what I had to say\u2019. It demonstrates her skill in photographing still-life, an unusual subject for her. The sharp angles, steep perspective and focus on light and shade, typical of her images of buildings, add to the beauty of this delicate image.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "still-life-with-tulips-photograph-bing-ilse", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Bing, Ilse", 
+            "namecontext_set": [
+                {
+                    "pk": 19138, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 220
+                    }, 
+                    "fields": {
+                        "name": 220, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 18024, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1939, 
+            "object_number": "O117619", 
+            "events": [], 
+            "credit": "Bequeathed by Ilse Bing Wolff", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "probably printed 1939-1945", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

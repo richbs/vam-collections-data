@@ -1,0 +1,320 @@
+[
+    {
+        "pk": 56387, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1635-2000", 
+            "date_end": "1890-12-31", 
+            "labels": [], 
+            "descriptive_line": "Glass stereograph of the Place de la Concorde, Paris.  France, ca. 1860-1890.", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1855, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 55477, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stereograph", 
+                        "museumobject_count": 1033, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 241, 
+                        "type": "", 
+                        "slug": "stereograph"
+                    }
+                }, 
+                {
+                    "pk": 1490, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Paris", 
+                        "museumobject_count": 903, 
+                        "source": "place", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 611, 
+                        "type": "", 
+                        "slug": "paris"
+                    }
+                }, 
+                {
+                    "pk": 27639, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "tourism", 
+                        "museumobject_count": 133, 
+                        "source": "concept", 
+                        "cis_id": "132466", 
+                        "museumobject_image_count": 21, 
+                        "type": "", 
+                        "slug": "tourism"
+                    }
+                }, 
+                {
+                    "pk": 24814, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "squares", 
+                        "museumobject_count": 69, 
+                        "source": "object", 
+                        "cis_id": "55637", 
+                        "museumobject_image_count": 53, 
+                        "type": "", 
+                        "slug": "squares"
+                    }
+                }, 
+                {
+                    "pk": 55486, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stereoscopic", 
+                        "museumobject_count": 31, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "stereoscopic"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1860 - 1890 (Made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Glass stereograph of the Place de la Concorde, Paris.", 
+            "dimensions": "", 
+            "title": "Place de la Concorde", 
+            "date_start": "1855-01-01", 
+            "materials_techniques": "Glass and photographic positive transparency", 
+            "last_processed": "2014-03-31 22:19:21", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case ABOVE MX7, shelf X773, box B", 
+            "marks": "", 
+            "latitude": "46.71244800", 
+            "techniques": [
+                {
+                    "pk": 258, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "photography", 
+                        "museumobject_count": 4332, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54225", 
+                        "museumobject_image_count": 1243, 
+                        "type": "", 
+                        "slug": "photography"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 4, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glass", 
+                        "museumobject_count": 2754, 
+                        "source": "cis_materials", 
+                        "cis_id": "10797", 
+                        "museumobject_image_count": 1489, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 105273, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "ABOVE MX7", 
+                        "inventory_number": 689480, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.1635-2000", 
+                        "museumobject": 56387, 
+                        "shelf": "X773", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e16352000", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 52498, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 56387, 
+                        "role": "Made", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 52499, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 56387, 
+                        "role": "subject", 
+                        "place": 39, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e16352000", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }, 
+                {
+                    "pk": 1616, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tourism & Travel", 
+                        "museumobject_count": 7798, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5241, 
+                        "type": "", 
+                        "slug": "tourism-travel"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:19:21", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "place-de-la-concorde-photograph", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1890, 
+            "object_number": "O62571", 
+            "events": [], 
+            "credit": "Given by Mrs Sheila Ring", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "Made by unknown French artist.", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
