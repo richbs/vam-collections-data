@@ -1,0 +1,371 @@
+[
+    {
+        "pk": 55000, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.6-2003", 
+            "date_end": "1999-12-31", 
+            "labels": [], 
+            "descriptive_line": "Medal, silver cast, with dark patination, 'Leda and the Hat Pin', a reworking of the classical myth, Leda and the Swan, by Linda Crook, England (London), 1999", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1999, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 20, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "birds", 
+                        "museumobject_count": 2898, 
+                        "source": "object", 
+                        "cis_id": "x35043", 
+                        "museumobject_image_count": 2184, 
+                        "type": "", 
+                        "slug": "birds"
+                    }
+                }, 
+                {
+                    "pk": 23977, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "women", 
+                        "museumobject_count": 2280, 
+                        "source": "object", 
+                        "cis_id": "25943", 
+                        "museumobject_image_count": 1251, 
+                        "type": "", 
+                        "slug": "women"
+                    }
+                }, 
+                {
+                    "pk": 23951, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "mythology", 
+                        "museumobject_count": 274, 
+                        "source": "concept", 
+                        "cis_id": "55985", 
+                        "museumobject_image_count": 169, 
+                        "type": "", 
+                        "slug": "mythology"
+                    }
+                }, 
+                {
+                    "pk": 317, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "feathers", 
+                        "museumobject_count": 101, 
+                        "source": "object", 
+                        "cis_id": "x35691", 
+                        "museumobject_image_count": 63, 
+                        "type": "", 
+                        "slug": "feathers"
+                    }
+                }, 
+                {
+                    "pk": 117, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "swans", 
+                        "museumobject_count": 100, 
+                        "source": "object", 
+                        "cis_id": "x30241", 
+                        "museumobject_image_count": 56, 
+                        "type": "", 
+                        "slug": "swans"
+                    }
+                }, 
+                {
+                    "pk": 26095, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Leda", 
+                        "museumobject_count": 30, 
+                        "source": "name", 
+                        "cis_id": "N202", 
+                        "museumobject_image_count": 29, 
+                        "type": "", 
+                        "slug": "leda"
+                    }
+                }
+            ], 
+            "date_text": "1999 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Medal, 'Leda and the Hat Pin', silver, cast, with dark patination.  Leda of the classical legend with the Swan, but given a new twist to show the Swan as the victim of Leda.", 
+            "dimensions": "Diameter: 7.5 cm, Depth: 0.8 cm", 
+            "title": "Leda and the Hatpin", 
+            "date_start": "1999-01-01", 
+            "materials_techniques": "Silver, cast, with dark patination", 
+            "last_processed": "2014-03-31 22:14:51", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR16", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 103487, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR16", 
+                        "inventory_number": 705476, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.6-2003", 
+                        "museumobject": 55000, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a62003", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10049, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Crook, Linda", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11525", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "crook-linda", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 4622, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Leda", 
+                        "gender": null, 
+                        "museumobject_count": 32, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N202", 
+                        "museumobject_image_count": 31, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "leda", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 51437, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 55000, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a62003", 
+            "object": "Medal", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 89, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Coins & Medals", 
+                        "museumobject_count": 2602, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 654, 
+                        "type": "", 
+                        "slug": "coins-medals"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:14:51", 
+            "public_access_description": "This art medal shows how contemporary artist Linda Crook found inspiration in Greek myths. The classical legend of Leda and the Swan is given a new twist in this piece-- freeing Leda from the 'victim' role by making the Swan Leda's prey. \n\nIn 'Leda and the Hat Pin' we see the concluding episode of the story, hitherto unpublished. The swan is unable to escape being made into a fancy hat--which Leda tidies up nicely with a hat pin. The reverse of the medal shows that the hat pin might be a feather plucked from the swan.", 
+            "exhibition_history": "", 
+            "bibliography": "Trusted, Marjorie, ed. <u>The Making of Sculpture. The Materials and Techniques of European Sculpture</u>. London: 2007, p. 91, pl. 158\n<u>The Medal</u>, Spring 2000, no. 36, pp 127-128, ill. p. 128", 
+            "vanda_exhibition_history": "", 
+            "slug": "leda-and-the-hatpin-medal-crook-linda", 
+            "sys_updated": "2013-12-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Crook, Linda", 
+            "namecontext_set": [
+                {
+                    "pk": 59441, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10049
+                    }, 
+                    "fields": {
+                        "name": 10049, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 55000, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 59442, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4622
+                    }, 
+                    "fields": {
+                        "name": 4622, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 55000, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1999, 
+            "object_number": "O89640", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Purchased from the artist in 2003.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

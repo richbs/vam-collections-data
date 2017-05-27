@@ -1,0 +1,359 @@
+[
+    {
+        "pk": 543966, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "25784", 
+            "date_end": "1699-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, half-length portrait of James II in armour, engraving by Pierre Giffart, late 17th century.", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1650, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24484, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "armour", 
+                        "museumobject_count": 907, 
+                        "source": "object", 
+                        "cis_id": "36745", 
+                        "museumobject_image_count": 592, 
+                        "type": "", 
+                        "slug": "armour"
+                    }
+                }, 
+                {
+                    "pk": 667, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "king", 
+                        "museumobject_count": 343, 
+                        "source": "object", 
+                        "cis_id": "x31541", 
+                        "museumobject_image_count": 150, 
+                        "type": "", 
+                        "slug": "king"
+                    }
+                }, 
+                {
+                    "pk": 24016, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "James (II, King of England)", 
+                        "museumobject_count": 27, 
+                        "source": "name", 
+                        "cis_id": "N2017", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "james-ii-king-of-england"
+                    }
+                }
+            ], 
+            "date_text": "late 17th century (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, half-length portrait of James II wearing armour and a long wig.", 
+            "dimensions": "Height: 66.4 cm, Width: 48.9 cm", 
+            "title": "Magnae Britanniae Rex &c.  Jacobus Dei Gratia; James II", 
+            "date_start": "1650-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-26 13:27:49", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PP, shelf 19", 
+            "marks": "'Magnae Britanniae Rex &c.  Jacobus Dei Gratia.   A Paris chez P. Giffart Graveur du Roy et deso Academie Royle de Peinture et Sculpture. rue St. Iacq, a l'image Ste. Therese avec pr. de sa Mt\u00e9.''", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 24215, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7670, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 36, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "French School", 
+                        "museumobject_count": 2157, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31263", 
+                        "museumobject_image_count": 1382, 
+                        "type": "", 
+                        "slug": "french-school"
+                    }
+                }, 
+                {
+                    "pk": 62, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Stuart", 
+                        "museumobject_count": 189, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21037", 
+                        "museumobject_image_count": 115, 
+                        "type": "", 
+                        "slug": "stuart"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 678473, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PP", 
+                        "inventory_number": 1178245, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "25784", 
+                        "museumobject": 543966, 
+                        "shelf": "19", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "25784", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 73734, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1723-12-31", 
+                        "surname": "", 
+                        "name": "Pierre Giffart", 
+                        "gender": null, 
+                        "museumobject_count": 138, 
+                        "death_year": 1723, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH316345", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": "1638-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pierre-giffart", 
+                        "birth_year": 1638
+                    }
+                }, 
+                {
+                    "pk": 166, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1701-09-05", 
+                        "surname": "", 
+                        "name": "James II King of England, Scotland and Ireland Duke of York", 
+                        "gender": null, 
+                        "museumobject_count": 29, 
+                        "death_year": 1701, 
+                        "source": "content", 
+                        "cis_id": "N2017", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": "1633-11-14", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "james-ii-king-of-england", 
+                        "birth_year": 1633
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 340015, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 543966, 
+                        "role": "printed", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "25784", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 18, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Royalty", 
+                        "museumobject_count": 4112, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1830, 
+                        "type": "", 
+                        "slug": "royalty"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 13:27:49", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "magnae-britanniae-rex-c-jacobus-print-pierre-giffart", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38331, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29743, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Pierre Giffart", 
+            "namecontext_set": [
+                {
+                    "pk": 441426, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 73734
+                    }, 
+                    "fields": {
+                        "name": 73734, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 543966, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 441427, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 166
+                    }, 
+                    "fields": {
+                        "name": 166, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 543966, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1699, 
+            "object_number": "O630569", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
