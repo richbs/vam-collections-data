@@ -1,0 +1,313 @@
+[
+    {
+        "pk": 14453, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.116[O]", 
+            "date_end": "1845-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting by Charles Robert Leslie entitled 'Le Bourgeois Gentilhomme' (Moliere, 'Le Bourgeois Gentilhomme' Act III, Scene 3).  Great Britain, 1841.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1836, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24757, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sword", 
+                        "museumobject_count": 455, 
+                        "source": "object", 
+                        "cis_id": "204570", 
+                        "museumobject_image_count": 296, 
+                        "type": "", 
+                        "slug": "sword"
+                    }
+                }, 
+                {
+                    "pk": 30959, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Fencing", 
+                        "museumobject_count": 5, 
+                        "source": "object", 
+                        "cis_id": "204578", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "fencing"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1841 (painted)", 
+            "primary_image_id": "2006AE9118", 
+            "rights": 3, 
+            "physical_description": "Oil painting depicting characters fencing from Moliere's 'Le Bourgeois Gentilhomme', (Act III, Scene 3).", 
+            "dimensions": "Height: 61 cm estimate, Width: 97.7 cm estimate", 
+            "title": "Le Bourgeois Gentilhomme", 
+            "date_start": "1836-01-01", 
+            "materials_techniques": "Oil on canvas", 
+            "last_processed": "2014-03-31 19:42:40", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 82, case EAST WALL", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 21729, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 507
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EAST WALL", 
+                        "inventory_number": 93176, 
+                        "room": "82", 
+                        "part_name": "", 
+                        "museum_number": "FA.116[O]", 
+                        "museumobject": 14453, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 82", 
+                        "museum_number_token": "fa116o", 
+                        "gallery": 507
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 507, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "82", 
+                        "site_name": "", 
+                        "name": "Paintings, room 82", 
+                        "site_code": "VA", 
+                        "museumobject_count": 78, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49712", 
+                        "museumobject_image_count": 75, 
+                        "type": "", 
+                        "slug": "82-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 522, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1859-12-31", 
+                        "surname": "", 
+                        "name": "Charles Robert Leslie", 
+                        "gender": null, 
+                        "museumobject_count": 31, 
+                        "death_year": 1859, 
+                        "source": "object_production", 
+                        "cis_id": "A8612", 
+                        "museumobject_image_count": 24, 
+                        "forename": "", 
+                        "birth_date": "1794-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "leslie-charles-robert-ra", 
+                        "birth_year": 1794
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15461, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 14453, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa116o", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:42:40", 
+            "public_access_description": "The scene comes from Moli\u00e8re's satirical comedy The Bourgeois Gentleman, which was first performed in 1670. Monsieur Jourdain wishes to be thought of as a gentleman. In demonstrating his new fencing skills to his maidservant Nicole, he is embarrassed to be struck several times by her foil. His wife looks on in amusement.\nLeslie was brought up in the United States, but worked in London. He was a friend and biographer of the landscape painter John Constable.", 
+            "exhibition_history": "", 
+            "bibliography": "<i>Catalogue of British Oil Paintings 1820-1860</i>, Ronald Parkinson, Victoria and Albert Museum, London: HMSO, 1990, pp. 165-66\nThe following is the full text of the entry:\n\n\n\"<B>LESLIE, Charles Robert, RA</b> (1794-1859) \nBorn London 19 October 1794, eldest son of American parents, with whom he went to Philadelphia 1799. Apprenticed to a publisher 1808, received a few lessons in painting from Thomas Sully. A subscription was raised to enable him to study art in Europe; returned.to London 1811, entered RA Schools and studied with Benjamin West and Washington Allston. Visited Paris 1817 with Allston and Wilkie Collins, met G S Newton, with whom he visited Brussels and Antwerp. Also friend and biographer (published 1843) of John Constable. Exhibited 76 works at the RA between 1813 and 1859, and 11 at the BI 1815-32. Some were portraits, but most were his much admired literary subjects, particularly drawn from Cervantes, Moliere, Shakespeare and Steme. Elected ARA 1821, RA 1826. Several of his works were engraved, and he made six illustrations for Sir WaIter Scott's Waverley novels 1824. Worked for six months as drawing master at West Point Military Academy, New York State, 1833. Professor of Painting at RA 1848-52; his lectures were published as a <U>Handbook for Young Painters</u> (1855). His <u>Life of Reynolds</u> was finished by Tom Taylor and published 1865. Died St John's Wood, London, 5 May 1859. An exhibition at the RA of  30 of his works was held winter 1870. His two sons, George Dunlop and Robert, were also artists. The <u>Athenaeum </u>critic (9 May 1846, p480) wrote that he was 'unrivalled for the certainty of his powers, the <i>wi</i>t of his pencil, the deep knowledge of human nature as exhibited in the more ordinary scenes of life'.\n\nLIT: <u>Art JournaI</u>1856, pp73-5 and 105-7, 1859, p187 (obit); C R Leslie <u>Autobiographical Recollections</u> ed T Taylor, 2 vols, 1860; J Dafforne <u>Pictures by C R Leslie </u> nd [1875]; <u>Art ]ournaI</u>1902, pp 144-8; J Constable <u>The Letters of John Constable and C R Leslie</u> 1931; ed R B Beckett John <u>Constable's Correspondence</u> III, Ipswich 1965 \n\n<b>Le Bourgeois Gentilhomme</b> \nFAl16 Negs 57432, CT8278 \nCanvas, 61 X 97.7 cm (24 X 38\u00bd ins) \nSheepshanks Gift 1857 \n\nExhibited at the RA in 1841, and painted for John Sheepshanks. The following quotation was appended to the title in the RA catalogue: \n<i>M Jourdain</i>: Tout beau \n                          Hola! Oh! Doucement \n\t              Diantre soit la coquine! \t \n<i>Nicole</i>: Vous me dites de pousser \n<i>M Jourdain</i>: Oui; mais tu ma pousses en tierce, avant que de pousser en quarte, et tu n'as pas la patience que je pare. \n\nThe lines are from Moliere's <i>Le Bourgeois Gentilhomme</i> (first performed 1670), act 3 scene 3. In demonstrating his new skill in fencing to his maidservant Nicole, Jourdain is immediately struck several times by her foil; his wife watches with amusement on the left. \nFor further comment on the use of Moliere's plays made by artists in the 19th century, see under Frith 537-1882 p103. There were two other versions of the subject; according to Taylor <u>(Leslie</u>, II p262), one painted for Lord Holland, (Leslie also exhibited 'The Library at Holland House, with portraits' at the RA in 1841), the other owned by the Birmingham collector Joseph Gillott. The latter does not seem to have been included in Gillott's sale at Christie's 19 April-4 May 1872. A drawing similar to the present composition was lithographed in 1840 by Maxim Gauci (for 'Evening Sketches by A E Chalon ... '). \nThe<u> Athenaeum</u> critic commented on the popularity of the subject, and admired Leslie's treatment of it: \n\nWe are never tired of laughing at the fencing match betwixt Monsieur Jourdain and the loquacious Nicole, - no wonder then, that artists should never be tired of painting it! Mr Leslie has done his best; and the best of those who have undertaken the subject in our experience. His<i> femme de chamber</i> maintains her ground with such a firm foot, and grasps 'her tool' with such a warlike fist . . . Caution, the consciousness of being dressed with a wonderful splendour are in every line of the retired merchant's face and attitude. The colouring, too, is clear, without being gaudy. \n\nThe <u>Art Union</u> took a more lofty tone, and disliked Leslie's colouring: \n\nA rich example of character, full of point and humour, and admirably illustrative of the scene. It is in most respects a production of unapproachable excellence, in the class to which it belongs; that class, to be sure, is not the highest; and it is matter for regret that the painter does not deal with more elevated and worthier themes. Mr Leslie's views of life are so shrewd, and his perception, and portraying, of character so strong, that he is borne safely through peculiarities of colour, that would seriously injure a lesser man. We cannot, however, avoid expressing a regret that this 'one fault' appears verging towards an unpleasant extreme. Either all the usual theories of colouring are misplaced, or the arrangements of colour, and the agremens of chiaro-oscuro are mere artistical 'nugae' in the eyes of this accomplished artist. \n\nTaylor <u>(Leslie</u> I, plxii) thought the present version of the subject 'slight and sketchy, but full of spirit in the action, and of truthful indication in the light and shadow'. He found the Gillott version 'richer in colour and more solidly painted'. He added 'The Jourdain in both is perfect as a conception of character, and it would be impossible to convey better the suddenness and irresistible fury of Nicole's attack. She has not even thought it worth while to lay aside her besom'. The 'sketchiness' of the present work was also noted by Waagen and Chancellor. But the conveying of character was always admired; the Redgraves, for example, thought the figures in the present work 'the very individuals the author dreamt of, and the spectator anticipated'. \n\nEXH: RA 1841 (52) \n\n\nRonald Parkinson\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "le-bourgeois-gentilhomme-oil-painting-leslie-charles-robert", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 39341, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-11 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:37", 
+                        "priority": 0, 
+                        "image_id": "2006AE9118", 
+                        "sys_id": 49118, 
+                        "last_checked": "2014-03-31 17:16:37", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE9118.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Leslie, Charles Robert (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 14681, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 522
+                    }, 
+                    "fields": {
+                        "name": 522, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14453, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1845, 
+            "object_number": "O80884", 
+            "events": [], 
+            "credit": "Given by John Sheepshanks, 1857", 
+            "history_note": "Given by John Sheepshanks, 1857", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
