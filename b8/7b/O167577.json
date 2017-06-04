@@ -1,0 +1,356 @@
+[
+    {
+        "pk": 133800, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.42&A-1964", 
+            "date_end": "1952-12-31", 
+            "labels": [], 
+            "descriptive_line": "Earthenware egg dish and cover in the shape of a hen, with diaper decoration in black and yellow, designed by Kaarina Aho 1952, made by Arabia, Helsinki, 1957.", 
+            "shape": "", 
+            "longitude": "24.93258100", 
+            "year_start": 1952, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1641, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "hen", 
+                        "museumobject_count": 30, 
+                        "source": "object", 
+                        "cis_id": "x35667", 
+                        "museumobject_image_count": 25, 
+                        "type": "", 
+                        "slug": "hen"
+                    }
+                }
+            ], 
+            "date_text": "1952 (designed)\n1957 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Earthenware egg dish and cover in the shape of a hen, with painted diaper decoration in black and yellow under the glaze.", 
+            "dimensions": "Length: 18.5 cm", 
+            "title": "", 
+            "date_start": "1952-01-01", 
+            "materials_techniques": "Earthenware with coloured glaze", 
+            "last_processed": "2014-04-01 03:48:28", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 5, shelf 3", 
+            "marks": "A crown and 'ARABIA MADE IN FINLAND 2'", 
+            "latitude": "60.17116200", 
+            "techniques": [
+                {
+                    "pk": 28, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painted", 
+                        "museumobject_count": 27627, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30138", 
+                        "museumobject_image_count": 22711, 
+                        "type": "", 
+                        "slug": "painted"
+                    }
+                }, 
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 2, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Earthenware", 
+                        "museumobject_count": 13054, 
+                        "source": "cis_materials", 
+                        "cis_id": "x29356", 
+                        "museumobject_image_count": 11225, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }, 
+                {
+                    "pk": 135, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glaze", 
+                        "museumobject_count": 2900, 
+                        "source": "cis_materials", 
+                        "cis_id": "15091", 
+                        "museumobject_image_count": 2542, 
+                        "type": "", 
+                        "slug": "glaze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 207910, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "5", 
+                        "inventory_number": 78651, 
+                        "room": "140", 
+                        "part_name": "Cover", 
+                        "museum_number": "CIRC.42-1964", 
+                        "museumobject": 133800, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ421964", 
+                        "gallery": 348
+                    }
+                }, 
+                {
+                    "pk": 207911, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "5", 
+                        "inventory_number": 78652, 
+                        "room": "140", 
+                        "part_name": "Dish", 
+                        "museum_number": "CIRC.42A-1964", 
+                        "museumobject": 133800, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ42a1964", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 37835, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1990-12-31", 
+                        "surname": "", 
+                        "name": "Aho, Kaarina", 
+                        "gender": null, 
+                        "museumobject_count": 5, 
+                        "death_year": 1990, 
+                        "source": "object_production", 
+                        "cis_id": "A23188", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": "1925-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "aho-kaarina", 
+                        "birth_year": 1925
+                    }
+                }, 
+                {
+                    "pk": 7719, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Arabia factory", 
+                        "gender": null, 
+                        "museumobject_count": 154, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A7286", 
+                        "museumobject_image_count": 149, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "arabia-factory", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 132995, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1491
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 133800, 
+                        "role": "made", 
+                        "place": 1491, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ421964", 
+            "object": "Egg dish and cover", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 55, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Earthenware", 
+                        "museumobject_count": 10312, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8875, 
+                        "type": "", 
+                        "slug": "earthenware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:48:28", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Opie, Jennifer Hawkins. <u>Scandinavia: ceramics & glass in the twentieth century</u>. London: V&A Publications, 1989. 64 p., ill. ISBN 1851770712.\n'This egg container, or egg-hen, was designed to be accompanied by matching egg rings. It was originally on loan to the museum's Department of Circulation which arranged a travelling exhibition of Scandinavian ceramics in 1957.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "egg-dish-and-aho-kaarina", 
+            "sys_updated": "2014-01-14 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1491, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5235
+                    }, 
+                    "fields": {
+                        "name": "Helsinki", 
+                        "parent": 5235, 
+                        "country": "Finland", 
+                        "museumobject_count": 170, 
+                        "longitude": "24.93258100", 
+                        "source": "production", 
+                        "cis_id": "x35753", 
+                        "museumobject_image_count": 156, 
+                        "latitude": "60.17116200", 
+                        "type": "city / town", 
+                        "slug": "helsinki-finland-x35753"
+                    }
+                }
+            ], 
+            "artist": "Aho, Kaarina", 
+            "namecontext_set": [
+                {
+                    "pk": 163580, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 37835
+                    }, 
+                    "fields": {
+                        "name": 37835, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 133800, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 163581, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 7719
+                    }, 
+                    "fields": {
+                        "name": 7719, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 133800, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1952, 
+            "object_number": "O167577", 
+            "events": [], 
+            "credit": "Given by the maker", 
+            "history_note": "", 
+            "place": "Helsinki", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
