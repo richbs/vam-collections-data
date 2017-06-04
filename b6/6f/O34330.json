@@ -1,0 +1,269 @@
+[
+    {
+        "pk": 1107, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.18-2000", 
+            "date_end": "1904-12-31", 
+            "labels": [], 
+            "descriptive_line": "Moustache spoon, silver, made by John Round & Son Ltd. 1904-1905; England", 
+            "shape": "", 
+            "longitude": "-1.46454400", 
+            "year_start": 1904, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1904 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 2.5 cm, Width: 5 cm, Length: 22.5 cm", 
+            "title": "", 
+            "date_start": "1904-01-01", 
+            "materials_techniques": "Silver", 
+            "last_processed": "2014-03-31 18:54:52", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 122b, case 2", 
+            "marks": "", 
+            "latitude": "53.38311000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1624, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 993
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 613740, 
+                        "room": "122B", 
+                        "part_name": "", 
+                        "museum_number": "M.18-2000", 
+                        "museumobject": 1107, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 122b", 
+                        "museum_number_token": "m182000", 
+                        "gallery": 993
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 993, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "122B", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 122b", 
+                        "site_code": "VA", 
+                        "museumobject_count": 30, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49224", 
+                        "museumobject_image_count": 30, 
+                        "type": "", 
+                        "slug": "122b-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 485, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "John Round & Son Ltd", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A3489", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "john-round-son-ltd", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 1064, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 9
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1107, 
+                        "role": "made", 
+                        "place": 9, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m182000", 
+            "object": "Moustache spoon", 
+            "categories": [
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 88, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tableware & cutlery", 
+                        "museumobject_count": 3324, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1415, 
+                        "type": "", 
+                        "slug": "tableware-cutlery"
+                    }
+                }, 
+                {
+                    "pk": 95, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Eating", 
+                        "museumobject_count": 3064, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1185, 
+                        "type": "", 
+                        "slug": "eating"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 18:54:52", 
+            "public_access_description": "Object Type\nThis spoon is a typical example of a piece of Victorian specialist cutlery. It was developed for  one purpose only. Many Victorian gentlemen followed the fashion for large moustaches which could be disfigured by food. This special spoon was made with a guard on one side of the bowl to protect the moustache when eating soup. Some of the spoons had detachable guards for general use and examples were made for both right and left handed users.\n\nManufacturers\nThe spoon was manufactured by the  firm of John Round & Son Ltd. They described themselves as 'The largest Spoon and Fork  Makers in the World ' and although their factory was in Sheffield, the main  showrooms  were in London. They made cutlery in electroplated nickel silver (nickel alloy coated with a thin layer of silver  by means of an electric current) as well as silver, and supplied ships, hotels, and clubs as well as the home.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "moustache-spoon-john-round-son", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 9, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3343
+                    }, 
+                    "fields": {
+                        "name": "Sheffield", 
+                        "parent": 3343, 
+                        "country": "England", 
+                        "museumobject_count": 841, 
+                        "longitude": "-1.46454400", 
+                        "source": "production", 
+                        "cis_id": "x29138", 
+                        "museumobject_image_count": 416, 
+                        "latitude": "53.38311000", 
+                        "type": "city/town", 
+                        "slug": "sheffield-england-x29138"
+                    }
+                }
+            ], 
+            "artist": "John Round & Son Ltd.", 
+            "namecontext_set": [
+                {
+                    "pk": 1367, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 485
+                    }, 
+                    "fields": {
+                        "name": 485, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1107, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1904, 
+            "object_number": "O34330", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "John Round & Sons Ltd,", 
+            "place": "Sheffield", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

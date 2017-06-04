@@ -1,0 +1,272 @@
+[
+    {
+        "pk": 610822, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.998-1961", 
+            "date_end": "1913-12-31", 
+            "labels": [], 
+            "descriptive_line": "Ernest Joseph Laurent, Portrait of Lily Freeland, full-length, standing, left profile, wearing ancient Greek costume, her right arm raised. Study for the panel entitled \"History\", etc. Made by the artist for the vestibule of the great amphitheatre in the Sorbonne, Paris, 1913\nFrench School", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1913, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48070, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "portrait", 
+                        "museumobject_count": 1508, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 475, 
+                        "type": "", 
+                        "slug": "portrait"
+                    }
+                }
+            ], 
+            "date_text": "1913 (made)", 
+            "primary_image_id": "2012FF1027", 
+            "rights": 3, 
+            "physical_description": "Portrait of Lily Freeland, full-length, standing, left profile, wearing ancient Greek costume, her right arm raised.", 
+            "dimensions": "Height: 64.14 cm, Width: 43.18 cm", 
+            "title": "", 
+            "date_start": "1913-01-01", 
+            "materials_techniques": "Pastel on toned paper", 
+            "last_processed": "2014-04-26 15:20:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 109", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 75, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pastel", 
+                        "museumobject_count": 264, 
+                        "source": "cis_materials", 
+                        "cis_id": "x32662", 
+                        "museumobject_image_count": 90, 
+                        "type": "", 
+                        "slug": "pastel"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 745477, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PD", 
+                        "inventory_number": 1100212, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.998-1961", 
+                        "museumobject": 610822, 
+                        "shelf": "109", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e9981961", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 57601, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1929-12-31", 
+                        "surname": "", 
+                        "name": "Laurent, Ernest Joseph", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1929, 
+                        "source": "object_production", 
+                        "cis_id": "A36069", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1859-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "laurent-ernest", 
+                        "birth_year": 1859
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 359278, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 610822, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e9981961", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:20:56", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1960 and 1961 </u> London: HMSO, 1964\nThe full text of the entry is as follows: \n\n\"<b>LAURENT, Ernest Joseph (1859-1929)</b> \n... \nPortrait of Lily Freeland, full-length, standing, left profile, wearing ancient Greek costume, her right arm raised. Study for the panel entitled 'History, etc. Made by the artist for the vestibule of the great amphitheatre in the Sorbonne, Paris, 1913. \n<i>Pastel and toned paper.</i>                 E.998-1961 \n\nBequeathed by Miss Lily Freeland\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "drawing-laurent-ernest", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 280920, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-07-11 00:00:00", 
+                        "last_processed": "2014-04-25 14:41:46", 
+                        "priority": 0, 
+                        "image_id": "2012FF1027", 
+                        "sys_id": 1101027, 
+                        "last_checked": "2014-04-25 14:41:46", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2012FF/2012FF1027.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38331, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29743, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Laurent, Ernest", 
+            "namecontext_set": [
+                {
+                    "pk": 469416, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 57601
+                    }, 
+                    "fields": {
+                        "name": 57601, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 610822, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1913, 
+            "object_number": "O701962", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
