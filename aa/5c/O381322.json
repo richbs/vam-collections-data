@@ -1,0 +1,306 @@
+[
+    {
+        "pk": 319129, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.392-1967", 
+            "date_end": "1963-12-31", 
+            "labels": [], 
+            "descriptive_line": "Cantilever fluorescent desk lamp, aluminium and steel, Birmingham, 1964, made by Best and Lloyd, designed by Gerald Abramovitz.", 
+            "shape": "", 
+            "longitude": "-1.90860000", 
+            "year_start": 1961, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1961-1963 (designed)\n1964 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Cantilever fluorescent desk lamp, anodised aluminium with a steel base.", 
+            "dimensions": "Height: 48.5 cm, Length: 68.5 cm", 
+            "title": "", 
+            "date_start": "1961-01-01", 
+            "materials_techniques": "Anodised aluminium with a steel base.", 
+            "last_processed": "2014-04-01 12:20:34", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Mass produced", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Twentieth Century, room 74, case CA1, box 30", 
+            "marks": "41555 Mark 2", 
+            "latitude": "52.47858800", 
+            "techniques": [
+                {
+                    "pk": 209, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "stamping", 
+                        "museumobject_count": 219, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x34899", 
+                        "museumobject_image_count": 92, 
+                        "type": "", 
+                        "slug": "stamping"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 33, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "steel", 
+                        "museumobject_count": 1527, 
+                        "source": "cis_materials", 
+                        "cis_id": "133751", 
+                        "museumobject_image_count": 834, 
+                        "type": "", 
+                        "slug": "steel"
+                    }
+                }, 
+                {
+                    "pk": 261, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "aluminium", 
+                        "museumobject_count": 197, 
+                        "source": "cis_materials", 
+                        "cis_id": "11015", 
+                        "museumobject_image_count": 88, 
+                        "type": "", 
+                        "slug": "aluminium"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 431337, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 499
+                    }, 
+                    "fields": {
+                        "box": "30", 
+                        "case": "CA1", 
+                        "inventory_number": 560979, 
+                        "room": "74", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.392-1967", 
+                        "museumobject": 319129, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Twentieth Century, room 74", 
+                        "museum_number_token": "circ3921967", 
+                        "gallery": 499
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 499, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "74", 
+                        "site_name": "", 
+                        "name": "Twentieth Century, room 74", 
+                        "site_code": "VA", 
+                        "museumobject_count": 307, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49720", 
+                        "museumobject_image_count": 177, 
+                        "type": "", 
+                        "slug": "74-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 61718, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Abramovitz, Gerald", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A39192", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "abramovitz-gerald", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 61719, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Best & Lloyd", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A39194", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "best-lloyd", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 236014, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 23
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 319129, 
+                        "role": "made", 
+                        "place": 23, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ3921967", 
+            "object": "Desk lamp", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 78, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Lighting", 
+                        "museumobject_count": 1184, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 554, 
+                        "type": "", 
+                        "slug": "lighting"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 12:20:34", 
+            "public_access_description": "Gerald Abramovitz started work on the design of this lamp in 1961 with the intention of producing a light source that would give local but diffused light and which would satisfactorily relate with modern desk furniture.  The results were presented to Best & Lloyd in 1963 in the form of working drawings and a prototype.  Further modifications were made by the company's design engineers in collaboration with Abramovitz to improve the lamp technically and to make production simpler and more economical.  The Mark 2 version has been further amended to conform to British Standard requirements.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "desk-lamp-abramovitz-gerald", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 23, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 6562
+                    }, 
+                    "fields": {
+                        "name": "Birmingham", 
+                        "parent": 6562, 
+                        "country": "England", 
+                        "museumobject_count": 1154, 
+                        "longitude": "-1.90860000", 
+                        "source": "production", 
+                        "cis_id": "x28748", 
+                        "museumobject_image_count": 449, 
+                        "latitude": "52.47858800", 
+                        "type": "city / town", 
+                        "slug": "birmingham-england-x28748"
+                    }
+                }
+            ], 
+            "artist": "Abramovitz, Gerald", 
+            "namecontext_set": [
+                {
+                    "pk": 318682, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 61718
+                    }, 
+                    "fields": {
+                        "name": 61718, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 319129, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 318683, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 61719
+                    }, 
+                    "fields": {
+                        "name": 61719, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 319129, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1963, 
+            "object_number": "O381322", 
+            "events": [], 
+            "credit": "Gift of the manufacturer", 
+            "history_note": "Historical significance: Winner of the Design Centre Award in 1966.", 
+            "place": "Birmingham", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

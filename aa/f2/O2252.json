@@ -1,0 +1,277 @@
+[
+    {
+        "pk": 3874, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.119-1924", 
+            "date_end": "1681-12-31", 
+            "labels": [
+                {
+                    "pk": 949, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 3874, 
+                        "label_text": "The only mug with Ravenscroft's raven head seal"
+                    }
+                }
+            ], 
+            "descriptive_line": "Mug, England (London), George Ravenscroft, probably at the Savoy glasshouse, 1677-1677.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1672, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1677 (made)", 
+            "primary_image_id": "2006AP3954", 
+            "rights": 3, 
+            "physical_description": "Clear glass mug with mould blown ribbing.  Mount: silver, worn illegible hallmark", 
+            "dimensions": "Height: 8.6 cm", 
+            "title": "", 
+            "date_start": "1672-01-01", 
+            "materials_techniques": "Clear glass, with mould-blown ribbing and silver mount", 
+            "last_processed": "2014-03-31 19:02:53", 
+            "label": "The only mug with Ravenscroft's raven head seal", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 21, shelf 1", 
+            "marks": "raven's head", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 4, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glass", 
+                        "museumobject_count": 2754, 
+                        "source": "cis_materials", 
+                        "cis_id": "10797", 
+                        "museumobject_image_count": 1489, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 4891, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "21", 
+                        "inventory_number": 359135, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.119-1924", 
+                        "museumobject": 3874, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c1191924", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 879, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1683-06-07", 
+                        "surname": "", 
+                        "name": "Ravenscroft, George", 
+                        "gender": null, 
+                        "museumobject_count": 15, 
+                        "death_year": 1683, 
+                        "source": "object_production", 
+                        "cis_id": "A8775", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": "1632-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "ravenscroft-george", 
+                        "birth_year": 1632
+                    }
+                }, 
+                {
+                    "pk": 878, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Savoy Glasshouse", 
+                        "gender": null, 
+                        "museumobject_count": 13, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A373", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "savoy-glasshouse", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 4136, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 3874, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c1191924", 
+            "object": "Mug", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:02:53", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "R J Charleston, English Glass (1968) pl.16 R J Charleston, English Glass (1984) pl.25a", 
+            "vanda_exhibition_history": "", 
+            "slug": "mug-ravenscroft-george", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 16585, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:11:43", 
+                        "priority": 0, 
+                        "image_id": "2006AP3954", 
+                        "sys_id": 133954, 
+                        "last_checked": "2014-03-31 17:11:43", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AP/2006AP3954.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Ravenscroft, George", 
+            "namecontext_set": [
+                {
+                    "pk": 2959, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 879
+                    }, 
+                    "fields": {
+                        "name": 879, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 3874, 
+                        "role": "glass-maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 2960, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 878
+                    }, 
+                    "fields": {
+                        "name": 878, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 3874, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1681, 
+            "object_number": "O2252", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

@@ -1,0 +1,335 @@
+[
+    {
+        "pk": 91416, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "261&A-1869", 
+            "date_end": "1838-12-31", 
+            "labels": [], 
+            "descriptive_line": "Gold pendant cross (croix de Rouen) with slide, set with crystals, Normandy (France), early 19th century.", 
+            "shape": "", 
+            "longitude": "4.84991500", 
+            "year_start": 1819, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 77, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cross", 
+                        "museumobject_count": 555, 
+                        "source": "object", 
+                        "cis_id": "x31528", 
+                        "museumobject_image_count": 330, 
+                        "type": "", 
+                        "slug": "cross"
+                    }
+                }
+            ], 
+            "date_text": "1819-1838 (made)", 
+            "primary_image_id": "2006BJ7634", 
+            "rights": 3, 
+            "physical_description": "[Cross] Stylised cross, consisting of a curved lozenge of thin sheet gold, pierced in a floral pattern, set with numerous tiny rock crystals and four raised stepped cones set with circles of stones.  The lowest element is a matching fan-shaped pendant.  A wide trapezoid loop at the top for suspension.\n[Locket] Heart-shaped disc of pierced gold sheet, with a stepped heart, set with tiers of crystals, in the centre, and two angular horizontal loops at the back", 
+            "dimensions": "[Cross] Height: 9.7 cm, Width: 9.1 cm, Depth: 1.9 cm\n[Locket] Height: 6.5 cm, Width: 6.2 cm, Depth: 2.2 cm", 
+            "title": "", 
+            "date_start": "1819-01-01", 
+            "materials_techniques": "Pierced gold sheet set with crystals", 
+            "last_processed": "2014-04-01 00:50:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91 mezzanine, case 73, shelf B, box 6", 
+            "marks": "[Cross] chariot in shaped frame  French mark for 750 standard gold, North District, 1819-1838\n[Cross] 'JC' in lozenge  Unknown maker's mark\n[Locket] 'HP' in lozenge  Unknown maker's mark", 
+            "latitude": "50.12992000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 67, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Gold", 
+                        "museumobject_count": 6695, 
+                        "source": "cis_materials", 
+                        "cis_id": "11021", 
+                        "museumobject_image_count": 4435, 
+                        "type": "", 
+                        "slug": "gold"
+                    }
+                }, 
+                {
+                    "pk": 162, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "crystal", 
+                        "museumobject_count": 87, 
+                        "source": "cis_materials", 
+                        "cis_id": "10814", 
+                        "museumobject_image_count": 28, 
+                        "type": "", 
+                        "slug": "crystal"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 153926, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1080
+                    }, 
+                    "fields": {
+                        "box": "6", 
+                        "case": "73", 
+                        "inventory_number": 554798, 
+                        "room": "91M", 
+                        "part_name": "Cross", 
+                        "museum_number": "261-1869", 
+                        "museumobject": 91416, 
+                        "shelf": "B", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91 mezzanine", 
+                        "museum_number_token": "2611869", 
+                        "gallery": 1080
+                    }
+                }, 
+                {
+                    "pk": 153927, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1080
+                    }, 
+                    "fields": {
+                        "box": "6", 
+                        "case": "73", 
+                        "inventory_number": 554797, 
+                        "room": "91M", 
+                        "part_name": "Locket", 
+                        "museum_number": "261A-1869", 
+                        "museumobject": 91416, 
+                        "shelf": "B", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91 mezzanine", 
+                        "museum_number_token": "261a1869", 
+                        "gallery": 1080
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1080, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91M", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91 mezzanine", 
+                        "site_code": "VA", 
+                        "museumobject_count": 904, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49137", 
+                        "museumobject_image_count": 895, 
+                        "type": "", 
+                        "slug": "91m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 88245, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 95
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 91416, 
+                        "role": "made", 
+                        "place": 95, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "2611869", 
+            "object": "Cross", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:50:13", 
+            "public_access_description": "Crosses are the most distinctive element in French traditional jewellery.  Every French woman had one.  They usually wore them on a black velvet ribbon, fastened tightly round the neck like a choker, with a slide at the front.  The ribbon passes through the bale of the cross, and is then threaded through a hole or loop at the base of the slide, and out at either side.  The ribbon is tied in a bow at the back of the neck.\n\nNormandy has the greatest variety of crosses, some so elaborate as to be almost unrecognisable.  The croix de Rouen is one of the most extreme.  It is made from a lozenge of pierced metal, strewn with small faceted crystals and set with large conical mounts containing more of the same.  It is a comparatively late design, probably derived from the croix de Saint-L\u00f4, and was only worn in the Rouen area.  It was worn with a matching circular slide.\n\nCroix de Rouen were only made of gold, or gilt metal.  The size of them (often over 15cm long, like this one) astonished many tourists.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "cross-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 87234, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:27:01", 
+                        "priority": 0, 
+                        "image_id": "2006BJ7634", 
+                        "sys_id": 297634, 
+                        "last_checked": "2014-03-31 17:27:01", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ7634.jpg"
+                    }
+                }, 
+                {
+                    "pk": 87235, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:27:01", 
+                        "priority": 1, 
+                        "image_id": "2006BJ7635", 
+                        "sys_id": 297635, 
+                        "last_checked": "2014-03-31 17:27:01", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ7635.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 95, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 11
+                    }, 
+                    "fields": {
+                        "name": "Normandy", 
+                        "parent": 11, 
+                        "country": "France", 
+                        "museumobject_count": 88, 
+                        "longitude": "4.84991500", 
+                        "source": "production", 
+                        "cis_id": "x29041", 
+                        "museumobject_image_count": 40, 
+                        "latitude": "50.12992000", 
+                        "type": "region", 
+                        "slug": "normandy-france-x29041"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 108320, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 91416, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1838, 
+            "object_number": "O117988", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Normandy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
