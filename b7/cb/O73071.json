@@ -1,0 +1,437 @@
+[
+    {
+        "pk": 70202, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.36-1949", 
+            "date_end": "1710-12-31", 
+            "labels": [], 
+            "descriptive_line": "Relief, ivory, Saint George and the Dragon, South Germany (perhaps Munich), ca. 1700-10", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1700, 
+            "exhibitions": [
+                {
+                    "pk": 76, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 1999, 
+                        "name": "A Grand Design - The Art of the Victoria and Albert Museum", 
+                        "date_end": "2000-01-16", 
+                        "museumobject_count": 279, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "1999-10-14", 
+                        "year_end": 2000, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 266, 
+                        "type": "", 
+                        "slug": "a-grand-design-the-art-of-the-victoria-and-albert-museum", 
+                        "date_text": "14/10/1999 - 16/01/2000"
+                    }
+                }, 
+                {
+                    "pk": 151, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 3839, 
+                        "year_start": 2001, 
+                        "name": "Precious: Objects and Changing Values", 
+                        "date_end": "2001-06-24", 
+                        "museumobject_count": 131, 
+                        "venue": "Millenium Galleries, Sheffield", 
+                        "date_start": "2001-04-02", 
+                        "year_end": 2001, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 125, 
+                        "type": "", 
+                        "slug": "precious-objects-and-changing-values", 
+                        "date_text": "02/04/2001 - 24/06/2001"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 14, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "dragon", 
+                        "museumobject_count": 410, 
+                        "source": "object", 
+                        "cis_id": "x30096", 
+                        "museumobject_image_count": 282, 
+                        "type": "", 
+                        "slug": "dragon"
+                    }
+                }, 
+                {
+                    "pk": 65930, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "George", 
+                        "museumobject_count": 21, 
+                        "source": "name", 
+                        "cis_id": "AUTH318661", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "george-auth318661"
+                    }
+                }
+            ], 
+            "date_text": "1700-1710 (made)", 
+            "primary_image_id": "2006AE3946", 
+            "rights": 3, 
+            "physical_description": "Ivory relief of St. George and the Dragon. The composition on this relief is derived from an engraving by the Florentine artist Antonio Tempesta (1555-1630). Variants of it exist in ivory and boxwood respectively.", 
+            "dimensions": "Height: 12.5 cm, Width: 8.7 cm", 
+            "title": "St George and the Dragon", 
+            "date_start": "1700-01-01", 
+            "materials_techniques": "Carved ivory", 
+            "last_processed": "2014-03-31 23:19:39", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR6", 
+            "marks": "", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 38, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ivory", 
+                        "museumobject_count": 2288, 
+                        "source": "cis_materials", 
+                        "cis_id": "11857", 
+                        "museumobject_image_count": 1575, 
+                        "type": "", 
+                        "slug": "ivory"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 123867, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR6", 
+                        "inventory_number": 88667, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.36-1949", 
+                        "museumobject": 70202, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a361949", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 76074, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1936-12-31", 
+                        "surname": "", 
+                        "name": "King George V", 
+                        "gender": null, 
+                        "museumobject_count": 23, 
+                        "death_year": 1936, 
+                        "source": "", 
+                        "cis_id": "AUTH318661", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": "1865-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "george-auth318661", 
+                        "birth_year": 1865
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 66320, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "south", 
+                        "museumobject": 70202, 
+                        "role": "made", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a361949", 
+            "object": "Relief", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 197, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Reliefs", 
+                        "museumobject_count": 519, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 294, 
+                        "type": "", 
+                        "slug": "reliefs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:19:39", 
+            "public_access_description": "Ivory was popular as a material for religious subjects, especially during the 17th and 18th centuries. German and Netherlandish artists were renowned for their dexterity in ivory carving. Their reliefs are masterpieces of composition and virtuosity. The relief was formerly ascribed to Dominicus Stainhart. The composition derived from an engraving by the Florentine artist Antonio Tempesta (1555-1630). Variants of it exist in ivory and boxwood respectively.", 
+            "exhibition_history": "Precious: Objects and Changing Values (The Millennium Galleries, Sheffield 02/04/2001-24/06/2001)\nA Grand Design - The Art of the Victoria and Albert Museum (Victoria and Albert Museum 12/10/1999-16/01/2000)", 
+            "bibliography": "Theuerkauff, C. \"Kunstst\u00fccke von Helfenbein\" - zum Werk der Gebr\u00fcder Stainhart'. <u>Alte und Moderne Kunst.</u> XVII, 1972, p. 33, fig. 10\nM. Baker and B. Richardson, eds. <u>A Grand Design. The Art of the Victoria and Albert Museum.</u> 1997, p. 211, cat. no. 80 (entry by M. Trusted). Catalogue of the exhibition held at Baltimore Museum of Art, Museum of Fine Arts, Boston, Royal Ontario Museum, Toronto, The Museum of Fine Arts, Houston, Fine Arts Museums of San Francisco, Victoria and Albert Museum, London, 1997\nCf. Tietze-Conrat, Erika. <u>Die Erfindung im Relief, ein Beitrag zur Geschichte der Kleinkunst.</u> Wien, XXXV. 1920/21, pp. 99-164\nCf. Peel, D. <u>From Pietro Lombardo to Houdon.</u> Uxfridge, 1969, no. 20\nTrusted, Marjorie, <u>Baroque & Later Ivories</u>, Victoria & Albert Museum, London, 2013, cat. no. 81", 
+            "vanda_exhibition_history": "", 
+            "slug": "st-george-and-the-dragon-relief-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 37510, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:14", 
+                        "priority": 0, 
+                        "image_id": "2006AE3946", 
+                        "sys_id": 43946, 
+                        "last_checked": "2014-03-31 17:16:14", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE3946.jpg"
+                    }
+                }, 
+                {
+                    "pk": 17759, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-06-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:11:59", 
+                        "priority": 1, 
+                        "image_id": "2006AR0467", 
+                        "sys_id": 140467, 
+                        "last_checked": "2014-03-31 17:11:59", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AR/2006AR0467.jpg"
+                    }
+                }, 
+                {
+                    "pk": 12852, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-01-29 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:56", 
+                        "priority": 2, 
+                        "image_id": "2006AN5599", 
+                        "sys_id": 125599, 
+                        "last_checked": "2014-03-31 17:10:56", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AN/2006AN5599.jpg"
+                    }
+                }, 
+                {
+                    "pk": 275431, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-07-11 00:00:00", 
+                        "last_processed": "2014-03-31 18:05:52", 
+                        "priority": 3, 
+                        "image_id": "2011FD2396", 
+                        "sys_id": 1082396, 
+                        "last_checked": "2014-03-31 18:05:52", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2011FD/2011FD2396.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 80321, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "formerly attributed to Dominik Stainhart", 
+                        "museumobject": 70202, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 80322, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 76074
+                    }, 
+                    "fields": {
+                        "name": 76074, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 70202, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1710, 
+            "object_number": "O73071", 
+            "events": [
+                {
+                    "pk": 172, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "St George and the Dragon", 
+                        "date_end": null, 
+                        "museumobject_count": 25, 
+                        "year_end": null, 
+                        "source": "subject", 
+                        "cis_id": "V270", 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "st-george-and-the-dragon-v270"
+                    }
+                }
+            ], 
+            "credit": "Given by Dr W. L. Hildburgh FSA", 
+            "history_note": "Given by Dr W.L. Hildburgh F.S.A. in 1949; formerly on loan from Dr Hildburgh. Sold by Ferdinand Knapp, Berlin to Hildburgh in 1931. The relief was said by Knapp to have been originally in the Hermitage, St Petersburg, but it seems to be incorrect, as it was never apparently in the Hermitage Collection.", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
