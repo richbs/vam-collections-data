@@ -1,0 +1,397 @@
+[
+    {
+        "pk": 483533, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.335-1959", 
+            "date_end": "1771-04-20", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of James McArdell, mezzotint by Richard Earlom after James McArdell, 1771.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1771, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 29804, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "plate", 
+                        "museumobject_count": 26, 
+                        "source": "object", 
+                        "cis_id": "42999", 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "plate"
+                    }
+                }, 
+                {
+                    "pk": 28942, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "engraver", 
+                        "museumobject_count": 15, 
+                        "source": "object", 
+                        "cis_id": "239410", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "engraver"
+                    }
+                }, 
+                {
+                    "pk": 56629, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "James McArdell", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "A8652", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "james-mcardell"
+                    }
+                }
+            ], 
+            "date_text": "20 April 1771 (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Portrait, half-length, facing slightly left, wearing a dark cloak and powdered wig, and holding an engraving tool..  On the left is a plate which the sitter is engraving.", 
+            "dimensions": "Height: 45.1 cm, Width: 32.7 cm", 
+            "title": "James McArdell", 
+            "date_start": "1771-04-20", 
+            "materials_techniques": "Mezzotint", 
+            "last_processed": "2014-04-01 18:46:03", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case EM, shelf 50", 
+            "marks": "'Jac. McArdel delin. 1765.  Richd. Earlom fecit.  R. Sayer Excudit.  London, Printed for Robt. Sayer, No.53 in Fleet Street, Published as the Act directs 20 April, 1771.'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 248, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "mezzotint", 
+                        "museumobject_count": 2106, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53233", 
+                        "museumobject_image_count": 813, 
+                        "type": "", 
+                        "slug": "mezzotint"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }, 
+                {
+                    "pk": 115, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Georgian", 
+                        "museumobject_count": 242, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21048", 
+                        "museumobject_image_count": 156, 
+                        "type": "", 
+                        "slug": "georgian"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 617967, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EM", 
+                        "inventory_number": 1256085, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.335-1959", 
+                        "museumobject": 483533, 
+                        "shelf": "50", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e3351959", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 39429, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1822-10-09", 
+                        "surname": "", 
+                        "name": "Earlom, Richard", 
+                        "gender": null, 
+                        "museumobject_count": 45, 
+                        "death_year": 1822, 
+                        "source": "object_production", 
+                        "cis_id": "A25905", 
+                        "museumobject_image_count": 13, 
+                        "forename": "", 
+                        "birth_date": "1743-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "earlom-richard", 
+                        "birth_year": 1743
+                    }
+                }, 
+                {
+                    "pk": 1137, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1765-06-01", 
+                        "surname": "", 
+                        "name": "McArdell, James", 
+                        "gender": null, 
+                        "museumobject_count": 67, 
+                        "death_year": 1765, 
+                        "source": "object_production", 
+                        "cis_id": "A8652", 
+                        "museumobject_image_count": 27, 
+                        "forename": "", 
+                        "birth_date": "1729-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mcardell-james", 
+                        "birth_year": 1729
+                    }
+                }, 
+                {
+                    "pk": 6163, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Robert Sayer", 
+                        "gender": null, 
+                        "museumobject_count": 94, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11668", 
+                        "museumobject_image_count": 60, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "robert-sayer", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 299911, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483533, 
+                        "role": "published", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e3351959", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:46:03", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1959 </u>. London: HMSO, 1964.\nThe full text of the entry is as follows:  \n \n\"<b>EARLOM, Richard (1742/3-1822)</b> [\u2026]\n \nJames McArdell (c.1729-1765), mezzotint engraver.  Portrait, half-length, facing slightly left.  (J.C.S.28; W.41.  Both 2nd state) \n<i>Lettered with name of sitter etc. and</i> Jac. McArdel delin. 1765.  Richd. Earlom fecit.  R. Sayer Excudit.  London, Printed for Robt. Sayer, No.53 in Fleet Street, Published as the Act directs 20 April, 1771. \n<i>Mezzotint.</i>  45.1 x 32.7 cm.             E.335-1959 \n \nGiven by Mrs. E. B. Westwood\"\nWessely, Joseph Edward. <u>Richard Earlom</u>. Hamburg: Haendcke & Lehmkuhl, 1886. 1 p.l., viii, 94 p.\nSmith, John Chaloner. <u>British Mezzotinto Portraits</u>. London: Henry Sotheran & Co., 1883.", 
+            "vanda_exhibition_history": "", 
+            "slug": "james-mcardell-print-earlom-richard", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Earlom, Richard", 
+            "namecontext_set": [
+                {
+                    "pk": 399624, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 39429
+                    }, 
+                    "fields": {
+                        "name": 39429, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483533, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 399625, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1137
+                    }, 
+                    "fields": {
+                        "name": 1137, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 483533, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 399626, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6163
+                    }, 
+                    "fields": {
+                        "name": 6163, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483533, 
+                        "role": "publisher", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 399627, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1137
+                    }, 
+                    "fields": {
+                        "name": 1137, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 483533, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1771, 
+            "object_number": "O568796", 
+            "events": [], 
+            "credit": "Given by Mrs. E. B. Westwood", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
