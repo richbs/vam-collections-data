@@ -1,0 +1,297 @@
+[
+    {
+        "pk": 612420, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2475-1921", 
+            "date_end": "1791-12-31", 
+            "labels": [], 
+            "descriptive_line": "Vultures plucking the flesh from the skeleton of a man by the seashore. Water-colour on paper. Possibly one of a series of 'Dreadful Deaths'. Thomas Rowlandson. 1791.", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1791, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24202, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Death", 
+                        "museumobject_count": 529, 
+                        "source": "name", 
+                        "cis_id": "N1975", 
+                        "museumobject_image_count": 325, 
+                        "type": "", 
+                        "slug": "death"
+                    }
+                }, 
+                {
+                    "pk": 24187, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "skeleton", 
+                        "museumobject_count": 53, 
+                        "source": "object", 
+                        "cis_id": "191778", 
+                        "museumobject_image_count": 43, 
+                        "type": "", 
+                        "slug": "skeleton"
+                    }
+                }, 
+                {
+                    "pk": 48392, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "vultures", 
+                        "museumobject_count": 8, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "vultures"
+                    }
+                }
+            ], 
+            "date_text": "1791 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Vultures plucking the flesh from the skeleton of a man by the seashore.", 
+            "dimensions": "Height: 7 3/8 in, Width: 10 1/2 in", 
+            "title": "Dreadful Deaths", 
+            "date_start": "1791-01-01", 
+            "materials_techniques": "Water-colour drawing on paper", 
+            "last_processed": "2014-04-26 15:24:04", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 203, box B", 
+            "marks": "<i>Rowlandson 1791</i>", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 39, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing (image-making)", 
+                        "museumobject_count": 4481, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54196", 
+                        "museumobject_image_count": 2635, 
+                        "type": "", 
+                        "slug": "drawing-image-making"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 1741, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "water-colour", 
+                        "museumobject_count": 3039, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1022, 
+                        "type": "", 
+                        "slug": "water-colour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 747160, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "PD", 
+                        "inventory_number": 1098154, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.2475-1921", 
+                        "museumobject": 612420, 
+                        "shelf": "203", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e24751921", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 4867, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1827-04-21", 
+                        "surname": "", 
+                        "name": "Rowlandson, Thomas", 
+                        "gender": null, 
+                        "museumobject_count": 358, 
+                        "death_year": 1827, 
+                        "source": "object_production", 
+                        "cis_id": "A2367", 
+                        "museumobject_image_count": 167, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rowlandson-thomas", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 360088, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 612420, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e24751921", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:24:04", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "dreadful-deaths-drawing-rowlandson-thomas", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Great Britain", 
+                        "museumobject_count": 44632, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13475, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-great-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Rowlandson, Thomas", 
+            "namecontext_set": [
+                {
+                    "pk": 470428, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4867
+                    }, 
+                    "fields": {
+                        "name": 4867, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 612420, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1791, 
+            "object_number": "O703693", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "This is apparently one of a series of 'Dreadful Deaths'.", 
+            "place": "England", 
+            "production_note": "Object is signed '<i>Rowlandson 1791</i>'. \nThis is apparently one of a series of 'Dreadful Deaths'.", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

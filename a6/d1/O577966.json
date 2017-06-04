@@ -1,0 +1,220 @@
+[
+    {
+        "pk": 492701, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.21422-1957", 
+            "date_end": "1685-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print by Jean Berain I", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1676, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23982, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "costume design", 
+                        "museumobject_count": 961, 
+                        "source": "object", 
+                        "cis_id": "163423", 
+                        "museumobject_image_count": 550, 
+                        "type": "", 
+                        "slug": "costume-design"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1681 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Costume design, lettered with title and 'J. Berin del. Jean Dolivar fe.'", 
+            "dimensions": "Height: 27.31 cm, Width: 19.05 cm", 
+            "title": "Habit d'Andymion...", 
+            "date_start": "1676-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 19:26:43", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case DT, shelf 10, box A", 
+            "marks": "'J. Berin del. Jean Dolivar fe.'", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 627135, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "DT", 
+                        "inventory_number": 1245925, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.21422-1957", 
+                        "museumobject": 492701, 
+                        "shelf": "10", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e214221957", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 14048, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1711-12-31", 
+                        "surname": "", 
+                        "name": "Jean B\u00e9rain I", 
+                        "gender": null, 
+                        "museumobject_count": 348, 
+                        "death_year": 1711, 
+                        "source": "object_production", 
+                        "cis_id": "A13072", 
+                        "museumobject_image_count": 179, 
+                        "forename": "", 
+                        "birth_date": "1638-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "berain-jean-the-elder", 
+                        "birth_year": 1638
+                    }
+                }
+            ], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "e214221957", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 1614, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Theatre", 
+                        "museumobject_count": 4763, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 874, 
+                        "type": "", 
+                        "slug": "theatre"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 19:26:43", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1957-1958 </u> London: HMSO, 1964\nThe full text of the entry is as follows: \n\n\"<b>BERAIN, Jean, I (1640-1711)</b> \n\nWeigert = Weigert, R.A.: <i>Jean I Berain Dessinateur de la Chambre et du Cabinet du Roi (1640-1711)</i>.  Paris, 1937. \n\nPlates (3 from a set of 7, including title-page), showing costumes from the ballet <i>La Triomphe de l'Amour</i>, music by J.-B. Lulli, libretto by P. Quinault, given by the Dauphin at St. Germain-en-Laye, 21 January 1681.  Engraved by Jean Dolivar after J. Berain I. \n<i>Engravings.</i>                    E.21422-21424-1957 \n\nGiven by the House of Worth \n\nHabit d'Andymion... (Weigert 125, 2nd state) \n<i>Lettered with title and</i> J. Berin del. Jean Dolivar fe.  [Le Pautre exc. Sous les Charniers St. Innocent.  Avec Privil.]                  E.21422-1957\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "habit-dandymion-print-berain-jean-the", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [], 
+            "artist": "B\u00e9rain, Jean (the Elder)", 
+            "namecontext_set": [
+                {
+                    "pk": 410114, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14048
+                    }, 
+                    "fields": {
+                        "name": 14048, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 492701, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1685, 
+            "object_number": "O577966", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

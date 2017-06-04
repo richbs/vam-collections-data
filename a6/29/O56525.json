@@ -1,0 +1,323 @@
+[
+    {
+        "pk": 50588, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.208[O]", 
+            "date_end": "1840-12-31", 
+            "labels": [
+                {
+                    "pk": 7819, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 50588, 
+                        "label_text": "British Galleries:\nThis view of Venice is not exact, but is Turner's impression of the city, which he visited several times. In particular, he experimented with the use of colour and light. Patrons of contemporary British art, like Sheepshanks who commissioned this painting, supported Turner's work at a time when it was not widely admired."
+                    }
+                }
+            ], 
+            "descriptive_line": "Oil painting entitled 'Venice from the Giudecca' by Joseph Mallord William Turner.  British School, 1840.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1840, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 187, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Venice", 
+                        "museumobject_count": 219, 
+                        "source": "place", 
+                        "cis_id": "x29237", 
+                        "museumobject_image_count": 70, 
+                        "type": "", 
+                        "slug": "venice"
+                    }
+                }
+            ], 
+            "date_text": "1840 (made)", 
+            "primary_image_id": "2006AM7613", 
+            "rights": 3, 
+            "physical_description": "Oil on canvas depicting Venice, The Salute and the Doge's Palace, from Guidecca", 
+            "dimensions": "Height: 61 cm, Width: 91.4 cm, Depth: 13 cm, Height: 90.5 cm framed, Width: 120.5 cm framed", 
+            "title": "Venice from the Giudecca", 
+            "date_start": "1840-01-01", 
+            "materials_techniques": "Oil on canvas", 
+            "last_processed": "2014-03-31 22:00:47", 
+            "label": "British Galleries:\nThis view of Venice is not exact, but is Turner's impression of the city, which he visited several times. In particular, he experimented with the use of colour and light. Patrons of contemporary British art, like Sheepshanks who commissioned this painting, supported Turner's work at a time when it was not widely admired. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 122h, case WN", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 97545, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 999
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WN", 
+                        "inventory_number": 92721, 
+                        "room": "122H", 
+                        "part_name": "", 
+                        "museum_number": "FA.208[O]", 
+                        "museumobject": 50588, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 122h", 
+                        "museum_number_token": "fa208o", 
+                        "gallery": 999
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 999, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "122H", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 122h", 
+                        "site_code": "VA", 
+                        "museumobject_count": 23, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49218", 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "122h-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 695, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1851-12-19", 
+                        "surname": "", 
+                        "name": "Turner", 
+                        "gender": null, 
+                        "museumobject_count": 3580, 
+                        "death_year": 1851, 
+                        "source": "object_production", 
+                        "cis_id": "A8934", 
+                        "museumobject_image_count": 62, 
+                        "forename": "", 
+                        "birth_date": "1775-04-23", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "turner-joseph-mallord-william-ra", 
+                        "birth_year": 1775
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 47955, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 41
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 50588, 
+                        "role": "subject", 
+                        "place": 41, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa208o", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:00:47", 
+            "public_access_description": "Object Type\nBefore photography, oil painting was a primary way of recording views of ancient cities, and many artists were commissioned to produce views of historic places.  Oil painting was a favoured and more durable painting medium than watercolour. It was also more expensive and time-consuming than watercolour.\n\nPeople\nWe take for granted nowadays that Turner is a great and significant painter, but it was not always so. The critical responses to this and particularly the other pictures, such as The Slave Ship, exhibited by him at the Royal Academy in 1840, were mostly harsh and insulting. Only the support of discerning collectors and connoisseurs of contemporary painting like John Sheepshanks enabled Turner to persist in painting the poetic and modern way he saw the world.\n\nSubjects Depicted\nHis romantic view of Venice is not strictly accurate in a photographic sense, but gives a vivid, dream-like impression of an ancient city under a beautiful sky. As so often in his works, the sea and the buildings in this painting are depicted with a theatrical grandeur.  Many artists before and since Turner's time have painted the city, but this is still one of the best known images.", 
+            "exhibition_history": "", 
+            "bibliography": "Martin Butlin and Evelyn Joll, <i>The Paintings of J.M.W. Turner</i>, London & New Haven 1977, vol. I, pp213--4 (cat no 38) Ronald Parkinson, <i>Catalogue of British Oil Paintings 1820-1860</i>, Victoria and Albert Museum, London: HMSO, 1990, pp. 282-83\nThe following is the full text of Parkinson's 1990 entry:\n\n\"TURNER,J M W, RA (1775-1851) \n\nBorn Covent Garden, London, 23 April 1775, son of a barber. Entered RA Schools 1789. In a long and exceptionally distinguished career, exhibited 259 works at the RA between 1790 and 1850 and 17 at the BI 1806-1846, predominantly landscapes, sometimes with historical themes. Generally considered the greatest painter in the history of British art. Died Chelsea, London, 19 December 1851 and buried in St Paul's Cathedral. Bequeathed his extensive collection of oil paintings and watercolours to the nation, now principally housed in the Clore wing of the Tate Gallery. \nLIT: \tM Butlin and E Joll The Paintings of] M W Turner 2 vols, 1977 (with full bibliography); A Wilton Turner 1979 \n\nVenice \nFA208 Negs GG1756, 33882 Canvas, 61 X 91.4 cm (24 X 36 ins) Sheepshanks Gift 1857 \nExhibited at the RA in 1840, and painted on commission for John Sheepshanks. The commission is confirmed by the existence of a letter from Turner to Sheepshanks of 29 January 1840, noted by Butlin and Joll. The full title given in the RA catalogue was 'Venice, from the canale della Giudecca, chiesa d. S. Maria della Salute, &c'. This and 'Venice, the Bridge of Sighs' (also exhibited at the RA 1840, now Tate Gallery) were the first paintings of the size that Turner thought most suitable for his Venetian subjects. \nThe Spectator critic (9 May 1840) described the 1840 exhibits, which included the famous 'Slave Ship' (Museum of Fine Arts, Boston), as 'flaring abortions' and (16 May) 'rhapsodies of Turner's insane pencil'. The present work was only singled out by Blackwood's Magazine in September: 'Turner again? Is there anything to enable us to put in a good word? There is. The sky is very natural, and has its due aerial perspective; all the rest is wretched: buildings as if built of snow by children in sport'. Waagen in 1854 (Treasures II, p305) found it 'Admirably conceived; but to my feeling too slight to be satisfactory'. In a text accompanying an engraving after the painting, the Art Journal (1864, p22) acclaimed the work as: \n\nA picture resplendent with sunshine, and animate with the bustle of Venetian commercial life. The view was apparently sketched on the Canal of the Giudecca; to the left rise the towers and domes of the church of Santa Maria della Salute; beyond this we have a prospective view of the Ducal Palace, above which peep the mosque-like domes of St Marco; and to the left of these the Campanile lifts its tall and graceful form ... the combination of Materiels is most picturesque, and the whole is seen under an effect at once brilliant and beautiful. \nButlin and Joll comment on the Blackwood's Magazine criticism quoted above: 'It is true that even today the domes of Santa Maria della Salute appear glaringly white and chalky', and point out the exceptional state of the work's preservation due to the air-tight case in which it was placed in 1893 (for fuller details, see N Brommelle in Museums Journal1962 (62), pp337--46, and Studies in Conservation 1964 (9), pp 140-52) . \nSimilar views are 'Bridge of Sighs, Ducal Palace ... Canaletti Painting' (exhibited RA 1833, now Tate Gallery) and, from further back, 'Ducal Palace, Dogano ... ' (exhibited RA 1841, now Dudley Peter Allen Memorial Art Museum, Oberlin, Ohio). A similar work is recorded in Lord Grimthorpe's collection at Easthorpe Hall, and another is in the Beaverbrook Art Gallery, Fredericton, New Brunswick; neither are accepted as by Turner by Butlin and Joll (for the latter, see J Mayne 'Two Hitherto Unrecorded Turners', Burlington Magazine XCVI, 1954, ppl8-19, and Butlin and Joll, I, p288, cat no 560). A copy of the work, apparently by Henry Scott Tuke, was recorded in a private collection in 1972. \nEXH: \tRA 1840 (71); Neue Nationalgalerie, Berlin 1972 (24) \nENGR: E Brandard, for the Turner Gallery 1859 \nL'T: \tButlin and Joll, I, pp213--4 (cat no 384) \n\nRonald Parkinson\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "venice-from-the-giudecca-oil-painting-turner-joseph-mallord", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 7900, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-01-15 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:54", 
+                        "priority": 0, 
+                        "image_id": "2006AM7613", 
+                        "sys_id": 117613, 
+                        "last_checked": "2014-03-31 17:09:54", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM7613.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 41, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2463
+                    }, 
+                    "fields": {
+                        "name": "Venice (city)", 
+                        "parent": 2463, 
+                        "country": "Italy", 
+                        "museumobject_count": 1878, 
+                        "longitude": "12.31849000", 
+                        "source": "production", 
+                        "cis_id": "x29237", 
+                        "museumobject_image_count": 936, 
+                        "latitude": "45.43825100", 
+                        "type": "city / town", 
+                        "slug": "venice-city-italy-x29237"
+                    }
+                }
+            ], 
+            "artist": "Turner, Joseph Mallord William (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 54120, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 695
+                    }, 
+                    "fields": {
+                        "name": 695, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 50588, 
+                        "role": "painter (artist)", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1840, 
+            "object_number": "O56525", 
+            "events": [], 
+            "credit": "Given by John Sheepshanks, 1857", 
+            "history_note": "Commissioned by John Sheepshanks in 1840, and given to the Museum in 1857.  By Joseph Mallord William Turner RA (born in London, 1775, died there in 1851)\n\nExhibited at the Royal Academy 1840\n\nHistorical significance: FA208 was exhibited at the Royal Academy in 1840 (71), and painted on commission for John Sheepshanks. The commission is confirmed by the existence of a letter from Turner to Sheepshanks of 29 January 1840, noted by Butlin and Joll. The full title given in the RA catalogue was 'Venice, from the canale della Giudecca, chiesa d. S. Maria della Salute, &c'. This and 'Venice, the Bridge of Sighs' (also exhibited at the RA 1840, now Tate Gallery) were the first paintings of the size that Turner thought most suitable for his Venetian subjects. \n\nThe Spectator critic (9 May 1840) described the 1840 exhibits, which included the famous 'Slave Ship' (Museum of Fine Arts, Boston), as 'flaring abortions' and (16 May) 'rhapsodies of Turner's insane pencil'. FA 208 was only singled out by Blackwood's Magazine in September: 'Turner again? Is there anything to enable us to put in a good word? There is. The sky is very natural, and has its due aerial perspective; all the rest is wretched: buildings as if built of snow by children in sport'. Waagen in 1854 (Treasures II, p305) found it 'Admirably conceived; but to my feeling too slight to be satisfactory'. In a text accompanying an engraving after the painting, the Art Journal (1864, p22) acclaimed the work as: \n\nA picture resplendent with sunshine, and animate with the bustle of Venetian commercial life. The view was apparently sketched on the Canal of the Giudecca; to the left rise the towers and domes of the church of Santa Maria della Salute; beyond this we have a prospective view of the Ducal Palace, above which peep the mosque-like domes of St Marco; and to the left of these the Campanile lifts its tall and graceful form ... the combination of Materiels is most picturesque, and the whole is seen under an effect at once brilliant and beautiful. \n\nButlin and Joll comment on the Blackwood's Magazine criticism quoted above: 'It is true that even today the domes of Santa Maria della Salute appear glaringly white and chalky', and point out the exceptional state of the work's preservation due to the air-tight case in which it was placed in 1893 (for fuller details, see N Brommelle in Museums Journal1962 (62), pp337--46, and Studies in Conservation 1964 (9), pp 140-52) . \nSimilar views are 'Bridge of Sighs, Ducal Palace ... Canaletti Painting' (exhibited RA 1833, now Tate Gallery) and, from further back, 'Ducal Palace, Dogano ... ' (exhibited RA 1841, now Dudley Peter Allen Memorial Art Museum, Oberlin, Ohio). A similar work is recorded in Lord Grimthorpe's collection at Easthorpe Hall, and another is in the Beaverbrook Art Gallery, Fredericton, New Brunswick; neither are accepted as by Turner by Butlin and Joll (for the latter, see J Mayne 'Two Hitherto Unrecorded Turners', Burlington Magazine XCVI, 1954, ppl8-19, and Butlin and Joll, I, p288, cat no 560). A copy of the work, apparently by Henry Scott Tuke, was recorded in a private collection in 1972. \n\nEngraved by E Brandard, for the Turner Gallery 1859", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "JMW Turner was born Covent Garden, London, 23 April 1775, son of a barber. Entered RA Schools 1789. In a long and exceptionally distinguished career, exhibited 259 works at the RA between 1790 and 1850 and 17 at the BI 1806-1846, predominantly landscapes, sometimes with historical themes. Generally considered the greatest painter in the history of British art. Died Chelsea, London, 19 December 1851 and buried in St Paul's Cathedral. Bequeathed his extensive collection of oil paintings and watercolours to the nation, now principally housed in the Clore wing of the Tate Gallery.", 
+            "collection_code": "PDP"
+        }
+    }
+]

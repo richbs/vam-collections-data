@@ -1,0 +1,243 @@
+[
+    {
+        "pk": 500146, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.5220-1958", 
+            "date_end": "1939-12-31", 
+            "labels": [], 
+            "descriptive_line": "Poster by Betty Pinney", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1939, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1939 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Poster, signed and dated 'Betty Pinney '39'.", 
+            "dimensions": "Height: 99.38 cm, Width: 63.18 cm", 
+            "title": "In Winter to your Recreations", 
+            "date_start": "1939-01-01", 
+            "materials_techniques": "Colour lithograph", 
+            "last_processed": "2014-04-01 19:48:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case Y, shelf 72, box 2", 
+            "marks": "'Betty Pinney '39'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18520, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3488, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 634580, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "2", 
+                        "case": "Y", 
+                        "inventory_number": 1238150, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.5220-1958", 
+                        "museumobject": 500146, 
+                        "shelf": "72", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e52201958", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 5795, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1982-12-27", 
+                        "surname": "", 
+                        "name": "Pinney, Betty", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": 1982, 
+                        "source": "object_production", 
+                        "cis_id": "A3021", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1907-08-17", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pinney-betty", 
+                        "birth_year": 1907
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 310813, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 500146, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e52201958", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 19:48:25", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1957-1958 </u> London: HMSO, 1964\nThe full text of the entry is as follows: \n\n\"<b>PINNEY, Betty</b> \n\nIn Winter to your Recreations.  Poster issued by the Southern Railway. \n<i>Signed and dated</i> Betty Pinney '39. \n<i>Colour lithograph.</i>              E.5220-1958 \n\nGiven by Mrs. T. E. Griffits\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "in-winter-to-your-recreations-poster-pinney-betty", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Pinney, Betty", 
+            "namecontext_set": [
+                {
+                    "pk": 413332, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5795
+                    }, 
+                    "fields": {
+                        "name": 5795, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 500146, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1939, 
+            "object_number": "O585412", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

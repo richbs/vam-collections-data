@@ -1,0 +1,258 @@
+[
+    {
+        "pk": 623262, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1776-1913", 
+            "date_end": "1880-12-31", 
+            "labels": [], 
+            "descriptive_line": "Full-size tracing (1 of 3) by Sir A. H. Layard of a fresco by Lorenzo Costa in the Chapel of St. Cecilia, Bologna.  Italy, ca. 1840-80.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1840, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 36618, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "frescoes", 
+                        "museumobject_count": 16, 
+                        "source": "object", 
+                        "cis_id": "177433", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "frescoes"
+                    }
+                }
+            ], 
+            "date_text": "1840-80 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Full-size tracing (1 of 3) depicting frescoes in the Chapel of St. Cecilia, Bologna.", 
+            "dimensions": "", 
+            "title": "Tracing of a fresco in the Chapel of St. Cecilia, Bologna", 
+            "date_start": "1840-01-01", 
+            "materials_techniques": "Tracing in pen", 
+            "last_processed": "2014-04-26 15:41:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case A, shelf 184", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 717, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "tracing", 
+                        "museumobject_count": 1173, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53439", 
+                        "museumobject_image_count": 92, 
+                        "type": "", 
+                        "slug": "tracing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 187, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen", 
+                        "museumobject_count": 2371, 
+                        "source": "cis_materials", 
+                        "cis_id": "x34758", 
+                        "museumobject_image_count": 1064, 
+                        "type": "", 
+                        "slug": "pen"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 758004, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "A", 
+                        "inventory_number": 1083135, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.1776-1913", 
+                        "museumobject": 623262, 
+                        "shelf": "184", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e17761913", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 34905, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1894-12-31", 
+                        "surname": "", 
+                        "name": "Austen Henry Layard", 
+                        "gender": null, 
+                        "museumobject_count": 181, 
+                        "death_year": 1894, 
+                        "source": "object_production", 
+                        "cis_id": "A21379", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1817-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "layard-austen-henry-sir-gcb", 
+                        "birth_year": 1817
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 362505, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 623262, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e17761913", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:41:09", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "tracing-of-a-fresco-in-drawing-layard", 
+            "sys_updated": "2013-10-22 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 13024, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5200, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Layard", 
+            "namecontext_set": [
+                {
+                    "pk": 474193, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 34905
+                    }, 
+                    "fields": {
+                        "name": 34905, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 623262, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1880, 
+            "object_number": "O716996", 
+            "events": [], 
+            "credit": "Presented by Miss Enid Du Cane", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
