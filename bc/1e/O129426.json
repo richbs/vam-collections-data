@@ -1,0 +1,214 @@
+[
+    {
+        "pk": 101204, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.822-1985", 
+            "date_end": "1971-12-31", 
+            "labels": [], 
+            "descriptive_line": "Wine label for Chateau Mouton Rothschild", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1971, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1971 (printed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Wine bottle label for Chateau Mouton Rothschild, vintage 1971. An abstract gouache by Wassily Kandinsky is reproduced at the head of the label", 
+            "dimensions": "Height: 15 cm, Width: 10.5 cm", 
+            "title": "", 
+            "date_start": "1971-01-01", 
+            "materials_techniques": "Colour half tone and line block", 
+            "last_processed": "2014-04-01 01:35:48", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "", 
+            "latitude": "46.71244800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 166988, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 1290792, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "E.822-1985", 
+                        "museumobject": 101204, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "e8221985", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 32696, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1944-12-31", 
+                        "surname": "", 
+                        "name": "Kandinsky, Wassily", 
+                        "gender": null, 
+                        "museumobject_count": 12, 
+                        "death_year": 1944, 
+                        "source": "object_production", 
+                        "cis_id": "A18268", 
+                        "museumobject_image_count": 12, 
+                        "forename": "", 
+                        "birth_date": "1866-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "kandinsky-wassily", 
+                        "birth_year": 1866
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 98372, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 101204, 
+                        "role": "printed", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e8221985", 
+            "object": "Print", 
+            "categories": [], 
+            "last_checked": "2014-04-01 01:35:48", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "print-kandinsky", 
+            "sys_updated": "2013-12-11 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "Kandinsky", 
+            "namecontext_set": [
+                {
+                    "pk": 120865, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32696
+                    }, 
+                    "fields": {
+                        "name": 32696, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 101204, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 120866, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32696
+                    }, 
+                    "fields": {
+                        "name": 32696, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 101204, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 120867, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32696
+                    }, 
+                    "fields": {
+                        "name": 32696, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 101204, 
+                        "role": "artist", 
+                        "order": 3
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1971, 
+            "object_number": "O129426", 
+            "events": [], 
+            "credit": "Given by Baroness Philippine de Rothschild", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "The heading of the label uses an image by Wassily Kandinsky", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

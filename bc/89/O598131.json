@@ -1,0 +1,288 @@
+[
+    {
+        "pk": 512601, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.76-1949", 
+            "date_end": "1778-12-31", 
+            "labels": [], 
+            "descriptive_line": "Trade card for Parisian Bookseller", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1778, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 1490, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Paris", 
+                        "museumobject_count": 903, 
+                        "source": "place", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 611, 
+                        "type": "", 
+                        "slug": "paris"
+                    }
+                }
+            ], 
+            "date_text": "1778 (printed)", 
+            "primary_image_id": "2009BX0472", 
+            "rights": 3, 
+            "physical_description": "Engraving advertising Derieu, bookseller, Paris, lettered with name and dated in ink 1778.", 
+            "dimensions": "Height: 1.875 in, Width: 2.875 in", 
+            "title": "", 
+            "date_start": "1778-01-01", 
+            "materials_techniques": "Engraving with lettering and manuscript", 
+            "last_processed": "2014-04-01 20:31:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case GG, shelf 65, box I", 
+            "marks": "\"sous la Premiere Colonnade du Vieux Louvre . . . a Paris. / 1778\"", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }, 
+                {
+                    "pk": 1230, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "manuscript", 
+                        "museumobject_count": 453, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "manuscript"
+                    }
+                }, 
+                {
+                    "pk": 1429, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lettering", 
+                        "museumobject_count": 10, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "lettering"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 647059, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "I", 
+                        "case": "GG", 
+                        "inventory_number": 1222612, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.76-1949", 
+                        "museumobject": 512601, 
+                        "shelf": "65", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e761949", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 322381, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 512601, 
+                        "role": "printed", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 322382, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 512601, 
+                        "role": "subject", 
+                        "place": 39, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e761949", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 21, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Advertising", 
+                        "museumobject_count": 4921, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 771, 
+                        "type": "", 
+                        "slug": "advertising"
+                    }
+                }, 
+                {
+                    "pk": 127, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Books", 
+                        "museumobject_count": 6157, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 322, 
+                        "type": "", 
+                        "slug": "books"
+                    }
+                }, 
+                {
+                    "pk": 133, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Printed pages & sheets", 
+                        "museumobject_count": 4097, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 392, 
+                        "type": "", 
+                        "slug": "printed-pages-sheets"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 20:31:25", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1949.</u> London: HMSO, 1961.\nThe full text of the entry is as follows:\n\n\"<b>ANONYMOUS : Advertisements and Show-cards</b>[...]\n\nAdvertisement of - Derieu, bookseller, Paris.\n<i>Lettered with name and</i> sous la Premiere Colonnade du Vieux Louvre . . . a Paris.\n<i>Dated in ink</i> 1778.\n<i>Engraving.   Cut to</i> 1\u215e x 2\u215e\nE.76-1949\nBequeathed by G. H. Gabb", 
+            "vanda_exhibition_history": "", 
+            "slug": "print", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 131888, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:36:17", 
+                        "priority": 0, 
+                        "image_id": "2009BX0472", 
+                        "sys_id": 400472, 
+                        "last_checked": "2014-03-31 17:36:17", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009BX/2009BX0472.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1778, 
+            "object_number": "O598131", 
+            "events": [], 
+            "credit": "Bequeathed by G. H. Gabb", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
