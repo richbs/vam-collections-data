@@ -1,0 +1,302 @@
+[
+    {
+        "pk": 252349, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.2:1 to 3-2009", 
+            "date_end": "1973-12-31", 
+            "labels": [], 
+            "descriptive_line": "Neckpiece, pendant and case 'Optical Titanium Diago'; Silver and titanium; designed and made by James Rivi\u00e8re; Italy, 1973", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1973, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1973 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Circular pendant of silver and multi-coloured striped titanium, hanging on a loop from a simple silver neckpiece", 
+            "dimensions": "Height: 215 mm, Width: 120 mm, Depth: 7 mm\n[case] Height: 38 mm, Width: 175 mm, Depth: 255 mm", 
+            "title": "Optical Titanio Diago", 
+            "date_start": "1973-01-01", 
+            "materials_techniques": "Silver and titanium", 
+            "last_processed": "2014-04-01 09:27:20", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 38, shelf D, box 5", 
+            "marks": "[pendant] J. Rivi\u00e8re '73 / PEZZO UNICO\n[pendant] J. Rivi\u00e8re '73 / 800\n[neckpiece] J. Rivi\u00e8re 1973 / 800\n[case] J. Rivi\u00e8re\n[case] J. Rivi\u00e8re / GIOIELLI D'ARTE MILANO", 
+            "latitude": "42.50299800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }, 
+                {
+                    "pk": 262, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "titanium", 
+                        "museumobject_count": 12, 
+                        "source": "cis_materials", 
+                        "cis_id": "11033", 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "titanium"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 333821, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "5", 
+                        "case": "38", 
+                        "inventory_number": 1383143, 
+                        "room": "91", 
+                        "part_name": "pendant", 
+                        "museum_number": "M.2:1-2009", 
+                        "museumobject": 252349, 
+                        "shelf": "D", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m212009", 
+                        "gallery": 516
+                    }
+                }, 
+                {
+                    "pk": 333822, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "5", 
+                        "case": "38", 
+                        "inventory_number": 1383145, 
+                        "room": "91", 
+                        "part_name": "neckpiece", 
+                        "museum_number": "M.2:2-2009", 
+                        "museumobject": 252349, 
+                        "shelf": "D", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m222009", 
+                        "gallery": 516
+                    }
+                }, 
+                {
+                    "pk": 333823, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 1383146, 
+                        "room": "", 
+                        "part_name": "case", 
+                        "museum_number": "M.2:3-2009", 
+                        "museumobject": 252349, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "m232009", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 50840, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Rivi\u00e8re, James", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A32022", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1949-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "riviere-james", 
+                        "birth_year": 1949
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 209286, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 252349, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m22009", 
+            "object": "Necklace", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 09:27:20", 
+            "public_access_description": "The 1970s saw much experimentation with new materials in jewellery. Amongst the most colourful was the refractory metal titanium, with its iridescent surface colouring achieved by passing controlled electric currents through the metal. This pendant by the Milan-based jeweller James Rivi\u00e8re (born 1949) is an interesting and relatively early example of titanium being used in jewellery. \n\nThe design of the pendant, with its layered patterning of parallel lines, was influenced by Op or Optical Art, and relates to themes being explored by Rivi\u00e8re from the late 1960s.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "optical-titanio-diago-necklace-riviere-james", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Rivi\u00e8re, James", 
+            "namecontext_set": [
+                {
+                    "pk": 288250, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 50840
+                    }, 
+                    "fields": {
+                        "name": 50840, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 252349, 
+                        "role": "designer and maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1973, 
+            "object_number": "O297185", 
+            "events": [], 
+            "credit": "Given by the Archivo Storico Rivi\u00e8re", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
