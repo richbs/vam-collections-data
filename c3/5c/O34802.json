@@ -1,0 +1,277 @@
+[
+    {
+        "pk": 30015, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "658-1869", 
+            "date_end": "1871-12-31", 
+            "labels": [
+                {
+                    "pk": 6597, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "1987-2006", 
+                        "museumobject": 30015, 
+                        "label_text": "'American and European Art and Design 1800-1900'\n\nThis candelabrum was purchased for \u00a348 from the Paris 1867 Exhibition."
+                    }
+                }
+            ], 
+            "descriptive_line": "Candelabrum in oxidised silver and parcel-gilt with embossed work, Denmark, ca.1867", 
+            "shape": "", 
+            "longitude": "9.51668000", 
+            "year_start": 1862, 
+            "exhibitions": [
+                {
+                    "pk": 117, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": 1878, 
+                        "name": "Paris Exhibition", 
+                        "date_end": "1878-12-31", 
+                        "museumobject_count": 19, 
+                        "venue": "", 
+                        "date_start": "1878-01-01", 
+                        "year_end": 1878, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 14, 
+                        "type": "", 
+                        "slug": "paris-exhibition", 
+                        "date_text": "1878"
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "ca. 1867 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Oxidised silver and parcel-gilt six light candelabrum with embossed work.", 
+            "dimensions": "", 
+            "title": "", 
+            "date_start": "1862-01-01", 
+            "materials_techniques": "Oxidised silver and parcel-gilt with embossed work", 
+            "last_processed": "2014-03-31 20:51:25", 
+            "label": "'American and European Art and Design 1800-1900'\n\nThis candelabrum was purchased for \u00a348 from the Paris 1867 Exhibition. [1987-2006]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Europe & America 1800-1900, room 101, case 2", 
+            "marks": "", 
+            "latitude": "56.27570000", 
+            "techniques": [
+                {
+                    "pk": 964, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "embossed", 
+                        "museumobject_count": 190, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 121, 
+                        "type": "", 
+                        "slug": "embossed"
+                    }
+                }, 
+                {
+                    "pk": 227, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "parcel gilt", 
+                        "museumobject_count": 16, 
+                        "source": "cis_techniques", 
+                        "cis_id": "233409", 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "parcel-gilt"
+                    }
+                }, 
+                {
+                    "pk": 446, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oxidised", 
+                        "museumobject_count": 4, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x34794", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "oxidised"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 56395, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 286
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 546284, 
+                        "room": "101", 
+                        "part_name": "", 
+                        "museum_number": "658-1869", 
+                        "museumobject": 30015, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Europe & America 1800-1900, room 101", 
+                        "museum_number_token": "6581869", 
+                        "gallery": 286
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 286, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "101", 
+                        "site_name": "", 
+                        "name": "Europe & America 1800-1900, room 101", 
+                        "site_code": "VA", 
+                        "museumobject_count": 178, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49933", 
+                        "museumobject_image_count": 150, 
+                        "type": "", 
+                        "slug": "101-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 30731, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 140
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 30015, 
+                        "role": "made", 
+                        "place": 140, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "6581869", 
+            "object": "Candelabrum", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 116, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "ph-survey", 
+                        "museumobject_count": 42, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "ph-survey"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:51:25", 
+            "public_access_description": "", 
+            "exhibition_history": "Paris Exhibition (01/01/1867-31/12/1867)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "candelabrum", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 140, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1050
+                    }, 
+                    "fields": {
+                        "name": "Denmark", 
+                        "parent": 1050, 
+                        "country": "", 
+                        "museumobject_count": 428, 
+                        "longitude": "9.51668000", 
+                        "source": "production", 
+                        "cis_id": "x28806", 
+                        "museumobject_image_count": 94, 
+                        "latitude": "56.27570000", 
+                        "type": "country", 
+                        "slug": "denmark-x28806"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1871, 
+            "object_number": "O34802", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Purchased from the Paris 1867 Exhibition for \u00a348.", 
+            "place": "Denmark", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

@@ -1,0 +1,355 @@
+[
+    {
+        "pk": 113673, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.457&A-1969", 
+            "date_end": "1960-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Ruska' stoneware cup and saucer with mottled brown glaze, part of a tableware range, designed by Ulla Procop\u00e9 1960, made by Arabia, Helsinki, ca. 1968.", 
+            "shape": "", 
+            "longitude": "24.93258100", 
+            "year_start": 1960, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1960 (designed)\nca. 1968 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Stoneware cup and saucer with mottled brown glaze.\n[Cup] Cup with single handle", 
+            "dimensions": "[Cup] Height: 8.7 cm\n[Saucer] Diameter: 14.5 cm", 
+            "title": "Ruska", 
+            "date_start": "1960-01-01", 
+            "materials_techniques": "Stoneware with mottled brown glaze", 
+            "last_processed": "2014-04-01 02:28:30", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 20, shelf 2", 
+            "marks": "A pot inside an oven, a crown and 'ARABIA FINLAND 9-68'", 
+            "latitude": "60.17116200", 
+            "techniques": [
+                {
+                    "pk": 911, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "glazed", 
+                        "museumobject_count": 13158, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11549, 
+                        "type": "", 
+                        "slug": "glazed"
+                    }
+                }, 
+                {
+                    "pk": 409, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "mottled", 
+                        "museumobject_count": 76, 
+                        "source": "cis_techniques", 
+                        "cis_id": "252693", 
+                        "museumobject_image_count": 74, 
+                        "type": "", 
+                        "slug": "mottled"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 159, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "stoneware", 
+                        "museumobject_count": 3966, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30197", 
+                        "museumobject_image_count": 3509, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }, 
+                {
+                    "pk": 135, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glaze", 
+                        "museumobject_count": 2900, 
+                        "source": "cis_materials", 
+                        "cis_id": "15091", 
+                        "museumobject_image_count": 2542, 
+                        "type": "", 
+                        "slug": "glaze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 182404, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "20", 
+                        "inventory_number": 375007, 
+                        "room": "140", 
+                        "part_name": "Cup", 
+                        "museum_number": "CIRC.457-1969", 
+                        "museumobject": 113673, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ4571969", 
+                        "gallery": 348
+                    }
+                }, 
+                {
+                    "pk": 182405, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "20", 
+                        "inventory_number": 375006, 
+                        "room": "140", 
+                        "part_name": "Saucer", 
+                        "museum_number": "CIRC.457A-1969", 
+                        "museumobject": 113673, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ457a1969", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 7718, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1968-12-31", 
+                        "surname": "", 
+                        "name": "Procop\u00e9, Ulla", 
+                        "gender": null, 
+                        "museumobject_count": 15, 
+                        "death_year": 1968, 
+                        "source": "object_production", 
+                        "cis_id": "A20426", 
+                        "museumobject_image_count": 15, 
+                        "forename": "", 
+                        "birth_date": "1921-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "procope-ulla", 
+                        "birth_year": 1921
+                    }
+                }, 
+                {
+                    "pk": 7719, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Arabia factory", 
+                        "gender": null, 
+                        "museumobject_count": 154, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A7286", 
+                        "museumobject_image_count": 149, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "arabia-factory", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 111609, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1491
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 113673, 
+                        "role": "made", 
+                        "place": 1491, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ4571969", 
+            "object": "Cup and saucer", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 76, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stoneware", 
+                        "museumobject_count": 3435, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3026, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }, 
+                {
+                    "pk": 98, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Food vessels & Tableware", 
+                        "museumobject_count": 2066, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 913, 
+                        "type": "", 
+                        "slug": "food-vessels-tableware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:28:30", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Opie, Jennifer Hawkins. <u>Scandinavia: ceramics & glass in the twentieth century</u>. London: V&A Publications, 1989. 66 p., ill. ISBN 1851770712.\n''Ruska' is still in production today and is among Arabia's most successful lines. Its attractiveness lies as much in the unique, mottled stoneware glaze, giving each piece an individual 'hand-made' appearance, as in the highly sophisticated and well-conceived shapes. The concept of 'oven-to-table' ware emerged in the late 1950s and Arabia, like many manufacturers across Europe and in America, introduced specially designed cooking and serving dishes in oven-proof, high temperature resistant material which were also good-looking enough to be part of a dinner table setting. Apart from the coffee pot, which was a gift from the maker in 1988, this set was one of a number of purchases by the Museum from Heal's, London, which, from the 1930s had been one of the select number of progressive London shops selling well designed domestic furnishings from Scandinavia. In the mark the pot inside the oven indicates 'oven-to-tableware'.", 
+            "vanda_exhibition_history": "", 
+            "slug": "ruska-cup-and-saucer-procope-ulla", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1491, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5235
+                    }, 
+                    "fields": {
+                        "name": "Helsinki", 
+                        "parent": 5235, 
+                        "country": "Finland", 
+                        "museumobject_count": 170, 
+                        "longitude": "24.93258100", 
+                        "source": "production", 
+                        "cis_id": "x35753", 
+                        "museumobject_image_count": 156, 
+                        "latitude": "60.17116200", 
+                        "type": "city / town", 
+                        "slug": "helsinki-finland-x35753"
+                    }
+                }
+            ], 
+            "artist": "Procop\u00e9, Ulla", 
+            "namecontext_set": [
+                {
+                    "pk": 137116, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 7718
+                    }, 
+                    "fields": {
+                        "name": 7718, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 113673, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 137117, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 7719
+                    }, 
+                    "fields": {
+                        "name": 7719, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 113673, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1960, 
+            "object_number": "O144668", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Part of a range Circ.453 to 457-1969, C.49-1988.\n\n'Ruska' is among Arabia's most succesful lines. Its attractiveness lies as much in the unique, mottled stoneware glaze, giving each piece an individual 'hand made' appearance, as in the highly sophisticated and well-concieved shapes. The concept of 'oven to tableware' emerged in the late 1950's and Arabia like many manufacturers across Europe and America introduced specally designed cooking and serving dishes in oven-proof, high temperature resistant material which were also good looking enough to be part of a dinner table setting.", 
+            "place": "Helsinki", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
