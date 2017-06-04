@@ -1,0 +1,413 @@
+[
+    {
+        "pk": 2792, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "4503-1901", 
+            "date_end": "1851-12-31", 
+            "labels": [
+                {
+                    "pk": 493, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 2792, 
+                        "label_text": "Given by Edmund Christy to the Jermyn St Museum."
+                    }
+                }, 
+                {
+                    "pk": 494, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 2792, 
+                        "label_text": "British Galleries:\nTHE 'WELL SPRING' VASE AND CARAFE<br>\nIn the 1840s Henry Cole commissioned artists such as Richard Redgrave to design articles for everyday domestic use. They were made and sold under the name of Felix Summerly's Art Manufactures. This glass carafe followed Felix Summerly's principle that ornament should be appropriate to the use of the object. The vase was adapted for production in white porcelain and parian."
+                    }
+                }
+            ], 
+            "descriptive_line": "Carafe, England (Lambeth, London), designed by Richard Redgrave, and commissioned by Summerly's Art Manufactures at A. J. F. Christy, Stangate Glass Works, 1847-1850", 
+            "shape": "", 
+            "longitude": "-0.11693000", 
+            "year_start": 1847, 
+            "exhibitions": [
+                {
+                    "pk": 4291, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "The Victoria and Albert Museum: Art and Design For All", 
+                        "date_end": null, 
+                        "museumobject_count": 336, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 329, 
+                        "type": "", 
+                        "slug": "the-victoria-and-albert-museum-art-and-design-for-all", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 24408, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "grass", 
+                        "museumobject_count": 91, 
+                        "source": "object", 
+                        "cis_id": "11872", 
+                        "museumobject_image_count": 56, 
+                        "type": "", 
+                        "slug": "grass"
+                    }
+                }
+            ], 
+            "date_text": "1847-1851 (made)", 
+            "primary_image_id": "2006AM3510", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 26 cm maximum, Width: 13 cm maximum", 
+            "title": "Well Spring", 
+            "date_start": "1847-01-01", 
+            "materials_techniques": "Glass, painted in enamel", 
+            "last_processed": "2014-03-31 19:00:20", 
+            "label": "Given by Edmund Christy to the Jermyn St Museum.\nBritish Galleries:\nTHE 'WELL SPRING' VASE AND CARAFE<br>\nIn the 1840s Henry Cole commissioned artists such as Richard Redgrave to design articles for everyday domestic use. They were made and sold under the name of Felix Summerly's Art Manufactures. This glass carafe followed Felix Summerly's principle that ornament should be appropriate to the use of the object. The vase was adapted for production in white porcelain and parian. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 122g, case 2", 
+            "marks": "'R. Redgrave ARA' and 'FS', printed", 
+            "latitude": "51.48518000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 15, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Victorian", 
+                        "museumobject_count": 8255, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29321", 
+                        "museumobject_image_count": 6056, 
+                        "type": "", 
+                        "slug": "victorian"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 3783, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 998
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 354085, 
+                        "room": "122G", 
+                        "part_name": "", 
+                        "museum_number": "4503-1901", 
+                        "museumobject": 2792, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 122g", 
+                        "museum_number_token": "45031901", 
+                        "gallery": 998
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 998, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "122G", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 122g", 
+                        "site_code": "VA", 
+                        "museumobject_count": 104, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49219", 
+                        "museumobject_image_count": 102, 
+                        "type": "", 
+                        "slug": "122g-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 789, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1888-12-14", 
+                        "surname": "", 
+                        "name": "Richard Redgrave", 
+                        "gender": null, 
+                        "museumobject_count": 59, 
+                        "death_year": 1888, 
+                        "source": "object_production", 
+                        "cis_id": "A8777", 
+                        "museumobject_image_count": 33, 
+                        "forename": "", 
+                        "birth_date": "1804-04-30", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "redgrave-richard-cb-ra-ara", 
+                        "birth_year": 1804
+                    }
+                }, 
+                {
+                    "pk": 787, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "A. J. F. Christy, Stangate Glass Works", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A2", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "a-j-f-christy-stangate-glass-works", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 790, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Felix Summerly's Art Manufactures", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A9099", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "felix-summerlys-art-manufacture", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 2912, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 336
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2792, 
+                        "role": "made", 
+                        "place": 336, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "45031901", 
+            "object": "Carafe", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 15, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drinking", 
+                        "museumobject_count": 5467, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2065, 
+                        "type": "", 
+                        "slug": "drinking"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:00:20", 
+            "public_access_description": "Object Type\nThis carafe, in a design known as the 'Well Spring',  by the painter and writer Richard Redgrave (1804-1888), later Surveyor of the Queen's Pictures, was one of the designs made for Felix Summerly's Art Manufactures. It is an example of early Victorian design especially promoted by Henry Cole (1808-1882), in which the decoration  reflects the function of the object.\n\nHistorical Associations\nIn response to the Society of Arts' offer, made in 1845, of a prize for designs for a tea service, Henry Cole, using the pseudonym Felix Summerly, produced a design that was executed by Minton.  This won a silver medal in the competition held in 1846 and the experience led Cole to believe that it would 'promote public taste' if well-known painters and sculptors could be persuaded to produce designs for similar functional objects.  Accordingly, in 1847 he founded 'Summerly's Art Manufactures', which lasted for about three years, until his preoccupation with the Great Exhibition of 1851 brought it to an end. However, for some years afterwards individual firms continued to produce objects originally made for Summerly's.\n\nDesign\nIn 1847 Henry Cole noted that 'RR [Richard Redgrave] and Bell [John Bell] thought Artists ought not to design for Manufacturers: apart from Art Manufactures'.  But later, Redgrave himself observed that fine artists were actually to blame for committing the prime error, which was 'rather to construct ornament than ornament construction'.  The Well Spring was Redgrave's first design for the Summerly scheme;  it was completed and handed over to Cole on 10 January 1847 and sold to J. F. Christy of Lambeth less than a month later.  The manufactured article in its original form with handles was described as 'the Water Jug', and  was shown in  the Society of Arts Exhibition of Recent British Manufactures in 1848.  In this form it was also made in porcelain and promised in Parian by Minton. By the end of 1847 in glass, it was offered as a single-handled jug, as a 'caraffe and glass, 17s 6d [87.5p]', and as the handle-less version (as here) at \u01531 5s. (\u01531.25).  Cole's prices were erratic.", 
+            "exhibition_history": "The Victoria and Albert Museum: Art and Design For All (Kunst und Ausstellungshalle der Bundesrepublik Deutschland, Bonn 18/11/2011-15/04/2012)\nThe Victoria and Albert Museum: Art and Design For All (Museum of Applied Arts, Budapest 14/06/2012-16/09/2012)", 
+            "bibliography": "Bryant, Julius.<u> Art and Design for all: The Victoria and Albert Museum </u>. London: V&A publishing, 2011. p112. ISBN 978 1 85177 666 5", 
+            "vanda_exhibition_history": "", 
+            "slug": "well-spring-carafe-redgrave-richard-cb", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 5132, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-14 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:18", 
+                        "priority": 0, 
+                        "image_id": "2006AM3510", 
+                        "sys_id": 113510, 
+                        "last_checked": "2014-03-31 17:09:18", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM3510.jpg"
+                    }
+                }, 
+                {
+                    "pk": 19234, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-14 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:17", 
+                        "priority": 0, 
+                        "image_id": "2006AT2934", 
+                        "sys_id": 152934, 
+                        "last_checked": "2014-03-31 17:12:17", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT2934.jpg"
+                    }
+                }, 
+                {
+                    "pk": 24610, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-07 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:26", 
+                        "priority": 0, 
+                        "image_id": "2006AU2563", 
+                        "sys_id": 162563, 
+                        "last_checked": "2014-03-31 17:13:26", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU2563.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 336, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 7
+                    }, 
+                    "fields": {
+                        "name": "Lambeth", 
+                        "parent": 7, 
+                        "country": "England", 
+                        "museumobject_count": 318, 
+                        "longitude": "-0.11693000", 
+                        "source": "production", 
+                        "cis_id": "x29476", 
+                        "museumobject_image_count": 293, 
+                        "latitude": "51.48518000", 
+                        "type": "", 
+                        "slug": "lambeth-england-x29476"
+                    }
+                }
+            ], 
+            "artist": "Redgrave, Richard (CB, RA, ARA)", 
+            "namecontext_set": [
+                {
+                    "pk": 2567, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 789
+                    }, 
+                    "fields": {
+                        "name": 789, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2792, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 2568, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 787
+                    }, 
+                    "fields": {
+                        "name": 787, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2792, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 2569, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 790
+                    }, 
+                    "fields": {
+                        "name": 790, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2792, 
+                        "role": "commissioned by", 
+                        "order": 102
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1851, 
+            "object_number": "O1089", 
+            "events": [], 
+            "credit": "Given by Edmund Christy", 
+            "history_note": "Designed by Richard Redgrave CB, RA (born in London, 1804, died there in 1888) for Felix Summerly's Art Manufactures; made at Stangate Glassworks, Lambeth, London", 
+            "place": "Lambeth", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
