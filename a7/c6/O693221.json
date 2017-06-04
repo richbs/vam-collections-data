@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 602092, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.105-1968", 
+            "date_end": "2000-12-31", 
+            "labels": [], 
+            "descriptive_line": "'A Norfolk Mill [A post mill]'  Print by Thomas David Hamson (1890-1964). Etching, 20th century.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1900, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 10104, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Norfolk", 
+                        "museumobject_count": 154, 
+                        "source": "place", 
+                        "cis_id": "x29040", 
+                        "museumobject_image_count": 27, 
+                        "type": "", 
+                        "slug": "norfolk"
+                    }
+                }, 
+                {
+                    "pk": 48217, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "windmills", 
+                        "museumobject_count": 106, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 40, 
+                        "type": "", 
+                        "slug": "windmills"
+                    }
+                }
+            ], 
+            "date_text": "20th century (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Etching inscribed with the title  'A Norfolk Mill', signed in pencil 'T.D. Hamson'.", 
+            "dimensions": "Height: 21.6 cm, Width: 13.9 cm", 
+            "title": "A Norfolk Mill [A post mill]", 
+            "date_start": "1900-01-01", 
+            "materials_techniques": "Etching", 
+            "last_processed": "2014-04-26 14:55:59", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2G, shelf SH119, box EE160A", 
+            "marks": "'T D Hamson'", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 140, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching (printing process)", 
+                        "museumobject_count": 5752, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53241", 
+                        "museumobject_image_count": 1418, 
+                        "type": "", 
+                        "slug": "etching-printing-process"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 736747, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "EE160A", 
+                        "case": "MB2G", 
+                        "inventory_number": 1110330, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.105-1968", 
+                        "museumobject": 602092, 
+                        "shelf": "SH119", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e1051968", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 57595, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1964-12-31", 
+                        "surname": "", 
+                        "name": "Hamson, Thomas David", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1964, 
+                        "source": "object_production", 
+                        "cis_id": "A36047", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1890-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hamson-thomas-david", 
+                        "birth_year": 1890
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 351859, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 678
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 602092, 
+                        "role": "subject", 
+                        "place": 678, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1051968", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 14:55:59", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria & Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1968</u> London: HMSO, 1969.\nThe full text of the entry is as follows: \n\n\"<b>HAMSON, Thomas David (1890-1964)</b> \n\nA Norfolk Mill [a post mill]. \n<i>Signed in pencil</i> T D Hamson. <i>Inscribed with title.</i> \n<i>Etching.</i>    (21.6 x 13.9 cm.)     E.106-1968 \n\nGiven by Mr.Howard Watson \n\n<i>Note:</i>An impression of this etching was No.29 in the exhibition of the works of T.D.Hamson, held at the Herbert Art Gallery and Museum, Coventry, 1966.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "a-norfolk-mill-a-post-print-hamson-thomas-david", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 678, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Norfolk", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 237, 
+                        "longitude": "0.94775000", 
+                        "source": "production", 
+                        "cis_id": "x29040", 
+                        "museumobject_image_count": 42, 
+                        "latitude": "52.66790000", 
+                        "type": "county", 
+                        "slug": "norfolk-england-x29040"
+                    }
+                }
+            ], 
+            "artist": "Hamson, Thomas David", 
+            "namecontext_set": [
+                {
+                    "pk": 460895, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 57595
+                    }, 
+                    "fields": {
+                        "name": 57595, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 602092, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2000, 
+            "object_number": "O693221", 
+            "events": [], 
+            "credit": "Given by Mr. Howard Watson", 
+            "history_note": "An impression of this etching was No.29 in the exhibtion of the works of T.D. Hamson, held at the Herbert Art Gallery and Museum, Coventry, 1966.", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "pk": 64951, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2233:18-1997", 
+            "date_end": "1859-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1859, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1859 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "", 
+            "title": "The ^Library of the Sapienza Palace, Rome", 
+            "date_start": "1859-01-01", 
+            "materials_techniques": "Albumen print", 
+            "last_processed": "2014-03-31 22:53:04", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case MX17, shelf X, box 885", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 116371, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "885", 
+                        "case": "MX17", 
+                        "inventory_number": 35892, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.2233:18-1997", 
+                        "museumobject": 64951, 
+                        "shelf": "X", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e2233181997", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 11666, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1885-12-31", 
+                        "surname": "", 
+                        "name": "Dovizielli, Pietro", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1885, 
+                        "source": "object_production", 
+                        "cis_id": "A6404", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1804-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "dovizielli-pietro", 
+                        "birth_year": 1804
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 60776, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 64951, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e2233181997", 
+            "object": "Print", 
+            "categories": [], 
+            "last_checked": "2014-03-31 22:53:04", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-library-of-the-sapienza-print-dovizielli-pietro", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Dovizielli, Pietro", 
+            "namecontext_set": [
+                {
+                    "pk": 72347, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11666
+                    }, 
+                    "fields": {
+                        "name": 11666, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 64951, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1859, 
+            "object_number": "O68865", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "From the album 'Arcades at Rome, chiefly of the Renaissance period' published by the Arundel Society under the sanction of the Science and Art Department, London, 1869", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

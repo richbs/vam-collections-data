@@ -1,0 +1,271 @@
+[
+    {
+        "pk": 77636, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.496-2003", 
+            "date_end": "1927-12-31", 
+            "labels": [], 
+            "descriptive_line": "Pencil sketch, landscape inset with notes, rough sketches of ducks and fish, attributed to Luke Fildes (1844-1927), Great Britain, ca. 1860-1927.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1855, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 432, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "landscape", 
+                        "museumobject_count": 2474, 
+                        "source": "object", 
+                        "cis_id": "x35496", 
+                        "museumobject_image_count": 1828, 
+                        "type": "", 
+                        "slug": "landscape"
+                    }
+                }, 
+                {
+                    "pk": 505, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fish", 
+                        "museumobject_count": 691, 
+                        "source": "object", 
+                        "cis_id": "x30068", 
+                        "museumobject_image_count": 491, 
+                        "type": "", 
+                        "slug": "fish"
+                    }
+                }, 
+                {
+                    "pk": 28554, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "duck", 
+                        "museumobject_count": 77, 
+                        "source": "object", 
+                        "cis_id": "132884", 
+                        "museumobject_image_count": 50, 
+                        "type": "", 
+                        "slug": "duck"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1860-1927 (made)", 
+            "primary_image_id": "2012FP7064", 
+            "rights": 3, 
+            "physical_description": "Pencil sketch of landscape inset with annotated notes, outside the inset are rough sketches of ducks and fish", 
+            "dimensions": "Height: 182 mm, Width: 255 mm", 
+            "title": "Landscape", 
+            "date_start": "1855-01-01", 
+            "materials_techniques": "Pencil on paper", 
+            "last_processed": "2014-03-31 23:53:31", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2A, shelf DR58, box CONS", 
+            "marks": "Annotated notes", 
+            "latitude": "54.31391900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 135320, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "CONS", 
+                        "case": "MB2A", 
+                        "inventory_number": 716116, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.496-2003", 
+                        "museumobject": 77636, 
+                        "shelf": "DR58", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e4962003", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1883, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1927-02-27", 
+                        "surname": "", 
+                        "name": "Fildes, Luke (Sir, KB, KCVO, RA)", 
+                        "gender": null, 
+                        "museumobject_count": 298, 
+                        "death_year": 1927, 
+                        "source": "object_production", 
+                        "cis_id": "A8385", 
+                        "museumobject_image_count": 292, 
+                        "forename": "", 
+                        "birth_date": "1844-10-18", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "fildes-luke-sir", 
+                        "birth_year": 1844
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 73963, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 77636, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e4962003", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:53:31", 
+            "public_access_description": "Sir (Samuel) Luke Fildes (1843-1927) was a major English illustrator and painter.  He was born in Liverpool, the son of a shipping agent.  He attended evening classes in art at the Mechanics' Institute, Chester, and moved to London in 1863 having won a scholarship to study at the Government Art Training School, South Kensington; an institution linked to the South Kensington Museum, now the V&A.  He went on to study at the Royal Academy Schools.  He started his artistic career as an illustrator, with a strongly realist style based on direct drawings from nature.  When Fildes began to exhibit oil paintings he quickly developed a radical form of \"social realist\" painting, combining the campaigning subject matter of contemporary journalism and novelists such as Dickens - the urban poor and the effects of industrialization - with the scale and rhetoric of traditional history painting.\n\nThis drawing is one of 265 works acquired by the museum through descent from the artist (museum numbers E.451-715-2003).  The V&A is the principal repository of Fildes's drawings, having received major gifts in 1971, 1977 and 1987.  The bequest of 1971 (E.580-981-1971) was from the son of the artist, Sir Paul Fildes, O.B.E., F.R.S.  Sir Paul had compiled a Catalogue raisonn\u00e9 of the published reproductions of Luke Fildes's drawings, revised in 1965, but which remained unpublished; a typescript of this is in the National Art Library (formerly E.981-1971, now L.5859-1975, pressmark 86.W.71).  This provided much information about the works which made up the gift.  The bequest of 1977 was from Mrs Kitty Whittaker-Ellis, daughter of the artist (E.1704-1804-1977), and that of 1987 came via another daughter, Mrs Cedric Ripley, (E.65-142-1987).  The 2003 gift similarly descended from the family and  ranges from slight sketches, to worked up designs, probably for Fildes's published illustrative works.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "landscape-drawing-fildes-luke-sir", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 300409, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 18:10:51", 
+                        "priority": 0, 
+                        "image_id": "2012FP7064", 
+                        "sys_id": 1187064, 
+                        "last_checked": "2014-03-31 18:10:51", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2012FP/2012FP7064.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Fildes, Luke (Sir, KB, KCVO, RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 89640, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1883
+                    }, 
+                    "fields": {
+                        "name": 1883, 
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 77636, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1927, 
+            "object_number": "O101519", 
+            "events": [], 
+            "credit": "Gift of Mrs Pamela Myers through The Art Fund", 
+            "history_note": "", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
