@@ -1,0 +1,272 @@
+[
+    {
+        "pk": 143698, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "414:123/G-1885", 
+            "date_end": "1769-12-31", 
+            "labels": [], 
+            "descriptive_line": "Tea cup of soft-paste porcelain painted with enamels of bouquets and sprays of flowers, made by Bow Porcelain Factory, London, ca. 1765.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1760, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 4, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flowers", 
+                        "museumobject_count": 11618, 
+                        "source": "object", 
+                        "cis_id": "x35571", 
+                        "museumobject_image_count": 9046, 
+                        "type": "", 
+                        "slug": "flowers"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1765 (made)", 
+            "primary_image_id": "2006AM7039", 
+            "rights": 3, 
+            "physical_description": "Tea cup of soft-paste porcelain painted with enamels of bouquets and sprays of flowers.", 
+            "dimensions": "Height: 2.5 cm, Diameter: 4.8 cm", 
+            "title": "", 
+            "date_start": "1760-01-01", 
+            "materials_techniques": "Soft-paste porcelain painted with enamels", 
+            "last_processed": "2014-04-01 04:19:47", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 52b, case 2", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 218966, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 962
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "2", 
+                        "inventory_number": 71370, 
+                        "room": "52B", 
+                        "part_name": "", 
+                        "museum_number": "414:123/G-1885", 
+                        "museumobject": 143698, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 52b", 
+                        "museum_number_token": "414123g1885", 
+                        "gallery": 962
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 962, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "52B", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 52b", 
+                        "site_code": "VA", 
+                        "museumobject_count": 92, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49255", 
+                        "museumobject_image_count": 91, 
+                        "type": "", 
+                        "slug": "52b-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 78, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bow Porcelain Factory", 
+                        "gender": null, 
+                        "museumobject_count": 693, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1505", 
+                        "museumobject_image_count": 589, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "bow-porcelain-factory", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 140449, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 143698, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "414123g1885", 
+            "object": "Tea cup", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 04:19:47", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "tea-cup-bow-porcelain-factory", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 7475, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:48", 
+                        "priority": 1, 
+                        "image_id": "2006AM7039", 
+                        "sys_id": 117039, 
+                        "last_checked": "2014-03-31 17:09:48", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM7039.jpg"
+                    }
+                }, 
+                {
+                    "pk": 7474, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:48", 
+                        "priority": 2, 
+                        "image_id": "2006AM7038", 
+                        "sys_id": 117038, 
+                        "last_checked": "2014-03-31 17:09:48", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM7038.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Bow Porcelain Factory", 
+            "namecontext_set": [
+                {
+                    "pk": 177968, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 78
+                    }, 
+                    "fields": {
+                        "name": 78, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 143698, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1769, 
+            "object_number": "O178775", 
+            "events": [], 
+            "credit": "Given by Lady Charlotte Schreiber", 
+            "history_note": "Part of a toy tea service 414:123 to /L-1885 (Sch. I 81 to L).", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

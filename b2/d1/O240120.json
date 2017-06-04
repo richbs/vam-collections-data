@@ -1,0 +1,269 @@
+[
+    {
+        "pk": 200715, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.900:7-1961", 
+            "date_end": null, 
+            "labels": [], 
+            "descriptive_line": "Lithograph by Mikhail Fyodorovich Larionov. A figure, black ink on paper.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": null, 
+            "exhibitions": [
+                {
+                    "pk": 2903, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 1663, 
+                        "year_start": 2010, 
+                        "name": "Paths to Abstraction - 1867 to 1917", 
+                        "date_end": "2010-09-19", 
+                        "museumobject_count": 7, 
+                        "venue": "The Art Gallery of New South Wales (Sydney)", 
+                        "date_start": "2010-06-25", 
+                        "year_end": 2010, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "paths-to-abstraction-1867-to-1917", 
+                        "date_text": "25/06/10-19/09/10"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 29310, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "abstraction", 
+                        "museumobject_count": 1183, 
+                        "source": "concept", 
+                        "cis_id": "56508", 
+                        "museumobject_image_count": 119, 
+                        "type": "", 
+                        "slug": "abstraction"
+                    }
+                }, 
+                {
+                    "pk": 48075, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "figures (representations)", 
+                        "museumobject_count": 588, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 480, 
+                        "type": "", 
+                        "slug": "figures-representations"
+                    }
+                }
+            ], 
+            "date_text": "", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Abstracted figure depicted in black ink on paper.", 
+            "dimensions": "Height: 190 mm, Width: 58 mm", 
+            "title": "One of four figures", 
+            "date_start": null, 
+            "materials_techniques": "Lithograph on paper", 
+            "last_processed": "2014-04-01 07:23:46", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Proof", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case ES, shelf 121, box B", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 73, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithograph", 
+                        "museumobject_count": 1212, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39981", 
+                        "museumobject_image_count": 555, 
+                        "type": "", 
+                        "slug": "lithograph"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 26465, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12156, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }, 
+                {
+                    "pk": 1752, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper (fiber product)", 
+                        "museumobject_count": 1017, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 445, 
+                        "type": "", 
+                        "slug": "paper-fiber-product"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 280138, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "ES", 
+                        "inventory_number": 1382169, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.900:7-1961", 
+                        "museumobject": 200715, 
+                        "shelf": "121", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e90071961", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 15770, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1964-05-11", 
+                        "surname": "", 
+                        "name": "Larionov, Mikhail Fyodorovich", 
+                        "gender": null, 
+                        "museumobject_count": 77, 
+                        "death_year": 1964, 
+                        "source": "object_production", 
+                        "cis_id": "A14315", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": "1881-06-03", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "larionov-mikhail", 
+                        "birth_year": 1881
+                    }
+                }
+            ], 
+            "placecontext_set": [], 
+            "original_currency": "", 
+            "museum_number_token": "e90071961", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 07:23:46", 
+            "public_access_description": "", 
+            "exhibition_history": "Paths to Abstraction - 1867 to 1917 (The Art Gallery of New South Wales (Sydney) 25/06/2010-19/09/2010)", 
+            "bibliography": "Terence Maloon, ed. <u>Paths to Abstraction 1867 - 1917</u> Sydney: Art Gallery of New South Wales, 2010. ISBN: 9 781741 740561.\nExhibition catalogue", 
+            "vanda_exhibition_history": "", 
+            "slug": "one-of-four-figures-print-larionov-mikhail-fyodorovich", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [], 
+            "artist": "Larionov, Mikhail Fyodorovich", 
+            "namecontext_set": [
+                {
+                    "pk": 256716, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 15770
+                    }, 
+                    "fields": {
+                        "name": 15770, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 200715, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": null, 
+            "object_number": "O240120", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "One of four figures from a group of prints. See associated museum numbers.\n\nAttribution note: From a volume of 28 proofs of the artist's work", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
