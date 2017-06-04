@@ -1,0 +1,256 @@
+[
+    {
+        "pk": 5306, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.263-1987", 
+            "date_end": "1888-12-31", 
+            "labels": [], 
+            "descriptive_line": "Celery vase, England (Gateshead-on-Tyne), made by Sowerby's Ellison Glass Works Ltd., 1888-1900", 
+            "shape": "", 
+            "longitude": "-1.60204600", 
+            "year_start": 1888, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1888 (design registered)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 21.7 cm, Diameter: 11.1 cm, Diameter: 10.2 cm foot", 
+            "title": "", 
+            "date_start": "1888-01-01", 
+            "materials_techniques": "Press-moulded glass", 
+            "last_processed": "2014-03-31 19:06:41", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 123, case 4", 
+            "marks": "'Rd No 113660' (registration mark for 13 November 1888)\n a peacock head, moulded", 
+            "latitude": "54.96104100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 15, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Victorian", 
+                        "museumobject_count": 8255, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29321", 
+                        "museumobject_image_count": 6056, 
+                        "type": "", 
+                        "slug": "victorian"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 6379, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1000
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "4", 
+                        "inventory_number": 352373, 
+                        "room": "123", 
+                        "part_name": "", 
+                        "museum_number": "C.263-1987", 
+                        "museumobject": 5306, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 123", 
+                        "museum_number_token": "c2631987", 
+                        "gallery": 1000
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1000, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "123", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 123", 
+                        "site_code": "VA", 
+                        "museumobject_count": 72, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49217", 
+                        "museumobject_image_count": 72, 
+                        "type": "", 
+                        "slug": "123-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 841, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Sowerby Ellison Glassworks", 
+                        "gender": null, 
+                        "museumobject_count": 96, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A9224", 
+                        "museumobject_image_count": 15, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "sowerby-ellison-glassworks", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 5778, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 361
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 5306, 
+                        "role": "made", 
+                        "place": 361, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c2631987", 
+            "object": "Celery vase", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }, 
+                {
+                    "pk": 98, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Food vessels & Tableware", 
+                        "museumobject_count": 2066, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 913, 
+                        "type": "", 
+                        "slug": "food-vessels-tableware"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:06:41", 
+            "public_access_description": "Object Type\nThis celery vase was one of many types of dish, each designed  to suit a particular food. Extensive glass table services became increasingly popular towards the end of the 19th century. Cheaply made in pressed glass, these sets, which were often elaborate, became widely available.\n\nMaterials & Making\nThe technique of press-moulding glass with the aid of a hand-operated machine was first perfected in the United States of America in the early 1820s. It took only two people to shape a measured quantity of hot glass in a heated metal mould. By simply depressing a lever, a metal plunger was lowered into the glass, forcing it into the patterned mould. By the 1830s this method had spread to Europe and Britain, giving rise to stylistic changes and revolutionising the availability of glassware. The technique made the mid- to late 19th century the first period of true mass production. In the 1890s the introduction of steam-powered presses improved quality while cutting costs even further.\n\nPeople\nSowerby & Co. already  had a long history when John Sowerby moved the factory to Ellison Street, Gateshead, in around 1850.  He died in the mid-1870s and was succeeded by his son John George Sowerby, who introduced a wide range of coloured glass and continued the expansion and development set in motion by his father.  Although the setting up of other Sowerby works by cousins of J.G. Sowerby in the late 1880s subsequently complicated the story, the Ellison Street works became enormously successful, and opened offices in Gateshead, Birmingham, London, Paris and Hamburg.  In 1882 it was recorded as 'the largest pressed glass manufactory in the world'.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "celery-vase-sowerby-ellison-glassworks", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 361, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 554
+                    }, 
+                    "fields": {
+                        "name": "Gateshead", 
+                        "parent": 554, 
+                        "country": "England", 
+                        "museumobject_count": 204, 
+                        "longitude": "-1.60204600", 
+                        "source": "production", 
+                        "cis_id": "x28869", 
+                        "museumobject_image_count": 37, 
+                        "latitude": "54.96104100", 
+                        "type": "city/town", 
+                        "slug": "gateshead-england-x28869"
+                    }
+                }
+            ], 
+            "artist": "Sowerby Ellison Glassworks", 
+            "namecontext_set": [
+                {
+                    "pk": 3885, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 841
+                    }, 
+                    "fields": {
+                        "name": 841, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 5306, 
+                        "role": "manufacturer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1888, 
+            "object_number": "O3789", 
+            "events": [], 
+            "credit": "Michael Franklin Bequest", 
+            "history_note": "Made by Sowerby & Co., Ellison Glassworks, Gateshead, Tyne and Wear", 
+            "place": "Gateshead", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
