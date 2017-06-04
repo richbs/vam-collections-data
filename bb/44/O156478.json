@@ -1,0 +1,606 @@
+[
+    {
+        "pk": 123917, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "LOAN:GILBERT.364-2008", 
+            "date_end": "1784-12-31", 
+            "labels": [
+                {
+                    "pk": 17617, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "2009", 
+                        "museumobject": 123917, 
+                        "label_text": "Snuffbox with Venus, Mars and Cupid\nAbout 1780\n\nVienna, Austria; Pierre Michel Colas (active 1763\u201381),\nenamelled by Philipp Ernst Schindler II (1723\u201393)\nEnamelled gold\nMuseum no. Loan:Gilbert.364-2008"
+                    }
+                }
+            ], 
+            "descriptive_line": "Varicoloured-gold and enamel snuffbox; box: Pierre Michel Colas, Vienna, ca.1780; enamels: Philipp Ernst Schindler II, Vienna, ca.1780", 
+            "shape": "", 
+            "longitude": "16.36879900", 
+            "year_start": 1775, 
+            "exhibitions": [
+                {
+                    "pk": 2137, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 2087, 
+                        "year_start": 1986, 
+                        "name": "Gold Boxes from the Gilbert Collection", 
+                        "date_end": "1987-12-31", 
+                        "museumobject_count": 69, 
+                        "venue": "Los Angeles County Museum of Art", 
+                        "date_start": "1986-01-01", 
+                        "year_end": 1987, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 69, 
+                        "type": "", 
+                        "slug": "gold-boxes-from-the-gilbert-collection", 
+                        "date_text": "1986-1987"
+                    }
+                }, 
+                {
+                    "pk": 2134, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 6589, 
+                        "year_start": 2008, 
+                        "name": "Le Grand Frisson: 500 Years of Jewels of Sentiment", 
+                        "date_end": "2008-11-07", 
+                        "museumobject_count": 33, 
+                        "venue": "Chaumet, Paris", 
+                        "date_start": "2008-10-03", 
+                        "year_end": 2008, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 33, 
+                        "type": "", 
+                        "slug": "le-grand-frisson-500-years-of-jewels-of-sentiment", 
+                        "date_text": "03/10/2008-07/11/2008"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 4, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flowers", 
+                        "museumobject_count": 11618, 
+                        "source": "object", 
+                        "cis_id": "x35571", 
+                        "museumobject_image_count": 9046, 
+                        "type": "", 
+                        "slug": "flowers"
+                    }
+                }, 
+                {
+                    "pk": 31006, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Putti", 
+                        "museumobject_count": 716, 
+                        "source": "name", 
+                        "cis_id": "N8617", 
+                        "museumobject_image_count": 547, 
+                        "type": "", 
+                        "slug": "putti"
+                    }
+                }, 
+                {
+                    "pk": 23903, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Cupid", 
+                        "museumobject_count": 677, 
+                        "source": "name", 
+                        "cis_id": "N31", 
+                        "museumobject_image_count": 497, 
+                        "type": "", 
+                        "slug": "cupid"
+                    }
+                }, 
+                {
+                    "pk": 23957, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Venus", 
+                        "museumobject_count": 363, 
+                        "source": "name", 
+                        "cis_id": "N25", 
+                        "museumobject_image_count": 274, 
+                        "type": "", 
+                        "slug": "venus"
+                    }
+                }, 
+                {
+                    "pk": 1286, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "laurel", 
+                        "museumobject_count": 177, 
+                        "source": "object", 
+                        "cis_id": "x38378", 
+                        "museumobject_image_count": 129, 
+                        "type": "", 
+                        "slug": "laurel"
+                    }
+                }, 
+                {
+                    "pk": 32953, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "altar", 
+                        "museumobject_count": 133, 
+                        "source": "object", 
+                        "cis_id": "180810", 
+                        "museumobject_image_count": 72, 
+                        "type": "", 
+                        "slug": "altar"
+                    }
+                }, 
+                {
+                    "pk": 24620, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Mars", 
+                        "museumobject_count": 98, 
+                        "source": "name", 
+                        "cis_id": "N57", 
+                        "museumobject_image_count": 70, 
+                        "type": "", 
+                        "slug": "mars"
+                    }
+                }, 
+                {
+                    "pk": 24649, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "swags", 
+                        "museumobject_count": 95, 
+                        "source": "object", 
+                        "cis_id": "204891", 
+                        "museumobject_image_count": 70, 
+                        "type": "", 
+                        "slug": "swags"
+                    }
+                }, 
+                {
+                    "pk": 27751, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "pilasters", 
+                        "museumobject_count": 71, 
+                        "source": "object", 
+                        "cis_id": "2737", 
+                        "museumobject_image_count": 45, 
+                        "type": "", 
+                        "slug": "pilasters"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1780 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "An oval, varicoloured-gold and enamel snuffbox, the cover, walls and base painted with six reserves of grisaille figures, framed in gold.", 
+            "dimensions": "Length: 6.9 cm, Width: 5.1 cm, Height: 3.8 cm", 
+            "title": "", 
+            "date_start": "1775-01-01", 
+            "materials_techniques": "Chased varicoloured-gold and enamel", 
+            "last_processed": "2014-04-01 03:08:24", 
+            "label": "Snuffbox with Venus, Mars and Cupid\nAbout 1780\n\nVienna, Austria; Pierre Michel Colas (active 1763\u201381),\nenamelled by Philipp Ernst Schindler II (1723\u201393)\nEnamelled gold\nMuseum no. Loan:Gilbert.364-2008 [2009]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "Mark of Pierre Michel Colas\n Town mark of Vienna\n Signed 'Schindler'", 
+            "latitude": "48.20254100", 
+            "techniques": [
+                {
+                    "pk": 74, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "enamelling", 
+                        "museumobject_count": 1219, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x37485", 
+                        "museumobject_image_count": 866, 
+                        "type": "", 
+                        "slug": "enamelling"
+                    }
+                }, 
+                {
+                    "pk": 65, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "chasing", 
+                        "museumobject_count": 963, 
+                        "source": "cis_techniques", 
+                        "cis_id": "54016", 
+                        "museumobject_image_count": 745, 
+                        "type": "", 
+                        "slug": "chasing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 67, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Gold", 
+                        "museumobject_count": 6695, 
+                        "source": "cis_materials", 
+                        "cis_id": "11021", 
+                        "museumobject_image_count": 4435, 
+                        "type": "", 
+                        "slug": "gold"
+                    }
+                }, 
+                {
+                    "pk": 137, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "enamel", 
+                        "museumobject_count": 3083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14910", 
+                        "museumobject_image_count": 2335, 
+                        "type": "", 
+                        "slug": "enamel"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 195028, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 1370561, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "LOAN:GILBERT.364-2008", 
+                        "museumobject": 123917, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "loangilbert3642008", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 36580, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Colas, Pierre Michel", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A22350", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "colas-pierre-michel", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 36581, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Schindler, Philipp Ernst (II)", 
+                        "gender": null, 
+                        "museumobject_count": 5, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A22489", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "schindler-philipp-ernst-ii", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 54, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Venus", 
+                        "gender": null, 
+                        "museumobject_count": 359, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N25", 
+                        "museumobject_image_count": 273, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "venus", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 1371, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "mars", 
+                        "gender": null, 
+                        "museumobject_count": 97, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N57", 
+                        "museumobject_image_count": 69, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mars", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 30, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Cupid", 
+                        "gender": null, 
+                        "museumobject_count": 520, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N31", 
+                        "museumobject_image_count": 385, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "cupid", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 123841, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 63
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 123917, 
+                        "role": "made", 
+                        "place": 63, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "loangilbert3642008", 
+            "object": "Snuffbox", 
+            "categories": [
+                {
+                    "pk": 3, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Containers", 
+                        "museumobject_count": 4829, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2686, 
+                        "type": "", 
+                        "slug": "containers"
+                    }
+                }, 
+                {
+                    "pk": 8, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Personal accessories", 
+                        "museumobject_count": 1261, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1037, 
+                        "type": "", 
+                        "slug": "personal-accessories"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 136, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Enamels", 
+                        "museumobject_count": 381, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 259, 
+                        "type": "", 
+                        "slug": "enamels"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:08:24", 
+            "public_access_description": "Painted enamel scenes taken from designs or paintings by David Teniers the Younger or Fran\u00e7ois Boucher were a popular form of decoration for gold boxes.  In the 1760s Schindler decorated several boxes and at least one \u00e9tui with subjects after Teniers.  His later enamels, of which this is an example, were often executed 'en grisaille', to resemble a cameo, and sometimes had their source in paintings by Boucher.\n\nSir Arthur Gilbert and his wife Rosalinde formed one of the world's great decorative art collections, including silver, mosaics, enamelled portrait miniatures and gold boxes.  Arthur Gilbert donated his extraordinary collection to Britain in 1996.", 
+            "exhibition_history": "Le Grand Frisson: 500 Years of Jewels of Sentiment (Chaumet, Paris 03/10/2008-07/11/2008)\nGold Boxes from the Gilbert Collection (Los Angeles County Museum of Art 01/01/1986-31/12/1987)\nGold Boxes from the Gilbert Collection (Los Angeles County Museum of Art 01/01/1986-31/12/1987)\nGold Boxes from the Gilbert Collection (Los Angeles County Museum of Art 01/01/1986-31/12/1987)", 
+            "bibliography": "Norton, Richard and Martin. <u>A History of gold snuff boxes</u>, London: Messrs. S. J. Phillips, 1938, pl. 39A.\nTruman, Charles.<u>The Gilbert collection of gold boxes</u>, Vol. I. Los Angeles (Los Angeles County Museum of Art) 1991, cat. no. 136, pp. 393-5. ISBN.0875871623", 
+            "vanda_exhibition_history": "", 
+            "slug": "snuffbox-colas-pierre-michel", 
+            "sys_updated": "2014-03-05 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 63, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Vienna", 
+                        "parent": null, 
+                        "country": "Austria", 
+                        "museumobject_count": 769, 
+                        "longitude": "16.36879900", 
+                        "source": "production", 
+                        "cis_id": "x29246", 
+                        "museumobject_image_count": 468, 
+                        "latitude": "48.20254100", 
+                        "type": "city / town", 
+                        "slug": "vienna-austria-x29246"
+                    }
+                }
+            ], 
+            "artist": "Colas, Pierre Michel", 
+            "namecontext_set": [
+                {
+                    "pk": 150681, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 36580
+                    }, 
+                    "fields": {
+                        "name": 36580, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 123917, 
+                        "role": "box maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 150682, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 36581
+                    }, 
+                    "fields": {
+                        "name": 36581, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 123917, 
+                        "role": "enameller", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 150683, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 54
+                    }, 
+                    "fields": {
+                        "name": 54, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 123917, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 150684, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1371
+                    }, 
+                    "fields": {
+                        "name": 1371, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 123917, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }, 
+                {
+                    "pk": 150685, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 30
+                    }, 
+                    "fields": {
+                        "name": 30, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 123917, 
+                        "role": "subject", 
+                        "order": 603
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1784, 
+            "object_number": "O156478", 
+            "events": [], 
+            "credit": "The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London", 
+            "history_note": "Provenance: S. J. Phillips, London.\n\nLe Grand Frisson Exhibition RF.2005/788", 
+            "place": "Vienna (city)", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

@@ -1,0 +1,256 @@
+[
+    {
+        "pk": 78328, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "1050", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.3578-2004", 
+            "date_end": "1979-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Our Lady of the Iguanas', photograph by Graciela Iturbide (born 1942), Mexico, 1979", 
+            "shape": "", 
+            "longitude": "-96.20941200", 
+            "year_start": 1979, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 59, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "woman", 
+                        "museumobject_count": 3370, 
+                        "source": "object", 
+                        "cis_id": "x35642", 
+                        "museumobject_image_count": 2547, 
+                        "type": "", 
+                        "slug": "woman"
+                    }
+                }, 
+                {
+                    "pk": 25154, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "merchant", 
+                        "museumobject_count": 25, 
+                        "source": "object", 
+                        "cis_id": "25245", 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "merchant"
+                    }
+                }, 
+                {
+                    "pk": 8711, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "iguana", 
+                        "museumobject_count": 3, 
+                        "source": "object", 
+                        "cis_id": "x38585", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "iguana"
+                    }
+                }
+            ], 
+            "date_text": "1979 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Black and white photograph of a woman with a wreath of live iguanas on her head.", 
+            "dimensions": "Height: 28.1 cm image, Width: 23.4 cm image, Height: 35.4 cm sheet, Width: 27.9 cm sheet", 
+            "title": "Our Lady of the Iguanas; Juchit\u00e1n, Oaxaca", 
+            "date_start": "1979-01-01", 
+            "materials_techniques": "Gelatin-silver print", 
+            "last_processed": "2014-03-31 23:56:01", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 946B", 
+            "marks": "", 
+            "latitude": "17.15199100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 136134, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "X", 
+                        "inventory_number": 718667, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "E.3578-2004", 
+                        "museumobject": 78328, 
+                        "shelf": "946B", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "e35782004", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 14489, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Iturbide, Graciela", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A13271", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1942-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "iturbide-graciela", 
+                        "birth_year": 1942
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 74655, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2969
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 78328, 
+                        "role": "photographed", 
+                        "place": 2969, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "US Dollars  ($, US $)", 
+            "museum_number_token": "e35782004", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:56:01", 
+            "public_access_description": "Many Mexican photographers have explored their country\u2019s pre-Hispanic past, challenging the concept of mestizaje (cultural mixing) that has dominated Mexican society since the colonial period. This photograph of a woman selling iguanas comes from a series in which Graciela Iturbide focuses on the matriarchal nature of the Zapotec Indian community. She documents the role of women as healers, political leaders, sexual sirens and, as shown here, merchants.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "our-lady-of-the-iguanas-photograph-iturbide-graciela", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 2969, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 88
+                    }, 
+                    "fields": {
+                        "name": "Oaxaca", 
+                        "parent": 88, 
+                        "country": "Mexico", 
+                        "museumobject_count": 3, 
+                        "longitude": "-96.20941200", 
+                        "source": "production", 
+                        "cis_id": "x38481", 
+                        "museumobject_image_count": 2, 
+                        "latitude": "17.15199100", 
+                        "type": "region/state", 
+                        "slug": "oaxaca-mexico-x38481"
+                    }
+                }
+            ], 
+            "artist": "Iturbide, Graciela", 
+            "namecontext_set": [
+                {
+                    "pk": 90510, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14489
+                    }, 
+                    "fields": {
+                        "name": 14489, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 78328, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1979, 
+            "object_number": "O102319", 
+            "events": [], 
+            "credit": "Purchased through the Cecil Beaton Fund", 
+            "history_note": "", 
+            "place": "Oaxaca", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

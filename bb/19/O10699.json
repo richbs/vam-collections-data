@@ -1,0 +1,282 @@
+[
+    {
+        "pk": 13049, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "B.325-1998", 
+            "date_end": "1975-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-2.47872000", 
+            "year_start": 1970, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1970-1975 (manufactured)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Large teddy bear of golden mohair plush with linen paw pads. The nose and mouth are stitched with black wool. The eyes are orange and black plastic. The head and limbs are jointed. The bear is solidly stuffed.", 
+            "dimensions": "Height: 81.3 cm", 
+            "title": "", 
+            "date_start": "1970-01-01", 
+            "materials_techniques": "The exterior is mohair plush stitched together. The paw pads are linen stitched to the limbs. The plastic eyes are locked in and the nose hand stitched with wool. The interior is stuffed with soft material.", 
+            "last_processed": "2014-03-31 19:37:30", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Mass produced", 
+            "collections": [
+                {
+                    "pk": 5, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MoC", 
+                        "name": "Museum of Childhood", 
+                        "museumobject_count": 29148, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3179, 
+                        "type": "", 
+                        "slug": "moc"
+                    }
+                }
+            ], 
+            "location": "Museum of Childhood, Creativity Gallery, case 6", 
+            "marks": "Merrythought\nIronbridge Shrops\nMade in England", 
+            "latitude": "52.62797200", 
+            "techniques": [
+                {
+                    "pk": 17, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "stitching", 
+                        "museumobject_count": 562, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53660", 
+                        "museumobject_image_count": 301, 
+                        "type": "", 
+                        "slug": "stitching"
+                    }
+                }, 
+                {
+                    "pk": 56, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "stuffing", 
+                        "museumobject_count": 121, 
+                        "source": "cis_techniques", 
+                        "cis_id": "231130", 
+                        "museumobject_image_count": 58, 
+                        "type": "", 
+                        "slug": "stuffing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 42, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wool", 
+                        "museumobject_count": 2874, 
+                        "source": "cis_materials", 
+                        "cis_id": "243430", 
+                        "museumobject_image_count": 1246, 
+                        "type": "", 
+                        "slug": "wool"
+                    }
+                }, 
+                {
+                    "pk": 69, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Linen", 
+                        "museumobject_count": 2386, 
+                        "source": "cis_materials", 
+                        "cis_id": "14069", 
+                        "museumobject_image_count": 1169, 
+                        "type": "", 
+                        "slug": "linen"
+                    }
+                }, 
+                {
+                    "pk": 15, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "mohair", 
+                        "museumobject_count": 155, 
+                        "source": "cis_materials", 
+                        "cis_id": "192989", 
+                        "museumobject_image_count": 77, 
+                        "type": "", 
+                        "slug": "mohair"
+                    }
+                }, 
+                {
+                    "pk": 538, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "padding (material)", 
+                        "museumobject_count": 15, 
+                        "source": "cis_materials", 
+                        "cis_id": "227860", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "padding-material"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 19555, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1064
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 14100, 
+                        "room": "C", 
+                        "part_name": "", 
+                        "museum_number": "B.325-1998", 
+                        "museumobject": 13049, 
+                        "shelf": "", 
+                        "site": "BGM", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Museum of Childhood, Creativity Gallery", 
+                        "museum_number_token": "b3251998", 
+                        "gallery": 1064
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1064, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "C", 
+                        "site_name": "", 
+                        "name": "Museum of Childhood, Creativity Gallery", 
+                        "site_code": "MOC", 
+                        "museumobject_count": 1006, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49153", 
+                        "museumobject_image_count": 256, 
+                        "type": "", 
+                        "slug": "c-moc"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 182, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Merrythought", 
+                        "gender": null, 
+                        "museumobject_count": 17, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1530", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "merrythought-limited", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 13982, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 715
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 13049, 
+                        "role": "manufactured", 
+                        "place": 715, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "b3251998", 
+            "object": "Teddy bear", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:37:30", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Axe, John, The Magic of Merrythought, Cumberland, Maryland: Hobby House Press, Inc., 1986", 
+            "vanda_exhibition_history": "", 
+            "slug": "teddy-bear-merrythought-limited", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 715, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 337
+                    }, 
+                    "fields": {
+                        "name": "Ironbridge", 
+                        "parent": 337, 
+                        "country": "England", 
+                        "museumobject_count": 22, 
+                        "longitude": "-2.47872000", 
+                        "source": "production", 
+                        "cis_id": "x30259", 
+                        "museumobject_image_count": 7, 
+                        "latitude": "52.62797200", 
+                        "type": "city / town", 
+                        "slug": "ironbridge-england-x30259"
+                    }
+                }
+            ], 
+            "artist": "Merrythought Limited", 
+            "namecontext_set": [
+                {
+                    "pk": 13121, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 182
+                    }, 
+                    "fields": {
+                        "name": 182, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 13049, 
+                        "role": "manufacturers", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1975, 
+            "object_number": "O10699", 
+            "events": [], 
+            "credit": "Given by Miss Phyllis Wright", 
+            "history_note": "The bear was bought by the donor when an adult because she had never had a teddy bear as a child.\n\nHistorical significance: The bear is an example of Merrythought's traditional range which the company has manufactured from its inception in 1931 up to the present.", 
+            "place": "Ironbridge", 
+            "production_note": "Reason For Production: Retail", 
+            "historical_context_note": "", 
+            "collection_code": "MoC"
+        }
+    }
+]
