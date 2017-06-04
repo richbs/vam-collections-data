@@ -1,0 +1,382 @@
+[
+    {
+        "pk": 482239, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.68-1960", 
+            "date_end": "1675-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Charles Perrault, engraving by \u00c9tienne Baudet after Charles Le Brun, 1675.", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1675, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48071, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "author", 
+                        "museumobject_count": 45, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "author"
+                    }
+                }, 
+                {
+                    "pk": 48193, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "architect", 
+                        "museumobject_count": 9, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "architect"
+                    }
+                }, 
+                {
+                    "pk": 47620, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "administrator", 
+                        "museumobject_count": 6, 
+                        "source": "object", 
+                        "cis_id": "25427", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "administrator"
+                    }
+                }, 
+                {
+                    "pk": 54800, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Charles Perrault", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "AUTH319527", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "charles-perrault"
+                    }
+                }
+            ], 
+            "date_text": "1675 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, portrait of a man, head and shoulders, facing half right, within an oval border with letters.", 
+            "dimensions": "Height: 29.2 cm, Width: 19.4 cm", 
+            "title": "Charles Perrault Cons. Du Roy Controlleur General Des Batiments De Sa Mat\u00e9", 
+            "date_start": "1675-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 18:40:32", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PS, shelf 4", 
+            "marks": "'Charles Perrault Cons. Du Roy Controlleur General Des Bastimens De Sa Mat\u00e9.  Carol le Brun Pinxit an 1665.  Step. Baudet sculp an. 1675.  jussu Acad. Reg. Pict. et Sculpt.'", 
+            "latitude": "46.71244800", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 36, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "French School", 
+                        "museumobject_count": 2157, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31263", 
+                        "museumobject_image_count": 1382, 
+                        "type": "", 
+                        "slug": "french-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 616672, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PS", 
+                        "inventory_number": 1257574, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.68-1960", 
+                        "museumobject": 482239, 
+                        "shelf": "4", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e681960", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 50273, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1711-12-31", 
+                        "surname": "", 
+                        "name": "Baudet, \u00c9tienne", 
+                        "gender": null, 
+                        "museumobject_count": 9, 
+                        "death_year": 1711, 
+                        "source": "object_production", 
+                        "cis_id": "A31223", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1633-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "baudet-etienne", 
+                        "birth_year": 1633
+                    }
+                }, 
+                {
+                    "pk": 30966, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1690-12-31", 
+                        "surname": "", 
+                        "name": "Le Brun", 
+                        "gender": null, 
+                        "museumobject_count": 33, 
+                        "death_year": 1690, 
+                        "source": "object_production", 
+                        "cis_id": "A15202", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": "1619-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "le-brun-charles-15202", 
+                        "birth_year": 1619
+                    }
+                }, 
+                {
+                    "pk": 76472, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1703-05-16", 
+                        "surname": "", 
+                        "name": "Charles Perrault", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1703, 
+                        "source": "content", 
+                        "cis_id": "AUTH319527", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1628-01-12", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "charles-perrault", 
+                        "birth_year": 1628
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 298632, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482239, 
+                        "role": "printed", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e681960", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:40:32", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1960: Volume 2, Edgar Seligman Gift.</u> London: HMSO, 1966.\nThe full text of the entry is as follows:\n\n\u2018<b>BAUDET, \u00c9tienne (1638-1711)</b>\n\nCharles Perrault (1626-1703), architect.  Portrat, head and shoulders, facing half right, within an oval border with letters.  (Le B.102; A.F-D.89; BN:Fonds 65)\n<i>Lettered</i> Charles Perrault Cons. Du Roy Controlleur General Des Bastimens De Sa Mat\u00e9.  Carol le Brun Pinxit an 1665.  Step. Baudet sculp an. 1675.  jussu Acad. Reg. Pict. et Sculpt.  <i>With the mark of the collection of Sydney Vacher (1854-1935) (Lugt 2376).\nEngraving.  Cut to</i> 29.2 x 19.4 cm.\nE.68-1960\n\n<i>Note:</i> The original copperplate ins in the Chalcographie du Louvre (Angoulvent 2252); an impression is in the Department of Prints and Drawings, E.7348-1958.\u2019\nLe Blanc, Charles. <u>Manuel de l'amateur d'estampes.</u> Paris. \u00c9 Bouillon, 1854-1908.\nFirmin-Didot, Ambroise. <u>Les Graveurs de Portrait en France.</u> Paris: Firmin-Didot, 1875-9.\nBiblioth\u00e8que National. <u>Inventaire du Fonds Fran\u00e7ais</u>. Paris: M. le Garrec, 1930.", 
+            "vanda_exhibition_history": "", 
+            "slug": "charles-perrault-cons-du-roy-print-etienne-baudet", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "\u00c9tienne Baudet", 
+            "namecontext_set": [
+                {
+                    "pk": 396975, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 50273
+                    }, 
+                    "fields": {
+                        "name": 50273, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482239, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 396976, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 30966
+                    }, 
+                    "fields": {
+                        "name": 30966, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 482239, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 396977, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 76472
+                    }, 
+                    "fields": {
+                        "name": 76472, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482239, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1675, 
+            "object_number": "O567498", 
+            "events": [], 
+            "credit": "Given by Edgar Seligman", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
