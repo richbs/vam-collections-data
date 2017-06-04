@@ -1,0 +1,202 @@
+[
+    {
+        "pk": 42991, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1894-2000", 
+            "date_end": "1900-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph of ruins of  St Kevin's Church, Cornwall, by F.M. Muriel, 1900", 
+            "shape": "", 
+            "longitude": "-4.94101000", 
+            "year_start": 1900, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1900 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "b&w print of remnants of stone walls surrounded by fencing", 
+            "dimensions": "", 
+            "title": "National Photographic Record and Survey", 
+            "date_start": "1900-01-01", 
+            "materials_techniques": "Platinum print mounted on card with hand written ink notation", 
+            "last_processed": "2014-03-31 21:36:38", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case MX18, box 7", 
+            "marks": "", 
+            "latitude": "50.44332900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 87143, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "7", 
+                        "case": "MX18", 
+                        "inventory_number": 676658, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.1894-2000", 
+                        "museumobject": 42991, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e18942000", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 8899, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Muriel, F M (Mrs)", 
+                        "gender": null, 
+                        "museumobject_count": 12, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A4985", 
+                        "museumobject_image_count": 12, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "muriel-f-m-mrs", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 40911, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1188
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 42991, 
+                        "role": "photographed", 
+                        "place": 1188, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e18942000", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-03-31 21:36:38", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "national-photographic-record-and-survey-photograph-mrs-f-m", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1188, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Cornwall", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 412, 
+                        "longitude": "-4.94101000", 
+                        "source": "production", 
+                        "cis_id": "x37116", 
+                        "museumobject_image_count": 74, 
+                        "latitude": "50.44332900", 
+                        "type": "county", 
+                        "slug": "cornwall-england-x37116"
+                    }
+                }
+            ], 
+            "artist": "Mrs F. M. Muriel", 
+            "namecontext_set": [
+                {
+                    "pk": 45892, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8899
+                    }, 
+                    "fields": {
+                        "name": 8899, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 42991, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1900, 
+            "object_number": "O49910", 
+            "events": [], 
+            "credit": "Transferred from the British Museum", 
+            "history_note": "", 
+            "place": "Cornwall", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
