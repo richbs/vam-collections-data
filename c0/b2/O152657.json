@@ -1,0 +1,306 @@
+[
+    {
+        "pk": 120672, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.239-2008", 
+            "date_end": "1970-12-31", 
+            "labels": [], 
+            "descriptive_line": "Black and white lithograph on board, 1970, by Lillian Schwartz and Bob Tatem.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1970, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1970 (made)", 
+            "primary_image_id": "", 
+            "rights": 1, 
+            "physical_description": "Black and white lithograph on board.", 
+            "dimensions": "Height: 39 cm, Width: 36.5 cm", 
+            "title": "", 
+            "date_start": "1970-01-01", 
+            "materials_techniques": "Lithograph on board", 
+            "last_processed": "2014-04-01 02:55:29", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case CAS, shelf 6", 
+            "marks": "'Lillian Schwartz - Bob Tatem'\n 'artist's proof 1970'", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18520, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3488, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 26465, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12156, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }, 
+                {
+                    "pk": 8, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cardboard", 
+                        "museumobject_count": 1302, 
+                        "source": "cis_materials", 
+                        "cis_id": "14224", 
+                        "museumobject_image_count": 438, 
+                        "type": "", 
+                        "slug": "cardboard"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 191200, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "CAS", 
+                        "inventory_number": 1368832, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.239-2008", 
+                        "museumobject": 120672, 
+                        "shelf": "6", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e2392008", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 52531, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Schwartz, Lillian", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A21820", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1927-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "schwartz-lillian", 
+                        "birth_year": 1927
+                    }
+                }, 
+                {
+                    "pk": 52532, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Tatem, Bob", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A21822", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "tatem-bob", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 119588, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 120672, 
+                        "role": "made", 
+                        "place": 10, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e2392008", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 1337, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Computer Art", 
+                        "museumobject_count": 515, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 423, 
+                        "type": "", 
+                        "slug": "computer-art"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:55:29", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "print-schwartz-lillian", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 10, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "United States", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 5088, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 1371, 
+                        "latitude": null, 
+                        "type": "country", 
+                        "slug": "united-states-x29333"
+                    }
+                }
+            ], 
+            "artist": "Schwartz, Lillian", 
+            "namecontext_set": [
+                {
+                    "pk": 146923, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 52531
+                    }, 
+                    "fields": {
+                        "name": 52531, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 120672, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 146924, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 52532
+                    }, 
+                    "fields": {
+                        "name": 52532, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 120672, 
+                        "role": "computer programmer", 
+                        "order": 2
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1970, 
+            "object_number": "O152657", 
+            "events": [], 
+            "credit": "Given by the Computer Arts Society,supported by System Simulation Ltd, London", 
+            "history_note": "", 
+            "place": "United States of America", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

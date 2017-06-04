@@ -1,0 +1,356 @@
+[
+    {
+        "pk": 78515, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.1059-1910", 
+            "date_end": "1600-12-31", 
+            "labels": [], 
+            "descriptive_line": "Relief, boxwood, Virgin and Child, Southern Germany (possibly Augsburg), ca. 1580-1600", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1580, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24004, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Virgin and Child", 
+                        "museumobject_count": 333, 
+                        "source": "name", 
+                        "cis_id": "N4691", 
+                        "museumobject_image_count": 142, 
+                        "type": "", 
+                        "slug": "virgin-and-child"
+                    }
+                }
+            ], 
+            "date_text": "1580-1600 (made)", 
+            "primary_image_id": "2006AF0068", 
+            "rights": 3, 
+            "physical_description": "The Virgin shown half-length is wearing a crown. In her right a sceptre. Her left around the naked Child, standing on a cushion beside her.", 
+            "dimensions": "Height: 25.4 cm, Width: 17.78 cm", 
+            "title": "Virgin and Child", 
+            "date_start": "1580-01-01", 
+            "materials_techniques": "Boxwood", 
+            "last_processed": "2014-03-31 23:56:51", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR1", 
+            "marks": "", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 86, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "boxwood", 
+                        "museumobject_count": 293, 
+                        "source": "cis_materials", 
+                        "cis_id": "12002", 
+                        "museumobject_image_count": 146, 
+                        "type": "", 
+                        "slug": "boxwood"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 136386, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR1", 
+                        "inventory_number": 92323, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.1059-1910", 
+                        "museumobject": 78515, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a10591910", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 143, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Virgin", 
+                        "gender": null, 
+                        "museumobject_count": 305, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N4691", 
+                        "museumobject_image_count": 119, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "virgin-and-child", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 74875, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "southern", 
+                        "museumobject": 78515, 
+                        "role": "made", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 74876, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1152
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 78515, 
+                        "role": "made", 
+                        "place": 1152, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a10591910", 
+            "object": "Relief", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:56:51", 
+            "public_access_description": "The dense grain of a hardwood allows subtle carving and a high polish. In a relief the image stands out against a background that has been cut away. The depths and angles at which the wood is carved determine the play of light and shadow in the relief. The robe of the Virgin is enhanced with seed pearls and red glass.", 
+            "exhibition_history": "", 
+            "bibliography": "'Salting Bequest (A. 70 to A. 1029-1910) / Murray Bequest (A. 1030 to A. 1096-1910)'. In: <u>List of Works of Art Acquired by the Victoria and Albert Museum (Department of Architecture and Sculpture)</u>. London: Printed under the Authority of his Majesty's Stationery Office, by Eyre and Spottiswoode, Limited, East Harding Street, EC, p. 161", 
+            "vanda_exhibition_history": "", 
+            "slug": "virgin-and-child-relief-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 40066, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:47", 
+                        "priority": 0, 
+                        "image_id": "2006AF0068", 
+                        "sys_id": 50068, 
+                        "last_checked": "2014-03-31 17:16:47", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AF/2006AF0068.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }, 
+                {
+                    "pk": 1152, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3039
+                    }, 
+                    "fields": {
+                        "name": "Augsburg", 
+                        "parent": 3039, 
+                        "country": "Germany", 
+                        "museumobject_count": 2189, 
+                        "longitude": "12.83427800", 
+                        "source": "production", 
+                        "cis_id": "x32552", 
+                        "museumobject_image_count": 1983, 
+                        "latitude": "49.07505100", 
+                        "type": "city/town", 
+                        "slug": "augsburg-germany-x32552"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 90779, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 78515, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 90780, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 143
+                    }, 
+                    "fields": {
+                        "name": 143, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 78515, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1600, 
+            "object_number": "O111417", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "From the Murray bequest.", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

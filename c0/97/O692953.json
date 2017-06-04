@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 601824, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.402-1968", 
+            "date_end": "1967-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print by Pearl Binder (born 1904), titled 'Tahiti Funeral'. Colour lithograph, dated 1967.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1967, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 49295, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "funerals", 
+                        "museumobject_count": 15, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "funerals"
+                    }
+                }, 
+                {
+                    "pk": 8371, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Tahiti", 
+                        "museumobject_count": 4, 
+                        "source": "place", 
+                        "cis_id": "x38226", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "tahiti"
+                    }
+                }
+            ], 
+            "date_text": "1967 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Colour lithograph depicting a Tahitian mourning robe, printed in a dark coloured ink against a bright purple background. Titled 'Tahiti Funeral', signed and dated in pencil 'Pearl Binder 1967', inscribed in pencil with title and 'Artist's Proof.'", 
+            "dimensions": "Height: 58.4 cm, Width: 47.6 cm", 
+            "title": "Tahiti Funeral", 
+            "date_start": "1967-01-01", 
+            "materials_techniques": "Colour lithograph", 
+            "last_processed": "2014-04-26 14:55:08", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case MP, shelf 286", 
+            "marks": "'Pearl Binder 1967'\n 'Artist's Proof'", 
+            "latitude": null, 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18725, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3490, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 736479, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "MP", 
+                        "inventory_number": 1110631, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.402-1968", 
+                        "museumobject": 601824, 
+                        "shelf": "286", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e4021968", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 52153, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Binder, Pearl", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A33904", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1904-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "binder-pearl", 
+                        "birth_year": 1904
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 351501, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2928
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 601824, 
+                        "role": "subject", 
+                        "place": 2928, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e4021968", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 14:55:08", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria & Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1968.</u> London: HMSO, 1969.\nThe full text of the entry is as follows:\n\n\"<b>BINDER, Pearl (born 1904)</b> \n\nTahiti Funeral. \n<i>Signed and dated in pencil</i> Pearl Binder 1967. <i>Inscribed in pencil with title and </i> Artist's Proof. \n<i>Colour lithograph.</i> (58.4 x 47.6.)     E.402-1968\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "tahiti-funeral-print-binder-pearl", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 2928, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5990
+                    }, 
+                    "fields": {
+                        "name": "Tahiti", 
+                        "parent": 5990, 
+                        "country": "", 
+                        "museumobject_count": 5, 
+                        "longitude": "-149.37600700", 
+                        "source": "production", 
+                        "cis_id": "x38226", 
+                        "museumobject_image_count": 3, 
+                        "latitude": "-17.69017000", 
+                        "type": "island", 
+                        "slug": "tahiti-x38226"
+                    }
+                }
+            ], 
+            "artist": "Binder, Pearl", 
+            "namecontext_set": [
+                {
+                    "pk": 460317, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 52153
+                    }, 
+                    "fields": {
+                        "name": 52153, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 601824, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1967, 
+            "object_number": "O692953", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
