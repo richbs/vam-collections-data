@@ -1,0 +1,272 @@
+[
+    {
+        "pk": 78355, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "PH.24-1984", 
+            "date_end": "1979-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph, 'Post Mill, Essex', by Eric de Mare", 
+            "shape": "", 
+            "longitude": "0.63554000", 
+            "year_start": 1960, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 329, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Essex", 
+                        "museumobject_count": 89, 
+                        "source": "place", 
+                        "cis_id": "x29455", 
+                        "museumobject_image_count": 74, 
+                        "type": "", 
+                        "slug": "essex"
+                    }
+                }, 
+                {
+                    "pk": 465, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "mills", 
+                        "museumobject_count": 65, 
+                        "source": "object", 
+                        "cis_id": "x31799", 
+                        "museumobject_image_count": 44, 
+                        "type": "", 
+                        "slug": "mills"
+                    }
+                }
+            ], 
+            "date_text": "probably 1960s or 1970s (photographed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "A photograph of a post mill seen from the side, with two ladders leading up to it.  The background is empty; the mill appears to be at the top of a hill.", 
+            "dimensions": "Height: 291 mm, Width: 290 mm", 
+            "title": "Post Mill, Essex", 
+            "date_start": "1960-01-01", 
+            "materials_techniques": "Gelatin silver print", 
+            "last_processed": "2014-03-31 23:56:08", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 971, box A", 
+            "marks": "", 
+            "latitude": "51.77145000", 
+            "techniques": [
+                {
+                    "pk": 112, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "black-and-white photography", 
+                        "museumobject_count": 15, 
+                        "source": "cis_techniques", 
+                        "cis_id": "162056", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "black-and-white-photography"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 136161, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "X", 
+                        "inventory_number": 102226, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "PH.24-1984", 
+                        "museumobject": 78355, 
+                        "shelf": "971", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "ph241984", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 326, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2002-12-31", 
+                        "surname": "", 
+                        "name": "de Mare, Eric", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 2002, 
+                        "source": "object_production", 
+                        "cis_id": "A17042", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1910-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "de-mare-eric", 
+                        "birth_year": 1910
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 74691, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 100
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 78355, 
+                        "role": "photographed", 
+                        "place": 100, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 74692, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 100
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 78355, 
+                        "role": "subject", 
+                        "place": 100, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "ph241984", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:56:08", 
+            "public_access_description": "Post mills like this one once dotted the landscape of Essex and East Anglia.  Their innovative design allowed the mill to be turned to face into the wind whenever the wind's direction changed.\n\nEric de Mare, a trained architect and one of the most acclaimed architectural photographers in Britain, devoted much of his career to recording Britain's neglected industrial heritage.  His photographs of bridges, factories, and warehouses demonstrated that functional design was not an invention of the twentieth century, but had a long and honourable tradition in British architecture.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "post-mill-essex-photograph-de-mare-eric", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 100, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 8
+                    }, 
+                    "fields": {
+                        "name": "Essex", 
+                        "parent": 8, 
+                        "country": "England", 
+                        "museumobject_count": 186, 
+                        "longitude": "0.63554000", 
+                        "source": "production", 
+                        "cis_id": "x29455", 
+                        "museumobject_image_count": 117, 
+                        "latitude": "51.77145000", 
+                        "type": "county", 
+                        "slug": "essex-england-x29455"
+                    }
+                }
+            ], 
+            "artist": "de Mare, Eric", 
+            "namecontext_set": [
+                {
+                    "pk": 90547, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 326
+                    }, 
+                    "fields": {
+                        "name": 326, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 78355, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1979, 
+            "object_number": "O120228", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Post mills such as the one depicted here were once a common sight in Essex and East Anglia; they were designed to be turned to face into the wind whenever its direction changed.  This may be the post mill at Bocking, which was built in 1721 and still exists.", 
+            "place": "Essex", 
+            "production_note": "", 
+            "historical_context_note": "Eric de Mare, a trained architect, was one of the most acclaimed British architectural photographers of the 1960s and 1970s.  From the late 1940s, he received a series of commissions to document Britain's relatively neglected industrial heritage; much of his oeuvre consists of striking images of bridges, factories, and warehouses.  In 1958 he collaborated with J M Richards on the book <i>The Functional Tradition in Early Industrial Buildings</i>, which demonstrated that functional design had not been an invention of the 1930s, but had a long tradition in British architecture.", 
+            "collection_code": "PDP"
+        }
+    }
+]
