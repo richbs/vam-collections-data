@@ -1,0 +1,435 @@
+[
+    {
+        "pk": 70068, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.288-1958", 
+            "date_end": "1905-12-31", 
+            "labels": [], 
+            "descriptive_line": "Vase; porcelain; Van Rossem; Rozenburg, Netherlands; ca.1901.", 
+            "shape": "", 
+            "longitude": "5.33033000", 
+            "year_start": 1896, 
+            "exhibitions": [
+                {
+                    "pk": 111, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2000, 
+                        "name": "Art Nouveau - 1890-1914", 
+                        "date_end": "2000-07-30", 
+                        "museumobject_count": 230, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "2000-04-06", 
+                        "year_end": 2000, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 209, 
+                        "type": "", 
+                        "slug": "art-nouveau-1890-1914", 
+                        "date_text": "06/04/2000 to 30/07/2000"
+                    }
+                }, 
+                {
+                    "pk": 69, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 4740, 
+                        "year_start": 2007, 
+                        "name": "Emile Gall\u00e9 and the Origins of Art Nouveau", 
+                        "date_end": "2008-01-20", 
+                        "museumobject_count": 10, 
+                        "venue": "The Bowes Museum", 
+                        "date_start": "2007-09-29", 
+                        "year_end": 2008, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "emile-galle-and-the-origins-of-art-nouveau", 
+                        "date_text": "29/09/07-20/01/08"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 26518, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flower", 
+                        "museumobject_count": 908, 
+                        "source": "object", 
+                        "cis_id": "254977", 
+                        "museumobject_image_count": 740, 
+                        "type": "", 
+                        "slug": "flower"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1901 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Vase; porcelain; Van Rossem;", 
+            "dimensions": "Height: 21.5 cm", 
+            "title": "", 
+            "date_start": "1896-01-01", 
+            "materials_techniques": "Porcelain", 
+            "last_processed": "2014-03-31 23:18:57", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Factory Ceramics, room 140, case 18, shelf 2", 
+            "marks": "", 
+            "latitude": "52.10808900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 130, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Art Nouveau", 
+                        "museumobject_count": 446, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21430", 
+                        "museumobject_image_count": 306, 
+                        "type": "", 
+                        "slug": "art-nouveau"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 123675, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 348
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "18", 
+                        "inventory_number": 377182, 
+                        "room": "140", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.288-1958", 
+                        "museumobject": 70068, 
+                        "shelf": "2", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Factory Ceramics, room 140", 
+                        "museum_number_token": "circ2881958", 
+                        "gallery": 348
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 348, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "140", 
+                        "site_name": "", 
+                        "name": "Factory Ceramics, room 140", 
+                        "site_code": "VA", 
+                        "museumobject_count": 935, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49871", 
+                        "museumobject_image_count": 918, 
+                        "type": "", 
+                        "slug": "140-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 8959, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Van Rossum, J.M.", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A7283", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "van-rossum-jm", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 8958, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1958-12-31", 
+                        "surname": "", 
+                        "name": "Schellink, Sam", 
+                        "gender": null, 
+                        "museumobject_count": 4, 
+                        "death_year": 1958, 
+                        "source": "object_production", 
+                        "cis_id": "A11301", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1876-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "schellink-sam", 
+                        "birth_year": 1876
+                    }
+                }, 
+                {
+                    "pk": 8957, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1919-12-31", 
+                        "surname": "", 
+                        "name": "Kok, J. Juriaan", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1919, 
+                        "source": "object_production", 
+                        "cis_id": "A11302", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1861-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "kok-j-juriaan", 
+                        "birth_year": 1861
+                    }
+                }, 
+                {
+                    "pk": 8960, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Haagsche Plateelbakkerij Rozenburg", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11303", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "haagsche-plateelbakkerij-rozenburg", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 66186, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 106
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 70068, 
+                        "role": "made", 
+                        "place": 106, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ2881958", 
+            "object": "Vase", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 81, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Vases", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 942, 
+                        "type": "", 
+                        "slug": "vases"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:18:57", 
+            "public_access_description": "", 
+            "exhibition_history": "Emile Gall\u00e9 and the Origins of Art Nouveau (The Bowes Museum 29/09/2007-20/01/2008)\nArt Nouveau - 1890-1914 (Victoria and Albert Museum 06/04/2000-30/07/2000)", 
+            "bibliography": "Greenhalgh, Paul Ed., <font u>Art Nouveau : 1890 - 1914</font u>. London: V&A Publications, 2000. 464 p., 12.11pl, ill. ISBN 1851772774\nCoutts, Howard, <u>Emile Gall\u00e9 and the Origins of Art Nouveau</u>(County Durham, The Bowes Museum, 2007). ISBN 0-9548182-6-7.", 
+            "vanda_exhibition_history": "", 
+            "slug": "vase-van-rossum-jm", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 106, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Netherlands", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 4105, 
+                        "longitude": "5.33033000", 
+                        "source": "production", 
+                        "cis_id": "x29020", 
+                        "museumobject_image_count": 1974, 
+                        "latitude": "52.10808900", 
+                        "type": "country", 
+                        "slug": "netherlands-x29020"
+                    }
+                }
+            ], 
+            "artist": "Van Rossum, J.M.", 
+            "namecontext_set": [
+                {
+                    "pk": 80137, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8959
+                    }, 
+                    "fields": {
+                        "name": 8959, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 70068, 
+                        "role": "painter", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 80138, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8958
+                    }, 
+                    "fields": {
+                        "name": 8958, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 70068, 
+                        "role": "painter", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 80139, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8957
+                    }, 
+                    "fields": {
+                        "name": 8957, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 70068, 
+                        "role": "designer", 
+                        "order": 3
+                    }
+                }, 
+                {
+                    "pk": 80140, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8960
+                    }, 
+                    "fields": {
+                        "name": 8960, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 70068, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1905, 
+            "object_number": "O72939", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Netherlands", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
