@@ -1,0 +1,335 @@
+[
+    {
+        "pk": 818880, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.123-1896", 
+            "date_end": "1850-12-31", 
+            "labels": [], 
+            "descriptive_line": "A catalogue of edge tools, with 32 engraved plates, English, early 19th century", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1800, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 52106, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "pattern books", 
+                        "museumobject_count": 2853, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 183, 
+                        "type": "", 
+                        "slug": "pattern-books"
+                    }
+                }, 
+                {
+                    "pk": 30302, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "engravings", 
+                        "museumobject_count": 1572, 
+                        "source": "object", 
+                        "cis_id": "41340", 
+                        "museumobject_image_count": 106, 
+                        "type": "", 
+                        "slug": "engravings"
+                    }
+                }, 
+                {
+                    "pk": 49457, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "metal-work", 
+                        "museumobject_count": 1358, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 40, 
+                        "type": "", 
+                        "slug": "metal-work"
+                    }
+                }, 
+                {
+                    "pk": 52104, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sales catalogues", 
+                        "museumobject_count": 796, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "sales-catalogues"
+                    }
+                }, 
+                {
+                    "pk": 26052, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Tools", 
+                        "museumobject_count": 120, 
+                        "source": "object", 
+                        "cis_id": "24841", 
+                        "museumobject_image_count": 21, 
+                        "type": "", 
+                        "slug": "tools"
+                    }
+                }
+            ], 
+            "date_text": "early 19th century (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Engravings of edge tools on 32 plates, bound in original brown paper cover.", 
+            "dimensions": "height: 9.375 in, width: 14.375 in", 
+            "title": "", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "Engravings, bound", 
+            "last_processed": "2014-04-26 20:55:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2E, shelf SH39, box M63K", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 930, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving (printing process)", 
+                        "museumobject_count": 2938, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1398, 
+                        "type": "", 
+                        "slug": "engraving-printing-process"
+                    }
+                }, 
+                {
+                    "pk": 152, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "binding", 
+                        "museumobject_count": 1799, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53592", 
+                        "museumobject_image_count": 59, 
+                        "type": "", 
+                        "slug": "binding"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 953862, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "M63K", 
+                        "case": "MB2E", 
+                        "inventory_number": 852066, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.123-1896", 
+                        "museumobject": 818880, 
+                        "shelf": "SH39", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e1231896", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Unknown", 
+                        "gender": null, 
+                        "museumobject_count": 143046, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58959, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 416797, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 818880, 
+                        "role": "printed", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1231896", 
+            "object": "Sales catalogue", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24796, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10870, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 51, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Tools & Equipment", 
+                        "museumobject_count": 1394, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 616, 
+                        "type": "", 
+                        "slug": "tools-equipment"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 20:55:56", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Engraving, Illustration & Design, Old English Pattern Books of the Metal Trades: A Descriptive Catalogue of the Collection in the Museum.</u> London: Printed under the Authority of His Majesty\u2019s Stationery Office, 1913.\nThe full text of the entry is as follows:\n\n\"TOOLS.\n\nM. 63. k.\n\n<b>Marks.</b>--None.\n\n<b>Description.</b>--A catalogue of edge tools.   9 <sup>3</sup>/<sub>8</sub> in. by 14 <sup>3</sup>/<sub>8</sub> in., 32 plates, 1 torn.   Neither date nor water mark.   In original brown paper cover.\nE.123-1896.\n\n<b>Summary of Contents.</b>--Chisels, gouges, plane irons, \" plow bitts,\" augers, bung boreres, coopers' tools, mincing and cheese knives, hatchets, choppers and cleavers, axes, adzes, plantation tools and pruners, bill hooks, shipwrights' caulking tools and scrapers, bricklayers' trowels, lath hammers, garden and field hoes, braces and bits, spoke-shaves, marking gauges, squares, mitre squares, (bevels), cross cut, circular and hand saws and sheep shears.\n\n<b>Comments.</b>--Although there is no date, this list probably is an early ninteenth-century publication.   it covers edge tools exclusively and comprehensively, and a careful examination of the illustrations discloses the fact that much that was good a hundred years ago remains good to-day.   There are changes in detail, but they are not so great as might be expected.   The importance of British trade with the West Indies and the southern Staters of the United States of America is shown by the names of a agood many of the tools.   Cotton pruners and matchetts are examples, one of the latter being marked with G.R. and a crown, while anotherhas seven stars, a crescent moon, and a sun stamped on the blade.   As nowadays, axes were made to suit local demands and the whims of workmen.   Of these tools alone there are shown patterns respectively named Kent, Suffolk, Yorkshire, and Scotch, while the following list indicates some only of the trades for which Sheffield catered : wheeler's falling, blocking, ice, ship's ship's carpenter, hedge, coachmaker's, joiner's butcher's and bench.  The geographical description persists in the case of other tools : Edinburgh bricklayers wanted a wide trowel, the pattern labelled \" London \" has rounded sides.   Or take hoes, which were all made with socket eyes welded close to the blade.  There are two \" West India\" sorts with the blade--if the sketch is full size--1\u00be in. wide by 2\u00bc in. deep, whereas on the mainland (Virginia) the dimensions of a plantation hoe were 4\u00bd in.   wide by 3\u00bd in. high.   Other names in this connection are Carolina, Demerara, Barbados, and Brazil.   The Dutch hoe had a curved blade.   No prices are quoted.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "sales-catalogue-unknown", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Great Britain", 
+                        "museumobject_count": 44632, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13475, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-great-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 543023, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 818880, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1850, 
+            "object_number": "O916699", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

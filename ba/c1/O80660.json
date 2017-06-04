@@ -1,0 +1,266 @@
+[
+    {
+        "pk": 14281, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.85-2003", 
+            "date_end": "1952-12-31", 
+            "labels": [], 
+            "descriptive_line": "Black and white photograph of Frida Kahlo in her bed, Gis\u00e8le Freund, Mexico, 1952", 
+            "shape": "", 
+            "longitude": "-101.95625300", 
+            "year_start": 1952, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 53067, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Kahlo, Frida", 
+                        "museumobject_count": 2, 
+                        "source": "name", 
+                        "cis_id": "N3606", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "kahlo-frida"
+                    }
+                }
+            ], 
+            "date_text": "1952 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Square-format black and white photograph of Frida Kahlo in her bed.", 
+            "dimensions": "Height: 20 cm, Width: 19.3 cm", 
+            "title": "Frida Kahlo in her bed", 
+            "date_start": "1952-01-01", 
+            "materials_techniques": "Gelatin-silver print", 
+            "last_processed": "2014-03-31 19:42:00", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 933A", 
+            "marks": "Frida Kahlo, wife of Rivera, a painter herself.\n Mexican painters: Frida Kahlo passes most of her days in her bedroom; she is suffering from the consequences of an accident she had in her youth.\n John Hillelson Agency", 
+            "latitude": "23.62574000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 21549, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "X", 
+                        "inventory_number": 704327, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "E.85-2003", 
+                        "museumobject": 14281, 
+                        "shelf": "933A", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "e852003", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10110, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2000-03-31", 
+                        "surname": "", 
+                        "name": "Freund, Gis\u00e8le", 
+                        "gender": null, 
+                        "museumobject_count": 12, 
+                        "death_year": 2000, 
+                        "source": "object_production", 
+                        "cis_id": "A11539", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1908-12-19", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "freund-gisele", 
+                        "birth_year": 1908
+                    }
+                }, 
+                {
+                    "pk": 71944, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1954-07-13", 
+                        "surname": "", 
+                        "name": "Kahlo, Frida", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1954, 
+                        "source": "", 
+                        "cis_id": "N3606", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1907-07-06", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "kahlo-frida", 
+                        "birth_year": 1907
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15275, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 88
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14281, 
+                        "role": "photographed", 
+                        "place": 88, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e852003", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:42:00", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "frida-kahlo-in-her-bed-photograph-freund-gisele", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 88, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1178
+                    }, 
+                    "fields": {
+                        "name": "Mexico", 
+                        "parent": 1178, 
+                        "country": "", 
+                        "museumobject_count": 548, 
+                        "longitude": "-101.95625300", 
+                        "source": "production", 
+                        "cis_id": "x30050", 
+                        "museumobject_image_count": 79, 
+                        "latitude": "23.62574000", 
+                        "type": "country", 
+                        "slug": "mexico-x30050"
+                    }
+                }
+            ], 
+            "artist": "Freund, Gis\u00e8le", 
+            "namecontext_set": [
+                {
+                    "pk": 14414, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10110
+                    }, 
+                    "fields": {
+                        "name": 10110, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14281, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 14415, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 71944
+                    }, 
+                    "fields": {
+                        "name": 71944, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14281, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1952, 
+            "object_number": "O80660", 
+            "events": [], 
+            "credit": "Given by John and Judith Hillelson", 
+            "history_note": "", 
+            "place": "Mexico", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

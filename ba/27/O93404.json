@@ -1,0 +1,391 @@
+[
+    {
+        "pk": 62442, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "PH.457:443-1968", 
+            "date_end": "1865-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "-0.17406000", 
+            "year_start": 1856, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48150, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "clothing", 
+                        "museumobject_count": 434, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 116, 
+                        "type": "", 
+                        "slug": "clothing"
+                    }
+                }, 
+                {
+                    "pk": 2348, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "South Kensington", 
+                        "museumobject_count": 179, 
+                        "source": "place", 
+                        "cis_id": "x31226", 
+                        "museumobject_image_count": 168, 
+                        "type": "", 
+                        "slug": "south-kensington"
+                    }
+                }, 
+                {
+                    "pk": 28547, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Maude, Isabella Grace", 
+                        "museumobject_count": 22, 
+                        "source": "name", 
+                        "cis_id": "N3715", 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "maude-isabella-grace"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1861 (photographed)", 
+            "primary_image_id": "2006AW2414", 
+            "rights": 3, 
+            "physical_description": "Sepia stereoscopic photograph, mounted on card, showing a young woman seated on the terrace of a house.", 
+            "dimensions": "Height: 10.1 cm, Width: 16.1 cm", 
+            "title": "Isabella Grace Maude, on terrace, 5 Princes Gardens; Photographic Study", 
+            "date_start": "1856-01-01", 
+            "materials_techniques": "Stereoscopic photograph", 
+            "last_processed": "2014-03-31 22:41:47", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Unlimited edition", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 33H, box XII", 
+            "marks": "", 
+            "latitude": "51.49807000", 
+            "techniques": [
+                {
+                    "pk": 31, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "albumen process", 
+                        "museumobject_count": 5117, 
+                        "source": "cis_techniques", 
+                        "cis_id": "133274", 
+                        "museumobject_image_count": 4910, 
+                        "type": "", 
+                        "slug": "albumen-process"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 264, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "photograph", 
+                        "museumobject_count": 1251, 
+                        "source": "cis_materials", 
+                        "cis_id": "x32447", 
+                        "museumobject_image_count": 231, 
+                        "type": "", 
+                        "slug": "photograph"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 15, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Victorian", 
+                        "museumobject_count": 8255, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29321", 
+                        "museumobject_image_count": 6056, 
+                        "type": "", 
+                        "slug": "victorian"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 112809, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "XII", 
+                        "case": "X", 
+                        "inventory_number": 56824, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "PH.457:443-1968", 
+                        "museumobject": 62442, 
+                        "shelf": "33H", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "ph4574431968", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2081, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1865-01-19", 
+                        "surname": "", 
+                        "name": "Clementina, Lady Hawarden", 
+                        "gender": null, 
+                        "museumobject_count": 606, 
+                        "death_year": 1865, 
+                        "source": "object_production", 
+                        "cis_id": "A8493", 
+                        "museumobject_image_count": 557, 
+                        "forename": "", 
+                        "birth_date": "1822-06-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hawarden-clementina-lady", 
+                        "birth_year": 1822
+                    }
+                }, 
+                {
+                    "pk": 11010, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Maude, Isabella Grace", 
+                        "gender": null, 
+                        "museumobject_count": 22, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N3715", 
+                        "museumobject_image_count": 22, 
+                        "forename": "", 
+                        "birth_date": "1846-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "maude-isabella-grace", 
+                        "birth_year": 1846
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 58261, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 593
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 62442, 
+                        "role": "photographed", 
+                        "place": 593, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 58262, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 593
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 62442, 
+                        "role": "subject", 
+                        "place": 593, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "ph4574431968", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:41:47", 
+            "public_access_description": "Lady Hawarden posed her daughter on the terrace at the rear of her house in the South Kensington area of London. It looked from Princes Gardens onto a private communal garden that was shared with residents of Princes Gate to the north. The house had a balcony at the front and a terrace at the rear. These provided vantage points onto the surrounding district at a period when women had far less freedom - in terms of moving about the city - than they do today.", 
+            "exhibition_history": "", 
+            "bibliography": "Literature: Microfilm: 3.19.399 V. Dodier, \"Clementina, Lady Hawarden: Studies from Life, 1857-1864\" (V&A Publications, 1999), pp.32-33", 
+            "vanda_exhibition_history": "", 
+            "slug": "isabella-grace-maude-on-terrace-photograph-hawarden-clementina-viscountess", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 30083, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-09-03 00:00:00", 
+                        "last_processed": "2014-03-31 17:14:37", 
+                        "priority": 0, 
+                        "image_id": "2006AW2414", 
+                        "sys_id": 182414, 
+                        "last_checked": "2014-03-31 17:14:37", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AW/2006AW2414.jpg"
+                    }
+                }, 
+                {
+                    "pk": 113463, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:32:31", 
+                        "priority": 1, 
+                        "image_id": "2008BT8487", 
+                        "sys_id": 368487, 
+                        "last_checked": "2014-03-31 17:32:31", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BT/2008BT8487.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 593, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 620
+                    }, 
+                    "fields": {
+                        "name": "South Kensington", 
+                        "parent": 620, 
+                        "country": "England", 
+                        "museumobject_count": 387, 
+                        "longitude": "-0.17406000", 
+                        "source": "production", 
+                        "cis_id": "x31226", 
+                        "museumobject_image_count": 363, 
+                        "latitude": "51.49807000", 
+                        "type": "district", 
+                        "slug": "south-kensington-england-x31226"
+                    }
+                }
+            ], 
+            "artist": "Hawarden, Clementina (Viscountess)", 
+            "namecontext_set": [
+                {
+                    "pk": 68851, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2081
+                    }, 
+                    "fields": {
+                        "name": 2081, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 62442, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 68852, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11010
+                    }, 
+                    "fields": {
+                        "name": 11010, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 62442, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1865, 
+            "object_number": "O93404", 
+            "events": [], 
+            "credit": "Given by Lady Clementina Tottenham", 
+            "history_note": "", 
+            "place": "South Kensington", 
+            "production_note": "Reason For Production: Exhibition\nReason For Production: Retail", 
+            "historical_context_note": "From departmental notes\n\n'Clementina, Lady Hawarden (Untitled) Photographic Study (or) Study from Life (D.345) c.1861 5 Princes Gardens, exterior: Isabella Grace (left profile), head bent, standing, leaning on open gate leading to Princes Gate gardens. Garden shed on right; backs of houses on one side of Princes Gate gardens in background. 101 x 161 mm (stereoscopic) PH 457-1968:443 Literature:  Microfilm: 3.19.399  Lady Hawarden incorporated the steps into the composition as a device to draw the eye into the scene. There is a suggestion of wistful daydreaming in rsabella Grace's attitude, but her pose is also a method of bracing herself.'", 
+            "collection_code": "PDP"
+        }
+    }
+]
