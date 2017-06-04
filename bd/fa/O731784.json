@@ -1,0 +1,283 @@
+[
+    {
+        "pk": 637713, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2515-1938", 
+            "date_end": "1550-12-31", 
+            "labels": [], 
+            "descriptive_line": "Georg Pencz. Jupiter, from The Planets series. 1930s impression taken from an extant woodblock from the second quarter of the 16th century, Berlin.", 
+            "shape": "", 
+            "longitude": "13.37698700", 
+            "year_start": 1525, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "second quarter 16th century (made)\n1930s (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Woodcut showing one of the seven planetary gods, 1930s impression from a extant wood block", 
+            "dimensions": "Height: 11.8125 in, Width: 8.0625 in", 
+            "title": "Jupiter; The Planets", 
+            "date_start": "1525-01-01", 
+            "materials_techniques": "woodcut", 
+            "last_processed": "2014-04-26 16:10:51", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2H, shelf SH74, box EW89", 
+            "marks": "", 
+            "latitude": "52.51607400", 
+            "techniques": [
+                {
+                    "pk": 1024, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "woodcut", 
+                        "museumobject_count": 1003, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 154, 
+                        "type": "", 
+                        "slug": "woodcut"
+                    }
+                }, 
+                {
+                    "pk": 213, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "woodblock print", 
+                        "museumobject_count": 295, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x38448", 
+                        "museumobject_image_count": 201, 
+                        "type": "", 
+                        "slug": "woodblock-print"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 27153, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12401, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 772463, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "EW89", 
+                        "case": "MB2H", 
+                        "inventory_number": 1063586, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.2515-1938", 
+                        "museumobject": 637713, 
+                        "shelf": "SH74", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e25151938", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 30917, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1550-10-15", 
+                        "surname": "", 
+                        "name": "Pencz, Georg", 
+                        "gender": null, 
+                        "museumobject_count": 18, 
+                        "death_year": 1550, 
+                        "source": "object_production", 
+                        "cis_id": "A15106", 
+                        "museumobject_image_count": 11, 
+                        "forename": "", 
+                        "birth_date": "1495-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pencz-georg", 
+                        "birth_year": 1495
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 369232, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 303
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 637713, 
+                        "role": "made", 
+                        "place": 303, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e25151938", 
+            "object": "Woodcut", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 46, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Myths & Legends", 
+                        "museumobject_count": 2197, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1023, 
+                        "type": "", 
+                        "slug": "myths-legends"
+                    }
+                }, 
+                {
+                    "pk": 1619, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Allegory", 
+                        "museumobject_count": 345, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 328, 
+                        "type": "", 
+                        "slug": "allegory"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:10:51", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1938</u>, London: Board of Education, 1939.\nThe full text of the record is as follows:\n\n<b>'PENCZ, George (c.1500-1550).</b>\n\nThe Planets. Modern impression from a series of seven wood blocks preserved in Berlin.<i>\nWoodcuts.</i>\nE.2510 - 2516-1938\nGiven by Mr. Bernard Rackham, C.B.\n\nThe Sun.   E.2510-1938.\nThe Moon.   E.2511-1938.\nMercury.   E.2512-1938.\nVenus.   E.2513-1938.\nMars.   E.2514-1938.\nJupiter.   E.2515-1938.\nSaturn.   E.2516-1938.\n\n<i>Note:-</i> Formerly attributed to H.S. Beham.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "jupiter-the-planets-woodcut-georg-pencz", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 303, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5568
+                    }, 
+                    "fields": {
+                        "name": "Berlin", 
+                        "parent": 5568, 
+                        "country": "Germany", 
+                        "museumobject_count": 1134, 
+                        "longitude": "13.37698700", 
+                        "source": "production", 
+                        "cis_id": "x28746", 
+                        "museumobject_image_count": 292, 
+                        "latitude": "52.51607400", 
+                        "type": "city/town", 
+                        "slug": "berlin-germany-x28746"
+                    }
+                }
+            ], 
+            "artist": "Georg Pencz", 
+            "namecontext_set": [
+                {
+                    "pk": 483072, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 30917
+                    }, 
+                    "fields": {
+                        "name": 30917, 
+                        "part_name": "", 
+                        "uncertainty": "Originally attributed to H. S. Beham", 
+                        "museumobject": 637713, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1550, 
+            "object_number": "O731784", 
+            "events": [], 
+            "credit": "Given by Mr. Bernard Rackham", 
+            "history_note": "", 
+            "place": "Berlin", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
