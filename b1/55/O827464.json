@@ -1,0 +1,345 @@
+[
+    {
+        "pk": 731732, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1640-1919", 
+            "date_end": "1856-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing by Jean-Baptiste Capronnier depicting a window of 16th century stained glass by J. B. van der Veeken in the church of St. Jacques, Antwerp.  French School, 1856.", 
+            "shape": "", 
+            "longitude": "4.47677000", 
+            "year_start": 1856, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25917, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stained glass", 
+                        "museumobject_count": 869, 
+                        "source": "object", 
+                        "cis_id": "10853", 
+                        "museumobject_image_count": 42, 
+                        "type": "", 
+                        "slug": "stained-glass"
+                    }
+                }, 
+                {
+                    "pk": 11228, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Antwerp", 
+                        "museumobject_count": 31, 
+                        "source": "place", 
+                        "cis_id": "x28724", 
+                        "museumobject_image_count": 17, 
+                        "type": "", 
+                        "slug": "antwerp"
+                    }
+                }
+            ], 
+            "date_text": "1856 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Pen and ink and watercolour drawing of a 16th century stained glass window in Antwerp Cathedral.  Signed and dated by the artist.", 
+            "dimensions": "Height: 7.5 in, Width: 10.25 in", 
+            "title": "16th century stained glass in Antwerp Cathedral", 
+            "date_start": "1856-01-01", 
+            "materials_techniques": "Pen and ink wash drawing", 
+            "last_processed": "2014-04-26 19:01:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case C, shelf 4, box B", 
+            "marks": "", 
+            "latitude": "50.50099200", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }, 
+                {
+                    "pk": 1018, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "wash", 
+                        "museumobject_count": 814, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 117, 
+                        "type": "", 
+                        "slug": "wash"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 187, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen", 
+                        "museumobject_count": 2371, 
+                        "source": "cis_materials", 
+                        "cis_id": "x34758", 
+                        "museumobject_image_count": 1064, 
+                        "type": "", 
+                        "slug": "pen"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 866693, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "C", 
+                        "inventory_number": 955793, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.1640-1919", 
+                        "museumobject": 731732, 
+                        "shelf": "4", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e16401919", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 82414, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Capronnier", 
+                        "gender": null, 
+                        "museumobject_count": 40, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH326790", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "capronnier", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 406725, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 129
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 731732, 
+                        "role": "made", 
+                        "place": 129, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 406726, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 306
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 731732, 
+                        "role": "subject", 
+                        "place": 306, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e16401919", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 41, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Stained Glass", 
+                        "museumobject_count": 4090, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1004, 
+                        "type": "", 
+                        "slug": "stained-glass"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 19:01:56", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "16th-century-stained-glass-in-drawing-capronnier", 
+            "sys_updated": "2013-08-28 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 129, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Belgium", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 1269, 
+                        "longitude": "4.47677000", 
+                        "source": "production", 
+                        "cis_id": "x28742", 
+                        "museumobject_image_count": 289, 
+                        "latitude": "50.50099200", 
+                        "type": "country", 
+                        "slug": "belgium-x28742"
+                    }
+                }, 
+                {
+                    "pk": 306, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Antwerp", 
+                        "parent": null, 
+                        "country": "Belgium", 
+                        "museumobject_count": 1020, 
+                        "longitude": "4.39771000", 
+                        "source": "production", 
+                        "cis_id": "x28724", 
+                        "museumobject_image_count": 962, 
+                        "latitude": "51.22208000", 
+                        "type": "city/town", 
+                        "slug": "antwerp-belgium-x28724"
+                    }
+                }
+            ], 
+            "artist": "Capronnier", 
+            "namecontext_set": [
+                {
+                    "pk": 528649, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 82414
+                    }, 
+                    "fields": {
+                        "name": 82414, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 731732, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1856, 
+            "object_number": "O827464", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Reproduced in colour lithography as Plate XXV. in Levy's \"Histoire de la Peinture sur Verre en Europe\" 1860.", 
+            "place": "Belgium", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
