@@ -1,0 +1,254 @@
+[
+    {
+        "pk": 2978, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "52A-1904", 
+            "date_end": "1784-12-31", 
+            "labels": [
+                {
+                    "pk": 543, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 2978, 
+                        "label_text": "British Galleries:\nMuch of the wine drinking at dinner was kept until after the main meal, when ladies had withdrawn to take tea or coffee in the drawing room. The Neo-classical lion heads and swags engraved on this glass suggest a fashion-conscious owner."
+                    }
+                }
+            ], 
+            "descriptive_line": "Wine glass, England, 1780-1800, 52 A-1904", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1775, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca. 1780 (made)", 
+            "primary_image_id": "2006AM0422", 
+            "rights": 3, 
+            "physical_description": "Stem: faceted; Bowl: ogee", 
+            "dimensions": "Height: 12.5 cm, Diameter: 7.3 cm", 
+            "title": "", 
+            "date_start": "1775-01-01", 
+            "materials_techniques": "Engraved glass", 
+            "last_processed": "2014-03-31 19:00:46", 
+            "label": "British Galleries:\nMuch of the wine drinking at dinner was kept until after the main meal, when ladies had withdrawn to take tea or coffee in the drawing room. The Neo-classical lion heads and swags engraved on this glass suggest a fashion-conscious owner. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 118a, case 5", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 3977, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 981
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "5", 
+                        "inventory_number": 374208, 
+                        "room": "118A", 
+                        "part_name": "", 
+                        "museum_number": "52A-1904", 
+                        "museumobject": 2978, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 118a", 
+                        "museum_number_token": "52a1904", 
+                        "gallery": 981
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 981, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "118A", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 118a", 
+                        "site_code": "VA", 
+                        "museumobject_count": 140, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49236", 
+                        "museumobject_image_count": 139, 
+                        "type": "", 
+                        "slug": "118a-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 3133, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2978, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "52a1904", 
+            "object": "Wine glass", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 12, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "British Galleries", 
+                        "museumobject_count": 1593, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1277, 
+                        "type": "", 
+                        "slug": "british-galleries"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:00:46", 
+            "public_access_description": "Object Type\nA typical wine glass of the late 18th century, this example, with its elaborate and expensive engraving, would have formed part of a set.\n\nDesign & Designing\nFrom about 1780, the long succession of different types of tall stemmed wine glasses made in Britain from the early 18th century was finally abandoned in favour of more compact versions. These shorter glasses - made in only two parts, the stem being drawn from the bottom of the bowl - were more stable, their rather plain forms being enhanced with cut flutes or facets. Not only were they elegant, but they perfectly complemented contemporary decanters, which followed exactly the same form but upside-down. Such skilled wheel-engraving in the fashionable Neo-classical taste was probably added by specialist glass dealers who had their own cutting shops - mainly in London. Engraved decoration could double the cost of a glass.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "wine-glass-unknown", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 3498, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:08:58", 
+                        "priority": 0, 
+                        "image_id": "2006AM0422", 
+                        "sys_id": 110422, 
+                        "last_checked": "2014-03-31 17:08:58", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM0422.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 2620, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2978, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1784, 
+            "object_number": "O1291", 
+            "events": [], 
+            "credit": "Given by C. B. Farmer", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
