@@ -1,0 +1,284 @@
+[
+    {
+        "pk": 87516, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.776-2003", 
+            "date_end": "1969-12-31", 
+            "labels": [], 
+            "descriptive_line": "Poster, 'La Odisea del Gral', screenprint by Niko, Cuba, 1969.", 
+            "shape": "", 
+            "longitude": "-77.80679300", 
+            "year_start": 1969, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 9392, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Cuba", 
+                        "museumobject_count": 39, 
+                        "source": "place", 
+                        "cis_id": "x30039", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "cuba"
+                    }
+                }, 
+                {
+                    "pk": 50594, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "motion pictures (information artifacts)", 
+                        "museumobject_count": 8, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "motion-pictures-information-artifacts"
+                    }
+                }
+            ], 
+            "date_text": "1969 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Film poster; screenprint with psychedelic design. Signed 'Niko/69'.", 
+            "dimensions": "Height: 762 mm, Width: 510 mm", 
+            "title": "La Odisea del Gral", 
+            "date_start": "1969-01-01", 
+            "materials_techniques": "Screenprint", 
+            "last_processed": "2014-04-01 00:33:24", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case Y, shelf 79, box D", 
+            "marks": "'Niko/69'.\n LA ODISEA DEL / GRAL. JOSE\n DIRECCION: JORGE FRAGA / CON: MIGUEL BENAVIDES / JOSE A. RODRIGUEZ / RENE DE LA CRUZ / FILM CUBANO", 
+            "latitude": "21.51102100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 148642, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "D", 
+                        "case": "Y", 
+                        "inventory_number": 705330, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.776-2003", 
+                        "museumobject": 87516, 
+                        "shelf": "79", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e7762003", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 16210, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Niko", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "attribution", 
+                        "cis_id": "A14824", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "niko", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 84075, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2930
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 87516, 
+                        "role": "made", 
+                        "place": 2930, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 84076, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2930
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 87516, 
+                        "role": "subject", 
+                        "place": 2930, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e7762003", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 124, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Propaganda", 
+                        "museumobject_count": 1560, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 696, 
+                        "type": "", 
+                        "slug": "propaganda"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:33:24", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "la-odisea-del-gral-poster-niko", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 2930, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "Cuba", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 108, 
+                        "longitude": "-77.80679300", 
+                        "source": "production", 
+                        "cis_id": "x30039", 
+                        "museumobject_image_count": 17, 
+                        "latitude": "21.51102100", 
+                        "type": "country", 
+                        "slug": "cuba-x30039"
+                    }
+                }
+            ], 
+            "artist": "Niko", 
+            "namecontext_set": [
+                {
+                    "pk": 103574, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 16210
+                    }, 
+                    "fields": {
+                        "name": 16210, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 87516, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1969, 
+            "object_number": "O113158", 
+            "events": [], 
+            "credit": "Given by John Green", 
+            "history_note": "", 
+            "place": "Cuba", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

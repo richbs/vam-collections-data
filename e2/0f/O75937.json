@@ -1,0 +1,326 @@
+[
+    {
+        "pk": 73198, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2905-1980", 
+            "date_end": "1936-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1936, 
+            "exhibitions": [
+                {
+                    "pk": 478, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "A Century of Olympic Posters", 
+                        "date_end": null, 
+                        "museumobject_count": 104, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 92, 
+                        "type": "", 
+                        "slug": "a-century-of-olympic-posters", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 24462, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "sculpture", 
+                        "museumobject_count": 638, 
+                        "source": "object", 
+                        "cis_id": "47090", 
+                        "museumobject_image_count": 116, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 2987, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Berlin (city)", 
+                        "museumobject_count": 33, 
+                        "source": "place", 
+                        "cis_id": "x28746", 
+                        "museumobject_image_count": 14, 
+                        "type": "", 
+                        "slug": "berlin"
+                    }
+                }
+            ], 
+            "date_text": "1936 (printed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 1016 mm, Width: 637 mm", 
+            "title": "Olympic Games", 
+            "date_start": "1936-01-01", 
+            "materials_techniques": "Colour lithograph", 
+            "last_processed": "2014-03-31 23:32:55", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case 3, shelf G, box DR 33", 
+            "marks": "", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 128015, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "DR 33", 
+                        "case": "3", 
+                        "inventory_number": 683399, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.2905-1980", 
+                        "museumobject": 73198, 
+                        "shelf": "G", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e29051980", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 13664, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "W\u00fcrbel, Franz", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A7829", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1897-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "wurbel-franz", 
+                        "birth_year": 1897
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 69535, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 73198, 
+                        "role": "printed", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 69536, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 303
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 73198, 
+                        "role": "subject", 
+                        "place": 303, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e29051980", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 94, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sport", 
+                        "museumobject_count": 794, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 335, 
+                        "type": "", 
+                        "slug": "sport"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12386, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1854, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }, 
+                {
+                    "pk": 1814, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Olympics", 
+                        "museumobject_count": 95, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28, 
+                        "type": "", 
+                        "slug": "olympics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:32:55", 
+            "public_access_description": "A poster advertising the Olympic Games held in Berlin in August 1936. It was published by the German Railways Head Office for Tourist Traffic and the Propaganda Committee for the Olympic Games. The increasing international rivalry that developed in the Olympics after their re-establishment in 1894 was reflected in their posters. The German Chancellor, Adolf Hitler, saw the Berlin Olympic Games as a major opportunity for publicity for his Nazi regime and its racist ideology, and high-profile posters were commissioned from Franz W\u00fcrbel and Ludwig Hohlwein. Classical realism was Hitler's chosen style, and this design incorporates sculpture from Berlin's Brandenburg Gate and a heroic head crowned with laurels.", 
+            "exhibition_history": "A Century of Olympic Posters (Liaoning Museum, Shenyang 12 March 2008-27 April 2008)\nA Century of Olympic Posters (Capital Museum, Beijing 15 January 2008-28 February 2008)\nA Century of Olympic Posters (V&A Museum of Childhood 17/05/2008-07/09/2008)\nA Century of Olympic Posters (V&A Museum of Childhood 17/05/08-27/09/08)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "olympic-games-poster-wurbel-franz", 
+            "sys_updated": "2013-12-03 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7484, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3489, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }, 
+                {
+                    "pk": 303, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5568
+                    }, 
+                    "fields": {
+                        "name": "Berlin", 
+                        "parent": 5568, 
+                        "country": "Germany", 
+                        "museumobject_count": 1131, 
+                        "longitude": "13.37698700", 
+                        "source": "production", 
+                        "cis_id": "x28746", 
+                        "museumobject_image_count": 290, 
+                        "latitude": "52.51607400", 
+                        "type": "city/town", 
+                        "slug": "berlin-germany-x28746"
+                    }
+                }
+            ], 
+            "artist": "W\u00fcrbel, Franz", 
+            "namecontext_set": [
+                {
+                    "pk": 83989, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 13664
+                    }, 
+                    "fields": {
+                        "name": 13664, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 73198, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1936, 
+            "object_number": "O75937", 
+            "events": [], 
+            "credit": "Reproduced courtesy of the International Olympic Committee", 
+            "history_note": "", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
