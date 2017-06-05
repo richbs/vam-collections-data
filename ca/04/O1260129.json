@@ -1,0 +1,270 @@
+[
+    {
+        "pk": 1112676, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.2-2013", 
+            "date_end": "1980-12-31", 
+            "labels": [], 
+            "descriptive_line": "Silver and lignum vitae ring, designed and made by David Hensel, England, 1980.", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1980, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1980 (Designed and made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Carved and polished lignum vitae ring formed of a square base, widening at the shoulders to support a dome shaped bezel. The circular aperture for the finger is lined with silver. The domed bezel sits upon a silver rim and is set with two silver wires which meet at the top of the bezel to form a cross. The lignum vitae was carved from a single piece of wood.", 
+            "dimensions": "Height: 3.8 cm, Width: 2.4 cm", 
+            "title": "", 
+            "date_start": "1980-01-01", 
+            "materials_techniques": "Carved and polished lignum vitae and silver", 
+            "last_processed": "2014-04-27 05:49:34", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Unique", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33198, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10280, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 43, shelf B, box 13", 
+            "marks": "DH 80", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 4, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "carving", 
+                        "museumobject_count": 3407, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53149", 
+                        "museumobject_image_count": 2168, 
+                        "type": "", 
+                        "slug": "carving"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 650, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "fine silver", 
+                        "museumobject_count": 6, 
+                        "source": "cis_materials", 
+                        "cis_id": "242137", 
+                        "museumobject_image_count": 6, 
+                        "type": "", 
+                        "slug": "fine-silver"
+                    }
+                }, 
+                {
+                    "pk": 956, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "lignum vitae", 
+                        "museumobject_count": 6, 
+                        "source": "cis_materials", 
+                        "cis_id": "12193", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "lignum-vitae"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1303595, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "13", 
+                        "case": "43", 
+                        "inventory_number": null, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "M.2-2013", 
+                        "museumobject": 1112676, 
+                        "shelf": "B", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m22013", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1956, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1897, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 79278, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Hensel, David", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "", 
+                        "cis_id": "AUTH322418", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hensel-david", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 489274, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1112676, 
+                        "role": "Designed and made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m22013", 
+            "object": "Ring", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24796, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10870, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8552, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5075, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 05:49:34", 
+            "public_access_description": "David Hensel (born 1945) is the son of a doctor and also studied medicine but his interest in art and the natural world rapidly led him to a Fine Arts course in painting and sculpture at Brighton College of Arts. He has worked in many media including sculpture and drawing. Although not formally trained as a jeweller, he has drawn upon his skills as a sculptor to create jewellery incorporating precious stones and metals, found objects and natural materials. He views his jewellery as \u2018hand-held  sculptures which I couldn't put down\u2019. More recently, he has worked with the Bond Street jewellers, Bentley and Skinner, notably working on the iconic diamond skull made for Damian Hirst in 2007 and is currently working on larger sculptures and stereoscopic drawings and photographs. \n\nHis jewellery from the 1970s and 80s is based upon carving, particularly of woods such as ebony and boxwood, ivory and amber which is often inlaid with gold or silver.  His work can be found in the collection of the Crafts Council, the Goldsmiths Company and the Royal Scottish Museum, Edinburgh.\n", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "ring-hensel-david", 
+            "sys_updated": "2014-04-03 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Great Britain", 
+                        "museumobject_count": 44632, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13475, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-great-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Hensel, David", 
+            "namecontext_set": [
+                {
+                    "pk": 676268, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 79278
+                    }, 
+                    "fields": {
+                        "name": 79278, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1112676, 
+                        "role": "designer and maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1980, 
+            "object_number": "O1260129", 
+            "events": [], 
+            "credit": "Given by David Hensel", 
+            "history_note": "This ring was turned on the lathe from a single piece of wood and then carved and inlaid with silver. It was made just after the wooden pomander ring illustrated in Peter Hink's 'Twentieth Century British Jewellery 1900-1980', p. 170.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
