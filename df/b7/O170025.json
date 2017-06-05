@@ -1,0 +1,435 @@
+[
+    {
+        "pk": 135938, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CIRC.178-1964", 
+            "date_end": "1861-12-31", 
+            "labels": [], 
+            "descriptive_line": "Bust of Apollo, Parian, Copeland, 1861", 
+            "shape": "", 
+            "longitude": "-2.17507000", 
+            "year_start": 1861, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23994, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Apollo", 
+                        "museumobject_count": 196, 
+                        "source": "name", 
+                        "cis_id": "N138", 
+                        "museumobject_image_count": 124, 
+                        "type": "", 
+                        "slug": "apollo"
+                    }
+                }
+            ], 
+            "date_text": "1861 (made)", 
+            "primary_image_id": "2008BT2259", 
+            "rights": 3, 
+            "physical_description": "Parian-ware bust Apollo", 
+            "dimensions": "Height: 36.2 cm, Width: 24.2 cm", 
+            "title": "Apollo", 
+            "date_start": "1861-01-01", 
+            "materials_techniques": "Parian", 
+            "last_processed": "2014-04-01 03:56:29", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "World Ceramics, room 145, case 13, shelf 1", 
+            "marks": "C.DELPECH REDT. PUBLISHED FEBRUARY I, 1861. ART UNION OF LONDON, 1861,", 
+            "latitude": "53.02936200", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1759, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "parian", 
+                        "museumobject_count": 43, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 41, 
+                        "type": "", 
+                        "slug": "parian"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 157, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Historicist", 
+                        "museumobject_count": 80, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29299", 
+                        "museumobject_image_count": 48, 
+                        "type": "", 
+                        "slug": "historicist"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 210429, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 354
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "13", 
+                        "inventory_number": 332572, 
+                        "room": "145", 
+                        "part_name": "", 
+                        "museum_number": "CIRC.178-1964", 
+                        "museumobject": 135938, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "World Ceramics, room 145", 
+                        "museum_number_token": "circ1781964", 
+                        "gallery": 354
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 354, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "145", 
+                        "site_name": "", 
+                        "name": "World Ceramics, room 145", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1487, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49865", 
+                        "museumobject_image_count": 1483, 
+                        "type": "", 
+                        "slug": "145-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1417, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Copeland & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 221, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A9075", 
+                        "museumobject_image_count": 80, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "copeland-co", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 119, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Apollo", 
+                        "gender": null, 
+                        "museumobject_count": 198, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N138", 
+                        "museumobject_image_count": 125, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "apollo", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 134809, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 67
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 135938, 
+                        "role": "made", 
+                        "place": 67, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "circ1781964", 
+            "object": "Bust", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 03:56:29", 
+            "public_access_description": "This parian bust is reduced from the marble 'Apollo Belvedere' by C. Delpech, now in the British Museum. It was commissioned by the Art Union of London, an organisation established in 1836 for the encouragement of British artists and the improvement of  public taste in matters of the arts. The Union had an annual subscription rate for which each subscriber received an engraving of a painting, and also the chance of winning a prize picture or sculpture. \n\nParian-ware, a matt white porcelain developed in the 1840s, recalled the sheen and translucency of the marble of classical sculpture and was widely used for decorative figures.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "apollo-bust-copeland", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 108764, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:31:34", 
+                        "priority": 0, 
+                        "image_id": "2008BT2259", 
+                        "sys_id": 362259, 
+                        "last_checked": "2014-03-31 17:31:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BT/2008BT2259.jpg"
+                    }
+                }, 
+                {
+                    "pk": 108765, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:31:34", 
+                        "priority": 1, 
+                        "image_id": "2008BT2260", 
+                        "sys_id": 362260, 
+                        "last_checked": "2014-03-31 17:31:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BT/2008BT2260.jpg"
+                    }
+                }, 
+                {
+                    "pk": 108761, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:31:34", 
+                        "priority": 2, 
+                        "image_id": "2008BT2256", 
+                        "sys_id": 362256, 
+                        "last_checked": "2014-03-31 17:31:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BT/2008BT2256.jpg"
+                    }
+                }, 
+                {
+                    "pk": 108760, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:31:34", 
+                        "priority": 3, 
+                        "image_id": "2008BT2255", 
+                        "sys_id": 362255, 
+                        "last_checked": "2014-03-31 17:31:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BT/2008BT2255.jpg"
+                    }
+                }, 
+                {
+                    "pk": 108759, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:31:34", 
+                        "priority": 4, 
+                        "image_id": "2008BT2254", 
+                        "sys_id": 362254, 
+                        "last_checked": "2014-03-31 17:31:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2008BT/2008BT2254.jpg"
+                    }
+                }, 
+                {
+                    "pk": 9748, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-01-06 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:17", 
+                        "priority": 5, 
+                        "image_id": "2006AN0719", 
+                        "sys_id": 120719, 
+                        "last_checked": "2014-03-31 17:10:17", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AN/2006AN0719.jpg"
+                    }
+                }, 
+                {
+                    "pk": 9151, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-01-07 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:09", 
+                        "priority": 6, 
+                        "image_id": "2006AM9467", 
+                        "sys_id": 119467, 
+                        "last_checked": "2014-03-31 17:10:09", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM9467.jpg"
+                    }
+                }, 
+                {
+                    "pk": 9150, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-01-07 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:09", 
+                        "priority": 7, 
+                        "image_id": "2006AM9466", 
+                        "sys_id": 119466, 
+                        "last_checked": "2014-03-31 17:10:09", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM9466.jpg"
+                    }
+                }, 
+                {
+                    "pk": 9149, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-01-07 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:09", 
+                        "priority": 8, 
+                        "image_id": "2006AM9465", 
+                        "sys_id": 119465, 
+                        "last_checked": "2014-03-31 17:10:09", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM9465.jpg"
+                    }
+                }, 
+                {
+                    "pk": 9147, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-01-07 00:00:00", 
+                        "last_processed": "2014-03-31 17:10:09", 
+                        "priority": 9, 
+                        "image_id": "2006AM9463", 
+                        "sys_id": 119463, 
+                        "last_checked": "2014-03-31 17:10:09", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM9463.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 67, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5363
+                    }, 
+                    "fields": {
+                        "name": "Stoke", 
+                        "parent": 5363, 
+                        "country": "England", 
+                        "museumobject_count": 1528, 
+                        "longitude": "-2.17507000", 
+                        "source": "production", 
+                        "cis_id": "x29185", 
+                        "museumobject_image_count": 1166, 
+                        "latitude": "53.02936200", 
+                        "type": "city / town", 
+                        "slug": "stoke-england-x29185"
+                    }
+                }
+            ], 
+            "artist": "Copeland", 
+            "namecontext_set": [
+                {
+                    "pk": 167293, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1417
+                    }, 
+                    "fields": {
+                        "name": 1417, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 135938, 
+                        "role": "maker", 
+                        "order": 101
+                    }
+                }, 
+                {
+                    "pk": 167294, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 119
+                    }, 
+                    "fields": {
+                        "name": 119, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 135938, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1861, 
+            "object_number": "O170025", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Commissioned by the Art Union of London, 1861", 
+            "place": "Stoke-on-Trent", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
