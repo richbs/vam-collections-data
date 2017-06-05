@@ -1,0 +1,326 @@
+[
+    {
+        "pk": 982713, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "519-1912", 
+            "date_end": "1912-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph, Prints Gallery (Room 83) showing Dickens exhibition, gelatin silver print, 1912", 
+            "shape": "", 
+            "longitude": "-0.18598300", 
+            "year_start": 1912, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 518, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Victoria and Albert Museum", 
+                        "museumobject_count": 390, 
+                        "source": "place", 
+                        "cis_id": "x32782", 
+                        "museumobject_image_count": 239, 
+                        "type": "", 
+                        "slug": "victoria-and-albert-museum"
+                    }
+                }, 
+                {
+                    "pk": 27288, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Dickens, Charles", 
+                        "museumobject_count": 36, 
+                        "source": "name", 
+                        "cis_id": "N2443", 
+                        "museumobject_image_count": 26, 
+                        "type": "", 
+                        "slug": "dickens-charles-2443"
+                    }
+                }
+            ], 
+            "date_text": "1912 (photographed)", 
+            "primary_image_id": "2009CJ0422", 
+            "rights": 3, 
+            "physical_description": "A black and white photograph of a long, narrow exhibition space with framed prints on the walls and glass display cases containing books and manuscripts.  A sign, 'Dickens Exhibition' hangs over the door at the far end of the exhibition space.", 
+            "dimensions": "Height: 26.7 cm mount, Width: 33.2 cm mount", 
+            "title": "Prints Gallery (Room 83) showing Dickens exhibition", 
+            "date_start": "1912-01-01", 
+            "materials_techniques": "silver gelatin print", 
+            "last_processed": "2014-04-27 00:48:20", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 601, box D", 
+            "marks": "'A.b. London'", 
+            "latitude": "51.49817300", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 437, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "documentary", 
+                        "museumobject_count": 5516, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x37881", 
+                        "museumobject_image_count": 4914, 
+                        "type": "", 
+                        "slug": "documentary"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 1117989, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "D", 
+                        "case": "X", 
+                        "inventory_number": 405907, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "519-1912", 
+                        "museumobject": 982713, 
+                        "shelf": "601", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "5191912", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32479, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9318, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 8126, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1870-12-31", 
+                        "surname": "", 
+                        "name": "Dickens, Charles", 
+                        "gender": null, 
+                        "museumobject_count": 390, 
+                        "death_year": 1870, 
+                        "source": "content", 
+                        "cis_id": "N2443", 
+                        "museumobject_image_count": 289, 
+                        "forename": "", 
+                        "birth_date": "1812-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "dickens-charles-2443", 
+                        "birth_year": 1812
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 437477, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 156
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 982713, 
+                        "role": "photographed", 
+                        "place": 156, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 437478, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 156
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 982713, 
+                        "role": "subject", 
+                        "place": 156, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "5191912", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14160, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4778, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }, 
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 41092, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31513, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }, 
+                {
+                    "pk": 1652, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "History of the V&A", 
+                        "museumobject_count": 1202, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 768, 
+                        "type": "", 
+                        "slug": "history-of-the-va"
+                    }
+                }, 
+                {
+                    "pk": 1665, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Dickens", 
+                        "museumobject_count": 260, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 181, 
+                        "type": "", 
+                        "slug": "dickens"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 00:48:20", 
+            "public_access_description": "Photographs and photographers were present from the very beginning of the V&A's history and the Museum has an extensive collection of images from the 1850s through to the present which documents the construction and development of the V&A and the South Kensington site.  \n\nOriginally collected by the National Art Library as part of a programme to record works of art, architecture and design in the interest of public education, these topographic and architectural views were valued as records and as source material for students of architecture and design.  As well as being crucial records of the history of the V&A, and an important element within the National Art Library's visual encyclopaedia, these photographs are also significant artefacts in the history of the art of photography.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "prints-gallery-room-83-showing-photograph", 
+            "sys_updated": "2013-09-23 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 171314, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-01-13 00:00:00", 
+                        "last_processed": "2014-04-25 14:21:39", 
+                        "priority": 0, 
+                        "image_id": "2009CJ0422", 
+                        "sys_id": 500422, 
+                        "last_checked": "2014-04-25 14:21:39", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2009CJ/2009CJ0422.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 156, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 593
+                    }, 
+                    "fields": {
+                        "name": "Victoria and Albert Museum", 
+                        "parent": 593, 
+                        "country": "England", 
+                        "museumobject_count": 708, 
+                        "longitude": "-0.18598300", 
+                        "source": "production", 
+                        "cis_id": "x32782", 
+                        "museumobject_image_count": 432, 
+                        "latitude": "51.49817300", 
+                        "type": "site", 
+                        "slug": "victoria-and-albert-museum-england-x32782"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [
+                {
+                    "pk": 568827, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8126
+                    }, 
+                    "fields": {
+                        "name": 8126, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 982713, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1912, 
+            "object_number": "O1092633", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Victoria and Albert Museum", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

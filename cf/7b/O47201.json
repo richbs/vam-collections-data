@@ -1,0 +1,302 @@
+[
+    {
+        "pk": 39991, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.859-2000", 
+            "date_end": "1904-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "91.13201100", 
+            "year_start": 1903, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 4873, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Chaksam, Tibet", 
+                        "museumobject_count": 1, 
+                        "source": "place", 
+                        "cis_id": "x33158", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "chaksam-tibet"
+                    }
+                }, 
+                {
+                    "pk": 4874, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Yarlung River, Tibet", 
+                        "museumobject_count": 1, 
+                        "source": "place", 
+                        "cis_id": "x33159", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "yarlung-river-tibet"
+                    }
+                }, 
+                {
+                    "pk": 4875, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Iron bridge", 
+                        "museumobject_count": 1, 
+                        "source": "object", 
+                        "cis_id": "x33160", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "iron-bridge"
+                    }
+                }
+            ], 
+            "date_text": "1903-1904 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Iron bridge chains leading from foreground over water to an island, mountains beyond", 
+            "dimensions": "Height: 19.6 cm, Width: 15.1 cm", 
+            "title": "View from entrance to Iron Bridge, Chaksam, near Lhasa", 
+            "date_start": "1903-01-01", 
+            "materials_techniques": "Photographic paper: platinum process", 
+            "last_processed": "2014-03-31 21:25:17", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Unlimited edition", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case PX3, shelf 7", 
+            "marks": "", 
+            "latitude": "29.65049900", 
+            "techniques": [
+                {
+                    "pk": 337, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "platinum process", 
+                        "museumobject_count": 22, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53492", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "platinum-process"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 219, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "photographic paper", 
+                        "museumobject_count": 6225, 
+                        "source": "cis_materials", 
+                        "cis_id": "14190", 
+                        "museumobject_image_count": 4880, 
+                        "type": "", 
+                        "slug": "photographic-paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 81621, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PX3", 
+                        "inventory_number": 672296, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.859-2000", 
+                        "museumobject": 39991, 
+                        "shelf": "7", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e8592000", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48299, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6164, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 38174, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1513
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 39991, 
+                        "role": "Photographed", 
+                        "place": 1513, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 38175, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1514
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 39991, 
+                        "role": "subject", 
+                        "place": 1514, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 38176, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1515
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 39991, 
+                        "role": "subject", 
+                        "place": 1515, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e8592000", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-03-31 21:25:17", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "John Clarke, Tibet: Caught in Time, plate 37, captioned: 'Remains of the iron bridge at Chaksam, 40 miles south of Lhasa and the site of a main ferry crossing point on the Yarlung River. The bridge was no longer in use, the river having cut into the piers on which it was anchored. It was one of the iron-chain bridges built by the saint Thangtong Gyalpo in the mid-fifteenth century. Stories of the life of Thangtong Gyalpo relate how an incident when he fired an arrow into the Kyichu River became an omen, inspiring him to build bridges for the good of all. The saint travelled to Kongpo in south-east Tibet where he found sponsors and iron sources for his constructions.", 
+            "vanda_exhibition_history": "", 
+            "slug": "view-from-entrance-to-iron-photograph", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1513, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 220
+                    }, 
+                    "fields": {
+                        "name": "Chaksam, near Lhasa, Tibet", 
+                        "parent": 220, 
+                        "country": "", 
+                        "museumobject_count": 1, 
+                        "longitude": "91.13201100", 
+                        "source": "production", 
+                        "cis_id": "x33040", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "29.65049900", 
+                        "type": "city/town", 
+                        "slug": "chaksam-near-lhasa-tibet-x33040"
+                    }
+                }, 
+                {
+                    "pk": 1514, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 220
+                    }, 
+                    "fields": {
+                        "name": "Chaksam", 
+                        "parent": 220, 
+                        "country": "", 
+                        "museumobject_count": 1, 
+                        "longitude": "99.81905400", 
+                        "source": "cis_subject_place", 
+                        "cis_id": "x33158", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "34.96966900", 
+                        "type": "site", 
+                        "slug": "chaksam-x33158"
+                    }
+                }, 
+                {
+                    "pk": 1515, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 220
+                    }, 
+                    "fields": {
+                        "name": "Yarlung River", 
+                        "parent": 220, 
+                        "country": "", 
+                        "museumobject_count": 1, 
+                        "longitude": "99.81905400", 
+                        "source": "cis_subject_place", 
+                        "cis_id": "x33159", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "34.96966900", 
+                        "type": "river", 
+                        "slug": "yarlung-river-x33159"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1904, 
+            "object_number": "O47201", 
+            "events": [], 
+            "credit": "Given by the American Friends of the V&A through the generosity of Michael McDaniel", 
+            "history_note": "", 
+            "place": "Chaksam, near Lhasa, Tibet", 
+            "production_note": "Reason For Production: Private", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

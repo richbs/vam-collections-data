@@ -1,0 +1,338 @@
+[
+    {
+        "pk": 88973, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "9253:2", 
+            "date_end": "1600-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1500, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48093, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "vase", 
+                        "museumobject_count": 505, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 343, 
+                        "type": "", 
+                        "slug": "vase"
+                    }
+                }, 
+                {
+                    "pk": 24832, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "caryatid", 
+                        "museumobject_count": 21, 
+                        "source": "object", 
+                        "cis_id": "1583", 
+                        "museumobject_image_count": 14, 
+                        "type": "", 
+                        "slug": "caryatid"
+                    }
+                }
+            ], 
+            "date_text": "1500-1600 (made)", 
+            "primary_image_id": "2006AM3061", 
+            "rights": 3, 
+            "physical_description": "Designs, three on one rectangular sheet for vases supported by Caryatids; top left, vase supported by two female figures seated on a simple classical plinth; bottom left, decorative plinth design; right, vase supported by three figures  standing on a short plinth.", 
+            "dimensions": "Height: 225 mm, Width: 165 mm", 
+            "title": "", 
+            "date_start": "1500-01-01", 
+            "materials_techniques": "pen and ink on violet tinted background", 
+            "last_processed": "2014-04-01 00:40:02", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2A, shelf DR55, box CONS", 
+            "marks": "J. da Udine", 
+            "latitude": "42.50299800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31929, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18716, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }, 
+                {
+                    "pk": 35, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wash", 
+                        "museumobject_count": 5298, 
+                        "source": "cis_materials", 
+                        "cis_id": "11051", 
+                        "museumobject_image_count": 1746, 
+                        "type": "", 
+                        "slug": "wash"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 27, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Renaissance", 
+                        "museumobject_count": 3842, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21140", 
+                        "museumobject_image_count": 2706, 
+                        "type": "", 
+                        "slug": "renaissance"
+                    }
+                }, 
+                {
+                    "pk": 122, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Mannerist", 
+                        "museumobject_count": 572, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21144", 
+                        "museumobject_image_count": 221, 
+                        "type": "", 
+                        "slug": "mannerist"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 150821, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "CONS", 
+                        "case": "MB2A", 
+                        "inventory_number": 714752, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "9253:2", 
+                        "museumobject": 88973, 
+                        "shelf": "DR55", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "92532", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 5957, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1547-10-20", 
+                        "surname": "", 
+                        "name": "Perino del Vaga", 
+                        "gender": null, 
+                        "museumobject_count": 26, 
+                        "death_year": 1547, 
+                        "source": "object_production", 
+                        "cis_id": "A15227", 
+                        "museumobject_image_count": 25, 
+                        "forename": "", 
+                        "birth_date": "1501-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "perino-del-vaga", 
+                        "birth_year": 1501
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 85639, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88973, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "92532", 
+            "object": "Design", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 72651, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36440, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }, 
+                {
+                    "pk": 81, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Vases", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 942, 
+                        "type": "", 
+                        "slug": "vases"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:40:02", 
+            "public_access_description": "This drawing shows three designs for vases on one page, each arranged in a rather gestural manner. The crowded nature of the composition suggests that this drawing represents an interim phase of the design process, and certainly one which is a fair distance away from any possible presentation drawing for the client. Subtle illustrations by the designer at the top of the uppermost two vases indicate a suggested arrangement of the flowers, and thus convey how the vases may be used in a practical situation. The third vase design (lower-left portion of the drawing) appears to refer to the vase design immediately above it, and indicates an alternative design for the plinth of the vase.\nAll three vase designs incorporate the figure of the caryatid. In classical Greek and Roman architecture the caryatid was a sculpted female figure serving as an architectural support, taking the place of a column or pillar, supporting the entablature/pediment on her head. In the 16th-century, this architectural motif was appropriated into the decorative arts, appearing in the design of objects such as candlestickes, table legs and vases, lending architectural weight and gravitas to domestic objects.", 
+            "exhibition_history": "", 
+            "bibliography": "Davidson, Bernice, Mostra di disegni di Perino del Vaga e la sua cerchia, Florence, 1966, p.76, no. 80\nWard-Jackson, Peter, Italian Drawings, Volume 1, 14th to 16th century, 1997, cat. no. 366.", 
+            "vanda_exhibition_history": "", 
+            "slug": "design-vaga-perino-del", 
+            "sys_updated": "2014-03-14 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 4788, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-14 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:14", 
+                        "priority": 0, 
+                        "image_id": "2006AM3061", 
+                        "sys_id": 113061, 
+                        "last_checked": "2014-03-31 17:09:14", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM3061.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Vaga, Perino del", 
+            "namecontext_set": [
+                {
+                    "pk": 105443, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5957
+                    }, 
+                    "fields": {
+                        "name": 5957, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 88973, 
+                        "role": "drawn", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1600, 
+            "object_number": "O114950", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "Formerly attributed to Giovanni da Udine. This attribution is made by Pouncey.", 
+            "historical_context_note": "The drawing has affinities with Guglielmo della Porta, who collaborated with Perino in the 1550s", 
+            "collection_code": "PDP"
+        }
+    }
+]
