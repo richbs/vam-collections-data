@@ -1,0 +1,232 @@
+[
+    {
+        "pk": 916231, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.47-1936", 
+            "date_end": "1916-12-31", 
+            "labels": [], 
+            "descriptive_line": "Edward Johnson. Designs for sans serif alphabet and lettering for the London Underground Railway. 1916.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1916, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1916 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Designs for alphabet and lettering for the London Underground", 
+            "dimensions": "Height: 8.25 in, Width: 12 in", 
+            "title": "", 
+            "date_start": "1916-01-01", 
+            "materials_techniques": "pen and ink", 
+            "last_processed": "2014-04-26 23:03:53", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case CC, shelf 7", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 1429, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lettering", 
+                        "museumobject_count": 11, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "lettering"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31965, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18774, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1051440, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "CC", 
+                        "inventory_number": 718501, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.47-1936", 
+                        "museumobject": 916231, 
+                        "shelf": "7", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e471936", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 427135, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 916231, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e471936", 
+            "object": "Design for an alphabet", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 73110, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36746, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }, 
+                {
+                    "pk": 1806, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Typography", 
+                        "museumobject_count": 86, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "typography"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 23:03:53", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1936</u>, London: Board of Education, 1937.\nThe full text of the record is as follows:\n\n<b>'JOHNSTON, Edward.</B>\n\nAlphabet in sans serif type: capitals, lower case and figures designed for the Underground Railway, 1916.\n<i>Signed</i> Edward Johnston . . . 1916 <i>and inscribed with notes of detail.\nPen and ink.\n</i>E.47, 48-1936\nGiven by the London Passenger Transport Board.\n\nLetters from the above alphabet redrawn in heavier type, with explanatory note.\n<i>Signed</i> Edward Johnston 1st Dec. 1929 <i>and </i>E.J. Dec. 1929.<i>\nPen and ink.\n</i>E.49, 50-1936\nGiven by the London Passenger Transport Board.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "design-for-an", 
+            "sys_updated": "2013-11-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1916, 
+            "object_number": "O1025234", 
+            "events": [], 
+            "credit": "Given by the London Passenger Transport Board", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

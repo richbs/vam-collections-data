@@ -1,0 +1,293 @@
+[
+    {
+        "pk": 506264, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2046-1952", 
+            "date_end": "1874-12-31", 
+            "labels": [], 
+            "descriptive_line": "Design (one of three) for a pendant and bracket gas lamps, lithograph from a pattern book issued by R. W. Winfield & Co., London, ca. 1870.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1865, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25946, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "pendant", 
+                        "museumobject_count": 149, 
+                        "source": "object", 
+                        "cis_id": "46002", 
+                        "museumobject_image_count": 125, 
+                        "type": "", 
+                        "slug": "pendant"
+                    }
+                }, 
+                {
+                    "pk": 51557, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "gas lamp", 
+                        "museumobject_count": 3, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "gas-lamp"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1870 (issued)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print with a design for a light fitting.", 
+            "dimensions": "Height: 44.5 cm sheet, Width: 28.6 cm sheet", 
+            "title": "", 
+            "date_start": "1865-01-01", 
+            "materials_techniques": "Lithograph", 
+            "last_processed": "2014-04-01 20:08:30", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case WM, shelf 3, box A", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18520, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3488, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 640698, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "WM", 
+                        "inventory_number": 1230287, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.2047-1952", 
+                        "museumobject": 506264, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e20471952", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 872, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Unknown", 
+                        "gender": null, 
+                        "museumobject_count": 4313, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "C168", 
+                        "museumobject_image_count": 981, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "henry-marton-junior", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 2401, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "R. W. Winfield & Co.", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1359", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "rw-winfield", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 314989, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 506264, 
+                        "role": "issued", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e20461952", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 20:08:30", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1952.</u> London: HMSO, 1963.\nThe full text of the entry is as follows:\n\n\u201c<b>ANONYMOUS: Lighting</b>\n\nDesigns (3 sheets) for pendant and bracket gas lamps in brass and engraved glass.  Plates from a pattern book issued by R. W. Winfield & Co., London.  c.1870.\n<i>Lettered with scales, numbers, etc.  Inscribed in pencil with prices and name of manufacturer. Lithographs.  Average size of sheets</i> 44.5 x 28.6 cm.\nE.2046-2048-1952\n\nGiven by Mr. John Waterridge\u201d", 
+            "vanda_exhibition_history": "", 
+            "slug": "print-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 419752, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 872
+                    }, 
+                    "fields": {
+                        "name": 872, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 506264, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 419753, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2401
+                    }, 
+                    "fields": {
+                        "name": 2401, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 506264, 
+                        "role": "issuer", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1874, 
+            "object_number": "O591581", 
+            "events": [], 
+            "credit": "Given by Mr. John Wateridge", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
