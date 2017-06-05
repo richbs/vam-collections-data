@@ -1,0 +1,442 @@
+[
+    {
+        "pk": 86004, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.50-1914", 
+            "date_end": "1912-12-31", 
+            "labels": [], 
+            "descriptive_line": "Mask, Dante, terracotta, by Auguste Rodin, France (Paris), ca. 1908", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1903, 
+            "exhibitions": [
+                {
+                    "pk": 716, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 104, 
+                        "year_start": 2006, 
+                        "name": "Rodin", 
+                        "date_end": "2007-01-01", 
+                        "museumobject_count": 22, 
+                        "venue": "Royal Academy", 
+                        "date_start": "2006-09-23", 
+                        "year_end": 2007, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "rodin", 
+                        "date_text": "23/09/06- 01/01/07"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 27905, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Rossetti, Dante Gabriel", 
+                        "museumobject_count": 4, 
+                        "source": "name", 
+                        "cis_id": "N2444", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "rossetti-dante-gabriel"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1908 (made)", 
+            "primary_image_id": "2006BB2110", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Weight: 3.68 kg", 
+            "title": "Dante", 
+            "date_start": "1903-01-01", 
+            "materials_techniques": "Terracotta", 
+            "last_processed": "2014-04-01 00:26:34", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 10, shelf 2", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 352, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Terracotta", 
+                        "museumobject_count": 786, 
+                        "source": "cis_materials", 
+                        "cis_id": "10669", 
+                        "museumobject_image_count": 457, 
+                        "type": "", 
+                        "slug": "terracotta"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 146571, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "10", 
+                        "inventory_number": 88819, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.50-1914", 
+                        "museumobject": 86004, 
+                        "shelf": "2", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a501914", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 2678, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1917-11-18", 
+                        "surname": "", 
+                        "name": "Rodin", 
+                        "gender": null, 
+                        "museumobject_count": 29, 
+                        "death_year": 1917, 
+                        "source": "object_production", 
+                        "cis_id": "A6634", 
+                        "museumobject_image_count": 29, 
+                        "forename": "", 
+                        "birth_date": "1840-11-12", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rodin-auguste", 
+                        "birth_year": 1840
+                    }
+                }, 
+                {
+                    "pk": 9273, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1882-12-31", 
+                        "surname": "", 
+                        "name": "Dante Gabriel Rossetti", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1882, 
+                        "source": "content", 
+                        "cis_id": "N2444", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": "1828-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rossetti-dante-gabriel-2444", 
+                        "birth_year": 1828
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 82454, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86004, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a501914", 
+            "object": "Mask", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:26:34", 
+            "public_access_description": "Auguste Rodin\u2019s career maps the progress of 19th-century art, from the Romantic revolt against Neo-classicism, to the radical enquiry that paved the way for the Modernist developments of the 20th century. The V&A\u2019s collection of works by Rodin is unique in that they were given by the artist, to represent his art in Britain and commemorate British soldiers fighting in France in November 1914.  In 1880 Rodin gained his first state commission, the bronze Gates of Hell for a proposed museum of decorative arts in Paris. He based them initially on Dante\u2019s poem Inferno, and many of his later compositions stem from this project. This small head is actually a portrait of a wealthy American, John Wesley de Kay.", 
+            "exhibition_history": "Rodin (Royal Academy of Arts 23/09/2006-01/01/2007)", 
+            "bibliography": "Hawkins, Jennifer, <u>Rodin Sculptures</u>, London: Victoria and Albert Museum, 1975, pp. 26 -27, ill. 25\nNewton, Joy. Rodin is a British Institution. <u>Burlington Magazine.</u> CXXXVI, Dec. 1994.\nAlley, Ronald. <u>Tate Gallery Catalogue: Foreign Paintings, Drawings & Sculpture.</u> London, 1595. p. 223. pl. 48f.\nMitchell, Claudine. The Gift to the British Nation: Rodin at the V&A. <u>In:</u> Mitchell, Claudine. ed.<u>Rodin: The Zola of Sculpture.</u> Henry Moore Institute, 2003. pp. 183-200.", 
+            "vanda_exhibition_history": "", 
+            "slug": "dante-mask-rodin", 
+            "sys_updated": "2014-01-13 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 70980, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:23:31", 
+                        "priority": 0, 
+                        "image_id": "2006BB2110", 
+                        "sys_id": 222110, 
+                        "last_checked": "2014-03-31 17:23:31", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BB/2006BB2110.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57452, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:33", 
+                        "priority": 1, 
+                        "image_id": "2006AX9979", 
+                        "sys_id": 199979, 
+                        "last_checked": "2014-03-31 17:20:33", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX9979.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57451, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:33", 
+                        "priority": 2, 
+                        "image_id": "2006AX9978", 
+                        "sys_id": 199978, 
+                        "last_checked": "2014-03-31 17:20:33", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX9978.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57428, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:33", 
+                        "priority": 3, 
+                        "image_id": "2006AX9955", 
+                        "sys_id": 199955, 
+                        "last_checked": "2014-03-31 17:20:33", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX9955.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57380, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:32", 
+                        "priority": 4, 
+                        "image_id": "2006AX9907", 
+                        "sys_id": 199907, 
+                        "last_checked": "2014-03-31 17:20:32", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX9907.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57374, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:32", 
+                        "priority": 5, 
+                        "image_id": "2006AX9901", 
+                        "sys_id": 199901, 
+                        "last_checked": "2014-03-31 17:20:32", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX9901.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57363, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:32", 
+                        "priority": 6, 
+                        "image_id": "2006AX9890", 
+                        "sys_id": 199890, 
+                        "last_checked": "2014-03-31 17:20:32", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX9890.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57331, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:31", 
+                        "priority": 7, 
+                        "image_id": "2006AX9858", 
+                        "sys_id": 199858, 
+                        "last_checked": "2014-03-31 17:20:31", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX9858.jpg"
+                    }
+                }, 
+                {
+                    "pk": 57322, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:20:31", 
+                        "priority": 8, 
+                        "image_id": "2006AX9849", 
+                        "sys_id": 199849, 
+                        "last_checked": "2014-03-31 17:20:31", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AX/2006AX9849.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Rodin", 
+            "namecontext_set": [
+                {
+                    "pk": 101590, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2678
+                    }, 
+                    "fields": {
+                        "name": 2678, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86004, 
+                        "role": "modeller", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 101591, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 9273
+                    }, 
+                    "fields": {
+                        "name": 9273, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86004, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1912, 
+            "object_number": "O111257", 
+            "events": [], 
+            "credit": "Given to the Victoria and Albert Museum by Rodin in 1914", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

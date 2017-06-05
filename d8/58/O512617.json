@@ -1,0 +1,354 @@
+[
+    {
+        "pk": 428431, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "SP.545:7", 
+            "date_end": "1859-12-31", 
+            "labels": [], 
+            "descriptive_line": "Lithograph after drawings by J.Schranz from a volume of 15 plates, including 2 panoramas, entitled 'Le Bosphore', depicting views of the Bosphorus and other Turkish locations.  Printed in Paris, ca. 1855.", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1850, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 277, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Turkey", 
+                        "museumobject_count": 1317, 
+                        "source": "place", 
+                        "cis_id": "x29225", 
+                        "museumobject_image_count": 439, 
+                        "type": "", 
+                        "slug": "turkey"
+                    }
+                }, 
+                {
+                    "pk": 11402, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Bosphorus", 
+                        "museumobject_count": 196, 
+                        "source": "place", 
+                        "cis_id": "x40723", 
+                        "museumobject_image_count": 55, 
+                        "type": "", 
+                        "slug": "bosphorus"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1855 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Lithograph, with one tint stone, showing a view of the Bosphorus or location in Turkey from a volume of 15 plates, including 2 panoramas.  Each plate lettered with title, names of lithographers and, variously, 'Publi\u00e9 par J. Schranz et A. Percheron, Constantinople' or 'Imp. de Jacomme et Cie r. Meslay, 61, Paris'.  The panoramas are lettered with plate numbers, keys and 'Dessin\u00e9 d'apr.nature par J.Schranz'.  Unnumbered plates lettered 'J. Schranz del.'", 
+            "dimensions": "Height: 34  cm Size of covers, Width: 51.3  cm", 
+            "title": "Le Bosphore", 
+            "date_start": "1850-01-01", 
+            "materials_techniques": "Lithograph, with one tint stone   ", 
+            "last_processed": "2014-04-01 15:57:51", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case 90, shelf 10", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 1, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lithography", 
+                        "museumobject_count": 18520, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53271", 
+                        "museumobject_image_count": 3488, 
+                        "type": "", 
+                        "slug": "lithography"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "printing", 
+                        "museumobject_count": 14952, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53329", 
+                        "museumobject_image_count": 4341, 
+                        "type": "", 
+                        "slug": "printing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 562775, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "90", 
+                        "inventory_number": 1325743, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "SP.545:7", 
+                        "museumobject": 428431, 
+                        "shelf": "10", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "sp5457", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 35733, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1866-12-31", 
+                        "surname": "", 
+                        "name": "Schranz", 
+                        "gender": null, 
+                        "museumobject_count": 36, 
+                        "death_year": 1866, 
+                        "source": "object_production", 
+                        "cis_id": "A21732", 
+                        "museumobject_image_count": 12, 
+                        "forename": "", 
+                        "birth_date": "1803-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "schranz-giuseppe-joseph-or-josef", 
+                        "birth_year": 1803
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 262287, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 428431, 
+                        "role": "printed", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 262288, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 56
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 428431, 
+                        "role": "subject", 
+                        "place": 56, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 262289, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 3400
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 428431, 
+                        "role": "subject", 
+                        "place": 3400, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "sp5457", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 15:57:51", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "le-bosphore-print-joseph-schranz", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }, 
+                {
+                    "pk": 56, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Turkey", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 2947, 
+                        "longitude": "35.44920000", 
+                        "source": "production", 
+                        "cis_id": "x29225", 
+                        "museumobject_image_count": 1316, 
+                        "latitude": "38.95850000", 
+                        "type": "country", 
+                        "slug": "turkey-x29225"
+                    }
+                }, 
+                {
+                    "pk": 3400, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Bosphorus", 
+                        "parent": null, 
+                        "country": "Turkey", 
+                        "museumobject_count": 200, 
+                        "longitude": "28.98617900", 
+                        "source": "production", 
+                        "cis_id": "x40723", 
+                        "museumobject_image_count": 59, 
+                        "latitude": "41.04085200", 
+                        "type": "", 
+                        "slug": "bosphorus-turkey-x40723"
+                    }
+                }
+            ], 
+            "artist": "Joseph Schranz", 
+            "namecontext_set": [
+                {
+                    "pk": 345816, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 35733
+                    }, 
+                    "fields": {
+                        "name": 35733, 
+                        "part_name": "", 
+                        "uncertainty": "lithographs after drawings by", 
+                        "museumobject": 428431, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1859, 
+            "object_number": "O512617", 
+            "events": [], 
+            "credit": "Purchased with the assistance of The Art Fund, the National Heritage Memorial Fund, Shell International and the Friends of the V&A", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,364 @@
+[
+    {
+        "pk": 1096883, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "500.00", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.361-2011", 
+            "date_end": "1987-12-31", 
+            "labels": [], 
+            "descriptive_line": "Photograph by Gavin Watson, 'Barry's Haircut', gelatin silver print, High Wycombe, 1987, printed in 2011", 
+            "shape": "", 
+            "longitude": "-0.74778900", 
+            "year_start": 1987, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23888, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "hair", 
+                        "museumobject_count": 37, 
+                        "source": "object", 
+                        "cis_id": "11814", 
+                        "museumobject_image_count": 20, 
+                        "type": "", 
+                        "slug": "hair"
+                    }
+                }, 
+                {
+                    "pk": 43478, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "High Wycombe", 
+                        "museumobject_count": 3, 
+                        "source": "", 
+                        "cis_id": "x28904", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "high-wycombe"
+                    }
+                }, 
+                {
+                    "pk": 49927, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "razor", 
+                        "museumobject_count": 3, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "razor"
+                    }
+                }, 
+                {
+                    "pk": 47508, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Shaving", 
+                        "museumobject_count": 2, 
+                        "source": "", 
+                        "cis_id": "x47487", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "shaving"
+                    }
+                }
+            ], 
+            "date_text": "1987 (photographed)\n2011 (printed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "A black and white photograph of a young black boy having his hair shaved.", 
+            "dimensions": "Width: 400 mm image size, Height: 609 mm paper size, Width: 501 mm paper size, Height: 743 mm mount size, Width: 542 mm mount size, Height: 592 mm image size", 
+            "title": "Barry's Haircut", 
+            "date_start": "1987-01-01", 
+            "materials_techniques": "gelatin silver print", 
+            "last_processed": "2014-04-27 05:07:08", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case 82EE, box 1", 
+            "marks": "", 
+            "latitude": "51.62894500", 
+            "techniques": [
+                {
+                    "pk": 320, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "gelatin silver process", 
+                        "museumobject_count": 1638, 
+                        "source": "cis_techniques", 
+                        "cis_id": "139114", 
+                        "museumobject_image_count": 227, 
+                        "type": "", 
+                        "slug": "gelatin-silver-process"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 437, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "documentary", 
+                        "museumobject_count": 5516, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x37881", 
+                        "museumobject_image_count": 4914, 
+                        "type": "", 
+                        "slug": "documentary"
+                    }
+                }, 
+                {
+                    "pk": 1030, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "art photography", 
+                        "museumobject_count": 44, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "art-photography"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 1284722, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "1", 
+                        "case": "82EE", 
+                        "inventory_number": null, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.361-2011", 
+                        "museumobject": 1096883, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e3612011", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 79537, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Watson, Gavin", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH322572", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1965-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "gavin-watson", 
+                        "birth_year": 1965
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 472569, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 443
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1096883, 
+                        "role": "photographed", 
+                        "place": 443, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 472570, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 443
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1096883, 
+                        "role": "subject", 
+                        "place": 443, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "Pounds sterling", 
+            "museum_number_token": "e3612011", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 41092, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31513, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }, 
+                {
+                    "pk": 85, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "African Diaspora", 
+                        "museumobject_count": 234, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 175, 
+                        "type": "", 
+                        "slug": "african-diaspora"
+                    }
+                }, 
+                {
+                    "pk": 1794, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Hair and hairstyles", 
+                        "museumobject_count": 428, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 310, 
+                        "type": "", 
+                        "slug": "hair-and-hairstyles"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 05:07:08", 
+            "public_access_description": "Born in London in 1965, photographer Gavin Watson grew up on a council estate in High Wycombe, Buckinghamshire. He bought a Hanimex camera from Woolworths in his early teens and began to take photographs of his younger brother Neville and their group of skinhead friends. The images have become an important visual record of the skinhead subculture, often challenging the racial stereotypes surrounding it.\n\nThe \u2018Wycombe Skins\u2019 adopted the closely shaved haircuts and clothing styles which skinheads were known for across Britain. Emerging as a working class youth culture in the 1960s, the distinctive skinhead style has a complex cross-cultural heritage. While early skinheads embraced Caribbean music styles and fashions introduced by the Jamaican rude boy subculture, during the 1970s they became increasingly associated with the extreme right wing politics of groups like the National Front. By the time the style was revived in the late 1970s and early 1980s, as a result of the growing following for \u20182 tone\u2019 ska music, being a skinhead had multiple meanings. \n\nThe moment of skinhead initiation represented in \u2018Barry\u2019s Haircut\u2019 documents black British participation in the subculture. Watson\u2019s photographs present skinhead life in High Wycombe as racially inclusive, but also suggest a need to look beyond the racial politics which have dominated perceptions of the subculture. Watson has since commented that his photographs might help people to, \u2018see skinheads for what they mostly were. Just kids learning about themselves, getting dressed up and having a laugh.\u2019\n\nThe V&amp;A acquired two photographs by Gavin Watson as part of the Staying Power project.   Photographs by Syd Shelton which document resistance to racial boundaries in rock music, largely through the organisation Rock Against Racism, were also acquired as part of the project. Staying Power is a five year partnership between the V&amp;A and Black Cultural Archives. The project aims to explore black British experience from the 1950s to the 1990s through photographs acquired by the V&amp;A and oral histories conducted by Black Cultural Archives.", 
+            "exhibition_history": "", 
+            "bibliography": "Watson, G.<i> Skins</i> (Shropshire: Independent Music Press, 2008; 2009), pg. 46", 
+            "vanda_exhibition_history": "", 
+            "slug": "barrys-haircut-photograph-watson-gavin", 
+            "sys_updated": "2014-03-27 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 443, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 666
+                    }, 
+                    "fields": {
+                        "name": "High Wycombe", 
+                        "parent": 666, 
+                        "country": "England", 
+                        "museumobject_count": 42, 
+                        "longitude": "-0.74778900", 
+                        "source": "production", 
+                        "cis_id": "x28904", 
+                        "museumobject_image_count": 20, 
+                        "latitude": "51.62894500", 
+                        "type": "city/town", 
+                        "slug": "high-wycombe-england-x28904"
+                    }
+                }
+            ], 
+            "artist": "Watson, Gavin", 
+            "namecontext_set": [
+                {
+                    "pk": 659221, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 79537
+                    }, 
+                    "fields": {
+                        "name": 79537, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1096883, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1987, 
+            "object_number": "O1240217", 
+            "events": [], 
+            "credit": "Supported by the National Lottery through the Heritage Lottery Fund.", 
+            "history_note": "The V&A acquired this photograph as part of the Staying Power project. Staying Power is a five year partnership between the V&A and Black Cultural Archives. The project aims to explore black British experience from the 1950s to the 1990s through photographs acquired by the V&A and oral histories conducted by Black Cultural Archives.", 
+            "place": "High Wycombe", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
