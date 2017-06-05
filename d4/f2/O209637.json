@@ -1,0 +1,202 @@
+[
+    {
+        "pk": 172157, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1481-2000", 
+            "date_end": "1900-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1800, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "19th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "", 
+            "title": "'Christ dit de Charles-Quint'", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "Carbon print", 
+            "last_processed": "2014-04-26 00:32:24", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room 512M, case X, shelf TABLE, box PORTFOLIO", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 249954, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 445
+                    }, 
+                    "fields": {
+                        "box": "PORTFOLIO", 
+                        "case": "X", 
+                        "inventory_number": 675846, 
+                        "room": "512M", 
+                        "part_name": "", 
+                        "museum_number": "E.1481-2000", 
+                        "museumobject": 172157, 
+                        "shelf": "TABLE", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room 512M", 
+                        "museum_number_token": "e14812000", 
+                        "gallery": 445
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 445, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "512M", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room 512M", 
+                        "site_code": "VA", 
+                        "museumobject_count": 48315, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49774", 
+                        "museumobject_image_count": 6175, 
+                        "type": "", 
+                        "slug": "512m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10606, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bingham, Robert Jefferson", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11729", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bingham-robert-jefferson", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 161845, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 172157, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e14812000", 
+            "object": "Photograph", 
+            "categories": [], 
+            "last_checked": "2014-04-26 00:32:24", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "christ-dit-de-charles-quint-photograph-bingham-robert", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38331, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29743, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "bingham, robert", 
+            "namecontext_set": [
+                {
+                    "pk": 217994, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10606
+                    }, 
+                    "fields": {
+                        "name": 10606, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 172157, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1900, 
+            "object_number": "O209637", 
+            "events": [], 
+            "credit": "Transferred from the British Museum", 
+            "history_note": "", 
+            "place": "paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

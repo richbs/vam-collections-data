@@ -1,0 +1,360 @@
+[
+    {
+        "pk": 913232, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "3436:68", 
+            "date_end": "1635-12-31", 
+            "labels": [], 
+            "descriptive_line": "Drawing by Remigio Cantagallina depicting a view of Pisa Cathedral from the west, including the Baptistery, the leaning Tower and the Campo Santo.  Italy, ca. early 17th century.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1598, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 2082, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Italy", 
+                        "museumobject_count": 820, 
+                        "source": "place", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 170, 
+                        "type": "", 
+                        "slug": "italy"
+                    }
+                }, 
+                {
+                    "pk": 48157, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cathedrals", 
+                        "museumobject_count": 619, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 376, 
+                        "type": "", 
+                        "slug": "cathedrals"
+                    }
+                }, 
+                {
+                    "pk": 52043, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Pisa", 
+                        "museumobject_count": 7, 
+                        "source": "place", 
+                        "cis_id": "x32645", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "pisa-x32645"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1603-35 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Drawing of Pisa Cathedral", 
+            "dimensions": "Height: 146 mm, Width: 229 mm", 
+            "title": "View of Pisa Cathedral", 
+            "date_start": "1598-01-01", 
+            "materials_techniques": "Pen and ink and wash ", 
+            "last_processed": "2014-04-26 22:57:22", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 265", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }, 
+                {
+                    "pk": 1018, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "wash", 
+                        "museumobject_count": 814, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 117, 
+                        "type": "", 
+                        "slug": "wash"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31965, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18774, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1048441, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PD", 
+                        "inventory_number": 731074, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "3436:68", 
+                        "museumobject": 913232, 
+                        "shelf": "265", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "343668", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 39664, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1660-12-31", 
+                        "surname": "", 
+                        "name": "Remigio Cantagallina", 
+                        "gender": null, 
+                        "museumobject_count": 34, 
+                        "death_year": 1660, 
+                        "source": "object_production", 
+                        "cis_id": "A26911", 
+                        "museumobject_image_count": 27, 
+                        "forename": "", 
+                        "birth_date": "1577-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "gallina-remigio-canta", 
+                        "birth_year": 1577
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 426024, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 913232, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 426025, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 965
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 913232, 
+                        "role": "subject", 
+                        "place": 965, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 426026, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 913232, 
+                        "role": "subject", 
+                        "place": 52, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "343668", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 22:57:22", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "Ward-Jackson, Peter, <u> Italian Drawings, Volume Two: 17th-18th Century </u>, London, 1979, p.28 , cat. n. 643, illus. The following is the full text of the entry: CANTAGALLINA, REMIGIO (active c. 1603-35) 643 View of Pisa Cathedral from the west, including the Baptistery, the leaning Tower and the Campo Santo Inscribed in ink in an old hand 'Cantagallina' and 'Cathedral Babtistrie & Hanging Tour of Pisa' Pen and ink and wash 5 3/4 X 11 3/4 (146 X 229) 3436.68 PROVENANCE Bought from the C. J. Richardson Collection 1863", 
+            "vanda_exhibition_history": "", 
+            "slug": "view-of-pisa-cathedral-drawing-remigio-cantagallina", 
+            "sys_updated": "2013-08-27 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 13024, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5200, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }, 
+                {
+                    "pk": 965, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Pisa", 
+                        "parent": null, 
+                        "country": "Italy", 
+                        "museumobject_count": 79, 
+                        "longitude": "10.39946000", 
+                        "source": "production", 
+                        "cis_id": "x32645", 
+                        "museumobject_image_count": 24, 
+                        "latitude": "43.70996100", 
+                        "type": "city / town", 
+                        "slug": "pisa-italy-x32645"
+                    }
+                }
+            ], 
+            "artist": "Remigio Cantagallina", 
+            "namecontext_set": [
+                {
+                    "pk": 556130, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 39664
+                    }, 
+                    "fields": {
+                        "name": 39664, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 913232, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1635, 
+            "object_number": "O1021655", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
