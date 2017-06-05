@@ -1,0 +1,354 @@
+[
+    {
+        "pk": 959507, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.41-1925", 
+            "date_end": "1859-12-31", 
+            "labels": [], 
+            "descriptive_line": "Study for 'A Halt in the Desert', or a similar painting by John Frederick Lewis.  Great Britain, ca. 1855.", 
+            "shape": "", 
+            "longitude": "-0.42070400", 
+            "year_start": 1850, 
+            "exhibitions": [
+                {
+                    "pk": 3230, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 8280, 
+                        "year_start": 2004, 
+                        "name": "John Frederick Lewis", 
+                        "date_end": "2004-12-31", 
+                        "museumobject_count": 21, 
+                        "venue": "Victoria and Albert Museum, Gallery 88a", 
+                        "date_start": "2004-01-01", 
+                        "year_end": 2004, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "john-frederick-lewis", 
+                        "date_text": "2004"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 2112, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Egypt", 
+                        "museumobject_count": 1743, 
+                        "source": "place", 
+                        "cis_id": "x29512", 
+                        "museumobject_image_count": 635, 
+                        "type": "", 
+                        "slug": "egypt"
+                    }
+                }, 
+                {
+                    "pk": 113, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "camels", 
+                        "museumobject_count": 158, 
+                        "source": "object", 
+                        "cis_id": "x30284", 
+                        "museumobject_image_count": 113, 
+                        "type": "", 
+                        "slug": "camels"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1855 (painted)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Watercolour on panel, study of Bedouin camels", 
+            "dimensions": "Height: 53.1 cm, Width: 76.2 cm", 
+            "title": "Study for 'A Halt in the Desert'", 
+            "date_start": "1850-01-01", 
+            "materials_techniques": "Watercolour on panel", 
+            "last_processed": "2014-04-27 00:14:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room WS, case R, shelf 109, box R", 
+            "marks": "", 
+            "latitude": "51.38434500", 
+            "techniques": [
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12963, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7122, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }, 
+                {
+                    "pk": 10, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "wood", 
+                        "museumobject_count": 3518, 
+                        "source": "cis_materials", 
+                        "cis_id": "11914", 
+                        "museumobject_image_count": 1499, 
+                        "type": "", 
+                        "slug": "wood"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1094761, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 616
+                    }, 
+                    "fields": {
+                        "box": "R", 
+                        "case": "R", 
+                        "inventory_number": 113487, 
+                        "room": "WS", 
+                        "part_name": "", 
+                        "museum_number": "P.41-1925", 
+                        "museumobject": 959507, 
+                        "shelf": "109", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room WS", 
+                        "museum_number_token": "p411925", 
+                        "gallery": 616
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 616, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "WS", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room WS", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1383, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49603", 
+                        "museumobject_image_count": 333, 
+                        "type": "", 
+                        "slug": "ws-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 4654, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1876-12-31", 
+                        "surname": "", 
+                        "name": "Lewis, John Frederick (RA POWCS)", 
+                        "gender": null, 
+                        "museumobject_count": 97, 
+                        "death_year": 1876, 
+                        "source": "object_production", 
+                        "cis_id": "A8614", 
+                        "museumobject_image_count": 37, 
+                        "forename": "", 
+                        "birth_date": "1804-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "lewis-john-frederick-ra-powcs", 
+                        "birth_year": 1804
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 435198, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1031
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 959507, 
+                        "role": "painted", 
+                        "place": 1031, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 435199, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 49
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 959507, 
+                        "role": "subject", 
+                        "place": 49, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p411925", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18756, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11926, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }, 
+                {
+                    "pk": 1629, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Animals and Wildlife", 
+                        "museumobject_count": 1132, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 619, 
+                        "type": "", 
+                        "slug": "animals-and-wildlife"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 00:14:09", 
+            "public_access_description": "Lewis made various trips down the Nile and crossed over the desert from Cairo to Sinai. He had made many sketches of camels and their trappings, which he later used to build up pictures like this of Bedouins and their camels in the desert. Compare 'A Halt in the Desert', Museum number F.A.532", 
+            "exhibition_history": "John Frederick Lewis (Victoria and Albert Museum 01/01/2004-31/12/2004)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "study-for-a-halt-in-watercolour-lewis-john", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1031, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 496
+                    }, 
+                    "fields": {
+                        "name": "Walton-on-Thames", 
+                        "parent": 496, 
+                        "country": "England", 
+                        "museumobject_count": 13, 
+                        "longitude": "-0.42070400", 
+                        "source": "production", 
+                        "cis_id": "x32620", 
+                        "museumobject_image_count": 4, 
+                        "latitude": "51.38434500", 
+                        "type": "city/town", 
+                        "slug": "walton-on-thames-england-x32620"
+                    }
+                }, 
+                {
+                    "pk": 49, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 612
+                    }, 
+                    "fields": {
+                        "name": "Egypt", 
+                        "parent": 612, 
+                        "country": "", 
+                        "museumobject_count": 4525, 
+                        "longitude": "30.24646900", 
+                        "source": "production", 
+                        "cis_id": "x29512", 
+                        "museumobject_image_count": 1610, 
+                        "latitude": "26.69636000", 
+                        "type": "country", 
+                        "slug": "egypt-x29512"
+                    }
+                }
+            ], 
+            "artist": "Lewis, John", 
+            "namecontext_set": [
+                {
+                    "pk": 566578, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4654
+                    }, 
+                    "fields": {
+                        "name": 4654, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 959507, 
+                        "role": "painter", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1859, 
+            "object_number": "O1069034", 
+            "events": [], 
+            "credit": "Given by Mrs Spencer Musson (a niece of J F Lewis),", 
+            "history_note": "", 
+            "place": "Walton-on-Thames", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

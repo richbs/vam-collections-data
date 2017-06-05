@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 632567, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.344-1943", 
+            "date_end": "1907-12-31", 
+            "labels": [], 
+            "descriptive_line": "Augustus John, drawing of male and female nudes with a red chalk nude study on the reverse, ca.1900-1907 pen, ink and wash", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1895, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "ca.1900-1907 (drawn)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Pen and ink drawing of a male nude supporting a swooning female nude with three older men behind, red chalk drawing on the reverse of two female nudes with a child.", 
+            "dimensions": "Height: 9.875 in, Width: 12.75 in", 
+            "title": "", 
+            "date_start": "1895-01-01", 
+            "materials_techniques": "Pen, ink and red chalk", 
+            "last_processed": "2014-04-26 15:58:10", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 188, box B", 
+            "marks": "", 
+            "latitude": "52.88328900", 
+            "techniques": [
+                {
+                    "pk": 23, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawn", 
+                        "museumobject_count": 3362, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30545", 
+                        "museumobject_image_count": 2292, 
+                        "type": "", 
+                        "slug": "drawn"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 54, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink", 
+                        "museumobject_count": 31965, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30618", 
+                        "museumobject_image_count": 18774, 
+                        "type": "", 
+                        "slug": "pen-and-ink"
+                    }
+                }, 
+                {
+                    "pk": 685, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "red chalk", 
+                        "museumobject_count": 368, 
+                        "source": "cis_materials", 
+                        "cis_id": "80064", 
+                        "museumobject_image_count": 106, 
+                        "type": "", 
+                        "slug": "red-chalk"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 767317, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "B", 
+                        "case": "PD", 
+                        "inventory_number": 1069426, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.344-1943", 
+                        "museumobject": 632567, 
+                        "shelf": "188", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e3441943", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 12482, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1961-10-31", 
+                        "surname": "", 
+                        "name": "John, Augustus Edwin", 
+                        "gender": null, 
+                        "museumobject_count": 8, 
+                        "death_year": 1961, 
+                        "source": "object_production", 
+                        "cis_id": "A6840", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1878-01-04", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "john-augustus-edwin", 
+                        "birth_year": 1878
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 365363, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 632567, 
+                        "role": "drawn", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e3441943", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:58:10", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1943</u>, London: HMSO, 1956.\nThe full text of the record is as follows:\n\n'<b>JOHN, Augustus Edwin, O.M., R.A. (1878-  )</b>\n\nSketch of a male nude supporting a swooning female nude, with three older men behind. On the back is a sketch of two female nudes in a landscape, one seated holding aloft a child and the other standing.\n<i>Ink; red chalk (on the reverse).</i>\nE.344-1943\n\nGiven by by the Legatees of Philip Wilson Steer: Miss Hamilton, Major J.A.F.H. Hamilton and Lt. Col. William Steer.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "drawing-john-augustus-edwin", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Great Britain", 
+                        "museumobject_count": 44632, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13475, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-great-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "John, Augustus Edwin", 
+            "namecontext_set": [
+                {
+                    "pk": 478585, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12482
+                    }, 
+                    "fields": {
+                        "name": 12482, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 632567, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1907, 
+            "object_number": "O726633", 
+            "events": [], 
+            "credit": "Given by the Legatees of Philip Wilson Steer: Miss Hamilton, Major J.A.F.H. Hamilton and Lt. Col. William Steer.", 
+            "history_note": "", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
