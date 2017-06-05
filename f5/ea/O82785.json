@@ -1,0 +1,371 @@
+[
+    {
+        "pk": 17038, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.28-1970", 
+            "date_end": "1780-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'John Purling', Thomas Gainsborough, ca. 1770-ca. 1780", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1765, 
+            "exhibitions": [
+                {
+                    "pk": 406, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 3053, 
+                        "year_start": 1885, 
+                        "name": "\"Thomas Gainsborough\"", 
+                        "date_end": "1885-12-31", 
+                        "museumobject_count": 1, 
+                        "venue": "Grosvenor Gallery", 
+                        "date_start": "1885-01-01", 
+                        "year_end": 1885, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "thomas-gainsborough", 
+                        "date_text": "1885"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 25838, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Purling, John", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N2773", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "purling-john"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1770-1780 (painted)", 
+            "primary_image_id": "2006AG3404", 
+            "rights": 3, 
+            "physical_description": "Bust length portrait of John Purling (1722-1800), in an oval.  John Purling was a director of the East India Company.  He was a candidate in the notoriously corrupt Shoreham Election of 1770, and was elected an MP in 1772.", 
+            "dimensions": "Height: 75.2 cm estimate, Width: 63.5 cm estimate", 
+            "title": "John Purling (1727-1801)", 
+            "date_start": "1765-01-01", 
+            "materials_techniques": "oil on canvas", 
+            "last_processed": "2014-03-31 19:53:34", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 88, case EAST WALL", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 25320, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 511
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EAST WALL", 
+                        "inventory_number": 112060, 
+                        "room": "88", 
+                        "part_name": "", 
+                        "museum_number": "P.28-1970", 
+                        "museumobject": 17038, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 88", 
+                        "museum_number_token": "p281970", 
+                        "gallery": 511
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 511, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "88", 
+                        "site_name": "", 
+                        "name": "Paintings, room 88", 
+                        "site_code": "VA", 
+                        "museumobject_count": 41, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49708", 
+                        "museumobject_image_count": 39, 
+                        "type": "", 
+                        "slug": "88-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 1801, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1788-08-02", 
+                        "surname": "", 
+                        "name": "Gainsborough", 
+                        "gender": null, 
+                        "museumobject_count": 112, 
+                        "death_year": 1788, 
+                        "source": "object_production", 
+                        "cis_id": "A8411", 
+                        "museumobject_image_count": 82, 
+                        "forename": "", 
+                        "birth_date": "1727-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "gainsborough-thomas-ra", 
+                        "birth_year": 1727
+                    }
+                }, 
+                {
+                    "pk": 4172, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1800-12-31", 
+                        "surname": "", 
+                        "name": "Purling, John", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1800, 
+                        "source": "content", 
+                        "cis_id": "N2773", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1722-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "purling-john", 
+                        "birth_year": 1722
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 18080, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 17038, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p281970", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:53:34", 
+            "public_access_description": "Gainsborough moved to London in 1774. The lively brushwork of this portrait is typical of his late style. At this time, his usual fee for such a portrait was \u00a331 10s. The subject is John Purling. He was a director of the East India Company and was elected an MP in 1772.", 
+            "exhibition_history": "\"Thomas Gainsborough\" (Grosvenor Gallery 01/01/1885-31/12/1885)", 
+            "bibliography": "Walter Armstrong, \"Thomas Gainsborough\", 1898, p.201. Ellis Waterhouse, \"Gainsborough\", 1966 ed., p.86, No.566, colour pl. p.28. Repr. \"The Connoisseur, Dec. 1954, p.260.", 
+            "vanda_exhibition_history": "", 
+            "slug": "john-purling-1727-1801-oil-painting-gainsborough-thomas-ra", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 46203, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-21 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:08", 
+                        "priority": 0, 
+                        "image_id": "2006AG3404", 
+                        "sys_id": 63404, 
+                        "last_checked": "2014-03-31 17:18:08", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG3404.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Gainsborough, Thomas (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 17890, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 1801
+                    }, 
+                    "fields": {
+                        "name": 1801, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 17038, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 17891, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4172
+                    }, 
+                    "fields": {
+                        "name": 4172, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 17038, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1780, 
+            "object_number": "O82785", 
+            "events": [], 
+            "credit": "Bequeathed by Mrs G. M. Spear", 
+            "history_note": "Provenance :  Family descent to Hastings N. Middleton, 1871; Middleton sale, Sotheby's 18/6/1952, lot 47, bt. Leger; 1957, Mrs G. M. Spear.  Bequeathed by Mrs G. M. Spear, 1970", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
