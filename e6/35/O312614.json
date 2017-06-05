@@ -1,0 +1,351 @@
+[
+    {
+        "pk": 260215, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.12-1955", 
+            "date_end": "1832-12-31", 
+            "labels": [], 
+            "descriptive_line": "Bust, marble, Nicol\u00f2 Paganini, by Henry Westmacott, Britain (Edinburgh), 1832", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1832, 
+            "exhibitions": [
+                {
+                    "pk": 3287, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 104, 
+                        "year_start": 1968, 
+                        "name": "Royal Academy of Arts Bicentenary Exhibition 1768-1968", 
+                        "date_end": "1969-03-02", 
+                        "museumobject_count": 2, 
+                        "venue": "Royal Academy of Arts, London", 
+                        "date_start": "1968-12-14", 
+                        "year_end": 1969, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "royal-academy-of-arts-bicentenary-exhibition-1768-1968", 
+                        "date_text": "14/12/1968-02/03/1969"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 24239, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "bust", 
+                        "museumobject_count": 705, 
+                        "source": "object", 
+                        "cis_id": "47457", 
+                        "museumobject_image_count": 365, 
+                        "type": "", 
+                        "slug": "bust"
+                    }
+                }, 
+                {
+                    "pk": 33660, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Paganini, Niccolo", 
+                        "museumobject_count": 6, 
+                        "source": "name", 
+                        "cis_id": "N9790", 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "paganini-niccolo"
+                    }
+                }
+            ], 
+            "date_text": "1832 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Bust placed on tall pedestal. The subject looks slightly to his left. He has long hair and side whiskers which meet under the chin. He wears a cloak open at the neck. Signed and dated at back.", 
+            "dimensions": "Height: 78.74 cm, Height: 110.5 cm of pedestal", 
+            "title": "Nicol\u00f2 Paganini", 
+            "date_start": "1832-01-01", 
+            "materials_techniques": "Marble", 
+            "last_processed": "2014-04-01 09:51:44", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 22, case SWAL", 
+            "marks": "'HENRY WESTMACOTT SCULPTOR/EDINBURGH . 1832.'", 
+            "latitude": "54.31391900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 45, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "marble", 
+                        "museumobject_count": 779, 
+                        "source": "cis_materials", 
+                        "cis_id": "11443", 
+                        "museumobject_image_count": 337, 
+                        "type": "", 
+                        "slug": "marble"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 349610, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 86554, 
+                        "room": "", 
+                        "part_name": "Bust", 
+                        "museum_number": "A.12-1955", 
+                        "museumobject": 260215, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "a121955", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 349611, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 376
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "SWAL", 
+                        "inventory_number": 387956, 
+                        "room": "22", 
+                        "part_name": "Plinth", 
+                        "museum_number": "A.12A-1955", 
+                        "museumobject": 260215, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 22", 
+                        "museum_number_token": "a12a1955", 
+                        "gallery": 376
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 376, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "22", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 22", 
+                        "site_code": "VA", 
+                        "museumobject_count": 53, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49843", 
+                        "museumobject_image_count": 36, 
+                        "type": "", 
+                        "slug": "22-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 59907, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1861-12-31", 
+                        "surname": "", 
+                        "name": "Westmacott, Henry", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1861, 
+                        "source": "object_production", 
+                        "cis_id": "A37479", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1784-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "westmacott-henry", 
+                        "birth_year": 1784
+                    }
+                }, 
+                {
+                    "pk": 39651, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1840-05-27", 
+                        "surname": "", 
+                        "name": "Paganini, Nicol\u00f2", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": 1840, 
+                        "source": "content", 
+                        "cis_id": "N9790", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": "1782-10-27", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "paganini-niccolo", 
+                        "birth_year": 1782
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 212909, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 260215, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a121955", 
+            "object": "Object", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 09:51:44", 
+            "public_access_description": "This marble bust representing Nicol\u00f2 Paganini - the violin virtuoso (1782-1840) - is made by the sculptor Henry Westmacott, in 1832, in Edinburgh.\nPaganini's only visit to England and Scotland took place in the years 1831-2 and this bust probably commemorates this occasion.\n\nHenry Westmacott (1784-1961) was the son of Richard Westmacott the Elder (1747-1808). The Westmacott was a prominent family of eighteenth- and nineteenth-century English sculptors. Henry is particularly known for the prodigious quantity of chimneypieces he produced.", 
+            "exhibition_history": "Royal Academy of Arts Bicentenary Exhibition 1768-1968 (Royal Academy of Arts 14/12/1968-02/03/1969)", 
+            "bibliography": "Bilbey, Diane and Trusted, Marjorie. <u>British Sculpture 1470-2000. A Concise Catalogue of the Collection at the Victoria and Albert Museum</u>. London: Victoria and Albert Museum, 2002, p. 428, cat.no. 701\nGunnis, R., <u>Dictionary of British Sculptors 1660-1851</u>, (revised edition, first published London 1953), London, 1968, p. 421\nGraves, A., <u>The Royal Academy of Arts. A Complete Dictionary of Contributors and their work from its foundation in 1769 to 1904</u>, (8 vols), 1905-1906, VIII, p. 235, no. 1188\nDawson, F., \u2018Paganini in Leeds January 1832\u2019, in: <u>Leeds Thoresby Society Miscellanea</u>, XXXIII, 1935, pp. 457-8, illus. opp. p. 437", 
+            "vanda_exhibition_history": "", 
+            "slug": "nicolo-paganini-object-westmacott-henry", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Westmacott, Henry", 
+            "namecontext_set": [
+                {
+                    "pk": 293207, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 59907
+                    }, 
+                    "fields": {
+                        "name": 59907, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 260215, 
+                        "role": "sculptor", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 293208, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 39651
+                    }, 
+                    "fields": {
+                        "name": 39651, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 260215, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1832, 
+            "object_number": "O312614", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Probably commissioned by the sculptor by Sir Henry Tate, who was a relative of the Booth family. In the possession of Mr Bromley Booth, then by descent to Mr George E. Booth. Bequeathed to the donor by Mr George E. Booth in 1954. Originally offered by the donor to the Tate Gallery, it was considered a more appropriate acquisition for the Victoria and Albert Museum, a suggestion with which the donor was happy to concur. Given by Mrs. K. Dawson together with the original pedestal, in 1955.", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

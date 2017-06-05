@@ -1,0 +1,328 @@
+[
+    {
+        "pk": 91980, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.10-1937", 
+            "date_end": "1860-12-31", 
+            "labels": [], 
+            "descriptive_line": "Owen Jones. Architectural design for the 'Palais de Cristal de Saint Cloud', 1860.", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1860, 
+            "exhibitions": [
+                {
+                    "pk": 1612, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 4486, 
+                        "year_start": 2004, 
+                        "name": "Crystal Palace at Sydenham", 
+                        "date_end": "2004-12-31", 
+                        "museumobject_count": 1, 
+                        "venue": "Dulwich Picture Gallery", 
+                        "date_start": "2004-01-01", 
+                        "year_end": 2004, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "crystal-palace-at-sydenham", 
+                        "date_text": "2004"
+                    }
+                }, 
+                {
+                    "pk": 3947, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "Saint Gobain (1635-1937): une enterprise devat l'histoire", 
+                        "date_end": null, 
+                        "museumobject_count": 1, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "saint-gobain-1635-1937-une-enterprise-devat-lhistoire", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "1860 (made)", 
+            "primary_image_id": "2006BB5273", 
+            "rights": 3, 
+            "physical_description": "Architectural design, one of a group of 29 drawings and tracings bound in a volume, including a few photographs of architectural models.", 
+            "dimensions": "Height: 12.125 in, Width: 35 in", 
+            "title": "Palais de Cristal de Saint Cloud", 
+            "date_start": "1860-01-01", 
+            "materials_techniques": "Pen and watercolour", 
+            "last_processed": "2014-04-01 00:52:56", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case DD, shelf 26", 
+            "marks": "Palais de Cristal de Saint Cloud. Exposition permanente de l'Industrie Francais, Jardin d'Hiver et Pac de Plaisance\n Owen Jones October 4, 1860", 
+            "latitude": "46.71244800", 
+            "techniques": [
+                {
+                    "pk": 1026, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "watercolour drawing", 
+                        "museumobject_count": 25994, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 20362, 
+                        "type": "", 
+                        "slug": "watercolour-drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 808, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink and watercolour", 
+                        "museumobject_count": 4454, 
+                        "source": "cis_materials", 
+                        "cis_id": "x32505", 
+                        "museumobject_image_count": 3384, 
+                        "type": "", 
+                        "slug": "pen-and-ink-and-watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 154986, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DD", 
+                        "inventory_number": 719382, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.10-1937", 
+                        "museumobject": 91980, 
+                        "shelf": "26", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e101937", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201137, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46878, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 4727, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1874-04-19", 
+                        "surname": "", 
+                        "name": "Jones, Owen", 
+                        "gender": null, 
+                        "museumobject_count": 1750, 
+                        "death_year": 1874, 
+                        "source": "object_production", 
+                        "cis_id": "A8559", 
+                        "museumobject_image_count": 326, 
+                        "forename": "", 
+                        "birth_date": "1809-02-15", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jones-owen", 
+                        "birth_year": 1809
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 88873, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 91980, 
+                        "role": "made", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e101937", 
+            "object": "Architectural design", 
+            "categories": [
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14050, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4742, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }, 
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 72651, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36440, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:52:56", 
+            "public_access_description": "", 
+            "exhibition_history": "Saint Gobain (1635-1937): une enterprise devat l'histoire (Mus\u00e9e d'Orsay 06/03/2006-04/06/2006)\nCrystal Palace at Sydenham (Dulwich Picture Gallery 01/01/2004-31/12/2004)", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1937</u>, London: Board of Education, 1938.\nThe full text of the record is as follows:\n\n<b>'JONES, Owen (1809-1874).</b>\n\nVolume containing elevations (9), plans (9), photographs of models (6), cross sections (3) and tracings (5) of various projects for a Palais de Cristal at St. Cloud.\nE.10-1937 <I>inscribed</i> Palais de Crystal de Saint Cloud. Exposition permanente de l'Industrie Fran\u00e7aise, Jardin d'Hiver et Parc de Plaisance <I>and signed</i> Owen Jones. October 4, 1860. E.36-1937 <I>has cross-sections of St. Paul's, St. Peter's, Rome and other buildings for comparison with a project.\nPen and water-colour. In vol.</i>\nE.9 - 1937-1938\nGiven by Dr. W. Hildburgh, F.S.A.'", 
+            "vanda_exhibition_history": "", 
+            "slug": "palais-de-cristal-de-saint-architectural-design-jones-owen", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 72428, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:23:50", 
+                        "priority": 0, 
+                        "image_id": "2006BB5273", 
+                        "sys_id": 225273, 
+                        "last_checked": "2014-03-31 17:23:50", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BB/2006BB5273.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "Jones, Owen", 
+            "namecontext_set": [
+                {
+                    "pk": 109109, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4727
+                    }, 
+                    "fields": {
+                        "name": 4727, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 91980, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1860, 
+            "object_number": "O118708", 
+            "events": [], 
+            "credit": "Given by Dr. W. L. Hildburgh, F.S.A.", 
+            "history_note": "From a volume (E.9 to 37-1937) containing elevations (9), plans (9), photographs of models (6), cross sections (3) and tracings (5) of various projects for a Palais de Cristal at St. Cloud.", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
