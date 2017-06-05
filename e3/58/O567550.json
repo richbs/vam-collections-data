@@ -1,0 +1,382 @@
+[
+    {
+        "pk": 482291, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.16-1960", 
+            "date_end": "1714-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, portrait of Fran\u00e7ois F\u00e9nelon, Archbishop of Cambrai, engraving by Beno\u00eet Audran I after Joseph Vivien, 1714.", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1714, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 267, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "writer", 
+                        "museumobject_count": 36, 
+                        "source": "object", 
+                        "cis_id": "x36825", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "writer"
+                    }
+                }, 
+                {
+                    "pk": 49646, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "archbishop", 
+                        "museumobject_count": 28, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "archbishop"
+                    }
+                }, 
+                {
+                    "pk": 50667, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "theologian", 
+                        "museumobject_count": 26, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "theologian"
+                    }
+                }, 
+                {
+                    "pk": 41404, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "F\u00e9nelon, Fran\u00e7ois", 
+                        "museumobject_count": 2, 
+                        "source": "name", 
+                        "cis_id": "N12869", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "fenelon-francois"
+                    }
+                }
+            ], 
+            "date_text": "1714 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, portrait of a man, head and shoulders, full face, within an oval border with letters.", 
+            "dimensions": "Height: 45.1 cm, Width: 33.7 cm", 
+            "title": "Mre Fran\u00e7ois De Salignac De La Motte Fenelon", 
+            "date_start": "1714-01-01", 
+            "materials_techniques": "Engraving", 
+            "last_processed": "2014-04-01 18:40:48", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PS, shelf 3", 
+            "marks": "'Joseph\u2019. Vivien pinxit  Bened\u2019. Audran sculpsit 1714'\n 'Mre Fran\u00e7ois De Salignac De La Motte Fenelon, Archeveque Duc de Cambray, Prince Du St. Empire, Comte De Cambresis, &c.'", 
+            "latitude": "46.71244800", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 36, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "French School", 
+                        "museumobject_count": 2157, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31263", 
+                        "museumobject_image_count": 1382, 
+                        "type": "", 
+                        "slug": "french-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 616724, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PS", 
+                        "inventory_number": 1257522, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.16-1960", 
+                        "museumobject": 482291, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e161960", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 11190, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1721-10-02", 
+                        "surname": "", 
+                        "name": "Audran, Beno\u00eet", 
+                        "gender": null, 
+                        "museumobject_count": 9, 
+                        "death_year": 1721, 
+                        "source": "object_production", 
+                        "cis_id": "A6176", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1661-11-22", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "audran-benoit", 
+                        "birth_year": 1661
+                    }
+                }, 
+                {
+                    "pk": 75146, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1734-12-31", 
+                        "surname": "", 
+                        "name": "Joseph Vivien", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": 1734, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH317907", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1657-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "joseph-vivien", 
+                        "birth_year": 1657
+                    }
+                }, 
+                {
+                    "pk": 51294, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1715-12-31", 
+                        "surname": "", 
+                        "name": "F\u00e9nelon, Fran\u00e7ois", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1715, 
+                        "source": "content", 
+                        "cis_id": "N12869", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1651-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "fenelon-francois", 
+                        "birth_year": 1651
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 298682, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482291, 
+                        "role": "printed", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e161960", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 18:40:48", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings, Accessions 1960: Volume 2, Edgar Seligman Gift.</u> London: HMSO, 1966.\nThe full text of the entry is as follows:\n\n\u2018<b>AUDRAN, Beno\u00eet, I (1661-1721)</b>\n\nFran\u00e7ois de Salignac de La Mothe-F\u00e9nelon (1651-1715), Archbishop of Cambrai.  Portrait, head and shoulders, full face, within an oval border with letters.  (Le B.258; A.F-D.56; BN:Fonds 21)\n<i>Lettered</i> Joseph\u2019. Vivien pinxit  Bened\u2019. Audran sculpsit 1714 <i>and on the border</i> Mre Fran\u00e7ois De Salignac De La Motte Fenelon, Archeveque Duc de Cambray, Prince Du St. Empire, Comte De Cambresis, &c.\n<i>Engraving.</i>  45.1 x 33.7 cm.   E.16-1960\n\n<i>Note:</i> The original copperplate is in the Chalcographie du Louvre (Angoulvent 2163); an impression is in the Department of Prints and Drawings, E.7283-1958.  \nThe original painting by J. Vivien is in the Pinacothek, Munich.\u2019\nLe Blanc, Charles. <u>Manuel de l'amateur d'estampes.</u> Paris. \u00c9 Bouillon, 1854-1908.\nBiblioth\u00e8que National. <u>Inventaire du Fonds Fran\u00e7ais</u>. Paris: M. le Garrec, 1930.\nFirmin-Didot, Ambroise. <u>Les Graveurs de Portrait en France.</u> Paris: Firmin-Didot, 1875-9.", 
+            "vanda_exhibition_history": "", 
+            "slug": "mre-francois-de-salignac-de-print-benoit-audran", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 26936, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8213, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "Beno\u00eet Audran", 
+            "namecontext_set": [
+                {
+                    "pk": 397126, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11190
+                    }, 
+                    "fields": {
+                        "name": 11190, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482291, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 397127, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 75146
+                    }, 
+                    "fields": {
+                        "name": 75146, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 482291, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 397128, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 51294
+                    }, 
+                    "fields": {
+                        "name": 51294, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 482291, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1714, 
+            "object_number": "O567550", 
+            "events": [], 
+            "credit": "Given by Edgar Seligman", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
