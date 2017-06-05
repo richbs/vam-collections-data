@@ -1,0 +1,354 @@
+[
+    {
+        "pk": 61136, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.206-1946", 
+            "date_end": "1690-12-31", 
+            "labels": [], 
+            "descriptive_line": "Statuette, bronze, 'Agitated Neptune', after Michel Anguier, France, about 1670-90", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1670, 
+            "exhibitions": [
+                {
+                    "pk": 2755, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 6150, 
+                        "year_start": 2006, 
+                        "name": "Heavenly Bodies: Sculptural Responses to the Human Form", 
+                        "date_end": "2006-10-29", 
+                        "museumobject_count": 5, 
+                        "venue": "Burghley House, Stamford", 
+                        "date_start": "2006-04-01", 
+                        "year_end": 2006, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5, 
+                        "type": "", 
+                        "slug": "heavenly-bodies-sculptural-responses-to-the-human-form", 
+                        "date_text": "01/04/06- 29/10/06"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 23967, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Neptune", 
+                        "museumobject_count": 154, 
+                        "source": "name", 
+                        "cis_id": "N224", 
+                        "museumobject_image_count": 107, 
+                        "type": "", 
+                        "slug": "neptune"
+                    }
+                }
+            ], 
+            "date_text": "1670-90 (made)", 
+            "primary_image_id": "2006AE9434", 
+            "rights": 3, 
+            "physical_description": "The figure of Neptune is striding over the waves, his head is turned to the right and is looking over his shoulder. The right arm holds a fold of drapery. Between his legs a seahorse rises from the rectangular base, which is modelled as the waves.", 
+            "dimensions": "Height: 51.5 cm, Weight: 17 kg, Width: 24 cm, Depth: 21 cm, Width: 21 cm Base, Depth: 16.5 cm base", 
+            "title": "Neptune", 
+            "date_start": "1670-01-01", 
+            "materials_techniques": "Bronze", 
+            "last_processed": "2014-03-31 22:36:22", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Room 117, case 5", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 44, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "casting", 
+                        "museumobject_count": 1754, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53104", 
+                        "museumobject_image_count": 1088, 
+                        "type": "", 
+                        "slug": "casting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 111025, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 313
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "5", 
+                        "inventory_number": 81251, 
+                        "room": "117", 
+                        "part_name": "Statuette", 
+                        "museum_number": "A.206:1-1946", 
+                        "museumobject": 61136, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Room 117", 
+                        "museum_number_token": "a20611946", 
+                        "gallery": 313
+                    }
+                }, 
+                {
+                    "pk": 111026, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 383188, 
+                        "room": "", 
+                        "part_name": "Fragment", 
+                        "museum_number": "A.206:2-1946", 
+                        "museumobject": 61136, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "a20621946", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 313, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "117", 
+                        "site_name": "", 
+                        "name": "Room 117", 
+                        "site_code": "VA", 
+                        "museumobject_count": 31, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49906", 
+                        "museumobject_image_count": 27, 
+                        "type": "", 
+                        "slug": "117-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10899, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1686-12-31", 
+                        "surname": "", 
+                        "name": "Anguier, Michel", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1686, 
+                        "source": "object_production", 
+                        "cis_id": "A6119", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1612-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "anguier-michel", 
+                        "birth_year": 1612
+                    }
+                }, 
+                {
+                    "pk": 70, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Neptune", 
+                        "gender": null, 
+                        "museumobject_count": 155, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N224", 
+                        "museumobject_image_count": 107, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "neptune", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 56931, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61136, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a2061946", 
+            "object": "Statuette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:36:22", 
+            "public_access_description": "This vibrant statuette of Neptune derives from a model that formed part of a set of six images of gods and goddesses commissioned from Michel Anguier in 1652.  In 1690, they were described by Guillet de Saint-Georges, the first historian of the French Royal Academy of Painting and Sculpture, with the evocative titles of  \u2018a thundering Jupiter, a jealous Juno, an agitated Neptune, a tranquil Amphitrite, a melancholy Pluto, \u2026 and a weeping Ceres\u2019.  They were created as pairs to represent the elements of air (Jupiter and Juno), water (Neptune and Amphritite) and earth (Pluto and Ceres, for which see inv. no. 85-1865), with the fourth element of fire lacking.  A Mars also mentioned by Saint-Georges did not form part of the group.\n\nMichel Anguier (1612/14-1686) was apprenticed to his father, Honor\u00e9, a woodworker in the French town of Eu, before moving to Paris to join the workshop of Simon Guillain in around 1629-33.  He was one of a number of artists who moved to Rome, where he spent ten years from 1641, assisting the leading sculptors of the day, Gianlorenzo Bernini and Alessandro Algardi. The god of the sea is shown striding forward, and, like Bernini\u2019s Neptune and Triton (also in the V&amp;A, inv, no. A.18-1950), which must have been its inspiration, appears to represent the so-called \u2018Quos Ego\u2019 [\u2018Whom I\u2019] from Virgil\u2019s Aeneid.  During the war between the Trojans and Greeks, the goddess Juno used the god of the winds to stir up a storm to kill the retreating Trojans.  Neptune, angered by this intervention, calmed the waves by brandishing his trident and issuing the unfinished threat \u2018Winds, do you dare, without my intent, to mix earth with sky, and cause such trouble, now? You whom I \u2013 ! ... But it\u2019s better to calm the running waves:\nyou\u2019ll answer to me later for this misfortune, with a different punishment.\u2019  Neptune\u2019s chariot was drawn by hippocamps or sea-horses, one of which writhes between his legs.  \n\nThe early versions of these bronzes, possibly cast in the 1660s or 70s, incorporated hexagonal bases, and Neptune\u2019s genitals were covered with flowing drapery, closer to Bernini\u2019s marble.  This version, with the square base and exposed genitals, suggests that it is a subsequent cast of around 1670-90 or possibly later, when the model had been adjusted. The surface was probably repatinated in the 19th century. \n\nAnguier received the commission for this series of gods and goddesses after returning to Paris in 1651.  In his later years, he lectured at the Acad\u00e9mie Royale on a variety of subjects, notably including different expressions of anger (1675) and depicting gods through their temperaments (1676). He was not known as a bronze maker, and it is possible that he turned to a specialist founder to assist with reproducing his models as his large-scale commissions declined.", 
+            "exhibition_history": "Heavenly Bodies: Sculptural Responses to the Human Form (Burghley House, Stamford 01/04/2006-29/10/2006)", 
+            "bibliography": "Raggio, Olga, 'Sculpture in the Grand Manner: through groups by Auguier and Monnot' in <u>Apollo</u>, Nov. 1977, p. 368, fig. 12.\nCharageat, Marguerite, 'La Statue d'Amphitrite et la suite des dieux et des d\u00e9esses de Michel Anguier' in Soci\u00e9t\u00e9 de l'histoire de l'art francais, <u>Archives de l'art fran\u00e7ais</u>, Nouvelle periode, XXIII, 1968.\nIan Wardropper, 'Michel Anguier. Les Bronzes' in Genevi\u00e8ve Bresc-Bautier and Guilhem Scherf (eds), <u>Bronzes fran\u00e7ais de la Renaissance au Si\u00e8cle des lumi\u00e8res</u>, exh. cat. Mus\u00e9e du Louvre, Paris; The Metropolitan Museum of Art, New York; The J. Paul Getty Museum, Los Angeles, 2008-9, Paris, 2008, pp.204-5, with earlier literature, and for the catalogue entry for another version (Washington, National Gallery of Art), pp.210-11, no. 57 (Ian Wardropper).\nIan Wardropper, 'Michel Anguier. The Bronzes' in Genevi\u00e8ve Bresc-Bautier and Guilhem Scherf with James David Draper (eds), <u>Cast in Bronze. French Sculpture from Renaissance to Revolution</u>, exh. cat. Mus\u00e9e du Louvre, Paris; The Metropolitan Museum of Art, New York; The J. Paul Getty Museum, Los Angeles, 2008-9, Paris, 2009, pp.204-5, with earlier literature, and for the catalogue entry for another version (Washington, National Gallery of Art), pp.210-11, no. 57 (Ian Wardropper).", 
+            "vanda_exhibition_history": "", 
+            "slug": "neptune-statuette-anguier-michel", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 39639, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:41", 
+                        "priority": 0, 
+                        "image_id": "2006AE9434", 
+                        "sys_id": 49434, 
+                        "last_checked": "2014-03-31 17:16:41", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE9434.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Anguier, Michel", 
+            "namecontext_set": [
+                {
+                    "pk": 67089, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10899
+                    }, 
+                    "fields": {
+                        "name": 10899, 
+                        "part_name": "", 
+                        "uncertainty": "Cast after the model by Michel Anguier", 
+                        "museumobject": 61136, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 67090, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 70
+                    }, 
+                    "fields": {
+                        "name": 70, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61136, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1690, 
+            "object_number": "O66241", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "See Wardropper 2008/2009 for latest history of the group to which this bronze belongs.", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

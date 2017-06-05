@@ -1,0 +1,243 @@
+[
+    {
+        "pk": 633062, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.206-1942", 
+            "date_end": "1918-12-31", 
+            "labels": [], 
+            "descriptive_line": "Sydney Ure Smith. The Church on the Hill, Windsor, New South Wales. 1918", 
+            "shape": "", 
+            "longitude": "147.31906100", 
+            "year_start": 1918, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1918 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Etching showing St Matthew's Church, Windsor, New South Wales.", 
+            "dimensions": "Height: 5.625 in, Width: 6.125 in", 
+            "title": "The Church on the Hill - Windsor", 
+            "date_start": "1918-01-01", 
+            "materials_techniques": "etching", 
+            "last_processed": "2014-04-26 15:59:39", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case EE, shelf 183, box A", 
+            "marks": "", 
+            "latitude": "-32.83102000", 
+            "techniques": [
+                {
+                    "pk": 22, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching", 
+                        "museumobject_count": 11942, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39131", 
+                        "museumobject_image_count": 5158, 
+                        "type": "", 
+                        "slug": "etching"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 767812, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "EE", 
+                        "inventory_number": 1068905, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.206-1942", 
+                        "museumobject": 633062, 
+                        "shelf": "183", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e2061942", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 76538, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1949-12-31", 
+                        "surname": "", 
+                        "name": "Smith, Sydney Ure", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1949, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH319367", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1887-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "sydney-ure-smith", 
+                        "birth_year": 1887
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 365868, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5543
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 633062, 
+                        "role": "made", 
+                        "place": 5543, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e2061942", 
+            "object": "Etching", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 1630, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Landscapes", 
+                        "museumobject_count": 1945, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 288, 
+                        "type": "", 
+                        "slug": "landscapes"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:59:39", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1942</u>, London: HMSO, 1955.\nThe full text of the record is as follows:\n\n'<b>SMITH, Sydney Ure (1887-  ) </b>\n\nThe Church on the Hill - Windsor. [New South Wales (?)]\n<i>Signed in pencil</i> Sydney Ure Smith. <i>Inscribed in pencil with title and</i> No. 9 50 Proofs.\n<i>Etching.</i>\nE.206-1942\n\nGiven by Mr. W.W. Stotesbury'", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-church-on-the-hill-etching-sydney-ure-smith", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5543, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1468
+                    }, 
+                    "fields": {
+                        "name": "New South Wales", 
+                        "parent": 1468, 
+                        "country": "Australia", 
+                        "museumobject_count": 2, 
+                        "longitude": "147.31906100", 
+                        "source": "production", 
+                        "cis_id": "x32944", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "-32.83102000", 
+                        "type": "region / state", 
+                        "slug": "new-south-wales-australia-x32944"
+                    }
+                }
+            ], 
+            "artist": "Sydney Ure Smith", 
+            "namecontext_set": [
+                {
+                    "pk": 479207, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 76538
+                    }, 
+                    "fields": {
+                        "name": 76538, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 633062, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1918, 
+            "object_number": "O727128", 
+            "events": [], 
+            "credit": "Given by Mr W.W. Stotesbury", 
+            "history_note": "", 
+            "place": "New South Wales", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
