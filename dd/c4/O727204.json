@@ -1,0 +1,243 @@
+[
+    {
+        "pk": 633138, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.132-1942", 
+            "date_end": "1892-03-31", 
+            "labels": [], 
+            "descriptive_line": "Private view invite to exhibition of watercolours of Italy and Sicily, by Charles J. Watson", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1892, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "first quarter 1892 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Invitation card to an exhibition of watercolours illustrated with a steaming brazier and a woman standing some steps behind it.", 
+            "dimensions": "Height: 4.625 in, Width: 3 in", 
+            "title": "", 
+            "date_start": "1892-01-01", 
+            "materials_techniques": "etching", 
+            "last_processed": "2014-04-26 15:59:50", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case GG, shelf 68, box BI", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 22, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "etching", 
+                        "museumobject_count": 11942, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x39131", 
+                        "museumobject_image_count": 5158, 
+                        "type": "", 
+                        "slug": "etching"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 767888, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "BI", 
+                        "case": "GG", 
+                        "inventory_number": 1068829, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.132-1942", 
+                        "museumobject": 633138, 
+                        "shelf": "68", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e1321942", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 76545, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1927-12-31", 
+                        "surname": "", 
+                        "name": "Charles John Watson", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1927, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH319404", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1846-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "charles-john-watson", 
+                        "birth_year": 1846
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 365944, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 633138, 
+                        "role": "printed", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1321942", 
+            "object": "Invitation card", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 126, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Greeting cards", 
+                        "museumobject_count": 1999, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 180, 
+                        "type": "", 
+                        "slug": "greeting-cards"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 15:59:50", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1942</u>, London: HMSO, 1955.\nThe full text of the record is as follows:\n\n'<b>WATSON, Charles John (1846-1927) </b>\n\nInvitation card to an exhibition of watercolours drawn by the artist in Italy and Sicily, held at the Rembrandt Head Gallery, 5 Vigo Street, 2-30 April 1892.\n<i>Etching.</i>\nE.132-1942\n\nGiven by the Misses G.L.T. and L.J.D. Griffith'", 
+            "vanda_exhibition_history": "", 
+            "slug": "invitation-card-charles-john-watson", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Charles John Watson", 
+            "namecontext_set": [
+                {
+                    "pk": 479331, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 76545
+                    }, 
+                    "fields": {
+                        "name": 76545, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 633138, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1892, 
+            "object_number": "O727204", 
+            "events": [], 
+            "credit": "Given by the Misses G.L.T. and L.J.D. Griffith", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
