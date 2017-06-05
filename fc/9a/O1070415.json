@@ -1,0 +1,379 @@
+[
+    {
+        "pk": 960866, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.71-1968", 
+            "date_end": "1850-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour entitled 'Alexander and Diogenes' by John Martin.  Great Britain, early 19th century.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1800, 
+            "exhibitions": [
+                {
+                    "pk": 4672, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "Tyneside's Contribution to Art, Festival of Britain Exhibition", 
+                        "date_end": null, 
+                        "museumobject_count": 4, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "tynesides-contribution-to-art-festival-of-britain-exhibition", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 29168, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Diogenes (of Sinope)", 
+                        "museumobject_count": 16, 
+                        "source": "name", 
+                        "cis_id": "N4663", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "diogenes-of-sinope"
+                    }
+                }, 
+                {
+                    "pk": 35520, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Alexander", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N10396", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "alexander"
+                    }
+                }
+            ], 
+            "date_text": "early 19th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Watercolour depicting Alexander and Diogenes", 
+            "dimensions": "Height: 25 cm, Width: 31.5 cm", 
+            "title": "Alexander and Diogenes", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "Watercolour", 
+            "last_processed": "2014-04-27 00:17:41", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 69, box A", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12963, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7122, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2733, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 1096140, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "WD", 
+                        "inventory_number": 115375, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "P.71-1968", 
+                        "museumobject": 960866, 
+                        "shelf": "69", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "p711968", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3166, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1854-12-31", 
+                        "surname": "", 
+                        "name": "Martin, John", 
+                        "gender": null, 
+                        "museumobject_count": 283, 
+                        "death_year": 1854, 
+                        "source": "object_production", 
+                        "cis_id": "A2285", 
+                        "museumobject_image_count": 116, 
+                        "forename": "", 
+                        "birth_date": "1789-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "martin-john-2285", 
+                        "birth_year": 1789
+                    }
+                }, 
+                {
+                    "pk": 12626, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Diogenes (of Sinope)", 
+                        "gender": null, 
+                        "museumobject_count": 16, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N4663", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "diogenes-of-sinope", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 44125, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Alexander", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "associated", 
+                        "cis_id": "N10396", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "alexander-10396", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 436242, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 960866, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p711968", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18756, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11926, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 00:17:41", 
+            "public_access_description": "", 
+            "exhibition_history": "Tyneside's Contribution to Art, Festival of Britain Exhibition (Laing Art Gallery 01/01/1951-31/12/1951)", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1968 </u>. London: HMSO, 1969.\nThe full text of the entry is as follows: \n\n\"<b>MARTIN, John (1789-1854)</b> \n... \nAlexander and Diogenes. \n<i>Water-colour.</i>               P.71-1968 \n\nBequeathed by Thomas Balston, O.B.E., M.C., through the National Art-Collections Fund \n\n<i>Note:</i> This water-colour was exhibited at the Laing Art Gallery, Newcastle-upon-Tyne, <i>Tyneside's Contribution to Art</i>, Festival of Britain Exhibition, 1951.  A version of this composition in oil was in the collection of Col. M. H. Grant and a sepia drawing of 1817 in the Ashmolean Museum.  Another water-colour version was with the Leger Gallery in 1954, (dated ?1852).  This is more closely related to the steel engraving by E. Finden in the <i>Literary Souvenir</i>, 1827, which differs in detail from P.71-1968.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "alexander-and-diogenes-watercolour-martin-john", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Martin, John", 
+            "namecontext_set": [
+                {
+                    "pk": 567683, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3166
+                    }, 
+                    "fields": {
+                        "name": 3166, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 960866, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 567684, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 12626
+                    }, 
+                    "fields": {
+                        "name": 12626, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 960866, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 567685, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 44125
+                    }, 
+                    "fields": {
+                        "name": 44125, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 960866, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1850, 
+            "object_number": "O1070415", 
+            "events": [], 
+            "credit": "Bequeathed by Thomas Balston through The Art Fund", 
+            "history_note": "A version of this composition in oil was in the collection of Col. M. H. Grant and a sepia drawing of 1817 in the Ashmolean Museum.  Another water-colour version was with the Leger Gallery in 1954, (dated ?1852).  This is more closely related to the steel engraving by E. Finden in the Literary Souvenir, 1827, which differs in detail from P.71-1968.", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,308 @@
+[
+    {
+        "pk": 85594, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "A.29-1954", 
+            "date_end": "1546-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plaquette, lead, Temperance, by Peter Fl\u00f6tner, Germany (Nuremberg), ca. 1540-6", 
+            "shape": "", 
+            "longitude": "11.40798000", 
+            "year_start": 1540, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25104, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Temperance", 
+                        "museumobject_count": 18, 
+                        "source": "name", 
+                        "cis_id": "N3931", 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "temperance"
+                    }
+                }
+            ], 
+            "date_text": "1540-1546 (made)", 
+            "primary_image_id": "2006AE9332", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Diameter: 7.6 cm", 
+            "title": "Temperance", 
+            "date_start": "1540-01-01", 
+            "materials_techniques": "Lead", 
+            "last_processed": "2014-04-01 00:24:43", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case 3, shelf 5", 
+            "marks": "", 
+            "latitude": "48.91743100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 163, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "lead", 
+                        "museumobject_count": 238, 
+                        "source": "cis_materials", 
+                        "cis_id": "11022", 
+                        "museumobject_image_count": 106, 
+                        "type": "", 
+                        "slug": "lead"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 146018, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "3", 
+                        "inventory_number": 91142, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "A.29-1954", 
+                        "museumobject": 85594, 
+                        "shelf": "5", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "a291954", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 7039, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1546-11-23", 
+                        "surname": "", 
+                        "name": "Fl\u00f6tner, Peter", 
+                        "gender": null, 
+                        "museumobject_count": 59, 
+                        "death_year": 1546, 
+                        "source": "object_production", 
+                        "cis_id": "A3825", 
+                        "museumobject_image_count": 50, 
+                        "forename": "", 
+                        "birth_date": "1485-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "flotner-peter", 
+                        "birth_year": 1485
+                    }
+                }, 
+                {
+                    "pk": 2669, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Temperance", 
+                        "gender": null, 
+                        "museumobject_count": 18, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N3931", 
+                        "museumobject_image_count": 12, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "temperance", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 82019, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 236
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85594, 
+                        "role": "made", 
+                        "place": 236, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "a291954", 
+            "object": "Plaquette", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 46, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Myths & Legends", 
+                        "museumobject_count": 2183, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1013, 
+                        "type": "", 
+                        "slug": "myths-legends"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:24:43", 
+            "public_access_description": "For some sculptural commissions, a leading artist such as Giambologna made only the model and the work was executed by others. Ideas were also transmitted by terracotta models, plaquettes and engravings, as well as by decorative objects for which sculptors had provided designs.The Nuremberg sculptor Peter Fl\u00f6tner was one of the most versatile artists and designers of the German Renaissance. His virtuosity as a sculptor is evident from\nhis plaquettes in lead, bronze and Solnhofen limestone. Fl\u00f6tner produced\nseveral series of plaquettes, among them The Virtues, Eminent Women of Classical\nAntiquity and The Seven Gods of the Planets. The frequency with which\ngoldsmiths and other craftsmen copied his reliefs is an indication of their popularity.", 
+            "exhibition_history": "", 
+            "bibliography": "Weber, I. <u>Deutsche, Niederl\u00e4ndische und Franz\u00f6sische Renaissance Plaketten</u>. Munich, 1975, p. 81, no. 62, 7", 
+            "vanda_exhibition_history": "", 
+            "slug": "temperance-plaquette-flotner-peter", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 39533, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:40", 
+                        "priority": 0, 
+                        "image_id": "2006AE9332", 
+                        "sys_id": 49332, 
+                        "last_checked": "2014-03-31 17:16:40", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE9332.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 236, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 5181
+                    }, 
+                    "fields": {
+                        "name": "Nuremberg", 
+                        "parent": 5181, 
+                        "country": "Germany", 
+                        "museumobject_count": 2065, 
+                        "longitude": "11.40798000", 
+                        "source": "production", 
+                        "cis_id": "x29057", 
+                        "museumobject_image_count": 1539, 
+                        "latitude": "48.91743100", 
+                        "type": "city/town", 
+                        "slug": "nuremberg-germany-x29057"
+                    }
+                }
+            ], 
+            "artist": "Fl\u00f6tner, Peter", 
+            "namecontext_set": [
+                {
+                    "pk": 101040, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 7039
+                    }, 
+                    "fields": {
+                        "name": 7039, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85594, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 101041, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 2669
+                    }, 
+                    "fields": {
+                        "name": 2669, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 85594, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1546, 
+            "object_number": "O110686", 
+            "events": [], 
+            "credit": "Given by Dr W. L. Hildburgh, FSA", 
+            "history_note": "Given by Dr. W. L. Hildburgh, F. S. A., 1954.\nThis plaquette is one from the series of the Virtues. It is cast in lead which Fl\u00f6tner tended to use for his plaquettes. He also used copper alloy, where Italian sculptors mostly used bronze. He would prepare a drawing, which would be carved in wood or Solnhofen limestone, and then cast.\n\nHistorical significance: Fl\u00f6tner was important in disseminating Italian renaissance classicism to German artists. The lessons that he learnt from Italian art are particularly clear in his plaquette designs, which show confident handling of Renaissance concepts and classical forms. His interpretation of classical motifs in architecture was particularly widely disseminated and he was the first to use grotesque motifs in German Renaissance ornament. The publication by Rudolff Wijffenbach in 1546 of Das Kunstbuch des Peter Fl\u00f6tner, which brought together forty of Fl\u00f6tner's surviving woodcuts was particularly influential on other German artists.\n\nFl\u00f6tner's designs were widely admired both during his lifetime and after his death. His plaquettes were pursued by collectors, and artists copied his decorative motifs in both contemporary and later works. His designs were copied on goldwork, clocks, ivories, pewter, bells, mortars and stove tiles, and even converted into large wood fa\u00e7ades for houses in lower Saxony.", 
+            "place": "Nuremberg", 
+            "production_note": "", 
+            "historical_context_note": "Plaquettes began to be made in southern Germany around 1510-1520, in Augsburg and Nuremberg. They were produced by bronze foundries, goldsmiths and cabinetmakers. Models would be carved in stone, slate, wood or wax, and then cast in bronze or lead. Like in Italy, plaquettes served a number of functions, being used as pendants, badges or furniture decoration, as well as admired as small works of art. Plaquettes often, but not always, portrayed religious or mythological scenes. Peter Fl\u00f6tner produced several series of plaquettes, including 'The Virtues,' and 'Eminent Women of Classical Antiquity' as well as 'The Seven Gods of the Planets' series. These plaquettes show Fl\u00f6tner's use of landscapes to set-off his expressive figures in many of his plaquettes. Such compositions may have been influenced by Venetian paintings. \nFl\u00f6tner worked in Germany as a sculptor, medallist, cabinetmaker, woodcutter and designer. He is known for the wide range of his work, including fountains, organs, and furniture as well as decorative objects. He was probably born in the Thurgau region of Switzerland, and may have trained in the Augsburg workshop of the Renaissance sculptor Hans Daucher between 1515 and 1518. He was certainly influenced by Daucher's Italianate style and that of Hans Burgkmair I. Fl\u00f6tner settled in Nuremberg in 1522, and was registered as a 'master sculptor' when he became a citizen in 1523. He is conjectured to have visited Italy in 1520-21, and again by 1530. These visits would have played a part in encouraging his adoption of Italian renaissance styles. In Nuremberg, Fl\u00f6tner introduced new classical forms in architecture, marking a change from the gothic style influenced by Albrecht D\u00fcrer. His mature classical style is seen first in the Apollo Fountain which he designed for Nuremberg in 1532. It is based on an engraving of Apollo and Diana by Jacopo de' Barbari, and demonstrates Fl\u00f6tner's confident interpretation of Italian composition and proportions. Fl\u00f6tner later worked on commissions for the interior decorations and furniture of various aristocratic houses.", 
+            "collection_code": "SCP"
+        }
+    }
+]
