@@ -1,0 +1,286 @@
+[
+    {
+        "pk": 12306, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "1910-1855", 
+            "date_end": "1600-12-31", 
+            "labels": [], 
+            "descriptive_line": "Cup, Italy (Venice), 1500-1599, 1910-1855", 
+            "shape": "", 
+            "longitude": "12.31849000", 
+            "year_start": 1500, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "16th century (made)", 
+            "primary_image_id": "2006AT3064", 
+            "rights": 3, 
+            "physical_description": "Cup, millefiori", 
+            "dimensions": "Height: 5 cm, Width: 9 cm", 
+            "title": "", 
+            "date_start": "1500-01-01", 
+            "materials_techniques": "Millefiori glass", 
+            "last_processed": "2014-03-31 19:34:39", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 9, shelf 2", 
+            "marks": "", 
+            "latitude": "45.43825100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 320, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "millefiori glass", 
+                        "museumobject_count": 4, 
+                        "source": "cis_materials", 
+                        "cis_id": "207352", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "millefiori-glass"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 89, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Italy", 
+                        "museumobject_count": 227, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29304", 
+                        "museumobject_image_count": 90, 
+                        "type": "", 
+                        "slug": "italy"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 17275, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "9", 
+                        "inventory_number": 351857, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "1910-1855", 
+                        "museumobject": 12306, 
+                        "shelf": "2", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "19101855", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 13287, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 41
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 12306, 
+                        "role": "made", 
+                        "place": 41, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "19101855", 
+            "object": "Cup", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 15, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drinking", 
+                        "museumobject_count": 5467, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2065, 
+                        "type": "", 
+                        "slug": "drinking"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:34:39", 
+            "public_access_description": "\u2018Millefiori\u2019 glass, or glass of a thousand flowers, shows small multicoloured glass patches on a colourless background. It is made using prepared multicoloured glass 'canes'. These canes are cut into small sections that are scattered in a random manner on a smooth metal or stone surface. The glassmaker then prepares a bubble of colourless glass from the furnace and rolls this over the colourful cane sections. These stick to the molten glass surface and can be 'marvered' smoothly into the glass surface by rolling it over a flat, clean surface and repeatedly reheating the bubble in the furnace mouth. Finally, the bubble can be further expanded by blowing, and shaped into a hollow object.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "cup-unknown", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 19291, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-02-26 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:18", 
+                        "priority": 0, 
+                        "image_id": "2006AT3064", 
+                        "sys_id": 153064, 
+                        "last_checked": "2014-03-31 17:12:18", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT3064.jpg"
+                    }
+                }, 
+                {
+                    "pk": 22314, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-17 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:56", 
+                        "priority": 1, 
+                        "image_id": "2006AT7730", 
+                        "sys_id": 157730, 
+                        "last_checked": "2014-03-31 17:12:56", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT7730.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 41, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2463
+                    }, 
+                    "fields": {
+                        "name": "Venice (city)", 
+                        "parent": 2463, 
+                        "country": "Italy", 
+                        "museumobject_count": 1878, 
+                        "longitude": "12.31849000", 
+                        "source": "production", 
+                        "cis_id": "x29237", 
+                        "museumobject_image_count": 936, 
+                        "latitude": "45.43825100", 
+                        "type": "city / town", 
+                        "slug": "venice-city-italy-x29237"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 12753, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 12306, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1600, 
+            "object_number": "O9735", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Venice", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

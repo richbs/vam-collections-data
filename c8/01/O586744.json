@@ -1,0 +1,283 @@
+[
+    {
+        "pk": 501438, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.774-1954", 
+            "date_end": "1927-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, fashion illustration by George Barbier from <i>Vingt-cinq costumes pour le  th\u00e9\u00e2tre</i>, process engraving, 1927.", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1927, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1927 (published)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Colour fashion plate.", 
+            "dimensions": "Height: 25.4 cm, Width: 20.96 cm", 
+            "title": "Vingt-cinq costumes pour le th\u00e9\u00e2tre", 
+            "date_start": "1927-01-01", 
+            "materials_techniques": "Process engraving and colour stencil", 
+            "last_processed": "2014-04-01 19:52:35", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case DT, shelf 24, box A", 
+            "marks": "'George Barbier 1920'", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 165, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving", 
+                        "museumobject_count": 23807, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53225", 
+                        "museumobject_image_count": 7605, 
+                        "type": "", 
+                        "slug": "engraving"
+                    }
+                }, 
+                {
+                    "pk": 215, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "stencilling", 
+                        "museumobject_count": 539, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53433", 
+                        "museumobject_image_count": 81, 
+                        "type": "", 
+                        "slug": "stencilling"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 36, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "French School", 
+                        "museumobject_count": 2157, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31263", 
+                        "museumobject_image_count": 1382, 
+                        "type": "", 
+                        "slug": "french-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 635872, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "DT", 
+                        "inventory_number": 1236129, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.774-1954", 
+                        "museumobject": 501438, 
+                        "shelf": "24", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e7741954", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125911, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30764, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 60553, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1932-12-31", 
+                        "surname": "", 
+                        "name": "Barbier, George", 
+                        "gender": null, 
+                        "museumobject_count": 68, 
+                        "death_year": 1932, 
+                        "source": "object_production", 
+                        "cis_id": "A31031", 
+                        "museumobject_image_count": 47, 
+                        "forename": "", 
+                        "birth_date": "1882-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "barbier-george-31031", 
+                        "birth_year": 1882
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 311603, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 501438, 
+                        "role": "published", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e7741954", 
+            "object": "Fashion plate", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }, 
+                {
+                    "pk": 143, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Fashion plates", 
+                        "museumobject_count": 2041, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 920, 
+                        "type": "", 
+                        "slug": "fashion-plates"
+                    }
+                }, 
+                {
+                    "pk": 1614, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Theatre", 
+                        "museumobject_count": 4763, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 874, 
+                        "type": "", 
+                        "slug": "theatre"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 19:52:35", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1954 </u> London: HMSO, 1963\nThe full text of the entry is as follows: \n\n\"<b>BARBIER, George (worked first quarter of 20th century)</b> \n... \nPlates (5) to <i>Vingt-cinq costumes pour le th\u00e9\u00e2tre</i>, Paris, 1927. \nE.774-777 <i>signed and dated</i> George Barbier 1920.  E.778 <i>signed and dated</i> George Barbier 1919.  E.775 <i>lettered</i> Paulette Duval.  E.777 <i>lettered</i> Madame Pavlova.  Amarilla <i>and</i> E.778 <i>lettered</i> Alexandre Volinine. \n<i>Process engraving and colour stencil.</i>            E.774-778-1954\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "vingt-cinq-costumes-pour-le-fashion-plate-barbier-george", 
+            "sys_updated": "2014-01-13 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Barbier, George", 
+            "namecontext_set": [
+                {
+                    "pk": 414675, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 60553
+                    }, 
+                    "fields": {
+                        "name": 60553, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 501438, 
+                        "role": "illustrator", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1927, 
+            "object_number": "O586744", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
