@@ -1,0 +1,280 @@
+[
+    {
+        "pk": 44170, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "10", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "4889-1855", 
+            "date_end": "1540-12-31", 
+            "labels": [], 
+            "descriptive_line": "Cowrie shell of white and pink strata, Italian, 16th century (1530-1540).", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1530, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 27665, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Patroclus", 
+                        "museumobject_count": 3, 
+                        "source": "name", 
+                        "cis_id": "N538", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "patroclus"
+                    }
+                }
+            ], 
+            "date_text": "1530-1540 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Cameo made of white and pink strata of cowrie shell depicting the combat over the body of Patroclus.", 
+            "dimensions": "Height: 1.25 in, Width: 1 in", 
+            "title": "The struggle over the body of ^Patroclus", 
+            "date_start": "1530-01-01", 
+            "materials_techniques": "Cowrie (Cypraea)", 
+            "last_processed": "2014-03-31 21:40:10", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR4", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 721, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cowrie shell", 
+                        "museumobject_count": 7, 
+                        "source": "cis_materials", 
+                        "cis_id": "11834", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "cowrie-shell"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 88465, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR4", 
+                        "inventory_number": 87403, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "4889-1855", 
+                        "museumobject": 44170, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "48891855", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 8685, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Patroclus", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N538", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "patroclus", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 42062, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 44170, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "English pounds, shillings and pence", 
+            "museum_number_token": "48891855", 
+            "object": "Cameo", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 21:40:10", 
+            "public_access_description": "Shell cameos are much easier to cut than those made from gemstones. Also, the raw material is cheaper and easier to acquire. They were popular in the 16th century and then again in the 18th and 19th centuries, when the passion for carved gemstones led to a parallel explosion in the market for cheaper shell cameos. They are still popular today. \nThe death of the legendary Greek hero Patroclus was one of the crucial events of the Trojan War. In this scene, possibly taken from a classical engraved gem, the Greeks and Trojans fight over his body.", 
+            "exhibition_history": "", 
+            "bibliography": "Inventory of Art Objects Acquired in the Year 1855. <u>In</u>: <u>Inventory of the Objects in the Art Division of the Museum at South Kensington, Arranged According to the Dates of their Acquisition. Vol I</u>. London: Printed by George E. Eyre and William Spottiswoode for H.M.S.O., 1868, p. 5.", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-struggle-over-the-body-cameo-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 12969, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5190, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 47277, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 44170, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 47278, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8685
+                    }, 
+                    "fields": {
+                        "name": 8685, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 44170, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1540, 
+            "object_number": "O87312", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Examined by Dr. Taylor of the Natural History Museum in August 1982, who identified shell as cowrie.", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
