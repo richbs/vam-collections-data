@@ -1,0 +1,356 @@
+[
+    {
+        "pk": 55371, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "162-1906", 
+            "date_end": "1901-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plaquette, bronze, depicting Emile Gall\u00e9, by Henry Nocq, France, dated 1901", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1901, 
+            "exhibitions": [
+                {
+                    "pk": 860, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2000, 
+                        "name": "French Medal Design in the Art Nouveau and Art Deco Periods", 
+                        "date_end": "2000-06-05", 
+                        "museumobject_count": 37, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "2000-03-06", 
+                        "year_end": 2000, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 20, 
+                        "type": "", 
+                        "slug": "french-medal-design-in-the-art-nouveau-and-art-deco-periods", 
+                        "date_text": "06/03/2000-05/06/2000"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 28183, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Gall\u00e9, Emile", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N7949", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "galle-emile"
+                    }
+                }
+            ], 
+            "date_text": "1901 (cast)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Plaquette of cast bronze. Emile Gall\u00e9. Signed H.N. in monogram (Henry Nocq). Oblong. Bust to right with specimens of pottery on either side; above, EM.GALLE. Below, HOMMAGE CORDIAL DE HENRY NOCQ.", 
+            "dimensions": "Height: 11.6 cm, Width: 12.5 cm", 
+            "title": "Emile Gall\u00e9", 
+            "date_start": "1901-01-01", 
+            "materials_techniques": "Bronze, cast, uniface", 
+            "last_processed": "2014-03-31 22:16:01", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR15", 
+            "marks": "'H.N.'  Henry Nocq\n EM.GALLE\n HOMMAGE CORDIAL DE HENRY NOCQ", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 44, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "casting", 
+                        "museumobject_count": 1754, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53104", 
+                        "museumobject_image_count": 1088, 
+                        "type": "", 
+                        "slug": "casting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 130, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Art Nouveau", 
+                        "museumobject_count": 446, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21430", 
+                        "museumobject_image_count": 306, 
+                        "type": "", 
+                        "slug": "art-nouveau"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 103947, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR15", 
+                        "inventory_number": 85050, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "162-1906", 
+                        "museumobject": 55371, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "1621906", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10123, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1944-12-31", 
+                        "surname": "", 
+                        "name": "Nocq, Henry", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": 1944, 
+                        "source": "object_production", 
+                        "cis_id": "A11548", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1868-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "nocq-henry", 
+                        "birth_year": 1868
+                    }
+                }, 
+                {
+                    "pk": 10124, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1904-12-31", 
+                        "surname": "", 
+                        "name": "Gall\u00e9, Emile", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1904, 
+                        "source": "content", 
+                        "cis_id": "N7949", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1846-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "galle-emile-7949", 
+                        "birth_year": 1846
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 51777, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 55371, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "1621906", 
+            "object": "Plaquette", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 154, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Plaques & Plaquettes", 
+                        "museumobject_count": 616, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 245, 
+                        "type": "", 
+                        "slug": "plaques-plaquettes"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:16:01", 
+            "public_access_description": "Henry Nocq\u2019s cast plaquette pays tribute to the Art Nouveau glass made by Emile Gall\u00e9. Its delicacy and accuracy rival the best portrait traditions of Renaissance medal making and 19th-century photography. This plaquette was purchased direct from the artist.\n\nHenry Nocq (1868- 1944), was a sculptor and medallist and one of the most qualified representatives of modern French Art. He studied under Chapu, and first began to exhibit at the Paris Salon in 1887.", 
+            "exhibition_history": "French Medal Design in the Art Nouveau and Art Deco Periods (Victoria and Albert Museum 06/03/2000-05/06/2000)", 
+            "bibliography": "List of Works of Art Acquired by the Victoria and Albert Museum in the Years 1905 - 1908. <u>In</u>: <u>List of Works of Art Acquired by the Victoria and Albert Museum, During the Year 1906, Arranged According to the Dates of Acquisition with Appendix and Indices</u>. London: Printed for His Majesty's Stationery Office, by Eyre and Spottiswoode, Limited, 1909, p. 25\nTrusted, Marjorie, ed. <u>The Making of Sculpture. The Materials and Techniques of European Sculpture</u>. London: 2007, p. 87, pl. 146\nVandenbrouck-Przybylski, Melanie, ' 'These should without delay be represented in our museum' Nineteenth- and twentieth-century French medals at the V&amp;A', <u>The Medal</u>, No.61, Autumn 2012, pp.21-37, fig.9", 
+            "vanda_exhibition_history": "", 
+            "slug": "emile-galle-plaquette-nocq-henry", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Nocq, Henry", 
+            "namecontext_set": [
+                {
+                    "pk": 59914, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10123
+                    }, 
+                    "fields": {
+                        "name": 10123, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 55371, 
+                        "role": "medallist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 59915, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10124
+                    }, 
+                    "fields": {
+                        "name": 10124, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 55371, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1901, 
+            "object_number": "O89756", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Bought, \u00a32 7s. 11d.", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
