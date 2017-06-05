@@ -1,0 +1,280 @@
+[
+    {
+        "pk": 837923, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "PH.78-1977", 
+            "date_end": "1938-12-31", 
+            "labels": [], 
+            "descriptive_line": "20thC; Spender Humphrey,Hitler Youth in German town,c1934", 
+            "shape": "", 
+            "longitude": "10.45424000", 
+            "year_start": 1929, 
+            "exhibitions": [
+                {
+                    "pk": 3573, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": null, 
+                        "year_start": null, 
+                        "name": "Nothing in the World but Youth", 
+                        "date_end": null, 
+                        "museumobject_count": 24, 
+                        "venue": "", 
+                        "date_start": null, 
+                        "year_end": null, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "nothing-in-the-world-but-youth", 
+                        "date_text": ""
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 3830, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Germany", 
+                        "museumobject_count": 244, 
+                        "source": "place", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 60, 
+                        "type": "", 
+                        "slug": "germany"
+                    }
+                }, 
+                {
+                    "pk": 29290, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "national socialism", 
+                        "museumobject_count": 43, 
+                        "source": "concept", 
+                        "cis_id": "55524", 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "national-socialism"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1934 (photographed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 206 mm from catalogue, Width: 157 mm from catalogue", 
+            "title": "Hitler Youth in German town", 
+            "date_start": "1929-01-01", 
+            "materials_techniques": "Gelatin silver print", 
+            "last_processed": "2014-04-26 21:21:10", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 989", 
+            "marks": "", 
+            "latitude": "51.09083900", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 972936, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "X", 
+                        "inventory_number": 101760, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "PH.78-1977", 
+                        "museumobject": 837923, 
+                        "shelf": "989", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "ph781977", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32479, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9318, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3441, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2005-12-31", 
+                        "surname": "", 
+                        "name": "Spender, (J.) Humphrey", 
+                        "gender": null, 
+                        "museumobject_count": 47, 
+                        "death_year": 2005, 
+                        "source": "object_production", 
+                        "cis_id": "A3847", 
+                        "museumobject_image_count": 11, 
+                        "forename": "", 
+                        "birth_date": "1910-04-19", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "spender-j-humphrey", 
+                        "birth_year": 1910
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 419296, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 837923, 
+                        "role": "photographed", 
+                        "place": 5, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 419297, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 5
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 837923, 
+                        "role": "subject", 
+                        "place": 5, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "ph781977", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 41092, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31513, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 21:21:10", 
+            "public_access_description": "", 
+            "exhibition_history": "Nothing in the World but Youth (Turner Contemporary, Margate 17/09/2011-08/01/2012)", 
+            "bibliography": "<u>Nothing in the World but Youth</u> Margate: Turner Contemporary, 2011. ISBN: 9780955236334.", 
+            "vanda_exhibition_history": "", 
+            "slug": "hitler-youth-in-german-town-photograph-spender-j-humphrey", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 5, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Germany", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 7526, 
+                        "longitude": "10.45424000", 
+                        "source": "production", 
+                        "cis_id": "x28873", 
+                        "museumobject_image_count": 3502, 
+                        "latitude": "51.09083900", 
+                        "type": "country", 
+                        "slug": "germany-x28873"
+                    }
+                }
+            ], 
+            "artist": "Spender, J. Humphrey", 
+            "namecontext_set": [
+                {
+                    "pk": 545987, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3441
+                    }, 
+                    "fields": {
+                        "name": 3441, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 837923, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1938, 
+            "object_number": "O1059797", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Germany", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
