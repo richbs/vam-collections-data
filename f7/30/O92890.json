@@ -1,0 +1,381 @@
+[
+    {
+        "pk": 61834, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "257:1, 2-1885", 
+            "date_end": "1856-12-31", 
+            "labels": [], 
+            "descriptive_line": "Group, marble, Rachel, the daughter of Laban with her lamb, by John Thomas, England, 1856", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1856, 
+            "exhibitions": [
+                {
+                    "pk": 39, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 104, 
+                        "year_start": 1855, 
+                        "name": "Exhibition", 
+                        "date_end": "1855-12-31", 
+                        "museumobject_count": 31, 
+                        "venue": "Royal Academy of Arts", 
+                        "date_start": "1855-01-01", 
+                        "year_end": 1855, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "exhibition", 
+                        "date_text": "1855"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 1298, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "lamb", 
+                        "museumobject_count": 113, 
+                        "source": "object", 
+                        "cis_id": "x30134", 
+                        "museumobject_image_count": 93, 
+                        "type": "", 
+                        "slug": "lamb"
+                    }
+                }, 
+                {
+                    "pk": 28517, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Rachel", 
+                        "museumobject_count": 10, 
+                        "source": "name", 
+                        "cis_id": "N604", 
+                        "museumobject_image_count": 8, 
+                        "type": "", 
+                        "slug": "rachel"
+                    }
+                }
+            ], 
+            "date_text": "1856 (made)", 
+            "primary_image_id": "2010EE2768", 
+            "rights": 3, 
+            "physical_description": "Group, marble, representing Rachel, daughter of Laban, with a lamb at her feet. Signed and dated.", 
+            "dimensions": "Weight: 265 kg, Height: 134.5 cm", 
+            "title": "Rachel, The Daughter of Laban ", 
+            "date_start": "1856-01-01", 
+            "materials_techniques": "Marble", 
+            "last_processed": "2014-03-31 22:38:42", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Corridor outside Temporary Exhibition space, room 32, case NW, shelf EXP", 
+            "marks": "'JOHN THOMAS SC 1856'", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 45, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "marble", 
+                        "museumobject_count": 779, 
+                        "source": "cis_materials", 
+                        "cis_id": "11443", 
+                        "museumobject_image_count": 337, 
+                        "type": "", 
+                        "slug": "marble"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 111809, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": 79895, 
+                        "room": "", 
+                        "part_name": "Fragment", 
+                        "museum_number": "257:2-1885", 
+                        "museumobject": 61834, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "25721885", 
+                        "gallery": null
+                    }
+                }, 
+                {
+                    "pk": 111810, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 2011
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "NW", 
+                        "inventory_number": 86500, 
+                        "room": "32", 
+                        "part_name": "Group", 
+                        "museum_number": "257:1-1885", 
+                        "museumobject": 61834, 
+                        "shelf": "EXP", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Corridor outside Temporary Exhibition space, room 32", 
+                        "museum_number_token": "25711885", 
+                        "gallery": 2011
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 2011, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "32", 
+                        "site_name": "", 
+                        "name": "Corridor outside Temporary Exhibition space, room 32", 
+                        "site_code": "VA", 
+                        "museumobject_count": 7, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49090", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "32-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10975, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1862-12-31", 
+                        "surname": "", 
+                        "name": "Thomas, John", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1862, 
+                        "source": "object_production", 
+                        "cis_id": "A13013", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1813-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "thomas-john", 
+                        "birth_year": 1813
+                    }
+                }, 
+                {
+                    "pk": 10976, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Rachel", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N604", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "rachel", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 57612, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61834, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "2571885", 
+            "object": "Group", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:38:42", 
+            "public_access_description": "Rachel, the Daughter of Laban, is shown with a Lamb at her feet. The story of Rachel, Laban's daughter is told in the Book of Genesis. Jacob wanted to marry her, rather than her older sister Leah, and had to wait seven years until Laban permitted them to wed. This sculpture was exhibited at the Royal Academy in 1856.\n\nThomas began his career as a stonemason, but at the end of his apprenticeship he travelled to Birmingham, where his work was noticed by Sir Charles Barry, who commissioned him to provide all the carved stone and woodwork for Birmingham Grammar School, which Barry was then designing. This was the start of a long and industrious career, in which Thomas gained commissions for both decorative works on public buildings, as well as for freestanding sculpture. Barry later employed Thomas to supervise the stone carving on the Houses of Parliament. In 1948 he produced two reliefs for War and Peace for Buckingham Palace. Thomas also worked as an architect [!] and prepared designs for the National Bank of Glasgow, the Royal Dairy at Windsor, the Regent's Park Chapel, Headington House, Oxford and the Print Room at Windsor Castle'. He exhibited at the Royal Academy between 1842 and 1861, at the British Institution in 1850, and at the 1851 International Exhibition.", 
+            "exhibition_history": "Exhibition (Royal Academy of Arts 01/01/1856-31/12/1856)", 
+            "bibliography": "<u>List of Objects in the Art Division, South Kensington Museum acquired during the Year 1885.</u> London: Eyre and Spottiswoode, 1886, p. 32\n<u>Art Journal</u>, June 1856, p. 222\nBilbey, Diane with Trusted, Marjorie. <u>British Sculpture 1470 to 2000. A Concise Catalogue of the Collection at the Victoria and Albert Museum</u>, London, 2002, p. 415<u><u>\n<u>List of the Bequests and Donations to the South Kensington Museum, now called the Victoria and Albert Museum, completed to 31st December 1900.</u> London. 1901. pp. 178\nGraves, A. <u>The Royal Academy of Arts. A Complete Dictionary of Contributions and their work from its foundation in 1769 to 1904.</u> VII. East Earsdley, 1905-6, p. 359\nGunnis, R. <u>Dictionary of British Sculpture 1660-1851</u>, London, 1968, p. 389\nThieme, U and Becker, F. <u>Allgemeines Lexikon der Bildenden Kunstler</u>, 33. Leipzig, 1907/8, p. 65\nBlatchford, Ian, \"Promoting corporate environmental sustainability in the Victorian era: The Bethnal Green Museum permanent waste exhibit (1875-1928)\", in: <u>V&A Online Journal</u>, Issue 3, Spring 2011 [http://www.vam.ac.uk/content/journals/research-journal/issue-03/john-thomas-and-his-wonderful-facility-of-invention-revisiting-a-neglected-sculptor-1/]", 
+            "vanda_exhibition_history": "", 
+            "slug": "rachel-the-daughter-of-laban-group-john-thomas", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 208990, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:51:56", 
+                        "priority": 0, 
+                        "image_id": "2010EE2768", 
+                        "sys_id": 882768, 
+                        "last_checked": "2014-03-31 17:51:56", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EE/2010EE2768.jpg"
+                    }
+                }, 
+                {
+                    "pk": 42734, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:17:23", 
+                        "priority": 1, 
+                        "image_id": "2006AF5954", 
+                        "sys_id": 55954, 
+                        "last_checked": "2014-03-31 17:17:23", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AF/2006AF5954.jpg"
+                    }
+                }, 
+                {
+                    "pk": 208989, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:51:56", 
+                        "priority": 2, 
+                        "image_id": "2010EE2767", 
+                        "sys_id": 882767, 
+                        "last_checked": "2014-03-31 17:51:56", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2010EE/2010EE2767.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "John Thomas", 
+            "namecontext_set": [
+                {
+                    "pk": 68000, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10975
+                    }, 
+                    "fields": {
+                        "name": 10975, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61834, 
+                        "role": "sculptor", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 68001, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10976
+                    }, 
+                    "fields": {
+                        "name": 10976, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 61834, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1856, 
+            "object_number": "O92890", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Given by Sir H. A. Hunt C.B. in 1885. Transferred on loan to the Bethnal Green Museum in 1928; returned to the Sculpture Department in 1987.\nExhibited at the R.A in 1856.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]
