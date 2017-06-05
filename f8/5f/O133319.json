@@ -1,0 +1,358 @@
+[
+    {
+        "pk": 104514, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "T.85&A-1986", 
+            "date_end": "1967-12-31", 
+            "labels": [], 
+            "descriptive_line": "Pair of ankle boots in clear plastic, designed by Mary Quant, London, 1967", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1967, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1967 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Pair of ankle boots in clear plastic over maroon jersey cotton lining. Gold metal buckle and eyelets around the top, and with a small heel.", 
+            "dimensions": "", 
+            "title": "", 
+            "date_start": "1967-01-01", 
+            "materials_techniques": "Clear polyvinyl chloride (PVC) lined with cotton jersey and metal", 
+            "last_processed": "2014-04-01 01:49:34", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Ready to wear", 
+            "collections": [
+                {
+                    "pk": 8, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "T&F", 
+                        "name": "Textiles and Fashion Collection", 
+                        "museumobject_count": 71437, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 14830, 
+                        "type": "", 
+                        "slug": "tf"
+                    }
+                }
+            ], 
+            "location": "National Art Library, room 76, case 14", 
+            "marks": "'quant / afoot' [with three Mary Quant daisy motifs above]", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 484, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "lined", 
+                        "museumobject_count": 190, 
+                        "source": "cis_techniques", 
+                        "cis_id": "162124", 
+                        "museumobject_image_count": 58, 
+                        "type": "", 
+                        "slug": "lined"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 29, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "plastic", 
+                        "museumobject_count": 4498, 
+                        "source": "cis_materials", 
+                        "cis_id": "14570", 
+                        "museumobject_image_count": 535, 
+                        "type": "", 
+                        "slug": "plastic"
+                    }
+                }, 
+                {
+                    "pk": 9, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "metal", 
+                        "museumobject_count": 2422, 
+                        "source": "cis_materials", 
+                        "cis_id": "10900", 
+                        "museumobject_image_count": 854, 
+                        "type": "", 
+                        "slug": "metal"
+                    }
+                }, 
+                {
+                    "pk": 180, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Polyvinyl chloride", 
+                        "museumobject_count": 106, 
+                        "source": "cis_materials", 
+                        "cis_id": "14513", 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "polyvinyl-chloride"
+                    }
+                }, 
+                {
+                    "pk": 1786, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "cotton jersey", 
+                        "museumobject_count": 85, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 43, 
+                        "type": "", 
+                        "slug": "cotton-jersey"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 170953, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 669
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "14", 
+                        "inventory_number": 481796, 
+                        "room": "76", 
+                        "part_name": "Shoe [1]", 
+                        "museum_number": "T.85-1986", 
+                        "museumobject": 104514, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "National Art Library, room 76", 
+                        "museum_number_token": "t851986", 
+                        "gallery": 669
+                    }
+                }, 
+                {
+                    "pk": 170954, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 669
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "14", 
+                        "inventory_number": 481795, 
+                        "room": "76", 
+                        "part_name": "Shoe [2]", 
+                        "museum_number": "T.85A-1986", 
+                        "museumobject": 104514, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "National Art Library, room 76", 
+                        "museum_number_token": "t85a1986", 
+                        "gallery": 669
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 669, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "76", 
+                        "site_name": "", 
+                        "name": "National Art Library, room 76", 
+                        "site_code": "VA", 
+                        "museumobject_count": 267, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49548", 
+                        "museumobject_image_count": 224, 
+                        "type": "", 
+                        "slug": "76-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 259, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Quant, Mary", 
+                        "gender": null, 
+                        "museumobject_count": 61, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A2349", 
+                        "museumobject_image_count": 27, 
+                        "forename": "", 
+                        "birth_date": "1934-02-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "quant", 
+                        "birth_year": 1934
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 102110, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 104514, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "t851986", 
+            "object": "Pair of ankle boots", 
+            "categories": [
+                {
+                    "pk": 57, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Footwear", 
+                        "museumobject_count": 1727, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 601, 
+                        "type": "", 
+                        "slug": "footwear"
+                    }
+                }, 
+                {
+                    "pk": 60, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Fashion", 
+                        "museumobject_count": 43998, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31725, 
+                        "type": "", 
+                        "slug": "fashion"
+                    }
+                }, 
+                {
+                    "pk": 70, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Accessories", 
+                        "museumobject_count": 9759, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3296, 
+                        "type": "", 
+                        "slug": "accessories"
+                    }
+                }, 
+                {
+                    "pk": 93, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Shopping", 
+                        "museumobject_count": 992, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 262, 
+                        "type": "", 
+                        "slug": "shopping"
+                    }
+                }, 
+                {
+                    "pk": 118, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Day wear", 
+                        "museumobject_count": 8372, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 7463, 
+                        "type": "", 
+                        "slug": "day-wear"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:49:34", 
+            "public_access_description": "Plastic was one of the new materials used by trendsetting designers in the 1960s. These boots were produced for Mary Quant's footwear range, 'Quant Afoot', introduced in 1967. They are made from clear plastic over a coloured lining, and resemble the Chelsea boots with square heels and toes worn by the Beatles during the mid-1960s. The heels are moulded with Mary Quant's signature daisy motif. The wearer would leave a trail of daisy footprints behind her after walking through a puddle.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "pair-of-ankle-quant-mary", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Quant, Mary", 
+            "namecontext_set": [
+                {
+                    "pk": 125006, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 259
+                    }, 
+                    "fields": {
+                        "name": 259, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 104514, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1967, 
+            "object_number": "O133319", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Purchased. Registered File number 1986/626.", 
+            "place": "London", 
+            "production_note": "Reason For Production: Retail", 
+            "historical_context_note": "", 
+            "collection_code": "T&F"
+        }
+    }
+]
