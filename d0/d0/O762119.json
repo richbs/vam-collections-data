@@ -1,0 +1,244 @@
+[
+    {
+        "pk": 667868, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1100-1926", 
+            "date_end": "1926-12-31", 
+            "labels": [], 
+            "descriptive_line": "Giuseppe Haas-Triverio. 'Cappella'. From Xilografia, 1926.", 
+            "shape": "", 
+            "longitude": "12.57341000", 
+            "year_start": 1926, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1926 (published)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Woodcut", 
+            "dimensions": "Height: 4.375 in, Width: 7.125 in", 
+            "title": "Cappella", 
+            "date_start": "1926-01-01", 
+            "materials_techniques": "woodcut", 
+            "last_processed": "2014-04-26 17:14:24", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case EW, shelf 12, box A", 
+            "marks": "", 
+            "latitude": "42.50299800", 
+            "techniques": [
+                {
+                    "pk": 1024, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "woodcut", 
+                        "museumobject_count": 1003, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 154, 
+                        "type": "", 
+                        "slug": "woodcut"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 27153, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12401, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 802709, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "EW", 
+                        "inventory_number": 1028318, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.1100-1926", 
+                        "museumobject": 667868, 
+                        "shelf": "12", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e11001926", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 85577, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1963-07-09", 
+                        "surname": "", 
+                        "name": "Haas-Triverio, Giuseppe", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1963, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH330433", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1889-01-27", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "haas-triverio-giuseppe", 
+                        "birth_year": 1889
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 385657, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 52
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 667868, 
+                        "role": "made", 
+                        "place": 52, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e11001926", 
+            "object": "Woodcut", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 17:14:24", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum, Department of Engraving, Illustration and Design and Department of Paintings, Accessions 1926</u>, London: Board of Education, 1927.\nThe full text of the record is as follows:\n\n<b>'TRIVERIO, G. Haas.</B>\n\nCappella.\n<i>Signed with the artist's monogr.</i>\n(Xilografia, 1926, No. 1.)<i>\nWoodcut.\n</i>E.1100-1926'", 
+            "vanda_exhibition_history": "", 
+            "slug": "cappella-woodcut-haas-triverio-giuseppe", 
+            "sys_updated": "2014-03-12 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 52, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Italy", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 13024, 
+                        "longitude": "12.57341000", 
+                        "source": "production", 
+                        "cis_id": "x28927", 
+                        "museumobject_image_count": 5200, 
+                        "latitude": "42.50299800", 
+                        "type": "country", 
+                        "slug": "italy-x28927"
+                    }
+                }
+            ], 
+            "artist": "Haas-Triverio, Giuseppe", 
+            "namecontext_set": [
+                {
+                    "pk": 500886, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 85577
+                    }, 
+                    "fields": {
+                        "name": 85577, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 667868, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1926, 
+            "object_number": "O762119", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Italy", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
