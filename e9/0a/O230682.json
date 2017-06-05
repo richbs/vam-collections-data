@@ -1,0 +1,298 @@
+[
+    {
+        "pk": 191781, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "201-1888", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "1.01989000", 
+            "year_start": 1791, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 48424, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Churches", 
+                        "museumobject_count": 1703, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 646, 
+                        "type": "", 
+                        "slug": "churches"
+                    }
+                }, 
+                {
+                    "pk": 2111, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "East Bergholt", 
+                        "museumobject_count": 28, 
+                        "source": "place", 
+                        "cis_id": "x35113", 
+                        "museumobject_image_count": 27, 
+                        "type": "", 
+                        "slug": "east-bergholt"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1796-9 (drawn)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "A pen and watercolour drawing of the 16th century church with coloured washes in yellow, blue and red. Squared for enlargement with pencil.", 
+            "dimensions": "Height: 258 mm, Width: 397 mm, Height: 10 1/8 in, Width: 15 5/8 in", 
+            "title": "East Bergholt Church: the exterior from the S. W.", 
+            "date_start": "1791-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-04-01 06:53:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 12", 
+            "marks": "PORTAL & CO 1794", 
+            "latitude": "51.97835200", 
+            "techniques": [
+                {
+                    "pk": 23, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawn", 
+                        "museumobject_count": 3218, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30545", 
+                        "museumobject_image_count": 2292, 
+                        "type": "", 
+                        "slug": "drawn"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 54386, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27199, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }, 
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48108, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 27995, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }, 
+                {
+                    "pk": 808, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "pen and ink and watercolour", 
+                        "museumobject_count": 4454, 
+                        "source": "cis_materials", 
+                        "cis_id": "x32505", 
+                        "museumobject_image_count": 3384, 
+                        "type": "", 
+                        "slug": "pen-and-ink-and-watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 270459, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WD", 
+                        "inventory_number": 613003, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "201-1888", 
+                        "museumobject": 191781, 
+                        "shelf": "12", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "2011888", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 221, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1837-03-31", 
+                        "surname": "", 
+                        "name": "John Constable", 
+                        "gender": null, 
+                        "museumobject_count": 470, 
+                        "death_year": 1837, 
+                        "source": "object_production", 
+                        "cis_id": "A8267", 
+                        "museumobject_image_count": 387, 
+                        "forename": "", 
+                        "birth_date": "1776-06-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "constable-john-ra", 
+                        "birth_year": 1776
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 177518, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 800
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 191781, 
+                        "role": "drawn", 
+                        "place": 800, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 177519, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 800
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 191781, 
+                        "role": "subject", 
+                        "place": 800, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "2011888", 
+            "object": "Drawing", 
+            "categories": [], 
+            "last_checked": "2014-04-01 06:53:05", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "G. Reynolds, <i>Victoria and Albert Museum: Catalogue of the Constable Collection</i>, 1973, p. 37\nThe following is the full text of the entry:\n'The drawing is of the same type as 625-1888. Holmes, p. 238, dates 1798, and says that it is probably a study for the oil 'East Bergholt Church', No. 55 in the exhibition held at Messrs. Leggatt's in 1899, with which it is nearly identical. However, Constable wrote to Smith on 9 November 1796, to say that he would soon be sending off a drawing of East Bergholt Church, which he was thinking of painting in oil, and this might be the drawing in question (Beckett, II, p. 6), in which case an earlier date might be assigned to the oil painting. In the fabric as shown here the ruined tower of the church is on the left, and the porch with the sundial on the right; the view is taken from the entrance of the lane to Flatford.'\n\nG Reynolds", 
+            "vanda_exhibition_history": "", 
+            "slug": "east-bergholt-church-the-exterior-drawing-constable-john-ra", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 800, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "East Bergholt", 
+                        "parent": null, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 50, 
+                        "longitude": "1.01989000", 
+                        "source": "production", 
+                        "cis_id": "x35113", 
+                        "museumobject_image_count": 48, 
+                        "latitude": "51.97835200", 
+                        "type": "village", 
+                        "slug": "east-bergholt-united-kingdom-x35113"
+                    }
+                }
+            ], 
+            "artist": "Constable, John (RA)", 
+            "namecontext_set": [
+                {
+                    "pk": 242740, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 221
+                    }, 
+                    "fields": {
+                        "name": 221, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 191781, 
+                        "role": "drawn by", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O230682", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "East Bergholt", 
+            "production_note": "", 
+            "historical_context_note": "John Constable was born in East Bergholt, Suffolk, on 11 June 1776, the second son of Golding Constable, a well-to-do mill-owner, and Ann Watts. His fondness for painting, without any marked precocity, had already declared itself by the time he was 16 or 17: and he was encouraged in this taste by his friendship with John Dunthorne, a plumber and glazier of East Bergholt, who was an amateur painter. [Reynolds, 1973, p. 33]", 
+            "collection_code": "PDP"
+        }
+    }
+]
