@@ -1,0 +1,326 @@
+[
+    {
+        "pk": 1040272, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.497-2010", 
+            "date_end": "2001-12-31", 
+            "labels": [], 
+            "descriptive_line": "Donald Bowen (b.1917), 'Commercial Buildings, Cambridge', pencil drawing, 2001", 
+            "shape": "", 
+            "longitude": "0.11156500", 
+            "year_start": 2001, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 26656, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "topography", 
+                        "museumobject_count": 114, 
+                        "source": "object", 
+                        "cis_id": "256273", 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "topography"
+                    }
+                }, 
+                {
+                    "pk": 17756, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Cambridge", 
+                        "museumobject_count": 71, 
+                        "source": "place", 
+                        "cis_id": "x31566", 
+                        "museumobject_image_count": 36, 
+                        "type": "", 
+                        "slug": "cambridge"
+                    }
+                }, 
+                {
+                    "pk": 7587, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "townscape", 
+                        "museumobject_count": 16, 
+                        "source": "concept", 
+                        "cis_id": "x35565", 
+                        "museumobject_image_count": 9, 
+                        "type": "", 
+                        "slug": "townscape"
+                    }
+                }, 
+                {
+                    "pk": 49626, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "commercial buildings", 
+                        "museumobject_count": 7, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "commercial-buildings"
+                    }
+                }
+            ], 
+            "date_text": "2001 (drawn)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Pencil drawing of roof tops", 
+            "dimensions": "Height: 28.5 cm, Width: 20.8 cm", 
+            "title": "Commercial Buildings, Cambridge", 
+            "date_start": "2001-01-01", 
+            "materials_techniques": "Pencil", 
+            "last_processed": "2014-04-27 03:17:09", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case PD, shelf 164, box D", 
+            "marks": "Signed and dated: 'DB / 2001'", 
+            "latitude": "52.20987000", 
+            "techniques": [
+                {
+                    "pk": 23, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawn", 
+                        "museumobject_count": 3362, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30545", 
+                        "museumobject_image_count": 2292, 
+                        "type": "", 
+                        "slug": "drawn"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 34, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Pencil", 
+                        "museumobject_count": 55030, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30347", 
+                        "museumobject_image_count": 27388, 
+                        "type": "", 
+                        "slug": "pencil"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 9, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British", 
+                        "museumobject_count": 673, 
+                        "source": "cis_style_period", 
+                        "cis_id": "111159", 
+                        "museumobject_image_count": 220, 
+                        "type": "", 
+                        "slug": "british"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 1224678, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "D", 
+                        "case": "PD", 
+                        "inventory_number": 1443943, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.497-2010", 
+                        "museumobject": 1040272, 
+                        "shelf": "164", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e4972010", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 53499, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Bowen, Donald", 
+                        "gender": null, 
+                        "museumobject_count": 8, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A34246", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": "1917-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bowen-donald", 
+                        "birth_year": 1917
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 456517, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1115
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1040272, 
+                        "role": "drawn", 
+                        "place": 1115, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 456518, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1115
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1040272, 
+                        "role": "subject", 
+                        "place": 1115, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e4972010", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 03:17:09", 
+            "public_access_description": "Donald Bowen was born in London in 1917 and educated at Sloane School, Chelsea. Prior to the Second World War he studied at Chelsea School of Art and with Austin Osman Spare. He served in the army from 1940 to 1947. Afterwards he studied at the Byam Shaw School of Drawing and Painting 1947-1951, taking his National Diploma of Design at the end of that period. Between 1952 and 1953 he was employed as a draughtsman in the stained-glass studios of Whitefriars Glass Works, where he was mainly engaged on the heraldic windows for the Great Hall, Lincoln's Inn. In 1953 Bowen was appointed to the staff of the Commonwealth Institute, Kensington,where he served as curator of the art gallery until his retirement in 1979. \n\nFrom his student days to the present, Bowen has maintained his art practice, and from the 1950s has concentrated on topographical drawing, creating a large body of work documenting landscape and townscape both in and around London and abroad.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "commercial-buildings-cambridge-drawing-bowen-donald", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1115, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 626
+                    }, 
+                    "fields": {
+                        "name": "Cambridge", 
+                        "parent": 626, 
+                        "country": "England", 
+                        "museumobject_count": 249, 
+                        "longitude": "0.11156500", 
+                        "source": "production", 
+                        "cis_id": "x31566", 
+                        "museumobject_image_count": 106, 
+                        "latitude": "52.20987000", 
+                        "type": "city / town", 
+                        "slug": "cambridge-england-x31566"
+                    }
+                }
+            ], 
+            "artist": "Bowen, Donald", 
+            "namecontext_set": [
+                {
+                    "pk": 625343, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 53499
+                    }, 
+                    "fields": {
+                        "name": 53499, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1040272, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2001, 
+            "object_number": "O1160006", 
+            "events": [], 
+            "credit": "Given by the artist", 
+            "history_note": "", 
+            "place": "Cambridge", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
