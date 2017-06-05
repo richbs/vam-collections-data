@@ -1,0 +1,284 @@
+[
+    {
+        "pk": 84463, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.132-2005", 
+            "date_end": "1951-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Portrait, Gondeville, Charente, France, 1951', photograph by Paul Strand (born New York 1890, died Orgeval, France 1976)", 
+            "shape": "", 
+            "longitude": "0.24201000", 
+            "year_start": 1951, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 58, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "man", 
+                        "museumobject_count": 3060, 
+                        "source": "object", 
+                        "cis_id": "x35641", 
+                        "museumobject_image_count": 2211, 
+                        "type": "", 
+                        "slug": "man"
+                    }
+                }, 
+                {
+                    "pk": 49932, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "beret", 
+                        "museumobject_count": 6, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "beret"
+                    }
+                }, 
+                {
+                    "pk": 53252, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Charente", 
+                        "museumobject_count": 1, 
+                        "source": "place", 
+                        "cis_id": "x29687", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "charente"
+                    }
+                }
+            ], 
+            "date_text": "1951 (Photographed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Three-quarter length portrait of a mustachioed old man wearing a beret.", 
+            "dimensions": "Height: 14.8 cm, Width: 11.7 cm", 
+            "title": "Portrait, Gondeville, Charente, France, 1951", 
+            "date_start": "1951-01-01", 
+            "materials_techniques": "Gelatin-silver print", 
+            "last_processed": "2014-04-01 00:19:58", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level H, case X, shelf 998, box C", 
+            "marks": "'MEH 119'\n 'L'homme de Paille, Gondeville, 1951'", 
+            "latitude": "45.66470000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 144421, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 565
+                    }, 
+                    "fields": {
+                        "box": "C", 
+                        "case": "X", 
+                        "inventory_number": 725609, 
+                        "room": "LVLH", 
+                        "part_name": "", 
+                        "museum_number": "E.132-2005", 
+                        "museumobject": 84463, 
+                        "shelf": "998", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level H", 
+                        "museum_number_token": "e1322005", 
+                        "gallery": 565
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 565, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLH", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level H", 
+                        "site_code": "VA", 
+                        "museumobject_count": 32574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49654", 
+                        "museumobject_image_count": 9285, 
+                        "type": "", 
+                        "slug": "lvlh-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 33408, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1976-12-31", 
+                        "surname": "", 
+                        "name": "Paul Strand", 
+                        "gender": null, 
+                        "museumobject_count": 19, 
+                        "death_year": 1976, 
+                        "source": "object_production", 
+                        "cis_id": "A11916", 
+                        "museumobject_image_count": 3, 
+                        "forename": "", 
+                        "birth_date": "1890-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "strand-paul", 
+                        "birth_year": 1890
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 80988, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 4934
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 84463, 
+                        "role": "Photographed", 
+                        "place": 4934, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 80989, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 4934
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 84463, 
+                        "role": "subject", 
+                        "place": 4934, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e1322005", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:19:58", 
+            "public_access_description": "In 1950 photographer and film-maker Paul Strand left New York for Europe, where he and his wife, Hazel, would remain until his death in 1976. Having settled in Orgeval, a small town near Paris, they began travelling widely, Strand was searching for \u2018the perfect village\u2019, sustained by hard-working and honest inhabitants coexisting harmoniously with nature and machines. The straw man in this photograph was seen by Strand to represent this idyll.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "portrait-gondeville-charente-france-1951-photograph-strand-paul", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 4934, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4876
+                    }, 
+                    "fields": {
+                        "name": "Charente", 
+                        "parent": 4876, 
+                        "country": "France", 
+                        "museumobject_count": 2, 
+                        "longitude": "0.24201000", 
+                        "source": "production", 
+                        "cis_id": "x29687", 
+                        "museumobject_image_count": 0, 
+                        "latitude": "45.66470000", 
+                        "type": "administrative district", 
+                        "slug": "charente-france-x29687"
+                    }
+                }
+            ], 
+            "artist": "Strand, Paul", 
+            "namecontext_set": [
+                {
+                    "pk": 99208, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 33408
+                    }, 
+                    "fields": {
+                        "name": 33408, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 84463, 
+                        "role": "Photographer", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1951, 
+            "object_number": "O109306", 
+            "events": [], 
+            "credit": "Given by the American Friends of the V&A through the generosity of Michael E. Hoffman", 
+            "history_note": "", 
+            "place": "Charente", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

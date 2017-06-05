@@ -1,0 +1,297 @@
+[
+    {
+        "pk": 959414, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.13-1981", 
+            "date_end": "1874-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour drawing by Camille Jacob Pissarro depicting two peasant women sitting at an outdoor table facing one another, French school, 1874", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1874, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 429, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Table", 
+                        "museumobject_count": 250, 
+                        "source": "object", 
+                        "cis_id": "x31811", 
+                        "museumobject_image_count": 128, 
+                        "type": "", 
+                        "slug": "table"
+                    }
+                }, 
+                {
+                    "pk": 48547, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "peasant", 
+                        "museumobject_count": 111, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 51, 
+                        "type": "", 
+                        "slug": "peasant"
+                    }
+                }, 
+                {
+                    "pk": 5795, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "eating", 
+                        "museumobject_count": 32, 
+                        "source": "concept", 
+                        "cis_id": "x37655", 
+                        "museumobject_image_count": 18, 
+                        "type": "", 
+                        "slug": "eating"
+                    }
+                }
+            ], 
+            "date_text": "1874 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Watercolour and black chalk drawing depicting two peasant women sitting at an outdoor table facing one another.", 
+            "dimensions": "Height: 153.0 mm, Width: 155.0 mm, :", 
+            "title": "Deux paysannes \u00e0 table", 
+            "date_start": "1874-01-01", 
+            "materials_techniques": "Watercolour over traces of black chalk on paper.", 
+            "last_processed": "2014-04-27 00:13:47", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room WS, case R, shelf 41, box L", 
+            "marks": "Bottom left corner artist\u2019s stamp \u2018C.P.\u2019 in black ink.", 
+            "latitude": "46.71244800", 
+            "techniques": [
+                {
+                    "pk": 177, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 7560, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x37878", 
+                        "museumobject_image_count": 7196, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }, 
+                {
+                    "pk": 155, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "chalk", 
+                        "museumobject_count": 1679, 
+                        "source": "cis_materials", 
+                        "cis_id": "x39202", 
+                        "museumobject_image_count": 321, 
+                        "type": "", 
+                        "slug": "chalk"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1094667, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 616
+                    }, 
+                    "fields": {
+                        "box": "L", 
+                        "case": "R", 
+                        "inventory_number": 113184, 
+                        "room": "WS", 
+                        "part_name": "", 
+                        "museum_number": "P.13-1981", 
+                        "museumobject": 959414, 
+                        "shelf": "41", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room WS", 
+                        "museum_number_token": "p131981", 
+                        "gallery": 616
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 616, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "WS", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room WS", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1383, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49603", 
+                        "museumobject_image_count": 333, 
+                        "type": "", 
+                        "slug": "ws-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 14423, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1903-11-13", 
+                        "surname": "", 
+                        "name": "(Jacob-Abraham-) Camille Pissarro", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1903, 
+                        "source": "content", 
+                        "cis_id": "N4173", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1830-07-10", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pissarro-jacob-abraham-camille", 
+                        "birth_year": 1830
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 435060, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 959414, 
+                        "role": "made", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p131981", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18756, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11926, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 00:13:47", 
+            "public_access_description": "This watercolour is a good example of Camille Pissarro\u2019s (1830-1903) prominent themes of peasants in nature as it shows two women peasants sat a table in an outdoor setting. Dated 1874, this work was executed at the beginning of his most successful period when he developed a looser painterly style dominated by a luminous and light palette. Pissarro is often regarded as the founder of the Impressionist movement and worked closely with C\u00e9zanne during the 1870\u2019s sharing the common interest in the rendering of nature before moving on a new style (Pointillism) a decade later.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "deux-paysannes-a-table-watercolour-jacob-abraham-camille", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 27032, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8256, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "(Jacob-Abraham-) Camille Pissarro", 
+            "namecontext_set": [
+                {
+                    "pk": 566488, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 14423
+                    }, 
+                    "fields": {
+                        "name": 14423, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 959414, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1874, 
+            "object_number": "O1068927", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Purchased by the Victoria and Albert Museum in 1981.", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "This work was executed in Pontoise, a small town in France where Camille Pissarro lived from 1872 to 1882. Dated 1874, this work was completed the same year as the First Impressionist exhibition, which Pissarro helped to organise, upon his return from London where he resided during the Franco-Prussian war (1870-71).  This work belongs to a series of paintings, drawings and engravings on the same theme of peasants in nature executed during the 1870s. \n\nIn London where he was in touch with Monet and Daubigny, Pissarro was exposed to the works of British artists such as Constable and Turner. Under the influence of Turner in particular, Pissarro developed a style which is visibly looser than his previous works and as such Deux paysannes \u00e0 table is a fine example of this loose painterly style. It is now generally admitted that the first half of the 1870\u2019s is often regarded as Pissarro\u2019s most successful period dominated by a great clarity of lines and a bright, luminous palette. \n\nPissarro is best known as a landscape painter even though he also painted portraits and often included figures in his work, primarily the figure of the female peasant. Essentially self-taught and often regarded as the \u2018father\u2019 of the Impressionist movement, he exhibited in all eight of the Impressionist exhibitions held between 1874 and 1886.", 
+            "collection_code": "PDP"
+        }
+    }
+]
