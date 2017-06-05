@@ -1,0 +1,376 @@
+[
+    {
+        "pk": 2218, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "F.20", 
+            "date_end": "1848-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'Scene from Ben Jonson's <i>Every Man in his Humour</i>', Daniel Maclise, 1847-1848", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1847, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 28872, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Forster, John", 
+                        "museumobject_count": 9, 
+                        "source": "name", 
+                        "cis_id": "N2193", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "forster-john"
+                    }
+                }
+            ], 
+            "date_text": "1847-1848 (painted)", 
+            "primary_image_id": "2006AG4466", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 63.5 cm estimate, Width: 52.7 cm estimate, Height: 85 cm frame dimensions, Width: 75 cm frame dimensions, Depth: 7 cm frame dimensions", 
+            "title": "Scene from Ben Jonson's Every Man in His Humour (Act II, Scene I)", 
+            "date_start": "1847-01-01", 
+            "materials_techniques": "oil on canvas", 
+            "last_processed": "2014-03-31 18:58:52", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 82, case WEST WALL", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 15, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Victorian", 
+                        "museumobject_count": 8255, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29321", 
+                        "museumobject_image_count": 6056, 
+                        "type": "", 
+                        "slug": "victorian"
+                    }
+                }, 
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2731, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 3169, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 507
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WEST WALL", 
+                        "inventory_number": 101804, 
+                        "room": "82", 
+                        "part_name": "", 
+                        "museum_number": "F.20", 
+                        "museumobject": 2218, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 82", 
+                        "museum_number_token": "f20", 
+                        "gallery": 507
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 507, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "82", 
+                        "site_name": "", 
+                        "name": "Paintings, room 82", 
+                        "site_code": "VA", 
+                        "museumobject_count": 78, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49712", 
+                        "museumobject_image_count": 75, 
+                        "type": "", 
+                        "slug": "82-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 754, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1870-04-25", 
+                        "surname": "", 
+                        "name": "Maclise, Daniel (RA)", 
+                        "gender": null, 
+                        "museumobject_count": 466, 
+                        "death_year": 1870, 
+                        "source": "object_production", 
+                        "cis_id": "A2282", 
+                        "museumobject_image_count": 84, 
+                        "forename": "", 
+                        "birth_date": "1806-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "maclise-daniel", 
+                        "birth_year": 1806
+                    }
+                }, 
+                {
+                    "pk": 11852, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1876-12-31", 
+                        "surname": "", 
+                        "name": "Forster", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": 1876, 
+                        "source": "content", 
+                        "cis_id": "N2193", 
+                        "museumobject_image_count": 9, 
+                        "forename": "", 
+                        "birth_date": "1812-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "forster-john", 
+                        "birth_year": 1812
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 2191, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 2218, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "f20", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Marriage", 
+                        "museumobject_count": 1180, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 471, 
+                        "type": "", 
+                        "slug": "marriage"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 18:58:52", 
+            "public_access_description": "Maclise took this scene from Ben Jonson's play Every Man in his Humour (1601). John Forster and Charles Dickens, both friends of the artist, performed in an amateur production of the play in 1845. This painting shows Forster in the character of the merchant Kitely (whose 'humour' or characteristic is jealousy) with his young and pretty wife.", 
+            "exhibition_history": "", 
+            "bibliography": "<i>Catalogue of British Oil Paintings 1820-1860</i>, Ronald Parkinson, Victoria and Albert Museum, London: HMSO, 1990, pp. 80-81\nThe Following is the full text of the entry.\n\n\"MACLISE, Daniel, RA (1806-1870) \n\nBorn Cork, Eire, 1806 (baptized 2 February) the son of a shoemaker. Studied at Cork School of Art 1822; moved to London 1827, entering RA Schools 1828 and won many prizes. Exhibited 84 works at the RA between 1829 and 1870, 20 at the BI 1832-44, and 21 (mostly watercolours) at the SBA 1830-71. Early subjects included portraits, later predominantly literary and historical. Elected ARA 1835, RA 1840. Visited Paris 1830, 1844, 1850, Brussels 1845, Italy 1855, Germany 1859. Executed vast wall paintings for the Palace of Westminster 1846-65. Friend of John Forster and Dickens. Contributed (as \u2018Alfred Croquis\u2019) caricatures to Erases's Magazine 1830-8; illustrated several books, including Dickens's Christmas books, Moore's Irish Melodies (1845), B\u00fcrger's Leonora (1847), Tennyson's Princess (1860). Declined to be proposed PRA 1866; supposedly refused a knighthood. Died Chelsea, London, 25 April 1870; his studio sale was at Christie's 24 June 1870. His portrait by E M Ward 1846 is in the NPG; there are letters to Forster in the National Art Library, and many drawings and watercolours in the V&A collections. \nLIT: \t\u2018Autobiography\u2019 (MS, RA Library: see E Kenealy in Dublin University Magazine XXIX, 1847, pp594-607); Athenaeum 30 April 1870, pp586-7 (obit); Art ]ournal 1870, pp 181-2 (obit); W J O'Driscoll A Memoir of Daniel Maclise RA 1872, p187; J Dafforne Pictures by Daniel Maclise 1871; R L Ormond \u2018Daniel Maclise\u2019 Burlington Magazine 1968, pp685-93; R L Ormond Daniel Maclise Arts Council National Portrait Gallery exhibition catalogue 1972 \n\nScene from Ben Jonson's \u2018Every Man in his Humour\u2019\nF20 Neg 57088 \nCanvas, 63.5 X 52.7 cm (25 X 20\u00be ins) \nForster Bequest 1876 \nExhibited at the RA in 1848, and, according to O'Driscoll, painted for Forster. \nThe title in the RA catalogue was \u2018John Forster, Esq., in the Character of Kitely\u2019, with the following quotation appended: \nDame Kitely: Sweetheart, will you come in to breakfast? \n\tKitely: \tTroth, my head aches extremely on a sudden. \nThe lines are taken from the end of act 2 scene 1 of Ben Jonson's comedy Every Man in his Humour, first performed in 1598. In this scene, the merchant Kitely, whose \u2018humour\u2019 is jealousy for his young and pretty wife, and his sister, suspects Wellbred, who lives with them, and other young men; he believes his wife has overheard him talking of these suspicions. \nThe Art Union critic commented: \nIt is a small picture, in which the presumed Kitely is seated looking downwards, and in the expression of his features doing full justice to his aching head. The figure is dressed in blue and is truly one of the most solid and substantial we have ever seen. On his right appears the dame addressing to him the above invitation; she is painted in reflected light, with features of much beauty. It is upon the whole a very remarkable picture, eminently distinguished by powerful and decided execution. \nThe Athenaeum simply thought it \u2018both in colour and effect, more complete\u2019 than another of Maclise's 1848 exhibits, \u2018Chivalry in the Time of Henry VIII\u2019. \nMaclise met Forster in 1830, and they became firm friends: for more details of Forster's life, see P35-1935 p184. Forster's participation in amateur theatricals with Dickens and Bulwer Lytron was well-known between 1845 and 1855. The first of these was 20 September 1845 at Miss Fanny Kelly's small theatre at 73 Dean Street, Soho; Dickens produced Every Man in His Humour, himself playing Captain Bobadil and Forster playing Kitely. Other parts were taken by the writer Douglas William Jerrold (Stephen) and the humorous artist John Leech (Matthew). Maclise himself was also invited to take part, but was too shy of performing in front of an audience. Forster scored a great success in his role; it has been suggested that the part of the obstinate Kitely admirably suited Forster's own personality. \nRichard Renton (John Forster and His Friendships 1912, p117) quotes a manuscript note, collected with the playbills for further performances on 15 and 17 May 1848 (Stratford Birthplace Library): \u2018The acting was generally good, C. Dickens and J. Forster in particular, but the costumes were awfully bad: Kitely and Cob were the only characters correctly dressed. Very poor audiences on both nights. Expenses heavy\u2019. Renton also quotes (pp134-5) two letters from Dickens to his friend Wilmott, who had been stage manager at Drury Lane and the Lyceum, one about the costumes on 7 August 1845: \u2018 ... I and some others want our dresses made at once, in order we may be easy in them, as well as in the words ... nobody can tell us so well as you where we can get them well, and not ruinously made\u2019. \nAs Ormond points out, the painting is similar in style and composition to Maclise's earlier cabinet pictures, such as \u2018Gil Blas Dressed as a Cavalier\u2019 (1839, NGI), and shows the influence of 17th-century Dutch art. This influence is evident particularly in the device of opening up views into other rooms; see Nicolaes Maes A Sleeping Maid and Her Servant (1655, NG) for example. \nOrmond also comments that: \n\nThe foreground figures are framed by the rectangular shapes of the doorways. The divergent diagonals of the two interior scenes are the one disturbing element in the design. Some measure of unity is restored by the consistently light tonality and the crisply defined quality of the paint surface. The picture as a whole, however, suffers from its genre derivation, and it is facile in comparison with the nearly contemporary \u2018Macready as Werner\u2019 [see F21 below]. Only when Maclise's imagination was challenged by a large theme could he produce a memorable image. \nA preliminary sketch for the painting is in the V&A collections. In the Forster collection in the V&A Library, there are two editions of the play containing production notes by Forster. A painting by C R Leslie of Dickens as Captain Bobadil in the same production was exhibited at the RA in 1846, and was recorded in a USA private collection in 1972. \nEXH: \tRA 1848 (111); Winter exhibition of old masters RA 1875 (255, as \u2018Kitely and Dame Kitely\u2019, and dated 1846, lent by Forster): Charles Dickens V&A 1970 (G15); Daniel Maclise Arts Council, National Portrait Gallery, 1972 (84) \nLIT: \tThe Times 2 May 1848, p6; Athenaeum 6 May 1848, p464; Art Union 1848, p167; O'Driscoll, p97; Ormond 1972, p76.\n\nRonald Parkinson\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "scene-from-ben-jonsons-every-oil-painting-maclise-daniel", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 46506, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-20 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:12", 
+                        "priority": 0, 
+                        "image_id": "2006AG4466", 
+                        "sys_id": 64466, 
+                        "last_checked": "2014-03-31 17:18:12", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG4466.jpg"
+                    }
+                }, 
+                {
+                    "pk": 49157, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-20 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:46", 
+                        "priority": 1, 
+                        "image_id": "2006AH0609", 
+                        "sys_id": 70609, 
+                        "last_checked": "2014-03-31 17:18:46", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AH/2006AH0609.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Maclise, Daniel", 
+            "namecontext_set": [
+                {
+                    "pk": 2409, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 754
+                    }, 
+                    "fields": {
+                        "name": 754, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2218, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 2410, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11852
+                    }, 
+                    "fields": {
+                        "name": 11852, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 2218, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1848, 
+            "object_number": "O77271", 
+            "events": [], 
+            "credit": "Bequeathed by John Forster", 
+            "history_note": "Bequeathed by John Forster, 1876", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

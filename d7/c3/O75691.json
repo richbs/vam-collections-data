@@ -1,0 +1,295 @@
+[
+    {
+        "pk": 72992, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.56-1951", 
+            "date_end": "1744-12-31", 
+            "labels": [], 
+            "descriptive_line": "Cup and saucer, porcelain decorated with the bust of a lady in yellow and blue, Chinese, ca. 1740", 
+            "shape": "", 
+            "longitude": "117.20330800", 
+            "year_start": 1735, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24239, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "bust", 
+                        "museumobject_count": 705, 
+                        "source": "object", 
+                        "cis_id": "47457", 
+                        "museumobject_image_count": 365, 
+                        "type": "", 
+                        "slug": "bust"
+                    }
+                }, 
+                {
+                    "pk": 698, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "medallion", 
+                        "museumobject_count": 458, 
+                        "source": "object", 
+                        "cis_id": "x31798", 
+                        "museumobject_image_count": 368, 
+                        "type": "", 
+                        "slug": "medallion"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1740 (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Egg-shell porcelain.\n[Cup] On the side painted in yellow and blue is a bust of a lady upon a pedestal within a gilt medallion, possibly with the initials 'EC'.", 
+            "dimensions": "[Cup] Height: 3.05 cm\n[SAUCER] Diameter: 11.43 cm", 
+            "title": "", 
+            "date_start": "1735-01-01", 
+            "materials_techniques": "porcelain painted in colours and gilt", 
+            "last_processed": "2014-03-31 23:32:03", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 2, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "EAS", 
+                        "name": "Far Eastern Collection", 
+                        "museumobject_count": 78159, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 38233, 
+                        "type": "", 
+                        "slug": "eas"
+                    }
+                }
+            ], 
+            "location": "China, room 47f, case 13", 
+            "marks": "", 
+            "latitude": "29.29299900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 1, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 9735, 
+                        "source": "cis_materials", 
+                        "cis_id": "10662", 
+                        "museumobject_image_count": 8169, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 3, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Qing", 
+                        "museumobject_count": 3363, 
+                        "source": "cis_style_period", 
+                        "cis_id": "18478", 
+                        "museumobject_image_count": 2574, 
+                        "type": "", 
+                        "slug": "qing"
+                    }
+                }, 
+                {
+                    "pk": 110, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Chinese export", 
+                        "museumobject_count": 254, 
+                        "source": "cis_style_period", 
+                        "cis_id": "120350", 
+                        "museumobject_image_count": 215, 
+                        "type": "", 
+                        "slug": "chinese-export"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 127768, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 426
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "13", 
+                        "inventory_number": 598309, 
+                        "room": "47f", 
+                        "part_name": "Cup", 
+                        "museum_number": "C.56-1951", 
+                        "museumobject": 72992, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "China, room 47f", 
+                        "museum_number_token": "c561951", 
+                        "gallery": 426
+                    }
+                }, 
+                {
+                    "pk": 127769, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 426
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "13", 
+                        "inventory_number": 598308, 
+                        "room": "47f", 
+                        "part_name": "SAUCER", 
+                        "museum_number": "C.56A-1951", 
+                        "museumobject": 72992, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "China, room 47f", 
+                        "museum_number_token": "c56a1951", 
+                        "gallery": 426
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 426, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "47F", 
+                        "site_name": "", 
+                        "name": "China, room 47f", 
+                        "site_code": "VA", 
+                        "museumobject_count": 149, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49793", 
+                        "museumobject_image_count": 109, 
+                        "type": "", 
+                        "slug": "47f-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 69313, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 117
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 72992, 
+                        "role": "made", 
+                        "place": 117, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c561951", 
+            "object": "Cup", 
+            "categories": [
+                {
+                    "pk": 1, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Porcelain", 
+                        "museumobject_count": 16427, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 13769, 
+                        "type": "", 
+                        "slug": "porcelain"
+                    }
+                }, 
+                {
+                    "pk": 2, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Household objects", 
+                        "museumobject_count": 2659, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1186, 
+                        "type": "", 
+                        "slug": "household-objects"
+                    }
+                }, 
+                {
+                    "pk": 15, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drinking", 
+                        "museumobject_count": 5467, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2065, 
+                        "type": "", 
+                        "slug": "drinking"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 23:32:03", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "cup", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 117, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3285
+                    }, 
+                    "fields": {
+                        "name": "Jingdezhen", 
+                        "parent": 3285, 
+                        "country": "China", 
+                        "museumobject_count": 3286, 
+                        "longitude": "117.20330800", 
+                        "source": "production", 
+                        "cis_id": "x32230", 
+                        "museumobject_image_count": 2583, 
+                        "latitude": "29.29299900", 
+                        "type": "city / town", 
+                        "slug": "jingdezhen-china-x32230"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1744, 
+            "object_number": "O75691", 
+            "events": [], 
+            "credit": "Bequeathed by Basil Ionides", 
+            "history_note": "", 
+            "place": "Jingdezhen", 
+            "production_note": "label", 
+            "historical_context_note": "", 
+            "collection_code": "EAS"
+        }
+    }
+]
