@@ -1,0 +1,307 @@
+[
+    {
+        "pk": 16237, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.45-1982", 
+            "date_end": "1897-12-31", 
+            "labels": [], 
+            "descriptive_line": "Portrait miniature of Jean Elizabeth Adair, later Mrs J.E. MccGwire, dated 1897, watercolour on ivory, painted by Alexandrine McEwan (1876-1956).", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1897, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 25718, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "MaccGwire, Jean Elizabeth", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "N3911", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "maccgwire-jean-elizabeth"
+                    }
+                }
+            ], 
+            "date_text": "1897 (painted)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Portrait miniature of Jean Elizabeth Adair, later Mrs J.E. MccGwire.  Inscribed with date.", 
+            "dimensions": "Height: 51 mm, Width: 42 mm", 
+            "title": "Miss Jean Elizabeth Adair, aged about 8", 
+            "date_start": "1897-01-01", 
+            "materials_techniques": "Watercolour on ivory", 
+            "last_processed": "2014-03-31 19:50:12", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Portrait Miniatures, room 90a, case 14", 
+            "marks": "1897", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12741, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7091, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 38, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ivory", 
+                        "museumobject_count": 2288, 
+                        "source": "cis_materials", 
+                        "cis_id": "11857", 
+                        "museumobject_image_count": 1575, 
+                        "type": "", 
+                        "slug": "ivory"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 23952, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1053
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "14", 
+                        "inventory_number": 110905, 
+                        "room": "90A", 
+                        "part_name": "", 
+                        "museum_number": "P.45-1982", 
+                        "museumobject": 16237, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Portrait Miniatures, room 90a", 
+                        "museum_number_token": "p451982", 
+                        "gallery": 1053
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1053, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "90A", 
+                        "site_name": "", 
+                        "name": "Portrait Miniatures, room 90a", 
+                        "site_code": "VA", 
+                        "museumobject_count": 155, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49164", 
+                        "museumobject_image_count": 152, 
+                        "type": "", 
+                        "slug": "90a-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3959, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1956-12-31", 
+                        "surname": "", 
+                        "name": "McEwan, Alexandrine", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1956, 
+                        "source": "object_production", 
+                        "cis_id": "A9877", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1876-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mcewan-alexandrine", 
+                        "birth_year": 1876
+                    }
+                }, 
+                {
+                    "pk": 3960, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "MaccGwire, Jean Elizabeth", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N3911", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "maccgwire-jean-elizabeth", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 17315, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 16237, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p451982", 
+            "object": "Portrait miniature", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30105, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17079, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:50:12", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "miss-jean-elizabeth-adair-aged-portrait-miniature-mcewan-alexandrine", 
+            "sys_updated": "2013-12-03 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "McEwan, Alexandrine", 
+            "namecontext_set": [
+                {
+                    "pk": 16899, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3959
+                    }, 
+                    "fields": {
+                        "name": 3959, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 16237, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 16900, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3960
+                    }, 
+                    "fields": {
+                        "name": 3960, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 16237, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1897, 
+            "object_number": "O82381", 
+            "events": [], 
+            "credit": "Given by Miss J. M. M. MaccGwire, daughter of the sitter", 
+            "history_note": "Historical significance: A letter on the Department file for this object from Mary MccGwire (16th Sept 1982) notes that \"Alexandrine McEwen... was born in Mottingham, Kent on the 14th October 1876.  Died 25 March 1965 in St Mary's Priory, Langford, Vancouver Island, BC.\nEducated with her sister, Katherine, in Germany but lived and worked in America until the outbreak of World War II when they both went to Victoria BC.\n.... in a letter written by the Director of the Art Gallery of Greater Victoria in 1965 he said that in their permanent collection they have a \"delightful miniature portrait done by Miss A McEwen\" which is painted on ivory... this was given by her sister Katherine.  Accompanying information also credits the Pennsylvania Academy of Fine Arts and the Pennsylvania Society of Miniature Painters, 11th exhibition\".", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
