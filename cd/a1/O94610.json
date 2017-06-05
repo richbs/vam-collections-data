@@ -1,0 +1,330 @@
+[
+    {
+        "pk": 65046, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.34&A-1972", 
+            "date_end": "1934-12-31", 
+            "labels": [], 
+            "descriptive_line": "Wood,shagreen and silver, no hallmarks, London, about 1930 mark of maker John Paul Cooper", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1925, 
+            "exhibitions": [
+                {
+                    "pk": 185, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": false, 
+                        "venue_id": 104, 
+                        "year_start": 1972, 
+                        "name": "Victorian and Edwardian Decorative Art. The Handley-Read Collection", 
+                        "date_end": "1972-12-31", 
+                        "museumobject_count": 18, 
+                        "venue": "Royal Academy of Arts, London", 
+                        "date_start": "1972-01-01", 
+                        "year_end": 1972, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11, 
+                        "type": "", 
+                        "slug": "victorian-and-edwardian-decorative-art-the-handley-read-collecti", 
+                        "date_text": "1972"
+                    }
+                }
+            ], 
+            "subjects": [], 
+            "date_text": "ca. 1930 (made)", 
+            "primary_image_id": "2006AT6518", 
+            "rights": 3, 
+            "physical_description": "Cigarette box:  walnut turned in a cylindrical shape, completely covered in green and grey shagreen and mounted with silver bands and with a silver finial", 
+            "dimensions": "Diameter: 11.1 cm, Height: 20.0 cm", 
+            "title": "", 
+            "date_start": "1925-01-01", 
+            "materials_techniques": "Silver mounts, with shagreen and walnut core and silver finial", 
+            "last_processed": "2014-03-31 22:53:25", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Silver, room 68, case 7, shelf 1", 
+            "marks": "No hallmarks:  signed JPC for John Paul Cooper on circular shield inside the lid", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }, 
+                {
+                    "pk": 453, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "shagreen", 
+                        "museumobject_count": 30, 
+                        "source": "cis_materials", 
+                        "cis_id": "192656", 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "shagreen"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 32, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Art Deco", 
+                        "museumobject_count": 481, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21426", 
+                        "museumobject_image_count": 347, 
+                        "type": "", 
+                        "slug": "art-deco"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 116492, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 489
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "7", 
+                        "inventory_number": 550492, 
+                        "room": "68", 
+                        "part_name": "Cigarette box", 
+                        "museum_number": "M.34-1972", 
+                        "museumobject": 65046, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Silver, room 68", 
+                        "museum_number_token": "m341972", 
+                        "gallery": 489
+                    }
+                }, 
+                {
+                    "pk": 116493, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 489
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "7", 
+                        "inventory_number": 550491, 
+                        "room": "68", 
+                        "part_name": "Lid for a cigarette box", 
+                        "museum_number": "M.34A-1972", 
+                        "museumobject": 65046, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Silver, room 68", 
+                        "museum_number_token": "m34a1972", 
+                        "gallery": 489
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 489, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "68", 
+                        "site_name": "", 
+                        "name": "Silver, room 68", 
+                        "site_code": "VA", 
+                        "museumobject_count": 249, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49730", 
+                        "museumobject_image_count": 149, 
+                        "type": "", 
+                        "slug": "68-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 11712, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1933-12-31", 
+                        "surname": "", 
+                        "name": "Cooper, John Paul", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": 1933, 
+                        "source": "object_production", 
+                        "cis_id": "A10554", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": "1869-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "john-paul-cooper", 
+                        "birth_year": 1869
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 60873, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 65046, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m341972", 
+            "object": "Cigarette box", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 70, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Accessories", 
+                        "museumobject_count": 9759, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3296, 
+                        "type": "", 
+                        "slug": "accessories"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:53:25", 
+            "public_access_description": "John Paul Cooper (1869-1933) initially trained as an architect. He worked in the offices of J. D. Sedding and Henry Wilson. In 1897, on Wilson's advice, he took up metalwork. He was largely responsible for reviving the use of shagreen. Shagreen was originally a species of untanned leather, but from about 1750 nurse sharkskin or the less expensive dogfish skin was used. It was traditionally used to cover a vast variety of containers. These ranged from boxes for tea caddies, knife boxes, canteens, small pocket or presentation cases and spectacle cases.", 
+            "exhibition_history": "Victorian and Edwardian Decorative Art. The Handley-Read Collection (The Royal Academy of Arts 04/03/1972-30/04/1972)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "cigarette-box-john-paul-cooper", 
+            "sys_updated": "2014-01-22 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 21598, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-11-08 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:47", 
+                        "priority": 0, 
+                        "image_id": "2006AT6518", 
+                        "sys_id": 156518, 
+                        "last_checked": "2014-03-31 17:12:47", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT6518.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "John Paul Cooper", 
+            "namecontext_set": [
+                {
+                    "pk": 72463, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11712
+                    }, 
+                    "fields": {
+                        "name": 11712, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 65046, 
+                        "role": "designer and maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1934, 
+            "object_number": "O94610", 
+            "events": [], 
+            "credit": "Formerly in the collection of Charles and Lavinia Handley-Read.", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
