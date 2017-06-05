@@ -1,0 +1,280 @@
+[
+    {
+        "pk": 1063285, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "P.10-1956", 
+            "date_end": null, 
+            "labels": [], 
+            "descriptive_line": "Anonymous watercolour depicting La Place du Molard, Geneva, painted in the style of Richard Parkes Bonington.", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": null, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 10307, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Geneva", 
+                        "museumobject_count": 8, 
+                        "source": "place", 
+                        "cis_id": "x32975", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "geneva"
+                    }
+                }
+            ], 
+            "date_text": "", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Unfinished watercolour.", 
+            "dimensions": "Height: 25.08 cm, Width: 33.66 cm", 
+            "title": "La Place du Molard, Geneva", 
+            "date_start": null, 
+            "materials_techniques": "Watercolour", 
+            "last_processed": "2014-04-27 04:08:24", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 3", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1249475, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WD", 
+                        "inventory_number": 1455582, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "P.10-1956", 
+                        "museumobject": 1063285, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "p101956", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 4656, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1828-12-31", 
+                        "surname": "", 
+                        "name": "Bonington", 
+                        "gender": null, 
+                        "museumobject_count": 17, 
+                        "death_year": 1828, 
+                        "source": "object_production", 
+                        "cis_id": "A2035", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": "1802-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "bonington-richard-parkes", 
+                        "birth_year": 1802
+                    }
+                }, 
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Unknown", 
+                        "gender": null, 
+                        "museumobject_count": 143046, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58959, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 468401, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1231
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1063285, 
+                        "role": "subject", 
+                        "place": 1231, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "p101956", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18756, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11926, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 04:08:24", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Victoria and Albert Museum Department of Prints and Drawings and Department of Paintings Accessions 1955-1956 </u> London: HMSO, 1963\nThe full text of the entry is as follows: \n\n\"<b>BONINGTON, Richard Parked (1802-1828), In the style of</i> \n\nLa Place du Molard, Geneva. \n<i>Water-colour (unfinished).</i>              P.10-1956 \n\nGiven by Mr. Philip Hagreen \n\n<i>Note:</i> Bonington made an oil painting and a drawing of this subject: the former is no.CAI 13 in the Ionides Collection at the Museum, and the latter, whose present whereabouts is unknown, was lithographed by J. D. Harding and published in 1829.  Although P.10-1956 agrees inmost essentials with CAI 13 and with the lithograph of the drawing, it does not seem to be an authentic work by Bonington, and would seem rather to be an interpretation of the composition by another hand.  Unlike the oil painting, it contains no figures and is very sketchily painted, hardly amounting to more than a tonal lay-out.  A diagonal shadow in the centre of the composition runs in the opposite direction from a corresponding shadow in the oil painting and the lithograph.\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "la-place-du-molard-geneva-watercolour-bonington-richard-parkes", 
+            "sys_updated": "2014-03-12 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1231, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Geneva", 
+                        "parent": null, 
+                        "country": "Switzerland", 
+                        "museumobject_count": 126, 
+                        "longitude": "6.14270000", 
+                        "source": "production", 
+                        "cis_id": "x32975", 
+                        "museumobject_image_count": 69, 
+                        "latitude": "46.20835100", 
+                        "type": "city / town", 
+                        "slug": "geneva-switzerland-x32975"
+                    }
+                }
+            ], 
+            "artist": "Bonington, Richard Parkes", 
+            "namecontext_set": [
+                {
+                    "pk": 650474, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4656
+                    }, 
+                    "fields": {
+                        "name": 4656, 
+                        "part_name": "", 
+                        "uncertainty": "in the style of", 
+                        "museumobject": 1063285, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 650475, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1063285, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": null, 
+            "object_number": "O1192829", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

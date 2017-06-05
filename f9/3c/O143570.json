@@ -1,0 +1,256 @@
+[
+    {
+        "pk": 112725, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.3-1996", 
+            "date_end": "1982-12-31", 
+            "labels": [], 
+            "descriptive_line": "Silver and titanium bracelet, designed and made by Helen Shirk, Usa, 1982", 
+            "shape": "", 
+            "longitude": null, 
+            "year_start": 1982, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1982 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "Height: 6.0 cm, Width: 9.3 cm, Depth: 2.4 cm", 
+            "title": "", 
+            "date_start": "1982-01-01", 
+            "materials_techniques": "Silver and titanium", 
+            "last_processed": "2014-04-01 02:24:36", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 36, shelf D, box 8", 
+            "marks": "", 
+            "latitude": null, 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 48, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver", 
+                        "museumobject_count": 8141, 
+                        "source": "cis_materials", 
+                        "cis_id": "11029", 
+                        "museumobject_image_count": 3506, 
+                        "type": "", 
+                        "slug": "silver"
+                    }
+                }, 
+                {
+                    "pk": 262, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "titanium", 
+                        "museumobject_count": 12, 
+                        "source": "cis_materials", 
+                        "cis_id": "11033", 
+                        "museumobject_image_count": 12, 
+                        "type": "", 
+                        "slug": "titanium"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 181260, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "8", 
+                        "case": "36", 
+                        "inventory_number": 534943, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "M.3-1996", 
+                        "museumobject": 112725, 
+                        "shelf": "D", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m31996", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 34460, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Shirk, Helen", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A20950", 
+                        "museumobject_image_count": 2, 
+                        "forename": "", 
+                        "birth_date": "1942-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "shirk-helen", 
+                        "birth_year": 1942
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 110486, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 10
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 112725, 
+                        "role": "made", 
+                        "place": 10, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m31996", 
+            "object": "Bracelet", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:24:36", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "bracelet-shirk-helen", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 10, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3032
+                    }, 
+                    "fields": {
+                        "name": "United States", 
+                        "parent": 3032, 
+                        "country": "", 
+                        "museumobject_count": 5088, 
+                        "longitude": null, 
+                        "source": "production", 
+                        "cis_id": "x29333", 
+                        "museumobject_image_count": 1371, 
+                        "latitude": null, 
+                        "type": "country", 
+                        "slug": "united-states-x29333"
+                    }
+                }
+            ], 
+            "artist": "Shirk, Helen", 
+            "namecontext_set": [
+                {
+                    "pk": 135856, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 34460
+                    }, 
+                    "fields": {
+                        "name": 34460, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 112725, 
+                        "role": "designed", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1982, 
+            "object_number": "O143570", 
+            "events": [], 
+            "credit": "Given by Helen Drutt English", 
+            "history_note": "", 
+            "place": "USA", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
