@@ -1,0 +1,313 @@
+[
+    {
+        "pk": 14236, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "CAI.129", 
+            "date_end": "1864-12-31", 
+            "labels": [], 
+            "descriptive_line": "Oil painting, 'Flowers: Tulips, Camellias, Hyacinths', Henri Fantin-Latour, 1864", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1864, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 4, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flowers", 
+                        "museumobject_count": 11618, 
+                        "source": "object", 
+                        "cis_id": "x35571", 
+                        "museumobject_image_count": 9046, 
+                        "type": "", 
+                        "slug": "flowers"
+                    }
+                }, 
+                {
+                    "pk": 132, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "still life", 
+                        "museumobject_count": 86, 
+                        "source": "object", 
+                        "cis_id": "x35544", 
+                        "museumobject_image_count": 70, 
+                        "type": "", 
+                        "slug": "still-life"
+                    }
+                }
+            ], 
+            "date_text": "1864 (painted)", 
+            "primary_image_id": "2006AG8463", 
+            "rights": 3, 
+            "physical_description": "Tulips, camellias, hyacinths, holly hocks and wild flowers arranged in a transparent vase on a table, against a dark neutral background.", 
+            "dimensions": "Height: 49 cm estimate, Width: 43.8 cm estimate", 
+            "title": "Flowers: Tulips, Camellias, Hyacinths", 
+            "date_start": "1864-01-01", 
+            "materials_techniques": "oil on canvas", 
+            "last_processed": "2014-03-31 19:41:45", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Paintings, room 81, case EAST WALL", 
+            "marks": "'Fantin 1864'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 30, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "oil painting", 
+                        "museumobject_count": 1955, 
+                        "source": "cis_techniques", 
+                        "cis_id": "178684", 
+                        "museumobject_image_count": 1913, 
+                        "type": "", 
+                        "slug": "oil-painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 66, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "canvas", 
+                        "museumobject_count": 2083, 
+                        "source": "cis_materials", 
+                        "cis_id": "14078", 
+                        "museumobject_image_count": 1517, 
+                        "type": "", 
+                        "slug": "canvas"
+                    }
+                }, 
+                {
+                    "pk": 64, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "oil paint", 
+                        "museumobject_count": 1979, 
+                        "source": "cis_materials", 
+                        "cis_id": "15050", 
+                        "museumobject_image_count": 1903, 
+                        "type": "", 
+                        "slug": "oil-paint"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 36, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "French School", 
+                        "museumobject_count": 2157, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31263", 
+                        "museumobject_image_count": 1382, 
+                        "type": "", 
+                        "slug": "french-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 21492, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 506
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EAST WALL", 
+                        "inventory_number": 110030, 
+                        "room": "81", 
+                        "part_name": "", 
+                        "museum_number": "CAI.129", 
+                        "museumobject": 14236, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Paintings, room 81", 
+                        "museum_number_token": "cai129", 
+                        "gallery": 506
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 506, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "81", 
+                        "site_name": "", 
+                        "name": "Paintings, room 81", 
+                        "site_code": "VA", 
+                        "museumobject_count": 61, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49713", 
+                        "museumobject_image_count": 48, 
+                        "type": "", 
+                        "slug": "81-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3178, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1904-08-25", 
+                        "surname": "", 
+                        "name": "Henri Fantin-Latour", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": 1904, 
+                        "source": "object_production", 
+                        "cis_id": "A2611", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": "1836-01-14", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "fatin-latour-henri", 
+                        "birth_year": 1836
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 15212, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 14236, 
+                        "role": "painted", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "cai129", 
+            "object": "Oil painting", 
+            "categories": [
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:41:45", 
+            "public_access_description": "Henri Fantin-Latour (1836-1904) was born in Grenoble and first trained with his father, Jean-Th\u00e9odore Fantin-Latour (1805-75), and then with Horace Lecocq de Boisbaudran at the Petite Ecole de Dessin in Paris from 1850 to 1856. In 1861 he worked in Gustave Courbet's studio for several months as a pupil. After a period of portraiture, Fantin-Latour concentrated on flowers paintings and still-lifes for which he is now best known. His flower pieces were especially popular with British collectors, and he exhibited at the Royal Academy in London from 1862 onwards, especially thanks to the patronage of James McNeill Whistler (1834-1903), whom he met in 1858.\n\nThis painting is a fine example of Fantin-Latour's early flower piece, a category in which he progressively specialised executing up to 500 floral compositions. This painting shows a bouquet of tulips, camellias, hyacinths, holly hocks and several rustic flowers in a vase on a table. The attention here is drawn on the rich combination of textures and tones, which contrast with the plain dark background. These effects of light and colour are characteristic of the new naturalism developed in French art in the second half of the 19th century, which anticipate the Impressionists' new experimentations.", 
+            "exhibition_history": "", 
+            "bibliography": "Kauffmann, C.M., <u>Catalogue of Foreign Paintings, II. 1800-1900</u>, London: Victoria and Albert Museum, 1973, p. 36, cat. no. 79.\nThe following is the full text of the entry:\n\nIgnace-Henri-Jean-Th\u00e9odore FANTIN-LATOUR (1836-1904)\n French School \nBorn at Grenoble, he was a pupil of his father, Th\u00e9odore, who settled in Paris in 1841, and then studied under Lecocq de Boisbaudran (1851-c. 1854), at the \u00c9cole des Beaux-Arts (1854) and in Courbet's Studio (1862). From 1861 he exhibited regularly in the Salon. He visited England in 1859, 1861, 1864, and 1881 and exhibited at the R. A. 1862-1900. He painted portraits and allegorical and mythological subjects as well as the flower pieces upon which his reputation in England largely rested. \nLit. Mme Fantin-Latour, <i>Catalogue de l'oeuvre complet de Fantin-Latour,</i> 1911. \n\n79 \nFLOWERS: TULIPS, CAMELLIAS, HYACINTHS ETC. \nSigned and dated lower right <i>Fantin 1864</i> \nCanvas \n19 \u00bc x 17 3/8 (49 x 43.8) \nIonides Bequest \nCAI.129 \n \nProv. Bought by Constantine Alexander Ionides from the artist; bequeathed to the Museum in 1900. \nLit. Mme Fantin-Latour, <i>Oeuvre cat.,</i> 1911, p. 34, no. 245; Gibson, <i>op. cit.,</i> pp. 112, 226; Long. <i>Cat. Ionides Coll.</i>, 1925, p. 24.\nV. Dubourg Fantin-Latour, <u>Catalogue de l'oeuvre complet (1849-1904) de Fantin-Latour</u>, Paris, 1911, p. 34, no. 245.\nF. Gibson, <u>The Art of Henri Fantin-Latour: his life and work</u>, London, 1924, pp. 112, 226.\nB.S. Long, <u>Catalogue of the Constantine Alexander Ionides collection. Vol. 1, Paintings in oil, tempera and water-colour, together with certain of the drawings,</u> London, 1925, p. 24.\nAndrew Watson, 'Constantine Ionides and his Collection of 19th-Century French Art', Journal of the Scottish Society for Art History , vol. 3, 1998, pp.25-31 -cf. p.68, nn.5,6.", 
+            "vanda_exhibition_history": "", 
+            "slug": "flowers-tulips-camellias-hyacinths-oil-painting-fatin-latour-henri", 
+            "sys_updated": "2013-11-18 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 48177, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-03-19 00:00:00", 
+                        "last_processed": "2014-03-31 17:18:34", 
+                        "priority": 0, 
+                        "image_id": "2006AG8463", 
+                        "sys_id": 68463, 
+                        "last_checked": "2014-03-31 17:18:34", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AG/2006AG8463.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Fatin-Latour, Henri", 
+            "namecontext_set": [
+                {
+                    "pk": 14361, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3178
+                    }, 
+                    "fields": {
+                        "name": 3178, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 14236, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1864, 
+            "object_number": "O80604", 
+            "events": [], 
+            "credit": "Bequeathed by Constantine Alexander Ionides", 
+            "history_note": "Bought from the artist in July 1864 (with CAI. 128) for 500 francs (ca.\u00a320) by Constantine Alexander Ionides; November 1881 listed in his inventory (private  collection), as one of three paintings of  'Flowers' by Fantin Latour (the others being CAI.128 and CAI.130), each valued at \u00a340; Bequeathed by  Constantine Alexander Ionides, 1900.\n\nHistorical significance: This painting is a characteristic example of Fantin-Latour's early flower paintings. It shows a composition of different flowers harmoniously arranged in a simple vase on a table, probably set in a domestic interior. \nThis picture draws the attention onto the contrast between light and shade, the brilliant colours of the flowers against the formless plain background. The artist shows here sensitivity for the rendering of different textures: tulips, camellias, hyacinths, holly hocks and more rustic flowers alternate in an explosion of tones and colours. It is very close in composition to another painting of the same date also in the museum's collection (CAI.128). The artist never thought of his flower paintings as pairs, but they were usually purchased as such by his British patrons.\n\nThis is one of 8 paintings brought to London by Fantin on his third visit in July 1864.  \n\nThanks to his friendship with James McNeill Whistler (1834-1903), whom he met in 1858, Fantin-Latour was introduced to British collectors such as Alexander Ionides and his son Constantine, who bought two other still life paintings by the artist (CAI.129 and CAI.130).\n\nAlthough this painting was painted in France, London was the principal market for Fantin-Latour's flower pieces, and in 1871 the amateur etcher and dealer Edwin Edwards purchased all of the painter's stock for sale in England. \n\nThe Ionides bequest of 1901 doubled the size of the museum's collection of flower pieces by Fantin-Latour, which already included three painting acquired in 1882, 1884 and 1889 from Mrs Ruth Edwards, the widow of Edwin Edwards (see S.Ex.61-1882, S.Ex.24-1884 and S.Ex.4-1889). \n\nThe Barbizon school encouraged a new interest in naturalism and the objective rendering of light and colours, which was continued by the Impressionists. However, Fantin-Latour did not share their enthusiasm for open air painting and most of his compositions were executed in his studio.", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "19th-century French art is marked by a succession of movements based on a more or less close relationship with nature. At the beginning of the century, Romantic artists were fascinated by nature they interpreted as a mirror of the mind. They investigated human nature and personality, the folk culture, the national and ethnic origins, the medieval era, the exotic, the remote, the mysterious and the occult. This movement was heralded in France by such painter as Eug\u00e8ne Delacroix (1798-1863). In its opposition to academic art and its demand for a modern style Realism continued the aims of the Romantics. They assumed that reality could be perceived without distortion or idealization, and sought after a mean to combine the perception of the individual with objectivity. This reaction in French painting against the Grand Manner is well represented by Gustave Courbet (1819-1877) who wrote a 'Manifesto of Realism', entitled <i>Le R\u00e9alisme</i> published in Paris in 1855. These ideas were challenged by the group of the Barbizon painters, who formed a recognizable school from the early 1830s to the 1870s and developed a free, broad and rough technique. They were mainly concerned by landscape painting and the rendering of light. The works of Narcisse Virgile Diaz de la Pe\u00f1a (1807-1876), Jules Dupr\u00e9 (1811-1889), Th\u00e9odore Rousseau (1812-1867), Constant Troyon (1810-1865) and Jean-Fran\u00e7ois Millet (1814-1875) anticipate somehow  the <i>plein-air</i> landscapes of the Impressionists.", 
+            "collection_code": "PDP"
+        }
+    }
+]

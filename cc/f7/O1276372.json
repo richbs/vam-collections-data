@@ -1,0 +1,286 @@
+[
+    {
+        "pk": 1125531, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "1500.00", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.32-2014", 
+            "date_end": "1889-12-31", 
+            "labels": [], 
+            "descriptive_line": "Anon, group portrait at a photography exhibition, including William England, platinum print, ca. 1880s.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1880, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 71971, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "England, William", 
+                        "museumobject_count": 1, 
+                        "source": "name", 
+                        "cis_id": "AUTH320231", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "england-william"
+                    }
+                }
+            ], 
+            "date_text": "1880s", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "A black and white photograph showing a group of eight men sitting and standing in the middle of a photography exhibition. The framed photographs are hung very densely on the surrounding walls.", 
+            "dimensions": "Width: 365 mm paper, Height: 265 mm paper, Width: 198 mm image, Height: 148 mm image", 
+            "title": "", 
+            "date_start": "1880-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-04-27 06:22:04", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2H, shelf DR7, box PHOTO", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 337, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "platinum process", 
+                        "museumobject_count": 23, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53492", 
+                        "museumobject_image_count": 2, 
+                        "type": "", 
+                        "slug": "platinum-process"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 219, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "photographic paper", 
+                        "museumobject_count": 6245, 
+                        "source": "cis_materials", 
+                        "cis_id": "14190", 
+                        "museumobject_image_count": 4887, 
+                        "type": "", 
+                        "slug": "photographic-paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1317655, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "PHOTO", 
+                        "case": "MB2H", 
+                        "inventory_number": null, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.32-2014", 
+                        "museumobject": 1125531, 
+                        "shelf": "DR7", 
+                        "site": "", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e322014", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130871, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26196, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 77319, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1896-12-31", 
+                        "surname": "", 
+                        "name": "England, William", 
+                        "gender": null, 
+                        "museumobject_count": 61, 
+                        "death_year": 1896, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH320231", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": "1815-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "william-england", 
+                        "birth_year": 1815
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 500579, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 21
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1125531, 
+                        "role": "photographed", 
+                        "place": 21, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "British pounds", 
+            "museum_number_token": "e322014", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 41092, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31513, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 06:22:04", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "photograph", 
+            "sys_updated": "2014-02-27 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 21, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "United Kingdom", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 5104, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x29336", 
+                        "museumobject_image_count": 1802, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "united-kingdom-x29336"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [
+                {
+                    "pk": 693028, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 77319
+                    }, 
+                    "fields": {
+                        "name": 77319, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1125531, 
+                        "role": "associated", 
+                        "order": 301
+                    }
+                }, 
+                {
+                    "pk": 693029, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 77319
+                    }, 
+                    "fields": {
+                        "name": 77319, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1125531, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1889, 
+            "object_number": "O1276372", 
+            "events": [], 
+            "credit": "Purchased with funds from the Cecil Beaton Fund", 
+            "history_note": "This photograph was collected by 19th century photographer, William England, and by descent to Mark Mitchell. It was on long loan to the V&A from 1982 to 2013.", 
+            "place": "UK", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,301 @@
+[
+    {
+        "pk": 1126072, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "LOAN:AMERICANFRIENDS.586:282-2011", 
+            "date_end": "1946-12-31", 
+            "labels": [], 
+            "descriptive_line": "Paper model book for depicting life in the Netherlands 'Our World'. Published in the United States by Henry Stewart, Inc. 1946", 
+            "shape": "", 
+            "longitude": "-80.04324400", 
+            "year_start": 1946, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 6481, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Netherlands", 
+                        "museumobject_count": 67, 
+                        "source": "place", 
+                        "cis_id": "x29020", 
+                        "museumobject_image_count": 20, 
+                        "type": "", 
+                        "slug": "netherlands"
+                    }
+                }
+            ], 
+            "date_text": "1946 (published)", 
+            "primary_image_id": "", 
+            "rights": 1, 
+            "physical_description": "Paper model book for depicting life in the Netherlands 'Our World'. One paper stand is missing.", 
+            "dimensions": "Height: 27.7 cm, Width: 21.4 cm", 
+            "title": "Our World", 
+            "date_start": "1946-01-01", 
+            "materials_techniques": "Printed ink on paper", 
+            "last_processed": "2014-04-27 06:23:24", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Mass produced", 
+            "collections": [
+                {
+                    "pk": 5, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MoC", 
+                        "name": "Museum of Childhood", 
+                        "museumobject_count": 29204, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3179, 
+                        "type": "", 
+                        "slug": "moc"
+                    }
+                }
+            ], 
+            "location": "In Storage", 
+            "marks": "", 
+            "latitude": "42.12885000", 
+            "techniques": [
+                {
+                    "pk": 53, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "printing", 
+                        "museumobject_count": 15286, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53329", 
+                        "museumobject_image_count": 4347, 
+                        "type": "", 
+                        "slug": "printing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 853, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "printing ink", 
+                        "museumobject_count": 27153, 
+                        "source": "cis_materials", 
+                        "cis_id": "x35423", 
+                        "museumobject_image_count": 12401, 
+                        "type": "", 
+                        "slug": "printing-ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1318216, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": null
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "", 
+                        "inventory_number": null, 
+                        "room": "", 
+                        "part_name": "", 
+                        "museum_number": "LOAN:AMERICANFRIENDS.586:283-2011", 
+                        "museumobject": 1126072, 
+                        "shelf": "", 
+                        "site": "", 
+                        "on_display": false, 
+                        "status": "", 
+                        "location": "In Storage", 
+                        "museum_number_token": "loanamericanfriends5862832011", 
+                        "gallery": null
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [], 
+            "names": [
+                {
+                    "pk": 84154, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Henry Stewart", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH328445", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "henry-stewart", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 501195, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8269
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1126072, 
+                        "role": "published", 
+                        "place": 8269, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 501196, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 106
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1126072, 
+                        "role": "subject", 
+                        "place": 106, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "loanamericanfriends5862822011", 
+            "object": "Model", 
+            "categories": [
+                {
+                    "pk": 35, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Children & Childhood", 
+                        "museumobject_count": 10071, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1898, 
+                        "type": "", 
+                        "slug": "children-childhood"
+                    }
+                }, 
+                {
+                    "pk": 133, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Printed pages & sheets", 
+                        "museumobject_count": 4352, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 394, 
+                        "type": "", 
+                        "slug": "printed-pages-sheets"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 06:23:24", 
+            "public_access_description": "Paper model book for depicting life in the Netherlands 'Our World'. Published in the United States by Henry Stewart, Inc. 1946. The model is part of the Robert Freidus collection of paper models, donated to the museum.\n\nThe Robert Freidus Paper Model Collection contains in excess of 12,000 models of architectural structures. These models remain in their unmade state. The models vary from simple press-out shapes, to more complex objects that require cutting, folding and sticking to produce their intended shape. The models come in various forms; boxed sets, postcards, pages from magazines, and jig-saw puzzles. The collection includes a large number of famous landmarks, versions of which have been produced by many manufacturers. But some models are less well known, including fictional locations from television programmes, and one amateur designer\u2019s own house. Some publishers focus on a specific genre of buildings such as lighthouses while others set out to illustrate types of houses and buildings rather than specific examples.\n\nThe first paper models, those to be cut out from a sheet and assembled, appeared in Europe in the 17th Century, The earliest commercial models were recorded appearing in French toy catalogues in 1800. From then on paper models became popular across Europe particularly in Germany, and in the later half of the century, the UK. Manufacturers such as Pellerin and Schreiber began producing series of hundreds of models, from famous landmarks to farmhouses and specific scenes. Originally designed for children, paper models gave their owners the chance to learn about places and people in other parts of the world. The best example of this is Milton Bradley\u2019s Village series produced in the late 19th and early 20th Century, which showed the people of a particular country and the houses they lived in. \n\nTowards the end of the 20th Century paper modelling became increasingly popular with an adult audience with many kits being designed for a more sophisticated modeller. During this time television tie-ins also started appearing on the market reflecting the emerging trend of media merchandising. More recently with the development of the Internet, models have appeared online and these have been printed and added to the collection. Some of these models are stand alone items, while others can be used with model railways or in fantasy role playing games.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "our-world-model-henry-stewart", 
+            "sys_updated": "2014-03-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8269, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 6598
+                    }, 
+                    "fields": {
+                        "name": "Buffalo", 
+                        "parent": 6598, 
+                        "country": "United States", 
+                        "museumobject_count": 2, 
+                        "longitude": "-80.04324400", 
+                        "source": "production", 
+                        "cis_id": "x45820", 
+                        "museumobject_image_count": 1, 
+                        "latitude": "42.12885000", 
+                        "type": "city/town", 
+                        "slug": "buffalo-united-states-x45820"
+                    }
+                }, 
+                {
+                    "pk": 106, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Holland", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 4134, 
+                        "longitude": "5.33033000", 
+                        "source": "production", 
+                        "cis_id": "x29020", 
+                        "museumobject_image_count": 1977, 
+                        "latitude": "52.10808900", 
+                        "type": "country", 
+                        "slug": "holland-x29020"
+                    }
+                }
+            ], 
+            "artist": "Henry Stewart", 
+            "namecontext_set": [
+                {
+                    "pk": 693734, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 84154
+                    }, 
+                    "fields": {
+                        "name": 84154, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 1126072, 
+                        "role": "publisher", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1946, 
+            "object_number": "O1277013", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Historical significance: Part of the Robert Freidus Architectural Paper Model Collection.", 
+            "place": "Buffalo", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MoC"
+        }
+    }
+]
