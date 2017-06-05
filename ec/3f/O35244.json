@@ -1,0 +1,364 @@
+[
+    {
+        "pk": 30676, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.527-1993", 
+            "date_end": "1829-12-31", 
+            "labels": [], 
+            "descriptive_line": "Th\u00e9\u00e2tre des Vari\u00e9t\u00e9s and the Panorama buildings in Paris, by Benjamin Ferrey (1810-1880)", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1829, 
+            "exhibitions": [
+                {
+                    "pk": 212, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 1994, 
+                        "name": "Pugin: A Gothic Passion", 
+                        "date_end": "1994-09-30", 
+                        "museumobject_count": 21, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "1994-06-01", 
+                        "year_end": 1994, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 19, 
+                        "type": "", 
+                        "slug": "pugin-a-gothic-passion", 
+                        "date_text": "06/1994 - 09/1994"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 4427, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Th\u00e9\u00e2tre des Vari\u00e9t\u00e9s", 
+                        "museumobject_count": 1, 
+                        "source": "place", 
+                        "cis_id": "x32490", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "theatre-des-varietes"
+                    }
+                }, 
+                {
+                    "pk": 4428, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Panorama Buildings", 
+                        "museumobject_count": 1, 
+                        "source": "place", 
+                        "cis_id": "x32491", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "panorama-buildings"
+                    }
+                }
+            ], 
+            "date_text": "1829", 
+            "primary_image_id": "2006AT8908", 
+            "rights": 3, 
+            "physical_description": "Watercolour landscape view of theTh\u00e9\u00e2tre des Vari\u00e9t\u00e9s and the Panorama buildings in Paris", 
+            "dimensions": "Height: 14.3 cm, Width: 20.3 cm", 
+            "title": "Th\u00e9\u00e2tre des Vari\u00e9t\u00e9s and the Panorama buildings in Paris", 
+            "date_start": "1829-01-01", 
+            "materials_techniques": "watercolour on paper", 
+            "last_processed": "2014-03-31 20:54:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 26", 
+            "marks": "Theatre de Varietes [sic]\n Ferrey", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12741, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7091, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1736, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Watercolour on paper", 
+                        "museumobject_count": 321, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 243, 
+                        "type": "", 
+                        "slug": "watercolour-on-paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 57446, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "WD", 
+                        "inventory_number": 630504, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.527-1993", 
+                        "museumobject": 30676, 
+                        "shelf": "26", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e5271993", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 6809, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Ferrey, Benjamin", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A3646", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "ferrey-benjamin", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 31336, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 30676, 
+                        "role": "", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 31337, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1405
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 30676, 
+                        "role": "subject", 
+                        "place": 1405, 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 31338, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1406
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 30676, 
+                        "role": "subject", 
+                        "place": 1406, 
+                        "order": 3
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e5271993", 
+            "object": "Drawing", 
+            "categories": [], 
+            "last_checked": "2014-03-31 20:54:05", 
+            "public_access_description": "", 
+            "exhibition_history": "Pugin: A Gothic Passion (Victoria and Albert Museum 15/06/0094-11/09/0094)", 
+            "bibliography": "Lionel Lambourne, \"Pugin and the theatre\" in P. Atterbury and C. Wainwright, eds.: Pugin: A Gothic Passion. Catalogue of an exhibition held at the Victoria and Albert Museum 1994, page 36 illustration 67.", 
+            "vanda_exhibition_history": "", 
+            "slug": "theatre-des-varietes-and-the-drawing-ferrey-benjamin", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 23096, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:13:07", 
+                        "priority": 0, 
+                        "image_id": "2006AT8908", 
+                        "sys_id": 158908, 
+                        "last_checked": "2014-03-31 17:13:07", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT8908.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }, 
+                {
+                    "pk": 1405, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 39
+                    }, 
+                    "fields": {
+                        "name": "Th\u00e9\u00e2tre des Vari\u00e9t\u00e9s", 
+                        "parent": 39, 
+                        "country": "France", 
+                        "museumobject_count": 1, 
+                        "longitude": "2.34121000", 
+                        "source": "cis_subject_place", 
+                        "cis_id": "x32490", 
+                        "museumobject_image_count": 1, 
+                        "latitude": "48.85691800", 
+                        "type": "site", 
+                        "slug": "theatre-des-varietes-france-x32490"
+                    }
+                }, 
+                {
+                    "pk": 1406, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 39
+                    }, 
+                    "fields": {
+                        "name": "Panorama Buildings", 
+                        "parent": 39, 
+                        "country": "France", 
+                        "museumobject_count": 1, 
+                        "longitude": "-4.01125300", 
+                        "source": "cis_subject_place", 
+                        "cis_id": "x32491", 
+                        "museumobject_image_count": 1, 
+                        "latitude": "48.74704600", 
+                        "type": "site", 
+                        "slug": "panorama-buildings-france-x32491"
+                    }
+                }
+            ], 
+            "artist": "Ferrey, Benjamin", 
+            "namecontext_set": [
+                {
+                    "pk": 34140, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 6809
+                    }, 
+                    "fields": {
+                        "name": 6809, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 30676, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1829, 
+            "object_number": "O35244", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "Benjamin Ferrey was a pupil of Pugin senior, (and later the biographer of A.N.W.Pugin.) He made this sketch on a visit to Paris with Pugin senior, who was an assistant to John Nash and had designed the Regent's Park Diorama in 1823. A view similar to this watercolour but not including the panorama buildings was published in Augustus Pugin's Paris and its Environs 1828-1831.", 
+            "collection_code": "PDP"
+        }
+    }
+]
