@@ -1,0 +1,303 @@
+[
+    {
+        "pk": 24576, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FE.31&A-1984", 
+            "date_end": "1984-12-31", 
+            "labels": [
+                {
+                    "pk": 6283, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "2007", 
+                        "museumobject": 24576, 
+                        "label_text": "Teapot in form of water chestnut \nMade by Jiang Rong\nAbout 1984 \nYixing kilns, south China\n\nUnglazed stoneware\nMuseum no. FE.31-1984"
+                    }
+                }
+            ], 
+            "descriptive_line": "Tea pot, in form of water chestnut, Jiang Rong, Yixing, 1984", 
+            "shape": "", 
+            "longitude": "119.81664300", 
+            "year_start": 1984, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1984 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Decoration: Water chestnut in form\nBox: Padded box. Booklet 'A million pairs of hands' in register with FE.60&A-1984 gives biography of maker", 
+            "dimensions": "Height: 181 cm, Width: 176.0 cm", 
+            "title": "", 
+            "date_start": "1984-01-01", 
+            "materials_techniques": "Stoneware, clays of various colours, painted", 
+            "last_processed": "2014-03-31 20:27:04", 
+            "label": "Teapot in form of water chestnut \nMade by Jiang Rong\nAbout 1984 \nYixing kilns, south China\n\nUnglazed stoneware\nMuseum no. FE.31-1984 [2007]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 2, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "EAS", 
+                        "name": "Far Eastern Collection", 
+                        "museumobject_count": 78159, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 38233, 
+                        "type": "", 
+                        "slug": "eas"
+                    }
+                }
+            ], 
+            "location": "China, room 44, case 6, shelf 1", 
+            "marks": "'Jiang Rong' (seal mark) on base", 
+            "latitude": "31.36261000", 
+            "techniques": [
+                {
+                    "pk": 28, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painted", 
+                        "museumobject_count": 27627, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30138", 
+                        "museumobject_image_count": 22711, 
+                        "type": "", 
+                        "slug": "painted"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 159, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "stoneware", 
+                        "museumobject_count": 3966, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30197", 
+                        "museumobject_image_count": 3509, 
+                        "type": "", 
+                        "slug": "stoneware"
+                    }
+                }, 
+                {
+                    "pk": 3, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Clay", 
+                        "museumobject_count": 329, 
+                        "source": "cis_materials", 
+                        "cis_id": "10439", 
+                        "museumobject_image_count": 161, 
+                        "type": "", 
+                        "slug": "clay"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 35041, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 417
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 609455, 
+                        "room": "44", 
+                        "part_name": "Lid", 
+                        "museum_number": "FE.31A-1984", 
+                        "museumobject": 24576, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "China, room 44", 
+                        "museum_number_token": "fe31a1984", 
+                        "gallery": 417
+                    }
+                }, 
+                {
+                    "pk": 35042, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 417
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "6", 
+                        "inventory_number": 609456, 
+                        "room": "44", 
+                        "part_name": "Teapot", 
+                        "museum_number": "FE.31-1984", 
+                        "museumobject": 24576, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "China, room 44", 
+                        "museum_number_token": "fe311984", 
+                        "gallery": 417
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 417, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "44", 
+                        "site_name": "", 
+                        "name": "China, room 44", 
+                        "site_code": "VA", 
+                        "museumobject_count": 574, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49802", 
+                        "museumobject_image_count": 509, 
+                        "type": "", 
+                        "slug": "44-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 5951, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Jiang Rong", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A3212", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1919-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jiang-rong", 
+                        "birth_year": 1919
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 25530, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 571
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 24576, 
+                        "role": "made", 
+                        "place": 571, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fe311984", 
+            "object": "Teapot", 
+            "categories": [
+                {
+                    "pk": 5, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Ceramics", 
+                        "museumobject_count": 50922, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36045, 
+                        "type": "", 
+                        "slug": "ceramics"
+                    }
+                }, 
+                {
+                    "pk": 15, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drinking", 
+                        "museumobject_count": 5467, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2065, 
+                        "type": "", 
+                        "slug": "drinking"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:27:04", 
+            "public_access_description": "This teapot is a contemporary piece of ceramic ware produced in Yixing, in China's Jiangsu Province. The Yixing kilns have been known for their teapots since the 16th century.\n\nThe local clays have a high sand content and can be cream, red or warm brown. The teapots are not usually glazed, but burnished and fired, and unlike the majority of Chinese crafts, they can be signed by the potters. This example has the mark of Jiang Rong, a famous woman potter now honoured in China as a National Craft Master.", 
+            "exhibition_history": "", 
+            "bibliography": "Rose Kerr, 'Contemporary Chinese Crafts', 'V&A Album 4' (1985), p.322, fig.6: Frances Wood & Rose Kerr, 'Chinese collections', 'Crafts',77 (Nov/Dec, 1985), p.37 K.S Lo, 'The stonewares of Yixing', (Sotheby's/Hong Kong UP, 1986), pp.178, 224,227, pls.LII, 146", 
+            "vanda_exhibition_history": "", 
+            "slug": "teapot-jiang-rong", 
+            "sys_updated": "2014-03-21 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 571, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1290
+                    }, 
+                    "fields": {
+                        "name": "Yixing", 
+                        "parent": 1290, 
+                        "country": "China", 
+                        "museumobject_count": 102, 
+                        "longitude": "119.81664300", 
+                        "source": "production", 
+                        "cis_id": "x32221", 
+                        "museumobject_image_count": 77, 
+                        "latitude": "31.36261000", 
+                        "type": "city/town", 
+                        "slug": "yixing-china-x32221"
+                    }
+                }
+            ], 
+            "artist": "Jiang Rong", 
+            "namecontext_set": [
+                {
+                    "pk": 27081, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5951
+                    }, 
+                    "fields": {
+                        "name": 5951, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 24576, 
+                        "role": "maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1984, 
+            "object_number": "O24351", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Bought in Hong Kong by Rose Kerr, AK/ in course of trip to China to acquire 20th c. material in 1984", 
+            "place": "Yixing", 
+            "production_note": "Artist: Jiang Rong (1919?-    )\nBiographical reference: A top craftswoman at Yixing. See booklet 'A million pairs of hands: the arts of Yi-xing', published by vendors. Her uncle is said in the 1930s to have made copies of nut teapots etc. of potters like Chen Mingyuan more skilfully made than the originals\nYixing, Jiangsu province, CHINA", 
+            "historical_context_note": "", 
+            "collection_code": "EAS"
+        }
+    }
+]

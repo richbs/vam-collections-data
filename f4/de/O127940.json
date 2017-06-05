@@ -1,0 +1,362 @@
+[
+    {
+        "pk": 100002, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "REPRO.1862-2668", 
+            "date_end": "1564-12-31", 
+            "labels": [], 
+            "descriptive_line": "Plaster cast of the marble group The Three Graces, by Germain Pilon, ca.1560-3, from the monument destined for the heart of Henry II now in the Mus\u00e9e du Louvre, Paris, ca. 1862", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1555, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23977, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "women", 
+                        "museumobject_count": 2280, 
+                        "source": "object", 
+                        "cis_id": "25943", 
+                        "museumobject_image_count": 1251, 
+                        "type": "", 
+                        "slug": "women"
+                    }
+                }, 
+                {
+                    "pk": 48075, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "figures (representations)", 
+                        "museumobject_count": 588, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 480, 
+                        "type": "", 
+                        "slug": "figures-representations"
+                    }
+                }, 
+                {
+                    "pk": 24443, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "personification", 
+                        "museumobject_count": 48, 
+                        "source": "concept", 
+                        "cis_id": "55905", 
+                        "museumobject_image_count": 35, 
+                        "type": "", 
+                        "slug": "personification"
+                    }
+                }, 
+                {
+                    "pk": 27696, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "The Three Graces", 
+                        "museumobject_count": 45, 
+                        "source": "name", 
+                        "cis_id": "N1545", 
+                        "museumobject_image_count": 36, 
+                        "type": "", 
+                        "slug": "the-three-graces"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1560-1563 (sculpted)\nca. 1862 (cast)", 
+            "primary_image_id": "2006BK4519", 
+            "rights": 3, 
+            "physical_description": "Plaster cast of the marble group The Three Graces, by Germain Pilon, ca.1560-3, from the monument destined for the heart of Henry II now in the Mus\u00e9e du Louvre, Paris", 
+            "dimensions": "Height: 287.5 cm, Width: 114.5 cm", 
+            "title": "The Three Graces", 
+            "date_start": "1555-01-01", 
+            "materials_techniques": "Plaster cast", 
+            "last_processed": "2014-04-01 01:30:21", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 46A. Objects in 'case BWITH' are available via appointment with the Sculpture department, case FS, shelf C", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 77, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "cast", 
+                        "museumobject_count": 954, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32615", 
+                        "museumobject_image_count": 485, 
+                        "type": "", 
+                        "slug": "cast"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 81, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Plaster", 
+                        "museumobject_count": 1110, 
+                        "source": "cis_materials", 
+                        "cis_id": "14922", 
+                        "museumobject_image_count": 629, 
+                        "type": "", 
+                        "slug": "plaster"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 165642, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 420
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "FS", 
+                        "inventory_number": 84179, 
+                        "room": "46A", 
+                        "part_name": "", 
+                        "museum_number": "REPRO.1862-2668", 
+                        "museumobject": 100002, 
+                        "shelf": "C", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 46A. Objects in 'case BWITH' are available via appointment with the Sculpture department", 
+                        "museum_number_token": "repro18622668", 
+                        "gallery": 420
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 420, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "46A", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 46A. Objects in 'case BWITH' are available via appointment with the Sculpture department", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1290, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49799", 
+                        "museumobject_image_count": 170, 
+                        "type": "", 
+                        "slug": "46a-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 32477, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1590-02-03", 
+                        "surname": "", 
+                        "name": "Pilon, Germain", 
+                        "gender": null, 
+                        "museumobject_count": 2, 
+                        "death_year": 1590, 
+                        "source": "object_production", 
+                        "cis_id": "A18053", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1520-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pilon-germain", 
+                        "birth_year": 1520
+                    }
+                }, 
+                {
+                    "pk": 8730, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Three Graces", 
+                        "gender": null, 
+                        "museumobject_count": 40, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N1545", 
+                        "museumobject_image_count": 34, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "the-three-graces", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 97019, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 100002, 
+                        "role": "sculpted", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "repro18622668", 
+            "object": "Plaster cast", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:30:21", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "the-three-graces-plaster-cast-pilon-germain", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 88590, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:27:19", 
+                        "priority": 0, 
+                        "image_id": "2006BK4519", 
+                        "sys_id": 304519, 
+                        "last_checked": "2014-03-31 17:27:19", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BK/2006BK4519.jpg"
+                    }
+                }, 
+                {
+                    "pk": 88588, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-09-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:27:19", 
+                        "priority": 1, 
+                        "image_id": "2006BK4517", 
+                        "sys_id": 304517, 
+                        "last_checked": "2014-03-31 17:27:19", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BK/2006BK4517.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Pilon, Germain", 
+            "namecontext_set": [
+                {
+                    "pk": 119172, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 32477
+                    }, 
+                    "fields": {
+                        "name": 32477, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 100002, 
+                        "role": "sculptor", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 119173, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8730
+                    }, 
+                    "fields": {
+                        "name": 8730, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 100002, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1564, 
+            "object_number": "O127940", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Possibly purchased from the Mus\u00e9e du Louvre, Paris in 1862 for \u00a333", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "From the monument destined for the heart of Henry II now in the Mus\u00e9e du Louvre, Paris, France", 
+            "collection_code": "SCP"
+        }
+    }
+]
