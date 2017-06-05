@@ -1,0 +1,373 @@
+[
+    {
+        "pk": 19691, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "3031-1876", 
+            "date_end": "1809-12-31", 
+            "labels": [], 
+            "descriptive_line": "Watercolour by George Shepherd, after J. M. Gandy, depicting an interior view of Roslin Chapel, near Edinburgh, showing the 'Prentice Pillar'.  Great Britain, 1809.", 
+            "shape": "", 
+            "longitude": "-3.20277000", 
+            "year_start": 1809, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 10656, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Rosslyn Chapel", 
+                        "museumobject_count": 21, 
+                        "source": "place", 
+                        "cis_id": "x40153", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "rosslyn-chapel"
+                    }
+                }, 
+                {
+                    "pk": 24071, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "interior view", 
+                        "museumobject_count": 12, 
+                        "source": "object", 
+                        "cis_id": "124520", 
+                        "museumobject_image_count": 10, 
+                        "type": "", 
+                        "slug": "interior-view"
+                    }
+                }, 
+                {
+                    "pk": 48524, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Architectural Elements, Pillar,  Arch", 
+                        "museumobject_count": 3, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "architectural-elements-pillar-arch"
+                    }
+                }, 
+                {
+                    "pk": 3761, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Church,  Chapel", 
+                        "museumobject_count": 1, 
+                        "source": "object", 
+                        "cis_id": "x31837", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "church-chapel"
+                    }
+                }
+            ], 
+            "date_text": "1809 (painted)", 
+            "primary_image_id": "2006AN6825", 
+            "rights": 3, 
+            "physical_description": "Interior view of Roslin Chapel depicting the so-called 'Prentice Pillar'.  Signed and dated.", 
+            "dimensions": "Height: 59 cm framed, Width: 79.5 cm framed", 
+            "title": "Roslin Chapel, near Edinburgh, showing the 'Prentice Pillar'", 
+            "date_start": "1809-01-01", 
+            "materials_techniques": "Watercolour", 
+            "last_processed": "2014-03-31 20:07:13", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room WS, case R, shelf 32, box R", 
+            "marks": "", 
+            "latitude": "55.95415100", 
+            "techniques": [
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12741, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7091, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48108, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 27995, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 29236, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 616
+                    }, 
+                    "fields": {
+                        "box": "R", 
+                        "case": "R", 
+                        "inventory_number": 428007, 
+                        "room": "WS", 
+                        "part_name": "", 
+                        "museum_number": "3031-1876", 
+                        "museumobject": 19691, 
+                        "shelf": "32", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room WS", 
+                        "museum_number_token": "30311876", 
+                        "gallery": 616
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 616, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "WS", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room WS", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1379, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49603", 
+                        "museumobject_image_count": 329, 
+                        "type": "", 
+                        "slug": "ws-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 5071, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Shepherd", 
+                        "gender": null, 
+                        "museumobject_count": 14, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A2385", 
+                        "museumobject_image_count": 11, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "shepherd-george", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 20985, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 262
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 19691, 
+                        "role": "made", 
+                        "place": 262, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 20986, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 3296
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 19691, 
+                        "role": "subject", 
+                        "place": 3296, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "30311876", 
+            "object": "Watercolour", 
+            "categories": [
+                {
+                    "pk": 24, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Architecture", 
+                        "museumobject_count": 14050, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4742, 
+                        "type": "", 
+                        "slug": "architecture"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 42, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Interiors", 
+                        "museumobject_count": 11483, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 3045, 
+                        "type": "", 
+                        "slug": "interiors"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 20:07:13", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "roslin-chapel-near-edinburgh-showing-watercolour-shepherd-george", 
+            "sys_updated": "2014-01-27 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 13526, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-07-23 00:00:00", 
+                        "last_processed": "2014-03-31 17:11:05", 
+                        "priority": 0, 
+                        "image_id": "2006AN6825", 
+                        "sys_id": 126825, 
+                        "last_checked": "2014-03-31 17:11:05", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AN/2006AN6825.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 262, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4974
+                    }, 
+                    "fields": {
+                        "name": "Edinburgh", 
+                        "parent": 4974, 
+                        "country": "Scotland", 
+                        "museumobject_count": 338, 
+                        "longitude": "-3.20277000", 
+                        "source": "production", 
+                        "cis_id": "x28816", 
+                        "museumobject_image_count": 117, 
+                        "latitude": "55.95415100", 
+                        "type": "city / town", 
+                        "slug": "edinburgh-scotland-x28816"
+                    }
+                }, 
+                {
+                    "pk": 3296, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 6300
+                    }, 
+                    "fields": {
+                        "name": "Rosslyn Chapel", 
+                        "parent": 6300, 
+                        "country": "Scotland", 
+                        "museumobject_count": 22, 
+                        "longitude": "-3.16611900", 
+                        "source": "production", 
+                        "cis_id": "x40153", 
+                        "museumobject_image_count": 4, 
+                        "latitude": "55.85832500", 
+                        "type": "site", 
+                        "slug": "rosslyn-chapel-scotland-x40153"
+                    }
+                }
+            ], 
+            "artist": "Shepherd, George", 
+            "namecontext_set": [
+                {
+                    "pk": 21469, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 5071
+                    }, 
+                    "fields": {
+                        "name": 5071, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 19691, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1809, 
+            "object_number": "O18129", 
+            "events": [], 
+            "credit": "William Smith Bequest", 
+            "history_note": "Roslin Chapel, famous for its sculpture and elaborate decorative carving, was founded in 1446.  But the admittedly unlikely, legend of the 'Prentice Pillar' ensured further celebrity.  The unusual design of the pillar, four strips of foliage spiralling upwards from a base of entwined serpents, is supposed to have been planned and executed by a young apprentice while the master mason was absent; on his return, he murdered his pupil as a punishment for his presumption.  For his composition, Shepherd used a meticulously measured drawing by the architect J.M.Gandy, who exhibited two such drawings of Roslin in 1807 and 1809.", 
+            "place": "Edinburgh", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
