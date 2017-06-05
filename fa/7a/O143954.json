@@ -1,0 +1,311 @@
+[
+    {
+        "pk": 113067, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.1413-1983", 
+            "date_end": "1945-12-31", 
+            "labels": [], 
+            "descriptive_line": "", 
+            "shape": "", 
+            "longitude": "133.39311200", 
+            "year_start": 1945, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 58, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "man", 
+                        "museumobject_count": 3060, 
+                        "source": "object", 
+                        "cis_id": "x35641", 
+                        "museumobject_image_count": 2211, 
+                        "type": "", 
+                        "slug": "man"
+                    }
+                }, 
+                {
+                    "pk": 165, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "shell", 
+                        "museumobject_count": 407, 
+                        "source": "object", 
+                        "cis_id": "x39877", 
+                        "museumobject_image_count": 285, 
+                        "type": "", 
+                        "slug": "shell"
+                    }
+                }, 
+                {
+                    "pk": 31479, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "chair", 
+                        "museumobject_count": 232, 
+                        "source": "object", 
+                        "cis_id": "38165", 
+                        "museumobject_image_count": 107, 
+                        "type": "", 
+                        "slug": "chair"
+                    }
+                }
+            ], 
+            "date_text": "1945 (Designed and made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "", 
+            "dimensions": "", 
+            "title": "Oceania", 
+            "date_start": "1945-01-01", 
+            "materials_techniques": "linocut on paper", 
+            "last_processed": "2014-04-01 02:25:57", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case EDUC, shelf 9A", 
+            "marks": "", 
+            "latitude": "-24.91620100", 
+            "techniques": [
+                {
+                    "pk": 1056, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "linocut", 
+                        "museumobject_count": 62, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 38, 
+                        "type": "", 
+                        "slug": "linocut"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ink", 
+                        "museumobject_count": 22898, 
+                        "source": "cis_materials", 
+                        "cis_id": "187371", 
+                        "museumobject_image_count": 13758, 
+                        "type": "", 
+                        "slug": "ink"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 620, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Oceanic", 
+                        "museumobject_count": 1, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21854", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "oceanic"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 181620, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EDUC", 
+                        "inventory_number": 693948, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.1413-1983", 
+                        "museumobject": 113067, 
+                        "shelf": "9A", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e14131983", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 34537, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1982-11-03", 
+                        "surname": "", 
+                        "name": "Thake, Eric", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": 1982, 
+                        "source": "object_production", 
+                        "cis_id": "A21028", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": "1904-06-08", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "thake-eric", 
+                        "birth_year": 1904
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 111014, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1468
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 113067, 
+                        "role": "Designed and made", 
+                        "place": 1468, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e14131983", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:25:57", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "oceania-print-thake-eric", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1468, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 4845
+                    }, 
+                    "fields": {
+                        "name": "Australia", 
+                        "parent": 4845, 
+                        "country": "", 
+                        "museumobject_count": 192, 
+                        "longitude": "133.39311200", 
+                        "source": "production", 
+                        "cis_id": "x30016", 
+                        "museumobject_image_count": 49, 
+                        "latitude": "-24.91620100", 
+                        "type": "country", 
+                        "slug": "australia-x30016"
+                    }
+                }
+            ], 
+            "artist": "Thake, Eric", 
+            "namecontext_set": [
+                {
+                    "pk": 136294, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 34537
+                    }, 
+                    "fields": {
+                        "name": 34537, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 113067, 
+                        "role": "Designed and made", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1945, 
+            "object_number": "O143954", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Australia", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

@@ -1,0 +1,285 @@
+[
+    {
+        "pk": 686923, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.3988-1910", 
+            "date_end": "1818-12-31", 
+            "labels": [], 
+            "descriptive_line": "Volume containing 187 designs by Fran\u00e7ois Capronnier for the decoration of S\u00e8vres porcelain.  French School, 1818.", 
+            "shape": "", 
+            "longitude": "1.71832000", 
+            "year_start": 1818, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1818 (made)", 
+            "primary_image_id": "2006AU1942", 
+            "rights": 3, 
+            "physical_description": "Volume containing 187 watercolour designs for the decoration of S\u00e8vres porcelain.", 
+            "dimensions": "Height: 12 in, Width: 11 in Size of volume", 
+            "title": "Volume of designs for Sevres porcelain", 
+            "date_start": "1818-01-01", 
+            "materials_techniques": "Volume of watercolour designs", 
+            "last_processed": "2014-04-26 17:42:10", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case C, shelf 118", 
+            "marks": "", 
+            "latitude": "46.71244800", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 62, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "watercolour", 
+                        "museumobject_count": 48416, 
+                        "source": "cis_materials", 
+                        "cis_id": "x33202", 
+                        "museumobject_image_count": 28056, 
+                        "type": "", 
+                        "slug": "watercolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 821785, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "C", 
+                        "inventory_number": 1006015, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "E.3988-1910", 
+                        "museumobject": 686923, 
+                        "shelf": "118", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "e39881910", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 82413, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1853-12-31", 
+                        "surname": "", 
+                        "name": "Fran\u00e7ois Capronnier", 
+                        "gender": null, 
+                        "museumobject_count": 187, 
+                        "death_year": 1853, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH326789", 
+                        "museumobject_image_count": 11, 
+                        "forename": "", 
+                        "birth_date": "1779-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "francois-capronnier", 
+                        "birth_year": 1779
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 389221, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 11
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 686923, 
+                        "role": "made", 
+                        "place": 11, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e39881910", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 73110, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36746, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 17:42:10", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "volume-of-designs-for-sevres-drawing-francois-capronnier", 
+            "sys_updated": "2013-08-27 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 24246, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-05-30 00:00:00", 
+                        "last_processed": "2014-04-25 13:55:39", 
+                        "priority": 0, 
+                        "image_id": "2006AU1942", 
+                        "sys_id": 161942, 
+                        "last_checked": "2014-04-25 13:55:39", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AU/2006AU1942.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 11, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "France", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 27032, 
+                        "longitude": "1.71832000", 
+                        "source": "production", 
+                        "cis_id": "x28849", 
+                        "museumobject_image_count": 8256, 
+                        "latitude": "46.71244800", 
+                        "type": "country", 
+                        "slug": "france-x28849"
+                    }
+                }
+            ], 
+            "artist": "Fran\u00e7ois Capronnier", 
+            "namecontext_set": [
+                {
+                    "pk": 505543, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 82413
+                    }, 
+                    "fields": {
+                        "name": 82413, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 686923, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1818, 
+            "object_number": "O781768", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "France", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
