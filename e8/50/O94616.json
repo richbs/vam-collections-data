@@ -1,0 +1,272 @@
+[
+    {
+        "pk": 65052, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.33B-1984", 
+            "date_end": "1929-12-31", 
+            "labels": [], 
+            "descriptive_line": "Silver and green stained shagreen, London, (no hallmarks), 1925-29, designed and made by John Paul Cooper", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1925, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1925-1929 (made)", 
+            "primary_image_id": "2006AT6520", 
+            "rights": 3, 
+            "physical_description": "Fish shaped handle covered in shagreen stained green, silver shaft ending in a hook.", 
+            "dimensions": "Height: 1.5 cm, Length: 22.8 cm, Width: 2.5 cm", 
+            "title": "", 
+            "date_start": "1925-01-01", 
+            "materials_techniques": "Silver mounts and shagreen", 
+            "last_processed": "2014-03-31 22:53:26", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Silver, room 68, case 7, shelf 1", 
+            "marks": "handle: JPC for John Paul Cooper\n No hallmarks", 
+            "latitude": "51.50632100", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 46, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Arts and Crafts", 
+                        "museumobject_count": 351, 
+                        "source": "cis_style_period", 
+                        "cis_id": "21205", 
+                        "museumobject_image_count": 258, 
+                        "type": "", 
+                        "slug": "arts-and-crafts"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 116499, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 489
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "7", 
+                        "inventory_number": 550437, 
+                        "room": "68", 
+                        "part_name": "", 
+                        "museum_number": "M.33B-1984", 
+                        "museumobject": 65052, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Silver, room 68", 
+                        "museum_number_token": "m33b1984", 
+                        "gallery": 489
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 489, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "68", 
+                        "site_name": "", 
+                        "name": "Silver, room 68", 
+                        "site_code": "VA", 
+                        "museumobject_count": 249, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49730", 
+                        "museumobject_image_count": 149, 
+                        "type": "", 
+                        "slug": "68-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 11712, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1933-12-31", 
+                        "surname": "", 
+                        "name": "Cooper, John Paul", 
+                        "gender": null, 
+                        "museumobject_count": 11, 
+                        "death_year": 1933, 
+                        "source": "object_production", 
+                        "cis_id": "A10554", 
+                        "museumobject_image_count": 10, 
+                        "forename": "", 
+                        "birth_date": "1869-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "john-paul-cooper", 
+                        "birth_year": 1869
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 60879, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 65052, 
+                        "role": "made", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m33b1984", 
+            "object": "Button hook", 
+            "categories": [
+                {
+                    "pk": 8, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Personal accessories", 
+                        "museumobject_count": 1261, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1037, 
+                        "type": "", 
+                        "slug": "personal-accessories"
+                    }
+                }, 
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:53:26", 
+            "public_access_description": "Lady Armatrude Waechter de Grimston originally commissioned the toilet set from which this button-hook comes. It is one of the biggest and most successful commissions in shagreen. (Shagreen was originally a species of untanned leather, but from about 1750 nurse sharkskin or the less expensive dogfish skin was used.) The chased decoration of its silver mounts has an aquatic theme. It recalls Cooper's description of shagreen:\n\n'a material possessing some of the qualities of both mother of pearl and leather. Its little nodules of concentric rings give one, when the skin is particularly translucent, the feeling of looking deep down into a pool of sea green water . . . One can't do much with a thing like that - put a silver bank round it, I mean a silver moulding, that is practically all.'\n\nMarine imagery clearly stirred Cooper\u2019s imagination. On the chased mounts he represented the shagreen's murky depths - fish, lobsters, crabs, shells and seaweed. He had made preparatory studies for the designs during a family holiday in Sheringham, Norfolk, in 1927.\n\nChased representational mouldings are extremely rare on Cooper's shagreen. They appear only on a few pieces executed between 1924 and 1933, and then mainly on feminine, toilet articles.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "button-hook-john-paul-cooper", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 21600, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-11-08 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:47", 
+                        "priority": 0, 
+                        "image_id": "2006AT6520", 
+                        "sys_id": 156520, 
+                        "last_checked": "2014-03-31 17:12:47", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT6520.jpg"
+                    }
+                }, 
+                {
+                    "pk": 21599, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-11-08 00:00:00", 
+                        "last_processed": "2014-03-31 17:12:47", 
+                        "priority": 1, 
+                        "image_id": "2006AT6519", 
+                        "sys_id": 156519, 
+                        "last_checked": "2014-03-31 17:12:47", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AT/2006AT6519.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "John Paul Cooper", 
+            "namecontext_set": [
+                {
+                    "pk": 72469, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 11712
+                    }, 
+                    "fields": {
+                        "name": 11712, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 65052, 
+                        "role": "designer and maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1929, 
+            "object_number": "O94616", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Acquisition RF: No number or name\nOriginally commissioned by Lady Armatrude Waechter de Grimston\nFrom a toilet set. One of the biggest and most successful shagreen commissions, the aquatic subject matter of the chased decoration on its silver mounts recalls Cooper's description of shagreen as \" a material possessing some of the qualities of both mother of pearl and leather.  Its little nodules of concentric rings give one, when the skin is particularly translucent, the feeling of looking deep down into a pool of sea green water\u2026One can't do much with a thing like that - put a silver bank round it, I mean a silver moulding, that is practically all.\"  The chased decoration on the Waechter service is a visual translation of this description and shows how strongly marine imagery stirred Cooper's imagination.  On its mounts are represented the shagreen's murky depths - fish, lobsters, crabs, shells and seaweed - for which Cooper made preparatory studies during a 1927 family holiday in Sheringham, Norfolk.  Chased representational mouldings are extremely rare on Cooper's shagreen.  They only appear on a few pieces executed between 1924 and 1933 and then mainly on female, toilet articles.", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

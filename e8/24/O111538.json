@@ -1,0 +1,388 @@
+[
+    {
+        "pk": 86193, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "4492-1858", 
+            "date_end": "1406-12-31", 
+            "labels": [], 
+            "descriptive_line": "Medal, bronze, the Emperor Constantine on horseback, Italy, ca. 1402", 
+            "shape": "", 
+            "longitude": "2.34121000", 
+            "year_start": 1397, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23977, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "women", 
+                        "museumobject_count": 2280, 
+                        "source": "object", 
+                        "cis_id": "25943", 
+                        "museumobject_image_count": 1251, 
+                        "type": "", 
+                        "slug": "women"
+                    }
+                }, 
+                {
+                    "pk": 325, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Horse", 
+                        "museumobject_count": 821, 
+                        "source": "object", 
+                        "cis_id": "x30117", 
+                        "museumobject_image_count": 586, 
+                        "type": "", 
+                        "slug": "horse"
+                    }
+                }, 
+                {
+                    "pk": 77, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "cross", 
+                        "museumobject_count": 555, 
+                        "source": "object", 
+                        "cis_id": "x31528", 
+                        "museumobject_image_count": 330, 
+                        "type": "", 
+                        "slug": "cross"
+                    }
+                }, 
+                {
+                    "pk": 48107, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fountain", 
+                        "museumobject_count": 162, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 114, 
+                        "type": "", 
+                        "slug": "fountain"
+                    }
+                }, 
+                {
+                    "pk": 27171, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Constantine, Flavius Valerius (the Great)", 
+                        "museumobject_count": 6, 
+                        "source": "name", 
+                        "cis_id": "N317", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "constantine-flavius-valerius-the-great"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1402 (made)", 
+            "primary_image_id": "2006AE9870", 
+            "rights": 3, 
+            "physical_description": "Medal depicts: Obv.: the Emperor Constantine on horseback; rev.: a fountain surmounted by a cross, and flanked by two female figures.", 
+            "dimensions": "Diameter: 8.89 cm", 
+            "title": "Constantine the Great", 
+            "date_start": "1397-01-01", 
+            "materials_techniques": "Bronze, cast", 
+            "last_processed": "2014-04-01 00:27:29", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 9, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "SCP", 
+                        "name": "Sculpture Collection", 
+                        "museumobject_count": 15852, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5012, 
+                        "type": "", 
+                        "slug": "scp"
+                    }
+                }
+            ], 
+            "location": "Sculpture, room 111, case DR13", 
+            "marks": "", 
+            "latitude": "48.85691800", 
+            "techniques": [
+                {
+                    "pk": 44, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "casting", 
+                        "museumobject_count": 1754, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53104", 
+                        "museumobject_image_count": 1088, 
+                        "type": "", 
+                        "slug": "casting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 56, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "Bronze", 
+                        "museumobject_count": 3189, 
+                        "source": "cis_materials", 
+                        "cis_id": "10957", 
+                        "museumobject_image_count": 1078, 
+                        "type": "", 
+                        "slug": "bronze"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 146931, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 301
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "DR13", 
+                        "inventory_number": 88947, 
+                        "room": "111", 
+                        "part_name": "", 
+                        "museum_number": "4492-1858", 
+                        "museumobject": 86193, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Sculpture, room 111", 
+                        "museum_number_token": "44921858", 
+                        "gallery": 301
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 301, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "111", 
+                        "site_name": "", 
+                        "name": "Sculpture, room 111", 
+                        "site_code": "VA", 
+                        "museumobject_count": 678, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49918", 
+                        "museumobject_image_count": 609, 
+                        "type": "", 
+                        "slug": "111-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 7979, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "0337-12-31", 
+                        "surname": "", 
+                        "name": "Constantine, Flavius Valerius (the Great)", 
+                        "gender": null, 
+                        "museumobject_count": 6, 
+                        "death_year": 337, 
+                        "source": "content", 
+                        "cis_id": "N317", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "0275-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "constantine-flavius-valerius-the-great", 
+                        "birth_year": 275
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 82651, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 39
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "probably", 
+                        "museumobject": 86193, 
+                        "role": "made", 
+                        "place": 39, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "44921858", 
+            "object": "Medal", 
+            "categories": [
+                {
+                    "pk": 19, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Sculpture", 
+                        "museumobject_count": 8404, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4512, 
+                        "type": "", 
+                        "slug": "sculpture"
+                    }
+                }, 
+                {
+                    "pk": 89, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Coins & Medals", 
+                        "museumobject_count": 2602, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 654, 
+                        "type": "", 
+                        "slug": "coins-medals"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:27:29", 
+            "public_access_description": "This medal commemorates the Emperor Constantine the Great. Along with another medal showing Heraclius, Emperor of Byzantium, this stands at the beginning of the medallic tradition in Europe. Documents show that the original examples were made for Duc de Berry, an outstanding patron and connoisseur, and entered his collection in November 1402. The legend in Latin reads, \u2018Constantine, faithful in Christ our God, leader and ruler of the Romans, Emperor for ever\u2019", 
+            "exhibition_history": "", 
+            "bibliography": "Inventory of Art Objects Acquired in the Year 1858. <u>In</u>: <u>Inventory of the Objects in the Art Division of the Museum at South Kensington, Arranged According to the Dates of their Acquisition. Vol I</u>. London: Printed by George E. Eyre and William Spottiswoode for H.M.S.O., 1868, p. 16.\nTrusted, Marjorie, ed. <u>The Making of Sculpture. The Materials and Techniques of European Sculpture</u>. London: 2007, p. 84, pl. 136.\nFor another version see: Scher, Stephen, K., ed. <u>The Currency of Fame - Portrait Medals of the Renaissance</u>. Exhibition catalogue, New York: 1994, pp.32-35, cat.no. 1\nTania L. Jones, 'The Constantine and Heraclius Medallions', <u>The Medal</u>, no. 56, 2010, pp.5-14", 
+            "vanda_exhibition_history": "", 
+            "slug": "constantine-the-great-medal-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 39891, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:44", 
+                        "priority": 0, 
+                        "image_id": "2006AE9870", 
+                        "sys_id": 49870, 
+                        "last_checked": "2014-03-31 17:16:44", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE9870.jpg"
+                    }
+                }, 
+                {
+                    "pk": 39991, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:46", 
+                        "priority": 1, 
+                        "image_id": "2006AE9986", 
+                        "sys_id": 49986, 
+                        "last_checked": "2014-03-31 17:16:46", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AE/2006AE9986.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 39, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 661
+                    }, 
+                    "fields": {
+                        "name": "Paris", 
+                        "parent": 661, 
+                        "country": "France", 
+                        "museumobject_count": 38283, 
+                        "longitude": "2.34121000", 
+                        "source": "production", 
+                        "cis_id": "x29068", 
+                        "museumobject_image_count": 29729, 
+                        "latitude": "48.85691800", 
+                        "type": "city/town", 
+                        "slug": "paris-france-x29068"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 101853, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86193, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 101854, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 7979
+                    }, 
+                    "fields": {
+                        "name": 7979, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 86193, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1406, 
+            "object_number": "O111538", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "This medal commemorates the Emperor Constantine the Great. Along with another medal showing Heraclius, Emperor of Byzantium, this stands at the beginning of the medallic tradition in Europe. Documents show that the original examples were made for Duc de Berry, an outstanding patron and connoisseur, and entered his collection in November 1402. The legend in Latin reads, \u2018Constantine, faithful in Christ our God, leader and ruler of the Romans, Emperor for ever\u2019", 
+            "place": "Paris", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "SCP"
+        }
+    }
+]

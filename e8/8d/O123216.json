@@ -1,0 +1,432 @@
+[
+    {
+        "pk": 95626, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.15-2006", 
+            "date_end": "1969-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Ossie Clark Vietnam 1969', photographed by Jim Lee in 1969, printed by Martin Clark at the RCA, London, 2006.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1969, 
+            "exhibitions": [
+                {
+                    "pk": 1671, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2003, 
+                        "name": "Ossie Clark Retrospective", 
+                        "date_end": "2004-12-31", 
+                        "museumobject_count": 2, 
+                        "venue": "Victoria and Albert Museum", 
+                        "date_start": "2003-01-01", 
+                        "year_end": 2004, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "ossie-clark-retrospective", 
+                        "date_text": "July2003-May2004"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 59, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "woman", 
+                        "museumobject_count": 3370, 
+                        "source": "object", 
+                        "cis_id": "x35642", 
+                        "museumobject_image_count": 2547, 
+                        "type": "", 
+                        "slug": "woman"
+                    }
+                }, 
+                {
+                    "pk": 7577, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Soldier (Guardsman)", 
+                        "museumobject_count": 8, 
+                        "source": "object", 
+                        "cis_id": "x35555", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "soldier-guardsman"
+                    }
+                }
+            ], 
+            "date_text": "1969 (photographed)\n2006 (printed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Colour fashion photograph showing a model wearing an Ossie Clark dress and lying in the arms of a Vietnam soldier. The camera used was a Nikon F with a 50mm lens which helped to convey a sense of naturalness.", 
+            "dimensions": "Height: 102 cm sheet, Width: 76 cm, Height: 94 cm image, Width: 76 cm", 
+            "title": "Ossie Clark Vietnam 1969", 
+            "date_start": "1969-01-01", 
+            "materials_techniques": "C-type colour photograph on resin-coated paper", 
+            "last_processed": "2014-04-01 01:09:44", 
+            "label": "", 
+            "event_text": "Vietnam war", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case 10, shelf EP 15, box 3", 
+            "marks": "'JIM'", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 119, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "c-type colour photography", 
+                        "museumobject_count": 96, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x35645", 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "c-type-colour-photography"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1274, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "resin-coated paper", 
+                        "museumobject_count": 8, 
+                        "source": "cis_materials", 
+                        "cis_id": "127378", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "resin-coated-paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 160105, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "3", 
+                        "case": "10", 
+                        "inventory_number": 965618, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.15-2006", 
+                        "museumobject": 95626, 
+                        "shelf": "EP 15", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e152006", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 31790, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Lee, Jim", 
+                        "gender": null, 
+                        "museumobject_count": 10, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A17456", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "lee-jim", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 31798, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Clark, Martin", 
+                        "gender": null, 
+                        "museumobject_count": 5, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A17870", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "clark-martin-17870", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 31792, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Clark, Ossie", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": null, 
+                        "source": "associated", 
+                        "cis_id": "N4950", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "clark-ossie-4950", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 31793, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Birtwell, Celia", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": null, 
+                        "source": "associated", 
+                        "cis_id": "N4951", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "birtwell-celia-4951", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 92575, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 95626, 
+                        "role": "printed", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e152006", 
+            "object": "Photograph", 
+            "categories": [
+                {
+                    "pk": 45, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Photographs", 
+                        "museumobject_count": 40941, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31503, 
+                        "type": "", 
+                        "slug": "photographs"
+                    }
+                }, 
+                {
+                    "pk": 60, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Fashion", 
+                        "museumobject_count": 43998, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31725, 
+                        "type": "", 
+                        "slug": "fashion"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:09:44", 
+            "public_access_description": "This image was taken for an Ossie Clark poster of a Celia Birtwell print. \nThis is one image from a series of five. The idea of this series was to show an American soldier in the Vietnam war who had been rescued by a peasant girl and then took advantage of her. This shot shows the moment where he is apparently enjoying himself: it looks like an attempted rape and the soldier holds a gun in his right hand. However, the photographer suggests that it is an ambiguous image as it looks like she may be enjoying herself too. Jim Lee's motivation behind this image was to comment on the American involvement in the Vietnam war and those soliders who were 'having fun smoking pot and not taking the war seriously.'", 
+            "exhibition_history": "Ossie Clark Retrospective (Victoria and Albert Museum 01/07/2003-31/05/2004)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "ossie-clark-vietnam-1969-photograph-lee-jim", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 59900, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31192, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }
+            ], 
+            "artist": "Lee, Jim", 
+            "namecontext_set": [
+                {
+                    "pk": 113780, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31790
+                    }, 
+                    "fields": {
+                        "name": 31790, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 95626, 
+                        "role": "photographer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 113781, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31798
+                    }, 
+                    "fields": {
+                        "name": 31798, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 95626, 
+                        "role": "printer", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 113782, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31792
+                    }, 
+                    "fields": {
+                        "name": 31792, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 95626, 
+                        "role": "associated", 
+                        "order": 301
+                    }
+                }, 
+                {
+                    "pk": 113783, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31793
+                    }, 
+                    "fields": {
+                        "name": 31793, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 95626, 
+                        "role": "associated", 
+                        "order": 302
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1969, 
+            "object_number": "O123216", 
+            "events": [
+                {
+                    "pk": 37, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "Vietnam war", 
+                        "date_end": null, 
+                        "museumobject_count": 43, 
+                        "year_end": null, 
+                        "source": "subject", 
+                        "cis_id": "V177", 
+                        "museumobject_image_count": 17, 
+                        "type": "", 
+                        "slug": "vietnam-war-v177"
+                    }
+                }
+            ], 
+            "credit": "Given by Jim Lee", 
+            "history_note": "This image was taken for an Ossie Clark poster of a Celia Birtwell print. \nThis is one image from a series of five. The idea of this series was to show an American soldier in the Vietnam war who had been rescued by a peasant girl and then him took advantage of her. This shot shows the moment where he is apparently enjoying himself, it looks like an attempted rape and the soldier holds a gun in his right hand, however it is an ambiguous image as it looks like she may be enjoying herself too. Jim Lee's motivation behind this image was to comment on the American involvement in the Vietnam war and those soldiers who were 'having fun smoking pot and not taking the war seriously.'\n\nHistorical significance: Jim Lee's motivation behind this image was the Vietnam war where he comments on the negative attitude some of the 'Yanks' had towards the Vietnamese people.", 
+            "place": "London", 
+            "production_note": "Printed from the original negatives by a student of the Royal College of Art, London.", 
+            "historical_context_note": "Jim Lee established himself as a leading international photographer based in London, Paris, Milan and New York, shooting for such clients as Valentino, Alexander McQueen, Versace and Yves Saint Laurent. His great breakthrough was meeting the diva of fashion editors, Anna Wintour, at that time the assistant fashion editor at Harpers and Queen, who he regularly collaborated with to produce some of his best work, which continued years later after they both moved to New York.\nCentral to his work is the concept of telling stories which he creates using casts of three or three hundred and extraordinary locations and props. He has recently re-emerged as an active photographer working on numerous magazine editorials with top fashion stylists.\n\nJim Lee recently moved seamlessly into directing TV commercials, his first film was for Levi\u2019s followed by several fashion and beauty commercials. In 2003/4 he had six photographs showing in the Ossie Clark retrospective at the Victoria and Albert Museum.\n\nsee also: http://www.jimleefilm.co.uk/", 
+            "collection_code": "PDP"
+        }
+    }
+]
