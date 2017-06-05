@@ -1,0 +1,318 @@
+[
+    {
+        "pk": 652191, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.557-1932", 
+            "date_end": "1932-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Exhibition, Frances Hodgkins, drawings'. Original brush drawing used as a poster, advertising an exhibition held at the Little Art Rooms, London. By Frances Hodgkins. Late 19th - early 20th century.", 
+            "shape": "", 
+            "longitude": "-0.12714000", 
+            "year_start": 1885, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 6185, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "exhibition", 
+                        "museumobject_count": 205, 
+                        "source": "concept", 
+                        "cis_id": "x37997", 
+                        "museumobject_image_count": 30, 
+                        "type": "", 
+                        "slug": "exhibition"
+                    }
+                }
+            ], 
+            "date_text": "late 19th century - early 20th century (printed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "'The Little Art Rooms. Exhibition, Frances Hodgkins, drawings'. Original brush drawing used as a poster, advertising an exhibition held at the Little Art Rooms, London.", 
+            "dimensions": "Height: 72.7 cm, Width: 51.1 cm", 
+            "title": "Exhibition, Frances Hodgkins, drawings", 
+            "date_start": "1885-01-01", 
+            "materials_techniques": "Brush drawing", 
+            "last_processed": "2014-04-26 16:46:05", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level E, case JJ, shelf 17", 
+            "marks": "", 
+            "latitude": "51.50632100", 
+            "techniques": [
+                {
+                    "pk": 388, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "brush drawing", 
+                        "museumobject_count": 11, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x35408", 
+                        "museumobject_image_count": 3, 
+                        "type": "", 
+                        "slug": "brush-drawing"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 787003, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 562
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "JJ", 
+                        "inventory_number": 1047125, 
+                        "room": "LVLE", 
+                        "part_name": "", 
+                        "museum_number": "E.557-1932", 
+                        "museumobject": 652191, 
+                        "shelf": "17", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level E", 
+                        "museum_number_token": "e5571932", 
+                        "gallery": 562
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 562, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLE", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level E", 
+                        "site_code": "VA", 
+                        "museumobject_count": 201138, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49657", 
+                        "museumobject_image_count": 46889, 
+                        "type": "", 
+                        "slug": "lvle-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 59508, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1947-12-31", 
+                        "surname": "", 
+                        "name": "Frances Hodgkins", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1947, 
+                        "source": "object_production", 
+                        "cis_id": "A37403", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1869-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "hodgkins-frances", 
+                        "birth_year": 1869
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 380400, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 7
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 652191, 
+                        "role": "issued", 
+                        "place": 7, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 380401, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 652191, 
+                        "role": "printed", 
+                        "place": 1, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e5571932", 
+            "object": "Poster", 
+            "categories": [
+                {
+                    "pk": 21, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Advertising", 
+                        "museumobject_count": 4972, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 783, 
+                        "type": "", 
+                        "slug": "advertising"
+                    }
+                }, 
+                {
+                    "pk": 25, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Entertainment & Leisure", 
+                        "museumobject_count": 48755, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31357, 
+                        "type": "", 
+                        "slug": "entertainment-leisure"
+                    }
+                }, 
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 1658, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Posters", 
+                        "museumobject_count": 12413, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1856, 
+                        "type": "", 
+                        "slug": "posters"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 16:46:05", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "<u>Summary Catalogue of British Posters to 1988 in the Victoria & Albert Museum in the Department of Design, Prints & Drawing</u>. Emmett Publishing, 1990. 129 p. ISBN: 1 869934 12 1\nThe full text of the entry is as follows: \n\n'<b>HODGKINS</b>, Frances (1869-1947) \nThe Little Art Rooms. Exhibition, Frances Hodgkins, drawings. Original drawing used as a poster, advertising an exhibition held at the Little Art Rooms, London. BD 72.7 x 51.1 cm \nE.557-1932  fiche 20/A5'", 
+            "vanda_exhibition_history": "", 
+            "slug": "exhibition-frances-hodgkins-drawings-poster-hodgkins-frances", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 7, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 171
+                    }, 
+                    "fields": {
+                        "name": "London", 
+                        "parent": 171, 
+                        "country": "England", 
+                        "museumobject_count": 60354, 
+                        "longitude": "-0.12714000", 
+                        "source": "production", 
+                        "cis_id": "x28980", 
+                        "museumobject_image_count": 31255, 
+                        "latitude": "51.50632100", 
+                        "type": "city / town", 
+                        "slug": "london-england-x28980"
+                    }
+                }, 
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Hodgkins, Frances", 
+            "namecontext_set": [
+                {
+                    "pk": 493470, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 59508
+                    }, 
+                    "fields": {
+                        "name": 59508, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 652191, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1932, 
+            "object_number": "O746383", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "London", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

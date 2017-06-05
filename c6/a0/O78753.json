@@ -1,0 +1,358 @@
+[
+    {
+        "pk": 46570, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "T.153-1986", 
+            "date_end": "1850-12-31", 
+            "labels": [
+                {
+                    "pk": 7471, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "27/03/2003", 
+                        "museumobject": 46570, 
+                        "label_text": "British Galleries:\nThis woven silk depicts Queen Victoria at the age of 27. As with most commercially produced images of the Queen, it was based on an existing official portrait. Royal commemorative ribbons were a lucrative trade at about this time and were made in every silk weaving centre of Europe."
+                    }
+                }
+            ], 
+            "descriptive_line": "Jacquard-woven silk ribbon with a portrait of the young Queen Victoria, made in Europe, ca. 1846", 
+            "shape": "", 
+            "longitude": "7.85784000", 
+            "year_start": 1841, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 4, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "flowers", 
+                        "museumobject_count": 11618, 
+                        "source": "object", 
+                        "cis_id": "x35571", 
+                        "museumobject_image_count": 9046, 
+                        "type": "", 
+                        "slug": "flowers"
+                    }
+                }, 
+                {
+                    "pk": 48070, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "portrait", 
+                        "museumobject_count": 1503, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 475, 
+                        "type": "", 
+                        "slug": "portrait"
+                    }
+                }, 
+                {
+                    "pk": 24419, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Victoria, Queen", 
+                        "museumobject_count": 313, 
+                        "source": "name", 
+                        "cis_id": "N834", 
+                        "museumobject_image_count": 61, 
+                        "type": "", 
+                        "slug": "victoria-queen"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1846 (made)", 
+            "primary_image_id": "2006AM5930", 
+            "rights": 3, 
+            "physical_description": "Jacquard-woven silk ribbon with a portrait of the young Queen Victoria in black and white surrounded by a wreath of emblematic flowers - roses, thistles, shamrocks and forget-me-nots. The edges are a pale lilac.", 
+            "dimensions": "Height: 35 cm, Width: 20.5 cm, Height: 13.625 in, Width: 7.75 in", 
+            "title": "", 
+            "date_start": "1841-01-01", 
+            "materials_techniques": "Jacquard-woven silk", 
+            "last_processed": "2014-03-31 21:47:30", 
+            "label": "British Galleries:\nThis woven silk depicts Queen Victoria at the age of 27. As with most commercially produced images of the Queen, it was based on an existing official portrait. Royal commemorative ribbons were a lucrative trade at about this time and were made in every silk weaving centre of Europe. [27/03/2003]", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 8, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "T&F", 
+                        "name": "Textiles and Fashion Collection", 
+                        "museumobject_count": 71437, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 14830, 
+                        "type": "", 
+                        "slug": "tf"
+                    }
+                }
+            ], 
+            "location": "British Galleries, room 123, case 1", 
+            "marks": "", 
+            "latitude": "52.97618100", 
+            "techniques": [
+                {
+                    "pk": 696, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "jacquard weaving", 
+                        "museumobject_count": 61, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x40508", 
+                        "museumobject_image_count": 16, 
+                        "type": "", 
+                        "slug": "jacquard-weaving"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 1745, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silk (textile)", 
+                        "museumobject_count": 8175, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1024, 
+                        "type": "", 
+                        "slug": "silk-textile"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 91619, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1000
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "1", 
+                        "inventory_number": 506519, 
+                        "room": "123", 
+                        "part_name": "", 
+                        "museum_number": "T.153-1986", 
+                        "museumobject": 46570, 
+                        "shelf": "", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "British Galleries, room 123", 
+                        "museum_number_token": "t1531986", 
+                        "gallery": 1000
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1000, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "123", 
+                        "site_name": "", 
+                        "name": "British Galleries, room 123", 
+                        "site_code": "VA", 
+                        "museumobject_count": 72, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49217", 
+                        "museumobject_image_count": 72, 
+                        "type": "", 
+                        "slug": "123-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 870, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1901-01-22", 
+                        "surname": "", 
+                        "name": "Queen Victoria", 
+                        "gender": null, 
+                        "museumobject_count": 345, 
+                        "death_year": 1901, 
+                        "source": "content", 
+                        "cis_id": "N834", 
+                        "museumobject_image_count": 68, 
+                        "forename": "", 
+                        "birth_date": "1819-05-19", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "victoria-queen", 
+                        "birth_year": 1819
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 44481, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 125
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 46570, 
+                        "role": "made", 
+                        "place": 125, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "t1531986", 
+            "object": "Ribbon", 
+            "categories": [
+                {
+                    "pk": 18, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Royalty", 
+                        "museumobject_count": 4106, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1829, 
+                        "type": "", 
+                        "slug": "royalty"
+                    }
+                }, 
+                {
+                    "pk": 23, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Textiles", 
+                        "museumobject_count": 48618, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10709, 
+                        "type": "", 
+                        "slug": "textiles"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 21:47:30", 
+            "public_access_description": "This commemorative woven silk ribbon was manufactured and sold as a collector's item or memento.The ribbon shows a young Queen Victoria. It has close similarities to the Franz Xavier Winterhalter portrait of The Royal Family in 1846, which shows Victoria, Prince Albert and five of their children ( Royal Collections).  However, a number of details are different, including  the reversal of her sash. This suggests that the ribbon was inspired by the painting or a published engraving, but not copied directly from it.\n\nWhen acquired by the Museum, the ribbon was said to have been made in Coventry, the centre of silk-ribbon weaving in Britain in the 19th century. However, there is no documented evidence for this. Other continental examples in the Museum collections show that this ribbon could have been produced in one of many of the silk weaving centres of Europe, specifically for consumption in Britain and the Empire. \n\nThe jacquard loom facilitated the weaving of complicated figurative designs for the first time.  From the 1830s, when the technique was widely adopted, woven silk commemorative ribbons, bookmarks and pictures became a specialised and lucrative trade.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "ribbon-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 6657, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2014-03-12 00:00:00", 
+                        "last_processed": "2014-03-31 17:09:38", 
+                        "priority": 0, 
+                        "image_id": "2006AM5930", 
+                        "sys_id": 115930, 
+                        "last_checked": "2014-03-31 17:09:38", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AM/2006AM5930.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 125, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": null
+                    }, 
+                    "fields": {
+                        "name": "Europe", 
+                        "parent": null, 
+                        "country": "", 
+                        "museumobject_count": 5012, 
+                        "longitude": "7.85784000", 
+                        "source": "production", 
+                        "cis_id": "x28842", 
+                        "museumobject_image_count": 1025, 
+                        "latitude": "52.97618100", 
+                        "type": "continent", 
+                        "slug": "europe-x28842"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 49937, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 46570, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 49938, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 870
+                    }, 
+                    "fields": {
+                        "name": 870, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 46570, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1850, 
+            "object_number": "O78753", 
+            "events": [], 
+            "credit": "Given by Miss Margaret Simeon", 
+            "history_note": "Registered File number 1986/1920. \nQueen Victoria's portrait is based on a painting of the royal family by Franz Xavier Winterhalter (1806-1873).", 
+            "place": "Europe", 
+            "production_note": "", 
+            "historical_context_note": "374-1864 is another example in the Museum and was produced for the 1862 International Exhibition by the firm Wahl & Socin of Basle, after an engraving by J. Baumann.", 
+            "collection_code": "T&F"
+        }
+    }
+]
