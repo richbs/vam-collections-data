@@ -1,0 +1,336 @@
+[
+    {
+        "pk": 960994, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "FA.653", 
+            "date_end": "1860-12-31", 
+            "labels": [], 
+            "descriptive_line": "Chalk drawing by Eyre Crowe entitled 'A dead stork on the bank of a stream'.  Great Britain, 1860.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1860, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 20, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "birds", 
+                        "museumobject_count": 2909, 
+                        "source": "object", 
+                        "cis_id": "x35043", 
+                        "museumobject_image_count": 2192, 
+                        "type": "", 
+                        "slug": "birds"
+                    }
+                }, 
+                {
+                    "pk": 24202, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Death", 
+                        "museumobject_count": 529, 
+                        "source": "name", 
+                        "cis_id": "N1975", 
+                        "museumobject_image_count": 325, 
+                        "type": "", 
+                        "slug": "death"
+                    }
+                }, 
+                {
+                    "pk": 25086, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "streams", 
+                        "museumobject_count": 51, 
+                        "source": "object", 
+                        "cis_id": "8699", 
+                        "museumobject_image_count": 24, 
+                        "type": "", 
+                        "slug": "streams"
+                    }
+                }, 
+                {
+                    "pk": 48170, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "stork", 
+                        "museumobject_count": 38, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 22, 
+                        "type": "", 
+                        "slug": "stork"
+                    }
+                }
+            ], 
+            "date_text": "1860 (drawn)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Chalk drawing of a dead stork on the bank of a stream.  Signed and dated by the artist.", 
+            "dimensions": "Height: 14.375 in, Width: 11.5 in", 
+            "title": "A dead stork on the bank of a stream; Study of a dead stork", 
+            "date_start": "1860-01-01", 
+            "materials_techniques": "Chalk drawing", 
+            "last_processed": "2014-04-27 00:18:08", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 62, box F", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 10, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawing", 
+                        "museumobject_count": 46828, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x32498", 
+                        "museumobject_image_count": 15122, 
+                        "type": "", 
+                        "slug": "drawing"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 92194, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44321, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }, 
+                {
+                    "pk": 155, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "chalk", 
+                        "museumobject_count": 1679, 
+                        "source": "cis_materials", 
+                        "cis_id": "x39202", 
+                        "museumobject_image_count": 321, 
+                        "type": "", 
+                        "slug": "chalk"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 1096268, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "F", 
+                        "case": "WD", 
+                        "inventory_number": 115513, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "FA.653", 
+                        "museumobject": 960994, 
+                        "shelf": "62", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "fa653", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128548, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10155, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 31996, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1910-12-31", 
+                        "surname": "", 
+                        "name": "Eyre Crowe", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": 1910, 
+                        "source": "object_production", 
+                        "cis_id": "A19332", 
+                        "museumobject_image_count": 4, 
+                        "forename": "", 
+                        "birth_date": "1824-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "crowe-eyre", 
+                        "birth_year": 1824
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 436472, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 960994, 
+                        "role": "drawn", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "fa653", 
+            "object": "Chalk drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 66654, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27443, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }, 
+                {
+                    "pk": 58, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Death", 
+                        "museumobject_count": 1599, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 715, 
+                        "type": "", 
+                        "slug": "death"
+                    }
+                }, 
+                {
+                    "pk": 1629, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Animals and Wildlife", 
+                        "museumobject_count": 1132, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 619, 
+                        "type": "", 
+                        "slug": "animals-and-wildlife"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-27 00:18:08", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "a-dead-stork-on-the-chalk-drawing-eyre-crowe", 
+            "sys_updated": "2013-08-23 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Eyre Crowe", 
+            "namecontext_set": [
+                {
+                    "pk": 567813, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 31996
+                    }, 
+                    "fields": {
+                        "name": 31996, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 960994, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1860, 
+            "object_number": "O1070549", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

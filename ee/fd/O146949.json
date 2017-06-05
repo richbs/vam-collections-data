@@ -1,0 +1,433 @@
+[
+    {
+        "pk": 115671, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "135-1866", 
+            "date_end": "1800-12-31", 
+            "labels": [], 
+            "descriptive_line": "Octagonal silver-gilt medallion on long filigree chain, Russia, 1700-1800.", 
+            "shape": "", 
+            "longitude": "108.83177900", 
+            "year_start": 1700, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23990, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Jesus Christ", 
+                        "museumobject_count": 1499, 
+                        "source": "name", 
+                        "cis_id": "N1515", 
+                        "museumobject_image_count": 1106, 
+                        "type": "", 
+                        "slug": "jesus-christ"
+                    }
+                }, 
+                {
+                    "pk": 48069, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "vernicle", 
+                        "museumobject_count": 7, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "vernicle"
+                    }
+                }
+            ], 
+            "date_text": "1700-1800 (made)", 
+            "primary_image_id": "2006AD3364", 
+            "rights": 3, 
+            "physical_description": "Chain of oval links, each with a frame of plain wire containing two flat hearts of filigree made from imitation twisted wire.  Links are joined to each other by single rings of plain wire.  A wedge-shaped terminal at each end, supporting a square bead with bevelled corners, with a portrait of Christ (the vernicle) on the front.  Pendant octagonal frame attached by a hinge to the bead and decorated on the front and sides with filigree coils, containing a cast crucifix.", 
+            "dimensions": "Length: 55.5 cm, Width: 4.0 cm, Depth: 1.1 cm", 
+            "title": "", 
+            "date_start": "1700-01-01", 
+            "materials_techniques": "Silver-gilt and filigree, the crucifix cast.", 
+            "last_processed": "2014-04-01 02:36:03", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91 mezzanine, case 77, shelf A, box 5", 
+            "marks": "", 
+            "latitude": "59.46147900", 
+            "techniques": [
+                {
+                    "pk": 34, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "engraving (incising)", 
+                        "museumobject_count": 1933, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53829", 
+                        "museumobject_image_count": 1013, 
+                        "type": "", 
+                        "slug": "engraving-incising"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "casting", 
+                        "museumobject_count": 1754, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53104", 
+                        "museumobject_image_count": 1088, 
+                        "type": "", 
+                        "slug": "casting"
+                    }
+                }, 
+                {
+                    "pk": 45, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "filigree", 
+                        "museumobject_count": 768, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x35885", 
+                        "museumobject_image_count": 270, 
+                        "type": "", 
+                        "slug": "filigree"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 70, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "silver-gilt", 
+                        "museumobject_count": 1099, 
+                        "source": "cis_materials", 
+                        "cis_id": "x30492", 
+                        "museumobject_image_count": 603, 
+                        "type": "", 
+                        "slug": "silver-gilt"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 184721, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1080
+                    }, 
+                    "fields": {
+                        "box": "5", 
+                        "case": "77", 
+                        "inventory_number": 245765, 
+                        "room": "91M", 
+                        "part_name": "", 
+                        "museum_number": "135-1866", 
+                        "museumobject": 115671, 
+                        "shelf": "A", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91 mezzanine", 
+                        "museum_number_token": "1351866", 
+                        "gallery": 1080
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1080, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91M", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91 mezzanine", 
+                        "site_code": "VA", 
+                        "museumobject_count": 904, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49137", 
+                        "museumobject_image_count": 895, 
+                        "type": "", 
+                        "slug": "91m-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 101, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "2037-12-31", 
+                        "surname": "", 
+                        "name": "Jesus Christ", 
+                        "gender": null, 
+                        "museumobject_count": 1505, 
+                        "death_year": 2037, 
+                        "source": "content", 
+                        "cis_id": "N1515", 
+                        "museumobject_image_count": 1112, 
+                        "forename": "", 
+                        "birth_date": "1996-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "jesus-christ", 
+                        "birth_year": 1996
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 113618, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 66
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 115671, 
+                        "role": "made", 
+                        "place": 66, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "1351866", 
+            "object": "Chain and pendant", 
+            "categories": [
+                {
+                    "pk": 16, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Metalwork", 
+                        "museumobject_count": 24729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10842, 
+                        "type": "", 
+                        "slug": "metalwork"
+                    }
+                }, 
+                {
+                    "pk": 26, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Religion", 
+                        "museumobject_count": 11675, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 8394, 
+                        "type": "", 
+                        "slug": "religion"
+                    }
+                }, 
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }, 
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:36:03", 
+            "public_access_description": "In the 17th century, Russian men and women of all ranks wore long chains of heavy silver filigree.  By the 19th century these chains had fallen out of fashion.  Only priests, and people who wore traditional dress, continued to use them.  It is impossible to date these chains accurately, as they remained unchanged for centuries, and are rarely marked.  \n\nSome chains were purely decorative, but most carried religious pendants. This chain has its original pendant, enclosing a figure of Christ on the cross in an octagonal filigree frame.  It hangs from a square bead with another image of Christ engraved on the front; the impression said to have been left on the veil of Veronica.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "chain-and-pendant-unknown", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [
+                {
+                    "pk": 36502, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2013-08-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:16:01", 
+                        "priority": 0, 
+                        "image_id": "2006AD3364", 
+                        "sys_id": 33364, 
+                        "last_checked": "2014-03-31 17:16:01", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006AD/2006AD3364.jpg"
+                    }
+                }, 
+                {
+                    "pk": 85604, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:40", 
+                        "priority": 1, 
+                        "image_id": "2006BJ2635", 
+                        "sys_id": 292635, 
+                        "last_checked": "2014-03-31 17:26:40", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ2635.jpg"
+                    }
+                }, 
+                {
+                    "pk": 85601, 
+                    "model": "collection.image", 
+                    "fields": {
+                        "sys_updated": "2012-10-13 00:00:00", 
+                        "last_processed": "2014-03-31 17:26:40", 
+                        "priority": 2, 
+                        "image_id": "2006BJ2632", 
+                        "sys_id": 292632, 
+                        "last_checked": "2014-03-31 17:26:40", 
+                        "size_bytes": null, 
+                        "local": "collection_images/2006BJ/2006BJ2632.jpg"
+                    }
+                }
+            ], 
+            "places": [
+                {
+                    "pk": 66, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Russia", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 616, 
+                        "longitude": "108.83177900", 
+                        "source": "production", 
+                        "cis_id": "x29110", 
+                        "museumobject_image_count": 231, 
+                        "latitude": "59.46147900", 
+                        "type": "country", 
+                        "slug": "russia-x29110"
+                    }
+                }
+            ], 
+            "artist": "unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 140232, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 115671, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 140233, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 101
+                    }, 
+                    "fields": {
+                        "name": 101, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 115671, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1800, 
+            "object_number": "O146949", 
+            "events": [
+                {
+                    "pk": 88, 
+                    "model": "collection.event", 
+                    "fields": {
+                        "date_start": null, 
+                        "year_start": null, 
+                        "name": "The Crucifixion", 
+                        "date_end": null, 
+                        "museumobject_count": 277, 
+                        "year_end": null, 
+                        "source": "subject", 
+                        "cis_id": "V106", 
+                        "museumobject_image_count": 225, 
+                        "type": "", 
+                        "slug": "the-crucifixion-v106"
+                    }
+                }
+            ], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Russia", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]
