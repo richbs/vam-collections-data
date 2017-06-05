@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 44169, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "M.55-2003", 
+            "date_end": "1985-12-31", 
+            "labels": [], 
+            "descriptive_line": "Brooch in the shape of a fish, encrusted with blue, white, green and purple paste stones, Andrew Logan, England, 1985", 
+            "shape": "", 
+            "longitude": "-1.97685000", 
+            "year_start": 1985, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 505, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fish", 
+                        "museumobject_count": 691, 
+                        "source": "object", 
+                        "cis_id": "x30068", 
+                        "museumobject_image_count": 491, 
+                        "type": "", 
+                        "slug": "fish"
+                    }
+                }
+            ], 
+            "date_text": "1985 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Brooch in the shape of a fish. The surface is encrusted with blue, white iridescent, green and purple paste stones, fragments of brown mirrored glass and tiny metallic turquoise discs of glitter. The pin at the back is a standard safety pin set in to the resin.", 
+            "dimensions": "Height: 3.8 cm, Length: 9 cm, Depth: 1.4 cm", 
+            "title": "", 
+            "date_start": "1985-01-01", 
+            "materials_techniques": "Mirrored glass and glitter set in resin", 
+            "last_processed": "2014-03-31 21:40:10", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 7, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "MET", 
+                        "name": "Metalwork Collection", 
+                        "museumobject_count": 33893, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 10443, 
+                        "type": "", 
+                        "slug": "met"
+                    }
+                }
+            ], 
+            "location": "Jewellery, room 91, case 38, shelf D, box 4", 
+            "marks": "'Andrew Logan'\n '85'\n 'AMW'", 
+            "latitude": "52.88328900", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 4, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "glass", 
+                        "museumobject_count": 2754, 
+                        "source": "cis_materials", 
+                        "cis_id": "10797", 
+                        "museumobject_image_count": 1489, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 478, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "resin", 
+                        "museumobject_count": 111, 
+                        "source": "cis_materials", 
+                        "cis_id": "12882", 
+                        "museumobject_image_count": 25, 
+                        "type": "", 
+                        "slug": "resin"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 88464, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 516
+                    }, 
+                    "fields": {
+                        "box": "4", 
+                        "case": "38", 
+                        "inventory_number": 707048, 
+                        "room": "91", 
+                        "part_name": "", 
+                        "museum_number": "M.55-2003", 
+                        "museumobject": 44169, 
+                        "shelf": "D", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Jewellery, room 91", 
+                        "museum_number_token": "m552003", 
+                        "gallery": 516
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 516, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "91", 
+                        "site_name": "", 
+                        "name": "Jewellery, room 91", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1958, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49703", 
+                        "museumobject_image_count": 1899, 
+                        "type": "", 
+                        "slug": "91-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 8342, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Logan, Andrew", 
+                        "gender": null, 
+                        "museumobject_count": 7, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A11023", 
+                        "museumobject_image_count": 7, 
+                        "forename": "", 
+                        "birth_date": "1945-10-11", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "logan-andrew", 
+                        "birth_year": 1945
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 42061, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 8
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 44169, 
+                        "role": "made", 
+                        "place": 8, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "m552003", 
+            "object": "Brooch", 
+            "categories": [
+                {
+                    "pk": 53, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Jewellery", 
+                        "museumobject_count": 8538, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 5070, 
+                        "type": "", 
+                        "slug": "jewellery"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 21:40:10", 
+            "public_access_description": "Andrew Logan's creative energy has found many outlets across the realms of sculpture, interior design, fashion and performance art. He has been making jewellery since 1972, achieving dramatic, flamboyant effects by combining the simple, inexpensive materials of mirrored glass fragments and resin.  Logan studied at the Oxford School of Architecture. He has since been involved in the fashion world, theatre design, installations and portrait sculpture. In 1991 he opened the Andrew Logan Museum of Sculpture, a museum dedicated to his work, in Berriew, Powys, Wales.\n  \nIn the foreword of his 1998 catalogue he  explains the significance of mirrors: \u201cThe mirror of the universe has been my life for thirty years. It has an energy like no other material. The humble grain of sand transforms to glamorous glass. I have played with mirrors to create monuments, mobiles, portraits, wall pieces and jewellery. My \u2018Artistic Adventure\u2019 is to create a world of \u2018Magic Moments\u2019.\u201d \n\nThis particular brooch commemorates Andrew Logan's 6th Alternative Miss World competition which had the theme of Water, and it was given by him to one of the organisers of the event.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "brooch-logan-andrew", 
+            "sys_updated": "2013-08-17 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 8, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 1
+                    }, 
+                    "fields": {
+                        "name": "England", 
+                        "parent": 1, 
+                        "country": "Britain", 
+                        "museumobject_count": 44583, 
+                        "longitude": "-1.97685000", 
+                        "source": "production", 
+                        "cis_id": "x28826", 
+                        "museumobject_image_count": 13403, 
+                        "latitude": "52.88328900", 
+                        "type": "country", 
+                        "slug": "england-britain-x28826"
+                    }
+                }
+            ], 
+            "artist": "Logan, Andrew", 
+            "namecontext_set": [
+                {
+                    "pk": 47276, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 8342
+                    }, 
+                    "fields": {
+                        "name": 8342, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 44169, 
+                        "role": "designer and maker", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1985, 
+            "object_number": "O87311", 
+            "events": [], 
+            "credit": "Given by Janine du Plessis", 
+            "history_note": "The brooch was given to the donor by Andrew Logan following the 6th Alternative Miss World competition (1985) which she had helped to organise. The theme of the event was Water.", 
+            "place": "England", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "MET"
+        }
+    }
+]

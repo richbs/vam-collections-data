@@ -1,0 +1,270 @@
+[
+    {
+        "pk": 92552, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.731-2005", 
+            "date_end": "1994-12-31", 
+            "labels": [], 
+            "descriptive_line": "\"Communism's Last Breath\", souvenir container with printed paper label, Hungary, ca. 1990", 
+            "shape": "", 
+            "longitude": "19.50495900", 
+            "year_start": 1985, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24949, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "communism", 
+                        "museumobject_count": 120, 
+                        "source": "concept", 
+                        "cis_id": "55519", 
+                        "museumobject_image_count": 31, 
+                        "type": "", 
+                        "slug": "communism"
+                    }
+                }, 
+                {
+                    "pk": 30560, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "souvenirs", 
+                        "museumobject_count": 4, 
+                        "source": "object", 
+                        "cis_id": "28886", 
+                        "museumobject_image_count": 1, 
+                        "type": "", 
+                        "slug": "souvenirs"
+                    }
+                }
+            ], 
+            "date_text": "ca. 1990 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "A small round aluminium container with a lid, covered in cream-coloured paper with red text.  The lettering is in Roman characters, but in a the style of Cyrillic letters. The design also references a graphic style associated with the former Soviet Union and utilises Communism\u2019s hammer and sickle motif.", 
+            "dimensions": "Height: 3.8 cm, Circumference: 5.4 cm", 
+            "title": "Communism's Last Breath", 
+            "date_start": "1985-01-01", 
+            "materials_techniques": "Aluminium with printed paper", 
+            "last_processed": "2014-04-01 00:55:51", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level C, case MB2A, shelf SH35, box GG160", 
+            "marks": "", 
+            "latitude": "47.16116000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 261, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "aluminium", 
+                        "museumobject_count": 197, 
+                        "source": "cis_materials", 
+                        "cis_id": "11015", 
+                        "museumobject_image_count": 88, 
+                        "type": "", 
+                        "slug": "aluminium"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 156249, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 1046
+                    }, 
+                    "fields": {
+                        "box": "GG160", 
+                        "case": "MB2A", 
+                        "inventory_number": 746487, 
+                        "room": "LVLC", 
+                        "part_name": "", 
+                        "museum_number": "E.731-2005", 
+                        "museumobject": 92552, 
+                        "shelf": "SH35", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level C", 
+                        "museum_number_token": "e7312005", 
+                        "gallery": 1046
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 1046, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLC", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level C", 
+                        "site_code": "VA", 
+                        "museumobject_count": 130892, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49171", 
+                        "museumobject_image_count": 26144, 
+                        "type": "", 
+                        "slug": "lvlc-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 89490, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 25
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 92552, 
+                        "role": "made", 
+                        "place": 25, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e7312005", 
+            "object": "Container", 
+            "categories": [
+                {
+                    "pk": 3, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Containers", 
+                        "museumobject_count": 4829, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 2686, 
+                        "type": "", 
+                        "slug": "containers"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 125512, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 28613, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 00:55:51", 
+            "public_access_description": "This tin, metaphorically containing \u2018Communism\u2019s last breath\u2019, canned in Hungary, is a humorous example of ephemera relating to an historical event. This genre of material is often produced in association with events such as royal weddings and the like. More recently the souvenir industry has produced objects commemorating other social and political events, the September 11th attacks in New York City, for example\n\nThe lettering on the can is in Roman characters, but in a the style of Cyrillic letters, in reference to the former USSR and Communism in eastern Europe. The design also references a graphic style associated with the former Soviet Union and utilises Communism\u2019s customary hammer and sickle motif.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "communisms-last-breath-container-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 25, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 125
+                    }, 
+                    "fields": {
+                        "name": "Hungary", 
+                        "parent": 125, 
+                        "country": "", 
+                        "museumobject_count": 306, 
+                        "longitude": "19.50495900", 
+                        "source": "production", 
+                        "cis_id": "x28910", 
+                        "museumobject_image_count": 134, 
+                        "latitude": "47.16116000", 
+                        "type": "country", 
+                        "slug": "hungary-x28910"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 109874, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 92552, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1994, 
+            "object_number": "O119419", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Hungary", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
