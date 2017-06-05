@@ -1,0 +1,280 @@
+[
+    {
+        "pk": 57445, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.68-2000", 
+            "date_end": "1993-12-31", 
+            "labels": [], 
+            "descriptive_line": "Two dimensional CAD print out of four elevations and contoured plan with dimension measurements for OZ refrigerator, Zannussi 1993.", 
+            "shape": "", 
+            "longitude": "12.64463000", 
+            "year_start": 1993, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 28260, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "refrigerator", 
+                        "museumobject_count": 48, 
+                        "source": "object", 
+                        "cis_id": "215748", 
+                        "museumobject_image_count": 7, 
+                        "type": "", 
+                        "slug": "refrigerator"
+                    }
+                }
+            ], 
+            "date_text": "1993 (designed)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Two dimensional CAD drawings, four elevational and one contoured plan drawings with measurements for construction.", 
+            "dimensions": "Height: 29.7 cm, Width: 42 cm", 
+            "title": "", 
+            "date_start": "1993-01-01", 
+            "materials_techniques": "CAD (Computer Aided Design) print out", 
+            "last_processed": "2014-03-31 22:23:04", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "Design", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case EDUC, shelf 10", 
+            "marks": "dimension measurements", 
+            "latitude": "45.96489000", 
+            "techniques": [], 
+            "materials": [
+                {
+                    "pk": 16, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "paper", 
+                        "museumobject_count": 91560, 
+                        "source": "cis_materials", 
+                        "cis_id": "14177", 
+                        "museumobject_image_count": 44618, 
+                        "type": "", 
+                        "slug": "paper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [], 
+            "inventory_set": [
+                {
+                    "pk": 106518, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "EDUC", 
+                        "inventory_number": 689402, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.68-2000", 
+                        "museumobject": 57445, 
+                        "shelf": "10", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e682000", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 10385, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Pezzetta", 
+                        "gender": null, 
+                        "museumobject_count": 49, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A5869", 
+                        "museumobject_image_count": 5, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "pezzetta-roberto", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 10384, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Zanussi", 
+                        "gender": null, 
+                        "museumobject_count": 63, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A5868", 
+                        "museumobject_image_count": 8, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "organisation", 
+                        "slug": "zanussi", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 53412, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 2519
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 57445, 
+                        "role": "designed", 
+                        "place": 2519, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e682000", 
+            "object": "Design", 
+            "categories": [
+                {
+                    "pk": 39, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Designs", 
+                        "museumobject_count": 72651, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 36440, 
+                        "type": "", 
+                        "slug": "designs"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 22:23:04", 
+            "public_access_description": "This is a printout of a CAD (Computer Aided Design) drawing. It is one of those used in the design process for the 'OZ' refrigerator. This was designed in 1998 by the Zanussi design studio in Pordenone, Italy. Roberto Pezzetta headed the studio. This and the other printouts are significant for showing the different stages of the design process of the Zanussi studio. Crucially, they also demonstrate the increased use of CAD in product design in the 1990s.", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "design-pezzetta-roberto", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 2519, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 3357
+                    }, 
+                    "fields": {
+                        "name": "Pordenone", 
+                        "parent": 3357, 
+                        "country": "Italy", 
+                        "museumobject_count": 1, 
+                        "longitude": "12.64463000", 
+                        "source": "production", 
+                        "cis_id": "x38048", 
+                        "museumobject_image_count": 1, 
+                        "latitude": "45.96489000", 
+                        "type": "administrative district", 
+                        "slug": "pordenone-italy-x38048"
+                    }
+                }
+            ], 
+            "artist": "Pezzetta, Roberto", 
+            "namecontext_set": [
+                {
+                    "pk": 62326, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10385
+                    }, 
+                    "fields": {
+                        "name": 10385, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 57445, 
+                        "role": "designer", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 62327, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 10384
+                    }, 
+                    "fields": {
+                        "name": 10384, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 57445, 
+                        "role": "design studio", 
+                        "order": 101
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1993, 
+            "object_number": "O63552", 
+            "events": [], 
+            "credit": "Given by Electrolux Zanussi Elettrodometici Spa", 
+            "history_note": "CAD print out of working design drawing for the OZ refrigerator designed in 1993 by the Electrolux-Zanussi design studio headed by Roberto Pezzetta in Podenone, Italy.", 
+            "place": "Pordenone", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
