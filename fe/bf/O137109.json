@@ -1,0 +1,307 @@
+[
+    {
+        "pk": 107382, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "E.2573-2007", 
+            "date_end": "2005-12-31", 
+            "labels": [], 
+            "descriptive_line": "'Caves II', eight black and white drawings of cave interiors, by Gerald Davies, 2005", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 2005, 
+            "exhibitions": [
+                {
+                    "pk": 9, 
+                    "model": "collection.exhibition", 
+                    "fields": {
+                        "va": true, 
+                        "venue_id": 3, 
+                        "year_start": 2003, 
+                        "name": "Contemporary Drawings", 
+                        "date_end": "2009-07-30", 
+                        "museumobject_count": 23, 
+                        "venue": "V&A", 
+                        "date_start": "2003-07-01", 
+                        "year_end": 2009, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 23, 
+                        "type": "", 
+                        "slug": "contemporary-drawings", 
+                        "date_text": "7 March - 30 July 2009"
+                    }
+                }
+            ], 
+            "subjects": [
+                {
+                    "pk": 25469, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "caves", 
+                        "museumobject_count": 93, 
+                        "source": "object", 
+                        "cis_id": "8746", 
+                        "museumobject_image_count": 53, 
+                        "type": "", 
+                        "slug": "caves"
+                    }
+                }
+            ], 
+            "date_text": "2005 (made)", 
+            "primary_image_id": "", 
+            "rights": 2, 
+            "physical_description": "Sheet is divided into eight equal sections. In each section is a black and white drawing of a cave interior.", 
+            "dimensions": "Height: 20.8 cm, Width: 14.8 cm", 
+            "title": "Caves II", 
+            "date_start": "2005-01-01", 
+            "materials_techniques": "Brush, ink and bodycolour", 
+            "last_processed": "2014-04-01 02:00:29", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level F, case WD, shelf 214, box A", 
+            "marks": "", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 23, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "drawn", 
+                        "museumobject_count": 3218, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30545", 
+                        "museumobject_image_count": 2292, 
+                        "type": "", 
+                        "slug": "drawn"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 39, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "ink", 
+                        "museumobject_count": 22898, 
+                        "source": "cis_materials", 
+                        "cis_id": "187371", 
+                        "museumobject_image_count": 13758, 
+                        "type": "", 
+                        "slug": "ink"
+                    }
+                }, 
+                {
+                    "pk": 58, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "bodycolour", 
+                        "museumobject_count": 3701, 
+                        "source": "cis_materials", 
+                        "cis_id": "x34671", 
+                        "museumobject_image_count": 282, 
+                        "type": "", 
+                        "slug": "bodycolour"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 9, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British", 
+                        "museumobject_count": 673, 
+                        "source": "cis_style_period", 
+                        "cis_id": "111159", 
+                        "museumobject_image_count": 220, 
+                        "type": "", 
+                        "slug": "british"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 174286, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 563
+                    }, 
+                    "fields": {
+                        "box": "A", 
+                        "case": "WD", 
+                        "inventory_number": 1332510, 
+                        "room": "LVLF", 
+                        "part_name": "", 
+                        "museum_number": "E.2573-2007", 
+                        "museumobject": 107382, 
+                        "shelf": "214", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level F", 
+                        "museum_number_token": "e25732007", 
+                        "gallery": 563
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 563, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLF", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level F", 
+                        "site_code": "VA", 
+                        "museumobject_count": 128586, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49656", 
+                        "museumobject_image_count": 10149, 
+                        "type": "", 
+                        "slug": "lvlf-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 33540, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Davies, Gerald", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A19674", 
+                        "museumobject_image_count": 1, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "davies-gerald", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 105061, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 107382, 
+                        "role": "made", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "e25732007", 
+            "object": "Drawing", 
+            "categories": [
+                {
+                    "pk": 36, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Drawings", 
+                        "museumobject_count": 65910, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 27195, 
+                        "type": "", 
+                        "slug": "drawings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 02:00:29", 
+            "public_access_description": "In describing his experiences of sketching underground, Gerald Davies has written: 'The caves series arose through research in the Turner archive on how artists use sketch books.  I stumbled on 16 or so pages in his Yorkshire notebook of cave drawings.  These included drawings of , among others,Yordas and Douk Caves. It happens that Yordas is behind my house.  I drew there to try to understand why Turner's language in those drawings was so powerfully expressive and erratic.  After many drawing visits I thought it wasn't only the compromise of darkness but discomfort, doubt and maybe fear.\n\n'For a year or so after I went, with a cave leader, down some of the most spectacular pot holes in the Yorkshire Dales.  He would guide me to a safe cavern or ledge, clip me into ropes and safety gear and leave me to draw for an hour or so.  In the notebook I would do my best to catch the facts of the place- often very difficult to understand- and try to communicate the sheer \"otherness\" of  being out of ones natural environment, I imagine it's  like outer space or undersea in that we are poorly adapted to the conditions and even a small mistake could be fateful- its a feeling of fearful sublime, a little bit John Martin!\n\n'The V&A drawing is composed of several small 'cave' drawings each made on a \"stock\" business card. They are done in the studio, or at the kitchen table and individually they represent remembered moments whilst moving through the squeezes, down the drops and in the tunnels.  They are snapshot memories of when headtorch falls onto rock, wall, opening. After each trip I made a small pile to complement the on site sketchbook drawings, I think there are about 60-75 of them in all.'", 
+            "exhibition_history": "Contemporary Drawings (Victoria and Albert Museum 01/07/2003-30/07/2009)", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "caves-ii-drawing-davies-gerald", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55035, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8259, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Davies, Gerald", 
+            "namecontext_set": [
+                {
+                    "pk": 128293, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 33540
+                    }, 
+                    "fields": {
+                        "name": 33540, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 107382, 
+                        "role": "artist", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 2005, 
+            "object_number": "O137109", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "This drawing is part of the '40 Artists - 40 Drawings' series acquired as a group in 2007", 
+            "place": "Great Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]

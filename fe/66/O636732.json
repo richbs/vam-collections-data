@@ -1,0 +1,382 @@
+[
+    {
+        "pk": 550095, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "24641", 
+            "date_end": "1841-12-31", 
+            "labels": [], 
+            "descriptive_line": "Print, whole-length portrait of Lady Margaret Douglas, Countess of Lennox, stipple engraving by Joseph Brown after Francis Ross, 1841.", 
+            "shape": "", 
+            "longitude": "-2.23218000", 
+            "year_start": 1841, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 24044, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "dog", 
+                        "museumobject_count": 720, 
+                        "source": "object", 
+                        "cis_id": "24149", 
+                        "museumobject_image_count": 498, 
+                        "type": "", 
+                        "slug": "dog"
+                    }
+                }, 
+                {
+                    "pk": 27077, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "fur", 
+                        "museumobject_count": 67, 
+                        "source": "object", 
+                        "cis_id": "11811", 
+                        "museumobject_image_count": 19, 
+                        "type": "", 
+                        "slug": "fur"
+                    }
+                }, 
+                {
+                    "pk": 48173, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "ruff", 
+                        "museumobject_count": 61, 
+                        "source": "other", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 47, 
+                        "type": "", 
+                        "slug": "ruff"
+                    }
+                }, 
+                {
+                    "pk": 51805, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Lady Margaret Douglas", 
+                        "museumobject_count": 3, 
+                        "source": "name", 
+                        "cis_id": "AUTH316340", 
+                        "museumobject_image_count": 0, 
+                        "type": "", 
+                        "slug": "lady-margaret-douglas"
+                    }
+                }
+            ], 
+            "date_text": "1841 (printed)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Print, whole-length portrait of a woman, turned to front, resting her right hand on a table, standing and wearing a dark dress trimmed with fur; a dog plays at her feet; on the table is a model.", 
+            "dimensions": "Height: 32.9 cm, Width: 22.9 cm", 
+            "title": "Margaret, Countess of Lennox", 
+            "date_start": "1841-01-01", 
+            "materials_techniques": "Stipple engraving", 
+            "last_processed": "2014-04-26 13:36:30", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 727886, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137552, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, level D, case PP, shelf 21", 
+            "marks": "'Margaret, Countess of Lennox.   Engraved for the Granger Society by Mr. J. Brown from a copy by Mr. Francis Ross, of the original Picture in the Royal Collection at Hampton Court.  Printed by McQueen.'", 
+            "latitude": "54.31391900", 
+            "techniques": [
+                {
+                    "pk": 275, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "stipple engraving", 
+                        "museumobject_count": 1028, 
+                        "source": "cis_techniques", 
+                        "cis_id": "53239", 
+                        "museumobject_image_count": 631, 
+                        "type": "", 
+                        "slug": "stipple-engraving"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 13, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "British School", 
+                        "museumobject_count": 4663, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x30967", 
+                        "museumobject_image_count": 2733, 
+                        "type": "", 
+                        "slug": "british-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 684610, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 561
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "PP", 
+                        "inventory_number": 1171946, 
+                        "room": "LVLD", 
+                        "part_name": "", 
+                        "museum_number": "24641", 
+                        "museumobject": 550095, 
+                        "shelf": "21", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, level D", 
+                        "museum_number_token": "24641", 
+                        "gallery": 561
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 561, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "LVLD", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, level D", 
+                        "site_code": "VA", 
+                        "museumobject_count": 125995, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49658", 
+                        "museumobject_image_count": 30779, 
+                        "type": "", 
+                        "slug": "lvld-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 39856, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Joseph Brown", 
+                        "gender": null, 
+                        "museumobject_count": 20, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A26684", 
+                        "museumobject_image_count": 6, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "brown-j", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 74135, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Francis Ross", 
+                        "gender": null, 
+                        "museumobject_count": 1, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "AUTH316840", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "francis-ross", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 73741, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "1578-12-31", 
+                        "surname": "", 
+                        "name": "Lady Margaret Douglas", 
+                        "gender": null, 
+                        "museumobject_count": 3, 
+                        "death_year": 1578, 
+                        "source": "content", 
+                        "cis_id": "AUTH316340", 
+                        "museumobject_image_count": 0, 
+                        "forename": "", 
+                        "birth_date": "1515-01-01", 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "lady-margaret-douglas", 
+                        "birth_year": 1515
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 340975, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 1
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 550095, 
+                        "role": "printed", 
+                        "place": 1, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "24641", 
+            "object": "Print", 
+            "categories": [
+                {
+                    "pk": 17, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Portraits", 
+                        "museumobject_count": 30232, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 17093, 
+                        "type": "", 
+                        "slug": "portraits"
+                    }
+                }, 
+                {
+                    "pk": 20, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Prints", 
+                        "museumobject_count": 126663, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 29030, 
+                        "type": "", 
+                        "slug": "prints"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-26 13:36:30", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "margaret-countess-of-lennox-print-joseph-brown", 
+            "sys_updated": "2013-08-24 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 1, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 21
+                    }, 
+                    "fields": {
+                        "name": "Great Britain", 
+                        "parent": 21, 
+                        "country": "United Kingdom", 
+                        "museumobject_count": 55890, 
+                        "longitude": "-2.23218000", 
+                        "source": "production", 
+                        "cis_id": "x32019", 
+                        "museumobject_image_count": 8368, 
+                        "latitude": "54.31391900", 
+                        "type": "country", 
+                        "slug": "great-britain-united-kingdom-x32019"
+                    }
+                }
+            ], 
+            "artist": "Joseph Brown", 
+            "namecontext_set": [
+                {
+                    "pk": 443329, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 39856
+                    }, 
+                    "fields": {
+                        "name": 39856, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 550095, 
+                        "role": "engraver", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 443330, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 74135
+                    }, 
+                    "fields": {
+                        "name": 74135, 
+                        "part_name": "", 
+                        "uncertainty": "after", 
+                        "museumobject": 550095, 
+                        "role": "artist", 
+                        "order": 2
+                    }
+                }, 
+                {
+                    "pk": 443331, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 73741
+                    }, 
+                    "fields": {
+                        "name": 73741, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 550095, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1841, 
+            "object_number": "O636732", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Britain", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
