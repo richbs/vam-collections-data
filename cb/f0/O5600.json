@@ -1,0 +1,301 @@
+[
+    {
+        "pk": 7047, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.702-1936", 
+            "date_end": null, 
+            "labels": [
+                {
+                    "pk": 2069, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 7047, 
+                        "label_text": "Excavated from Tel-el-Amarna, the city of Amenhoteb IV (1353-1335 BC)"
+                    }
+                }
+            ], 
+            "descriptive_line": "Fragment, glass, Egypt, 1353 BC to 1335 BC", 
+            "shape": "", 
+            "longitude": "30.24646900", 
+            "year_start": -1353, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "1353 BC-1335 BC (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Core-formed glass fragment.", 
+            "dimensions": "", 
+            "title": "", 
+            "date_start": null, 
+            "materials_techniques": "Core-formed glass", 
+            "last_processed": "2014-03-31 19:11:49", 
+            "label": "Excavated from Tel-el-Amarna, the city of Amenhoteb IV (1353-1335 BC)", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 86, shelf 1", 
+            "marks": "", 
+            "latitude": "26.69636000", 
+            "techniques": [], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 25, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "ancient", 
+                        "museumobject_count": 1363, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29280", 
+                        "museumobject_image_count": 62, 
+                        "type": "", 
+                        "slug": "ancient"
+                    }
+                }, 
+                {
+                    "pk": 533, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Eighteenth Dynasty", 
+                        "museumobject_count": 80, 
+                        "source": "cis_style_period", 
+                        "cis_id": "20355", 
+                        "museumobject_image_count": 4, 
+                        "type": "", 
+                        "slug": "eighteenth-dynasty"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 8186, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "86", 
+                        "inventory_number": 360326, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.702-1936", 
+                        "museumobject": 7047, 
+                        "shelf": "1", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c7021936", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 7735, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 49
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 7047, 
+                        "role": "made", 
+                        "place": 49, 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 7736, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 389
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 7047, 
+                        "role": "excavated", 
+                        "place": 389, 
+                        "order": 2
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c7021936", 
+            "object": "Fragment", 
+            "categories": [
+                {
+                    "pk": 9, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Glass", 
+                        "museumobject_count": 5470, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 1467, 
+                        "type": "", 
+                        "slug": "glass"
+                    }
+                }, 
+                {
+                    "pk": 38, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Africa", 
+                        "museumobject_count": 2519, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 741, 
+                        "type": "", 
+                        "slug": "africa"
+                    }
+                }
+            ], 
+            "last_checked": "2014-03-31 19:11:49", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "fragment-unknown", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 49, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 612
+                    }, 
+                    "fields": {
+                        "name": "Egypt", 
+                        "parent": 612, 
+                        "country": "", 
+                        "museumobject_count": 4520, 
+                        "longitude": "30.24646900", 
+                        "source": "production", 
+                        "cis_id": "x29512", 
+                        "museumobject_image_count": 1608, 
+                        "latitude": "26.69636000", 
+                        "type": "country", 
+                        "slug": "egypt-x29512"
+                    }
+                }, 
+                {
+                    "pk": 389, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 2639
+                    }, 
+                    "fields": {
+                        "name": "Tel-el-Amarna", 
+                        "parent": 2639, 
+                        "country": "Egypt", 
+                        "museumobject_count": 17, 
+                        "longitude": "30.75000000", 
+                        "source": "production", 
+                        "cis_id": "x38267", 
+                        "museumobject_image_count": 1, 
+                        "latitude": "29.23329900", 
+                        "type": "site", 
+                        "slug": "tel-el-amarna-egypt-x38267"
+                    }
+                }
+            ], 
+            "artist": "Unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 5742, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 7047, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": -1335, 
+            "object_number": "O5600", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Egypt", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]

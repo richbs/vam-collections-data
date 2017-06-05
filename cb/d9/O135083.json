@@ -1,0 +1,432 @@
+[
+    {
+        "pk": 105607, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "1160-1864", 
+            "date_end": "1850-12-31", 
+            "labels": [], 
+            "descriptive_line": "Icon of the Vision of St Sergei of Radonezh, Russian School, early 19th century", 
+            "shape": "", 
+            "longitude": "108.83177900", 
+            "year_start": 1800, 
+            "exhibitions": [], 
+            "subjects": [
+                {
+                    "pk": 23989, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Mary (Virgin Mary)", 
+                        "museumobject_count": 1380, 
+                        "source": "name", 
+                        "cis_id": "N480", 
+                        "museumobject_image_count": 1066, 
+                        "type": "", 
+                        "slug": "mary-virgin-mary"
+                    }
+                }, 
+                {
+                    "pk": 24404, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "Peter (Saint)", 
+                        "museumobject_count": 178, 
+                        "source": "name", 
+                        "cis_id": "N400", 
+                        "museumobject_image_count": 128, 
+                        "type": "", 
+                        "slug": "peter-saint"
+                    }
+                }, 
+                {
+                    "pk": 26049, 
+                    "model": "collection.subject", 
+                    "fields": {
+                        "name": "St. John", 
+                        "museumobject_count": 70, 
+                        "source": "name", 
+                        "cis_id": "N828", 
+                        "museumobject_image_count": 40, 
+                        "type": "", 
+                        "slug": "st-john"
+                    }
+                }
+            ], 
+            "date_text": "early 19th century (painted)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "", 
+            "dimensions": "Height: 12.25 in approx., Width: 10.375 in approx.", 
+            "title": "Icon of the Vision of St Sergei of Radonezh", 
+            "date_start": "1800-01-01", 
+            "materials_techniques": "Tempera on panel", 
+            "last_processed": "2014-04-01 01:54:08", 
+            "label": "", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 1, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "PDP", 
+                        "name": "Prints, Drawings and Paintings Collection", 
+                        "museumobject_count": 726097, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 137404, 
+                        "type": "", 
+                        "slug": "pdp"
+                    }
+                }
+            ], 
+            "location": "Prints & Drawings Study Room, room WS, case R, shelf 53, box L", 
+            "marks": "", 
+            "latitude": "59.46147900", 
+            "techniques": [
+                {
+                    "pk": 11, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "painting", 
+                        "museumobject_count": 12741, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x30598", 
+                        "museumobject_image_count": 7091, 
+                        "type": "", 
+                        "slug": "painting"
+                    }
+                }
+            ], 
+            "materials": [
+                {
+                    "pk": 65, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "panel", 
+                        "museumobject_count": 427, 
+                        "source": "cis_materials", 
+                        "cis_id": "14657", 
+                        "museumobject_image_count": 405, 
+                        "type": "", 
+                        "slug": "panel"
+                    }
+                }, 
+                {
+                    "pk": 356, 
+                    "model": "collection.material", 
+                    "fields": {
+                        "name": "distemper", 
+                        "museumobject_count": 236, 
+                        "source": "cis_materials", 
+                        "cis_id": "15035", 
+                        "museumobject_image_count": 110, 
+                        "type": "", 
+                        "slug": "distemper"
+                    }
+                }
+            ], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 249, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "Russian School", 
+                        "museumobject_count": 17, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x31821", 
+                        "museumobject_image_count": 15, 
+                        "type": "", 
+                        "slug": "russian-school"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 172339, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 616
+                    }, 
+                    "fields": {
+                        "box": "L", 
+                        "case": "R", 
+                        "inventory_number": 430478, 
+                        "room": "WS", 
+                        "part_name": "", 
+                        "museum_number": "1160-1864", 
+                        "museumobject": 105607, 
+                        "shelf": "53", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Prints & Drawings Study Room, room WS", 
+                        "museum_number_token": "11601864", 
+                        "gallery": 616
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 616, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "WS", 
+                        "site_name": "", 
+                        "name": "Prints & Drawings Study Room, room WS", 
+                        "site_code": "VA", 
+                        "museumobject_count": 1379, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49603", 
+                        "museumobject_image_count": 329, 
+                        "type": "", 
+                        "slug": "ws-va"
+                    }
+                }
+            ], 
+            "names": [
+                {
+                    "pk": 3, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "unknown", 
+                        "gender": null, 
+                        "museumobject_count": 142322, 
+                        "death_year": null, 
+                        "source": "object_production", 
+                        "cis_id": "A1848", 
+                        "museumobject_image_count": 58743, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "unknown", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 100, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "Virgin", 
+                        "gender": null, 
+                        "museumobject_count": 1390, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N480", 
+                        "museumobject_image_count": 1075, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "mary-virgin-mary", 
+                        "birth_year": null
+                    }
+                }, 
+                {
+                    "pk": 783, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": "0068-12-31", 
+                        "surname": "", 
+                        "name": "Peter (Saint)", 
+                        "gender": null, 
+                        "museumobject_count": 178, 
+                        "death_year": 68, 
+                        "source": "content", 
+                        "cis_id": "N400", 
+                        "museumobject_image_count": 128, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "peter-saint", 
+                        "birth_year": -4
+                    }
+                }, 
+                {
+                    "pk": 4485, 
+                    "model": "collection.name", 
+                    "fields": {
+                        "death_date": null, 
+                        "surname": "", 
+                        "name": "St John", 
+                        "gender": null, 
+                        "museumobject_count": 70, 
+                        "death_year": null, 
+                        "source": "content", 
+                        "cis_id": "N828", 
+                        "museumobject_image_count": 40, 
+                        "forename": "", 
+                        "birth_date": null, 
+                        "nationality": "", 
+                        "type": "person", 
+                        "slug": "st-john", 
+                        "birth_year": null
+                    }
+                }
+            ], 
+            "placecontext_set": [
+                {
+                    "pk": 103113, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 66
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 105607, 
+                        "role": "painted", 
+                        "place": 66, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "11601864", 
+            "object": "Icon", 
+            "categories": [
+                {
+                    "pk": 27, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Christianity", 
+                        "museumobject_count": 7729, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 4997, 
+                        "type": "", 
+                        "slug": "christianity"
+                    }
+                }, 
+                {
+                    "pk": 44, 
+                    "model": "collection.category", 
+                    "fields": {
+                        "name": "Paintings", 
+                        "museumobject_count": 18500, 
+                        "source": "cis_category", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 11882, 
+                        "type": "", 
+                        "slug": "paintings"
+                    }
+                }
+            ], 
+            "last_checked": "2014-04-01 01:54:08", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "This icon is included in a hard-bound, typed manuscript [copy from the \"Department of Paintings\", now located in Paintings section library, Word and Image Department]: <u>List of Icons in the Victoria & Albert Museum with a List of Books and Articles on Icons Classified According to Languages (see List of Contents). 1931.</u> This icon is noted on Page 9, entry as follows: Regd. No: 1160-1864 School/Period: Russian 19th cent. Subject: Panel painted with figures of SS. Sergius and Nechon kneeling before the Virgin, St. Peter and St. Paul. Size of icon.: Distemper Remarks: [Nothing noted here]\"", 
+            "vanda_exhibition_history": "", 
+            "slug": "icon-of-the-vision-of-icon-unknown", 
+            "sys_updated": "2013-08-25 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 66, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 153
+                    }, 
+                    "fields": {
+                        "name": "Russia", 
+                        "parent": 153, 
+                        "country": "", 
+                        "museumobject_count": 616, 
+                        "longitude": "108.83177900", 
+                        "source": "production", 
+                        "cis_id": "x29110", 
+                        "museumobject_image_count": 231, 
+                        "latitude": "59.46147900", 
+                        "type": "country", 
+                        "slug": "russia-x29110"
+                    }
+                }
+            ], 
+            "artist": "unknown", 
+            "namecontext_set": [
+                {
+                    "pk": 126250, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 3
+                    }, 
+                    "fields": {
+                        "name": 3, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 105607, 
+                        "role": "production", 
+                        "order": 1
+                    }
+                }, 
+                {
+                    "pk": 126251, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 100
+                    }, 
+                    "fields": {
+                        "name": 100, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 105607, 
+                        "role": "subject", 
+                        "order": 601
+                    }
+                }, 
+                {
+                    "pk": 126252, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 783
+                    }, 
+                    "fields": {
+                        "name": 783, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 105607, 
+                        "role": "subject", 
+                        "order": 602
+                    }
+                }, 
+                {
+                    "pk": 126253, 
+                    "model": "collection.namecontext", 
+                    "extras": {
+                        "name_id": 4485
+                    }, 
+                    "fields": {
+                        "name": 4485, 
+                        "part_name": "", 
+                        "uncertainty": "", 
+                        "museumobject": 105607, 
+                        "role": "subject", 
+                        "order": 603
+                    }
+                }
+            ], 
+            "historical_significance": "", 
+            "year_end": 1850, 
+            "object_number": "O135083", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "Purchased, 1864\n\nThis icon seems to have been acquired by the museum in 1864, however, the price paid for the panel and the identity of a donor is not indicated in the surviving documentation. The panel appears to date from the early nineteenth century based on both its style and iconography, and is representative of the extremely high standards of religious painting in nineteenth-century Russia.\n\nHistorical significance: The icon depicts the vision of the Virgin Mary, the Mother of God, with Saints Peter and John, revealed to the Russian saint, Sergei of Rodonezh (1314-92), towards the end of his life standing before the monastery of the Holy Trinity in Radonezh. Sergei kneels before the Theotokos (or God bearing one, a Greek name for the Virgin) and is about to make the sign of the cross with his right hand, while holding out his left hand in supplication. He has a gold nimbus (halo), on which his name is inscribed and wears the plain brown robes of a monk. St Nikon of Radonezh, the successor of Sergei as the Abbott of the monastery of the Holy Trinity in Radonezh, is depicted standing behind Sergei with his hands veiled, a visual mark of the sanctity of the miraculous vision. Nikon also has a gold nimbus on which his name is inscribed. \n\nThe Virgin is depicted wearing the traditional gold and maroon <i>maphorion</i> or veil, and has a gold nimbus upon which is inscribed the abbreviation for 'Maria Theotokos.' Saints Peter and John stand behind the Virgin both with nimbi inscribed with their names, and Peter holds a scroll. Despite the inscriptions, John was once mistaken for St Paul when the icon was on display in the Bethnal Green Museum. Both saints wear a <i>himation</i> over a tunic, an ancient Greek robe traditionally depicted as a form of a cloak on biblical figures. \n\nAbove the monastery, floating on a stylised cloud is the Holy Trinity, the patron of the monastery, portrayed as three angels seated at a table.\n\nThe first hagiography of St. Sergei was written by Epifany the Wise, one of his pupils towards the end of the end of the second decade of the fifteenth century, after Sergei had been canonized in 1422. The subject of this icon is found in the <i>Synaxarion</i>  (a compilation of Orthodox, hagiographic literature) on 25 September.", 
+            "place": "Russia", 
+            "production_note": "", 
+            "historical_context_note": "", 
+            "collection_code": "PDP"
+        }
+    }
+]
