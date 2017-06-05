@@ -1,0 +1,202 @@
+[
+    {
+        "pk": 12499, 
+        "model": "collection.museumobject", 
+        "fields": {
+            "original_price": "", 
+            "attributions_note": "", 
+            "related_museum_numbers": "", 
+            "museum_number": "C.327E-1937", 
+            "date_end": "1000-12-31", 
+            "labels": [
+                {
+                    "pk": 4519, 
+                    "model": "collection.label", 
+                    "fields": {
+                        "date": "", 
+                        "museumobject": 12499, 
+                        "label_text": "One of fourteen glass fragments."
+                    }
+                }
+            ], 
+            "descriptive_line": "Fragment, Islamic, possibly Egypt, 800-999", 
+            "shape": "", 
+            "longitude": "30.24646900", 
+            "year_start": 800, 
+            "exhibitions": [], 
+            "subjects": [], 
+            "date_text": "9th century - 10th century (made)", 
+            "primary_image_id": "", 
+            "rights": 3, 
+            "physical_description": "Fragment of glass with decoration pressed into both sides by means of a tong-like instrument bearing the same pattern in relief on each of the jaws.", 
+            "dimensions": "Height: 4.4 cm", 
+            "title": "", 
+            "date_start": "0800-01-01", 
+            "materials_techniques": "", 
+            "last_processed": "2014-03-31 19:35:36", 
+            "label": "One of fourteen glass fragments.", 
+            "event_text": "", 
+            "production_type": "", 
+            "collections": [
+                {
+                    "pk": 3, 
+                    "model": "collection.collection", 
+                    "fields": {
+                        "code": "CER", 
+                        "name": "Ceramics Collection ", 
+                        "museumobject_count": 56252, 
+                        "source": "", 
+                        "cis_id": null, 
+                        "museumobject_image_count": 31530, 
+                        "type": "", 
+                        "slug": "cer"
+                    }
+                }
+            ], 
+            "location": "Glass, room 131, case 85, shelf 3", 
+            "marks": "", 
+            "latitude": "26.69636000", 
+            "techniques": [
+                {
+                    "pk": 205, 
+                    "model": "collection.technique", 
+                    "fields": {
+                        "name": "impressed", 
+                        "museumobject_count": 168, 
+                        "source": "cis_techniques", 
+                        "cis_id": "x36460", 
+                        "museumobject_image_count": 123, 
+                        "type": "", 
+                        "slug": "impressed"
+                    }
+                }
+            ], 
+            "materials": [], 
+            "edition_number": "", 
+            "styles": [
+                {
+                    "pk": 68, 
+                    "model": "collection.style", 
+                    "fields": {
+                        "name": "ISLAM", 
+                        "museumobject_count": 575, 
+                        "source": "cis_style_period", 
+                        "cis_id": "x29300", 
+                        "museumobject_image_count": 57, 
+                        "type": "", 
+                        "slug": "islam"
+                    }
+                }
+            ], 
+            "inventory_set": [
+                {
+                    "pk": 18240, 
+                    "model": "collection.inventory", 
+                    "extras": {
+                        "gallery_id": 337
+                    }, 
+                    "fields": {
+                        "box": "", 
+                        "case": "85", 
+                        "inventory_number": 360015, 
+                        "room": "131", 
+                        "part_name": "", 
+                        "museum_number": "C.327E-1937", 
+                        "museumobject": 12499, 
+                        "shelf": "3", 
+                        "site": "VA", 
+                        "on_display": true, 
+                        "status": "", 
+                        "location": "Glass, room 131", 
+                        "museum_number_token": "c327e1937", 
+                        "gallery": 337
+                    }
+                }
+            ], 
+            "updated": null, 
+            "galleries": [
+                {
+                    "pk": 337, 
+                    "model": "collection.gallery", 
+                    "fields": {
+                        "room_code": "131", 
+                        "site_name": "", 
+                        "name": "Glass, room 131", 
+                        "site_code": "VA", 
+                        "museumobject_count": 6337, 
+                        "source": "", 
+                        "on_display": true, 
+                        "cis_id": "THES49882", 
+                        "museumobject_image_count": 1051, 
+                        "type": "", 
+                        "slug": "131-va"
+                    }
+                }
+            ], 
+            "names": [], 
+            "placecontext_set": [
+                {
+                    "pk": 13490, 
+                    "model": "collection.placecontext", 
+                    "extras": {
+                        "place_id": 49
+                    }, 
+                    "fields": {
+                        "part_name": "", 
+                        "uncertainty": "possibly", 
+                        "museumobject": 12499, 
+                        "role": "", 
+                        "place": 49, 
+                        "order": 1
+                    }
+                }
+            ], 
+            "original_currency": "", 
+            "museum_number_token": "c327e1937", 
+            "object": "Fragment", 
+            "categories": [], 
+            "last_checked": "2014-03-31 19:35:36", 
+            "public_access_description": "", 
+            "exhibition_history": "", 
+            "bibliography": "", 
+            "vanda_exhibition_history": "", 
+            "slug": "fragment", 
+            "sys_updated": "2014-01-06 00:00:00", 
+            "image_set": [], 
+            "places": [
+                {
+                    "pk": 49, 
+                    "model": "collection.place", 
+                    "extras": {
+                        "parent_id": 612
+                    }, 
+                    "fields": {
+                        "name": "Egypt", 
+                        "parent": 612, 
+                        "country": "", 
+                        "museumobject_count": 4520, 
+                        "longitude": "30.24646900", 
+                        "source": "production", 
+                        "cis_id": "x29512", 
+                        "museumobject_image_count": 1608, 
+                        "latitude": "26.69636000", 
+                        "type": "country", 
+                        "slug": "egypt-x29512"
+                    }
+                }
+            ], 
+            "artist": "", 
+            "namecontext_set": [], 
+            "historical_significance": "", 
+            "year_end": 1000, 
+            "object_number": "O9975", 
+            "events": [], 
+            "credit": "", 
+            "history_note": "", 
+            "place": "Egypt", 
+            "production_note": "Islamic", 
+            "historical_context_note": "", 
+            "collection_code": "CER"
+        }
+    }
+]
